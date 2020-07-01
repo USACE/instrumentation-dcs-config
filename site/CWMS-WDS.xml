@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.9764</Latitude>
+  <Longitude>-71.68</Longitude>
+  <Elevation>-71.679816</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>NH</State>
+  <Description>Pemigewasset River at Woodstock</Description>
+  <SiteName NameType="CWMS">WDS</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

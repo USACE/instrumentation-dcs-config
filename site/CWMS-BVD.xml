@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.1158</Latitude>
+  <Longitude>-71.9083</Longitude>
+  <Elevation>146.7612</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MA</State>
+  <Description>Buffumville Dam, Little River</Description>
+  <SiteName NameType="CWMS">BVD</SiteName>
+  <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

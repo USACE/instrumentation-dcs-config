@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.8588889</Latitude>
+  <Longitude>-71.4877778</Longitude>
+  <Elevation>28.998672000000003</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <State>RI</State>
+  <Description>Woonasquatucket River at Centerdale, RI</Description>
+  <SiteName NameType="CWMS">CEN</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

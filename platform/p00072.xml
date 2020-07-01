@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="72">
+  <Description>Winnipesaukee R at Tilton, NH</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  <Site>
+    <Latitude>43.4417</Latitude>
+    <Longitude>-71.5883</Longitude>
+    <Elevation>-71.58837600000001</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NH</State>
+    <NearestCity>Laconia</NearestCity>
+    <Description>Winnipesaukee River at Tilton</Description>
+    <SiteName NameType="CWMS">TLT</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Winnipesaukee River @ Tilton, Nh
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="CE469A70">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>129</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE469A70">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>161</ChannelNum>
+    <AssignedTime>00:40:50</AssignedTime>
+    <TransmitWindow>00:00:05</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="6">
+    <PlatformSensorProperty PropertyName="max">120</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="min">-40</PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

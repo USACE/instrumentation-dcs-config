@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="41">
+  <Description>Mansfield Holow Dam, Natchaug River, CT</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  <Site>
+    <Latitude>41.764999</Latitude>
+    <Longitude>-72.1817</Longitude>
+    <Elevation>59.439048</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>CT</State>
+    <Description>Mansfield Hollow Dam, Natchaug River</Description>
+    <SiteName NameType="CWMS">MHD</SiteName>
+    <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="CE3277C6">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>129</ChannelNum>
+    <TransmitInterval>00:15</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE3277C6">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>161</ChannelNum>
+    <AssignedTime>00:40:10</AssignedTime>
+    <TransmitWindow>00:00:05</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="4">
+    <PlatformSensorProperty PropertyName="max">120</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="min">-40</PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.4225</Latitude>
+  <Longitude>-71.6533</Longitude>
+  <Elevation>-71.65238400000001</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NH</State>
+  <NearestCity>Laconia</NearestCity>
+  <Description>Merrimack River at Franklin Junction</Description>
+  <SiteName NameType="CWMS">FRN</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.078994178322</Latitude>
+  <Longitude>-73.072810321426</Longitude>
+  <Elevation>231.10240800000003</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>MA</State>
+  <Description>W.B. Farmington River at New Boston</Description>
+  <SiteName NameType="CWMS">NBS</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

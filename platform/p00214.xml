@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="214">
+  <Description>Still River at Robertsville, CT</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>41.9679222</Latitude>
+    <Longitude>-73.0334444</Longitude>
+    <Elevation>155.521152</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>CT</State>
+    <Description>Still River at Robertsville, CT</Description>
+    <SiteName NameType="CWMS">ROB</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Still River @ Robertsville, Ct
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="DE4900D6">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>133</ChannelNum>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DE4900D6">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>203</ChannelNum>
+    <AssignedTime>00:37:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

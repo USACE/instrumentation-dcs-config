@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="189">
+  <Description>Blackstone R at Northbridge, MA - NWS Forecast Data</Description>
+  <PlatformDesignator>SHEF</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>42.1539</Latitude>
+    <Longitude>-71.6523056</Longitude>
+    <Elevation>77.724</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MA</State>
+    <Description>Blackstone River at Northbridge</Description>
+    <SiteName NameType="CWMS">NTB</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Blackstone River @Northbridge,MA
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="shef" MediumId="NBRM3">
+    <DecodesScript ScriptName="shef"/>
+    <Preamble>S</Preamble>
+    <TimeZone>US/Eastern</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

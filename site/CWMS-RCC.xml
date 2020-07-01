@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.463478</Latitude>
+  <Longitude>-71.301986</Longitude>
+  <Elevation>32.92</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MA</State>
+  <Description>Reservoir Control Center Test Site at CENAE</Description>
+  <SiteName NameType="CWMS">RCC</SiteName>
+</Site>

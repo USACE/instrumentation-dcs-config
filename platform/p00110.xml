@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="110">
+  <Description>Hubbard Glacier, Alaska</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>59.994444444444</Latitude>
+    <Longitude>-139.486388888889</Longitude>
+    <Elevation>0.0</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/Anchorage</Timezone>
+    <State>AK</State>
+    <Description>Hubbard Glacier @ Gilbert Point</Description>
+    <SiteName NameType="CWMS">HUB</SiteName>
+    <SiteProperty PropertyName="location_type">Climate Station</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="CE891040">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>128</ChannelNum>
+    <TransmitInterval>06:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>US/Alaska</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE891040">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>162</ChannelNum>
+    <AssignedTime>00:58:51</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>US/Alaska</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

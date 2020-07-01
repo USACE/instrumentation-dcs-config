@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="219">
+  <Description>Connecticut River at Essex, CT</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>41.351388888889</Latitude>
+    <Longitude>-72.384444444445</Longitude>
+    <Elevation>0.0</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <Description>Connecticut River at Essex, CT</Description>
+    <SiteName NameType="CWMS">ESS</SiteName>
+    <SiteProperty PropertyName="vertical_datum">NGVD</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">ESS</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DF01060E">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>35</ChannelNum>
+    <AssignedTime>00:23:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>US/Eastern</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="150">
+  <Description>Sandwich, CCC, MA</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>41.7719444</Latitude>
+    <Longitude>-70.5052778</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>MA</State>
+    <Description>Sandwich, Cape Cod Canal</Description>
+    <SiteName NameType="CWMS">SND</SiteName>
+    <SiteProperty PropertyName="location_type">Tide Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Sandwich</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="CE4D0CBA">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>129</ChannelNum>
+    <TransmitInterval>00:15</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE4D0CBA">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>161</ChannelNum>
+    <AssignedTime>00:36:25</AssignedTime>
+    <TransmitWindow>00:00:05</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="6">
+    <PlatformSensorProperty PropertyName="max">20</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="min">-5</PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

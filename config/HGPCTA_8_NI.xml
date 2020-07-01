@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="HGPCTA(8)NI">
+  <Description>
+    River Stage (HG) , Precip (PC), Air Temp (TA) NonInterleaved and redundant
+    data.
+  </Description>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>STAGE</SensorName>
+    <DataType Standard="CWMS" Code="Stage"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="2">
+    <SensorName>Precip</SensorName>
+    <DataType Standard="CWMS" Code="Precip"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <AbsoluteMin>0.0</AbsoluteMin>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="5">
+    <SensorName>BAT</SensorName>
+    <DataType Standard="CWMS" Code="Volt"/>
+    <RecordingMode>V</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <AbsoluteMin>6.0</AbsoluteMin>
+    <AbsoluteMax>25.0</AbsoluteMax>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="6">
+    <SensorName>AirTemp</SensorName>
+    <DataType Standard="CWMS" Code="Temp-Air"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <DecodesScript ScriptName="RD">
+    <ScriptType>Decodes</ScriptType>
+    <FormatStatement Label="rd">
+      3x,F(s,i,3,1),F(s,i,3,2),F(s,i,3,6),2x,F(s,i,1,5)
+    </FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="5">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volt">
+        <Algorithm>linear</Algorithm>
+        <A>0.234</A>
+        <B>10.6</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="6">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="F">
+        <Algorithm>linear</Algorithm>
+        <A>0.1</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+  <DecodesScript ScriptName="ST">
+    <ScriptType>Decodes</ScriptType>
+    <DataOrder>D</DataOrder>
+    <FormatStatement Label="st">
+      4X,8F(S,I,3,1),8F(S,I,3,2),8F(S,I,3,6)
+    </FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="5">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="6">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="F">
+        <Algorithm>linear</Algorithm>
+        <A>0.1</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

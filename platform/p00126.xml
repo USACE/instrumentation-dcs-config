@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="126">
+  <Description>
+    Chicopee R at Indian Orchard, MA - NWS Forecast Data
+  </Description>
+  <PlatformDesignator>SHEF</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  <Site>
+    <Latitude>42.1603</Latitude>
+    <Longitude>-72.5147</Longitude>
+    <Elevation>-72.514968</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>MA</State>
+    <Description>Chicopee River at Indian Orchard</Description>
+    <SiteName NameType="CWMS">IND</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Chicopee R @ Indian Orchard, MA
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="shef" MediumId="INDM3">
+    <DecodesScript ScriptName="shef"/>
+    <Preamble>S</Preamble>
+    <TimeZone>US/Eastern</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

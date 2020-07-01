@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>47.258055555556</Latitude>
+  <Longitude>-68.595833333333</Longitude>
+  <Elevation>148.989288</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>ME</State>
+  <Description>St John River @ Ft Kent, ME</Description>
+  <SiteName NameType="CWMS">FKT</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

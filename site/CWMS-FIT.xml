@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.5761111</Latitude>
+  <Longitude>-71.7886111</Longitude>
+  <Elevation>394.13</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <Country>UNITED STATES</Country>
+  <Description>North Nashua River at Fitchburg, MA</Description>
+  <SiteName NameType="CWMS">FIT</SiteName>
+</Site>

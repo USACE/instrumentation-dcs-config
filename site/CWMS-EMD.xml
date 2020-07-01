@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.8939</Latitude>
+  <Longitude>-71.9878</Longitude>
+  <Elevation>275.5392</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>NH</State>
+  <Description>Edward MacDowell Dam, Nubanusit Brook</Description>
+  <SiteName NameType="CWMS">EMD</SiteName>
+  <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

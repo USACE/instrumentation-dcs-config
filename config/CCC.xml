@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="CCC">
+  <Description>WIND SPEED (US) AND DIRECTION (UD)</Description>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>WIND SPEED</SensorName>
+    <DataType Standard="CWMS" Code="Speed-Wind"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:05</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="2">
+    <SensorName>WIND DIRECTION</SensorName>
+    <DataType Standard="CWMS" Code="Dir-Wind"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:05</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <DecodesScript ScriptName="ST">
+    <ScriptType>Decodes</ScriptType>
+    <DataOrder>A</DataOrder>
+    <FormatStatement Label="st">2x,24(x,F(S,A,5,1) F(S,A,5,2))</FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="mph">
+        <Algorithm>none</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="deg">
+        <Algorithm>none</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

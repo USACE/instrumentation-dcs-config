@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="95">
+  <Description>New Bedford Hurricane Barrier</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  <Site>
+    <Latitude>41.624166666667</Latitude>
+    <Longitude>-70.906111111111</Longitude>
+    <Elevation>0.0</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>MA</State>
+    <Description>New Bedford Hurricane Barrier</Description>
+    <SiteName NameType="CWMS">NBB</SiteName>
+    <SiteProperty PropertyName="location_type">Tide Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      New Bedford Hurricane Barrier
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE393764">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>161</ChannelNum>
+    <AssignedTime>00:01:05</AssignedTime>
+    <TransmitWindow>00:00:05</TransmitWindow>
+    <TransmitInterval>00:30</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="10">
+    <PlatformSensorProperty PropertyName="max">120</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="min">-40</PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

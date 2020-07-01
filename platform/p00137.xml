@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="137">
+  <Description>Pemigewasset R at Plymouth, NH - NWS Forecast Data</Description>
+  <PlatformDesignator>SHEF</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  <Site>
+    <Latitude>43.7592</Latitude>
+    <Longitude>-71.6864</Longitude>
+    <Elevation>-71.685912</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>NH</State>
+    <Description>Pemmigewasset River at Plymouth</Description>
+    <SiteName NameType="CWMS">PLY</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Pemmigewasset River @ Plymouth
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="shef" MediumId="PLMN3">
+    <DecodesScript ScriptName="shef"/>
+    <Preamble>S</Preamble>
+    <TimeZone>US/Eastern</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

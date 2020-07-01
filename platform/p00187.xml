@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="187">
+  <Description>Connecticut R at Holyoke, MA - NWS Forecast Data</Description>
+  <PlatformDesignator>SHEF</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>42.1905556</Latitude>
+    <Longitude>-72.6088889</Longitude>
+    <Elevation>-72.60945600000001</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>MA</State>
+    <Description>Connecticut River at Holyoke</Description>
+    <SiteName NameType="CWMS">HOL</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      CT River @ Holyoke, MA
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="shef" MediumId="HLYM3">
+    <DecodesScript ScriptName="shef"/>
+    <Preamble>S</Preamble>
+    <TimeZone>US/Eastern</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

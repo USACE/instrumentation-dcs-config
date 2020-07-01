@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="215">
+  <Description>Priest Brook at Winchenden, MA</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>42.6841667</Latitude>
+    <Longitude>-72.0838889</Longitude>
+    <Elevation>251.965968</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>MA</State>
+    <Description>Millers River at Winchendon</Description>
+    <SiteName NameType="CWMS">WCH</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Millers River @ Winchendon, Ma
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="1683A206">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>115</ChannelNum>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="1683A206">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>77</ChannelNum>
+    <AssignedTime>00:13:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

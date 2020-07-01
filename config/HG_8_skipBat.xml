@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="HG(8)skipBat">
+  <Description>
+    River Stage (HG), Skip Battery, 300 BAUD REDUNDANT DATA
+  </Description>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>STAGE</SensorName>
+    <DataType Standard="CWMS" Code="Stage"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <DecodesScript ScriptName="ST">
+    <ScriptType>Decodes</ScriptType>
+    <DataOrder>D</DataOrder>
+    <FormatStatement Label="st">4x,8(F(s,i,3,1),3x)</FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

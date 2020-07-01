@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="EVD">
+  <Description>
+    TAILWATER STAGE (HG), PRECIP (PC), POOL STAGE (HK), BAT (VB) with 20
+    PZ&apos;s and 7 PZ-batteries, RF Signals
+  </Description>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>TAILWATER STAGE</SensorName>
+    <DataType Standard="CWMS" Code="Stage-TAILWATER"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="2">
+    <SensorName>PRECIP</SensorName>
+    <DataType Standard="CWMS" Code="Precip"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="4">
+    <SensorName>POOL STAGE</SensorName>
+    <DataType Standard="CWMS" Code="Elev-Pool"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="5">
+    <SensorName>BAT</SensorName>
+    <DataType Standard="CWMS" Code="Volt"/>
+    <RecordingMode>V</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <AbsoluteMin>6.0</AbsoluteMin>
+    <AbsoluteMax>25.0</AbsoluteMax>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="6">
+    <SensorName>PZ-1</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ1"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="7">
+    <SensorName>PZ-2</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ2"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="8">
+    <SensorName>PZ-3</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ3"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="9">
+    <SensorName>PZ-4</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ4"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="10">
+    <SensorName>PZ-5</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ5"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="11">
+    <SensorName>PZ-6</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ6"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="12">
+    <SensorName>PZ-7</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ7"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="13">
+    <SensorName>PZ-8</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ8"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="14">
+    <SensorName>PZ-9</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ9"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="15">
+    <SensorName>PZ-10</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ10"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="16">
+    <SensorName>PZ-11</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ11"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="17">
+    <SensorName>PZ-12</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ12"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="18">
+    <SensorName>PZ-13A</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ13A"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="19">
+    <SensorName>PZ-13B</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ13B"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="20">
+    <SensorName>PZ-14A</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ14A"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="21">
+    <SensorName>PZ-14B</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ14B"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="22">
+    <SensorName>PZ-15A</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ15A"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="23">
+    <SensorName>PZ-15B</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ15B"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="24">
+    <SensorName>PZ-16A</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ16A"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="25">
+    <SensorName>PZ-16B</SensorName>
+    <DataType Standard="CWMS" Code="Elev-PZ16B"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="26">
+    <SensorName>EVD1 BATT</SensorName>
+    <DataType Standard="CWMS" Code="Volt-EVD1BATT"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="27">
+    <SensorName>EVD3 BATT</SensorName>
+    <DataType Standard="CWMS" Code="Volt-EVD3BATT"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="28">
+    <SensorName>EVD5 BATT</SensorName>
+    <DataType Standard="CWMS" Code="Volt-EVD5BATT"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="29">
+    <SensorName>EVD7 BATT</SensorName>
+    <DataType Standard="CWMS" Code="Volt-EVD7BATT"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="30">
+    <SensorName>EVD8 BATT</SensorName>
+    <DataType Standard="CWMS" Code="Volt-EVD8BATT"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="31">
+    <SensorName>EVD12 BATT</SensorName>
+    <DataType Standard="CWMS" Code="Volt-EVD12BATT"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="32">
+    <SensorName>EVD15 BATT</SensorName>
+    <DataType Standard="CWMS" Code="Volt-EVD15BATT"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="33">
+    <SensorName>EVD1-RFSig</SensorName>
+    <DataType Standard="CWMS" Code="Count-EVD1RFSig"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="34">
+    <SensorName>EVD3-RFSig</SensorName>
+    <DataType Standard="CWMS" Code="Count-EVD3RFSig"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="35">
+    <SensorName>EVD5-RFSig</SensorName>
+    <DataType Standard="CWMS" Code="Count-EVDRF5Sig"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="36">
+    <SensorName>EVD7-RFSig</SensorName>
+    <DataType Standard="CWMS" Code="Count-EVD7RFSig"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="37">
+    <SensorName>EVD8-RFSig</SensorName>
+    <DataType Standard="CWMS" Code="Count-EVD8RFSig"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="38">
+    <SensorName>EVD12-RFSig</SensorName>
+    <DataType Standard="CWMS" Code="Count-EVD12RFSig"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="39">
+    <SensorName>EVD15-RFSig</SensorName>
+    <DataType Standard="CWMS" Code="Count-EVD15RFSig"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="40">
+    <SensorName>Barometer</SensorName>
+    <DataType Standard="CWMS" Code="Pres"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>12:00</RecordingInterval>
+    <TimeOfFirstSample>11:45</TimeOfFirstSample>
+  </ConfigSensor>
+  <DecodesScript ScriptName="RD">
+    <ScriptType>Decodes</ScriptType>
+    <FormatStatement Label="rdpz">
+      1x,c(&apos;P&apos;,
+      rdpz2),2x,F(s,i,3,40),F(s,i,3,6),F(s,i,3,7),F(s,i,3,8),F(s,i,3,9),F(s,i,3,10),F(s,i,3,11),F(s,i,3,12),F(s,i,3,13),F(s,i,3,14),F(s,i,3,15),F(s,i,3,16),F(s,i,3,17),F(s,i,3,18),F(s,i,3,19),F(s,i,3,20),F(s,i,3,21),F(s,i,3,22),F(s,i,3,23),F(s,i,3,24),F(s,i,3,25),F(s,i,3,26),F(s,i,3,27),F(s,i,3,28)
+    </FormatStatement>
+    <FormatStatement Label="rdpz2">
+      c(&apos;Z&apos;,
+      rdrcc),2x,F(s,i,3,29),F(s,i,3,30),F(s,i,3,31),F(s,i,3,32),F(s,i,3,33),F(s,i,3,34),F(s,i,3,35),F(s,i,3,36),F(s,i,3,37),F(s,i,3,38),F(s,i,3,39)
+    </FormatStatement>
+    <FormatStatement Label="rdrcc">
+      c(&apos;G&apos;, none),2x,F(s,i,3,4),F(s,i,3,2),F(s,i,3,1),2x,F(s,i,1,5)
+    </FormatStatement>
+    <FormatStatement Label="none"></FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="4">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="5">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volt">
+        <Algorithm>linear</Algorithm>
+        <A>0.234</A>
+        <B>10.6</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="6">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="7">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="8">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="9">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="10">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="11">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="12">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="13">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="14">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="15">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="16">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="17">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="18">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="19">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="20">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="21">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="22">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="23">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="24">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="25">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="26">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volt">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="27">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volt">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="28">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volt">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="29">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volt">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="30">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volt">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="31">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volt">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="32">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volt">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="33">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="count">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="34">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="count">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="35">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="count">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="36">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="count">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="37">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="count">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="38">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="count">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="39">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="count">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="40">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="mb">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+  <DecodesScript ScriptName="ST">
+    <ScriptType>Decodes</ScriptType>
+    <DataOrder>D</DataOrder>
+    <FormatStatement Label="st">
+      4x,4(F(s,i,3,4),F(s,i,3,2),F(s,i,3,1))
+    </FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="4">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="5">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volts">
+        <Algorithm>linear</Algorithm>
+        <A>0.234</A>
+        <B>10.6</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="6">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="7">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="8">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="9">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="10">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="11">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="12">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="13">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="14">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="15">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="16">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="17">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="18">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="19">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="20">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="21">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="22">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="23">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="24">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="25">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="26">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="27">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="28">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="29">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="30">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="31">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="32">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="33">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="34">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="35">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="36">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="37">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="38">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="39">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="40">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

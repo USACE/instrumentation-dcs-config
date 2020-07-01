@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.6825</Latitude>
+  <Longitude>-72.115555555556</Longitude>
+  <Elevation>-72.11568</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>MA</State>
+  <Description>Priest Brook at Winchendon</Description>
+  <SiteName NameType="CWMS">WIN</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

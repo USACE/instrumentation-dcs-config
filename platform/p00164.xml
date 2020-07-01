@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="164">
+  <Description>
+    CRREL Laser Profiler1 currently being used in Alaska&#92;n(formerly used
+    IMIE# 300034012865090 which is now at Gilbert Point for Hubbard Glacier)
+  </Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>Unknown or Not Applicable</Timezone>
+    <State>00</State>
+    <Description>CRREL Laser Profiler1 (currently in Alaska)</Description>
+    <SiteName NameType="CWMS">LP1</SiteName>
+    <SiteProperty PropertyName="location_type">Climate Station</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">LP1</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="iridium" MediumId="30003401286XXXX">
+    <DecodesScript ScriptName="Iridium"/>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

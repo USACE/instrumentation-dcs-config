@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="11">
+  <Description>CRREL Climate Station in Haines, Alaska</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:29</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>AK</State>
+    <NearestCity>Haines</NearestCity>
+    <Description>Haines, Alaska - climate monitroing station</Description>
+    <SiteName NameType="CWMS">HNS</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">Haines, Alaska</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="iridium" MediumId="300234061764220">
+    <DecodesScript ScriptName="iridium"/>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

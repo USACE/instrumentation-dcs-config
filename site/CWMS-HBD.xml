@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.5143706</Latitude>
+  <Longitude>-73.0663842</Longitude>
+  <Elevation>88.998552</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>CT</State>
+  <Description>Hop Brook Dam, Hop Brook</Description>
+  <SiteName NameType="CWMS">HBD</SiteName>
+  <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

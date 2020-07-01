@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>44.365555555556</Latitude>
+  <Longitude>-72.039722222222</Longitude>
+  <Elevation>152.4</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <Description>Passumpsic River at Passumpsic, VT</Description>
+  <SiteName NameType="CWMS">PAS</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NGVD</SiteProperty>
+</Site>

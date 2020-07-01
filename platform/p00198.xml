@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="198">
+  <Description>Piscataquog R at Goffstown, NH - NWS Forecast Data</Description>
+  <PlatformDesignator>SHEF</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>43.0167</Latitude>
+    <Longitude>-71.5511</Longitude>
+    <Elevation>-71.5518</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NH</State>
+    <NearestCity>Manchester</NearestCity>
+    <Description>Piscataquog River at Goffstown</Description>
+    <SiteName NameType="CWMS">GFT</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Piscataquog River @ Goffstown NH
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="shef" MediumId="GFFN3">
+    <DecodesScript ScriptName="shef"/>
+    <Preamble>S</Preamble>
+    <TimeZone>US/Eastern</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

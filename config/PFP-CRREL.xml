@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="PFP-CRREL">
+  <Description>
+    AIR TEMP (TA), REL-HUM (XR), BAR PRES (PA), SOIL TEMP (TS), VOLUME METRIC
+    WATER CONTENT (YV), WATER DEPTH (HG), PRECIP (PP), WIND SPEED (US), WIND DIR
+    (UD), BAT VOLTAGE (VB), PANEL TEMP (TP)
+  </Description>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>TEMP-Air</SensorName>
+    <DataType Standard="CWMS" Code="Temp-Air"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="2">
+    <SensorName>Rel-Hum</SensorName>
+    <DataType Standard="CWMS" Code="%-RELHUM"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="3">
+    <SensorName>Barometric Pressure</SensorName>
+    <DataType Standard="CWMS" Code="Pres"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="4">
+    <SensorName>TEMP-Soil</SensorName>
+    <DataType Standard="CWMS" Code="Temp-SOIL"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="5">
+    <SensorName>Vol Metric Water Content</SensorName>
+    <DataType Standard="CWMS" Code="%-VWC"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="6">
+    <SensorName>Water Depth</SensorName>
+    <DataType Standard="CWMS" Code="Depth"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="7">
+    <SensorName>PRECIP</SensorName>
+    <DataType Standard="CWMS" Code="Precip"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="8">
+    <SensorName>Wind Speed</SensorName>
+    <DataType Standard="CWMS" Code="Speed-Wind"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="9">
+    <SensorName>Wind Direction</SensorName>
+    <DataType Standard="CWMS" Code="Dir-Wind"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="10">
+    <SensorName>Battery Voltage</SensorName>
+    <DataType Standard="CWMS" Code="Volt"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="11">
+    <SensorName>TEMP-Panel</SensorName>
+    <DataType Standard="CWMS" Code="Temp-PAN"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <DecodesScript ScriptName="ST">
+    <ScriptType>Decodes</ScriptType>
+    <DataOrder>A</DataOrder>
+    <FormatStatement Label="st">
+      1x,4(F(s,c,3,1),F(s,c,3,2),F(s,c,3,3),F(s,c,3,4),F(s,c,3,5),F(s,c,3,6),F(s,c,3,7),F(s,c,3,8),F(s,c,3,9),F(s,c,3,10),F(s,c,3,11))
+    </FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="C">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="%">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="3">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="mb">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="4">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="C">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="5">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="%">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="6">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="m">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="7">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="mm">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="8">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="mps">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="9">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="deg">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="10">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volt">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="11">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="C">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

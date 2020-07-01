@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.3375312</Latitude>
+  <Longitude>-72.5075037</Longitude>
+  <Elevation>137.7696</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>VT</State>
+  <Description>North Springfield Dam, Black River</Description>
+  <SiteName NameType="CWMS">NSD</SiteName>
+  <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

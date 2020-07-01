@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="NBB">
+  <Description>
+    OCEAN STAGE (HG) HARBOR STAGE (HM) Bar Pres. (PA) WIND SPEED (US) WIND
+    DIRECTION (UD) AIR TEMP (TA) PRECIP (PC) BATTERY (VB)&#92;nMarch 27, 2018
+    added a -0.1 offset to Harbor Stage. From Aug-Oct 2019, something was
+    clogging the Harbor line and the Canal and us added offsets to compensate
+    until they finally purged the line to dislodge blockage and the temp offset
+    was removed (notes in GMU).
+  </Description>
+  <ConfigSensor SensorNumber="3">
+    <SensorName>WIND SPEED</SensorName>
+    <DataType Standard="CWMS" Code="Speed-Wind"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:30</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="4">
+    <SensorName>WIND DIRECTION</SensorName>
+    <DataType Standard="CWMS" Code="Dir-Wind"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:30</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="6">
+    <SensorName>BAT</SensorName>
+    <DataType Standard="CWMS" Code="Volt"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:30</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <AbsoluteMin>6.0</AbsoluteMin>
+    <AbsoluteMax>25.0</AbsoluteMax>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="7">
+    <SensorName>OCEAN STAGE</SensorName>
+    <DataType Standard="CWMS" Code="Stage-OCEAN"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:30</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="8">
+    <SensorName>HARBOR STAGE</SensorName>
+    <DataType Standard="CWMS" Code="Stage-HARBOR"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:30</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="9">
+    <SensorName>BAR PRESS</SensorName>
+    <DataType Standard="CWMS" Code="Pres"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:30</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="10">
+    <SensorName>TEMP</SensorName>
+    <DataType Standard="CWMS" Code="Temp-Air"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:30</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="11">
+    <SensorName>PRECIP</SensorName>
+    <DataType Standard="CWMS" Code="Precip"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:30</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <DecodesScript ScriptName="ST">
+    <ScriptType>Decodes</ScriptType>
+    <FormatStatement Label="ST">
+      4x,(F(s,i,3,7),F(s,i,3,8),F(s,i,3,9),F(s,i,3,3),F(s,i,3,4),F(s,i,3,10),F(s,i,3,11),F(s,i,1,6))
+    </FormatStatement>
+    <ScriptSensor SensorNumber="3">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="mph">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="4">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="deg">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="6">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volt">
+        <Algorithm>linear</Algorithm>
+        <A>0.234</A>
+        <B>10.6</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="7">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="8">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>-0.1</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="9">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in-Hg">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="10">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="F">
+        <Algorithm>linear</Algorithm>
+        <A>0.1</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="11">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

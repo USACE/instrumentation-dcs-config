@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>60.667083</Latitude>
+  <Longitude>-145.271389</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/Juneau</Timezone>
+  <State>AK</State>
+  <Description>Cordova, AK</Description>
+  <SiteName NameType="CWMS">COR</SiteName>
+  <SiteProperty PropertyName="location_type">Climate Station</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.6414</Latitude>
+  <Longitude>-72.225</Longitude>
+  <Elevation>190.5</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>MA</State>
+  <Description>Tully Dam, E.B. Tully River</Description>
+  <SiteName NameType="CWMS">TLD</SiteName>
+  <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

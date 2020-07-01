@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="89">
+  <Description>Thomaston TW</Description>
+  <PlatformDesignator>tailwater</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  <Site>
+    <Latitude>41.6947</Latitude>
+    <Longitude>-73.0625</Longitude>
+    <Elevation>115.820952</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>CT</State>
+    <Description>Thomaston Dam, Naugatuck River</Description>
+    <SiteName NameType="CWMS">TMD</SiteName>
+    <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="CE39B170">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>129</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE39B170">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>161</ChannelNum>
+    <AssignedTime>00:38:50</AssignedTime>
+    <TransmitWindow>00:00:05</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

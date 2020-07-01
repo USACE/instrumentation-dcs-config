@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="HG(8)skipSTBat">
+  <Description>
+    River Stage (HG), 300 BAUD REDUNDANT DATA (ST and RD) Skipping battery on ST
+    tx&apos;s
+  </Description>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>STAGE</SensorName>
+    <DataType Standard="CWMS" Code="Stage"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="5">
+    <SensorName>BAT</SensorName>
+    <DataType Standard="CWMS" Code="Volt"/>
+    <RecordingMode>V</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <AbsoluteMin>6.0</AbsoluteMin>
+    <AbsoluteMax>25.0</AbsoluteMax>
+  </ConfigSensor>
+  <DecodesScript ScriptName="RD">
+    <ScriptType>Decodes</ScriptType>
+    <FormatStatement Label="rd">3x,F(s,i,3,1),2x,F(s,i,1,5)</FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="5">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volt">
+        <Algorithm>linear</Algorithm>
+        <A>0.234</A>
+        <B>10.6</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+  <DecodesScript ScriptName="ST">
+    <ScriptType>Decodes</ScriptType>
+    <DataOrder>D</DataOrder>
+    <FormatStatement Label="st">4x,8(F(s,i,3,1))</FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="5">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volt">
+        <Algorithm>linear</Algorithm>
+        <A>0.234</A>
+        <B>10.6</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

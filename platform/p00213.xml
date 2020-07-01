@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="213">
+  <Description>CRREL Climate Station in Valdez, Alaska</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>61.177222222222</Latitude>
+    <Longitude>-146.171666666667</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/Juneau</Timezone>
+    <State>AK</State>
+    <Description>Valdez</Description>
+    <SiteName NameType="CWMS">VAL</SiteName>
+    <SiteProperty PropertyName="location_type">Climate Station</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Valdez Glacier</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="iridium" MediumId="300034012724030">
+    <DecodesScript ScriptName="iridium"/>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

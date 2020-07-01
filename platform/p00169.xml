@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="169">
+  <Description>Minnewawa Brook at Marlborough, NH</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>42.910077775355</Latitude>
+    <Longitude>-72.219166881198</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>NH</State>
+    <Description>Minnewawa Brook at Marlborough</Description>
+    <SiteName NameType="CWMS">MAL</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Minnewawa Brook at Marlborough
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="iridium" MediumId="300034012797940">
+    <DecodesScript ScriptName="data logger"/>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

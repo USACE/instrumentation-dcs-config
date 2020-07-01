@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="Metar-NAE">
+  <Description>
+    Generic METAR Format revised to write the data directy into CWMS
+  </Description>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>Temperature</SensorName>
+    <DataType Standard="CWMS" Code="Temp-Air"/>
+    <DataType Standard="SHEF-PE" Code="TA"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="2">
+    <SensorName>DewPoint</SensorName>
+    <DataType Standard="SHEF-PE" Code="TD"/>
+    <DataType Standard="CWMS" Code="Temp-DEW"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="3">
+    <SensorName>RelativeHumidity</SensorName>
+    <DataType Standard="SHEF-PE" Code="XR"/>
+    <DataType Standard="CWMS" Code="%-RELHUM"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="4">
+    <SensorName>WindDirection</SensorName>
+    <DataType Standard="SHEF-PE" Code="UD"/>
+    <DataType Standard="CWMS" Code="Dir-Wind"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="5">
+    <SensorName>WindSpeed</SensorName>
+    <DataType Standard="CWMS" Code="Speed-Wind"/>
+    <DataType Standard="SHEF-PE" Code="US"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="6">
+    <SensorName>WingGusts</SensorName>
+    <DataType Standard="CWMS" Code="SPEED-GUSTS"/>
+    <DataType Standard="SHEF-PE" Code="UG"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="7">
+    <SensorName>HourlyPrecipitation</SensorName>
+    <DataType Standard="SHEF-PE" Code="PP"/>
+    <DataType Standard="CWMS" Code="PREC-Hourly"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="8">
+    <SensorName>AirPressure</SensorName>
+    <DataType Standard="SHEF-PE" Code="PA"/>
+    <DataType Standard="CWMS" Code="Pres-AIR"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="9">
+    <SensorName>6hrPrecipitation</SensorName>
+    <DataType Standard="CWMS" Code="Precip-6hr"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>06:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="10">
+    <SensorName>24hrPrecipitation</SensorName>
+    <DataType Standard="SHEF-PE" Code="PY"/>
+    <DataType Standard="CWMS" Code="Precip-24hr"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="11">
+    <SensorName>24hrMaxTemperature</SensorName>
+    <DataType Standard="SHEF-PE" Code="TX"/>
+    <DataType Standard="CWMS" Code="TEMP-MAX"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="12">
+    <SensorName>24hrMinTemperature</SensorName>
+    <DataType Standard="SHEF-PE" Code="TN"/>
+    <DataType Standard="CWMS" Code="TEMP-MIN"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="13">
+    <SensorName>GroundState</SensorName>
+    <DataType Standard="CWMS" Code="GS"/>
+    <DataType Standard="SHEF-PE" Code="GS"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="14">
+    <SensorName>SnowOnGround</SensorName>
+    <DataType Standard="CWMS" Code="Depth-Snow"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="15">
+    <SensorName>Altimeter</SensorName>
+    <DataType Standard="CWMS" Code="Pres-Altimeter"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <DecodesScript ScriptName="METAR">
+    <ScriptType>Decodes</ScriptType>
+    <FormatStatement Label="metar">
+      metar(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15)
+    </FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="degC">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="degC">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="3">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="%">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="4">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="deg">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="5">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="mph">
+        <Algorithm>linear</Algorithm>
+        <A>1.15077945</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="6">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="kM/hr">
+        <Algorithm>linear</Algorithm>
+        <A>1.852</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="7">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="8">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="mbar">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="9">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="10">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="11">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="degC">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="12">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="degC">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="13">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="GS">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="14">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="15">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in-hg">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

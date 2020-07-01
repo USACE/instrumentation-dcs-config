@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.1517</Latitude>
+  <Longitude>-71.8578</Longitude>
+  <Elevation>-71.8566</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NH</State>
+  <NearestCity>Concord</NearestCity>
+  <Description>Contoocook River at Henniker</Description>
+  <SiteName NameType="CWMS">HEN</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

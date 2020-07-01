@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.7719444</Latitude>
+  <Longitude>-70.5052778</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>MA</State>
+  <Description>Sandwich, Cape Cod Canal</Description>
+  <SiteName NameType="CWMS">SND</SiteName>
+  <SiteProperty PropertyName="location_type">Tide Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

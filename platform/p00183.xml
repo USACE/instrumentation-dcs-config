@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="183">
+  <Description>
+    Connecticut R at West Lebanon, NH - NWS Forecast Data
+  </Description>
+  <PlatformDesignator>SHEF</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>43.6464</Latitude>
+    <Longitude>-72.3131</Longitude>
+    <Elevation>-72.3138</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>NH</State>
+    <Description>Connecticut River at West Lebanon</Description>
+    <SiteName NameType="CWMS">LEB</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      CT River @ West Lebanon NH
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="shef" MediumId="WLBN3">
+    <DecodesScript ScriptName="shef"/>
+    <Preamble>S</Preamble>
+    <TimeZone>US/Eastern</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

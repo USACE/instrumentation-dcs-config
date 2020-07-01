@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.9963889</Latitude>
+  <Longitude>-71.5630556</Longitude>
+  <Elevation>54.860952000000005</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>RI</State>
+  <Description>Branch River at Forestdale</Description>
+  <SiteName NameType="CWMS">FOR</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.154444444444</Latitude>
+  <Longitude>-71.146388888889</Longitude>
+  <Elevation>24.439</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>MA</State>
+  <Description>East Branch Neponsit River at Canton</Description>
+  <SiteName NameType="CWMS">CAN</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

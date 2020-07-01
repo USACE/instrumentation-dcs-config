@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="151">
+  <Description>Wing&apos;s Neck, CCC, MA</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>41.6805556</Latitude>
+    <Longitude>-70.6613889</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>MA</State>
+    <Description>Wing&apos;s Neck</Description>
+    <SiteName NameType="CWMS">WNG</SiteName>
+    <SiteProperty PropertyName="location_type">Tide Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Wing&apos;s Neck</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="CE123522">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>129</ChannelNum>
+    <TransmitWindow>00:00:05</TransmitWindow>
+    <TransmitInterval>06:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE123522">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>161</ChannelNum>
+    <AssignedTime>00:36:30</AssignedTime>
+    <TransmitWindow>00:00:05</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="6">
+    <PlatformSensorProperty PropertyName="max">20</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="min">-5</PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

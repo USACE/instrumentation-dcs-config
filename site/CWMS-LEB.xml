@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.6464</Latitude>
+  <Longitude>-72.3131</Longitude>
+  <Elevation>-72.3138</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>NH</State>
+  <Description>Connecticut River at West Lebanon</Description>
+  <SiteName NameType="CWMS">LEB</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+</Site>

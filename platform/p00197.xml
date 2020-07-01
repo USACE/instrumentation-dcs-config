@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="197">
+  <Description>Merrimack R at Goffs Falls, NH - NWS Forecast Data</Description>
+  <PlatformDesignator>SHEF</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>42.9481</Latitude>
+    <Longitude>-71.4639</Longitude>
+    <Elevation>-71.463408</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NH</State>
+    <NearestCity>Manchester</NearestCity>
+    <Description>Merrimack River at Goffs Falls</Description>
+    <SiteName NameType="CWMS">GFL</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Merrimack River @ Goffs Falls NH
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="shef" MediumId="GOFN3">
+    <DecodesScript ScriptName="shef"/>
+    <Preamble>S</Preamble>
+    <TimeZone>US/Eastern</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

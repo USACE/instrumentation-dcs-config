@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="159">
+  <Description>Mill River at Northampton, MA</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>42.318888888889</Latitude>
+    <Longitude>-72.665555555556</Longitude>
+    <Elevation>51.816</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>00</State>
+    <Description>Mill River @ Northampton, Ma</Description>
+    <SiteName NameType="CWMS">NHP</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Mill River @ Northampton, Ma
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="17D07680">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>153</ChannelNum>
+    <AssignedTime>00:15:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

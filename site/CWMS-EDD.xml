@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>44.8266667</Latitude>
+  <Longitude>-68.6966667</Longitude>
+  <Elevation>2.19456</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>ME</State>
+  <Description>Penobscot River at Eddington</Description>
+  <SiteName NameType="CWMS">EDD</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

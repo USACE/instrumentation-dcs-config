@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="103">
+  <Description>Cape Cod Canal Wind Sensor, Bourne, MA</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  <Site>
+    <Latitude>41.7486111</Latitude>
+    <Longitude>-70.5902778</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>00</State>
+    <Description>Cape Cod Canal Railroad Bridge</Description>
+    <SiteName NameType="CWMS">CCC</SiteName>
+    <SiteProperty PropertyName="location_type">Tide Gage</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Cape Cod Canal Railroad Bridge
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE7AEB0C">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>161</ChannelNum>
+    <AssignedTime>00:41:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>EST</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

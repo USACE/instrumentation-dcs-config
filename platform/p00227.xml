@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="227">
+  <Description>E.B. Pemigewaset R at Lincoln, NH</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>44.0425</Latitude>
+    <Longitude>-71.6725</Longitude>
+    <Elevation>266.7</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <Description>NERON SITE AT LINCOLN</Description>
+    <SiteName NameType="CWMS">NLI</SiteName>
+    <SiteProperty PropertyName="location_type">Climate Station</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      NERON SITE AT LINCOLN
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="1170A372">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>181</ChannelNum>
+    <AssignedTime>00:43</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

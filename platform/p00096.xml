@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="96">
+  <Description>Spicket River at Methuen, MA</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  <Site>
+    <Latitude>42.7430556</Latitude>
+    <Longitude>-71.2088889</Longitude>
+    <Elevation>-71.20737600000001</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MA</State>
+    <NearestCity>Haverhill</NearestCity>
+    <Description>Spicket River near Methuen</Description>
+    <SiteName NameType="CWMS">MET</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Spicket River @ Methuen, Ma
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="DE1232A6">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>115</ChannelNum>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DE1232A6">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>35</ChannelNum>
+    <AssignedTime>00:36:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>US/Eastern</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.9869</Latitude>
+  <Longitude>-72.6061</Longitude>
+  <Elevation>-72.606408</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>CT</State>
+  <Description>Connecticut River at Thompsonville</Description>
+  <SiteName NameType="CWMS">TVL</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

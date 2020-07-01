@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.946547138618</Latitude>
+  <Longitude>-72.236668515205</Longitude>
+  <Elevation>208.1784</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>NH</State>
+  <Description>Otter Brook Dam, Otter Brook</Description>
+  <SiteName NameType="CWMS">OBD</SiteName>
+  <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

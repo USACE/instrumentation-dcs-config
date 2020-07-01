@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="148">
+  <Description>Wolverine Glacier, AK</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>60.409444444444</Latitude>
+    <Longitude>-148.906111111111</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/Juneau</Timezone>
+    <State>AK</State>
+    <Description>Wolverine Glacier</Description>
+    <SiteName NameType="CWMS">WOL</SiteName>
+    <SiteProperty PropertyName="location_type">Climate Station</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Wolverine Glacier</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="17330294">
+    <DecodesScript ScriptName="st"/>
+    <ChannelNum>90</ChannelNum>
+    <AssignedTime>00:13:40</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

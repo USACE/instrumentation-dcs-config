@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="192">
+  <Description>Merrimack R at Haverhill, MA - NWS Forecast Data</Description>
+  <PlatformDesignator>SHEF</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>42.7727778</Latitude>
+    <Longitude>-71.0830556</Longitude>
+    <Elevation>-71.082408</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MA</State>
+    <NearestCity>Haverhill</NearestCity>
+    <Description>Merrimack River at Haverhill</Description>
+    <SiteName NameType="CWMS">HAV</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Merrimack River @ Haverhill, Ma
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="shef" MediumId="HVRM3">
+    <DecodesScript ScriptName="shef"/>
+    <Preamble>S</Preamble>
+    <TimeZone>US/Eastern</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="99">
+  <Description>Millers River at Erving, MA</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  <Site>
+    <Latitude>42.5975</Latitude>
+    <Longitude>-72.4386111</Longitude>
+    <Elevation>-72.438768</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>MA</State>
+    <Description>Millers River at Erving</Description>
+    <SiteName NameType="CWMS">ERV</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Millers River @ Erving, MA
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="16553450">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>115</ChannelNum>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="16553450">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>77</ChannelNum>
+    <AssignedTime>00:13:40</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

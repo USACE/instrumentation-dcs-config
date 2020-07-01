@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="WTS-SHEF">
+  <Description>Iridium Data Transmitted as SHEF</Description>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>Stage</SensorName>
+    <DataType Standard="CWMS" Code="Stage"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="2">
+    <SensorName>Air-Temp</SensorName>
+    <DataType Standard="CWMS" Code="Temp-Air"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="3">
+    <SensorName>Rel-Humid</SensorName>
+    <DataType Standard="CWMS" Code="%-RELHUM"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="4">
+    <SensorName>Voltage</SensorName>
+    <DataType Standard="CWMS" Code="Volt"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <DecodesScript ScriptName="data logger">
+    <ScriptType>Decodes</ScriptType>
+    <DataOrder>D</DataOrder>
+    <FormatStatement Label="getlabel">
+      S(100, &apos;:&apos;, Error), x, F(F, A, 10d&apos; &apos;)
+    </FormatStatement>
+    <FormatStatement Label="Error">&gt;getlabel</FormatStatement>
+    <FormatStatement Label="STAGE">
+      7x, 4(W, F(S, A, 8d&apos; &apos;, 1)), &gt;getlabel
+    </FormatStatement>
+    <FormatStatement Label="AT">
+      7x, 4(W, F(S, A, 8d&apos; &apos;, 2)), &gt;getlabel
+    </FormatStatement>
+    <FormatStatement Label="RH">
+      7x, 4(W, F(S, A, 8d&apos; &apos;, 3)), &gt;getlabel
+    </FormatStatement>
+    <FormatStatement Label="VB">
+      7x, 4(W, F(S, A, 8d&apos; &apos;, 4)), &gt;getlabel
+    </FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="m">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>1.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="C">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="3">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="%">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="4">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volt">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="188">
+  <Description>Blackstone R at Woonsocket, RI - NWS Forecast Data</Description>
+  <PlatformDesignator>SHEF</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>42.0061</Latitude>
+    <Longitude>-71.5036</Longitude>
+    <Elevation>32.741616</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>RI</State>
+    <Description>Blackstone River at Woonsocket</Description>
+    <SiteName NameType="CWMS">WNS</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Blackstone River @ Woonsocket RI
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="shef" MediumId="WOOR1">
+    <DecodesScript ScriptName="shef"/>
+    <Preamble>S</Preamble>
+    <TimeZone>US/Eastern</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="100">
+  <Description>E.B. Pemigewaset R at Lincoln, NH</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  <Site>
+    <Latitude>44.0475</Latitude>
+    <Longitude>-71.6602778</Longitude>
+    <Elevation>-71.661528</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>NH</State>
+    <Description>East Branch Pemigewasset River at Lincoln</Description>
+    <SiteName NameType="CWMS">LIN</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      E.B. Pemigewasset River Lincoln
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="17E501A0">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>129</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="17E501A0">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>149</ChannelNum>
+    <AssignedTime>00:20:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

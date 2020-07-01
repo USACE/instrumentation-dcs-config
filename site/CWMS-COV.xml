@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.7505556</Latitude>
+  <Longitude>-72.2661111</Longitude>
+  <Elevation>72.86244</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>CT</State>
+  <Description>Willimantic River at Coventry</Description>
+  <SiteName NameType="CWMS">COV</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

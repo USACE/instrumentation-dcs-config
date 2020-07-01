@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="239">
+  <Description>
+    Oblique Laser 2 installed in Fox Canyon River @ Thule, Greenland. Positioned
+    on right bank downriver of bridge.
+  </Description>
+  <PlatformDesignator>OLaser2</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  <Site>
+    <Latitude>77.467043</Latitude>
+    <Longitude>-69.228483</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <NearestCity>Thule</NearestCity>
+    <Description>
+      CRREL Oblique Lasers 2 and 3 installed  in Thule, Greenland
+    </Description>
+    <SiteName NameType="CWMS">THL</SiteName>
+  </Site>
+  <TransportMedium MediumType="iridium" MediumId="300234068628020">
+    <DecodesScript ScriptName="Iridium"/>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.9092</Latitude>
+  <Longitude>-71.9131</Longitude>
+  <Elevation>66.068448</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>CT</State>
+  <Description>Quinebaug River at Putnam</Description>
+  <SiteName NameType="CWMS">PUT</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="SHEF-Forecasts">
+  <Description>
+    SHEF standard config file to decode NWS SHEF Forecast Data (From ILEX Eng)
+  </Description>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>Stage</SensorName>
+    <DataType Standard="CWMS" Code="Stage"/>
+    <DataType Standard="SHEFCODE" Code="HGIFF"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>06:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="2">
+    <SensorName>Flow</SensorName>
+    <DataType Standard="CWMS" Code="Flow"/>
+    <DataType Standard="SHEFCODE" Code="QRIFF"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>06:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="3">
+    <SensorName>Elev-Pool</SensorName>
+    <DataType Standard="CWMS" Code="Elev-Pool"/>
+    <DataType Standard="SHEFCODE" Code="HPIFF"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>06:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="4">
+    <SensorName>Flow-Inflow</SensorName>
+    <DataType Standard="SHEFCODE" Code="QIIFF"/>
+    <DataType Standard="CWMS" Code="Flow-Inflow"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>06:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <DecodesScript ScriptName="shef">
+    <ScriptType>Decodes</ScriptType>
+    <DataOrder>A</DataOrder>
+    <FormatStatement Label="start">shefprocess()</FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="kcfs">
+        <Algorithm>none</Algorithm>
+        <A>1000.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="3">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="4">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="kcfs">
+        <Algorithm>none</Algorithm>
+        <A>1000.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

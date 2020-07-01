@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.0933</Latitude>
+  <Longitude>-71.6603</Longitude>
+  <Elevation>99.06</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>NH</State>
+  <Description>Everett Dam, Piscataquog River</Description>
+  <SiteName NameType="CWMS">EVD</SiteName>
+  <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

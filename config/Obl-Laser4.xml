@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="Obl-Laser4">
+  <Description>
+    Iridium Data transmitted as pure binary for Oblique Laser 4 at Thule,
+    Greenland
+  </Description>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>Hours</SensorName>
+    <DataType Standard="CWMS" Code="Timing-L4"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="2">
+    <SensorName>Voltage</SensorName>
+    <DataType Standard="CWMS" Code="Volt-L4"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="3">
+    <SensorName>Temp-Datalogger</SensorName>
+    <DataType Standard="CWMS" Code="Temp-L4Datalogger"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="4">
+    <SensorName>Distance-First</SensorName>
+    <DataType Standard="CWMS" Code="Dist-L4First"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="5">
+    <SensorName>Distance-Single</SensorName>
+    <DataType Standard="CWMS" Code="Dist-L4Single"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="6">
+    <SensorName>Distance-Last</SensorName>
+    <DataType Standard="CWMS" Code="Dist-L4Last"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="7">
+    <SensorName>Angle</SensorName>
+    <DataType Standard="CWMS" Code="Dir-L4Angle"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <DecodesScript ScriptName="Iridium">
+    <ScriptType>Decodes</ScriptType>
+    <DataOrder>D</DataOrder>
+    <FormatStatement Label="binary">
+      11x,F(s,bin,2,1),F(s,bin,2,2),F(s,bin,2,3),F(s,bin,2,4),F(s,bin,2,5),F(s,bin,2,6),F(s,bin,2,7)
+    </FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="hr">
+        <Algorithm>linear</Algorithm>
+        <A>1.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>1.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volt">
+        <Algorithm>linear</Algorithm>
+        <A>0.1</A>
+        <B>-200.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="3">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="C">
+        <Algorithm>linear</Algorithm>
+        <A>0.1</A>
+        <B>-200.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="4">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="m">
+        <Algorithm>linear</Algorithm>
+        <A>0.1</A>
+        <B>-200.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="5">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="m">
+        <Algorithm>linear</Algorithm>
+        <A>0.1</A>
+        <B>-200.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="6">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="m">
+        <Algorithm>linear</Algorithm>
+        <A>0.1</A>
+        <B>-200.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="7">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="deg">
+        <Algorithm>linear</Algorithm>
+        <A>0.1</A>
+        <B>-200.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

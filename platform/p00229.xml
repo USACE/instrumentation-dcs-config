@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="229">
+  <Description>
+    CRREL Climate Station in North Inglefield, Greenland
+  </Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">ING</SiteName>
+  </Site>
+  <TransportMedium MediumType="iridium" MediumId="300234063553790">
+    <DecodesScript ScriptName="iridium"/>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

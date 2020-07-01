@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="205">
+  <Description>Moshassuck River at Providence, RI</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>41.833888888889</Latitude>
+    <Longitude>-71.411666666667</Longitude>
+    <Elevation>-71.4116666666667</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <State>RI</State>
+    <Description>Moshassuck River at Providence, RI</Description>
+    <SiteName NameType="CWMS">PRO</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">PRO</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="1732E39C">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>83</ChannelNum>
+    <AssignedTime>00:51:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>
