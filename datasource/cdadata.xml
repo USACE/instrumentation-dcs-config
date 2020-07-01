@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataSource Name="cdadata" Type="lrgs">
+  <DataSourceArg>
+    hostname=cdadata.wcda.noaa.gov, port=16003, password=$CDADATA_PASSWORD,
+    username=$CDADATA_USERNAME
+  </DataSourceArg>
+</DataSource>

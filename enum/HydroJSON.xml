@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<EnumList>
+  <Enum Name="OutputFormat">
+    <EnumValue EnumValue="HydroJSON">
+      <Description>HydroJSON Format</Description>
+      <ExecClass>decodes.consumer.HydroJSONFormatter</ExecClass>
+    </EnumValue>
+  </Enum>
+</EnumList>
