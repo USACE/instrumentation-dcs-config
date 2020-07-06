@@ -3,7 +3,7 @@
   <Description>LEVEE 8 CANAL AT US 441 NEAR CANAL POINT 4NNE</Description>
   <Agency></Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>06/18/2020 18:48:34</LastModifyTime>
+  <LastModifyTime>07/06/2020 17:31:19</LastModifyTime>
   <Site>
     <Elevation>1.7976931348623157E308</Elevation>
     <ElevationUnits>ft</ElevationUnits>
@@ -16,35 +16,35 @@
     </Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>stage1</SensorName>
-      <DataType Standard="HHD" Code="Stage"/>
+      <DataType Standard="RSGIS" Code="Stage"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="2">
       <SensorName>temp-water</SensorName>
-      <DataType Standard="HHD" Code="Temperature"/>
+      <DataType Standard="RSGIS" Code="Temperature"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="3">
       <SensorName>distance</SensorName>
-      <DataType Standard="HHD" Code="distance"/>
+      <DataType Standard="RSGIS" Code="distance"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="4">
       <SensorName>xvelocity</SensorName>
-      <DataType Standard="HHD" Code="speed-x"/>
+      <DataType Standard="RSGIS" Code="speed-x"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="5">
       <SensorName>yveloctiy</SensorName>
-      <DataType Standard="HHD" Code="speed-y"/>
+      <DataType Standard="RSGIS" Code="speed-y"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
@@ -52,21 +52,21 @@
     </ConfigSensor>
     <ConfigSensor SensorNumber="6">
       <SensorName>SNR</SensorName>
-      <DataType Standard="HHD" Code="SNR"/>
+      <DataType Standard="RSGIS" Code="SNR"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="7">
       <SensorName>stage2</SensorName>
-      <DataType Standard="HHD" Code="Stage"/>
+      <DataType Standard="RSGIS" Code="Stage"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="8">
       <SensorName>BATT</SensorName>
-      <DataType Standard="HHD" Code="Voltage"/>
+      <DataType Standard="RSGIS" Code="Voltage"/>
       <RecordingMode>V</RecordingMode>
       <RecordingInterval>01:00</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
