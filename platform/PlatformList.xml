@@ -2507,7 +2507,7 @@
     <Agency></Agency>
     <Description>Black Rock Dam, Branch Brook, CT</Description>
     <ConfigName>BRD</ConfigName>
-    <IsProduction>false</IsProduction>
-    <LastModifyTime>06/30/2020 20:50:14</LastModifyTime>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>07/07/2020 15:53:28</LastModifyTime>
   </PlatformXref>
 </PlatformList>

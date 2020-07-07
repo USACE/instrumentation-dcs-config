@@ -2,8 +2,8 @@
 <Platform PlatformId="242">
   <Description>Black Rock Dam, Branch Brook, CT</Description>
   <Agency></Agency>
-  <IsProduction>false</IsProduction>
-  <LastModifyTime>06/30/2020 20:50:14</LastModifyTime>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>07/07/2020 15:53:28</LastModifyTime>
   <Site>
     <Latitude>41.6575</Latitude>
     <Longitude>-73.1056</Longitude>
@@ -24,21 +24,21 @@
     </Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>Pool Stage</SensorName>
-      <DataType Standard="CWMS" Code="Stage-Pool"/>
+      <DataType Standard="RSGIS" Code="Stage-Pool"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="2">
       <SensorName>Precip</SensorName>
-      <DataType Standard="CWMS" Code="Precip"/>
+      <DataType Standard="RSGIS" Code="Precip"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="3">
       <SensorName>BAT</SensorName>
-      <DataType Standard="CWMS" Code="Volt"/>
+      <DataType Standard="RSGIS" Code="Volt"/>
       <RecordingMode>V</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
@@ -47,189 +47,189 @@
     </ConfigSensor>
     <ConfigSensor SensorNumber="4">
       <SensorName>TEMP</SensorName>
-      <DataType Standard="CWMS" Code="Temp-Air"/>
+      <DataType Standard="RSGIS" Code="Temp-Air"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="5">
       <SensorName>Barometer</SensorName>
-      <DataType Standard="CWMS" Code="Pres"/>
+      <DataType Standard="RSGIS" Code="Pres"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="6">
       <SensorName>PZ-1</SensorName>
-      <DataType Standard="CWMS" Code="Elev-PZ1"/>
+      <DataType Standard="RSGIS" Code="Elev-PZ1"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="7">
       <SensorName>PZ-2A</SensorName>
-      <DataType Standard="CWMS" Code="Elev-PZ2A"/>
+      <DataType Standard="RSGIS" Code="Elev-PZ2A"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="8">
       <SensorName>PZ-2B</SensorName>
-      <DataType Standard="CWMS" Code="Elev-PZ2B"/>
+      <DataType Standard="RSGIS" Code="Elev-PZ2B"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="9">
       <SensorName>PZ-3</SensorName>
-      <DataType Standard="CWMS" Code="Elev-PZ3"/>
+      <DataType Standard="RSGIS" Code="Elev-PZ3"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="10">
       <SensorName>PZ-4</SensorName>
-      <DataType Standard="CWMS" Code="Elev-PZ4"/>
+      <DataType Standard="RSGIS" Code="Elev-PZ4"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="11">
       <SensorName>PZ-5A</SensorName>
-      <DataType Standard="CWMS" Code="Elev-PZ5A"/>
+      <DataType Standard="RSGIS" Code="Elev-PZ5A"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="12">
       <SensorName>PZ-5B</SensorName>
-      <DataType Standard="CWMS" Code="Elev-PZ5B"/>
+      <DataType Standard="RSGIS" Code="Elev-PZ5B"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="13">
       <SensorName>PZ-6A</SensorName>
-      <DataType Standard="CWMS" Code="Elev-PZ6A"/>
+      <DataType Standard="RSGIS" Code="Elev-PZ6A"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="14">
       <SensorName>PZ-6B</SensorName>
-      <DataType Standard="CWMS" Code="Elev-PZ6B"/>
+      <DataType Standard="RSGIS" Code="Elev-PZ6B"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="15">
       <SensorName>PZ-7A</SensorName>
-      <DataType Standard="CWMS" Code="Elev-PZ7A"/>
+      <DataType Standard="RSGIS" Code="Elev-PZ7A"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="16">
       <SensorName>PZ-7B</SensorName>
-      <DataType Standard="CWMS" Code="Elev-PZ7B"/>
+      <DataType Standard="RSGIS" Code="Elev-PZ7B"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="17">
       <SensorName>FSPZ1BATT</SensorName>
-      <DataType Standard="CWMS" Code="volt-BRD1BATT"/>
+      <DataType Standard="RSGIS" Code="volt-BRD1BATT"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="18">
       <SensorName>FSPZ2BATT</SensorName>
-      <DataType Standard="CWMS" Code="Volt-BRD2BATT"/>
+      <DataType Standard="RSGIS" Code="Volt-BRD2BATT"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="19">
       <SensorName>FSPZ3BATT</SensorName>
-      <DataType Standard="CWMS" Code="Volt-BRD3BATT"/>
+      <DataType Standard="RSGIS" Code="Volt-BRD3BATT"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="20">
       <SensorName>FSPZ4BATT</SensorName>
-      <DataType Standard="CWMS" Code="Volt-BRD4BATT"/>
+      <DataType Standard="RSGIS" Code="Volt-BRD4BATT"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="21">
       <SensorName>FSPZ5BATT</SensorName>
-      <DataType Standard="CWMS" Code="Volt-BRD5BATT"/>
+      <DataType Standard="RSGIS" Code="Volt-BRD5BATT"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="22">
       <SensorName>FSPZ6BATT</SensorName>
-      <DataType Standard="CWMS" Code="Volt-BRD6BATT"/>
+      <DataType Standard="RSGIS" Code="Volt-BRD6BATT"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="23">
       <SensorName>FSPZ7BATT</SensorName>
-      <DataType Standard="CWMS" Code="Volt-BRD7BATT"/>
+      <DataType Standard="RSGIS" Code="Volt-BRD7BATT"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="24">
       <SensorName>BRD1-RFSig</SensorName>
-      <DataType Standard="CWMS" Code="Count-BRD1RFSig"/>
+      <DataType Standard="RSGIS" Code="Count-BRD1RFSig"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="25">
       <SensorName>BRD2-RFSig</SensorName>
-      <DataType Standard="CWMS" Code="Count-BRD2RFSig"/>
+      <DataType Standard="RSGIS" Code="Count-BRD2RFSig"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="26">
       <SensorName>BRD3-RFSig</SensorName>
-      <DataType Standard="CWMS" Code="Count-BRD3RFSig"/>
+      <DataType Standard="RSGIS" Code="Count-BRD3RFSig"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="27">
       <SensorName>BRD4-RFSig</SensorName>
-      <DataType Standard="CWMS" Code="Count-BRD4RFSig"/>
+      <DataType Standard="RSGIS" Code="Count-BRD4RFSig"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="28">
       <SensorName>BRD5-RFSig</SensorName>
-      <DataType Standard="CWMS" Code="Count-BRD5RFSig"/>
+      <DataType Standard="RSGIS" Code="Count-BRD5RFSig"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="29">
       <SensorName>BRD6-RFSig</SensorName>
-      <DataType Standard="CWMS" Code="Count-BRD6RFSig"/>
+      <DataType Standard="RSGIS" Code="Count-BRD6RFSig"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="30">
       <SensorName>BRD7-RFSig</SensorName>
-      <DataType Standard="CWMS" Code="Count-BRD7RFSig"/>
+      <DataType Standard="RSGIS" Code="Count-BRD7RFSig"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>12:00</RecordingInterval>
       <TimeOfFirstSample>11:45</TimeOfFirstSample>
@@ -1301,65 +1301,143 @@
     <parity>U</parity>
   </TransportMedium>
   <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="2">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="3">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="4">
     <PlatformSensorProperty PropertyName="max">120</PlatformSensorProperty>
     <PlatformSensorProperty PropertyName="min">-40</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="5">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="6">
+    <Site>
+      <Latitude>41.6575</Latitude>
+      <Longitude>-73.1056</Longitude>
+      <Elevation>124.97104800000001</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>America/New_York</Timezone>
+      <State>CT</State>
+      <Description>Black Rock Dam, Branch Brook</Description>
+      <SiteName NameType="local">BRD_PZ-1A</SiteName>
+      <SiteName NameType="uuid">6de29534-ca51-403a-944f-aa164e74b116</SiteName>
+      <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    </Site>
   </PlatformSensor>
   <PlatformSensor SensorNumber="7">
+    <Site>
+      <Latitude>41.6575</Latitude>
+      <Longitude>-73.1056</Longitude>
+      <Elevation>124.97104800000001</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>America/New_York</Timezone>
+      <State>CT</State>
+      <Description>Black Rock Dam, Branch Brook</Description>
+      <SiteName NameType="local">BRD_PZ-2A</SiteName>
+      <SiteName NameType="uuid">18cbf7c0-fccb-4e23-8281-709f9b2e3d4d</SiteName>
+      <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    </Site>
   </PlatformSensor>
   <PlatformSensor SensorNumber="8">
+    <Site>
+      <Latitude>41.6575</Latitude>
+      <Longitude>-73.1056</Longitude>
+      <Elevation>124.97104800000001</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>America/New_York</Timezone>
+      <State>CT</State>
+      <Description>Black Rock Dam, Branch Brook</Description>
+      <SiteName NameType="local">BRD_PZ-2B</SiteName>
+      <SiteName NameType="uuid">af8e8345-5447-4af2-9ec1-fb4c0740b446</SiteName>
+      <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    </Site>
   </PlatformSensor>
   <PlatformSensor SensorNumber="9">
+    <Site>
+      <Latitude>41.6575</Latitude>
+      <Longitude>-73.1056</Longitude>
+      <Elevation>124.97104800000001</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>America/New_York</Timezone>
+      <State>CT</State>
+      <Description>Black Rock Dam, Branch Brook</Description>
+      <SiteName NameType="local">BRD_PZ-3A</SiteName>
+      <SiteName NameType="uuid">3d78a3c5-6b2e-44e4-8063-7374e43d5a18</SiteName>
+      <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    </Site>
   </PlatformSensor>
   <PlatformSensor SensorNumber="10">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="11">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="12">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="13">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="14">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="15">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="16">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="17">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="18">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="19">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="20">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="21">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="22">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="23">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="24">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="25">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="26">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="27">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="28">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="29">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
   <PlatformSensor SensorNumber="30">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
   </PlatformSensor>
 </Platform>

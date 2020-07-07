@@ -459,7 +459,7 @@
     </EnumValue>
   </Enum>
   <Enum Name="DataTypeStandard">
-    <EnumDefaultValue>hhd</EnumDefaultValue>
+    <EnumDefaultValue>rsgis</EnumDefaultValue>
     <EnumValue EnumValue="shef-pe">
       <Description>
         Standard Hydrometeorologic Exchange Format Physical Element Code
