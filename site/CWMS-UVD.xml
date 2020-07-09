@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.7937221</Latitude>
+  <Longitude>-72.2575215</Longitude>
+  <Elevation>128.01600000000002</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>VT</State>
+  <Description>Union Village Dam, Ompompanoosuc River</Description>
+  <SiteName NameType="CWMS">UVD</SiteName>
+  <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

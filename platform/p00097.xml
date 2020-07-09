@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="97">
+  <Description>Priest Brook at Winchenden, MA</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  <Site>
+    <Latitude>42.6825</Latitude>
+    <Longitude>-72.115555555556</Longitude>
+    <Elevation>-72.11568</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>MA</State>
+    <Description>Priest Brook at Winchendon</Description>
+    <SiteName NameType="CWMS">WIN</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Priest Brook @ Winchendon, Ma
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="16DAA018">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>115</ChannelNum>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="16DAA018">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>77</ChannelNum>
+    <AssignedTime>00:58</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

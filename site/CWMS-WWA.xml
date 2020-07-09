@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.267777777778</Latitude>
+  <Longitude>-72.333055555556</Longitude>
+  <Elevation>111.307</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <Description>Swift River at West Ware, MA</Description>
+  <SiteName NameType="CWMS">WWA</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NGVD</SiteProperty>
+</Site>

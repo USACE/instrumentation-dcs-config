@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.8008333</Latitude>
+  <Longitude>-71.4002778</Longitude>
+  <Elevation>0.0</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>RI</State>
+  <Description>Fox Point Hurricane Barrier</Description>
+  <SiteName NameType="CWMS">FPB</SiteName>
+  <SiteProperty PropertyName="location_type">Tide Gage</SiteProperty>
+</Site>

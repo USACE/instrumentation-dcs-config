@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="1">
+  <Description>Mansfield Hollow Dam, NWS Forecast Data</Description>
+  <PlatformDesignator>SHEF</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  <Site>
+    <Latitude>41.764999</Latitude>
+    <Longitude>-72.1817</Longitude>
+    <Elevation>59.439048</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>CT</State>
+    <Description>Mansfield Hollow Dam, Natchaug River</Description>
+    <SiteName NameType="CWMS">MHD</SiteName>
+    <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="shef" MediumId="MFDC3">
+    <DecodesScript ScriptName="shef"/>
+    <Preamble>S</Preamble>
+    <TimeZone>US/Eastern</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.351388888889</Latitude>
+  <Longitude>-72.384444444445</Longitude>
+  <Elevation>0.0</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <Description>Connecticut River at Essex, CT</Description>
+  <SiteName NameType="CWMS">ESS</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NGVD</SiteProperty>
+</Site>

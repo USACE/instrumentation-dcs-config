@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.0222222</Latitude>
+  <Longitude>-71.9561111</Longitude>
+  <Elevation>104.095296</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>CT</State>
+  <Description>Quinebaug River at Quinebaug</Description>
+  <SiteName NameType="CWMS">QBQ</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

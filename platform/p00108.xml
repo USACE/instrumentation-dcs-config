@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="108">
+  <Description>Merrimack R at Haverhill, MA</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>42.7727778</Latitude>
+    <Longitude>-71.0830556</Longitude>
+    <Elevation>-71.082408</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MA</State>
+    <NearestCity>Haverhill</NearestCity>
+    <Description>Merrimack River at Haverhill</Description>
+    <SiteName NameType="CWMS">HAV</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="17D0A0E8">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>127</ChannelNum>
+    <TransmitInterval>00:15</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="17D0A0E8">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>153</ChannelNum>
+    <AssignedTime>00:15:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

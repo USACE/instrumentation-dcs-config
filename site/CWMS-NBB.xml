@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.624166666667</Latitude>
+  <Longitude>-70.906111111111</Longitude>
+  <Elevation>0.0</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>MA</State>
+  <Description>New Bedford Hurricane Barrier</Description>
+  <SiteName NameType="CWMS">NBB</SiteName>
+  <SiteProperty PropertyName="location_type">Tide Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

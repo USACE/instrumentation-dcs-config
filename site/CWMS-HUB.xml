@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>59.994444444444</Latitude>
+  <Longitude>-139.486388888889</Longitude>
+  <Elevation>0.0</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/Anchorage</Timezone>
+  <State>AK</State>
+  <Description>Hubbard Glacier @ Gilbert Point</Description>
+  <SiteName NameType="CWMS">HUB</SiteName>
+  <SiteProperty PropertyName="location_type">Climate Station</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

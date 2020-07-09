@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="172">
+  <Description>Stamford Hurricane Barrier</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>41.036944444444</Latitude>
+    <Longitude>-73.534444444444</Longitude>
+    <Elevation>0.0</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>CT</State>
+    <Description>Stamford Hurricane Barrier</Description>
+    <SiteName NameType="CWMS">SHB</SiteName>
+    <SiteProperty PropertyName="location_type">Tide Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Stamford Hurricane Barrier
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes" MediumId="CE5D9E46">
+    <DecodesScript ScriptName="Network"/>
+    <ChannelNum>234</ChannelNum>
+    <TransmitInterval>00:30</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE5D9E46">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>161</ChannelNum>
+    <AssignedTime>00:01:40</AssignedTime>
+    <TransmitWindow>00:00:05</TransmitWindow>
+    <TransmitInterval>00:30</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="max">120</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="min">-40</PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="3">
+    <PlatformSensorProperty PropertyName="ParamType">
+      Ave
+    </PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

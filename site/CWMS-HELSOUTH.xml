@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>66.4</Latitude>
+  <Longitude>-38.2</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <Description>Helheim Glacier - South</Description>
+  <SiteName NameType="CWMS">HELSOUTH</SiteName>
+</Site>

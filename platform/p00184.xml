@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="184">
+  <Description>Connecticut R at N. Walpole, NH - NWS Forecast Data</Description>
+  <PlatformDesignator>SHEF</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>43.125</Latitude>
+    <Longitude>-72.4358</Longitude>
+    <Elevation>-72.43572</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>NH</State>
+    <Description>Connecticut River at North Walpole</Description>
+    <SiteName NameType="CWMS">NWA</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      CT River at North Walpole, NH
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="shef" MediumId="WLPN3">
+    <DecodesScript ScriptName="shef"/>
+    <Preamble>S</Preamble>
+    <TimeZone>US/Eastern</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

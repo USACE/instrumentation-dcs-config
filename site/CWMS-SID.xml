@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>44.472222222222</Latitude>
+  <Longitude>-69.683888888889</Longitude>
+  <Elevation>4.608576</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>ME</State>
+  <Description>Kennebec River at North Sidney</Description>
+  <SiteName NameType="CWMS">SID</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

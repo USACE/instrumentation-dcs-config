@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.5975</Latitude>
+  <Longitude>-72.4386111</Longitude>
+  <Elevation>-72.438768</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>MA</State>
+  <Description>Millers River at Erving</Description>
+  <SiteName NameType="CWMS">ERV</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+</Site>

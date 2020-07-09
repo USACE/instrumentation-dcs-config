@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.4417</Latitude>
+  <Longitude>-71.5883</Longitude>
+  <Elevation>-71.58837600000001</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NH</State>
+  <NearestCity>Laconia</NearestCity>
+  <Description>Winnipesaukee River at Tilton</Description>
+  <SiteName NameType="CWMS">TLT</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="7">
+  <Description>
+    Pegasus Airfield Site 5 near McMurdo Station, Antarctica
+  </Description>
+  <PlatformDesignator>SITE5</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>-78.091067945132</Latitude>
+    <Longitude>166.3611351875</Longitude>
+    <Elevation>1.499616</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>NZ</Timezone>
+    <State>00</State>
+    <Description>Pegasus Airfield near McMurdo Station Antarctica.</Description>
+    <SiteName NameType="CWMS">PEG</SiteName>
+    <SiteProperty PropertyName="location_type">Climate Station</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="iridium" MediumId="300234010542620">
+    <DecodesScript ScriptName="data logger"/>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

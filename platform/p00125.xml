@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="125">
+  <Description>Colebrook River Dam, Office Weather Data</Description>
+  <PlatformDesignator>Weather</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  <Site>
+    <Latitude>42.0063917</Latitude>
+    <Longitude>-73.0364253</Longitude>
+    <Elevation>175.299624</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>CT</State>
+    <Description>Colebrook Dam, West Branch Farmington River</Description>
+    <SiteName NameType="CWMS">CRD</SiteName>
+    <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Colebrook Dam</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes" MediumId="CC31C346">
+    <DecodesScript ScriptName="Network"/>
+    <ChannelNum>234</ChannelNum>
+    <TransmitInterval>00:15</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

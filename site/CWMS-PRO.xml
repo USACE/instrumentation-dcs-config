@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.833888888889</Latitude>
+  <Longitude>-71.411666666667</Longitude>
+  <Elevation>-71.4116666666667</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <State>RI</State>
+  <Description>Moshassuck River at Providence, RI</Description>
+  <SiteName NameType="CWMS">PRO</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="236">
+  <Description>
+    Geotech DCP located in Utility Bldg sending PZ data via DamsNT
+  </Description>
+  <PlatformDesignator>Geotech</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  <Site>
+    <Latitude>42.1192</Latitude>
+    <Longitude>-71.8819</Longitude>
+    <Elevation>141.8844</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MA</State>
+    <Description>Hodges Village Dam, French River</Description>
+    <SiteName NameType="CWMS">HVD</SiteName>
+    <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Hodges Village Dam</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes" MediumId="CC329434">
+    <DecodesScript ScriptName="Network"/>
+    <ChannelNum>234</ChannelNum>
+    <AssignedTime>11:45</AssignedTime>
+    <TransmitInterval>04:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

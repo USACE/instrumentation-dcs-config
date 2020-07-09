@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="223">
+  <Description>Helheim Glacier, Greenland Weather Station Data</Description>
+  <PlatformDesignator>Weather</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>66.4</Latitude>
+    <Longitude>-38</Longitude>
+    <Elevation>0.0</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>Unknown or Not Applicable</Timezone>
+    <State>00</State>
+    <Description>Helheim Glacier</Description>
+    <SiteName NameType="CWMS">HEL</SiteName>
+    <SiteProperty PropertyName="location_type">Climate Station</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Helheim Glacier</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="iridium" MediumId="300234060555480">
+    <DecodesScript ScriptName="iridium"/>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

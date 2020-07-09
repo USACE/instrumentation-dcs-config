@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.318888888889</Latitude>
+  <Longitude>-72.665555555556</Longitude>
+  <Elevation>51.816</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>00</State>
+  <Description>Mill River @ Northampton, Ma</Description>
+  <SiteName NameType="CWMS">NHP</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

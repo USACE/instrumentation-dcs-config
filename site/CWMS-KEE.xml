@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.9192</Latitude>
+  <Longitude>-72.2797</Longitude>
+  <Elevation>-72.280272</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>NH</State>
+  <Description>Ashuelot River at Keene</Description>
+  <SiteName NameType="CWMS">KEE</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+</Site>

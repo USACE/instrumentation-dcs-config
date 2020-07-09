@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="115">
+  <Description>Blackstone R at Rt 122 near Uxbridge, MA&#92;n</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  <Site>
+    <Latitude>42.0547222</Latitude>
+    <Longitude>-71.6169444</Longitude>
+    <Elevation>60.386976000000004</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MA</State>
+    <Description>Blackstone River, Rt 122 near Uxbridge</Description>
+    <SiteName NameType="CWMS">UXB</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Blackstone River near Uxbridge
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="DDE684E0">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>133</ChannelNum>
+    <TransmitInterval>00:15</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DDE684E0">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>53</ChannelNum>
+    <AssignedTime>00:09:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

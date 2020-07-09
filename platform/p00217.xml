@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="217">
+  <Description>Passumpsic River at Passumpsic, VT</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  <Site>
+    <Latitude>44.365555555556</Latitude>
+    <Longitude>-72.039722222222</Longitude>
+    <Elevation>152.4</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <Description>Passumpsic River at Passumpsic, VT</Description>
+    <SiteName NameType="CWMS">PAS</SiteName>
+    <SiteProperty PropertyName="vertical_datum">NGVD</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="172B42A6">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>53</ChannelNum>
+    <AssignedTime>00:18:30</AssignedTime>
+    <TransmitWindow>00:00:05</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

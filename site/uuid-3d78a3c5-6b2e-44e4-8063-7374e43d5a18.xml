@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.6575</Latitude>
+  <Longitude>-73.1056</Longitude>
+  <Elevation>124.97104800000001</Elevation>
+  <ElevationUnits>M</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>CT</State>
+  <Description>Black Rock Dam, Branch Brook</Description>
+  <SiteName NameType="local">BRD_PZ-3A</SiteName>
+  <SiteName NameType="uuid">3d78a3c5-6b2e-44e4-8063-7374e43d5a18</SiteName>
+  <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

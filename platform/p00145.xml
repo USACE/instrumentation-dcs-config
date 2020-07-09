@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="145">
+  <Description>Ottaquechee R at W. Bridgewater</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>43.622222222222</Latitude>
+    <Longitude>-72.759444444444</Longitude>
+    <Elevation>-72.758808</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/New_York</Timezone>
+    <State>VT</State>
+    <Description>Ottauquechee River at W. Bridgewater</Description>
+    <SiteName NameType="CWMS">WBR</SiteName>
+    <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Ottauquechee R at W. Bridgewater
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="17C0711E">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>131</ChannelNum>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="17C0711E">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>89</ChannelNum>
+    <AssignedTime>00:33:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

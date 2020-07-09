@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.7055556</Latitude>
+  <Longitude>-71.1527778</Longitude>
+  <Elevation>-71.152512</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <State>MA</State>
+  <Description>Merrimack River at Lawrence</Description>
+  <SiteName NameType="CWMS">LAW</SiteName>
+  <SiteProperty PropertyName="location_type">Forecast</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

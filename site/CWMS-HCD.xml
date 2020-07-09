@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.6219</Latitude>
+  <Longitude>-73.0381</Longitude>
+  <Elevation>138.3792</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>CT</State>
+  <NearestCity>Waterbury</NearestCity>
+  <Description>Hancock Brook Dam, Hancock Brook</Description>
+  <SiteName NameType="CWMS">HCD</SiteName>
+  <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

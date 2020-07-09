@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>44.0425</Latitude>
+  <Longitude>-71.6725</Longitude>
+  <Elevation>266.7</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <Description>NERON SITE AT LINCOLN</Description>
+  <SiteName NameType="CWMS">NLI</SiteName>
+  <SiteProperty PropertyName="location_type">Climate Station</SiteProperty>
+</Site>

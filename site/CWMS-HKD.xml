@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.1886</Latitude>
+  <Longitude>-71.7472</Longitude>
+  <Elevation>111.559848</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NH</State>
+  <NearestCity>Concord</NearestCity>
+  <Description>Hopkinton Dam, Contoocook River</Description>
+  <SiteName NameType="CWMS">HKD</SiteName>
+  <SiteProperty PropertyName="location_type">Pool Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

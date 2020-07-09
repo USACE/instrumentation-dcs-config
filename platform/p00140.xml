@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="140">
+  <Description>NZIR Metar Station</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  <Site>
+    <Latitude>-77.85</Latitude>
+    <Longitude>166.583333333333</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>Unknown or Not Applicable</Timezone>
+    <State>00</State>
+    <NearestCity>Hilo</NearestCity>
+    <Description>McMurdo Ice Runway, Antarctica</Description>
+    <SiteName NameType="CWMS">NZIR</SiteName>
+    <SiteName NameType="local">NZIR</SiteName>
+    <SiteProperty PropertyName="location_type">Climate Data</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">NZIR</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="metar" MediumId="NZIR">
+    <DecodesScript ScriptName="METAR"/>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

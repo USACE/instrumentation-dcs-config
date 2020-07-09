@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="SHEF-Hourly Forecasts">
+  <Description>
+    SHEF standard config file to decode NWS SHEF Forecast Data (From ILEX
+    Eng)&#92;nFor Hourly forecast data (HTF and MID) and Tide forecast HT from
+    Lawerence (LAW)
+  </Description>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>Stage</SensorName>
+    <DataType Standard="CWMS" Code="Stage"/>
+    <DataType Standard="SHEFCODE" Code="HGIFF"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="2">
+    <SensorName>Stage-Tide</SensorName>
+    <DataType Standard="CWMS" Code="Stage-TIDE"/>
+    <DataType Standard="SHEFCODE" Code="HTIFF"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>06:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <DecodesScript ScriptName="shef">
+    <ScriptType>Decodes</ScriptType>
+    <DataOrder>A</DataOrder>
+    <FormatStatement Label="start">shefprocess()</FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

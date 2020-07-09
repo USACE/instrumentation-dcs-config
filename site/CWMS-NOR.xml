@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.3108</Latitude>
+  <Longitude>-72.6219</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <State>00</State>
+  <Description>Connecticut River at North Hampton, MA</Description>
+  <SiteName NameType="CWMS">NOR</SiteName>
+  <SiteProperty PropertyName="location_type">Streamgage</SiteProperty>
+</Site>

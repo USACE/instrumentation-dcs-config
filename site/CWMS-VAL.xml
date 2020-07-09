@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>61.177222222222</Latitude>
+  <Longitude>-146.171666666667</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/Juneau</Timezone>
+  <State>AK</State>
+  <Description>Valdez</Description>
+  <SiteName NameType="CWMS">VAL</SiteName>
+  <SiteProperty PropertyName="location_type">Climate Station</SiteProperty>
+</Site>

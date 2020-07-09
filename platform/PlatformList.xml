@@ -1,0 +1,2513 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformList>
+  <PlatformXref PlatformId="1">
+    <TransportXref MediumType="shef" MediumId="MFDC3"/>
+    <SiteName NameType="CWMS">MHD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Mansfield Hollow Dam, NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="2">
+    <TransportXref MediumType="shef" MediumId="WTHC3"/>
+    <SiteName NameType="CWMS">WTD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>West Thompson Dam, NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="3">
+    <TransportXref MediumType="iridium" MediumId="300234060554500"/>
+    <SiteName NameType="CWMS">HUB</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Hubbard Glacier @ Haenke Island, AK, Meteological Data
+    </Description>
+    <ConfigName>VAL-COR</ConfigName>
+    <PlatformDesignator>Haenke</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="4">
+    <TransportXref MediumType="iridium" MediumId="300234063909020"/>
+    <SiteName NameType="CWMS">HUB</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Hubbard Glacier @ Gilbert Point, AK, Ice Distance Data from Gilbert Point
+      to Hub Glacier (using new LP1 IMIE# and LP1 config with added air temp and
+      wind)
+    </Description>
+    <ConfigName>HUB-Gilbert</ConfigName>
+    <PlatformDesignator>Gilbert</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="5">
+    <TransportXref MediumType="iridium" MediumId="300234011651780"/>
+    <SiteName NameType="CWMS">PEG</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Pegasus Airfield Site 4 near McMurdo Station, Antarctica
+    </Description>
+    <ConfigName>PEG-SITE4</ConfigName>
+    <PlatformDesignator>SITE4</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="6">
+    <TransportXref MediumType="iridium" MediumId="300234010969080"/>
+    <SiteName NameType="CWMS">PEG</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Pegasus Airfield Site 6 near McMurdo Station, Antarctica
+    </Description>
+    <ConfigName>PEG-SITE6</ConfigName>
+    <PlatformDesignator>SITE6</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="7">
+    <TransportXref MediumType="iridium" MediumId="300234010542620"/>
+    <SiteName NameType="CWMS">PEG</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Pegasus Airfield Site 5 near McMurdo Station, Antarctica
+    </Description>
+    <ConfigName>PEG-SITE5</ConfigName>
+    <PlatformDesignator>SITE5</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="8">
+    <TransportXref MediumType="shef" MediumId="JCYC3"/>
+    <SiteName NameType="CWMS">JCY</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Quinebaug R at Jewett City, CT - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="9">
+    <TransportXref MediumType="shef" MediumId="PUTC3"/>
+    <SiteName NameType="CWMS">PUT</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Quinebaug R at Putnam, CT - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="10">
+    <TransportXref MediumType="shef" MediumId="TMSC3"/>
+    <SiteName NameType="CWMS">TMD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Thomaston Dam, NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="11">
+    <TransportXref MediumType="iridium" MediumId="300234061764220"/>
+    <SiteName NameType="CWMS">HNS</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>CRREL Climate Station in Haines, Alaska</Description>
+    <ConfigName>Haines AK Climate</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="12">
+    <TransportXref MediumType="goes-random" MediumId="CE464C18"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE464C18"/>
+    <SiteName NameType="CWMS">HCD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Hancock Brook Dam, Hancock Brook, CT</Description>
+    <ConfigName>HCD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="14">
+    <TransportXref MediumType="goes" MediumId="CE461C64"/>
+    <TransportXref MediumType="goes-random" MediumId="CE461C64"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE461C64"/>
+    <SiteName NameType="CWMS">TMD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Thomaston Dam</Description>
+    <ConfigName>TMD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="15">
+    <TransportXref MediumType="goes-random" MediumId="CE45EBEE"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE45EBEE"/>
+    <SiteName NameType="CWMS">MRD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Mad River Dam, Mad River, CT</Description>
+    <ConfigName>HK</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="16">
+    <TransportXref MediumType="goes-random" MediumId="CE46345A"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE46345A"/>
+    <SiteName NameType="CWMS">HMD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Hall Meadow Dam, Hall Meadow Brook, CT</Description>
+    <ConfigName>HK</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="17">
+    <TransportXref MediumType="goes" MediumId="CE46272C"/>
+    <TransportXref MediumType="goes-random" MediumId="CE46272C"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE46272C"/>
+    <SiteName NameType="CWMS">HBD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Hop Brook Dam, Hop Brook, CT</Description>
+    <ConfigName>HBD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="18">
+    <TransportXref MediumType="goes-random" MediumId="CE4642CA"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4642CA"/>
+    <SiteName NameType="CWMS">NBD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Northfield Brook Dam, Northfield Brook, CT</Description>
+    <ConfigName>NBD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="19">
+    <TransportXref MediumType="goes" MediumId="CE31A6A0"/>
+    <TransportXref MediumType="goes-random" MediumId="CE31A6A0"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE31A6A0"/>
+    <SiteName NameType="CWMS">UVD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Union Village Dam, Ompompanoosuc River, VT</Description>
+    <ConfigName>UVD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="20">
+    <TransportXref MediumType="goes" MediumId="CE3264B0"/>
+    <TransportXref MediumType="goes-random" MediumId="CE3264B0"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE3264B0"/>
+    <SiteName NameType="CWMS">NSD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>North Springfield Dam, Black River, VT</Description>
+    <ConfigName>NSD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="21">
+    <TransportXref MediumType="goes" MediumId="CE31D030"/>
+    <TransportXref MediumType="goes-random" MediumId="CE31D030"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE31D030"/>
+    <SiteName NameType="CWMS">BMD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Ball Mountain Dam, West River,VT</Description>
+    <ConfigName>BMD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="22">
+    <TransportXref MediumType="goes" MediumId="CE31E5AA"/>
+    <TransportXref MediumType="goes-random" MediumId="CE31E5AA"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE31E5AA"/>
+    <SiteName NameType="CWMS">TSD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Townshend Dam, West River, VT</Description>
+    <ConfigName>TSD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="23">
+    <TransportXref MediumType="goes" MediumId="CE31F6DC"/>
+    <TransportXref MediumType="goes-random" MediumId="CE31F6DC"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE31F6DC"/>
+    <SiteName NameType="CWMS">SMD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Surry Mountain Dam, Ashuelot River, NH</Description>
+    <ConfigName>SMD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="24">
+    <TransportXref MediumType="goes" MediumId="CE320156"/>
+    <TransportXref MediumType="goes-random" MediumId="CE320156"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE320156"/>
+    <SiteName NameType="CWMS">OBD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Otter Brook Dam, Otter Brook, NH</Description>
+    <ConfigName>OBD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="25">
+    <TransportXref MediumType="goes" MediumId="CE321220"/>
+    <TransportXref MediumType="goes-random" MediumId="CE321220"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE321220"/>
+    <SiteName NameType="CWMS">BHD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Birch Hill Dam, Millers River, MA</Description>
+    <ConfigName>BHD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="26">
+    <TransportXref MediumType="goes" MediumId="CE3227BA"/>
+    <TransportXref MediumType="goes-random" MediumId="CE3227BA"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE3227BA"/>
+    <SiteName NameType="CWMS">TLD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Tully Dam, East Branch Tully River, MA</Description>
+    <ConfigName>TLD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="27">
+    <TransportXref MediumType="goes" MediumId="CE3234CC"/>
+    <TransportXref MediumType="goes-random" MediumId="CE3234CC"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE3234CC"/>
+    <SiteName NameType="CWMS">BFD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Barre Falls Dam, Ware River, MA</Description>
+    <ConfigName>BFD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="28">
+    <TransportXref MediumType="goes" MediumId="CE32425C"/>
+    <TransportXref MediumType="goes-random" MediumId="CE32425C"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE32425C"/>
+    <SiteName NameType="CWMS">KVD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Knightville Dam, Westfield River, MA</Description>
+    <ConfigName>KVD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="29">
+    <TransportXref MediumType="goes" MediumId="CE32512A"/>
+    <TransportXref MediumType="goes-random" MediumId="CE32512A"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE32512A"/>
+    <SiteName NameType="CWMS">LVD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Littleville Dam, Middle Branch Westfield River, MA
+    </Description>
+    <ConfigName>LVD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="30">
+    <TransportXref MediumType="goes" MediumId="CE31C346"/>
+    <TransportXref MediumType="goes-random" MediumId="CE31C346"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE31C346"/>
+    <SiteName NameType="CWMS">CRD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Colebrook River Dam, West Branch Farmington River, CT
+    </Description>
+    <ConfigName>CRD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="31">
+    <TransportXref MediumType="goes-random" MediumId="CE315624"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE315624"/>
+    <SiteName NameType="CWMS">FFD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Franklin Falls Dam, Pemigewasset River, NH</Description>
+    <ConfigName>FFD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="32">
+    <TransportXref MediumType="goes-random" MediumId="CE3163BE"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE3163BE"/>
+    <SiteName NameType="CWMS">BWD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Blackwater Dam, Blackwater River, NH</Description>
+    <ConfigName>BWD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="33">
+    <TransportXref MediumType="goes" MediumId="CE31933A"/>
+    <TransportXref MediumType="goes-random" MediumId="CE31933A"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE31933A"/>
+    <SiteName NameType="CWMS">EMD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Edward MacDowell Dam, Nubanusit Brook, NH</Description>
+    <ConfigName>EMD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="34">
+    <TransportXref MediumType="goes" MediumId="CE3170C8"/>
+    <TransportXref MediumType="goes-random" MediumId="CE3170C8"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE3170C8"/>
+    <SiteName NameType="CWMS">HKD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Hopkinton Dam, Contoocook River, NH</Description>
+    <ConfigName>HKD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="35">
+    <TransportXref MediumType="goes-random" MediumId="CE31804C"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE31804C"/>
+    <SiteName NameType="CWMS">EVD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Everett Dam, Piscataquog River, NH</Description>
+    <ConfigName>EVD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="36">
+    <TransportXref MediumType="goes" MediumId="CE32A1AE"/>
+    <TransportXref MediumType="goes-random" MediumId="CE32A1AE"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE32A1AE"/>
+    <SiteName NameType="CWMS">EBD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>East Brimfield Dam, Quinebaug River, MA</Description>
+    <ConfigName>EBD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="37">
+    <TransportXref MediumType="goes" MediumId="CE32B2D8"/>
+    <TransportXref MediumType="goes-random" MediumId="CE32B2D8"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE32B2D8"/>
+    <SiteName NameType="CWMS">WVD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Westville Dam, Quinebaug River, MA</Description>
+    <ConfigName>WVD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="38">
+    <TransportXref MediumType="goes" MediumId="CE32C448"/>
+    <TransportXref MediumType="goes-random" MediumId="CE32C448"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE32C448"/>
+    <SiteName NameType="CWMS">WTD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>West Thompson Dam, Quinebaug River, CT</Description>
+    <ConfigName>WTD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="39">
+    <TransportXref MediumType="goes-random" MediumId="CE328742"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE328742"/>
+    <SiteName NameType="CWMS">BVD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Buffumville Dam, Little River, MA</Description>
+    <ConfigName>BVD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="40">
+    <TransportXref MediumType="goes" MediumId="CE329434"/>
+    <TransportXref MediumType="goes-random" MediumId="CE329434"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE329434"/>
+    <SiteName NameType="CWMS">HVD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Hodges Village Dam, French River, MA</Description>
+    <ConfigName>HVD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="41">
+    <TransportXref MediumType="goes-random" MediumId="CE3277C6"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE3277C6"/>
+    <SiteName NameType="CWMS">MHD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Mansfield Holow Dam, Natchaug River, CT</Description>
+    <ConfigName>MHD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="42">
+    <TransportXref MediumType="goes" MediumId="CE32D73E"/>
+    <TransportXref MediumType="goes-random" MediumId="CE32D73E"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE32D73E"/>
+    <SiteName NameType="CWMS">WHD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>West Hill Dam, West River, MA</Description>
+    <ConfigName>WHD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="43">
+    <TransportXref MediumType="goes-random" MediumId="CE3A231C"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE3A231C"/>
+    <SiteName NameType="CWMS">CBD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Conant Brook Dam, Conant Brook, MA</Description>
+    <ConfigName>CBD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="44">
+    <TransportXref MediumType="goes-random" MediumId="CE468906"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE468906"/>
+    <SiteName NameType="CWMS">WDS</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Pemigewasset R at Woodstock, NH</Description>
+    <ConfigName>HGPCTA(8)NI</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="45">
+    <TransportXref MediumType="goes-random" MediumId="CE466426"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE466426"/>
+    <SiteName NameType="CWMS">WIL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Shetucket R at Willimantic, CT</Description>
+    <ConfigName>HG(4)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="46">
+    <TransportXref MediumType="goes-random" MediumId="CE466AF4"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE466AF4"/>
+    <SiteName NameType="CWMS">WEB</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>French R at Webster, MA</Description>
+    <ConfigName>HG(4)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="47">
+    <TransportXref MediumType="goes-random" MediumId="CE46B24E"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE46B24E"/>
+    <SiteName NameType="CWMS">HEN</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Contoocook R at Henniker, NH</Description>
+    <ConfigName>HG(4)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="48">
+    <TransportXref MediumType="goes-random" MediumId="CE465F6E"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE465F6E"/>
+    <SiteName NameType="CWMS">JCY</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Quinebaug R at Jewett City, CT</Description>
+    <ConfigName>HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="49">
+    <TransportXref MediumType="goes-random" MediumId="CE45C3D0"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE45C3D0"/>
+    <SiteName NameType="CWMS">GIB</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Ware R at Gibbs Crossing, MA</Description>
+    <ConfigName>HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="50">
+    <TransportXref MediumType="goes-random" MediumId="CE45BB92"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE45BB92"/>
+    <SiteName NameType="CWMS">DRF</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Deerfield R at Deerfield, MA</Description>
+    <ConfigName>HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="51">
+    <TransportXref MediumType="goes-random" MediumId="CE46C4DE"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE46C4DE"/>
+    <SiteName NameType="CWMS">GFT</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Piscataquog R at Goffstown, NH</Description>
+    <ConfigName>HG(4)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="52">
+    <TransportXref MediumType="goes-random" MediumId="CE46CA0C"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE46CA0C"/>
+    <SiteName NameType="CWMS">GFL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Merrimack R at Goffs Falls, NH</Description>
+    <ConfigName>HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="53">
+    <TransportXref MediumType="goes-random" MediumId="CE46AFEA"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE46AFEA"/>
+    <SiteName NameType="CWMS">RVH</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Contoocook R at River Hill, NH</Description>
+    <ConfigName>HG(4)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="54">
+    <TransportXref MediumType="goes-random" MediumId="CE46BC9C"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE46BC9C"/>
+    <SiteName NameType="CWMS">CON</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Merrimack R at Concord, NH</Description>
+    <ConfigName>HG(4)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="55">
+    <TransportXref MediumType="goes-random" MediumId="CE467750"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE467750"/>
+    <SiteName NameType="CWMS">WNS</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Blackstone R at Woonsocket, RI</Description>
+    <ConfigName>HG(8)rdskip5bat</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="56">
+    <TransportXref MediumType="goes-random" MediumId="CE467982"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE467982"/>
+    <SiteName NameType="CWMS">NTB</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Blackstone R at Northbridge, MA</Description>
+    <ConfigName>HG(8)skipSTBat</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="57">
+    <TransportXref MediumType="goes-random" MediumId="CE46D7A8"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE46D7A8"/>
+    <SiteName NameType="CWMS">LOW</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Merrimack R at Lowell, MA</Description>
+    <ConfigName>HG(16)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="58">
+    <TransportXref MediumType="goes-random" MediumId="CE45CD02"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE45CD02"/>
+    <SiteName NameType="CWMS">KEE</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Ashulet R at Keene, NH</Description>
+    <ConfigName>KEEwithQ</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="59">
+    <TransportXref MediumType="goes-random" MediumId="CE4601C0"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4601C0"/>
+    <SiteName NameType="CWMS">TVL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Connecticut R at Thompsonville, CT</Description>
+    <ConfigName>HG(4)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="60">
+    <TransportXref MediumType="goes-random" MediumId="CE45D0A6"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE45D0A6"/>
+    <SiteName NameType="CWMS">IND</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Chicopee R at Indian Orchard, MA</Description>
+    <ConfigName>HG(8)skipSTBat</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="61">
+    <TransportXref MediumType="goes-random" MediumId="CE45E53C"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE45E53C"/>
+    <SiteName NameType="CWMS">WSF</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Westfield R at Westfield, MA</Description>
+    <ConfigName>HG(8)skip15minbatteries</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="62">
+    <TransportXref MediumType="goes-random" MediumId="CE4651BC"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4651BC"/>
+    <SiteName NameType="CWMS">HTF</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Connecticut R at Hartford, CT</Description>
+    <ConfigName>HG(4)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="63">
+    <TransportXref MediumType="goes-random" MediumId="CE45F898"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE45F898"/>
+    <SiteName NameType="CWMS">SIM</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Farmington R at Simsbury, CT</Description>
+    <ConfigName>HG(4)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="64">
+    <TransportXref MediumType="goes-random" MediumId="CE4612B6"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4612B6"/>
+    <SiteName NameType="CWMS">STV</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Housatonic R at Stevenson, CT</Description>
+    <ConfigName>HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="65">
+    <TransportXref MediumType="goes-random" MediumId="CE45F64A"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE45F64A"/>
+    <SiteName NameType="CWMS">UNV</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Farmington R at Unionville, CT</Description>
+    <ConfigName>HG(4)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="66">
+    <TransportXref MediumType="goes-random" MediumId="CE4694A2"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4694A2"/>
+    <SiteName NameType="CWMS">PLY</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Pemigewasset R at Plymouth, NH</Description>
+    <ConfigName>TWHG(4)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="67">
+    <TransportXref MediumType="goes-random" MediumId="CE46A138"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE46A138"/>
+    <SiteName NameType="CWMS">RUM</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Baker R at Rumney, NH</Description>
+    <ConfigName>HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="68">
+    <TransportXref MediumType="goes-random" MediumId="CE46FF96"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE46FF96"/>
+    <SiteName NameType="CWMS">LEB</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Connecticut R at West Lebanon, NH</Description>
+    <ConfigName>HG(4)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="69">
+    <TransportXref MediumType="goes-random" MediumId="CE46E232"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE46E232"/>
+    <SiteName NameType="CWMS">WHA</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>White R at West Hartford, VT</Description>
+    <ConfigName>HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="70">
+    <TransportXref MediumType="goes-random" MediumId="CE46F144"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE46F144"/>
+    <SiteName NameType="CWMS">NWA</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Connecticut R at N. Walpole, NH</Description>
+    <ConfigName>NWA</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="71">
+    <TransportXref MediumType="goes-random" MediumId="CE46ECE0"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE46ECE0"/>
+    <SiteName NameType="CWMS">WLS</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Connecticut R at Wells River, VT</Description>
+    <ConfigName>HG(4)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="72">
+    <TransportXref MediumType="goes-random" MediumId="CE469A70"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE469A70"/>
+    <SiteName NameType="CWMS">TLT</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Winnipesaukee R at Tilton, NH</Description>
+    <ConfigName>TAHG</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="73">
+    <TransportXref MediumType="goes-random" MediumId="CE4687D4"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4687D4"/>
+    <SiteName NameType="CWMS">BRS</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Smith R at Bristol, NH</Description>
+    <ConfigName>HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="74">
+    <TransportXref MediumType="goes-random" MediumId="CE46D97A"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE46D97A"/>
+    <SiteName NameType="CWMS">SGN</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Souhegan R at Merrimack, NH</Description>
+    <ConfigName>HG(4)Rdbatteryonly</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="75">
+    <TransportXref MediumType="shef" MediumId="MNTM3"/>
+    <SiteName NameType="CWMS">MCY</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Connecticut R at Montague City, MA - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="76">
+    <TransportXref MediumType="goes-random" MediumId="CE5B6E0C"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5B6E0C"/>
+    <SiteName NameType="CWMS">WAT</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Naugatuck R at Waterbury, CT</Description>
+    <ConfigName>HG(4)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="77">
+    <TransportXref MediumType="goes-random" MediumId="CE5DA50E"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5DA50E"/>
+    <SiteName NameType="CWMS">PTB</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Contoocook R at Peterborough, NH</Description>
+    <ConfigName>PTBskipHGgetHG2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="78">
+    <TransportXref MediumType="goes-random" MediumId="CE79515E"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE79515E"/>
+    <SiteName NameType="CWMS">PUT</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Quinebaug R at Putnam, CT</Description>
+    <ConfigName>HG(4)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="79">
+    <TransportXref MediumType="goes-random" MediumId="CE5D9094"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5D9094"/>
+    <SiteName NameType="CWMS">BAR</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Ware R at Barre Plains, MA</Description>
+    <ConfigName>HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="80">
+    <TransportXref MediumType="goes-random" MediumId="CE713ECC"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE713ECC"/>
+    <SiteName NameType="CWMS">FRN</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Merrimack R at Franklin Junction, NH</Description>
+    <ConfigName>HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="81">
+    <TransportXref MediumType="goes-random" MediumId="CE5D8D30"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5D8D30"/>
+    <SiteName NameType="CWMS">ATH</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Millers R at Athol, MA</Description>
+    <ConfigName>ATH</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="82">
+    <TransportXref MediumType="goes-random" MediumId="CE32E2A4"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE32E2A4"/>
+    <SiteName NameType="CWMS">NBS</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>W.B. Farmington R at New Boston, MA</Description>
+    <ConfigName>HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="83">
+    <TransportXref MediumType="goes-random" MediumId="CE39D496"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE39D496"/>
+    <SiteName NameType="CWMS">HOL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Connecticut R at Holyoke, MA</Description>
+    <ConfigName>HG(4)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="84">
+    <TransportXref MediumType="goes-random" MediumId="CE39E10C"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE39E10C"/>
+    <SiteName NameType="CWMS">HUN</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>W.B. Westfield R at Huntington, MA</Description>
+    <ConfigName>HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="85">
+    <TransportXref MediumType="goes-random" MediumId="CE3A05F0"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE3A05F0"/>
+    <SiteName NameType="CWMS">RVT</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Farmington R at Riverton, CT</Description>
+    <ConfigName>HG(4)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="86">
+    <TransportXref MediumType="goes-random" MediumId="CE396718"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE396718"/>
+    <SiteName NameType="CWMS">DAV</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Warner R at Davisville, NH</Description>
+    <ConfigName>HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="87">
+    <TransportXref MediumType="goes-random" MediumId="CE395282"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE395282"/>
+    <SiteName NameType="CWMS">NSD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>N. Springfield TW</Description>
+    <ConfigName>HG-Tailwater</ConfigName>
+    <PlatformDesignator>tailwater</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="88">
+    <TransportXref MediumType="goes-random" MediumId="CE39979C"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE39979C"/>
+    <SiteName NameType="CWMS">HBD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Hop Brook TW</Description>
+    <ConfigName>HG-Tailwater</ConfigName>
+    <PlatformDesignator>tailwater</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="89">
+    <TransportXref MediumType="goes-random" MediumId="CE39B170"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE39B170"/>
+    <SiteName NameType="CWMS">TMD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Thomaston TW</Description>
+    <ConfigName>HG-Tailwater</ConfigName>
+    <PlatformDesignator>tailwater</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="90">
+    <TransportXref MediumType="goes-random" MediumId="CE39C7E0"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE39C7E0"/>
+    <SiteName NameType="CWMS">BVD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Buffumville TW</Description>
+    <ConfigName>HG-Tailwater</ConfigName>
+    <PlatformDesignator>tailwater</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="91">
+    <TransportXref MediumType="goes-random" MediumId="CE3A1686"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE3A1686"/>
+    <SiteName NameType="CWMS">LVD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Littleville TW</Description>
+    <ConfigName>HG-Tailwater</ConfigName>
+    <PlatformDesignator>tailwater</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="92">
+    <TransportXref MediumType="goes-random" MediumId="CE3984EA"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE3984EA"/>
+    <SiteName NameType="CWMS">MHD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Mansfield Hollow TW</Description>
+    <ConfigName>HG-Tailwater</ConfigName>
+    <PlatformDesignator>tailwater</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="93">
+    <TransportXref MediumType="goes-random" MediumId="CE3941F4"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE3941F4"/>
+    <SiteName NameType="CWMS">BMD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Ball Mountain TW</Description>
+    <ConfigName>HGTW(4)NI</ConfigName>
+    <PlatformDesignator>tailwater</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="94">
+    <TransportXref MediumType="goes-random" MediumId="CE39746E"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE39746E"/>
+    <SiteName NameType="CWMS">BWD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Blackwater TW</Description>
+    <ConfigName>HG-Tailwater</ConfigName>
+    <PlatformDesignator>tailwater</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="95">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE393764"/>
+    <SiteName NameType="CWMS">NBB</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>New Bedford Hurricane Barrier</Description>
+    <ConfigName>NBB</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="96">
+    <TransportXref MediumType="goes-random" MediumId="DE1232A6"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="DE1232A6"/>
+    <SiteName NameType="CWMS">MET</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Spicket River at Methuen, MA</Description>
+    <ConfigName>MET</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="97">
+    <TransportXref MediumType="goes-random" MediumId="16DAA018"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="16DAA018"/>
+    <SiteName NameType="CWMS">WIN</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Priest Brook at Winchenden, MA</Description>
+    <ConfigName>DA-HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="98">
+    <TransportXref MediumType="goes-self-timed" MediumId="17B546E8"/>
+    <SiteName NameType="CWMS">WAR</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Mount Hope River, Warrenville, CT</Description>
+    <ConfigName>HG(8)rdLDR</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="99">
+    <TransportXref MediumType="goes-random" MediumId="16553450"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="16553450"/>
+    <SiteName NameType="CWMS">ERV</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Millers River at Erving, MA</Description>
+    <ConfigName>HG(4)rdLDR</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="100">
+    <TransportXref MediumType="goes-random" MediumId="17E501A0"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="17E501A0"/>
+    <SiteName NameType="CWMS">LIN</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>E.B. Pemigewaset R at Lincoln, NH</Description>
+    <ConfigName>DA-HG(8)VB</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="101">
+    <TransportXref MediumType="goes-self-timed" MediumId="DE18930C"/>
+    <SiteName NameType="CWMS">SWY</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Ashuelot River at West Swanzey, NH</Description>
+    <ConfigName>HGTWskipTAPC</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="102">
+    <TransportXref MediumType="goes-random" MediumId="CE7AE5DE"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE7AE5DE"/>
+    <SiteName NameType="CWMS">SBD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Sucker Brook Dam, Sucker Brook, CT</Description>
+    <ConfigName>HK</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="103">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE7AEB0C"/>
+    <SiteName NameType="CWMS">CCC</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Cape Cod Canal Wind Sensor, Bourne, MA</Description>
+    <ConfigName>CCC</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="104">
+    <TransportXref MediumType="goes-self-timed" MediumId="D1162346"/>
+    <SiteName NameType="CWMS">CHA</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Natchaug R near Chaplin, CT</Description>
+    <ConfigName>HG(8)rdLDR</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="105">
+    <TransportXref MediumType="goes-self-timed" MediumId="1655C4D4"/>
+    <SiteName NameType="CWMS">CLO</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Concord River at Lowell, MA</Description>
+    <ConfigName>HG(8)rdLDR</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="106">
+    <TransportXref MediumType="goes-self-timed" MediumId="DF02517C"/>
+    <SiteName NameType="CWMS">COV</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Williamantic River, Coventry, CT</Description>
+    <ConfigName>HG(8)rdLDR</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="107">
+    <TransportXref MediumType="goes-self-timed" MediumId="DDB615C0"/>
+    <SiteName NameType="CWMS">FEN</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Fenton R at Mansfield, CT</Description>
+    <ConfigName>HG(8)rdLDR</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="108">
+    <TransportXref MediumType="goes-random" MediumId="17D0A0E8"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="17D0A0E8"/>
+    <SiteName NameType="CWMS">HAV</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Merrimack R at Haverhill, MA</Description>
+    <ConfigName>DA-HG</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="109">
+    <TransportXref MediumType="goes-self-timed" MediumId="17F2A4F2"/>
+    <SiteName NameType="CWMS">HIN</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Ashuelot River at Hinsdale, NH</Description>
+    <ConfigName>HG(8)rdLDR</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="110">
+    <TransportXref MediumType="goes-random" MediumId="CE891040"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE891040"/>
+    <SiteName NameType="CWMS">HUB</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Hubbard Glacier, Alaska</Description>
+    <ConfigName>HUBBARD-GLACIER</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="111">
+    <TransportXref MediumType="goes-random" MediumId="CE1073DC"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE1073DC"/>
+    <SiteName NameType="CWMS">LON</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>West River at Londonderry</Description>
+    <ConfigName>HG(4)Rdskip2Bat</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="112">
+    <TransportXref MediumType="goes-self-timed" MediumId="DDAF2198"/>
+    <SiteName NameType="CWMS">MIL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Blackstone R at Millbury, MA</Description>
+    <ConfigName>HG(8)rdLDR</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="113">
+    <TransportXref MediumType="goes-self-timed" MediumId="15C2C420"/>
+    <SiteName NameType="CWMS">NBF</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Barre Falls NWS Neron site</Description>
+    <ConfigName>NERON</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="114">
+    <TransportXref MediumType="goes-self-timed" MediumId="1173478E"/>
+    <SiteName NameType="CWMS">NUV</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Union Village NWS Neron site</Description>
+    <ConfigName>NERON</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="115">
+    <TransportXref MediumType="goes-random" MediumId="DDE684E0"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="DDE684E0"/>
+    <SiteName NameType="CWMS">UXB</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Blackstone R at Rt 122 near Uxbridge, MA</Description>
+    <ConfigName>HG(8)rdskip5bat</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="116">
+    <TransportXref MediumType="iridium" MediumId="300234011655820"/>
+    <SiteName NameType="CWMS">PEG</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Pegasus Airfield Site 3 near McMurdo Station, Antarctica
+    </Description>
+    <ConfigName>PEG-SITE3</ConfigName>
+    <PlatformDesignator>SITE3</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="117">
+    <TransportXref MediumType="iridium" MediumId="300234010543620"/>
+    <SiteName NameType="CWMS">PEG</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Pegasus Airfield Site 1 near McMurdo Station, Antarctica
+    </Description>
+    <ConfigName>PEG-SITE1</ConfigName>
+    <PlatformDesignator>SITE1</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="118">
+    <TransportXref MediumType="shef" MediumId="STVC3"/>
+    <SiteName NameType="CWMS">STV</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Housatonic R at Stevenson, CT - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="119">
+    <TransportXref MediumType="shef" MediumId="OTRN3"/>
+    <SiteName NameType="CWMS">OBD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Otter Brook Dam, NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="120">
+    <TransportXref MediumType="shef" MediumId="KNTM3"/>
+    <SiteName NameType="CWMS">KVD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Knightville Dam, NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="121">
+    <TransportXref MediumType="shef" MediumId="RVRC3"/>
+    <SiteName NameType="CWMS">CRD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Colebrook River Dam, NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="122">
+    <TransportXref MediumType="shef" MediumId="SAXM3"/>
+    <SiteName NameType="CWMS">SAX</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Sudbury River at Saxonville, MA - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="123">
+    <TransportXref MediumType="shef" MediumId="FTKM1"/>
+    <SiteName NameType="CWMS">FKT</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>St John R at FT. Kent, ME - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="124">
+    <TransportXref MediumType="shef" MediumId="WSHM1"/>
+    <SiteName NameType="CWMS">WAS</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Aroostook R at Washburn, ME - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="125">
+    <TransportXref MediumType="goes" MediumId="CC31C346"/>
+    <SiteName NameType="CWMS">CRD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Colebrook River Dam, Office Weather Data</Description>
+    <ConfigName>CRD</ConfigName>
+    <PlatformDesignator>Weather</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="126">
+    <TransportXref MediumType="shef" MediumId="INDM3"/>
+    <SiteName NameType="CWMS">IND</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Chicopee R at Indian Orchard, MA - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="127">
+    <TransportXref MediumType="shef" MediumId="WSFM3"/>
+    <SiteName NameType="CWMS">WSF</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Westfield R at Westfield, MA - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="128">
+    <TransportXref MediumType="shef" MediumId="TMVC3"/>
+    <SiteName NameType="CWMS">TVL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Connecticut R at Thompsonville, CT - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="129">
+    <TransportXref MediumType="shef" MediumId="UNVC3"/>
+    <SiteName NameType="CWMS">UNV</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Farmington R at Unionville, CT - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="130">
+    <TransportXref MediumType="shef" MediumId="SIMC3"/>
+    <SiteName NameType="CWMS">SIM</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Farmington R at Simsbury, CT - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="131">
+    <TransportXref MediumType="shef" MediumId="HFDC3"/>
+    <SiteName NameType="CWMS">HTF</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Connecticut R at Hartford, CT - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Hourly Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="132">
+    <TransportXref MediumType="shef" MediumId="SPGM3"/>
+    <SiteName NameType="CWMS">SPR</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Connecticut River at West Springfield, MA - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="133">
+    <TransportXref MediumType="shef" MediumId="TARC3"/>
+    <SiteName NameType="CWMS">TAR</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Farmington River at Tariffville, CT - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="134">
+    <TransportXref MediumType="shef" MediumId="LWMM3"/>
+    <SiteName NameType="CWMS">LAW</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Merrimack River at Lawrence, MA - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Hourly Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="135">
+    <TransportXref MediumType="shef" MediumId="WOON3"/>
+    <SiteName NameType="CWMS">WDS</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Pemigewasset R at Woodstock, NH - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="136">
+    <TransportXref MediumType="shef" MediumId="RUMN3"/>
+    <SiteName NameType="CWMS">RUM</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Baker R at Rumney, NH - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="137">
+    <TransportXref MediumType="shef" MediumId="PLMN3"/>
+    <SiteName NameType="CWMS">PLY</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Pemigewasset R at Plymouth, NH - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="138">
+    <TransportXref MediumType="shef" MediumId="BRSN3"/>
+    <SiteName NameType="CWMS">BRS</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Smith R at Bristol, NH - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:30</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="139">
+    <TransportXref MediumType="iridium" MediumId="300034012635570"/>
+    <SiteName NameType="CWMS">COL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Columbia Glacier, Alaska</Description>
+    <ConfigName>COL</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="140">
+    <TransportXref MediumType="metar" MediumId="NZIR"/>
+    <SiteName NameType="CWMS">NZIR</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>NZIR Metar Station</Description>
+    <ConfigName>Metar-NAE</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="141">
+    <TransportXref MediumType="metar" MediumId="NZPG"/>
+    <SiteName NameType="CWMS">PEG</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>NZPG Metar Station</Description>
+    <ConfigName>Metar-NAE</ConfigName>
+    <PlatformDesignator>METAR</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="142">
+    <TransportXref MediumType="goes-random" MediumId="CE5B73A8"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5B73A8"/>
+    <SiteName NameType="CWMS">PEP</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Nashua R at E. Pepperell, MA</Description>
+    <ConfigName>HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="143">
+    <TransportXref MediumType="shef" MediumId="RYLM3"/>
+    <SiteName NameType="CWMS">BHD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Birch Hill Dam, NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="144">
+    <TransportXref MediumType="goes-random" MediumId="CE39A206"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE39A206"/>
+    <SiteName NameType="CWMS">BRD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Black Rock TW</Description>
+    <ConfigName>HG-Tailwater</ConfigName>
+    <PlatformDesignator>tailwater</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="145">
+    <TransportXref MediumType="goes-random" MediumId="17C0711E"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="17C0711E"/>
+    <SiteName NameType="CWMS">WBR</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Ottaquechee R at W. Bridgewater</Description>
+    <ConfigName>HGskipPC</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="146">
+    <TransportXref MediumType="goes-self-timed" MediumId="1668724C"/>
+    <SiteName NameType="CWMS">WMT</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Shawsheen River at Wilmington, MA</Description>
+    <ConfigName>DA-HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="147">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4D695C"/>
+    <SiteName NameType="CWMS">PFP</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>CRREL Portable Flood Protection System</Description>
+    <ConfigName>PFP-CRREL</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="148">
+    <TransportXref MediumType="goes-self-timed" MediumId="17330294"/>
+    <SiteName NameType="CWMS">WOL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Wolverine Glacier, AK</Description>
+    <ConfigName>GUL-WOL</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="149">
+    <TransportXref MediumType="goes-random" MediumId="CE8925DA"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE8925DA"/>
+    <SiteName NameType="CWMS">HUB</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Hubbard Test, Alaska</Description>
+    <ConfigName>HUBBARD-GLACIER</ConfigName>
+    <PlatformDesignator>TEST</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="150">
+    <TransportXref MediumType="goes-random" MediumId="CE4D0CBA"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4D0CBA"/>
+    <SiteName NameType="CWMS">SND</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Sandwich, CCC, MA</Description>
+    <ConfigName>WNGSND</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="151">
+    <TransportXref MediumType="goes-random" MediumId="CE123522"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE123522"/>
+    <SiteName NameType="CWMS">WNG</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Wing&apos;s Neck, CCC, MA</Description>
+    <ConfigName>WNGSND</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="152">
+    <TransportXref MediumType="goes-self-timed" MediumId="177AC20A"/>
+    <SiteName NameType="CWMS">WAS</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Aroostook R at Washburn, ME</Description>
+    <ConfigName>HG-SHEF(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="153">
+    <TransportXref MediumType="goes-self-timed" MediumId="17C8A3D0"/>
+    <SiteName NameType="CWMS">EBN</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Monatiquot River at East Braintree, MA</Description>
+    <ConfigName>HG(8)skipBat</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="154">
+    <TransportXref MediumType="goes-self-timed" MediumId="DE22A1B4"/>
+    <SiteName NameType="CWMS">WAL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Quinnipiac R at Wallingford, CT</Description>
+    <ConfigName>HG(8)NIskipPCskipTA</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="155">
+    <TransportXref MediumType="iridium" MediumId="300234010623960"/>
+    <SiteName NameType="CWMS">PEG</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Pegasus Airfield Site 2 near McMurdo Station, Antarctica
+    </Description>
+    <ConfigName>PEG-SITE2</ConfigName>
+    <PlatformDesignator>SITE2</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="156">
+    <TransportXref MediumType="goes-self-timed" MediumId="17CA2030"/>
+    <SiteName NameType="CWMS">CAN</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>E. B. Neponset River at Canton, MA</Description>
+    <ConfigName>HGskipTAskipBat(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="157">
+    <TransportXref MediumType="goes-self-timed" MediumId="17D2307E"/>
+    <SiteName NameType="CWMS">WBF</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Quaboag River at West Brimfield, MA</Description>
+    <ConfigName>DA-HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="158">
+    <TransportXref MediumType="goes-random" MediumId="D11E8718"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="D11E8718"/>
+    <SiteName NameType="CWMS">OTR</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Otter River at Otter River, MA</Description>
+    <ConfigName>HG(8)rdLDR</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="159">
+    <TransportXref MediumType="goes-self-timed" MediumId="17D07680"/>
+    <SiteName NameType="CWMS">NHP</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Mill River at Northampton, MA</Description>
+    <ConfigName>HG(8)rdLDR</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="160">
+    <TransportXref MediumType="goes-self-timed" MediumId="DDB9D64C"/>
+    <SiteName NameType="CWMS">SAX</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Sudbury River at Saxonville, MA</Description>
+    <ConfigName>DA-HGVB(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="161">
+    <TransportXref MediumType="goes-self-timed" MediumId="16213A14"/>
+    <SiteName NameType="CWMS">EDD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Penobscot River at Eddington, ME</Description>
+    <ConfigName>HG-SHEF(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="162">
+    <TransportXref MediumType="goes-self-timed" MediumId="17D613A8"/>
+    <SiteName NameType="CWMS">FKT</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>St John R at FT. Kent, ME</Description>
+    <ConfigName>FKT</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="163">
+    <TransportXref MediumType="goes-self-timed" MediumId="17C5B3C0"/>
+    <SiteName NameType="CWMS">ROC</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Cocheco R near Rochester, NH</Description>
+    <ConfigName>DA-HGTA</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="164">
+    <TransportXref MediumType="iridium" MediumId="30003401286XXXX"/>
+    <SiteName NameType="CWMS">LP1</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      CRREL Laser Profiler1 currently being used in Alaska (formerly used IMIE#
+      300034012865090 which is now at Gilbert Point for Hubbard Glacier)
+    </Description>
+    <ConfigName>LP1-Iridium</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="165">
+    <TransportXref MediumType="shef" MediumId="NHDV1"/>
+    <SiteName NameType="CWMS">NHD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>North Hartland Dam, NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="166">
+    <TransportXref MediumType="goes-random" MediumId="CE460F12"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE460F12"/>
+    <SiteName NameType="CWMS">BCN</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Naugatuck River at Beacon Falls</Description>
+    <ConfigName>HG(4)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="167">
+    <TransportXref MediumType="shef" MediumId="WHKN3"/>
+    <SiteName NameType="CWMS">HKD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Hopkinton Dam, NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="168">
+    <TransportXref MediumType="goes-self-timed" MediumId="DE1221D0"/>
+    <SiteName NameType="CWMS">GIL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Ashuelot Rv near Gilsum, NH</Description>
+    <ConfigName>HGskipTATW(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="169">
+    <TransportXref MediumType="iridium" MediumId="300034012797940"/>
+    <SiteName NameType="CWMS">MAL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Minnewawa Brook at Marlborough, NH</Description>
+    <ConfigName>MAL-SBD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="170">
+    <TransportXref MediumType="goes-self-timed" MediumId="DE22942E"/>
+    <SiteName NameType="CWMS">QBQ</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Quinebaug River @ Quinebaug, CT</Description>
+    <ConfigName>HG(8)rdLDR</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="171">
+    <TransportXref MediumType="goes" MediumId="CE4D0268"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4D0268"/>
+    <SiteName NameType="CWMS">FPB</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Fox Point Hurricane Barrier, Providence, RI</Description>
+    <ConfigName>FPB</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="172">
+    <TransportXref MediumType="goes" MediumId="CE5D9E46"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5D9E46"/>
+    <SiteName NameType="CWMS">SHB</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Stamford Hurricane Barrier</Description>
+    <ConfigName>SHB</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="173">
+    <TransportXref MediumType="goes" MediumId="CC31D030"/>
+    <SiteName NameType="CWMS">BMD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Ball Mountain Dam, West River,VT-Weather</Description>
+    <ConfigName>BMD</ConfigName>
+    <PlatformDesignator>Weather</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="174">
+    <TransportXref MediumType="goes-random" MediumId="CE9833C8"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE9833C8"/>
+    <SiteName NameType="CWMS">WFD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Woonsocket Falls Dam Pool Stage Only transmitting from WFD DCP,
+      Woonsocket, RI
+    </Description>
+    <ConfigName>WFD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="175">
+    <TransportXref MediumType="goes-random" MediumId="CE45DE74"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE45DE74"/>
+    <SiteName NameType="CWMS">MCY</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Connecticut R at Montague City</Description>
+    <ConfigName>HG(16)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="176">
+    <TransportXref MediumType="goes-random" MediumId="CE463A88"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE463A88"/>
+    <SiteName NameType="CWMS">EAD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>East Branch Dam, East Branch Naugatuck R, CT</Description>
+    <ConfigName>EAD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="177">
+    <TransportXref MediumType="goes-self-timed" MediumId="17B56004"/>
+    <SiteName NameType="CWMS">FOR</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Branch River, Forestdale, RI</Description>
+    <ConfigName>HG(8)skipBat</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="178">
+    <TransportXref MediumType="goes-self-timed" MediumId="1733370E"/>
+    <SiteName NameType="CWMS">GUL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Gulkana Glacier, AK</Description>
+    <ConfigName>GUL-WOL</ConfigName>
+    <PlatformDesignator>GOES</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="179">
+    <TransportXref MediumType="shef" MediumId="UVDV1"/>
+    <SiteName NameType="CWMS">UVD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Union Village Dam, NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="180">
+    <TransportXref MediumType="shef" MediumId="BALV1"/>
+    <SiteName NameType="CWMS">BMD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Ball Mountain Dam, NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="181">
+    <TransportXref MediumType="shef" MediumId="WLMM3"/>
+    <SiteName NameType="CWMS">WMT</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Shawsheen River at Wilmington, MA - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="182">
+    <TransportXref MediumType="shef" MediumId="WEHV1"/>
+    <SiteName NameType="CWMS">WHA</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>White River West Hartford, VT - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="183">
+    <TransportXref MediumType="shef" MediumId="WLBN3"/>
+    <SiteName NameType="CWMS">LEB</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Connecticut R at West Lebanon, NH - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="184">
+    <TransportXref MediumType="shef" MediumId="WLPN3"/>
+    <SiteName NameType="CWMS">NWA</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Connecticut R at N. Walpole, NH - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="185">
+    <TransportXref MediumType="shef" MediumId="DNSM3"/>
+    <SiteName NameType="CWMS">PEP</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Nahua River at Peperal, MA - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="186">
+    <TransportXref MediumType="shef" MediumId="NHMM3"/>
+    <SiteName NameType="CWMS">NOR</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Connecticut R at North Hampton, MA - NWS Forecast Data (Stage only during
+      Floods)
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="187">
+    <TransportXref MediumType="shef" MediumId="HLYM3"/>
+    <SiteName NameType="CWMS">HOL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Connecticut R at Holyoke, MA - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="188">
+    <TransportXref MediumType="shef" MediumId="WOOR1"/>
+    <SiteName NameType="CWMS">WNS</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Blackstone R at Woonsocket, RI - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="189">
+    <TransportXref MediumType="shef" MediumId="NBRM3"/>
+    <SiteName NameType="CWMS">NTB</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Blackstone R at Northbridge, MA - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="190">
+    <TransportXref MediumType="shef" MediumId="WLMC3"/>
+    <SiteName NameType="CWMS">WIL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Shetucket R at Willimantic, CT - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="191">
+    <TransportXref MediumType="shef" MediumId="FFDN3"/>
+    <SiteName NameType="CWMS">FFD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Franklin Falls Dam, NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="192">
+    <TransportXref MediumType="shef" MediumId="HVRM3"/>
+    <SiteName NameType="CWMS">HAV</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Merrimack R at Haverhill, MA - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Hourly Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="193">
+    <TransportXref MediumType="shef" MediumId="LOWM3"/>
+    <SiteName NameType="CWMS">LOW</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Merrimack R at Lowell, MA - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="194">
+    <TransportXref MediumType="shef" MediumId="LCNM3"/>
+    <SiteName NameType="CWMS">CLO</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Concord River at Lowell, MA - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="195">
+    <TransportXref MediumType="shef" MediumId="NSHN3"/>
+    <SiteName NameType="CWMS">NAS</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Merrimack River at Nashua - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="196">
+    <TransportXref MediumType="shef" MediumId="SOHN3"/>
+    <SiteName NameType="CWMS">SGN</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Souhegan R at Merrimack, NH - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="197">
+    <TransportXref MediumType="shef" MediumId="GOFN3"/>
+    <SiteName NameType="CWMS">GFL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Merrimack R at Goffs Falls, NH - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="198">
+    <TransportXref MediumType="shef" MediumId="GFFN3"/>
+    <SiteName NameType="CWMS">GFT</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Piscataquog R at Goffstown, NH - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="199">
+    <TransportXref MediumType="shef" MediumId="DAVN3"/>
+    <SiteName NameType="CWMS">DAV</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Warner R at Davisville, NH - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="200">
+    <TransportXref MediumType="shef" MediumId="HENN3"/>
+    <SiteName NameType="CWMS">HEN</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Contoocook R at Henniker, NH - NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="201">
+    <TransportXref MediumType="shef" MediumId="PTRN3"/>
+    <SiteName NameType="CWMS">PTB</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Contoocook R at Peterborough, NH - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="202">
+    <TransportXref MediumType="shef" MediumId="FRJN3"/>
+    <SiteName NameType="CWMS">FRN</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Merrimack R at Franklin Junction, NH - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="203">
+    <TransportXref MediumType="iridium" MediumId="3000340127XXXXX"/>
+    <SiteName NameType="CWMS">LP2</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      CRREL Laser Profiler2 currently not being used (old IMIE went to Cordova,
+      Alaska)
+    </Description>
+    <ConfigName>LP1-Iridium</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="204">
+    <TransportXref MediumType="goes-self-timed" MediumId="1732F0EA"/>
+    <SiteName NameType="CWMS">CEN</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Woonasquatucket River at Centerdale, RI</Description>
+    <ConfigName>HG(4)rdLDR</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="205">
+    <TransportXref MediumType="goes-self-timed" MediumId="1732E39C"/>
+    <SiteName NameType="CWMS">PRO</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Moshassuck River at Providence, RI</Description>
+    <ConfigName>HG(8)skipBat</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="206">
+    <TransportXref MediumType="goes-random" MediumId="CE39F27A"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE39F27A"/>
+    <SiteName NameType="CWMS">ROY</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Millers River at South Royalston, MA (old BHD tailwater gage). On 1 Nov
+      USGS removed Dead DA unit and replaced with Sutron Satlink. They did not
+      know how to hook up the water temp sensor, so temporarily stopped
+      tx&apos;ng it. For now decoded changed for what is currently transmitting
+      until water temp sensor back.
+    </Description>
+    <ConfigName>HGTW(8)NI</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="207">
+    <TransportXref MediumType="iridium" MediumId="300234063554810"/>
+    <SiteName NameType="CWMS">HELNORTH</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Helheim Glacier, Greenland Atlas North Health Data
+    </Description>
+    <ConfigName>ATLAS-CRREL</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="208">
+    <TransportXref MediumType="goes-self-timed" MediumId="0330C188"/>
+    <SiteName NameType="CWMS">NAS</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Merrimack River at Nashua</Description>
+    <ConfigName>HG(4)rdLDR</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="209">
+    <TransportXref MediumType="iridium" MediumId="300034012635550"/>
+    <SiteName NameType="CWMS">GUL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Gulkana Glacier, AK</Description>
+    <ConfigName>GUL-Iridium</ConfigName>
+    <PlatformDesignator>Iridium</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="210">
+    <TransportXref MediumType="shef" MediumId="WELV1"/>
+    <SiteName NameType="CWMS">WLS</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Connecticut R at Wells River, VT - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="211">
+    <TransportXref MediumType="shef" MediumId="KENN3"/>
+    <SiteName NameType="CWMS">SMD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Surry Mountain Dam, NWS Forecast Data</Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="212">
+    <TransportXref MediumType="iridium" MediumId="300034012728020"/>
+    <SiteName NameType="CWMS">COR</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>CRREL Climate Station in Cordova, Alaska</Description>
+    <ConfigName>VAL-COR</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="213">
+    <TransportXref MediumType="iridium" MediumId="300034012724030"/>
+    <SiteName NameType="CWMS">VAL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>CRREL Climate Station in Valdez, Alaska</Description>
+    <ConfigName>VAL-COR</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="214">
+    <TransportXref MediumType="goes-random" MediumId="DE4900D6"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="DE4900D6"/>
+    <SiteName NameType="CWMS">ROB</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Still River at Robertsville, CT</Description>
+    <ConfigName>HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="215">
+    <TransportXref MediumType="goes-random" MediumId="1683A206"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="1683A206"/>
+    <SiteName NameType="CWMS">WCH</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Priest Brook at Winchenden, MA</Description>
+    <ConfigName>DA-HG(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="216">
+    <TransportXref MediumType="goes-self-timed" MediumId="17CE03E6"/>
+    <SiteName NameType="CWMS">SID</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Kennebec River at North Sidney</Description>
+    <ConfigName>HG-SHEF(8)</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="217">
+    <TransportXref MediumType="goes-self-timed" MediumId="172B42A6"/>
+    <SiteName NameType="CWMS">PAS</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Passumpsic River at Passumpsic, VT</Description>
+    <ConfigName>DA-HGTAPC</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="218">
+    <TransportXref MediumType="goes-self-timed" MediumId="165475A0"/>
+    <SiteName NameType="CWMS">WWA</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Swift River at West Ware, MA</Description>
+    <ConfigName>HGskipVB</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="219">
+    <TransportXref MediumType="goes-self-timed" MediumId="DF01060E"/>
+    <SiteName NameType="CWMS">ESS</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Connecticut River at Essex, CT</Description>
+    <ConfigName>ESS</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="220">
+    <TransportXref MediumType="shef" MediumId="BEAC3"/>
+    <SiteName NameType="CWMS">BCN</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Naugatuck R at Beacon Falls, CT - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="221">
+    <TransportXref MediumType="iridium" MediumId="300234010498510"/>
+    <SiteName NameType="CWMS">WTS</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Watson River, Greenland</Description>
+    <ConfigName>WTS-SHEF</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="222">
+    <TransportXref MediumType="goes" MediumId="CE1060AA"/>
+    <TransportXref MediumType="goes-random" MediumId="CE1060AA"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE1060AA"/>
+    <SiteName NameType="CWMS">RCC</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Reservoir Control Center Test Site at CENAE</Description>
+    <ConfigName>RCC-Test</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="223">
+    <TransportXref MediumType="iridium" MediumId="300234060555480"/>
+    <SiteName NameType="CWMS">HEL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Helheim Glacier, Greenland Weather Station Data</Description>
+    <ConfigName>VAL-COR</ConfigName>
+    <PlatformDesignator>Weather</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="224">
+    <TransportXref MediumType="goes-random" MediumId="CE2F83BA"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE2F83BA"/>
+    <SiteName NameType="CWMS">WFD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      From Social St PS DCP, transmitting WFD pool stage (HK), Precip (PC),
+      Social inlet stage, Hamlet Inlet Stage, bldg temp, and Blackstone River
+      (HG). WFD pool stage and Hamlet PS inlet values are radiod over to Social
+    </Description>
+    <ConfigName>Social</ConfigName>
+    <PlatformDesignator>Social</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="225">
+    <TransportXref MediumType="goes-random" MediumId="CE0CA3B6"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE0CA3B6"/>
+    <SiteName NameType="CWMS">KVD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Knightville tailwater</Description>
+    <ConfigName>HG-TailBatt</ConfigName>
+    <PlatformDesignator>tailwater</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="226">
+    <TransportXref MediumType="goes" MediumId="CE31B5D6"/>
+    <TransportXref MediumType="goes-random" MediumId="CE31B5D6"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE31B5D6"/>
+    <SiteName NameType="CWMS">NHD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>North Hartland Dam, Ottauquechee River, VT</Description>
+    <ConfigName>NHD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="227">
+    <TransportXref MediumType="goes-self-timed" MediumId="1170A372"/>
+    <SiteName NameType="CWMS">NLI</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>E.B. Pemigewaset R at Lincoln, NH</Description>
+    <ConfigName>NERON</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:31</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="228">
+    <TransportXref MediumType="iridium" MediumId="300234063554840"/>
+    <SiteName NameType="CWMS">HELSOUTH</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Helheim Glacier, Greenland Atlas South Health Data
+    </Description>
+    <ConfigName>ATLAS-CRREL</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="229">
+    <TransportXref MediumType="iridium" MediumId="300234063553790"/>
+    <SiteName NameType="CWMS">ING</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      CRREL Climate Station in North Inglefield, Greenland
+    </Description>
+    <ConfigName>ING</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="230">
+    <TransportXref MediumType="shef" MediumId="PASV1"/>
+    <SiteName NameType="CWMS">PAS</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Passumpsic River at Passumpsic, VT - NWS Forecast Data
+    </Description>
+    <ConfigName>SHEF-Forecasts</ConfigName>
+    <PlatformDesignator>SHEF</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="231">
+    <TransportXref MediumType="goes" MediumId="CC461C64"/>
+    <SiteName NameType="CWMS">TMD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Thomaston Dam, CT-Weather</Description>
+    <ConfigName>TMD</ConfigName>
+    <PlatformDesignator>Weather</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="232">
+    <TransportXref MediumType="iridium" MediumId="300234063554800"/>
+    <SiteName NameType="CWMS">Atlas-CRREL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Test site located at CRREL for Atlas system</Description>
+    <ConfigName>ATLAS-CRREL</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="233">
+    <TransportXref MediumType="goes" MediumId="CC31F6DC"/>
+    <SiteName NameType="CWMS">SMD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>SMD Weather</Description>
+    <ConfigName>SMD</ConfigName>
+    <PlatformDesignator>Weather</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="234">
+    <TransportXref MediumType="goes-random" MediumId="172B2740"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="172B2740"/>
+    <SiteName NameType="CWMS">HKD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Hopkinton Dam, Contoocook River, NH Temporarily using USGS gage as
+      separate tailwater
+    </Description>
+    <ConfigName>HKD-Tail</ConfigName>
+    <PlatformDesignator>tailwater</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="235">
+    <TransportXref MediumType="goes" MediumId="CC31E5AA"/>
+    <SiteName NameType="CWMS">TSD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Townshend Dam, VT-Weather</Description>
+    <ConfigName>TSD</ConfigName>
+    <PlatformDesignator>Weather</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="236">
+    <TransportXref MediumType="goes" MediumId="CC329434"/>
+    <SiteName NameType="CWMS">HVD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Geotech DCP located in Utility Bldg sending PZ data via DamsNT
+    </Description>
+    <ConfigName>HVD</ConfigName>
+    <PlatformDesignator>Geotech</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="237">
+    <TransportXref MediumType="goes-self-timed" MediumId="166891BE"/>
+    <SiteName NameType="CWMS">FIT</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Nashua River at Fitchburg, MA</Description>
+    <ConfigName>HG(8)skipSTBat</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="238">
+    <TransportXref MediumType="iridium" MediumId="300234068620520"/>
+    <SiteName NameType="CWMS">THL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Oblique-Laser4 installed in North River @ Thule, Greenland. Positioned on
+      right bank downstream of bridge.
+    </Description>
+    <ConfigName>Obl-Laser4</ConfigName>
+    <PlatformDesignator>OLaser4</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="239">
+    <TransportXref MediumType="iridium" MediumId="300234068628020"/>
+    <SiteName NameType="CWMS">THL</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Oblique Laser 2 installed in Fox Canyon River @ Thule, Greenland.
+      Positioned on right bank downriver of bridge.
+    </Description>
+    <ConfigName>Obl-Laser2</ConfigName>
+    <PlatformDesignator>OLaser2</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="240">
+    <TransportXref MediumType="iridium" MediumId="300234067764590"/>
+    <SiteName NameType="CWMS">ING</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      Oblique Laser 3 installed in Minturn Elv @ Inglefield, Greenland.
+      Positioned on right bank downriver.
+    </Description>
+    <ConfigName>Obl-Laser3</ConfigName>
+    <PlatformDesignator>OLaser3</PlatformDesignator>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>06/29/2020 20:50:32</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="13">
+    <TransportXref MediumType="goes" MediumId="CE4629FE"/>
+    <TransportXref MediumType="goes-random" MediumId="CE4629FE"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4629FE"/>
+    <SiteName NameType="CWMS">BRD</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Black Rock Dam, Branch Brook, CT</Description>
+    <ConfigName>BRD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>07/02/2020 20:38:01</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="242">
+    <TransportXref MediumType="goes" MediumId="CE4629FE"/>
+    <TransportXref MediumType="goes-random" MediumId="CE4629FE"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4629FE"/>
+    <SiteName NameType="local">Black_Rock_Dam</SiteName>
+    <Agency></Agency>
+    <Description>Black Rock Dam, Branch Brook, CT</Description>
+    <ConfigName>BlackRockDam</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>07/08/2020 15:38:31</LastModifyTime>
+  </PlatformXref>
+</PlatformList>
