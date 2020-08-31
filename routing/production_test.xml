@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<RoutingSpec Name="production">
+<RoutingSpec Name="production_test">
   <IsProduction>true</IsProduction>
   <DataSource Name="hotbackup" Type="hotbackupgroup">
     <DataSourceArg></DataSourceArg>
@@ -45,9 +45,6 @@
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="justify">
     False
-  </RoutingSpecProperty>
-  <RoutingSpecProperty PropertyName="cmdAfterFile">
-    /cmdAfterFile.sh $FILENAME
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="sc:DAPS_STATUS">
     R

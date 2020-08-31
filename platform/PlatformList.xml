@@ -1694,8 +1694,7 @@
     <TransportXref MediumType="goes-self-timed" MediumId="CE42E9DA"/>
     <SiteName NameType="CWMS">SC09-Salt_Cr_Dam_9-Stagecoach_Lake</SiteName>
     <Agency>CWMS</Agency>
-    <Description>Salt Cr Dam 9 in Lincoln, NE
-</Description>
+    <Description>Salt Cr Dam 9 in Lincoln, NE</Description>
     <ConfigName>NWO-SC09</ConfigName>
     <IsProduction>false</IsProduction>
     <LastModifyTime>08/31/2020 15:53:51</LastModifyTime>
@@ -2003,17 +2002,6 @@
       EMERGENCY GAGE - Cottonwood Cr ab Lake Lamoure nr Lamoure, ND
     </Description>
     <ConfigName>NWO-CCND</ConfigName>
-    <IsProduction>false</IsProduction>
-    <LastModifyTime>08/31/2020 15:53:52</LastModifyTime>
-  </PlatformXref>
-  <PlatformXref PlatformId="210">
-    <TransportXref MediumType="goes-self-timed" MediumId="DD1A4276"/>
-    <SiteName NameType="CWMS">46ND</SiteName>
-    <Agency>CWMS</Agency>
-    <Description>
-      TEMPORARY GAGE - JAMES RIVER AT HWY 46 NR ADRIAN, ND
-    </Description>
-    <ConfigName>NWO-46ND</ConfigName>
     <IsProduction>false</IsProduction>
     <LastModifyTime>08/31/2020 15:53:52</LastModifyTime>
   </PlatformXref>
@@ -2705,10 +2693,8 @@
     <SiteName NameType="CWMS">TIBR-Tiber_Dam-Marias</SiteName>
     <Agency>CWMS</Agency>
     <Description>
-      Tiber Dam on the Marias R, MT (bubbler)
-TIBR Main DCP info - 344D5010, Ch.
-      38, TX time 00:18:10
-TIBR2 backup DCP 1 info - 34471248, CH 38, TX Time
+      Tiber Dam on the Marias R, MT (bubbler) TIBR Main DCP info - 344D5010, Ch.
+      38, TX time 00:18:10 TIBR2 backup DCP 1 info - 34471248, CH 38, TX Time
       00:16:10
     </Description>
     <ConfigName>NWO-TIBR</ConfigName>
@@ -3729,8 +3715,7 @@ TIBR2 backup DCP 1 info - 34471248, CH 38, TX Time
     <TransportXref MediumType="goes-self-timed" MediumId="CE647D98"/>
     <SiteName NameType="CWMS">MRRM-Morrisville-Little_Sac</SiteName>
     <Agency>CWMS</Agency>
-    <Description>Little Sac R nr Morrisville, MO
-</Description>
+    <Description>Little Sac R nr Morrisville, MO</Description>
     <ConfigName>NWK-MRRM-001</ConfigName>
     <IsProduction>false</IsProduction>
     <LastModifyTime>08/31/2020 15:54:00</LastModifyTime>
@@ -3905,8 +3890,7 @@ TIBR2 backup DCP 1 info - 34471248, CH 38, TX Time
     <TransportXref MediumType="goes-self-timed" MediumId="B15566F0"/>
     <SiteName NameType="CWMS">LOWY-Lookout-Laramie</SiteName>
     <Agency>WY SEO</Agency>
-    <Description>Laramie River near Lookout, WY
-</Description>
+    <Description>Laramie River near Lookout, WY</Description>
     <ConfigName>NWO-LOWY</ConfigName>
     <IsProduction>false</IsProduction>
     <LastModifyTime>08/31/2020 15:54:01</LastModifyTime>
@@ -4075,8 +4059,7 @@ TIBR2 backup DCP 1 info - 34471248, CH 38, TX Time
     <SiteName NameType="CWMS">HBIA-Hamburg-Missouri</SiteName>
     <Agency>cwms</Agency>
     <Description>
-      Missouri River at Hamburg, IA
-2 Parameters: Headwater and Tailwater
+      Missouri River at Hamburg, IA 2 Parameters: Headwater and Tailwater
     </Description>
     <ConfigName>NWO-HBIA</ConfigName>
     <IsProduction>false</IsProduction>
@@ -4463,8 +4446,7 @@ TIBR2 backup DCP 1 info - 34471248, CH 38, TX Time
     <TransportXref MediumType="goes-self-timed" MediumId="CE2D005A"/>
     <SiteName NameType="CWMS">PBKS-bl_Perry_Lake-Delaware</SiteName>
     <Agency>cwms</Agency>
-    <Description>Delaware R below Perry Lake 
-</Description>
+    <Description>Delaware R below Perry Lake</Description>
     <ConfigName>NWK-PBKS-001</ConfigName>
     <IsProduction>false</IsProduction>
     <LastModifyTime>08/31/2020 15:54:05</LastModifyTime>
@@ -5378,8 +5360,7 @@ TIBR2 backup DCP 1 info - 34471248, CH 38, TX Time
     <TransportXref MediumType="goes-self-timed" MediumId="DDF8D76A"/>
     <SiteName NameType="CWMS">MEWY-Meeteetsee-Greybull</SiteName>
     <Agency>cwms</Agency>
-    <Description>Greybull River near Meeteetsee,WY
-</Description>
+    <Description>Greybull River near Meeteetsee,WY</Description>
     <ConfigName>NWO-MEWY</ConfigName>
     <IsProduction>false</IsProduction>
     <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
@@ -5552,5 +5533,16 @@ TIBR2 backup DCP 1 info - 34471248, CH 38, TX Time
     <ConfigName>NWO-SC04</ConfigName>
     <IsProduction>false</IsProduction>
     <LastModifyTime>08/31/2020 15:54:12</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="210">
+    <TransportXref MediumType="goes-self-timed" MediumId="DD1A4276"/>
+    <SiteName NameType="CWMS">46ND</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>
+      TEMPORARY GAGE - JAMES RIVER AT HWY 46 NR ADRIAN, ND
+    </Description>
+    <ConfigName>NWO-46ND</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>08/31/2020 16:29:08</LastModifyTime>
   </PlatformXref>
 </PlatformList>
