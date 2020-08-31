@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>45.65777778</Latitude>
+  <Longitude>-100.877778</Longitude>
+  <Elevation>495.18722400000007</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT+7</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>SD</State>
+  <NearestCity>Mandan</NearestCity>
+  <SiteName NameType="CWMS">LESD-Little_Eagle-Grand</SiteName>
+  <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

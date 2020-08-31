@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="613">
+  <Description>Bighorn River at Bridge at St. Xavier, MT</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
+  <Site>
+    <Latitude>45.4609358</Latitude>
+    <Longitude>-107.7484453</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/Denver</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MT</State>
+    <NearestCity>Billings</NearestCity>
+    <Description>Bighorn River at bridge at St. Xavier, MT</Description>
+    <SiteName NameType="CWMS">STMT-St_Xavier_Bridge-Bighorn</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      St. Xavier Bridge, Bighorn R, MT
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DF05E0C6">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>64</ChannelNum>
+    <AssignedTime>00:36:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

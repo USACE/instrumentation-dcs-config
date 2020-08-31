@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>47.668333333333</Latitude>
+  <Longitude>-109.6525</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MT</State>
+  <NearestCity>Winifred</NearestCity>
+  <Description>Judith River near mouth, at Winifred, Montana</Description>
+  <SiteName NameType="CWMS">JDRM8-Winifred-Judith</SiteName>
+  <SiteName NameType="local">MRR-JDRM8</SiteName>
+  <SiteName NameType="nwshb5">JDRM8</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06114700</SiteName>
+</Site>

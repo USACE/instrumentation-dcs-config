@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.78459874</Latitude>
+  <Longitude>-99.72221375</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KS</State>
+  <NearestCity>Hays</NearestCity>
+  <Description>Cedar Bluff Reservoir</Description>
+  <SiteName NameType="CWMS">CEBL-Cedar_Bluff_Res-Smoky_Hill</SiteName>
+  <SiteName NameType="local">NWK-CEBL</SiteName>
+  <SiteName NameType="nwshb5">ELSK1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06861500</SiteName>
+  <SiteProperty PropertyName="location_type">USBR Reservoir</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

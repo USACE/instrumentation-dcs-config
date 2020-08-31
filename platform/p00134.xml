@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="134">
+  <Description>Salt Cr Dam 14 in Lincoln, NE</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:49</LastModifyTime>
+  <Site>
+    <Latitude>40.839268</Latitude>
+    <Longitude>-96.866798</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/Chicago</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>Lincoln</NearestCity>
+    <SiteName NameType="CWMS">SC14-Salt_Cr_Dam_14-Pawnee_Lake</SiteName>
+    <SiteProperty PropertyName="location_type">Corps Reservoir</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Salt Cr Dam 14 near Lincoln, NE
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="CE4308D2">
+    <DecodesScript ScriptName="RD"/>
+    <EquipmentModel Name="Sutron 8200">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Sutron</Company>
+      <Model>8200</Model>
+      <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+    </EquipmentModel>
+    <ChannelNum>128</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE4308D2">
+    <DecodesScript ScriptName="ST"/>
+    <EquipmentModel Name="Sutron 8200">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Sutron</Company>
+      <Model>8200</Model>
+      <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+    </EquipmentModel>
+    <ChannelNum>58</ChannelNum>
+    <AssignedTime>00:23:30</AssignedTime>
+    <TransmitInterval>04:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

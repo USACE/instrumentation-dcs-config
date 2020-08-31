@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="710">
+  <Description>Little Popo Agie Reiver near Lander</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:21</LastModifyTime>
+  <Site>
+    <Latitude>42.716667</Latitude>
+    <Longitude>-108.642778</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>WY</State>
+    <NearestCity>Lander</NearestCity>
+    <Description>
+      Duplicate site.  Do not use.  Use LAWY for data associated with this
+     
+      site.
+    </Description>
+    <SiteName NameType="CWMS">LPWY-Lander-Popo_Agie</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Little Popo Agie Near Lander
+    </SiteProperty>
+  </Site>
+</Platform>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="676">
+  <Description>Pilot Butte Reservoir</Description>
+  <Agency>usbr</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:19</LastModifyTime>
+  <Site>
+    <Latitude>43.2</Latitude>
+    <Longitude>-108.75</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>WY</State>
+    <SiteName NameType="CWMS">PBWY-Pilot_Butte_Dam-Pilot_Butte</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      PBWY-Pilot_Butte_Dam-Pilot_Butte
+    </SiteProperty>
+  </Site>
+</Platform>

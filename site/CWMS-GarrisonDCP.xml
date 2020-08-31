@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>0</Latitude>
+  <Longitude>0</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <Description>
+    Garrison Dam DCP Data and Lake Audubon Pump Diversion &amp; Elev
+  </Description>
+  <SiteName NameType="CWMS">GarrisonDCP</SiteName>
+  <SiteName NameType="local">GARRISON</SiteName>
+</Site>

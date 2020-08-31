@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.8386111</Latitude>
+  <Longitude>-96.6913889</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Lincoln</NearestCity>
+  <Description>Salt Creek at Fairgrounds at Lincoln, NE</Description>
+  <SiteName NameType="CWMS">LFNE-Lincoln-Fairgrounds-Salt</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06803495</SiteName>
+  <SiteProperty PropertyName="REGION">NWO</SiteProperty>
+</Site>

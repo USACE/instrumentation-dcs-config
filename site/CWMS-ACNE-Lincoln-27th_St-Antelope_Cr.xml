@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.8049444</Latitude>
+  <Longitude>-96.6850833</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Lincoln</NearestCity>
+  <Description>Antelope Creek at 27th Street at Lincoln, NE</Description>
+  <SiteName NameType="CWMS">ACNE-Lincoln-27th_St-Antelope_Cr</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06803300</SiteName>
+  <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+  <SiteProperty PropertyName="REGION">NWO</SiteProperty>
+</Site>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>47.4575</Latitude>
+  <Longitude>-99.2572222</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>ND</State>
+  <SiteName NameType="CWMS">CAND</SiteName>
+</Site>

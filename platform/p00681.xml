@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="681">
+  <Description>Stevens Creek near Lincoln, NE</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:19</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>342.464136</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <Description>Stevens Creek near Lincoln, NE</Description>
+    <SiteName NameType="CWMS">SCNE-Lincoln-Stevens_Cr</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06803520
+    </SiteName>
+    <SiteProperty PropertyName="REGION">NWO</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="D10EC38C">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>178</ChannelNum>
+    <AssignedTime>00:44:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

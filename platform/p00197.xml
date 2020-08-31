@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="197">
+  <Description>Pomme De Terre R nr Hermtage, MO</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:51</LastModifyTime>
+  <Site>
+    <Latitude>37.906056</Latitude>
+    <Longitude>-93.328917</Longitude>
+    <Elevation>228.560376</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MO</State>
+    <NearestCity>Hermitage</NearestCity>
+    <SiteName NameType="CWMS">PDTM-Hermitage-Pomme_De_Terre</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06921350
+    </SiteName>
+    <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Pomme De Terre R nr Hermitage MO
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="CE7977B2">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>128</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE7977B2">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>58</ChannelNum>
+    <AssignedTime>00:49:11</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06921350.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="3">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06921350.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

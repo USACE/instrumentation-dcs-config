@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="317">
+  <Description>Kirwin Res at Kirwin, KS</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:57</LastModifyTime>
+  <Site>
+    <Latitude>39.66314683</Latitude>
+    <Longitude>-99.12840685</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>KS</State>
+    <NearestCity>Kearney</NearestCity>
+    <Description>Kirwin Reservoir</Description>
+    <SiteName NameType="CWMS">KIRN-Kirwin_Res-NF_Solomon</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06871700
+    </SiteName>
+    <SiteProperty PropertyName="location_type">USBR Reservoir</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Kirwin Dam</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="348C06F2">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>128</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="348C06F2">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>66</ChannelNum>
+    <AssignedTime>00:38:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

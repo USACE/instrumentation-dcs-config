@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.523611</Latitude>
+  <Longitude>-92.949722</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MO</State>
+  <NearestCity>Musselfork</NearestCity>
+  <SiteName NameType="CWMS">MSSM-Musselfork-Mussel_Fork</SiteName>
+  <SiteName NameType="local">NWK-MSSM</SiteName>
+  <SiteName NameType="nwshb5">MSSM7</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06906000</SiteName>
+</Site>

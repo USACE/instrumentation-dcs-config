@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.34013</Latitude>
+  <Longitude>-96.42396</Longitude>
+  <Elevation>394.466064</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>SD</State>
+  <NearestCity>Sioux Falls</NearestCity>
+  <SiteName NameType="CWMS">NCSD-Sioux_Falls-Big_Sioux-N_Cliff_Av</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+</Site>

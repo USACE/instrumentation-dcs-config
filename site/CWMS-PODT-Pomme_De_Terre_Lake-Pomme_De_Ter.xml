@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.90122121</Latitude>
+  <Longitude>-93.31921419</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MO</State>
+  <NearestCity>Pittsburg</NearestCity>
+  <Description>Pomme de Terre Lake</Description>
+  <SiteName NameType="CWMS">PODT-Pomme_De_Terre_Lake-Pomme_De_Ter</SiteName>
+  <SiteProperty PropertyName="location_type">Corps Reservoir</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

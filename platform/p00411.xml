@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="411">
+  <Description>Marmaton River at Nevada, MO</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:01</LastModifyTime>
+  <Site>
+    <Latitude>37.86203</Latitude>
+    <Longitude>-94.39925</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">NEVM-Nevada-Marmaton</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06918065
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Marmaton River near Nevada, MO
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="CE1FA326">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>128</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE1FA326">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>58</ChannelNum>
+    <AssignedTime>00:46:21</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06918060.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="3">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06918060.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

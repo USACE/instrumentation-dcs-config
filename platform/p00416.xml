@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="416">
+  <Description>South Platte R bl Chatfield Dam</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:02</LastModifyTime>
+  <Site>
+    <Latitude>39.558719444444</Latitude>
+    <Longitude>-105.062080555556</Longitude>
+    <Elevation>1641.348</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>Etc/GMT+7</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>CO</State>
+    <NearestCity>Columbine, CO</NearestCity>
+    <SiteName NameType="CWMS">CHFI-Tailwater</SiteName>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="516A3368">
+    <DecodesScript ScriptName="ST"/>
+    <EquipmentModel Name="Sutron 8200">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Sutron</Company>
+      <Model>8200</Model>
+      <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+    </EquipmentModel>
+    <ChannelNum>144</ChannelNum>
+    <AssignedTime>00:29</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

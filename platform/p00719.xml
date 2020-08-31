@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="719">
+  <PlatformDesignator>TBVM</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:23</LastModifyTime>
+  <Site>
+    <Latitude>38.00389</Latitude>
+    <Longitude>-93.99472</Longitude>
+    <Elevation>212.540088</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>Etc/GMT-6</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MO</State>
+    <NearestCity>Taberville</NearestCity>
+    <SiteName NameType="CWMS">TBVM</SiteName>
+    <SiteName NameType="nwshb5">TBVM7</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06918250
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Osage R at Taberville, MO
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DE4E9780">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>203</ChannelNum>
+    <AssignedTime>00:52:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

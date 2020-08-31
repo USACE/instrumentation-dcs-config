@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>47.0277916</Latitude>
+  <Longitude>-103.053236</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>ND</State>
+  <NearestCity>New Hradec</NearestCity>
+  <SiteName NameType="CWMS">NHND</SiteName>
+  <SiteName NameType="nwshb5">HRAN8</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06344600</SiteName>
+</Site>

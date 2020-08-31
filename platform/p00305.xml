@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="305">
+  <Description>Kanopolis Lake nr Kanapolis, KS</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:57</LastModifyTime>
+  <Site>
+    <Latitude>38.61762546</Latitude>
+    <Longitude>-97.96797594</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>KS</State>
+    <Description>Kanopolis Lake</Description>
+    <SiteName NameType="CWMS">KANS-Kanopolis_Lake-Smoky_Hill</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06865000
+    </SiteName>
+    <SiteProperty PropertyName="location_type">Corps Reservoir</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Kanopolis Lake</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="CE64603C">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>128</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE64603C">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>58</ChannelNum>
+    <AssignedTime>00:37:44</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="293">
+  <Description>Wahoo Creek at Ithaca, NE</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:56</LastModifyTime>
+  <Site>
+    <Latitude>41.1475</Latitude>
+    <Longitude>-96.5377778</Longitude>
+    <Elevation>338.474304</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>Fremont</NearestCity>
+    <SiteName NameType="CWMS">ITNE-Ithaca-Wahoo</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06804000
+    </SiteName>
+    <SiteProperty PropertyName="REGION">NWO</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">ITNE-Ithaca-Wahoo</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="CE782534">
+    <DecodesScript ScriptName="RD"/>
+    <EquipmentModel Name="Sutron 8200">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Sutron</Company>
+      <Model>8200</Model>
+      <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+    </EquipmentModel>
+    <ChannelNum>128</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE782534">
+    <DecodesScript ScriptName="ST"/>
+    <EquipmentModel Name="Sutron 8200">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Sutron</Company>
+      <Model>8200</Model>
+      <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+    </EquipmentModel>
+    <ChannelNum>58</ChannelNum>
+    <AssignedTime>00:26:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

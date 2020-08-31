@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="628">
+  <Description>BIG PAPILLION CREEK NEAR KENNARD</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
+  <Site>
+    <Latitude>41.451114</Latitude>
+    <Longitude>-96.190862</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>Fremont</NearestCity>
+    <SiteName NameType="CWMS">KDNE-Kennard-Big_Papillion</SiteName>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DE57402A">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>46</ChannelNum>
+    <AssignedTime>00:03:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

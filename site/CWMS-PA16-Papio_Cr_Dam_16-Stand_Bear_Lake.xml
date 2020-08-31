@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.314434</Latitude>
+  <Longitude>-96.121788</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT+6</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Omaha</NearestCity>
+  <SiteName NameType="CWMS">PA16-Papio_Cr_Dam_16-Stand_Bear_Lake</SiteName>
+  <SiteProperty PropertyName="location_type">Corps Reservoir</SiteProperty>
+</Site>

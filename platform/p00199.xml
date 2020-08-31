@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="199">
+  <Description>Mill Creek near Paxico, KS</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:51</LastModifyTime>
+  <Site>
+    <Latitude>39.0622222</Latitude>
+    <Longitude>-96.1811111</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>KS</State>
+    <SiteName NameType="CWMS">PXCK-Paxico-Mill</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06888500
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">PXCK-Paxico-Mill</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="D11476CE">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>178</ChannelNum>
+    <AssignedTime>00:59</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06888500.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="4">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06888500.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

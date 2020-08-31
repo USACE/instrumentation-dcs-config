@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.2146102</Latitude>
+  <Longitude>-96.2949368</Longitude>
+  <Elevation>372.630192</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>IA</State>
+  <NearestCity>Sioux Falls</NearestCity>
+  <SiteName NameType="CWMS">RVIA-Rock_Valley-Rock</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

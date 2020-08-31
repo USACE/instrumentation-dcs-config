@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>44.9983333</Latitude>
+  <Longitude>-98.4805556</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>SD</State>
+  <NearestCity>Aberdeen</NearestCity>
+  <SiteName NameType="CWMS">ASSD-Ashton-James</SiteName>
+  <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+</Site>

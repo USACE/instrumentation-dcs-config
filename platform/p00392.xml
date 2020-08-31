@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="392">
+  <Description>Marais des Cygnes R nr Quen, KS</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:00</LastModifyTime>
+  <Site>
+    <Latitude>38.516111111111</Latitude>
+    <Longitude>-95.526944444444</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>KS</State>
+    <NearestCity>Quenemo</NearestCity>
+    <Description>QUENEMO...below Melvern Lake, KS</Description>
+    <SiteName NameType="CWMS">QUKS-Quenemo-Marais_Des_Cygnes</SiteName>
+    <SiteName NameType="local">NWK-QUKS</SiteName>
+    <SiteName NameType="nwshb5">MVNK1</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06911400
+    </SiteName>
+    <SiteProperty PropertyName="REGION">USA</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      QUKS-Quenemo-Marais_Des_Cygnes
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="CE63B460">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>128</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE63B460">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>58</ChannelNum>
+    <AssignedTime>00:50:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="RdbSheF">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06911000.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="4">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06911000.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

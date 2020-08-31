@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>0</Latitude>
+  <Longitude>0</Longitude>
+  <Elevation>207.32496</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>00</State>
+  <SiteName NameType="CWMS">NAPM-Napoleon-Missouri</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">00000001</SiteName>
+</Site>

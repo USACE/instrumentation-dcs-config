@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>44.75861111</Latitude>
+  <Longitude>-108.180833</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT+7</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WY</State>
+  <NearestCity>Billings</NearestCity>
+  <SiteName NameType="CWMS">KAWY-Kane-Bighorn</SiteName>
+  <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+</Site>

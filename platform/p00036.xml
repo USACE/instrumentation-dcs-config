@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="36">
+  <Description>Bear Creek nr Oakes, ND</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:36</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>00</State>
+    <SiteName NameType="CWMS">SZND-Oakes-Bear</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Bear Creek nr Oakes, ND
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DDDAC006">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>156</ChannelNum>
+    <AssignedTime>00:57:40</AssignedTime>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

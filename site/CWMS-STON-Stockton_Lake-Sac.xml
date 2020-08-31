@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.69287148</Latitude>
+  <Longitude>-93.75935396</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MO</State>
+  <NearestCity>Stockton</NearestCity>
+  <Description>Stockton Lake</Description>
+  <SiteName NameType="CWMS">STON-Stockton_Lake-Sac</SiteName>
+  <SiteName NameType="cbtt">06918990</SiteName>
+  <SiteProperty PropertyName="location_type">Corps Reservoir</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

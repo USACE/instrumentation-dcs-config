@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>48.15</Latitude>
+  <Longitude>-112.8666667</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>MT</State>
+  <SiteName NameType="CWMS">SDMT-Swift_Reservoir-Birch</SiteName>
+</Site>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="355">
+  <Description>James River nr Ludden, ND</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:59</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>ND</State>
+    <NearestCity>Jamestown</NearestCity>
+    <SiteName NameType="CWMS">LUND-Ludden-James_River</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      LUND-Ludden-James_River
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="178A460A">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>130</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="178A460A">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>102</ChannelNum>
+    <AssignedTime>00:11</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>00:15</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

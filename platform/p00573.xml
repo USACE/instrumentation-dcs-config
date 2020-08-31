@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="573">
+  <Description>
+    Rapid Creek below Sewage Treatment Plant near Rapid City, SD
+  </Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:11</LastModifyTime>
+  <Site>
+    <Latitude>44.023611111111</Latitude>
+    <Longitude>-103.095277777778</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/Chicago</Timezone>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">TPSD-Treatment_Plant-Rapid</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06418900
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      TPSD-Treatment_Plant-Rapid
+    </SiteProperty>
+  </Site>
+</Platform>

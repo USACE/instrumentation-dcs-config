@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EquipmentModel Name="Sutron 8200">
+  <EquipmentType>DCP</EquipmentType>
+  <Company>Sutron</Company>
+  <Model>8200</Model>
+  <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+</EquipmentModel>

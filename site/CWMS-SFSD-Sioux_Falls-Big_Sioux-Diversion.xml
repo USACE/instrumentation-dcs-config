@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.5667887</Latitude>
+  <Longitude>-96.7111794</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>SD</State>
+  <NearestCity>Sioux Falls</NearestCity>
+  <SiteName NameType="CWMS">SFSD-Sioux_Falls-Big_Sioux-Diversion</SiteName>
+</Site>

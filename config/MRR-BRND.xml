@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="MRR-BRND">
+  <Description>Cannonball River at Breien, ND</Description>
+  <EquipmentModel Name="Sutron 8200">
+    <EquipmentType>DCP</EquipmentType>
+    <Company>Sutron</Company>
+    <Model>8200</Model>
+    <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+  </EquipmentModel>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>temp_air</SensorName>
+    <DataType Standard="SHEF-PE" Code="TB"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="2">
+    <SensorName>cum_prec</SensorName>
+    <DataType Standard="SHEF-PE" Code="PC"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:15</TimeOfFirstSample>
+    <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="3">
+    <SensorName>Stage-Orifice</SensorName>
+    <DataType Standard="SHEF-PE" Code="HG"/>
+    <DataType Standard="CWMS" Code="Stage-Orifice"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:15</TimeOfFirstSample>
+    <AbsoluteMin>0.0</AbsoluteMin>
+    <AbsoluteMax>30.0</AbsoluteMax>
+    <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="4">
+    <SensorName>battvolt</SensorName>
+    <DataType Standard="SHEF-PE" Code="VB"/>
+    <DataType Standard="CWMS" Code="Volt"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:15</TimeOfFirstSample>
+    <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="5">
+    <SensorName>temp_air</SensorName>
+    <DataType Standard="SHEF-PE" Code="TB"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <ConfigSensorProperty PropertyName="TT">R</ConfigSensorProperty>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="6">
+    <SensorName>cum_prec</SensorName>
+    <DataType Standard="SHEF-PE" Code="PC"/>
+    <DataType Standard="CWMS" Code="Precip"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <ConfigSensorProperty PropertyName="TT">R</ConfigSensorProperty>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="7">
+    <SensorName>stage</SensorName>
+    <DataType Standard="SHEF-PE" Code="HG"/>
+    <DataType Standard="CWMS" Code="Stage"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <AbsoluteMin>0.0</AbsoluteMin>
+    <AbsoluteMax>30.0</AbsoluteMax>
+    <ConfigSensorProperty PropertyName="TT">R</ConfigSensorProperty>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="8">
+    <SensorName>battvolt</SensorName>
+    <DataType Standard="SHEF-PE" Code="VB"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <ConfigSensorProperty PropertyName="TT">R</ConfigSensorProperty>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="9">
+    <SensorName>Stage-Radar</SensorName>
+    <DataType Standard="SHEF-PE" Code="HR"/>
+    <DataType Standard="CWMS" Code="Stage-Radar"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:15</TimeOfFirstSample>
+    <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+  </ConfigSensor>
+  <DecodesScript ScriptName="RD">
+    <ScriptType>Decodes</ScriptType>
+    <FormatStatement Label="rd">3X,</FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="DEGF">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="INCHES">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="3">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="FEET">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="4">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="VOLTS">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="5">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="DEGF">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="6">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="INCHES">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="7">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="FEET">
+        <Algorithm>linear</Algorithm>
+        <A>1.0E-4</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="8">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="VOLTS">
+        <Algorithm>linear</Algorithm>
+        <A>0.234</A>
+        <B>10.6</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="9">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+  <DecodesScript ScriptName="ST">
+    <ScriptType>Decodes</ScriptType>
+    <FormatStatement Label="st">
+      4X,8(F(S,B,3,3)),8(F(S,B,3,9)),8(F(S,B,3,4))8(F(S,B,3,2)),F(S,B,1,8)
+    </FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="DEGF">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="INCHES">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="3">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="FEET">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="4">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="VOLTS">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.01</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="5">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="DEGF">
+        <Algorithm>linear</Algorithm>
+        <A>1.0E-4</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="6">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="INCHES">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="7">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="FEET">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>-0.04</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="8">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="VOLTS">
+        <Algorithm>linear</Algorithm>
+        <A>0.234</A>
+        <B>10.234</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="9">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="FEET">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

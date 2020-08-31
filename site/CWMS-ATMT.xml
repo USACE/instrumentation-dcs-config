@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>45.546944</Latitude>
+  <Longitude>-112.337222</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Mountain</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>00</State>
+  <SiteName NameType="CWMS">ATMT</SiteName>
+  <SiteName NameType="nwshb5">TWBM8</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06023100</SiteName>
+</Site>

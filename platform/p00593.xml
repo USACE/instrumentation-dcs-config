@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="593">
+  <Description>North Platte River At Lisco, NE</Description>
+  <Agency>NEBDNR</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:15</LastModifyTime>
+  <Site>
+    <Latitude>41.490111741166</Latitude>
+    <Longitude>-102.624811530113</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Mountain</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>Lisco</NearestCity>
+    <Description>
+      North Platte River At Lisco; USGS: 686000; LONE-Lisco-North_Platte
+    </Description>
+    <SiteName NameType="CWMS">LONE-Lisco-North_Platte</SiteName>
+    <SiteName NameType="nwshb5">LSON1</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      North Platte River At Lisco
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="40205226">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>170</ChannelNum>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

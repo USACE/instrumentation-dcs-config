@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="590">
+  <PlatformDesignator>ATMT</PlatformDesignator>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:15</LastModifyTime>
+  <Site>
+    <Latitude>45.546944</Latitude>
+    <Longitude>-112.337222</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Mountain</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>00</State>
+    <SiteName NameType="CWMS">ATMT</SiteName>
+    <SiteName NameType="nwshb5">TWBM8</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06023100
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Beaverhead River at Twin Bridges
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="163F4F72">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>70</ChannelNum>
+    <AssignedTime>00:41:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

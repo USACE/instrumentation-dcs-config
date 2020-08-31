@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="437">
+  <Description>Belle Fourche River nr Fruitdale</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:03</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>SD</State>
+    <NearestCity>Gillette</NearestCity>
+    <SiteName NameType="CWMS">SMSD-Fruitdale-Belle_Fourche</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Belle Fourche R nr Fruitdale, SD
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="1738A1C4">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>90</ChannelNum>
+    <AssignedTime>00:22</AssignedTime>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

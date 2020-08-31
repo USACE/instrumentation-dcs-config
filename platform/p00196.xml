@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="196">
+  <Description>Pomme de Terre Lake nr Herm, MO</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:51</LastModifyTime>
+  <Site>
+    <Latitude>37.90122121</Latitude>
+    <Longitude>-93.31921419</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MO</State>
+    <NearestCity>Pittsburg</NearestCity>
+    <Description>Pomme de Terre Lake</Description>
+    <SiteName NameType="CWMS">PODT-Pomme_De_Terre_Lake-Pomme_De_Ter</SiteName>
+    <SiteProperty PropertyName="location_type">Corps Reservoir</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Pomme de Terre Lake</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="CE64B654">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>128</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE64B654">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>58</ChannelNum>
+    <AssignedTime>00:44:11</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

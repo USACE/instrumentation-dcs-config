@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="88">
+  <Description>Madison River near Cameron, MT</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:46</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MT</State>
+    <NearestCity>Butte-Silver Bow</NearestCity>
+    <SiteName NameType="CWMS">MRKR-Cameron-Madison</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">MRKR-Cameron-Madison</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="D10F2284">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>178</ChannelNum>
+    <AssignedTime>00:45:30</AssignedTime>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

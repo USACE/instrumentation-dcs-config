@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="668">
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:18</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <Description>Ruby River below reservoir near Alder, MT</Description>
+    <SiteName NameType="CWMS">RRBM8</SiteName>
+    <SiteName NameType="nwshb5">RRBM8</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06020600
+    </SiteName>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DE064692">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>202</ChannelNum>
+    <AssignedTime>00:47:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

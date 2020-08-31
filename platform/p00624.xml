@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="624">
+  <Description>Wind River Above Red Creek Near Duboise, WY</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
+  <Site>
+    <Latitude>43.44133333</Latitude>
+    <Longitude>-109.45805555</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>WY</State>
+    <NearestCity>Dubois</NearestCity>
+    <Description>Wind River Above Red Creek Near Dubois</Description>
+    <SiteName NameType="CWMS">RWWI-AB_Red_Creek-Wind</SiteName>
+    <SiteName NameType="nwshb5">WRCW4</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06220800
+    </SiteName>
+  </Site>
+</Platform>

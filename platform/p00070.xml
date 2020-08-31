@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="70">
+  <Description>Cut Bank Cr. nr Browning, MT</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:39</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">CBKM-Browning-Cut_Bank</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      CBKM-Browning-Cut_Bank
+    </SiteProperty>
+  </Site>
+</Platform>

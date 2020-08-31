@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="356">
+  <Description>Salt Cr at Pioneers Blvd nr Lincoln, NE</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:59</LastModifyTime>
+  <Site>
+    <Latitude>40.7702778</Latitude>
+    <Longitude>-96.7188889</Longitude>
+    <Elevation>347.47200000000004</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>Lincoln</NearestCity>
+    <Description>Salt Creek at Pioneers Boulevard at Lincoln, NE</Description>
+    <SiteName NameType="CWMS">PBNE-Lincoln-Pioneers_Blvd-Salt</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06803080
+    </SiteName>
+    <SiteProperty PropertyName="REGION">NWO</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="D10E93F0">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>178</ChannelNum>
+    <AssignedTime>00:44</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

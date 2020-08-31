@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.4216667</Latitude>
+  <Longitude>-105.2261111</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>CO</State>
+  <Description>
+    Big Thompson River, on right bank at mouth of canyon, east of Drake
+  </Description>
+  <SiteName NameType="CWMS">DRCO-Drake-Thompson</SiteName>
+</Site>

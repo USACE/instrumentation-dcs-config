@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.220245</Latitude>
+  <Longitude>-96.160751</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT+6</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Omaha</NearestCity>
+  <SiteName NameType="CWMS">PA18-Papio_Cr_Dam_18-Zorinsky_Lake</SiteName>
+  <SiteProperty PropertyName="location_type">Corps Reservoir</SiteProperty>
+</Site>

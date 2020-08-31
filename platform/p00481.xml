@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="481">
+  <Description>Truman Lake at Warsaw, MO</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:05</LastModifyTime>
+  <Site>
+    <Latitude>38.264958</Latitude>
+    <Longitude>-93.4011078</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MO</State>
+    <NearestCity>Warsaw</NearestCity>
+    <Description>Harry S Truman Reservoir</Description>
+    <SiteName NameType="CWMS">HAST-Truman_Lake-Marais_Des_Cygnes</SiteName>
+    <SiteProperty PropertyName="location_type">Corps Reservoir</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Harry S Truman Reservoir
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="CE64C0C4">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>128</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE64C0C4">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>58</ChannelNum>
+    <AssignedTime>00:54:40</AssignedTime>
+    <TransmitWindow>00:00:30</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>GMT</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

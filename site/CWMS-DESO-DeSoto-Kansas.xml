@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.983</Latitude>
+  <Longitude>-94.9647</Longitude>
+  <Elevation>229.75824</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KS</State>
+  <NearestCity>Shawnee</NearestCity>
+  <SiteName NameType="CWMS">DESO-DeSoto-Kansas</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06892350</SiteName>
+  <SiteProperty PropertyName="location_type">
+    USGS Streamgaging Station
+  </SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

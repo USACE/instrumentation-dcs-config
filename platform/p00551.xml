@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="551">
+  <Description>L Popo Agie River near Lander</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
+  <Site>
+    <Latitude>42.7666667</Latitude>
+    <Longitude>-108.6427778</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>WY</State>
+    <NearestCity>Rock Springs</NearestCity>
+    <Description>
+      Note this is on the Little Popo Agie River.  See description in base
+     
+      location for this site. Also LPWY is a duplicate name and has been
+       
+      deprecated.
+    </Description>
+    <SiteName NameType="CWMS">LAWY-Lander-Popo_Agie</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      LAWY-Lander-Little_Popo_Agie
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="B14F187E">
+    <DecodesScript ScriptName="ST"/>
+    <EquipmentModel Name="Sutron 8200">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Sutron</Company>
+      <Model>8200</Model>
+      <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+    </EquipmentModel>
+    <ChannelNum>80</ChannelNum>
+    <AssignedTime>00:57:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

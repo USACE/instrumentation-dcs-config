@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.1133638</Latitude>
+  <Longitude>-95.4265293</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>00</State>
+  <Description>Perry Lake</Description>
+  <SiteName NameType="CWMS">PERY-Perry_Lake-Delaware</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06890898</SiteName>
+  <SiteProperty PropertyName="location_type">USACE Reservoir</SiteProperty>
+</Site>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="625">
+  <Description>Keya Paha River at Wewela, SD</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">WLSD-Wewela-Keya_Paha</SiteName>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DDCFB6C8">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>156</ChannelNum>
+    <AssignedTime>00:28:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

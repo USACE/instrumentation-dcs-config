@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="20">
+  <Description>Smoky Hill River near Arnold, KS</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:36</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">ARDK-Arnold-Smoky_Hill</SiteName>
+    <SiteName NameType="local">NWK-ARDK</SiteName>
+    <SiteName NameType="nwshb5">ARNK1</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06861000
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      ARDK-Arnold-Smoky_Hill
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="D10D8788">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>132</ChannelNum>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="D10D8788">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>178</ChannelNum>
+    <AssignedTime>00:41:14</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="2">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06861000.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="5">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06861000.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

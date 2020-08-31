@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="57">
+  <Description>Dragoon Creek at Burlingame, KS</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:38</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">BRGK-Burlingame-Dragoon</SiteName>
+    <SiteName NameType="local">NWK-BRGK</SiteName>
+    <SiteName NameType="nwshb5">BRGK1</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06911900
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      BRGK-Burlingame-Dragoon
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="DDCA7416">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>118</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DDCA7416">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>156</ChannelNum>
+    <AssignedTime>00:13:42</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06911900.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="4">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06911900.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

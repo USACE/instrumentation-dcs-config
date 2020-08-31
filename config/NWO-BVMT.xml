@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="NWO-BVMT">
+  <Description></Description>
+  <EquipmentModel Name="SU8200D">
+    <EquipmentType>DCP</EquipmentType>
+    <Company>SUTRON</Company>
+    <Model>SUTRON 8200 SERIES</Model>
+    <EquipmentProperty PropertyName="PlatformType">DCP</EquipmentProperty>
+    <EquipmentProperty PropertyName="RetrievalMethod">DCP</EquipmentProperty>
+    <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+  </EquipmentModel>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>Stage</SensorName>
+    <DataType Standard="CWMS" Code="HG"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="2">
+    <SensorName>Voltage</SensorName>
+    <DataType Standard="CWMS" Code="VB"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <DecodesScript ScriptName="BVMT">
+    <ScriptType>Decodes</ScriptType>
+    <FormatStatement Label="nolabel_0">
+      4x,12(F(S,B,3,1)),F(S,B,1,2)
+    </FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>usgs-standard</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>1.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+        <Algorithm>usgs-standard</Algorithm>
+        <A>0.234</A>
+        <B>0.0</B>
+        <C>1.0</C>
+        <D>10.6</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

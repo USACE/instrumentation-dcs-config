@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="586">
+  <Description>Fales Rock Raws Near Casper 40W</Description>
+  <Agency>NWS-(BLM001)</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:14</LastModifyTime>
+  <Site>
+    <Latitude>42.856388888889</Latitude>
+    <Longitude>-107.272222222222</Longitude>
+    <Elevation>1944.624</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>WY</State>
+    <NearestCity>CASPER</NearestCity>
+    <SiteName NameType="CWMS">FRWY-Fales-Rock_RAWS</SiteName>
+    <SiteName NameType="nwshb5">RSNW4</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      FALES ROCK RAWS NEAR CASPER 40W
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="3265139E">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>80</ChannelNum>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>00:15</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

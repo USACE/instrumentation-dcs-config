@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.6538795</Latitude>
+  <Longitude>-94.9026489</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KS</State>
+  <Description>Hillsdale Lake</Description>
+  <SiteName NameType="CWMS">HILS-Hillsdale_Lake-Big_Bull</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06914995</SiteName>
+  <SiteProperty PropertyName="location_type">Corps Reservoir</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

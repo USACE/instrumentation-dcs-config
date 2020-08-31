@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.821861</Latitude>
+  <Longitude>-92.891056</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>IA</State>
+  <NearestCity>Rathbun</NearestCity>
+  <SiteName NameType="CWMS">RATI-bl_Rathbun-Chariton</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06903900</SiteName>
+</Site>

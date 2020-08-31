@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="247">
+  <Description>Cheyenne River at Red Shirt, SD</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:54</LastModifyTime>
+  <Site>
+    <Latitude>43.672222222222</Latitude>
+    <Longitude>-102.891666666667</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>America/Chicago</Timezone>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">RSSD-Red_Shirt-Cheyenne</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06403700
+    </SiteName>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DD9D47FA">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>154</ChannelNum>
+    <AssignedTime>00:53:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

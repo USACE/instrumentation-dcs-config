@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>45.5192222</Latitude>
+  <Longitude>-98.5771666</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>SD</State>
+  <NearestCity>Aberdeen</NearestCity>
+  <SiteName NameType="CWMS">ABSD-Aberdeen-Foot</SiteName>
+  <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+</Site>

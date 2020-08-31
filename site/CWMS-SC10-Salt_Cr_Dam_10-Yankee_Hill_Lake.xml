@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.730476</Latitude>
+  <Longitude>-96.783195</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/Chicago</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Lincoln</NearestCity>
+  <SiteName NameType="CWMS">SC10-Salt_Cr_Dam_10-Yankee_Hill_Lake</SiteName>
+  <SiteProperty PropertyName="location_type">Corps Reservoir</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
+</Site>

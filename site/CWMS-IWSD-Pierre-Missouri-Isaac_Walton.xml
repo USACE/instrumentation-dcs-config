@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>44.3371884</Latitude>
+  <Longitude>-100.307045</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>SD</State>
+  <NearestCity>Pierre</NearestCity>
+  <SiteName NameType="CWMS">IWSD-Pierre-Missouri-Isaac_Walton</SiteName>
+</Site>

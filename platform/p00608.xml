@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="608">
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
+  <Site>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">SSMT</SiteName>
+    <SiteName NameType="nwshb5">SSNM8</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06079000
+    </SiteName>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="34628104">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>138</ChannelNum>
+    <AssignedTime>00:18:55</AssignedTime>
+    <TransmitWindow>00:00:05</TransmitWindow>
+    <TransmitInterval>00:18:55</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

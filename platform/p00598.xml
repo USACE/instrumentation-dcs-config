@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="598">
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:15</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <NearestCity>Presque Isle</NearestCity>
+    <Description>BOULDER RIVER NEAR BOULDER</Description>
+    <SiteName NameType="CWMS">BBMT</SiteName>
+    <SiteName NameType="nwshb5">BLDM8</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06033000
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Boulder River nr Boulder, CO
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="1718D6BA">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>70</ChannelNum>
+    <AssignedTime>00:21:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

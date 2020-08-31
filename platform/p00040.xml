@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="40">
+  <Description>Republican R at Benkelman, NE</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:37</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">BNKN-Benkleman-Republican</SiteName>
+    <SiteName NameType="local">NWK-BNKN</SiteName>
+    <SiteName NameType="nwshb5">BEKN1</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06827500
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      BNKN-Benkleman-Republican
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="1735B1D4">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>130</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="1735B1D4">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>90</ChannelNum>
+    <AssignedTime>02:35:06</AssignedTime>
+    <TransmitWindow>00:01</TransmitWindow>
+    <TransmitInterval>04:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="2">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06827500.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="5">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06827500.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

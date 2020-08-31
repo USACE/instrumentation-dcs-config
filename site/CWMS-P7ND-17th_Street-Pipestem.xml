@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>46.9297222</Latitude>
+  <Longitude>-98.7102778</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>ND</State>
+  <SiteName NameType="CWMS">P7ND-17th_Street-Pipestem</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06469830</SiteName>
+</Site>

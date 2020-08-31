@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="589">
+  <Description>Red Rock R bl Lima Reservoir nr Monida, MT</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:15</LastModifyTime>
+  <Site>
+    <Latitude>44.655880555555</Latitude>
+    <Longitude>-112.3712222222</Longitude>
+    <Elevation>1990.344</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>MT</State>
+    <NearestCity>Monida, MT</NearestCity>
+    <SiteName NameType="CWMS">RRMT-bl_Lima_MT-Red_Rock</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06012500
+    </SiteName>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="F23007B6">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>36</ChannelNum>
+    <TransmitWindow>01:00</TransmitWindow>
+    <TransmitInterval>04:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

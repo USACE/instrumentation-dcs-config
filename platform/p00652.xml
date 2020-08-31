@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="652">
+  <Description>Saline River at Lincoln, KS</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:17</LastModifyTime>
+  <Site>
+    <Latitude>39.028611</Latitude>
+    <Longitude>-98.150833</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>Etc/GMT-6</Timezone>
+    <Country>UNITED STATES</Country>
+    <NearestCity>Lincoln</NearestCity>
+    <SiteName NameType="CWMS">LINK-Lincoln-Saline</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Saline River at Lincoln
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DF0793A2">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>64</ChannelNum>
+    <AssignedTime>00:49</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="109">
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:47</LastModifyTime>
+  <Site>
+    <Latitude>41.9272222</Latitude>
+    <Longitude>-105.4197222</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>WY</State>
+    <SiteName NameType="CWMS">LWWY-Wheatland_Tunnel-Laramie</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      LWWY-Wheatland_Tunnel-Laramie
+    </SiteProperty>
+  </Site>
+</Platform>

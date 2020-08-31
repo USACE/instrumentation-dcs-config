@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.57305556</Latitude>
+  <Longitude>-96.7638889</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT+6</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>SD</State>
+  <NearestCity>Sioux Falls</NearestCity>
+  <SiteName NameType="CWMS">BBSD-S_Falls_blw_Div-Big_Sioux</SiteName>
+  <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+</Site>

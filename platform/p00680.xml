@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="680">
+  <Description>
+    Big Thompson River on the right bank at the mouth of canyon east of Drake,
+    CO
+  </Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:19</LastModifyTime>
+  <Site>
+    <Latitude>40.4216667</Latitude>
+    <Longitude>-105.2261111</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>CO</State>
+    <Description>
+      Big Thompson River, on right bank at mouth of canyon, east of Drake
+    </Description>
+    <SiteName NameType="CWMS">DRCO-Drake-Thompson</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">DRCO-Drake-Thompson</SiteProperty>
+  </Site>
+</Platform>

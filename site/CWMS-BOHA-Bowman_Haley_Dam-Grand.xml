@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>45.982292</Latitude>
+  <Longitude>-103.246078</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT+7</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>ND</State>
+  <NearestCity>Bowman</NearestCity>
+  <SiteName NameType="CWMS">BOHA-Bowman_Haley_Dam-Grand</SiteName>
+  <SiteProperty PropertyName="location_type">Corps Reservoir</SiteProperty>
+</Site>

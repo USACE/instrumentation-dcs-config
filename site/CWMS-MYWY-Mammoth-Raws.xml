@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>44.977222222222</Latitude>
+  <Longitude>-110.695277777778</Longitude>
+  <Elevation>1920.24</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <NearestCity>Mammoth</NearestCity>
+  <SiteName NameType="CWMS">MYWY-Mammoth-Raws</SiteName>
+  <SiteName NameType="nwshb5">YLAW4</SiteName>
+</Site>

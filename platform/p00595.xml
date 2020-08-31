@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="595">
+  <Description>South Platte River at North Platte, NE</Description>
+  <Agency>NEBDNR</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:15</LastModifyTime>
+  <Site>
+    <Latitude>41.11806</Latitude>
+    <Longitude>-100.7727778</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">SPNE-North_Platte-South_Platte</SiteName>
+    <SiteName NameType="nwshb5">NPSN1</SiteName>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="40203912">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>76</ChannelNum>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

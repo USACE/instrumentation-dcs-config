@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.0622222</Latitude>
+  <Longitude>-96.1811111</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KS</State>
+  <SiteName NameType="CWMS">PXCK-Paxico-Mill</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06888500</SiteName>
+</Site>

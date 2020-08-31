@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="NWO-JSSD">
+  <Description>
+    Rapid Creek above Johnson Siding below Pactola Dam, SD
+  </Description>
+  <EquipmentModel Name="Sutron 8200">
+    <EquipmentType>DCP</EquipmentType>
+    <Company>Sutron</Company>
+    <Model>8200</Model>
+    <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+  </EquipmentModel>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>Stage</SensorName>
+    <DataType Standard="SHEF-PE" Code="HG"/>
+    <DataType Standard="CWMS" Code="Stage"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:05</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <UsgsStatCode>00011</UsgsStatCode>
+    <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="2">
+    <SensorName>Precip</SensorName>
+    <DataType Standard="SHEF-PE" Code="PC"/>
+    <DataType Standard="CWMS" Code="Precip"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:05</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <UsgsStatCode>00006</UsgsStatCode>
+    <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="3">
+    <SensorName>Battery</SensorName>
+    <DataType Standard="SHEF-PE" Code="BV"/>
+    <DataType Standard="CWMS" Code="Volt"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <UsgsStatCode>00011</UsgsStatCode>
+    <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+  </ConfigSensor>
+  <DecodesScript ScriptName="ST">
+    <ScriptType>Decodes</ScriptType>
+    <FormatStatement Label="ST">
+      4X,24(F(S,B,3,1)), 24(F(S,B,3,2)),F(S,B,1,3)
+    </FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>usgs-standard</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>1.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+        <Algorithm>usgs-standard</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>1.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="3">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volts">
+        <Algorithm>usgs-standard</Algorithm>
+        <A>0.234</A>
+        <B>0.0</B>
+        <C>1.0</C>
+        <D>10.6</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

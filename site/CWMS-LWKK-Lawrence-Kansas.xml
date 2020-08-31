@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.973278</Latitude>
+  <Longitude>-95.232111</Longitude>
+  <Elevation>243.88</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT-6</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KS</State>
+  <NearestCity>Lawrence</NearestCity>
+  <Description>Kansas River at Lawrence, KS above Bowersock</Description>
+  <SiteName NameType="CWMS">LWKK-Lawrence-Kansas</SiteName>
+</Site>

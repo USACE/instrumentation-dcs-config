@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="567">
+  <Description>Little Salt Creek near Lincoln, NE</Description>
+  <PlatformDesignator>D1101612</PlatformDesignator>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:11</LastModifyTime>
+  <Site>
+    <Latitude>40.8930556</Latitude>
+    <Longitude>-96.6816667</Longitude>
+    <Elevation>339.76970400000005</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>Papillion</NearestCity>
+    <Description>Little Salt Creek near Lincoln, NE</Description>
+    <SiteName NameType="CWMS">LSNE-Lincoln-Little_Salt</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06803510
+    </SiteName>
+    <SiteProperty PropertyName="REGION">NWO</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="D1101612">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>178</ChannelNum>
+    <AssignedTime>00:48</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

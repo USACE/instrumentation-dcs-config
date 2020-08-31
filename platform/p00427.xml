@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="427">
+  <Description>LAKE POINSETT NEAR WATERTOWN, SD</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:03</LastModifyTime>
+  <Site>
+    <Latitude>44.565619</Latitude>
+    <Longitude>-97.082116</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>Etc/GMT+6</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>SD</State>
+    <NearestCity>Watertown</NearestCity>
+    <SiteName NameType="CWMS">LPSD-Lake_Poinsett-Big_Sioux</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Big Sioux R at Lake Poinsett, SD
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE51618C">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>58</ChannelNum>
+    <AssignedTime>00:04:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

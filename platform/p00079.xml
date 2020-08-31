@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="79">
+  <Description>Chapman Creek nr Chapman, KS</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:45</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">CHPK-Chapman-Chapman</SiteName>
+    <SiteName NameType="local">NWK-CHPK</SiteName>
+    <SiteName NameType="nwshb5">CHPK1</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06878000
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">CHPK-Chapman-Chapman</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="DDE100C0">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>130</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DDE100C0">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>122</ChannelNum>
+    <AssignedTime>00:46</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="3">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06878000.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="6">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06878000.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

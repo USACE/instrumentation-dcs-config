@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="679">
+  <Description>Nelson Reservoir</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:19</LastModifyTime>
+  <Site>
+    <Latitude>48.5297222</Latitude>
+    <Longitude>-107.5186111</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>MT</State>
+    <SiteName NameType="CWMS">NRMT-Nelson_Reservoir-Nelson</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      NRMT-Nelson_Reservoir-Nelson
+    </SiteProperty>
+  </Site>
+</Platform>

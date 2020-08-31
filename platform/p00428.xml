@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="428">
+  <Description>Wheatland Reservoir No. 2 Outflow</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:03</LastModifyTime>
+  <Site>
+    <Latitude>41.8372222</Latitude>
+    <Longitude>-105.6438889</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>WY</State>
+    <SiteName NameType="CWMS">WHLD-Wheatland_2_Out-Laramie</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      WHLD-Wheatland_2_Out-Laramie
+    </SiteProperty>
+  </Site>
+</Platform>

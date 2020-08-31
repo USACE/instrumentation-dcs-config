@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="690">
+  <Description>Gasconade River near Hazelgreen, MO</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:20</LastModifyTime>
+  <Site>
+    <Latitude>37.759167</Latitude>
+    <Longitude>-92.451667</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <Description>Gasconade River near Hazelgreen, MO</Description>
+    <SiteName NameType="CWMS">HZLM-Hazelgreen-Gasconade</SiteName>
+    <SiteName NameType="local">NWK-HZLM</SiteName>
+    <SiteName NameType="nwshb5">HZLM7</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06928000
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Gasconade River nr Hazelgreen
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes" MediumId="16FEC12A">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>29</ChannelNum>
+    <AssignedTime>00:21:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

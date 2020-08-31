@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.640708</Latitude>
+  <Longitude>-105.15935</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <NearestCity>Morrison</NearestCity>
+  <SiteName NameType="CWMS">TUCO</SiteName>
+  <SiteName NameType="local">NWO-TUCO</SiteName>
+  <SiteName NameType="nwshb5">TUYC2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06711040</SiteName>
+</Site>

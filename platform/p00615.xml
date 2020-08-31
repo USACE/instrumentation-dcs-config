@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="615">
+  <Description>Fort Peck Dam DCP</Description>
+  <PlatformDesignator>FTPK</PlatformDesignator>
+  <Agency>USACE</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">FortPeckDCP</SiteName>
+    <SiteName NameType="local">FORTPECK</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">Fort Peck Dam DCP</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE0A408A">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>58</ChannelNum>
+    <AssignedTime>00:10</AssignedTime>
+    <TransmitWindow>00:00:20</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <TimeAdjustment>-3600</TimeAdjustment>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformProperty PropertyName="CE0A408A">FTPK</PlatformProperty>
+</Platform>

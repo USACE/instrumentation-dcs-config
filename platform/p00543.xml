@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="543">
+  <Description>Missouri River at Yankton, SD - WQ gage</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">YKN1-Yankton-Missouri</SiteName>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DD0AA61A">
+    <DecodesScript ScriptName="ST"/>
+    <EquipmentModel Name="DA-H522">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Design Analysis</Company>
+      <Model>H522+</Model>
+    </EquipmentModel>
+    <ChannelNum>153</ChannelNum>
+    <TransmitInterval>00:15</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

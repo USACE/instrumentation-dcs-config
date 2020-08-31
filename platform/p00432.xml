@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="432">
+  <Description>Papio Cr 20 Sed Trap Dam</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:03</LastModifyTime>
+  <Site>
+    <Latitude>41.1455266</Latitude>
+    <Longitude>-96.1684608</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>Omaha</NearestCity>
+    <SiteName NameType="CWMS">PA2A-Papio_Cr_Dam_20-Sediment_Trap</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Papio Cr Dam 20 Silt Dam, NE
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE822672">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>58</ChannelNum>
+    <AssignedTime>00:25:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

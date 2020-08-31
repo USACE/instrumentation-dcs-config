@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.140555555556</Latitude>
+  <Longitude>-101.229722222222</Longitude>
+  <Elevation>845.969352</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Stratton, Ne</NearestCity>
+  <SiteName NameType="CWMS">STTN-Stratton-Republican</SiteName>
+  <SiteName NameType="local">NWK-STTN</SiteName>
+  <SiteName NameType="nwshb5">STTN1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06828500</SiteName>
+  <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+</Site>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="692">
+  <Description>Rock Creek near Ceresco, NE</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:20</LastModifyTime>
+  <Site>
+    <Latitude>41.0158333</Latitude>
+    <Longitude>-96.5441667</Longitude>
+    <Elevation>336.55406400000004</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>Papillion</NearestCity>
+    <Description>Rock Creek near Ceresco, NE</Description>
+    <SiteName NameType="CWMS">RCNE-Ceresco-Rock_Cr</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06803530
+    </SiteName>
+    <SiteProperty PropertyName="REGION">NWO</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="D1106082">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>178</ChannelNum>
+    <AssignedTime>00:48:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.425</Latitude>
+  <Longitude>-108.178333</Longitude>
+  <Elevation>0.0</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT+7</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WY</State>
+  <NearestCity>Sheridan</NearestCity>
+  <SiteName NameType="CWMS">BYWY-blw_Boysen_Res-Wind</SiteName>
+  <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+</Site>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="210">
+  <Description>
+    TEMPORARY GAGE - JAMES RIVER AT HWY 46 NR ADRIAN, ND
+  </Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:52</LastModifyTime>
+  <Site>
+    <Latitude>46.6291667</Latitude>
+    <Longitude>-98.5719444</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>ND</State>
+    <NearestCity>Montepelier</NearestCity>
+    <SiteName NameType="CWMS">46ND</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      James R at Hwy 46, ND
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DD1A4276">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>70</ChannelNum>
+    <AssignedTime>00:39:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

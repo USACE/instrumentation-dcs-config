@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.1022222</Latitude>
+  <Longitude>-95.7183333</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>IA</State>
+  <Description>Keg Creek at Epperson Avenue near Glenwood 4NE</Description>
+  <SiteName NameType="CWMS">KCIA-Glenwood-Keg</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06805850</SiteName>
+</Site>

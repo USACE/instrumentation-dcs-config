@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.028611</Latitude>
+  <Longitude>-98.150833</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT-6</Timezone>
+  <Country>UNITED STATES</Country>
+  <NearestCity>Lincoln</NearestCity>
+  <SiteName NameType="CWMS">LINK-Lincoln-Saline</SiteName>
+</Site>

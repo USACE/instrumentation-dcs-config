@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.3461111</Latitude>
+  <Longitude>-95.0766666</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>00</State>
+  <NearestCity>Atlantic</NearestCity>
+  <SiteName NameType="CWMS">ACIA-Atlantic-East_Nishnabotna</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06809210</SiteName>
+  <SiteName NameType="usgs-drgs">06809210</SiteName>
+  <SiteProperty PropertyName="location_type">
+    USGS Streamgaging Station
+  </SiteProperty>
+</Site>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.886111412241</Latitude>
+  <Longitude>-96.624179546236</Longitude>
+  <Elevation>101.80779638400001</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Papillion</NearestCity>
+  <Description>Salt Creek at North 70th Street at Lincoln, NE</Description>
+  <SiteName NameType="CWMS">SLNE-Lincoln-N_70th_St-Salt</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06803513</SiteName>
+</Site>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="136">
+  <Description>Elkhorn River at Ewing, Nebraska</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:49</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>Norfolk</NearestCity>
+    <SiteName NameType="CWMS">TANE-Ewing-Elkhorn</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Elkhorn River at Ewing, NE
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="DDD8B362">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>130</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DDD8B362">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>156</ChannelNum>
+    <AssignedTime>00:52:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

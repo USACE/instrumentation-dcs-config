@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>44.026666666667</Latitude>
+  <Longitude>-103.101111111111</Longitude>
+  <Elevation>915.387552</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>SD</State>
+  <SiteName NameType="CWMS">RCWR-ab_WRF-Rapid_Creek</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06418800</SiteName>
+</Site>

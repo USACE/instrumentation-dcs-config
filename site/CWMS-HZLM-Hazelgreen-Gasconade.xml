@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.759167</Latitude>
+  <Longitude>-92.451667</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <Description>Gasconade River near Hazelgreen, MO</Description>
+  <SiteName NameType="CWMS">HZLM-Hazelgreen-Gasconade</SiteName>
+  <SiteName NameType="local">NWK-HZLM</SiteName>
+  <SiteName NameType="nwshb5">HZLM7</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06928000</SiteName>
+</Site>

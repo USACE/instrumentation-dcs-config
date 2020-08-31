@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="201">
+  <Description>RATHBUN BELOW, CHARITON RIVER NEAR RATHBUN LAKE, IA</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:51</LastModifyTime>
+  <Site>
+    <Latitude>40.821861</Latitude>
+    <Longitude>-92.891056</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>IA</State>
+    <NearestCity>Rathbun</NearestCity>
+    <SiteName NameType="CWMS">RATI-bl_Rathbun-Chariton</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06903900
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Chariton River near Rathbun, IA
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="DD56D554">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>128</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DD56D554">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>164</ChannelNum>
+    <AssignedTime>00:06</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="2">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06903880.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="5">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06903900.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

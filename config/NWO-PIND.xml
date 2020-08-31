@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="NWO-PIND">
+  <Description>Pipestem Creek at Pingree, ND</Description>
+  <EquipmentModel Name="Sutron 8200">
+    <EquipmentType>DCP</EquipmentType>
+    <Company>Sutron</Company>
+    <Model>8200</Model>
+    <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+  </EquipmentModel>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>Stage- Orifice</SensorName>
+    <DataType Standard="SHEF-PE" Code="HG"/>
+    <DataType Standard="CWMS" Code="Stage"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <UsgsStatCode>00011</UsgsStatCode>
+    <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="2">
+    <SensorName>Precip</SensorName>
+    <DataType Standard="SHEF-PE" Code="PC"/>
+    <DataType Standard="CWMS" Code="Precip"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <UsgsStatCode>00011</UsgsStatCode>
+    <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="3">
+    <SensorName>Battery</SensorName>
+    <DataType Standard="SHEF-PE" Code="BV"/>
+    <DataType Standard="CWMS" Code="Volts"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <UsgsStatCode>00011</UsgsStatCode>
+    <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="4">
+    <SensorName>Stage- Radar</SensorName>
+    <DataType Standard="SHEF-PE" Code="HR"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+  </ConfigSensor>
+  <DecodesScript ScriptName="ST">
+    <ScriptType>Decodes</ScriptType>
+    <FormatStatement Label="st">
+      4X,8(F(S,B,3,1)),8(F(S,B,3,4)),8(F(S,B,3,2)),8(F(S,B,3,3))
+    </FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>-0.02</B>
+        <C>1.0</C>
+        <D>-0.02</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+        <Algorithm>linear</Algorithm>
+        <A>0.001</A>
+        <B>0.0</B>
+        <C>1.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="3">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volts">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>1.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="4">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>3.24</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

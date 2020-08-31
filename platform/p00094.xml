@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="94">
+  <Description>North Platte River at Casper, WY</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:47</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>0.0</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WY</State>
+    <NearestCity>Gillette</NearestCity>
+    <SiteName NameType="CWMS">CAWY-Casper-North_Platte</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">CAWY</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="348CA60A">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>66</ChannelNum>
+    <AssignedTime>00:40:25</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

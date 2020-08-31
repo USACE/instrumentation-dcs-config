@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.99222</Latitude>
+  <Longitude>-93.19667</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <SiteName NameType="CWMS">BLCM-Blue_Lick-Blackwater</SiteName>
+  <SiteName NameType="local">NWK-BLCM</SiteName>
+  <SiteName NameType="nwshb5">BLVM7</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06908000</SiteName>
+</Site>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="2">
+  <Description>Marias R nr Chester, MT</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:35</LastModifyTime>
+  <Site>
+    <Latitude>48.30596111</Latitude>
+    <Longitude>-111.080528</Longitude>
+    <Elevation>0.0</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>Etc/GMT+7</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MT</State>
+    <NearestCity>Great Falls</NearestCity>
+    <SiteName NameType="CWMS">CHMT-Chester-Marias</SiteName>
+    <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Marias R near Chester, MT
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="3473A28C">
+    <DecodesScript ScriptName="ST"/>
+    <EquipmentModel Name="Sutron 8200">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Sutron</Company>
+      <Model>8200</Model>
+      <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+    </EquipmentModel>
+    <ChannelNum>174</ChannelNum>
+    <AssignedTime>00:23:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

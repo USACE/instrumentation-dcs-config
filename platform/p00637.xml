@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="637">
+  <Description>EMERGENCY GAGE - Pipestem Creek near Carrington</Description>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
+  <Site>
+    <Latitude>47.4575</Latitude>
+    <Longitude>-99.2572222</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>ND</State>
+    <SiteName NameType="CWMS">CAND</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      CAND-Carrington-Pipestem
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DD753046">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>154</ChannelNum>
+    <AssignedTime>00:01:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

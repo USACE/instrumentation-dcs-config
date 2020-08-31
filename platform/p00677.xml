@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="677">
+  <Description>Helena Valley Reservoir</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:19</LastModifyTime>
+  <Site>
+    <Latitude>46.6380556</Latitude>
+    <Longitude>-111.88222</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">HVMT-Helena_Valley_Reservoir-Tenmile</SiteName>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="F234741C">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>38</ChannelNum>
+    <AssignedTime>00:17:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

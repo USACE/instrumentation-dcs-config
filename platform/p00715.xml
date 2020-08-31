@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="715">
+  <Agency>CO-DWR</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:23</LastModifyTime>
+  <Site>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">SPIN</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">Spinney Mtn Res</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="50802564">
+    <DecodesScript ScriptName="st"/>
+    <ChannelNum>152</ChannelNum>
+    <AssignedTime>00:20:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="448">
+  <Description>Big Papillion Creek at Fort Street at Omaha, NE</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:04</LastModifyTime>
+  <Site>
+    <Latitude>41.3066647</Latitude>
+    <Longitude>-96.1041852</Longitude>
+    <Elevation>313.44717599999996</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>Omaha</NearestCity>
+    <Description>Big Papillion Creek at Fort Street at Omaha, Nebr</Description>
+    <SiteName NameType="CWMS">FSNE-Omaha-Fort_St-Big_Papillion</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06610732
+    </SiteName>
+    <SiteProperty PropertyName="REGION">NWO</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE783642">
+    <DecodesScript ScriptName="ST"/>
+    <EquipmentModel Name="DA-H522">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Design Analysis</Company>
+      <Model>H522+</Model>
+    </EquipmentModel>
+    <ChannelNum>58</ChannelNum>
+    <AssignedTime>00:20:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

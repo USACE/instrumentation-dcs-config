@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>46.647671</Latitude>
+  <Longitude>-111.728554</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT+7</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MT</State>
+  <NearestCity>Helena</NearestCity>
+  <SiteName NameType="CWMS">CAFE-Canyon_Ferry_Dam-Missouri</SiteName>
+  <SiteProperty PropertyName="location_type">Corps Reservoir</SiteProperty>
+</Site>

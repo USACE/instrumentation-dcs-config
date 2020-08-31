@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.1455266</Latitude>
+  <Longitude>-96.1684608</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Omaha</NearestCity>
+  <SiteName NameType="CWMS">PA2A-Papio_Cr_Dam_20-Sediment_Trap</SiteName>
+</Site>

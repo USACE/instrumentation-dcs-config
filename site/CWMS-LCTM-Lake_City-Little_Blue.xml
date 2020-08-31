@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>0</Latitude>
+  <Longitude>0</Longitude>
+  <Elevation>219.413328</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MO</State>
+  <NearestCity>Independence</NearestCity>
+  <SiteName NameType="CWMS">LCTM-Lake_City-Little_Blue</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06894000</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+</Site>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.438752777778</Latitude>
+  <Longitude>-103.566558333333</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/Chicago</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>SD</State>
+  <NearestCity>Rapid City</NearestCity>
+  <SiteName NameType="CWMS">COTT-Cottonwood_Dam-Cottonwood_Spr</SiteName>
+</Site>

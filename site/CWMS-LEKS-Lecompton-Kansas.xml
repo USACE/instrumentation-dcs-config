@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>0</Latitude>
+  <Longitude>0</Longitude>
+  <Elevation>250.48464</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KS</State>
+  <NearestCity>Lawrence</NearestCity>
+  <SiteName NameType="CWMS">LEKS-Lecompton-Kansas</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06891000</SiteName>
+  <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+</Site>

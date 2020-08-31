@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>0</Latitude>
+  <Longitude>0</Longitude>
+  <Elevation>167.374824</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MO</State>
+  <SiteName NameType="CWMS">BAGM-bl_Bagnell_Dam-Osage</SiteName>
+  <SiteName NameType="local">NWK-BAGM</SiteName>
+  <SiteName NameType="nwshb5">LKBM7</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06926000</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+</Site>

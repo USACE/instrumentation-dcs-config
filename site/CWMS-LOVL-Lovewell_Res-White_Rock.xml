@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.89006516</Latitude>
+  <Longitude>-98.02634081</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KS</State>
+  <NearestCity>Beatrice</NearestCity>
+  <Description>Lovewell Reservoir</Description>
+  <SiteName NameType="CWMS">LOVL-Lovewell_Res-White_Rock</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06853900</SiteName>
+  <SiteProperty PropertyName="location_type">USBR Reservoir</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

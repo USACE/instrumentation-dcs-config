@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.8108333</Latitude>
+  <Longitude>-96.8061111</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Lincoln</NearestCity>
+  <SiteName NameType="CWMS">MCNE-Lincoln-SW_63rd_St-Middle_Cr</SiteName>
+</Site>

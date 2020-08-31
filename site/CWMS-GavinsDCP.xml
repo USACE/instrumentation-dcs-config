@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>0</Latitude>
+  <Longitude>0</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <Description>Gavins Point Dam DCP</Description>
+  <SiteName NameType="CWMS">GavinsDCP</SiteName>
+  <SiteName NameType="local">GAVINSPT</SiteName>
+</Site>

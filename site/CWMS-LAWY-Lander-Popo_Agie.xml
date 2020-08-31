@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.7666667</Latitude>
+  <Longitude>-108.6427778</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>WY</State>
+  <NearestCity>Rock Springs</NearestCity>
+  <Description>
+    Note this is on the Little Popo Agie River.  See description in base
+       
+    location for this site. Also LPWY is a duplicate name and has been
+       
+    deprecated.
+  </Description>
+  <SiteName NameType="CWMS">LAWY-Lander-Popo_Agie</SiteName>
+</Site>

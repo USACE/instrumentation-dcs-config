@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="616">
+  <Description>Garrison Dam DCP</Description>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <Description>
+      Garrison Dam DCP Data and Lake Audubon Pump Diversion &amp; Elev
+    </Description>
+    <SiteName NameType="CWMS">GarrisonDCP</SiteName>
+    <SiteName NameType="local">GARRISON</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">Garrison Dam DCP</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE0A53FC">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>58</ChannelNum>
+    <AssignedTime>00:10:10</AssignedTime>
+    <TransmitWindow>00:00:20</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

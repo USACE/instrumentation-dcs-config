@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.01686847</Latitude>
+  <Longitude>-94.33546066</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MO</State>
+  <NearestCity>Independence</NearestCity>
+  <Description>Blue Springs Lake</Description>
+  <SiteName NameType="CWMS">BSPM-Blue_Springs_Lake-Little_Blue</SiteName>
+  <SiteName NameType="local">NWK-BSPM</SiteName>
+  <SiteName NameType="nwshb5">BSZM7</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06893885</SiteName>
+  <SiteProperty PropertyName="location_type">Corps Reservoir</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

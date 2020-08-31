@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="69">
+  <Description>NWO-LLND-Lake Lamoure, ND</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:39</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>ND</State>
+    <SiteName NameType="CWMS">LLND-Lake_Lamoure-Cottonwood</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      LLND-Lake_Lamoure-Cottonwood
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE835218">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>4</ChannelNum>
+    <AssignedTime>02:27</AssignedTime>
+    <TransmitInterval>04:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

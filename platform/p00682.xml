@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="682">
+  <Description>
+    USGS 06220800 WIND RIVER ABOVE RED CREEK, NEAR DUBOIS, WY:
+    NWO-RCWY-Abv_Red_Cr-Wind
+  </Description>
+  <Agency>USGS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:20</LastModifyTime>
+  <Site>
+    <Latitude>43.441666</Latitude>
+    <Longitude>-109.458</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <Description>Wind reiver above red creek</Description>
+    <SiteName NameType="CWMS">RCWY-Abv_Red_Cr-Wind</SiteName>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DDF8F186">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>102</ChannelNum>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>00:15</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

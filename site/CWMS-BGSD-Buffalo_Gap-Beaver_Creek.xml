@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.466666667</Latitude>
+  <Longitude>-103.3055556</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/Chicago</Timezone>
+  <SiteName NameType="CWMS">BGSD-Buffalo_Gap-Beaver_Creek</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06402500</SiteName>
+</Site>

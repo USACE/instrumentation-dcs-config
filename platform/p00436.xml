@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="436">
+  <Description>Sun River nr Simms, MT</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:03</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>0.0</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MT</State>
+    <NearestCity>Great Falls</NearestCity>
+    <SiteName NameType="CWMS">SMMT-Simms-Sun</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">SMMT</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DD3CD634">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>90</ChannelNum>
+    <AssignedTime>00:41:52</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

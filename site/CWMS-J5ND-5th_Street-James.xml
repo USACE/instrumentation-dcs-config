@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>46.9291667</Latitude>
+  <Longitude>-98.7097222</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>ND</State>
+  <SiteName NameType="CWMS">J5ND-5th_Street-James</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06469015</SiteName>
+</Site>

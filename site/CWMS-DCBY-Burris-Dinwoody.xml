@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.346111111111</Latitude>
+  <Longitude>-109.408611111111</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <NearestCity>Burris</NearestCity>
+  <SiteName NameType="CWMS">DCBY-Burris-Dinwoody</SiteName>
+</Site>

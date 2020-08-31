@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.0158333</Latitude>
+  <Longitude>-96.5441667</Longitude>
+  <Elevation>336.55406400000004</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Papillion</NearestCity>
+  <Description>Rock Creek near Ceresco, NE</Description>
+  <SiteName NameType="CWMS">RCNE-Ceresco-Rock_Cr</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06803530</SiteName>
+  <SiteProperty PropertyName="REGION">NWO</SiteProperty>
+</Site>

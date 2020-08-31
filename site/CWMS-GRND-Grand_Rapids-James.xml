@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>46.4422222</Latitude>
+  <Longitude>-98.3613889</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>ND</State>
+  <SiteName NameType="CWMS">GRND-Grand_Rapids-James</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06470475</SiteName>
+</Site>

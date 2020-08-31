@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.11806</Latitude>
+  <Longitude>-100.7727778</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <SiteName NameType="CWMS">SPNE-North_Platte-South_Platte</SiteName>
+  <SiteName NameType="nwshb5">NPSN1</SiteName>
+</Site>

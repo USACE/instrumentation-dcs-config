@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="688">
+  <Description>North Platte River at Minatare Ninemile Channel</Description>
+  <Agency>NE DNR</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:20</LastModifyTime>
+  <Site>
+    <Latitude>41.792222222222</Latitude>
+    <Longitude>-103.519166666667</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Mountain</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>00</State>
+    <NearestCity>Scottsbluff</NearestCity>
+    <SiteName NameType="CWMS">MTNM-Minatare-NC-North_Platte</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      North Platte at Minatare NC
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="40230554">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>170</ChannelNum>
+    <AssignedTime>00:51:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

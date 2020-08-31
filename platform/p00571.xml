@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="571">
+  <Description>Rapid Creek at Big Bend near Rapid City, SD</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:11</LastModifyTime>
+  <Site>
+    <Latitude>44.055</Latitude>
+    <Longitude>-103.416666666667</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>UTC</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>SD</State>
+    <NearestCity>Rapid City, SD</NearestCity>
+    <Description>Rapid Creek at Big Bend near Rapid CIty, SD</Description>
+    <SiteName NameType="CWMS">BESD-Big_Bend-Rapid</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06412000
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">BESD-Big_Bend-Rapid</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DF0706C0">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>64</ChannelNum>
+    <AssignedTime>00:47:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

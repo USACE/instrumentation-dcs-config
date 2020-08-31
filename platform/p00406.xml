@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="406">
+  <Description>Laramie River near Lookout, WY&#92;n</Description>
+  <Agency>WY SEO</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:01</LastModifyTime>
+  <Site>
+    <Latitude>41.7663889</Latitude>
+    <Longitude>-105.6925</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>WY</State>
+    <NearestCity>Laramie</NearestCity>
+    <SiteName NameType="CWMS">LOWY-Lookout-Laramie</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">LOWY-Lookout-Laramie</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="B15566F0">
+    <DecodesScript ScriptName="ST"/>
+    <EquipmentModel Name="Sutron 8200">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Sutron</Company>
+      <Model>8200</Model>
+      <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+    </EquipmentModel>
+    <ChannelNum>80</ChannelNum>
+    <AssignedTime>00:52</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

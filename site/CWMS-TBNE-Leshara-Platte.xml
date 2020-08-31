@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.32</Latitude>
+  <Longitude>-96.4038889</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Fremont</NearestCity>
+  <SiteName NameType="CWMS">TBNE-Leshara-Platte</SiteName>
+</Site>

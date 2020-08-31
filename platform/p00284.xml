@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="284">
+  <Description>Osage R bl Truman Dam, MO</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:55</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">TRUM-Warsaw-Osage-bl_Truman</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06922450
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      TRUM-Warsaw-Osage-bl_Truman
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE513F22">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>52</ChannelNum>
+    <AssignedTime>02:23</AssignedTime>
+    <TransmitWindow>00:01</TransmitWindow>
+    <TransmitInterval>04:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

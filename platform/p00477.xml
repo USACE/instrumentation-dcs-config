@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="477">
+  <Description>West Papillion Cr at Papillion, NE</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:05</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>Papillion</NearestCity>
+    <Description>Papillion Creek at Papillion, NE</Description>
+    <SiteName NameType="CWMS">PPNE-Papillion-Papillion</SiteName>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DD5220EA">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>163</ChannelNum>
+    <AssignedTime>00:32:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

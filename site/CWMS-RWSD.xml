@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>44.66720664</Latitude>
+  <Longitude>-103.83936958</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>SD</State>
+  <NearestCity>Belle Fourche</NearestCity>
+  <SiteName NameType="CWMS">RWSD</SiteName>
+  <SiteName NameType="nwshb5">RWRS2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06433000</SiteName>
+</Site>

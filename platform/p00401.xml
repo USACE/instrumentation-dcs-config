@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="401">
+  <Description>North Fork South Platte above Elk Creek at Pine, CO</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:01</LastModifyTime>
+  <Site>
+    <Latitude>39.4075</Latitude>
+    <Longitude>-105.3186111</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>CO</State>
+    <SiteName NameType="CWMS">PICO-Pine-NF_South_Platte</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      PICO-Pine-NF_South_Platte
+    </SiteProperty>
+  </Site>
+</Platform>

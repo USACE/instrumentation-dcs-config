@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.1475</Latitude>
+  <Longitude>-96.5377778</Longitude>
+  <Elevation>338.474304</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Fremont</NearestCity>
+  <SiteName NameType="CWMS">ITNE-Ithaca-Wahoo</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06804000</SiteName>
+  <SiteProperty PropertyName="REGION">NWO</SiteProperty>
+</Site>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="575">
+  <Description>Mammoth at Yellowstone NP Raws</Description>
+  <Agency>NWS-(BLM001)</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:12</LastModifyTime>
+  <Site>
+    <Latitude>44.977222222222</Latitude>
+    <Longitude>-110.695277777778</Longitude>
+    <Elevation>1920.24</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <NearestCity>Mammoth</NearestCity>
+    <SiteName NameType="CWMS">MYWY-Mammoth-Raws</SiteName>
+    <SiteName NameType="nwshb5">YLAW4</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Mammoth at Yellowstone NP
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="32842174">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>138</ChannelNum>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>00:15</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.6872222</Latitude>
+  <Longitude>-105.6997222</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>CO</State>
+  <Description>Leavenworth Creek at Mouth near Georgetown</Description>
+  <SiteName NameType="CWMS">LECO-Georgetown-Leavenworth</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06714800</SiteName>
+</Site>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>47.5027778</Latitude>
+  <Longitude>-111.9305556</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT+7</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MT</State>
+  <NearestCity>Great Falls</NearestCity>
+  <Description>Sun River at Augusta Bridge, MT</Description>
+  <SiteName NameType="CWMS">SRMT-Augusta_Bridge-Sun</SiteName>
+</Site>

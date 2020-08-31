@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.558719444444</Latitude>
+  <Longitude>-105.062080555556</Longitude>
+  <Elevation>1641.348</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT+7</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>CO</State>
+  <NearestCity>Columbine, CO</NearestCity>
+  <SiteName NameType="CWMS">CHFI-Tailwater</SiteName>
+</Site>

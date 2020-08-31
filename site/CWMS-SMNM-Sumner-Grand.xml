@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>0</Latitude>
+  <Longitude>0</Longitude>
+  <Elevation>192.383664</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <SiteName NameType="CWMS">SMNM-Sumner-Grand</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06902000</SiteName>
+</Site>

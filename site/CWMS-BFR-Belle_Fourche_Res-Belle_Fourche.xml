@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>44.73037</Latitude>
+  <Longitude>-103.677013</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT+7</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>SD</State>
+  <NearestCity>Gillette</NearestCity>
+  <SiteName NameType="CWMS">BFR-Belle_Fourche_Res-Belle_Fourche</SiteName>
+</Site>

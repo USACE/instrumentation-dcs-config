@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.1291667</Latitude>
+  <Longitude>-108.2233333</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WY</State>
+  <NearestCity>Casper</NearestCity>
+  <SiteName NameType="CWMS">WRSY-ab_Boysen_Res-Wind</SiteName>
+</Site>

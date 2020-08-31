@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="557">
+  <Description>Nowood River near Manderson</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
+  <Site>
+    <Latitude>44.2672222</Latitude>
+    <Longitude>-107.8802778</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>WY</State>
+    <SiteName NameType="CWMS">NOWY-Manderson-Nowood</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      NOWY-Manderson-Nowood
+    </SiteProperty>
+  </Site>
+</Platform>

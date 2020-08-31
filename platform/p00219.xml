@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="219">
+  <Description>Heart River nr Richardton, ND</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:52</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>ND</State>
+    <NearestCity>Dickinson</NearestCity>
+    <SiteName NameType="CWMS">TMND-Richardton-Heart</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Heart River nr Richardton, ND
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DE3293B0">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>202</ChannelNum>
+    <AssignedTime>01:06:41</AssignedTime>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

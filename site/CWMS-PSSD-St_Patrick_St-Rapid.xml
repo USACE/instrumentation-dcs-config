@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>44.067222222222</Latitude>
+  <Longitude>-103.180277777778</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>UTC</Timezone>
+  <Country>UNITED STATES</Country>
+  <Description>Rapid Creek at St. Patrick St. at Rapid City, SD</Description>
+  <SiteName NameType="CWMS">PSSD-St_Patrick_St-Rapid</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06416000</SiteName>
+</Site>

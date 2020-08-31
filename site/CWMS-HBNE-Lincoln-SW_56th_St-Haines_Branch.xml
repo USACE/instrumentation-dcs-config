@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.7675026</Latitude>
+  <Longitude>-96.796965</Longitude>
+  <Elevation>356.61600000000004</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Lincoln</NearestCity>
+  <Description>Haines Branch at SW 56th St. at Lincoln, NE</Description>
+  <SiteName NameType="CWMS">HBNE-Lincoln-SW_56th_St-Haines_Branch</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06803093</SiteName>
+  <SiteProperty PropertyName="REGION">NWO</SiteProperty>
+</Site>

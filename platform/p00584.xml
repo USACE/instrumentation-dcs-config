@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="584">
+  <Description>Teton River near Dutton, Montana</Description>
+  <Agency>USGS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:12</LastModifyTime>
+  <Site>
+    <Latitude>47.930277777778</Latitude>
+    <Longitude>-111.551944444444</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MT</State>
+    <NearestCity>Dutton</NearestCity>
+    <Description>Teton River near Dutton, Montana</Description>
+    <SiteName NameType="CWMS">DTTM8-Dutton-Tenton</SiteName>
+    <SiteName NameType="local">DTTM8-Dutton-Tenton</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06108000
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Teton Rivr near Dutton, MT
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="1739E034">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>90</ChannelNum>
+    <AssignedTime>00:42:10</AssignedTime>
+    <TransmitWindow>00:00:05</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

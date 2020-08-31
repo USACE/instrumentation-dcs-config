@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.936944</Latitude>
+  <Longitude>-92.851361</Longitude>
+  <Elevation>210.942936</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MO</State>
+  <NearestCity>Macks Creek</NearestCity>
+  <SiteName NameType="CWMS">TDMO-Tunnel_Dam-Niangua-Macks_Creek</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
+</Site>

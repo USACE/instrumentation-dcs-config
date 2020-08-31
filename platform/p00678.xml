@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="678">
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:19</LastModifyTime>
+  <Site>
+    <Latitude>47.6766667</Latitude>
+    <Longitude>-112.4966667</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>MT</State>
+    <SiteName NameType="CWMS">PRMT-Pishkun_Reservoir-Pishkun</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      PRMT-Pishkun_Reservoir-Pishkun
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="F23497EE">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>38</ChannelNum>
+    <AssignedTime>00:17:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

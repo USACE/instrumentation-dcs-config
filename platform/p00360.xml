@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="360">
+  <Description>White Rock Creek below Lovewell KS</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:59</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">LWLK-bl_Lovewell_Res-White_Rock</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06854000
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      LWLK-bl_Lovewell_Res-White_Rock
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="F00011F4">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>133</ChannelNum>
+    <Preamble>S</Preamble>
+    <TimeZone>GMT</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="F00011F4">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>112</ChannelNum>
+    <AssignedTime>00:46</AssignedTime>
+    <TransmitWindow>00:01</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      0685400.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="3">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      0685400.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

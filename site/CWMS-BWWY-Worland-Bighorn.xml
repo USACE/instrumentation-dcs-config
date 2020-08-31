@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>44.014679</Latitude>
+  <Longitude>-107.96953</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>WY</State>
+  <NearestCity>Worland</NearestCity>
+  <SiteName NameType="CWMS">BWWY-Worland-Bighorn</SiteName>
+  <SiteName NameType="nwshb5">BHWW4</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06268600</SiteName>
+</Site>

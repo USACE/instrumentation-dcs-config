@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.8930556</Latitude>
+  <Longitude>-96.6816667</Longitude>
+  <Elevation>339.76970400000005</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Papillion</NearestCity>
+  <Description>Little Salt Creek near Lincoln, NE</Description>
+  <SiteName NameType="CWMS">LSNE-Lincoln-Little_Salt</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06803510</SiteName>
+  <SiteProperty PropertyName="REGION">NWO</SiteProperty>
+</Site>

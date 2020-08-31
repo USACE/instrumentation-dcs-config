@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="646">
+  <Description>Missouri River at Jefferson City, MO</Description>
+  <Agency>USGS01</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:17</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>158.52648</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>00</State>
+    <SiteName NameType="CWMS">JEFM-Jefferson_City-Missouri</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      JEFM-Jefferson_City-Missouri
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="166A77B8">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>115</ChannelNum>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="166A77B8">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>77</ChannelNum>
+    <AssignedTime>00:45:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

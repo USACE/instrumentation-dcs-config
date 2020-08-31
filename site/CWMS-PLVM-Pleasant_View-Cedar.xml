@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.834167</Latitude>
+  <Longitude>-93.875278</Longitude>
+  <Elevation>225.387408</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MO</State>
+  <NearestCity>El Dorado Springs</NearestCity>
+  <SiteName NameType="CWMS">PLVM-Pleasant_View-Cedar</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06919500</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+</Site>

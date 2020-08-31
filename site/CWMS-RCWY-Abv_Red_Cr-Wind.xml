@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.441666</Latitude>
+  <Longitude>-109.458</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <Description>Wind reiver above red creek</Description>
+  <SiteName NameType="CWMS">RCWY-Abv_Red_Cr-Wind</SiteName>
+</Site>

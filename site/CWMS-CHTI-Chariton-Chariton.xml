@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.951889</Latitude>
+  <Longitude>-93.259639</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>IA</State>
+  <NearestCity>Indianola</NearestCity>
+  <SiteName NameType="CWMS">CHTI-Chariton-Chariton</SiteName>
+  <SiteName NameType="local">NWK-CHTI</SiteName>
+  <SiteName NameType="nwshb5">CHTI4</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06903400</SiteName>
+  <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+</Site>

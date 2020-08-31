@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>46.7494444</Latitude>
+  <Longitude>-100.8383333</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>ND</State>
+  <NearestCity>Bismarck</NearestCity>
+  <SiteName NameType="CWMS">ALND-Ft_Abe_Lincoln-Missouri</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+    464458100501801
+  </SiteName>
+</Site>

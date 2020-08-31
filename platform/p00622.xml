@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="622">
+  <Description>Little Blue River at Hollenberg</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
+  <Site>
+    <Latitude>39.980278</Latitude>
+    <Longitude>-97.004722</Longitude>
+    <Elevation>370.67</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>Etc/GMT-6</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>KS</State>
+    <NearestCity>Hollenberg</NearestCity>
+    <SiteName NameType="CWMS">HBGK-Hollenberg-Little_Blue</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Little Blue River at Hollenberg
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="D10041F0">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>178</ChannelNum>
+    <AssignedTime>00:05:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

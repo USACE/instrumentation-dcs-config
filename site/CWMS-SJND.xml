@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>46.85111</Latitude>
+  <Longitude>-101.252778</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <SiteName NameType="CWMS">SJND</SiteName>
+  <SiteName NameType="nwshb5">SWTN8</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06348500</SiteName>
+</Site>

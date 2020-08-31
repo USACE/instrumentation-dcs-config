@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>47.611935</Latitude>
+  <Longitude>-101.266088</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>ND</State>
+  <NearestCity>Garrison</NearestCity>
+  <SiteName NameType="CWMS">LAUD-Lake_Audubon-Snake</SiteName>
+  <SiteProperty PropertyName="location_type">Corps Reservoir</SiteProperty>
+</Site>

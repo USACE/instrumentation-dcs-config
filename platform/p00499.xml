@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="499">
+  <Description>Tarryall Creek blw Tarryall Res. SEASONAL</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:06</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">TACO-blw_Tarryall_Res-Tarryall_Cr</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      TACO-blw_Tarryall_Res-Tarryall
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="5146E572">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>118</ChannelNum>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="5146E572">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>28</ChannelNum>
+    <AssignedTime>00:44:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

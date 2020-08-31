@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.5536111</Latitude>
+  <Longitude>-105.6830556</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>WY</State>
+  <NearestCity>Bosler, WY</NearestCity>
+  <SiteName NameType="CWMS">BOWY-Bosler-Laramie</SiteName>
+</Site>

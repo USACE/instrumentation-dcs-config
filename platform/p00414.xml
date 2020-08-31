@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="414">
+  <Description>Bear Creek Reservoir (Outflow), CO</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:02</LastModifyTime>
+  <Site>
+    <Latitude>39.4325</Latitude>
+    <Longitude>-105.138469</Longitude>
+    <Elevation>1679.448</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>Etc/GMT+6</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>CO</State>
+    <NearestCity>Morrison, CO</NearestCity>
+    <SiteName NameType="CWMS">BECR-Tailwater</SiteName>
+    <SiteProperty PropertyName="location_type">Tailwater</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Bear Creek Dam Tailwater
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="51430140">
+    <DecodesScript ScriptName="ST"/>
+    <EquipmentModel Name="Sutron 8200">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Sutron</Company>
+      <Model>8200</Model>
+      <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+    </EquipmentModel>
+    <ChannelNum>52</ChannelNum>
+    <AssignedTime>00:24:40</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

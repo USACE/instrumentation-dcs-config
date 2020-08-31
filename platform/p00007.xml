@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="7">
+  <Description>Salt Creek near Ada, KS</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:35</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>0.0</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <NearestCity>Presque Isle</NearestCity>
+    <SiteName NameType="CWMS">ADAK-Ada-Salt</SiteName>
+    <SiteName NameType="local">NWK-ADAK</SiteName>
+    <SiteName NameType="nwshb5">ADAK1</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06876700
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Salt Creek near Ada, KS
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="DDE583EE">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>130</ChannelNum>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DDE583EE">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>122</ChannelNum>
+    <AssignedTime>00:58:44</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06876700.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="4">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06876700.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

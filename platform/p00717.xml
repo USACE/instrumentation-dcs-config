@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="717">
+  <Description>Big Pappilion Creek near Bennington Nebraska.</Description>
+  <Agency>USGS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:23</LastModifyTime>
+  <Site>
+    <Latitude>41.378849</Latitude>
+    <Longitude>-96.182876</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>Fremont</NearestCity>
+    <SiteName NameType="CWMS">BPNE-Bennington-Big_Papillion</SiteName>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DDEFC1B6">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>18</ChannelNum>
+    <AssignedTime>00:05:25</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>00:15</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

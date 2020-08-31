@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.980278</Latitude>
+  <Longitude>-97.004722</Longitude>
+  <Elevation>370.67</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT-6</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KS</State>
+  <NearestCity>Hollenberg</NearestCity>
+  <SiteName NameType="CWMS">HBGK-Hollenberg-Little_Blue</SiteName>
+</Site>

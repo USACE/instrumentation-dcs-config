@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="212">
+  <Description>EMERGENCY GAGE- James River at New Rockford, ND</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:52</LastModifyTime>
+  <Site>
+    <Latitude>47.685</Latitude>
+    <Longitude>-99.1258333</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>ND</State>
+    <SiteName NameType="CWMS">NRND-New_Rockford-James</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      NRND-New_Rockford-James
+    </SiteProperty>
+  </Site>
+</Platform>

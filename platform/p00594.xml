@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="594">
+  <Description>North Platte River At Lewellen, NE</Description>
+  <Agency>NEBDNR</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:15</LastModifyTime>
+  <Site>
+    <Latitude>41.315459603534</Latitude>
+    <Longitude>-102.125921994448</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Mountain</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>North Platte</NearestCity>
+    <Description>North Platte River At Lewellen, NE</Description>
+    <SiteName NameType="CWMS">LENE-Lewellen-North_Platte</SiteName>
+    <SiteName NameType="nwshb5">LEWN1</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      North Platte River At Lewellen
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="4020B1D4">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>170</ChannelNum>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

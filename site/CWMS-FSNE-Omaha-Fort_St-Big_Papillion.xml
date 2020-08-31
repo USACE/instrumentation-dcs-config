@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.3066647</Latitude>
+  <Longitude>-96.1041852</Longitude>
+  <Elevation>313.44717599999996</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Omaha</NearestCity>
+  <Description>Big Papillion Creek at Fort Street at Omaha, Nebr</Description>
+  <SiteName NameType="CWMS">FSNE-Omaha-Fort_St-Big_Papillion</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06610732</SiteName>
+  <SiteProperty PropertyName="REGION">NWO</SiteProperty>
+</Site>

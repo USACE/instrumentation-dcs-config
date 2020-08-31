@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>0</Latitude>
+  <Longitude>0</Longitude>
+  <Elevation>0.0</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <NearestCity>Presque Isle</NearestCity>
+  <SiteName NameType="CWMS">ADAK-Ada-Salt</SiteName>
+  <SiteName NameType="local">NWK-ADAK</SiteName>
+  <SiteName NameType="nwshb5">ADAK1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06876700</SiteName>
+</Site>

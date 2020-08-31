@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="372">
+  <Description>Republican R b Milford nr JC, KS</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:00</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">MILK-bl_Milford_Lake-Republican</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06857100
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      MILK-bl_Milford_Lake-Republican
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="DDE0E1C8">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>133</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DDE0E1C8">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>122</ChannelNum>
+    <AssignedTime>00:46:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>GMT</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="2">
+    <PlatformSensorProperty PropertyName="DischargeEU">
+      CFS
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="DischargeShef">
+      QR
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="AreaFile">
+      06857100.area.txt
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="DischargeName">
+      Flow
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="3">
+    <PlatformSensorProperty PropertyName="scale">0.853</PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

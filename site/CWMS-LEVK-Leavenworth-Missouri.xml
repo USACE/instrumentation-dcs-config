@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.326944444445</Latitude>
+  <Longitude>-94.909444444444</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>KS</State>
+  <NearestCity>Leavenworth, KS</NearestCity>
+  <Description>Missouri River at Leavenworth, KS</Description>
+  <SiteName NameType="CWMS">LEVK-Leavenworth-Missouri</SiteName>
+  <SiteName NameType="nwshb5">LEVK1</SiteName>
+</Site>

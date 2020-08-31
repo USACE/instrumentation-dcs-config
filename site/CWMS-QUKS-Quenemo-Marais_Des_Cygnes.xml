@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.516111111111</Latitude>
+  <Longitude>-95.526944444444</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KS</State>
+  <NearestCity>Quenemo</NearestCity>
+  <Description>QUENEMO...below Melvern Lake, KS</Description>
+  <SiteName NameType="CWMS">QUKS-Quenemo-Marais_Des_Cygnes</SiteName>
+  <SiteName NameType="local">NWK-QUKS</SiteName>
+  <SiteName NameType="nwshb5">MVNK1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06911400</SiteName>
+  <SiteProperty PropertyName="REGION">USA</SiteProperty>
+</Site>

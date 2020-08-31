@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="415">
+  <Description>Inlet Canal above Belle Fourche Reservoir</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:02</LastModifyTime>
+  <Site>
+    <Latitude>44.7013514</Latitude>
+    <Longitude>-103.7339278</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Mountain</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>SD</State>
+    <NearestCity>Gillette</NearestCity>
+    <SiteName NameType="CWMS">BFSD-BF_Inlet_Canal-Belle_Fourche</SiteName>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="F230A74E">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>38</ChannelNum>
+    <AssignedTime>00:19:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

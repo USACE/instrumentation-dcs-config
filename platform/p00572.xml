@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="572">
+  <Description>Rapid Creek at St. Patrick Street at Rapid City, SD</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:11</LastModifyTime>
+  <Site>
+    <Latitude>44.067222222222</Latitude>
+    <Longitude>-103.180277777778</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>UTC</Timezone>
+    <Country>UNITED STATES</Country>
+    <Description>Rapid Creek at St. Patrick St. at Rapid City, SD</Description>
+    <SiteName NameType="CWMS">PSSD-St_Patrick_St-Rapid</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06416000
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      PSSD-St_Patrick_St-Rapid
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DF065446">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>64</ChannelNum>
+    <AssignedTime>00:44:40</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

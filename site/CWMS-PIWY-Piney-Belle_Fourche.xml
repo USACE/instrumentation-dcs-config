@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.9844444</Latitude>
+  <Longitude>-105.3877778</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Mountain</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WY</State>
+  <NearestCity>Gillette</NearestCity>
+  <SiteName NameType="CWMS">PIWY-Piney-Belle_Fourche</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06425720</SiteName>
+</Site>

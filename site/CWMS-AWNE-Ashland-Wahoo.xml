@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.0536111</Latitude>
+  <Longitude>-96.3677778</Longitude>
+  <Elevation>319.665096</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Papillion</NearestCity>
+  <SiteName NameType="CWMS">AWNE-Ashland-Wahoo</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">D1100564</SiteName>
+  <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+  <SiteProperty PropertyName="REGION">NWO</SiteProperty>
+</Site>

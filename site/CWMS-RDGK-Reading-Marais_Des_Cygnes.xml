@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.56694</Latitude>
+  <Longitude>-95.96139</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KS</State>
+  <NearestCity>Reading, KS</NearestCity>
+  <Description>Reading, Kansas</Description>
+  <SiteName NameType="CWMS">RDGK-Reading-Marais_Des_Cygnes</SiteName>
+  <SiteName NameType="local">NWK-RDGK</SiteName>
+  <SiteName NameType="nwshb5">RDNK1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06910800</SiteName>
+  <SiteProperty PropertyName="REGION">USA</SiteProperty>
+</Site>

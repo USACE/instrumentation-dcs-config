@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.153937309188</Latitude>
+  <Longitude>-100.759080350399</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>North Platte</NearestCity>
+  <Description>North Platte river at North Platte Nebraska</Description>
+  <SiteName NameType="CWMS">NPNE-North_Platte-North_Platte</SiteName>
+  <SiteName NameType="nwshb5">NPTN1</SiteName>
+</Site>

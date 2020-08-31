@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>46.869722</Latitude>
+  <Longitude>-102.826944</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT+7</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>ND</State>
+  <NearestCity>Dickinson</NearestCity>
+  <SiteName NameType="CWMS">DIND-Dickinson_Dam-Heart</SiteName>
+</Site>

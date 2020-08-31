@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="601">
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:15</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <Description>GIBBON RIVER AT MADISON JUNCTION</Description>
+    <SiteName NameType="CWMS">GMMT</SiteName>
+    <SiteName NameType="nwshb5">GMJW4</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06037100
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      GIBBON RIVER AT MADISON JUNCTION
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DD5990CC">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>164</ChannelNum>
+    <AssignedTime>00:12:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

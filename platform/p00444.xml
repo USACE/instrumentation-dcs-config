@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="444">
+  <Description>Little Laramie River near Filmore</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:04</LastModifyTime>
+  <Site>
+    <Latitude>41.2997222</Latitude>
+    <Longitude>-106.0355556</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>WY</State>
+    <SiteName NameType="CWMS">FIWY-Filmore-Little_Laramie</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      FIWY-Filmore-Little_Laramie
+    </SiteProperty>
+  </Site>
+</Platform>

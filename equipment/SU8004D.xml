@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EquipmentModel Name="SU8004D">
+  <EquipmentType>DCP</EquipmentType>
+  <Company>SUTRON</Company>
+  <Model>SUTRON 8000 SERIES</Model>
+  <EquipmentProperty PropertyName="PlatformType">DCP</EquipmentProperty>
+  <EquipmentProperty PropertyName="RetrievalMethod">DCP</EquipmentProperty>
+  <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+</EquipmentModel>

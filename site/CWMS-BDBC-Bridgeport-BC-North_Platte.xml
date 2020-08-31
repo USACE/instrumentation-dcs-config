@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.682222222222</Latitude>
+  <Longitude>-103.098888888889</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Mountain</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>00</State>
+  <NearestCity>Scottsbluff</NearestCity>
+  <SiteName NameType="CWMS">BDBC-Bridgeport-BC-North_Platte</SiteName>
+</Site>

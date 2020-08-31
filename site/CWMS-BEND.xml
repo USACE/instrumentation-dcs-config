@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>44.0410389</Latitude>
+  <Longitude>-99.4453056</Longitude>
+  <Elevation>432.816</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>00</State>
+  <SiteName NameType="CWMS">BEND</SiteName>
+  <SiteName NameType="local">BIG_BEND</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

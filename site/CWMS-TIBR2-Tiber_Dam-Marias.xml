@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>48.319618</Latitude>
+  <Longitude>-111.102249</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT+7</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MT</State>
+  <SiteName NameType="CWMS">TIBR2-Tiber_Dam-Marias</SiteName>
+</Site>

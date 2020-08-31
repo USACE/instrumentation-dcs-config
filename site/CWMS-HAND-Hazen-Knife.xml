@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>0</Latitude>
+  <Longitude>0</Longitude>
+  <Elevation>522.30528</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>ND</State>
+  <NearestCity>Mandan</NearestCity>
+  <SiteName NameType="CWMS">HAND-Hazen-Knife</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+</Site>

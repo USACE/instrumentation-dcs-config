@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="41">
+  <Description>Bethany Mo-East Fork Big creek</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:37</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">BEMO-Bethany-E_Fork_Big</SiteName>
+    <SiteName NameType="local">NWK-BEMO</SiteName>
+    <SiteName NameType="nwshb5">BEYM7</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06897000
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      BEMO-Bethany-E_Fork_Big
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-random" MediumId="17F01288">
+    <DecodesScript ScriptName="RD"/>
+    <ChannelNum>131</ChannelNum>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+  <TransportMedium MediumType="goes-self-timed" MediumId="17F01288">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>153</ChannelNum>
+    <AssignedTime>00:45</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

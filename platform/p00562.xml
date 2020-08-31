@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="562">
+  <Description>Swift Reservoir near Dupuyer MT</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
+  <Site>
+    <Latitude>48.15</Latitude>
+    <Longitude>-112.8666667</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>MT</State>
+    <SiteName NameType="CWMS">SDMT-Swift_Reservoir-Birch</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      SDMT-Swift_Reservoir-Birch
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="347114F6">
+    <DecodesScript ScriptName="ST"/>
+    <EquipmentModel Name="SU8200D">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>SUTRON</Company>
+      <Model>SUTRON 8200 SERIES</Model>
+      <EquipmentProperty PropertyName="PlatformType">DCP</EquipmentProperty>
+      <EquipmentProperty PropertyName="RetrievalMethod">DCP</EquipmentProperty>
+      <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+    </EquipmentModel>
+    <ChannelNum>152</ChannelNum>
+    <AssignedTime>00:20:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

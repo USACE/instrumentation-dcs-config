@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="720">
+  <Description>South Platte R at Roscoe, NE</Description>
+  <Agency>USGS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:23</LastModifyTime>
+  <Site>
+    <Latitude>41.126111</Latitude>
+    <Longitude>-101.576667</Longitude>
+    <Elevation>960.12</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Mountain</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>Roscoe</NearestCity>
+    <Description>South Platte R at Roscoe, NE</Description>
+    <SiteName NameType="CWMS">RSNE</SiteName>
+    <SiteName NameType="nwshb5">RSON1</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06764880
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      South Platte R at Roscoe, NE
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="162BAE24">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>64</ChannelNum>
+    <AssignedTime>00:38:40</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

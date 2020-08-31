@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="11">
+  <Description>Platte River near Agency, MO</Description>
+  <Agency>CEMRK1</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:12</LastModifyTime>
+  <Site>
+    <Latitude>39.688</Latitude>
+    <Longitude>-94.7026</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MO</State>
+    <NearestCity>St. Joseph</NearestCity>
+    <SiteName NameType="CWMS">AGYM-Agency-Platte</SiteName>
+    <SiteName NameType="local">NWK-AGYM</SiteName>
+    <SiteName NameType="nwshb5">AGYM7</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06820500
+    </SiteName>
+    <SiteProperty PropertyName="location_type">
+      USGS Streamgaging Station
+    </SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Platte River near Agency, MO
+    </SiteProperty>
+  </Site>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06820500.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="4">
+    <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="RdbFile">
+      06820500.rdb
+    </PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

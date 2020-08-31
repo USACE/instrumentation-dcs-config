@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.4822355</Latitude>
+  <Longitude>-95.7926381</Longitude>
+  <Elevation>334.210152</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>IA</State>
+  <NearestCity>Sioux City</NearestCity>
+  <SiteName NameType="CWMS">CEIA-Correctionville-Little_Sioux</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

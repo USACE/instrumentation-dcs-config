@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="713">
+  <Description>Fort Laramie Canal on the North Platte River, WY</Description>
+  <Agency>USBR</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:22</LastModifyTime>
+  <Site>
+    <Latitude>42.240994762569</Latitude>
+    <Longitude>-104.627979397774</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>00</State>
+    <SiteName NameType="CWMS">WHWY-DiversionFortLaramie</SiteName>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="3489E2C0">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>166</ChannelNum>
+    <AssignedTime>00:22:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

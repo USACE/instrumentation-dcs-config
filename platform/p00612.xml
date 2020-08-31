@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="612">
+  <Description>LITTLE PAPILLION CREEK AT AK-SAR-BEN AT OMAHA, NE</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
+  <Site>
+    <Latitude>41.2453091</Latitude>
+    <Longitude>-96.0206363</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>Omaha</NearestCity>
+    <SiteName NameType="CWMS">AKNE-Omaha-Aksarben-Little_Papillion</SiteName>
+    <SiteName NameType="nwshb5">OMLN1</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06610765
+    </SiteName>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="16F2E65A">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>94</ChannelNum>
+    <AssignedTime>00:47:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

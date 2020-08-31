@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.926666666667</Latitude>
+  <Longitude>-103.813611111111</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Mountain</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Mitchell</NearestCity>
+  <SiteName NameType="CWMS">MINE-Mitchell-North_Platte</SiteName>
+  <SiteName NameType="nwshb5">MICN1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06679500</SiteName>
+</Site>

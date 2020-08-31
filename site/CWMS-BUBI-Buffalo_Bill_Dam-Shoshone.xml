@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>44.501443</Latitude>
+  <Longitude>-109.184275</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT+7</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WY</State>
+  <NearestCity>Billings</NearestCity>
+  <SiteName NameType="CWMS">BUBI-Buffalo_Bill_Dam-Shoshone</SiteName>
+</Site>

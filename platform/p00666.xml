@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="666">
+  <Description>Lake Audubon</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:18</LastModifyTime>
+  <Site>
+    <Latitude>47.611935</Latitude>
+    <Longitude>-101.266088</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>ND</State>
+    <NearestCity>Garrison</NearestCity>
+    <SiteName NameType="CWMS">LAUD-Lake_Audubon-Snake</SiteName>
+    <SiteProperty PropertyName="location_type">Corps Reservoir</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Lake Audubon at Garrison Dam
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="3470E688">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>152</ChannelNum>
+    <AssignedTime>00:19:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

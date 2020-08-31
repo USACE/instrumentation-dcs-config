@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="650">
+  <Description>Big Bend Dam DCP</Description>
+  <PlatformDesignator>BEND</PlatformDesignator>
+  <Agency>USACE</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:17</LastModifyTime>
+  <Site>
+    <Latitude>44.0410389</Latitude>
+    <Longitude>-99.4453056</Longitude>
+    <Elevation>432.816</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>00</State>
+    <SiteName NameType="CWMS">BEND</SiteName>
+    <SiteName NameType="local">BIG_BEND</SiteName>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Big Bend Dam &amp; Reservoir
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE0A7510">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>58</ChannelNum>
+    <AssignedTime>00:09:40</AssignedTime>
+    <TransmitWindow>00:00:20</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

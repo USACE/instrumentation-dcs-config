@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>0</Latitude>
+  <Longitude>0</Longitude>
+  <Elevation>563.4837600000001</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>SD</State>
+  <NearestCity>Rapid City</NearestCity>
+  <SiteName NameType="CWMS">CCSD-Howes-Cheyenne</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+</Site>

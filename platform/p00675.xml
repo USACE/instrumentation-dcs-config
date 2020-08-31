@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="675">
+  <Description>Anchor Reservoir</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:19</LastModifyTime>
+  <Site>
+    <Latitude>43.6638889</Latitude>
+    <Longitude>-108.8241667</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Mountain</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WY</State>
+    <NearestCity>Embar</NearestCity>
+    <SiteName NameType="CWMS">ARWY-Anchor_Reservoir-SF_Owl</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      ARWY-Anchor_Reservoir-SF_Owl
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="3476A54C">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>170</ChannelNum>
+    <AssignedTime>00:09:40</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

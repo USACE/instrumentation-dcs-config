@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="146">
+  <Description>Missouri River Bl Fort Peck Dam nr Nashua</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:50</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">FPMT-Blw_Ft_Peck_Res-Missouri</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      FPMT-Blw_Ft_Peck_Res-Missouri
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DD5DD6FC">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>164</ChannelNum>
+    <AssignedTime>00:25:10</AssignedTime>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

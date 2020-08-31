@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="602">
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:15</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <NearestCity>Presque Isle</NearestCity>
+    <Description>E GALLATIN RIVER NEAR BOZEMAN</Description>
+    <SiteName NameType="CWMS">GBMT</SiteName>
+    <SiteName NameType="nwshb5">EGBM8</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06048650
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      E Gallatin R nr Bozeman, MT
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DD7F6168">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>112</ChannelNum>
+    <AssignedTime>00:43:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.5244444</Latitude>
+  <Longitude>-96.48</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>UTC</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>IA</State>
+  <SiteName NameType="CWMS">SCIA-Sioux_City-Big_Sioux</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06485950</SiteName>
+  <SiteProperty PropertyName="REGION">NWO</SiteProperty>
+</Site>

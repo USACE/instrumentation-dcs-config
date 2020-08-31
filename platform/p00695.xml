@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="695">
+  <Description>North Platte river at North Platte Nebraska</Description>
+  <Agency>NE DNR</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:20</LastModifyTime>
+  <Site>
+    <Latitude>41.153937309188</Latitude>
+    <Longitude>-100.759080350399</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>North Platte</NearestCity>
+    <Description>North Platte river at North Platte Nebraska</Description>
+    <SiteName NameType="CWMS">NPNE-North_Platte-North_Platte</SiteName>
+    <SiteName NameType="nwshb5">NPTN1</SiteName>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="40201FFE">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>76</ChannelNum>
+    <AssignedTime>00:10:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

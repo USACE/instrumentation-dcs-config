@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.8656026</Latitude>
+  <Longitude>-97.3972988</Longitude>
+  <Elevation>347.38056</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>00</State>
+  <SiteName NameType="CWMS">YKN-Yankton-Missouri</SiteName>
+</Site>

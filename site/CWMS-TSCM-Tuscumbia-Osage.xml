@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>0</Latitude>
+  <Longitude>0</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <Description>Osage River at Tuscumbia, MO</Description>
+  <SiteName NameType="CWMS">TSCM-Tuscumbia-Osage</SiteName>
+  <SiteName NameType="local">NWK-TSCM</SiteName>
+  <SiteName NameType="nwshb5">TSCM7</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06926080</SiteName>
+</Site>

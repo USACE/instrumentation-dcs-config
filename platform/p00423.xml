@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="423">
+  <Description>Gallatin River near Gallatin Gateway, MT</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:02</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MT</State>
+    <NearestCity>Butte-Silver Bow</NearestCity>
+    <SiteName NameType="CWMS">GTMT-Gallatin_Gateway-Gallatin</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      GTMT-Gallatin_Gateway-Gallatin
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DE345660">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>202</ChannelNum>
+    <AssignedTime>00:11:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

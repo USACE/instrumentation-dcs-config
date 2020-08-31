@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>45.19222</Latitude>
+  <Longitude>-112.142778</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Mountain</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>00</State>
+  <Description>Ruby River above Ruby Reservoir.06019500</Description>
+  <SiteName NameType="CWMS">RAMT</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06019500</SiteName>
+</Site>

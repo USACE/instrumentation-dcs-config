@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="78">
+  <Description>Cherry Cr bl Cherry Cr Dam, CO</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:45</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>0.0</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>Etc/GMT+6</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>CO</State>
+    <NearestCity>Centennial, CO</NearestCity>
+    <SiteName NameType="CWMS">CHCO-bl_Cherry_Creek_Dam-Cherry</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Cherry Cr bl Cherry Cr Dam, CO
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DE3764F4">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>202</ChannelNum>
+    <AssignedTime>00:20:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

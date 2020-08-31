@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="617">
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
+  <Site>
+    <Latitude>39.798611</Latitude>
+    <Longitude>-97.792778</Longitude>
+    <Elevation>395.35</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>Etc/GMT-6</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>KS</State>
+    <NearestCity>Lindsborg</NearestCity>
+    <SiteName NameType="CWMS">LNSK-Lindsborg-Smoky_Hill</SiteName>
+    <SiteName NameType="nwshb5">lnsk1</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Smoky Hill R at Lindsborg, KS
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="16E7B678">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>94</ChannelNum>
+    <AssignedTime>00:32:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

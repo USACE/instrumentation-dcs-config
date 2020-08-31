@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="NWO-CHCR">
+  <Description>Cherry Creek Dam at Denver, Colorado</Description>
+  <EquipmentModel Name="Sutron 9210">
+    <EquipmentType>DCP</EquipmentType>
+    <Company>Sutron</Company>
+    <Model>Satlink</Model>
+  </EquipmentModel>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>elev</SensorName>
+    <DataType Standard="SHEF-PE" Code="HP"/>
+    <DataType Standard="CWMS" Code="Elev"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="2">
+    <SensorName>precip</SensorName>
+    <DataType Standard="SHEF-PE" Code="PC"/>
+    <DataType Standard="CWMS" Code="Precip"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="3">
+    <SensorName>lf2</SensorName>
+    <DataType Standard="SHEF-PE" Code="YL"/>
+    <DataType Standard="CWMS" Code="Opening-LowFlowGate2"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <AbsoluteMin>0.0</AbsoluteMin>
+    <AbsoluteMax>5.0</AbsoluteMax>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="4">
+    <SensorName>sgate1</SensorName>
+    <DataType Standard="SHEF-PE" Code="YM"/>
+    <DataType Standard="CWMS" Code="Opening-MainGate1"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <AbsoluteMin>0.0</AbsoluteMin>
+    <AbsoluteMax>9.0</AbsoluteMax>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="5">
+    <SensorName>sgate2</SensorName>
+    <DataType Standard="SHEF-PE" Code="YN"/>
+    <DataType Standard="CWMS" Code="Opening-MainGate2"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <AbsoluteMin>0.0</AbsoluteMin>
+    <AbsoluteMax>9.0</AbsoluteMax>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="6">
+    <SensorName>batt</SensorName>
+    <DataType Standard="SHEF-PE" Code="VB"/>
+    <DataType Standard="CWMS" Code="Volt"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>01:00</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="7">
+    <SensorName>lf5</SensorName>
+    <DataType Standard="SHEF-PE" Code="YJ"/>
+    <DataType Standard="CWMS" Code="Opening-LowFlowGate5"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <AbsoluteMin>0.0</AbsoluteMin>
+    <AbsoluteMax>5.0</AbsoluteMax>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="8">
+    <SensorName>sgate4</SensorName>
+    <DataType Standard="SHEF-PE" Code="YG"/>
+    <DataType Standard="CWMS" Code="Opening-MainGate4"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <AbsoluteMin>0.0</AbsoluteMin>
+    <AbsoluteMax>9.0</AbsoluteMax>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="9">
+    <SensorName>sgate5</SensorName>
+    <DataType Standard="SHEF-PE" Code="YH"/>
+    <DataType Standard="CWMS" Code="Opening-MainGate5"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <AbsoluteMin>0.0</AbsoluteMin>
+    <AbsoluteMax>9.0</AbsoluteMax>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="10">
+    <SensorName>sgate3</SensorName>
+    <DataType Standard="SHEF-PE" Code="YK"/>
+    <DataType Standard="CWMS" Code="Opening-MainGate3"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:15</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <AbsoluteMin>0.0</AbsoluteMin>
+    <AbsoluteMax>9.0</AbsoluteMax>
+  </ConfigSensor>
+  <DecodesScript ScriptName="ST">
+    <ScriptType>Decodes</ScriptType>
+    <FormatStatement Label="st">
+      4X,8(F(S,B,3,1),F(S,B,3,4),F(S,B,3,5),F(S,B,3,8),F(S,B,3,9),F(S,B,3,3),F(S,B,3,7),F(S,B,3,2),F(S,B,3,10)),3X,F(S,A,6D&apos;
+      &apos;,6)
+    </FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="FT">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>5500.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="3">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>1.0E-5</A>
+        <B>-0.009</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="4">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="5">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="6">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+        <Algorithm>linear</Algorithm>
+        <A>0.234</A>
+        <B>10.6</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="7">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>1.0E-5</A>
+        <B>-2.621</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="8">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="9">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="10">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+        <Algorithm>linear</Algorithm>
+        <A>0.01</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

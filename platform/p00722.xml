@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="722">
+  <Description>Green R nr New Hradec, ND</Description>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:23</LastModifyTime>
+  <Site>
+    <Latitude>47.0277916</Latitude>
+    <Longitude>-103.053236</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>ND</State>
+    <NearestCity>New Hradec</NearestCity>
+    <SiteName NameType="CWMS">NHND</SiteName>
+    <SiteName NameType="nwshb5">HRAN8</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06344600
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Green R nr New Hradec, ND
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DD09E21E">
+    <DecodesScript ScriptName="NHND"/>
+    <ChannelNum>102</ChannelNum>
+    <AssignedTime>00:10:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>00:15</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="568">
+  <Description>Salt Creek at Fairgrounds at Lincoln, NE</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:11</LastModifyTime>
+  <Site>
+    <Latitude>40.8386111</Latitude>
+    <Longitude>-96.6913889</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>Lincoln</NearestCity>
+    <Description>Salt Creek at Fairgrounds at Lincoln, NE</Description>
+    <SiteName NameType="CWMS">LFNE-Lincoln-Fairgrounds-Salt</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06803495
+    </SiteName>
+    <SiteProperty PropertyName="REGION">NWO</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DDD336DE">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>156</ChannelNum>
+    <AssignedTime>00:37:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

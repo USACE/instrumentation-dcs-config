@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>47.932777777778</Latitude>
+  <Longitude>-110.514444444444</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MT</State>
+  <NearestCity>Loma</NearestCity>
+  <Description>Teton River at Loma, Montana</Description>
+  <SiteName NameType="CWMS">LTRM8-Loma-Teton</SiteName>
+  <SiteName NameType="local">LTRM8-Loma-Teton</SiteName>
+  <SiteName NameType="nwshb5">LTRM8</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06108800</SiteName>
+</Site>

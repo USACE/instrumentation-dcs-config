@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.55872</Latitude>
+  <Longitude>-105.06208</Longitude>
+  <Elevation>1641.3480000000002</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT+7</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>CO</State>
+  <NearestCity>Columbine, CO</NearestCity>
+  <SiteName NameType="CWMS">CHFI-Chatfield_Dam-South_Platte</SiteName>
+  <SiteProperty PropertyName="location_type">Corps Reservoir</SiteProperty>
+</Site>

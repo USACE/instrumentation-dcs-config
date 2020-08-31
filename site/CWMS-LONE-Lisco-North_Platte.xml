@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.490111741166</Latitude>
+  <Longitude>-102.624811530113</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Mountain</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Lisco</NearestCity>
+  <Description>
+    North Platte River At Lisco; USGS: 686000; LONE-Lisco-North_Platte
+  </Description>
+  <SiteName NameType="CWMS">LONE-Lisco-North_Platte</SiteName>
+  <SiteName NameType="nwshb5">LSON1</SiteName>
+</Site>

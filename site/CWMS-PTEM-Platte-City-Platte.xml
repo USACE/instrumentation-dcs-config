@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.374444444444</Latitude>
+  <Longitude>-94.791944444444</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>GMT</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MO</State>
+  <NearestCity>Platte City</NearestCity>
+  <Description>Platte City near Platte City, MO</Description>
+  <SiteName NameType="CWMS">PTEM-Platte City-Platte</SiteName>
+  <SiteName NameType="local">NWK-PTEM</SiteName>
+  <SiteName NameType="nwshb5">PTEM7</SiteName>
+</Site>

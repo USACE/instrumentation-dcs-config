@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.7663889</Latitude>
+  <Longitude>-105.6925</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>WY</State>
+  <NearestCity>Laramie</NearestCity>
+  <SiteName NameType="CWMS">LOWY-Lookout-Laramie</SiteName>
+</Site>

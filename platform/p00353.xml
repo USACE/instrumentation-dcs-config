@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="353">
+  <Description>Salt Cr N 70th St in Lincoln, NE</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:59</LastModifyTime>
+  <Site>
+    <Latitude>40.886111412241</Latitude>
+    <Longitude>-96.624179546236</Longitude>
+    <Elevation>101.80779638400001</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>Papillion</NearestCity>
+    <Description>Salt Creek at North 70th Street at Lincoln, NE</Description>
+    <SiteName NameType="CWMS">SLNE-Lincoln-N_70th_St-Salt</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06803513
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Salt Cr N 70th St in Lincoln, NE
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="D1047150">
+    <DecodesScript ScriptName="ST"/>
+    <EquipmentModel Name="Sutron 8200">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Sutron</Company>
+      <Model>8200</Model>
+      <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+    </EquipmentModel>
+    <ChannelNum>178</ChannelNum>
+    <AssignedTime>00:17</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

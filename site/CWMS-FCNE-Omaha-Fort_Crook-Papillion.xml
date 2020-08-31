@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.1178333</Latitude>
+  <Longitude>-95.9376667</Longitude>
+  <Elevation>288.267648</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>Bellevue</NearestCity>
+  <Description>Papillion Creek at Fork Crook, NE</Description>
+  <SiteName NameType="CWMS">FCNE-Omaha-Fort_Crook-Papillion</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06610795</SiteName>
+  <SiteProperty PropertyName="REGION">NWO</SiteProperty>
+</Site>

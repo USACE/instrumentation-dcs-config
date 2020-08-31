@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>0</Latitude>
+  <Longitude>0</Longitude>
+  <Elevation>289.80384</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KS</State>
+  <NearestCity>Manhattan</NearestCity>
+  <SiteName NameType="CWMS">WGKS-Wamego-Kansas</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06887500</SiteName>
+  <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+</Site>

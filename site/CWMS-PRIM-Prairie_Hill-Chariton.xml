@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.53994</Latitude>
+  <Longitude>-92.79075</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <SiteName NameType="CWMS">PRIM-Prairie_Hill-Chariton</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06905500</SiteName>
+</Site>

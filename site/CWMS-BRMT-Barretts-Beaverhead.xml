@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>45.0994611</Latitude>
+  <Longitude>-112.750494</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>Etc/GMT+7</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MT</State>
+  <NearestCity>Butte-Silver Bow</NearestCity>
+  <Description>
+    45.0994611 -112.7504940 Beaverhead River at Barretts, MT
+  </Description>
+  <SiteName NameType="CWMS">BRMT-Barretts-Beaverhead</SiteName>
+  <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+</Site>

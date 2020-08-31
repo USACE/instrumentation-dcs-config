@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="113">
+  <Description>Dinwoody Creek nr Burris, WY</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:48</LastModifyTime>
+  <Site>
+    <Latitude>43.346111111111</Latitude>
+    <Longitude>-109.408611111111</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <NearestCity>Burris</NearestCity>
+    <SiteName NameType="CWMS">DCBY-Burris-Dinwoody</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">DCBY-Burris-Dinwoody</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DE08518C">
+    <DecodesScript ScriptName="ST"/>
+    <EquipmentModel Name="Sutron 8200">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Sutron</Company>
+      <Model>8200</Model>
+      <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+    </EquipmentModel>
+    <ChannelNum>202</ChannelNum>
+    <AssignedTime>01:30</AssignedTime>
+    <TransmitInterval>04:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

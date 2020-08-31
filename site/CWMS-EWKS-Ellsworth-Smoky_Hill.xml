@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.726667</Latitude>
+  <Longitude>-98.233333</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <SiteName NameType="CWMS">EWKS-Ellsworth-Smoky_Hill</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06864500</SiteName>
+</Site>

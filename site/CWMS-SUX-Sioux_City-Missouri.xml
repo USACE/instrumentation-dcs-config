@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.4468948</Latitude>
+  <Longitude>-96.3803101</Longitude>
+  <Elevation>322.167504</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>IA</State>
+  <NearestCity>Sioux City, IA</NearestCity>
+  <SiteName NameType="CWMS">SUX-Sioux_City-Missouri</SiteName>
+  <SiteProperty PropertyName="location_type">
+    USGS Streamgaging Station
+  </SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

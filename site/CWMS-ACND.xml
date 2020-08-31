@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>46.5452839</Latitude>
+  <Longitude>-101.645422</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <NearestCity>Carson</NearestCity>
+  <SiteName NameType="CWMS">ACND</SiteName>
+  <SiteName NameType="local">NWO-ACND</SiteName>
+  <SiteName NameType="nwshb5">CRSN8</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06347000</SiteName>
+</Site>

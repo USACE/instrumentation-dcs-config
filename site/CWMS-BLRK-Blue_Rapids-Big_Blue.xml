@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.687222</Latitude>
+  <Longitude>-96.639722</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <SiteName NameType="CWMS">BLRK-Blue_Rapids-Big_Blue</SiteName>
+  <SiteName NameType="local">NWK-BLRK</SiteName>
+  <SiteName NameType="nwshb5">BLRK1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06884700</SiteName>
+</Site>

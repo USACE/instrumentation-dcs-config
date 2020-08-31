@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="559">
+  <Description>Cottonwood Creek at High Island Ranch</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
+  <Site>
+    <Latitude>43.762778</Latitude>
+    <Longitude>-108.67611</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">COWY-High_Island_Ranch-Cottonwood</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      COWY-High_Island_Ranch-COTT
+    </SiteProperty>
+  </Site>
+</Platform>

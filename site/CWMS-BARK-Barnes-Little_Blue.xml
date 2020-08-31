@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.72583</Latitude>
+  <Longitude>-96.80444</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <SiteName NameType="CWMS">BARK-Barnes-Little_Blue</SiteName>
+  <SiteName NameType="local">NWK-BARK</SiteName>
+  <SiteName NameType="nwshb5">BANK1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06884400</SiteName>
+</Site>

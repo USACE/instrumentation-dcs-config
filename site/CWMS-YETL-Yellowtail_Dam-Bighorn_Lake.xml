@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>45.306801</Latitude>
+  <Longitude>-107.958183</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Mountain</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MT</State>
+  <NearestCity>Billings</NearestCity>
+  <SiteName NameType="CWMS">YETL-Yellowtail_Dam-Bighorn_Lake</SiteName>
+  <SiteProperty PropertyName="location_type">USBR Reservoir</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

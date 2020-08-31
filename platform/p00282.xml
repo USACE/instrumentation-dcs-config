@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="282">
+  <Description>
+    Tiber Dam on the Marias R, MT (bubbler)&#92;nTIBR Main DCP info - 344D5010,
+    Ch. 38, TX time 00:18:10&#92;nTIBR2 backup DCP 1 info - 34471248, CH 38, TX
+    Time 00:16:10
+  </Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:53:55</LastModifyTime>
+  <Site>
+    <Latitude>48.319618</Latitude>
+    <Longitude>-111.102249</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>Etc/GMT+7</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MT</State>
+    <NearestCity>Great Falls</NearestCity>
+    <SiteName NameType="CWMS">TIBR-Tiber_Dam-Marias</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Tiber Dam on the Marias R, MT
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="344D5010">
+    <DecodesScript ScriptName="ST"/>
+    <EquipmentModel Name="Sutron 8200">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Sutron</Company>
+      <Model>8200</Model>
+      <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+    </EquipmentModel>
+    <ChannelNum>38</ChannelNum>
+    <AssignedTime>00:18:10</AssignedTime>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

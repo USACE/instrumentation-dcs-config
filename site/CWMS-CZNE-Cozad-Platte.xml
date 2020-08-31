@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.8375</Latitude>
+  <Longitude>-99.986667</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NE</State>
+  <NearestCity>North Platte</NearestCity>
+  <SiteName NameType="CWMS">CZNE-Cozad-Platte</SiteName>
+  <SiteName NameType="nwshb5">COZN1</SiteName>
+</Site>

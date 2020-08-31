@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>0</Latitude>
+  <Longitude>0</Longitude>
+  <Elevation>1018.038096</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>MT</State>
+  <NearestCity>Great Falls</NearestCity>
+  <SiteName NameType="CWMS">VAMT-Vaughn-Sun</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

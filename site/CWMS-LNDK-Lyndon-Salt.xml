@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.608888888889</Latitude>
+  <Longitude>-95.638055555556</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KS</State>
+  <NearestCity>LYNDON</NearestCity>
+  <Description>LYNDON, KS</Description>
+  <SiteName NameType="CWMS">LNDK-Lyndon-Salt</SiteName>
+  <SiteName NameType="local">NWK-LNDK</SiteName>
+  <SiteName NameType="nwshb5">LNDK1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06911490</SiteName>
+  <SiteName NameType="usgs-drgs">LYNDON-SALT-C-MDCYN</SiteName>
+  <SiteProperty PropertyName="REGION">USA</SiteProperty>
+</Site>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>0</Latitude>
+  <Longitude>0</Longitude>
+  <Elevation>168.76776</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Central</Timezone>
+  <Country>UNITED STATES</Country>
+  <SiteName NameType="CWMS">RIFM-Rich_Fountain-Gasconade</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06934000</SiteName>
+</Site>

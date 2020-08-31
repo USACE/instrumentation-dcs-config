@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>44.7013514</Latitude>
+  <Longitude>-103.7339278</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Mountain</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>SD</State>
+  <NearestCity>Gillette</NearestCity>
+  <SiteName NameType="CWMS">BFSD-BF_Inlet_Canal-Belle_Fourche</SiteName>
+</Site>

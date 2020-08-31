@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>44.081944444444</Latitude>
+  <Longitude>-103.442222222222</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>UTC</Timezone>
+  <Country>UNITED STATES</Country>
+  <Description>
+    Rapid Creek above Johnson Siding below Pactola Dam, SD
+  </Description>
+  <SiteName NameType="CWMS">JSSD-ab_Johnson_Siding-Rapid</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">06411900</SiteName>
+</Site>

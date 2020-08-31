@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="653">
+  <Description>Mussel Fork near Musselfork, MO</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>08/31/2020 15:54:17</LastModifyTime>
+  <Site>
+    <Latitude>39.523611</Latitude>
+    <Longitude>-92.949722</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MO</State>
+    <NearestCity>Musselfork</NearestCity>
+    <SiteName NameType="CWMS">MSSM-Musselfork-Mussel_Fork</SiteName>
+    <SiteName NameType="local">NWK-MSSM</SiteName>
+    <SiteName NameType="nwshb5">MSSM7</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06906000
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Mussel Fork near Musselfork, MO
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="D11F251A">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>157</ChannelNum>
+    <AssignedTime>00:27:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>
