@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformStatus ID="386">
+  <LastContact>2020/08/31-17:30:49</LastContact>
+  <LastMessageTime>2020/08/31-17:30:49</LastMessageTime>
+  <FailureCodes>G</FailureCodes>
+  <LastErrorTime>2020/08/31-17:30:49</LastErrorTime>
+  <LastScheduleEntryStatus>0</LastScheduleEntryStatus>
+  <Annotation>
+    Invalid Database error in platform: PlatformID=386,
+    site=CWMS-MRYK-Marysville-Big_Blue, Transport ID=CE651A84,
+    decodes.db.InvalidDatabaseException: Platform
+    &apos;MRYK-Marysville-Big_Blue&apos; has no PlatformConfig
+  </Annotation>
+</PlatformStatus>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ScheduleEntry Name="production-manual">
+  <RoutingSpecName>production</RoutingSpecName>
+  <Enabled>true</Enabled>
+  <TimeZone>UTC</TimeZone>
+  <LastModifyTime>08/31/2020 17:30:41</LastModifyTime>
+</ScheduleEntry>
