@@ -6,32 +6,28 @@
   </Description>
   <ConfigSensor SensorNumber="1">
     <SensorName>HP</SensorName>
-    <DataType Standard="SHEF-PE" Code="HP"/>
-    <DataType Standard="CWMS" Code="Elev"/>
+    <DataType Standard="RSGIS" Code="Elevation"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:00</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="2">
     <SensorName>HT</SensorName>
-    <DataType Standard="SHEF-PE" Code="HT"/>
-    <DataType Standard="CWMS" Code="Elev"/>
+    <DataType Standard="RSGIS" Code="Elevation"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:00</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="3">
     <SensorName>PC</SensorName>
-    <DataType Standard="SHEF-PE" Code="PC"/>
-    <DataType Standard="CWMS" Code="Precip-Cum"/>
+    <DataType Standard="RSGIS" Code="Precipitation"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:00</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="4">
     <SensorName>VB</SensorName>
-    <DataType Standard="SHEF-PE" Code="VB"/>
-    <DataType Standard="CWMS" Code="Volt"/>
+    <DataType Standard="RSGIS" Code="Volt"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:00</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
