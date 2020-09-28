@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>41.961667</Latitude>
+  <Longitude>-78.198333</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>PA</State>
+  <NearestCity>Shinglehouse</NearestCity>
+  <SiteName NameType="CWMS">SHNP1</SiteName>
+  <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">null</SiteProperty>
+</Site>

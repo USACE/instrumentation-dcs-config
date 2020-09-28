@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="12">
+  <Agency>CENAB</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>09/28/2020 20:34:55</LastModifyTime>
+  <Site>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">MBYP1</SiteName>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE5D2DC8">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>161</ChannelNum>
+    <AssignedTime>00:11:40</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="CwmsParamType">
+      Inst
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsVersion">
+      GOES-Raw
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="cwmsInterval">
+      15Minutes
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsDuration">
+      0
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="2">
+    <PlatformSensorProperty PropertyName="CwmsParamType">
+      Inst
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsVersion">
+      GOES-Raw
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="cwmsInterval">
+      15Minutes
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsDuration">
+      0
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="3">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

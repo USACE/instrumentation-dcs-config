@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.7667</Latitude>
+  <Longitude>-77.8386</Longitude>
+  <Elevation>164.628576</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NY</State>
+  <Description>Genesee River at Jones Bridge near Mount Morris</Description>
+  <SiteName NameType="CWMS">JONN6</SiteName>
+  <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+</Site>

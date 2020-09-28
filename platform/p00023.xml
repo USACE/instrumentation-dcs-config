@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="23">
+  <Agency>NOS</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>09/28/2020 20:34:55</LastModifyTime>
+  <Site>
+    <Latitude>43.257961</Latitude>
+    <Longitude>-77.6025</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NY</State>
+    <NearestCity>Rochester</NearestCity>
+    <SiteName NameType="CWMS">RCRN6</SiteName>
+    <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Genesee River near Rochester
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="33655136">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>159</ChannelNum>
+    <AssignedTime>00:01:48</AssignedTime>
+    <TransmitWindow>00:00:06</TransmitWindow>
+    <TransmitInterval>00:06</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="CwmsParamType">
+      Inst
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsVersion">
+      TidesAndCurrents-Raw
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="cwmsInterval">
+      6Minutes
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsDuration">
+      0
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="2">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="3">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

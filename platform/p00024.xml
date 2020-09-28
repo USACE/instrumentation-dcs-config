@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="24">
+  <Agency>CENAB</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>09/28/2020 20:34:55</LastModifyTime>
+  <Site>
+    <Latitude>41.9875</Latitude>
+    <Longitude>-77.3025</Longitude>
+    <Elevation>335.28000000000003</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>PA</State>
+    <SiteName NameType="CWMS">ELKP1</SiteName>
+    <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Cowanesque River at Elkland
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE5D231A">
+    <ChannelNum>161</ChannelNum>
+    <AssignedTime>00:05:40</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="CwmsParamType">
+      Inst
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsVersion">
+      GOES-Raw
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="cwmsInterval">
+      15Minutes
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsDuration">
+      0
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="2">
+    <PlatformSensorProperty PropertyName="CwmsParamType">
+      Inst
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsVersion">
+      GOES-Raw
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="cwmsInterval">
+      15Minutes
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsDuration">
+      0
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="3">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

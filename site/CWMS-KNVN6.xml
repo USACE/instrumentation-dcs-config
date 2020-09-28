@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>43.301111</Latitude>
+  <Longitude>-78.310278</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NY</State>
+  <NearestCity>Kenyonville</NearestCity>
+  <SiteName NameType="CWMS">KNVN6</SiteName>
+  <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+</Site>

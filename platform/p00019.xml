@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="19">
+  <Agency>CENAB</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>09/28/2020 20:34:55</LastModifyTime>
+  <Site>
+    <Latitude>42.395833</Latitude>
+    <Longitude>-77.716667</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NY</State>
+    <NearestCity>Arkport</NearestCity>
+    <SiteName NameType="CWMS">AKLN6</SiteName>
+    <SiteProperty PropertyName="location_type">Dry Dam</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">null</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Arkport Lake near Arkport NY
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE437E42">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>161</ChannelNum>
+    <AssignedTime>00:04:40</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="CwmsParamType">
+      Inst
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsInterval">
+      15Minutes
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsDuration">
+      0
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="2">
+    <PlatformSensorProperty PropertyName="CwmsParamType">
+      Inst
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsInterval">
+      15Minutes
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsDuration">
+      0
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="3">
+    <PlatformSensorProperty PropertyName="CwmsParamType">
+      Inst
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsInterval">
+      1Hour
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsDuration">
+      0
+    </PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="27">
+  <Agency>USGS</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>09/28/2020 20:34:55</LastModifyTime>
+  <Site>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">CanaseragaShaker</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Canaseraga Creek at Shakers Crossing NY
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DF02AF2A">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>41</ChannelNum>
+    <AssignedTime>00:14:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="CwmsInterval">
+      15Minutes
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsVersion">
+      GOES-USGS-Raw
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="2">
+    <PlatformSensorProperty PropertyName="CwmsInterval">
+      15Minutes
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsVersion">
+      GOES-USGS-Raw
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="3">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="4">
+    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

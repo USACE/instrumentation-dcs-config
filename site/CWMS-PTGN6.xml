@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>42.5697</Latitude>
+  <Longitude>-78.0431</Longitude>
+  <Elevation>329.184</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NY</State>
+  <Description>
+    Stage and discharge gauge on the Genesee River upstream of Mount Morris
+    
+    Dam.
+  </Description>
+  <SiteName NameType="CWMS">PTGN6</SiteName>
+  <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+</Site>

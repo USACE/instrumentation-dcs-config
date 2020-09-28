@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="Nos6Min-Rochester">
+  <Description>
+    This &apos;config&apos; uses the National Ocean Service&apos;s &quot;Guide
+    to CO-OPS SHEF and CREX Products&quot;. This config is specific for Depth of
+    Reading (HB) converted to Lake Ontario elevations, air temperature (TA), and
+    atmospheric pressure (PA) at Rochester NY
+  </Description>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>HB</SensorName>
+    <DataType Standard="SHEF-PE" Code="HB"/>
+    <DataType Standard="CWMS" Code="Depth"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:06</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="2">
+    <SensorName>TA</SensorName>
+    <DataType Standard="SHEF-PE" Code="TA"/>
+    <DataType Standard="CWMS" Code="Temp-Air"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:06</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="3">
+    <SensorName>PA</SensorName>
+    <DataType Standard="SHEF-PE" Code="PA"/>
+    <DataType Standard="CWMS" Code="Pres-Atmospheric"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:06</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+  </ConfigSensor>
+  <DecodesScript ScriptName="ST">
+    <ScriptType>Decodes:goes-self-timed</ScriptType>
+    <DataOrder>D</DataOrder>
+    <FormatStatement Label="start">
+      18P,F(MIN,B,1),3x,F(HR,B,1),&gt;HB
+    </FormatStatement>
+    <FormatStatement Label="HB">
+      S(1,&apos;!&apos;,HB),x,F(S,B,3,1),0P,&gt;TA
+    </FormatStatement>
+    <FormatStatement Label="TA">
+      S(1,&apos;4&apos;,TA),x,F(S,B,2,2),0P,&gt;PA
+    </FormatStatement>
+    <FormatStatement Label="PA">S(1,&apos;6&apos;,PA),x,F(S,B,2,3)</FormatStatement>
+    <FormatStatement Label="error">&gt;start</FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="mm">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="deg C">
+        <Algorithm>linear</Algorithm>
+        <A>0.1</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="3">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="mb">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>
