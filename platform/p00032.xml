@@ -2,12 +2,12 @@
 <Platform PlatformId="32">
   <Agency>CELRB</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>09/28/2020 20:49:12</LastModifyTime>
+  <LastModifyTime>10/23/2020 17:05:10</LastModifyTime>
   <Site>
     <Latitude>42.5322</Latitude>
     <Longitude>-77.7064</Longitude>
     <Elevation>218.11488000000003</Elevation>
-    <ElevationUnits>m</ElevationUnits>
+    <ElevationUnits>M</ElevationUnits>
     <Timezone>US/Eastern</Timezone>
     <Country>UNITED STATES</Country>
     <State>NY</State>
@@ -15,12 +15,10 @@
       Stage and discharge gauge on Canaseraga Creek above Dansville, NY.
     </Description>
     <SiteName NameType="CWMS">DSVN6</SiteName>
+    <SiteName NameType="uuid">b4d043f5-82bc-4d1e-abdf-a43fe36f1695</SiteName>
     <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
     <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
     <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
-    <SiteProperty PropertyName="PUBLIC_NAME">
-      Canaseraga Cr Abv Dansville, NY
-    </SiteProperty>
   </Site>
   <PlatformConfig ConfigName="BasePara-Shef">
     <Description>
@@ -29,7 +27,7 @@
     </Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>HG</SensorName>
-  
+      <DataType Standard="SHEF-PE" Code="HG"/>
       <DataType Standard="CWMS" Code="Stage"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>

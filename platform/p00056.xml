@@ -2,29 +2,27 @@
 <Platform PlatformId="56">
   <Agency>USGS</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>09/28/2020 20:49:13</LastModifyTime>
+  <LastModifyTime>10/23/2020 17:08:34</LastModifyTime>
   <Site>
     <Latitude>42.744167</Latitude>
     <Longitude>-78.1375</Longitude>
     <Elevation>300.88332</Elevation>
-    <ElevationUnits>m</ElevationUnits>
+    <ElevationUnits>M</ElevationUnits>
     <Timezone>US/Eastern</Timezone>
     <Country>UNITED STATES</Country>
     <State>NY</State>
     <NearestCity>Warsaw</NearestCity>
     <SiteName NameType="CWMS">OatkaCr Warsaw</SiteName>
+    <SiteName NameType="uuid">abf85e4e-e9f5-4814-9ecd-d21de65a2feb</SiteName>
     <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
     <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
     <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
-    <SiteProperty PropertyName="PUBLIC_NAME">
-      Oatka Creek at Warsaw NY
-    </SiteProperty>
   </Site>
   <PlatformConfig ConfigName="OatkaCr-Warsaw">
     <Description></Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>HG</SensorName>
-  
+      <DataType Standard="SHEF-PE" Code="HG"/>
       <DataType Standard="CWMS" Code="Stage"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>

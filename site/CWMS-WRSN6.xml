@@ -3,7 +3,7 @@
   <Latitude>42.7447</Latitude>
   <Longitude>-78.1375</Longitude>
   <Elevation>300.88332</Elevation>
-  <ElevationUnits>m</ElevationUnits>
+  <ElevationUnits>M</ElevationUnits>
   <Timezone>US/Eastern</Timezone>
   <Country>UNITED STATES</Country>
   <State>NY</State>
@@ -11,6 +11,7 @@
     Stage and discharge gauge on Oatka Creek near Warsaw, NY
   </Description>
   <SiteName NameType="CWMS">WRSN6</SiteName>
+  <SiteName NameType="uuid">f063108f-9c3b-49fd-b981-1be021278ebf</SiteName>
   <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
   <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
   <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>

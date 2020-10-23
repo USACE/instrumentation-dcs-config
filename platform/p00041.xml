@@ -2,21 +2,19 @@
 <Platform PlatformId="41">
   <Agency>CELRP</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>09/28/2020 20:49:13</LastModifyTime>
+  <LastModifyTime>10/23/2020 17:08:47</LastModifyTime>
   <Site>
     <Latitude>42.073056</Latitude>
     <Longitude>-78.451111</Longitude>
     <Elevation>1.7976931348623157E308</Elevation>
-    <ElevationUnits>m</ElevationUnits>
+    <ElevationUnits>M</ElevationUnits>
     <Timezone>US/Eastern</Timezone>
     <Country>UNITED STATES</Country>
     <State>NY</State>
     <NearestCity>Olean</NearestCity>
     <SiteName NameType="CWMS">OLNN6</SiteName>
+    <SiteName NameType="uuid">606dcda7-8287-4435-9d66-deb4c03b4bf6</SiteName>
     <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
-    <SiteProperty PropertyName="PUBLIC_NAME">
-      Allegheny River near Olean
-    </SiteProperty>
   </Site>
   <PlatformConfig ConfigName="BasePara-Pseudo-Shef">
     <Description>
@@ -26,7 +24,7 @@
     </Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>HG</SensorName>
-  
+      <DataType Standard="SHEF-PE" Code="HG"/>
       <DataType Standard="CWMS" Code="Stage"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>

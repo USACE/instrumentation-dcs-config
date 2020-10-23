@@ -2,21 +2,21 @@
 <Platform PlatformId="46">
   <Agency>CELRB</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>09/28/2020 20:49:13</LastModifyTime>
+  <LastModifyTime>10/23/2020 17:08:05</LastModifyTime>
   <Site>
     <Latitude>42.7332881</Latitude>
     <Longitude>-77.9070755</Longitude>
     <Elevation>0.0</Elevation>
-    <ElevationUnits>m</ElevationUnits>
+    <ElevationUnits>M</ElevationUnits>
     <Timezone>US/Eastern</Timezone>
     <Country>UNITED STATES</Country>
     <State>NY</State>
     <Description>NERFC stage gauge for MMD.</Description>
     <SiteName NameType="CWMS">Mount Morris</SiteName>
+    <SiteName NameType="uuid">ef991379-a625-4de7-bc6a-2902fea1bc79</SiteName>
     <SiteProperty PropertyName="location_type">Dam</SiteProperty>
     <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
     <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
-    <SiteProperty PropertyName="PUBLIC_NAME">Mount Morris Dam</SiteProperty>
   </Site>
   <PlatformConfig ConfigName="MountMorris-Shef">
     <Description>
@@ -168,7 +168,6 @@
       <State>NY</State>
       <Description>
         Mount Morris Dam Tailwater location used to contain tailwater
-         
         elevations, stages, flows, ratings, etc.
       </Description>
       <SiteName NameType="CWMS">Mount Morris-Tailwater</SiteName>

@@ -2,12 +2,12 @@
 <Platform PlatformId="47">
   <Agency>CENAB</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>09/28/2020 20:49:13</LastModifyTime>
+  <LastModifyTime>10/23/2020 17:03:03</LastModifyTime>
   <Site>
     <Latitude>42.395833</Latitude>
     <Longitude>-77.716667</Longitude>
     <Elevation>1.7976931348623157E308</Elevation>
-    <ElevationUnits>m</ElevationUnits>
+    <ElevationUnits>M</ElevationUnits>
     <Timezone>US/Eastern</Timezone>
     <Country>UNITED STATES</Country>
     <State>NY</State>
@@ -16,9 +16,6 @@
     <SiteProperty PropertyName="location_type">Dry Dam</SiteProperty>
     <SiteProperty PropertyName="vertical_datum">null</SiteProperty>
     <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
-    <SiteProperty PropertyName="PUBLIC_NAME">
-      Arkport Lake near Arkport NY
-    </SiteProperty>
   </Site>
   <PlatformConfig ConfigName="AKLN6-Pseudo-Shef">
     <Description>
@@ -27,7 +24,7 @@
     </Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>HG</SensorName>
-  
+      <DataType Standard="SHEF-PE" Code="HG"/>
       <DataType Standard="CWMS" Code="Stage"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>

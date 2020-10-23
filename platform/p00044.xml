@@ -2,23 +2,21 @@
 <Platform PlatformId="44">
   <Agency>USGS</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>09/28/2020 20:49:13</LastModifyTime>
+  <LastModifyTime>10/23/2020 17:06:40</LastModifyTime>
   <Site>
     <Latitude>42.122222</Latitude>
     <Longitude>-77.957222</Longitude>
     <Elevation>447.906648</Elevation>
-    <ElevationUnits>m</ElevationUnits>
+    <ElevationUnits>M</ElevationUnits>
     <Timezone>US/Eastern</Timezone>
     <Country>UNITED STATES</Country>
     <State>NY</State>
     <NearestCity>Wellsville</NearestCity>
     <SiteName NameType="CWMS">GenR Wellsville</SiteName>
+    <SiteName NameType="uuid">c05efa0c-fa2c-4776-a49b-dd68f70f5104</SiteName>
     <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
     <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
     <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
-    <SiteProperty PropertyName="PUBLIC_NAME">
-      Genesee R at Wellsville
-    </SiteProperty>
   </Site>
   <PlatformConfig ConfigName="BasePara-Pseudo-Shef">
     <Description>
@@ -28,7 +26,7 @@
     </Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>HG</SensorName>
-  
+      <DataType Standard="SHEF-PE" Code="HG"/>
       <DataType Standard="CWMS" Code="Stage"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>

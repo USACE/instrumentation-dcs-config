@@ -3,7 +3,7 @@
   <Latitude>42.122222</Latitude>
   <Longitude>-77.957222</Longitude>
   <Elevation>448.05600000000004</Elevation>
-  <ElevationUnits>m</ElevationUnits>
+  <ElevationUnits>M</ElevationUnits>
   <Timezone>US/Eastern</Timezone>
   <Country>UNITED STATES</Country>
   <State>NY</State>
@@ -11,6 +11,7 @@
     Stage and discharge gauge on the Genesee River at Wellsville, NY
   </Description>
   <SiteName NameType="CWMS">WELN6</SiteName>
+  <SiteName NameType="uuid">2ae81f1b-2bcb-40e8-9f12-5874d4269cc5</SiteName>
   <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
   <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
   <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>

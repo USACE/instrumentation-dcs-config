@@ -2,23 +2,21 @@
 <Platform PlatformId="37">
   <Agency>USGS</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>09/28/2020 20:49:12</LastModifyTime>
+  <LastModifyTime>10/23/2020 17:06:27</LastModifyTime>
   <Site>
     <Latitude>42.570278</Latitude>
     <Longitude>-78.042222</Longitude>
     <Elevation>329.184</Elevation>
-    <ElevationUnits>ft</ElevationUnits>
+    <ElevationUnits>M</ElevationUnits>
     <Timezone>US/Eastern</Timezone>
     <Country>UNITED STATES</Country>
     <State>NY</State>
     <NearestCity>Portageville</NearestCity>
     <SiteName NameType="CWMS">GenR Portagevill</SiteName>
+    <SiteName NameType="uuid">871485de-0116-4f4a-afcd-30f3f8ec02c5</SiteName>
     <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
     <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
     <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
-    <SiteProperty PropertyName="PUBLIC_NAME">
-      Genesee River at Portageville
-    </SiteProperty>
   </Site>
   <PlatformConfig ConfigName="BasePara-Pseudo-Shef">
     <Description>
@@ -28,7 +26,7 @@
     </Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>HG</SensorName>
-  
+      <DataType Standard="SHEF-PE" Code="HG"/>
       <DataType Standard="CWMS" Code="Stage"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>

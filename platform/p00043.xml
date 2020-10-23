@@ -2,28 +2,26 @@
 <Platform PlatformId="43">
   <Agency>CELRP</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>09/28/2020 20:49:13</LastModifyTime>
+  <LastModifyTime>10/23/2020 17:09:39</LastModifyTime>
   <Site>
     <Latitude>41.961667</Latitude>
     <Longitude>-78.198333</Longitude>
     <Elevation>1.7976931348623157E308</Elevation>
-    <ElevationUnits>m</ElevationUnits>
+    <ElevationUnits>M</ElevationUnits>
     <Timezone>US/Eastern</Timezone>
     <Country>UNITED STATES</Country>
     <State>PA</State>
     <NearestCity>Shinglehouse</NearestCity>
     <SiteName NameType="CWMS">SHNP1</SiteName>
+    <SiteName NameType="uuid">2673f0e2-16a4-443a-ac86-7c337d960f4f</SiteName>
     <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
     <SiteProperty PropertyName="vertical_datum">null</SiteProperty>
-    <SiteProperty PropertyName="PUBLIC_NAME">
-      Oswayo Creek at Shinglehouse
-    </SiteProperty>
   </Site>
   <PlatformConfig ConfigName="SHNP1-Shinglehouse">
     <Description></Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>HG</SensorName>
-  
+      <DataType Standard="SHEF-PE" Code="HG"/>
       <DataType Standard="CWMS" Code="Stage"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>

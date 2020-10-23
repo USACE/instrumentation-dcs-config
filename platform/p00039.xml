@@ -2,21 +2,19 @@
 <Platform PlatformId="39">
   <Agency>USGS</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>09/28/2020 20:49:13</LastModifyTime>
+  <LastModifyTime>10/23/2020 17:07:38</LastModifyTime>
   <Site>
     <Latitude>43.301111</Latitude>
     <Longitude>-78.310278</Longitude>
     <Elevation>1.7976931348623157E308</Elevation>
-    <ElevationUnits>m</ElevationUnits>
+    <ElevationUnits>M</ElevationUnits>
     <Timezone>US/Eastern</Timezone>
     <Country>UNITED STATES</Country>
     <State>NY</State>
     <NearestCity>Kenyonville</NearestCity>
     <SiteName NameType="CWMS">KNVN6</SiteName>
+    <SiteName NameType="uuid">a4fc3899-be8d-4055-b9e9-cd9ff986ba98</SiteName>
     <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
-    <SiteProperty PropertyName="PUBLIC_NAME">
-      Oak Orchard Cr near Kenyonville
-    </SiteProperty>
   </Site>
   <PlatformConfig ConfigName="KNVN6-Kenyonville">
     <Description>
@@ -26,7 +24,7 @@
     </Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>HG</SensorName>
-  
+      <DataType Standard="SHEF-PE" Code="HG"/>
       <DataType Standard="CWMS" Code="Stage"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>

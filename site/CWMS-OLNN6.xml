@@ -3,11 +3,12 @@
   <Latitude>42.073056</Latitude>
   <Longitude>-78.451111</Longitude>
   <Elevation>1.7976931348623157E308</Elevation>
-  <ElevationUnits>m</ElevationUnits>
+  <ElevationUnits>M</ElevationUnits>
   <Timezone>US/Eastern</Timezone>
   <Country>UNITED STATES</Country>
   <State>NY</State>
   <NearestCity>Olean</NearestCity>
   <SiteName NameType="CWMS">OLNN6</SiteName>
+  <SiteName NameType="uuid">606dcda7-8287-4435-9d66-deb4c03b4bf6</SiteName>
   <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
 </Site>

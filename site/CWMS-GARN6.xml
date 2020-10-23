@@ -3,7 +3,7 @@
   <Latitude>43.01</Latitude>
   <Longitude>-77.7914</Longitude>
   <Elevation>170.950128</Elevation>
-  <ElevationUnits>m</ElevationUnits>
+  <ElevationUnits>M</ElevationUnits>
   <Timezone>US/Eastern</Timezone>
   <Country>UNITED STATES</Country>
   <State>NY</State>
@@ -11,6 +11,7 @@
     Stage and discharge gauge on Oatka Creek at Garbutt, NY.
   </Description>
   <SiteName NameType="CWMS">GARN6</SiteName>
+  <SiteName NameType="uuid">891c7d48-fa1b-4f4a-a7dd-7393258bb575</SiteName>
   <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
   <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
   <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>

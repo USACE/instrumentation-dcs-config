@@ -2,12 +2,12 @@
 <Platform PlatformId="49">
   <Agency>CELRB</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>09/28/2020 20:49:13</LastModifyTime>
+  <LastModifyTime>10/23/2020 17:09:51</LastModifyTime>
   <Site>
     <Latitude>42.122222</Latitude>
     <Longitude>-77.957222</Longitude>
     <Elevation>448.05600000000004</Elevation>
-    <ElevationUnits>m</ElevationUnits>
+    <ElevationUnits>M</ElevationUnits>
     <Timezone>US/Eastern</Timezone>
     <Country>UNITED STATES</Country>
     <State>NY</State>
@@ -15,12 +15,10 @@
       Stage and discharge gauge on the Genesee River at Wellsville, NY
     </Description>
     <SiteName NameType="CWMS">WELN6</SiteName>
+    <SiteName NameType="uuid">2ae81f1b-2bcb-40e8-9f12-5874d4269cc5</SiteName>
     <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
     <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
     <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
-    <SiteProperty PropertyName="PUBLIC_NAME">
-      Genesee R @ Wellsville NY
-    </SiteProperty>
   </Site>
   <PlatformConfig ConfigName="BasePara-Shef">
     <Description>
@@ -29,7 +27,7 @@
     </Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>HG</SensorName>
-  
+      <DataType Standard="SHEF-PE" Code="HG"/>
       <DataType Standard="CWMS" Code="Stage"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>

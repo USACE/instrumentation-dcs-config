@@ -3,12 +3,13 @@
   <Latitude>43.100556</Latitude>
   <Longitude>-77.882222</Longitude>
   <Elevation>168.21302400000002</Elevation>
-  <ElevationUnits>m</ElevationUnits>
+  <ElevationUnits>M</ElevationUnits>
   <Timezone>US/Eastern</Timezone>
   <Country>UNITED STATES</Country>
   <State>NY</State>
   <NearestCity>Churchville</NearestCity>
   <SiteName NameType="CWMS">BlackCr Churchvl</SiteName>
+  <SiteName NameType="uuid">08735594-14f0-4594-aa38-fb0805968918</SiteName>
   <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
   <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
   <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>

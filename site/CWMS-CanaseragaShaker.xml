@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Site>
   <Elevation>1.7976931348623157E308</Elevation>
-  <ElevationUnits>m</ElevationUnits>
+  <ElevationUnits>M</ElevationUnits>
   <Timezone>US/Eastern</Timezone>
   <Country>UNITED STATES</Country>
   <SiteName NameType="CWMS">CanaseragaShaker</SiteName>
+  <SiteName NameType="uuid">4f8c4f01-5e19-4a60-b55b-e7013e8977bb</SiteName>
 </Site>

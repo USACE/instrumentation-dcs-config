@@ -2,26 +2,25 @@
 <Platform PlatformId="29">
   <Agency>CELRB</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>09/28/2020 20:49:12</LastModifyTime>
+  <LastModifyTime>10/23/2020 17:03:18</LastModifyTime>
   <Site>
     <Latitude>42.9184234</Latitude>
     <Longitude>-77.7565681</Longitude>
     <Elevation>152.43352800000002</Elevation>
-    <ElevationUnits>m</ElevationUnits>
+    <ElevationUnits>M</ElevationUnits>
     <Timezone>US/Eastern</Timezone>
     <Country>UNITED STATES</Country>
     <State>NY</State>
     <NearestCity>Avon, NY</NearestCity>
     <Description>
       Stage and discharge gauge located on the Genesee River, downstream of Mt
- 
       Morris Dam and near Avon, NY.
     </Description>
     <SiteName NameType="CWMS">AVNN6</SiteName>
+    <SiteName NameType="uuid">089fbda3-5a6a-408d-aec2-4e108910d94b</SiteName>
     <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
     <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
     <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
-    <SiteProperty PropertyName="PUBLIC_NAME">Genesee R @ Avon NY</SiteProperty>
   </Site>
   <PlatformConfig ConfigName="BasePara-Shef">
     <Description>
@@ -30,7 +29,7 @@
     </Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>HG</SensorName>
-  
+      <DataType Standard="SHEF-PE" Code="HG"/>
       <DataType Standard="CWMS" Code="Stage"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>

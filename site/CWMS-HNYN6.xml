@@ -3,16 +3,16 @@
   <Latitude>42.956667</Latitude>
   <Longitude>-77.586944</Longitude>
   <Elevation>185.928</Elevation>
-  <ElevationUnits>m</ElevationUnits>
+  <ElevationUnits>M</ElevationUnits>
   <Timezone>US/Eastern</Timezone>
   <Country>UNITED STATES</Country>
   <State>NY</State>
   <Description>
-    USACE steam gauge located on Honeoye Creek near Honeoye Falls and
-       
-    influenced by Honeoye Lake discharges; which flows into the Genesee River.
+    USACE steam gauge located on Honeoye Creek near Honeoye Falls and influenced
+    by Honeoye Lake discharges; which flows into the Genesee River.
   </Description>
   <SiteName NameType="CWMS">HNYN6</SiteName>
+  <SiteName NameType="uuid">1dc2a261-8b00-4039-8d3f-f48666e97729</SiteName>
   <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
   <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
   <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>

@@ -3,11 +3,12 @@
   <Latitude>42.32944444</Latitude>
   <Longitude>-78.46361111</Longitude>
   <Elevation>1.7976931348623157E308</Elevation>
-  <ElevationUnits>m</ElevationUnits>
+  <ElevationUnits>M</ElevationUnits>
   <Timezone>US/Eastern</Timezone>
   <Country>UNITED STATES</Country>
   <State>NY</State>
   <NearestCity>Hamburg</NearestCity>
   <SiteName NameType="CWMS">FRKN6</SiteName>
+  <SiteName NameType="uuid">8df04db9-392f-4216-9776-66defd9d8d32</SiteName>
   <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
 </Site>

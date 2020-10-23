@@ -2,22 +2,20 @@
 <Platform PlatformId="55">
   <Agency>USGS</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>09/28/2020 20:49:13</LastModifyTime>
+  <LastModifyTime>10/23/2020 17:04:40</LastModifyTime>
   <Site>
     <Elevation>1.7976931348623157E308</Elevation>
-    <ElevationUnits>m</ElevationUnits>
+    <ElevationUnits>M</ElevationUnits>
     <Timezone>US/Eastern</Timezone>
     <Country>UNITED STATES</Country>
     <SiteName NameType="CWMS">CanaseragaShaker</SiteName>
-    <SiteProperty PropertyName="PUBLIC_NAME">
-      Canaseraga Creek at Shakers Crossing NY
-    </SiteProperty>
+    <SiteName NameType="uuid">4f8c4f01-5e19-4a60-b55b-e7013e8977bb</SiteName>
   </Site>
   <PlatformConfig ConfigName="CanaseragaCr-ShakersX">
     <Description></Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>HG</SensorName>
-  
+      <DataType Standard="SHEF-PE" Code="HG"/>
       <DataType Standard="CWMS" Code="Stage"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>
