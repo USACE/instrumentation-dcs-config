@@ -3,32 +3,28 @@
   <Description></Description>
   <ConfigSensor SensorNumber="1">
     <SensorName>HG</SensorName>
-    <DataType Standard="SHEF-PE" Code="HG"/>
-    <DataType Standard="CWMS" Code="Stage"/>
+    <DataType Standard="RSGIS" Code="Stage"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:00</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="2">
     <SensorName>WV</SensorName>
-    <DataType Standard="SHEF-PE" Code="WV"/>
-    <DataType Standard="CWMS" Code="Speed"/>
+    <DataType Standard="RSGIS" Code="Speed"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:00</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="3">
     <SensorName>TW</SensorName>
-    <DataType Standard="SHEF-PE" Code="TW"/>
-    <DataType Standard="CWMS" Code="Temp-Water"/>
+    <DataType Standard="RSGIS" Code="Temp-Water"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:00</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="4">
     <SensorName>VB</SensorName>
-    <DataType Standard="SHEF-PE" Code="VB"/>
-    <DataType Standard="CWMS" Code="Volt"/>
+    <DataType Standard="RSGIS" Code="Volt"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>01:00</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
