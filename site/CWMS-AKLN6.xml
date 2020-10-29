@@ -9,6 +9,7 @@
   <State>NY</State>
   <NearestCity>Arkport</NearestCity>
   <SiteName NameType="CWMS">AKLN6</SiteName>
+  <SiteName NameType="uuid">b695967d-c050-4428-ab1e-db9407fe9d2f</SiteName>
   <SiteProperty PropertyName="location_type">Dry Dam</SiteProperty>
   <SiteProperty PropertyName="vertical_datum">null</SiteProperty>
   <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
