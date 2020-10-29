@@ -6,14 +6,14 @@
   </Description>
   <ConfigSensor SensorNumber="1">
     <SensorName>HP</SensorName>
-    <DataType Standard="RSGIS" Code="Elev"/>
+    <DataType Standard="RSGIS" Code="Elevation"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:00</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="2">
     <SensorName>HT</SensorName>
-    <DataType Standard="RSGIS" Code="Elev"/>
+    <DataType Standard="RSGIS" Code="Elevation"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:00</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
