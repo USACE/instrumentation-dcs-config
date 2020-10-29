@@ -2,22 +2,97 @@
 <Platform PlatformId="23">
   <Agency>NOS</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>09/28/2020 20:34:55</LastModifyTime>
+  <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
   <Site>
     <Latitude>43.257961</Latitude>
     <Longitude>-77.6025</Longitude>
     <Elevation>1.7976931348623157E308</Elevation>
-    <ElevationUnits>m</ElevationUnits>
+    <ElevationUnits>M</ElevationUnits>
     <Timezone>US/Eastern</Timezone>
     <Country>UNITED STATES</Country>
     <State>NY</State>
     <NearestCity>Rochester</NearestCity>
     <SiteName NameType="CWMS">RCRN6</SiteName>
+    <SiteName NameType="uuid">15614ca3-c115-4cff-a021-c43ef352fda8</SiteName>
     <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
-    <SiteProperty PropertyName="PUBLIC_NAME">
-      Genesee River near Rochester
-    </SiteProperty>
   </Site>
+  <PlatformConfig ConfigName="Nos6Min-Rochester">
+    <Description>
+      This &apos;config&apos; uses the National Ocean Service&apos;s &quot;Guide
+      to CO-OPS SHEF and CREX Products&quot;. This config is specific for Depth
+      of Reading (HB) converted to Lake Ontario elevations, air temperature
+      (TA), and atmospheric pressure (PA) at Rochester NY
+    </Description>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>HB</SensorName>
+      <DataType Standard="RSGIS" Code="Depth"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:06</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="2">
+      <SensorName>TA</SensorName>
+      <DataType Standard="RSGIS" Code="Temp-Air"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:06</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="3">
+      <SensorName>PA</SensorName>
+      <DataType Standard="RSGIS" Code="Pres-Atmospheric"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:06</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes:goes-self-timed</ScriptType>
+      <DataOrder>D</DataOrder>
+      <FormatStatement Label="start">
+        18P,F(MIN,B,1),3x,F(HR,B,1),&gt;HB
+      </FormatStatement>
+      <FormatStatement Label="HB">
+        S(1,&apos;!&apos;,HB),x,F(S,B,3,1),0P,&gt;TA
+      </FormatStatement>
+      <FormatStatement Label="TA">
+        S(1,&apos;4&apos;,TA),x,F(S,B,2,2),0P,&gt;PA
+      </FormatStatement>
+      <FormatStatement Label="PA">S(1,&apos;6&apos;,PA),x,F(S,B,2,3)</FormatStatement>
+      <FormatStatement Label="error">&gt;start</FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="mm">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="2">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="deg C">
+          <Algorithm>linear</Algorithm>
+          <A>0.1</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="3">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="mb">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
   <TransportMedium MediumType="goes-self-timed" MediumId="33655136">
     <DecodesScript ScriptName="ST"/>
     <ChannelNum>159</ChannelNum>

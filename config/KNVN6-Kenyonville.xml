@@ -7,7 +7,7 @@
   </Description>
   <ConfigSensor SensorNumber="1">
     <SensorName>HG</SensorName>
-        <DataType Standard="RSGIS" Code="Stage"/>
+    <DataType Standard="RSGIS" Code="Stage"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:15</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>

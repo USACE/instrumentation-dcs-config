@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Site>
   <Elevation>1.7976931348623157E308</Elevation>
-  <ElevationUnits>m</ElevationUnits>
+  <ElevationUnits>M</ElevationUnits>
   <Country>UNITED STATES</Country>
   <SiteName NameType="CWMS">MBYP1</SiteName>
+  <SiteName NameType="uuid">3b260872-3454-473b-bfb7-087ed0e809b0</SiteName>
 </Site>

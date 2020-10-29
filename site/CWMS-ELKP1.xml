@@ -3,11 +3,12 @@
   <Latitude>41.9875</Latitude>
   <Longitude>-77.3025</Longitude>
   <Elevation>335.28000000000003</Elevation>
-  <ElevationUnits>m</ElevationUnits>
+  <ElevationUnits>M</ElevationUnits>
   <Timezone>US/Eastern</Timezone>
   <Country>UNITED STATES</Country>
   <State>PA</State>
   <SiteName NameType="CWMS">ELKP1</SiteName>
+  <SiteName NameType="uuid">31be5853-f839-4cc2-80cb-071210651059</SiteName>
   <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
   <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
   <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>

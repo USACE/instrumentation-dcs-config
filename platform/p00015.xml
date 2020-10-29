@@ -2,23 +2,87 @@
 <Platform PlatformId="15">
   <Agency>CELRP</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>09/28/2020 20:34:55</LastModifyTime>
+  <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
   <Site>
     <Latitude>41.961667</Latitude>
     <Longitude>-78.198333</Longitude>
     <Elevation>1.7976931348623157E308</Elevation>
-    <ElevationUnits>m</ElevationUnits>
+    <ElevationUnits>M</ElevationUnits>
     <Timezone>US/Eastern</Timezone>
     <Country>UNITED STATES</Country>
     <State>PA</State>
     <NearestCity>Shinglehouse</NearestCity>
     <SiteName NameType="CWMS">SHNP1</SiteName>
+    <SiteName NameType="uuid">2673f0e2-16a4-443a-ac86-7c337d960f4f</SiteName>
     <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
     <SiteProperty PropertyName="vertical_datum">null</SiteProperty>
-    <SiteProperty PropertyName="PUBLIC_NAME">
-      Oswayo Creek at Shinglehouse
-    </SiteProperty>
   </Site>
+  <PlatformConfig ConfigName="SHNP1-Shinglehouse">
+    <Description></Description>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>HG</SensorName>
+      <DataType Standard="RSGIS" Code="Stage"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="2">
+      <SensorName>PC</SensorName>
+      <DataType Standard="RSGIS" Code="Precipitation"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="3">
+      <SensorName>BL</SensorName>
+      <DataType Standard="RSGIS" Code="Volt"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>01:00</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes:goes-self-timed</ScriptType>
+      <DataOrder>D</DataOrder>
+      <FormatStatement Label="scan">4x,&gt;HG</FormatStatement>
+      <FormatStatement Label="HG">12f(s,b,3,1),&gt;PC</FormatStatement>
+      <FormatStatement Label="PC">12f(s,b,3,2),&gt;VB</FormatStatement>
+      <FormatStatement Label="VB">f(s,b,1,3)</FormatStatement>
+      <FormatStatement Label="error"></FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="2">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="3">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+          <Algorithm>none</Algorithm>
+          <A>1.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
   <TransportMedium MediumType="goes-self-timed" MediumId="CE216420">
     <DecodesScript ScriptName="ST"/>
     <ChannelNum>17</ChannelNum>

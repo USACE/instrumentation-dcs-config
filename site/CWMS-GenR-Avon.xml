@@ -3,12 +3,13 @@
   <Latitude>42.917778</Latitude>
   <Longitude>-77.757222</Longitude>
   <Elevation>152.26588800000002</Elevation>
-  <ElevationUnits>m</ElevationUnits>
+  <ElevationUnits>M</ElevationUnits>
   <Timezone>US/Eastern</Timezone>
   <Country>UNITED STATES</Country>
   <State>NY</State>
   <NearestCity>Avon</NearestCity>
   <SiteName NameType="CWMS">GenR Avon</SiteName>
+  <SiteName NameType="uuid">c559d145-3351-4e6e-bf8d-df05f69814ea</SiteName>
   <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
   <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
   <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>

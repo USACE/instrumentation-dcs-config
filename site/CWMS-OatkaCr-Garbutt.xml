@@ -3,12 +3,13 @@
   <Latitude>43.01</Latitude>
   <Longitude>-77.791389</Longitude>
   <Elevation>170.950128</Elevation>
-  <ElevationUnits>m</ElevationUnits>
+  <ElevationUnits>M</ElevationUnits>
   <Timezone>US/Eastern</Timezone>
   <Country>UNITED STATES</Country>
   <State>NY</State>
   <NearestCity>Garbutt</NearestCity>
   <SiteName NameType="CWMS">OatkaCr Garbutt</SiteName>
+  <SiteName NameType="uuid">4e06209a-9e0b-4430-87fe-a7ac49d92160</SiteName>
   <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
   <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
   <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>

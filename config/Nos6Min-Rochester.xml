@@ -3,7 +3,7 @@
   <Description>
     This &apos;config&apos; uses the National Ocean Service&apos;s &quot;Guide
     to CO-OPS SHEF and CREX Products&quot;. This config is specific for Depth of
-    Reading (HB) converted to Lake Ontario elevations, air temperature (TA), and
+    Reading (HB) converted to Lake Ontario Elevationations, air temperature (TA), and
     atmospheric pressure (PA) at Rochester NY
   </Description>
   <ConfigSensor SensorNumber="1">

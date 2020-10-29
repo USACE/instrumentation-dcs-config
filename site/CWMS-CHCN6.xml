@@ -3,7 +3,7 @@
   <Latitude>43.10083</Latitude>
   <Longitude>-77.88222</Longitude>
   <Elevation>168.21302400000002</Elevation>
-  <ElevationUnits>m</ElevationUnits>
+  <ElevationUnits>M</ElevationUnits>
   <Timezone>US/Eastern</Timezone>
   <Country>UNITED STATES</Country>
   <State>NY</State>
@@ -11,6 +11,7 @@
     Stage and discharge gauge located on Black Creek at Churchville, NY.
   </Description>
   <SiteName NameType="CWMS">CHCN6</SiteName>
+  <SiteName NameType="uuid">8d0307a9-7a78-4eae-919a-b38a6b1c9c97</SiteName>
   <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
   <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
   <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>

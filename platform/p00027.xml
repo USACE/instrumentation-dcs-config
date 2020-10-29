@@ -2,17 +2,114 @@
 <Platform PlatformId="27">
   <Agency>USGS</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>09/28/2020 20:34:55</LastModifyTime>
+  <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
   <Site>
     <Elevation>1.7976931348623157E308</Elevation>
-    <ElevationUnits>m</ElevationUnits>
+    <ElevationUnits>M</ElevationUnits>
     <Timezone>US/Eastern</Timezone>
     <Country>UNITED STATES</Country>
     <SiteName NameType="CWMS">CanaseragaShaker</SiteName>
-    <SiteProperty PropertyName="PUBLIC_NAME">
-      Canaseraga Creek at Shakers Crossing NY
-    </SiteProperty>
+    <SiteName NameType="uuid">4f8c4f01-5e19-4a60-b55b-e7013e8977bb</SiteName>
   </Site>
+  <PlatformConfig ConfigName="CanaseragaCr-ShakersX">
+    <Description></Description>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>HG</SensorName>
+      <DataType Standard="RSGIS" Code="Stage"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:00</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="2">
+      <SensorName>WV</SensorName>
+      <DataType Standard="RSGIS" Code="Speed"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:00</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="3">
+      <SensorName>TW</SensorName>
+      <DataType Standard="RSGIS" Code="Temp-Water"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:00</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="4">
+      <SensorName>VB</SensorName>
+      <DataType Standard="RSGIS" Code="Volt"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>01:00</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes:goes-self-timed</ScriptType>
+      <FormatStatement Label="scan">s(1,a,scan), f(f,a,10d&apos; &apos;)</FormatStatement>
+      <FormatStatement Label="stage">
+        f(moff,a,5d&apos;#&apos;),x,f(mint-,a,5d&apos; &apos;, 1)&gt;stageVal
+      </FormatStatement>
+      <FormatStatement Label="stageVal">
+        f(s,a,10d&apos; &apos;,1), x, c(&apos;:&apos;,stageVal)&gt;scan
+      </FormatStatement>
+      <FormatStatement Label="x_vel">
+        f(moff,a,5d&apos;#&apos;),x,f(mint-,a,5d&apos; &apos;, 2)&gt;x_velVal
+      </FormatStatement>
+      <FormatStatement Label="x_velVal">
+        f(s,a,10d&apos; &apos;,2), x, c(&apos;:&apos;,x_velVal)&gt;scan
+      </FormatStatement>
+      <FormatStatement Label="Temp">
+        f(moff,a,5d&apos;#&apos;),x,f(mint-,a,5d&apos; &apos;, 3)&gt;TempVal
+      </FormatStatement>
+      <FormatStatement Label="TempVal">
+        f(s,a,10d&apos; &apos;,3), x, c(&apos;:&apos;,TempVal)&gt;scan
+      </FormatStatement>
+      <FormatStatement Label="BL">f(s,a,6d&apos; &apos;,4)</FormatStatement>
+      <FormatStatement Label="error">&gt;scan</FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="2">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft/s">
+          <Algorithm>linear</Algorithm>
+          <A>0.7456</A>
+          <B>0.1269</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="3">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="deg C">
+          <Algorithm>usgs-standard</Algorithm>
+          <A>0.5555555555</A>
+          <B>-32.0</B>
+          <C>1.0</C>
+          <D>0.0</D>
+          <E>1.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="4">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
   <TransportMedium MediumType="goes-self-timed" MediumId="DF02AF2A">
     <DecodesScript ScriptName="ST"/>
     <ChannelNum>41</ChannelNum>

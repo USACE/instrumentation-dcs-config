@@ -2,24 +2,97 @@
 <Platform PlatformId="8">
   <Agency>USGS</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>09/28/2020 20:34:55</LastModifyTime>
+  <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
   <Site>
     <Latitude>42.917778</Latitude>
     <Longitude>-77.757222</Longitude>
     <Elevation>152.26588800000002</Elevation>
-    <ElevationUnits>m</ElevationUnits>
+    <ElevationUnits>M</ElevationUnits>
     <Timezone>US/Eastern</Timezone>
     <Country>UNITED STATES</Country>
     <State>NY</State>
     <NearestCity>Avon</NearestCity>
     <SiteName NameType="CWMS">GenR Avon</SiteName>
+    <SiteName NameType="uuid">c559d145-3351-4e6e-bf8d-df05f69814ea</SiteName>
     <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
     <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
     <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
-    <SiteProperty PropertyName="PUBLIC_NAME">
-      Genesee River at Avon
-    </SiteProperty>
   </Site>
+  <PlatformConfig ConfigName="GenR-Avon-Pshef">
+    <Description></Description>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>HG</SensorName>
+      <DataType Standard="RSGIS" Code="Stage"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:00</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="2">
+      <SensorName>WV</SensorName>
+      <DataType Standard="RSGIS" Code="Speed"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:00</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="3">
+      <SensorName>VB</SensorName>
+      <DataType Standard="RSGIS" Code="Volt"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>01:00</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes:goes-self-timed</ScriptType>
+      <FormatStatement Label="scan">s(1,a,scan), f(f,a,10d&apos; &apos;)</FormatStatement>
+      <FormatStatement Label="PRESS">
+        f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;PVAL
+      </FormatStatement>
+      <FormatStatement Label="PVAL">
+        f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,PVAL)&gt;scan
+      </FormatStatement>
+      <FormatStatement Label="RESULT">
+        f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;RVAL
+      </FormatStatement>
+      <FormatStatement Label="RVAL">
+        f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,RVAL)&gt;scan
+      </FormatStatement>
+      <FormatStatement Label="BL">T(H), f(s,a,10d&apos; &apos;,3)</FormatStatement>
+      <FormatStatement Label="error">&gt;scan</FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="2">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft/s">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="3">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
   <TransportMedium MediumType="goes-self-timed" MediumId="DF055D9A">
     <DecodesScript ScriptName="ST"/>
     <ChannelNum>41</ChannelNum>
