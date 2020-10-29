@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformList>
+  <PlatformXref PlatformId="1">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE7EB098"/>
+    <SiteName NameType="CWMS">AVNN6</SiteName>
+    <Agency>CELRB</Agency>
+    <ConfigName>BasePara-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="2">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE7EBE4A"/>
+    <SiteName NameType="CWMS">BLBN6</SiteName>
+    <Agency>CELRB</Agency>
+    <ConfigName>BasePara-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="3">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE7EC608"/>
+    <SiteName NameType="CWMS">CHCN6</SiteName>
+    <Agency>CELRB</Agency>
+    <ConfigName>BasePara-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="4">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE7EC8DA"/>
+    <SiteName NameType="CWMS">DSVN6</SiteName>
+    <Agency>CELRB</Agency>
+    <ConfigName>BasePara-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="5">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE7ED57E"/>
+    <SiteName NameType="CWMS">GARN6</SiteName>
+    <Agency>CELRB</Agency>
+    <ConfigName>BasePara-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="6">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE7EDBAC"/>
+    <SiteName NameType="CWMS">HNYN6</SiteName>
+    <Agency>CELRB</Agency>
+    <ConfigName>BasePara-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="7">
+    <TransportXref MediumType="goes-self-timed" MediumId="1715F330"/>
+    <SiteName NameType="CWMS">BlackCr Churchvl</SiteName>
+    <Agency>USGS</Agency>
+    <ConfigName>BlackCr-Churchville</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="8">
+    <TransportXref MediumType="goes-self-timed" MediumId="DF055D9A"/>
+    <SiteName NameType="CWMS">GenR Avon</SiteName>
+    <Agency>USGS</Agency>
+    <ConfigName>GenR-Avon-Pshef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="9">
+    <TransportXref MediumType="goes-self-timed" MediumId="1716615C"/>
+    <SiteName NameType="CWMS">GenR Portagevill</SiteName>
+    <Agency>USGS</Agency>
+    <ConfigName>BasePara-Pseudo-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="10">
+    <TransportXref MediumType="goes-self-timed" MediumId="DD8362E0"/>
+    <SiteName NameType="CWMS">OatkaCr Garbutt</SiteName>
+    <Agency>USGS</Agency>
+    <ConfigName>OatkaCr-Garbutt</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="11">
+    <TransportXref MediumType="goes-self-timed" MediumId="172024E8"/>
+    <SiteName NameType="CWMS">KNVN6</SiteName>
+    <Agency>USGS</Agency>
+    <ConfigName>KNVN6-Kenyonville</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="12">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5D2DC8"/>
+    <SiteName NameType="CWMS">MBYP1</SiteName>
+    <Agency>CENAB</Agency>
+    <ConfigName>MBYP1-CrookedCr-MiddleburyCenter</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="13">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6B8B8E"/>
+    <SiteName NameType="CWMS">OLNN6</SiteName>
+    <Agency>CELRP</Agency>
+    <ConfigName>BasePara-Pseudo-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="14">
+    <TransportXref MediumType="goes-self-timed" MediumId="DDA2D27A"/>
+    <SiteName NameType="CWMS">ROHN6</SiteName>
+    <Agency>USGS</Agency>
+    <ConfigName>ROHN6-FordStreet-Pbinary</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="15">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE216420"/>
+    <SiteName NameType="CWMS">SHNP1</SiteName>
+    <Agency>CELRP</Agency>
+    <ConfigName>SHNP1-Shinglehouse</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="16">
+    <TransportXref MediumType="goes-self-timed" MediumId="DD6E777A"/>
+    <SiteName NameType="CWMS">GenR Wellsville</SiteName>
+    <Agency>USGS</Agency>
+    <ConfigName>BasePara-Pseudo-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="17">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE7EE0E4"/>
+    <SiteName NameType="CWMS">JONN6</SiteName>
+    <Agency>CELRB</Agency>
+    <ConfigName>JONN6-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="18">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE1FF35A"/>
+    <SiteName NameType="CWMS">Mount Morris</SiteName>
+    <Agency>CELRB</Agency>
+    <ConfigName>MountMorris-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="19">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE437E42"/>
+    <SiteName NameType="CWMS">AKLN6</SiteName>
+    <Agency>CENAB</Agency>
+    <ConfigName>AKLN6-Pseudo-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="20">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE7EEE36"/>
+    <SiteName NameType="CWMS">PTGN6</SiteName>
+    <Agency>CELRB</Agency>
+    <ConfigName>BasePara-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="21">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE7EFD40"/>
+    <SiteName NameType="CWMS">WELN6</SiteName>
+    <Agency>CELRB</Agency>
+    <ConfigName>BasePara-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="22">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE7EF392"/>
+    <SiteName NameType="CWMS">WRSN6</SiteName>
+    <Agency>CELRB</Agency>
+    <ConfigName>BasePara-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="23">
+    <TransportXref MediumType="goes-self-timed" MediumId="33655136"/>
+    <SiteName NameType="CWMS">RCRN6</SiteName>
+    <Agency>NOS</Agency>
+    <ConfigName>Nos6Min-Rochester</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="24">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5D231A"/>
+    <SiteName NameType="CWMS">ELKP1</SiteName>
+    <Agency>CENAB</Agency>
+    <ConfigName>ELKP1-Pseudo-Binary</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="25">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE19401A"/>
+    <SiteName NameType="CWMS">FRKN6</SiteName>
+    <Agency>CEORP</Agency>
+    <ConfigName>BasePara-Pseudo-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="26">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE59652A"/>
+    <SiteName NameType="CWMS">HRLN6</SiteName>
+    <Agency>CENAB</Agency>
+    <ConfigName>BasePara-Pseudo-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="27">
+    <TransportXref MediumType="goes-self-timed" MediumId="DF02AF2A"/>
+    <SiteName NameType="CWMS">CanaseragaShaker</SiteName>
+    <Agency>USGS</Agency>
+    <ConfigName>CanaseragaCr-ShakersX</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="28">
+    <TransportXref MediumType="goes-self-timed" MediumId="DD66C052"/>
+    <SiteName NameType="CWMS">OatkaCr Warsaw</SiteName>
+    <Agency>USGS</Agency>
+    <ConfigName>OatkaCr-Warsaw</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  </PlatformXref>
+</PlatformList>

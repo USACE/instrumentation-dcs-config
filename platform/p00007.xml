@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="7">
+  <Agency>USGS</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+  <Site>
+    <Latitude>43.100556</Latitude>
+    <Longitude>-77.882222</Longitude>
+    <Elevation>168.21302400000002</Elevation>
+    <ElevationUnits>M</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NY</State>
+    <NearestCity>Churchville</NearestCity>
+    <SiteName NameType="CWMS">BlackCr Churchvl</SiteName>
+    <SiteName NameType="uuid">08735594-14f0-4594-aa38-fb0805968918</SiteName>
+    <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  </Site>
+  <PlatformConfig ConfigName="BlackCr-Churchville">
+    <Description></Description>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>HG</SensorName>
+      <DataType Standard="RSGIS" Code="Stage"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="2">
+      <SensorName>VB</SensorName>
+      <DataType Standard="RSGIS" Code="Volt"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>01:00</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes:goes-self-timed</ScriptType>
+      <DataOrder>D</DataOrder>
+      <FormatStatement Label="HG">
+        w, 2x, 16f(s,a,6d&apos; &apos;,1), &gt; VB
+      </FormatStatement>
+      <FormatStatement Label="VB">
+        w, s(2,&apos;VB&apos;,VB), 2x, f(s,a,5,2)
+      </FormatStatement>
+      <FormatStatement Label="error"></FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="2">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
+  <TransportMedium MediumType="goes-self-timed" MediumId="1715F330">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>109</ChannelNum>
+    <AssignedTime>00:07</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="CwmsParamType">
+      Inst
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsInterval">
+      15Minutes
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsVersion">
+      GOES-USGS-Raw
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsDuration">
+      0
+    </PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="2">
+    <PlatformSensorProperty PropertyName="CwmsParamType">
+      Inst
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsInterval">
+      1Hour
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsVersion">
+      GOES-USGS-Raw
+    </PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="CwmsDuration">
+      0
+    </PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>
