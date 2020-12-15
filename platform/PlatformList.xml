@@ -51,7 +51,7 @@
   <PlatformXref PlatformId="6">
     <TransportXref MediumType="goes-random" MediumId="16938374"/>
     <TransportXref MediumType="goes-self-timed" MediumId="16938374"/>
-    <SiteName NameType="CWMS">ACHK-Achilles-South_Fork_Sappa</SiteName>
+    <SiteName NameType="nwshb5">ACHK1</SiteName>
     <Agency>CWMS</Agency>
     <Description>S Fk Sappa Cr nr Achilles, KS</Description>
     <ConfigName>NWK-ACHK-001</ConfigName>
@@ -61,7 +61,7 @@
   <PlatformXref PlatformId="7">
     <TransportXref MediumType="goes-random" MediumId="DDE583EE"/>
     <TransportXref MediumType="goes-self-timed" MediumId="DDE583EE"/>
-    <SiteName NameType="CWMS">ADAK-Ada-Salt</SiteName>
+    <SiteName NameType="nwshb5">ADAK1</SiteName>
     <Agency>CWMS</Agency>
     <Description>Salt Creek near Ada, KS</Description>
     <ConfigName>NWK-ADAK-001</ConfigName>
@@ -100,7 +100,7 @@
   <PlatformXref PlatformId="11">
     <TransportXref MediumType="goes-random" MediumId="CE640B08"/>
     <TransportXref MediumType="goes-self-timed" MediumId="CE640B08"/>
-    <SiteName NameType="CWMS">AGYM-Agency-Platte</SiteName>
+    <SiteName NameType="nwshb5">AGYM7</SiteName>
     <Agency>CWMS</Agency>
     <Description>Platte River near Agency, MO</Description>
     <ConfigName>MRR-AGYM</ConfigName>
@@ -126,16 +126,6 @@
     <ConfigName>MRR-ANIA</ConfigName>
     <IsProduction>false</IsProduction>
     <LastModifyTime>08/31/2020 15:53:35</LastModifyTime>
-  </PlatformXref>
-  <PlatformXref PlatformId="14">
-    <TransportXref MediumType="goes-random" MediumId="CE094000"/>
-    <TransportXref MediumType="goes-self-timed" MediumId="DE094000"/>
-    <SiteName NameType="CWMS">MCSD-Aberdeen-Moccasin</SiteName>
-    <Agency>CWMS</Agency>
-    <Description>Moccasin Creek at Aberdeen, SD</Description>
-    <ConfigName>NWO-MCSD</ConfigName>
-    <IsProduction>false</IsProduction>
-    <LastModifyTime>08/31/2020 15:53:36</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="15">
     <TransportXref MediumType="goes-random" MediumId="162AC938"/>
@@ -178,7 +168,7 @@
   <PlatformXref PlatformId="19">
     <TransportXref MediumType="goes-random" MediumId="D10E3308"/>
     <TransportXref MediumType="goes-self-timed" MediumId="D10E3308"/>
-    <SiteName NameType="CWMS">ARHM-Archie-South_Grand</SiteName>
+    <SiteName NameType="nwshb5">ARHM7</SiteName>
     <Agency>cwms</Agency>
     <Description>South Grand River at Archie, MO</Description>
     <ConfigName>NWK-ARHM-001</ConfigName>
@@ -188,7 +178,7 @@
   <PlatformXref PlatformId="20">
     <TransportXref MediumType="goes-random" MediumId="D10D8788"/>
     <TransportXref MediumType="goes-self-timed" MediumId="D10D8788"/>
-    <SiteName NameType="CWMS">ARDK-Arnold-Smoky_Hill</SiteName>
+    <SiteName NameType="nwshb5">ARNK1</SiteName>
     <Agency>CWMS</Agency>
     <Description>Smoky Hill River near Arnold, KS</Description>
     <ConfigName>NWK-ARDK-001</ConfigName>
@@ -227,7 +217,7 @@
   <PlatformXref PlatformId="24">
     <TransportXref MediumType="goes-random" MediumId="D105B6B4"/>
     <TransportXref MediumType="goes-self-timed" MediumId="D105B6B4"/>
-    <SiteName NameType="CWMS">ATLM-Atlanta-Long_Branch</SiteName>
+    <SiteName NameType="nwshb5">ATLM7</SiteName>
     <Agency>CWMS</Agency>
     <Description>Long Branch Creek at Atlanta, MO</Description>
     <ConfigName>NWK-ATLM-001</ConfigName>
@@ -257,7 +247,7 @@
   <PlatformXref PlatformId="27">
     <TransportXref MediumType="goes-random" MediumId="CE740C96"/>
     <TransportXref MediumType="goes-self-timed" MediumId="CE740C96"/>
-    <SiteName NameType="CWMS">BARK-Barnes-Little_Blue</SiteName>
+    <SiteName NameType="nwshb5">BANK1</SiteName>
     <Agency>CWMS</Agency>
     <Description>Little Blue River nr Barnes, KS</Description>
     <ConfigName>NWK-BARK-001</ConfigName>
@@ -285,7 +275,7 @@
   <PlatformXref PlatformId="30">
     <TransportXref MediumType="goes-random" MediumId="170FB6F6"/>
     <TransportXref MediumType="goes-self-timed" MediumId="170FB6F6"/>
-    <SiteName NameType="CWMS">BARN-Barneston-Big_Blue</SiteName>
+    <SiteName NameType="nwshb5">BARN1</SiteName>
     <Agency>CWMS</Agency>
     <Description>Big Blue River at Barneston, NE</Description>
     <ConfigName>NWK-BARN-001</ConfigName>
@@ -369,7 +359,7 @@
   <PlatformXref PlatformId="39">
     <TransportXref MediumType="goes-random" MediumId="DD93868C"/>
     <TransportXref MediumType="goes-self-timed" MediumId="DD93868C"/>
-    <SiteName NameType="CWMS">BEDI-Bedford-East_Fork_102</SiteName>
+    <SiteName NameType="nwshb5">BDFI4</SiteName>
     <Agency>CWMS</Agency>
     <Description>E Fk 102 River near Bedford, IA</Description>
     <ConfigName>NWK-BEDI-001</ConfigName>
@@ -379,7 +369,7 @@
   <PlatformXref PlatformId="40">
     <TransportXref MediumType="goes-random" MediumId="1735B1D4"/>
     <TransportXref MediumType="goes-self-timed" MediumId="1735B1D4"/>
-    <SiteName NameType="CWMS">BNKN-Benkleman-Republican</SiteName>
+    <SiteName NameType="nwshb5">BEKN1</SiteName>
     <Agency>CWMS</Agency>
     <Description>Republican R at Benkelman, NE</Description>
     <ConfigName>NWK-BNKN-001</ConfigName>
@@ -389,7 +379,7 @@
   <PlatformXref PlatformId="41">
     <TransportXref MediumType="goes-random" MediumId="17F01288"/>
     <TransportXref MediumType="goes-self-timed" MediumId="17F01288"/>
-    <SiteName NameType="CWMS">BEMO-Bethany-E_Fork_Big</SiteName>
+    <SiteName NameType="nwshb5">BEYM7</SiteName>
     <Agency>CWMS</Agency>
     <Description>Bethany Mo-East Fork Big creek</Description>
     <ConfigName>NWK-BEMO-001</ConfigName>
@@ -464,7 +454,7 @@
   <PlatformXref PlatformId="49">
     <TransportXref MediumType="goes-random" MediumId="176A95E8"/>
     <TransportXref MediumType="goes-self-timed" MediumId="176A95E8"/>
-    <SiteName NameType="CWMS">BLRK-Blue_Rapids-Big_Blue</SiteName>
+    <SiteName NameType="nwshb5">BLRK1</SiteName>
     <Agency>CWMS</Agency>
     <Description>B Blue River at Blue Rapids, KS</Description>
     <ConfigName>NWK-BLRK-001</ConfigName>
@@ -474,7 +464,7 @@
   <PlatformXref PlatformId="50">
     <TransportXref MediumType="goes-random" MediumId="17AF36B4"/>
     <TransportXref MediumType="goes-self-timed" MediumId="17AF36B4"/>
-    <SiteName NameType="CWMS">BLRM-Blairstown-Big_Creek</SiteName>
+    <SiteName NameType="nwshb5">BLRM7</SiteName>
     <Agency>cwms</Agency>
     <Description>Big Creek near Blairstown, MO</Description>
     <ConfigName>NWK-BLRM-001</ConfigName>
@@ -493,7 +483,7 @@
   <PlatformXref PlatformId="52">
     <TransportXref MediumType="goes-random" MediumId="CE64187E"/>
     <TransportXref MediumType="goes-self-timed" MediumId="CE64187E"/>
-    <SiteName NameType="CWMS">BLCM-Blue_Lick-Blackwater</SiteName>
+    <SiteName NameType="nwshb5">BLVM7</SiteName>
     <Agency>CWMS</Agency>
     <Description>Blackwater R at Blue Lick, MO</Description>
     <ConfigName>MRR-BLCM</ConfigName>
@@ -541,7 +531,7 @@
   <PlatformXref PlatformId="57">
     <TransportXref MediumType="goes-random" MediumId="DDCA7416"/>
     <TransportXref MediumType="goes-self-timed" MediumId="DDCA7416"/>
-    <SiteName NameType="CWMS">BRGK-Burlingame-Dragoon</SiteName>
+    <SiteName NameType="nwshb5">BRGK1</SiteName>
     <Agency>CWMS</Agency>
     <Description>Dragoon Creek at Burlingame, KS</Description>
     <ConfigName>NWK-BRGK-001</ConfigName>
@@ -570,7 +560,7 @@
   <PlatformXref PlatformId="60">
     <TransportXref MediumType="goes-random" MediumId="CE746970"/>
     <TransportXref MediumType="goes-self-timed" MediumId="CE746970"/>
-    <SiteName NameType="CWMS">BSPM-Blue_Springs_Lake-Little_Blue</SiteName>
+    <SiteName NameType="nwshb5">BSZM7</SiteName>
     <Agency>CWMS</Agency>
     <Description>L Blue R at Blue Springs Lks, MO</Description>
     <ConfigName>NWK-BSPM-001</ConfigName>
@@ -590,7 +580,7 @@
   <PlatformXref PlatformId="62">
     <TransportXref MediumType="goes-random" MediumId="CE73D8CA"/>
     <TransportXref MediumType="goes-self-timed" MediumId="CE73D8CA"/>
-    <SiteName NameType="CWMS">BUNK-Bunker_Hill-Smoky_Hill</SiteName>
+    <SiteName NameType="nwshb5">BUNK1</SiteName>
     <Agency>CWMS</Agency>
     <Description>Smoky Hill R nr Bunker Hill, KS</Description>
     <ConfigName>NWK-BUNK-001</ConfigName>
@@ -600,7 +590,7 @@
   <PlatformXref PlatformId="63">
     <TransportXref MediumType="goes-random" MediumId="DDE0F2BE"/>
     <TransportXref MediumType="goes-self-timed" MediumId="DDE0F2BE"/>
-    <SiteName NameType="CWMS">BROK-Burr_Oak-White_Rock</SiteName>
+    <SiteName NameType="nwshb5">BURK1</SiteName>
     <Agency>CWMS</Agency>
     <Description>White Rock Creek nr Burr Oak, KS</Description>
     <ConfigName>NWK-BROK-001</ConfigName>
@@ -610,7 +600,7 @@
   <PlatformXref PlatformId="64">
     <TransportXref MediumType="goes-random" MediumId="D10D94FE"/>
     <TransportXref MediumType="goes-self-timed" MediumId="D10D94FE"/>
-    <SiteName NameType="CWMS">BVUK-Belvue-Kansas</SiteName>
+    <SiteName NameType="nwshb5">BVUK1</SiteName>
     <Agency>CWMS</Agency>
     <Description>Kansas River near Belvue, KS</Description>
     <ConfigName>NWK-BVUK-001</ConfigName>
@@ -694,7 +684,7 @@
   <PlatformXref PlatformId="73">
     <TransportXref MediumType="goes-random" MediumId="DE40D0E2"/>
     <TransportXref MediumType="goes-self-timed" MediumId="DE40D0E2"/>
-    <SiteName NameType="CWMS">CDBK-Cedar_Bluffs-Beaver</SiteName>
+    <SiteName NameType="nwshb5">CDBK1</SiteName>
     <Agency>CWMS</Agency>
     <Description>Beaver Creek at Cedar Bluffs, KS</Description>
     <ConfigName>NWK-CDBK-001</ConfigName>
@@ -750,7 +740,7 @@
   <PlatformXref PlatformId="79">
     <TransportXref MediumType="goes-random" MediumId="DDE100C0"/>
     <TransportXref MediumType="goes-self-timed" MediumId="DDE100C0"/>
-    <SiteName NameType="CWMS">CHPK-Chapman-Chapman</SiteName>
+    <SiteName NameType="nwshb5">CHPK1</SiteName>
     <Agency>CWMS</Agency>
     <Description>Chapman Creek nr Chapman, KS</Description>
     <ConfigName>NWK-CHPK-001</ConfigName>
@@ -770,7 +760,7 @@
   <PlatformXref PlatformId="81">
     <TransportXref MediumType="goes-random" MediumId="CE64D3B2"/>
     <TransportXref MediumType="goes-self-timed" MediumId="CE64D3B2"/>
-    <SiteName NameType="CWMS">CHTI-Chariton-Chariton</SiteName>
+    <SiteName NameType="nwshb5">CHTI4</SiteName>
     <Agency>CWMS</Agency>
     <Description>Chariton River near Chariton, IA</Description>
     <ConfigName>NWK-CHTI-001</ConfigName>
@@ -780,7 +770,7 @@
   <PlatformXref PlatformId="82">
     <TransportXref MediumType="goes-random" MediumId="CE73C56E"/>
     <TransportXref MediumType="goes-self-timed" MediumId="CE73C56E"/>
-    <SiteName NameType="CWMS">CHMO-Chillicothe-Grand</SiteName>
+    <SiteName NameType="nwshb5">CHZM7</SiteName>
     <Agency>CWMS</Agency>
     <Description>Grand River at Chillicothe, MO</Description>
     <ConfigName>MRR-CHMO</ConfigName>
@@ -809,7 +799,7 @@
   <PlatformXref PlatformId="85">
     <TransportXref MediumType="goes-random" MediumId="CE646EEE"/>
     <TransportXref MediumType="goes-self-timed" MediumId="CE646EEE"/>
-    <SiteName NameType="CWMS">CLIN-Clinton_Lake-Wakarusa</SiteName>
+    <SiteName NameType="nwshb5">CLIK1</SiteName>
     <Agency>CWMS</Agency>
     <Description>Clinton Lake near Lawrence, KS</Description>
     <ConfigName>NWK-CLIN-001</ConfigName>
@@ -926,15 +916,6 @@
     <Agency>CWMS</Agency>
     <Description>Big Blue River near Crete, NE</Description>
     <ConfigName>NWK-CRTN-001</ConfigName>
-    <IsProduction>false</IsProduction>
-    <LastModifyTime>08/31/2020 15:53:47</LastModifyTime>
-  </PlatformXref>
-  <PlatformXref PlatformId="98">
-    <TransportXref MediumType="goes-self-timed" MediumId="CE122654"/>
-    <SiteName NameType="CWMS">CHCR-Cherry_Creek_Dam-Cherry</SiteName>
-    <Agency>cwms</Agency>
-    <Description>Cherry Creek Dam in Denver, CO</Description>
-    <ConfigName>NWO-CHCR</ConfigName>
     <IsProduction>false</IsProduction>
     <LastModifyTime>08/31/2020 15:53:47</LastModifyTime>
   </PlatformXref>
@@ -1215,7 +1196,7 @@
   <PlatformXref PlatformId="128">
     <TransportXref MediumType="goes-random" MediumId="DE367578"/>
     <TransportXref MediumType="goes-self-timed" MediumId="DE367578"/>
-    <SiteName NameType="CWMS">CEBL-Cedar_Bluff_Res-Smoky_Hill</SiteName>
+    <SiteName NameType="nwshb5">ELSK1</SiteName>
     <Agency>CWMS</Agency>
     <Description>Cedar Bluff Res near Ellis, KS</Description>
     <ConfigName>NWK-CEBL-001</ConfigName>
@@ -1624,16 +1605,6 @@
     <IsProduction>false</IsProduction>
     <LastModifyTime>08/31/2020 15:53:50</LastModifyTime>
   </PlatformXref>
-  <PlatformXref PlatformId="171">
-    <TransportXref MediumType="goes-random" MediumId="CE1213CE"/>
-    <TransportXref MediumType="goes-self-timed" MediumId="CE1213CE"/>
-    <SiteName NameType="CWMS">GWSD-Greenwood-Missouri</SiteName>
-    <Agency>CWMS</Agency>
-    <Description>Missouri River at Greenwood, SD</Description>
-    <ConfigName>MRR-GWSD</ConfigName>
-    <IsProduction>false</IsProduction>
-    <LastModifyTime>08/31/2020 15:53:50</LastModifyTime>
-  </PlatformXref>
   <PlatformXref PlatformId="172">
     <TransportXref MediumType="goes-random" MediumId="16E81012"/>
     <TransportXref MediumType="goes-self-timed" MediumId="16E81012"/>
@@ -2034,7 +2005,7 @@
   <PlatformXref PlatformId="214">
     <TransportXref MediumType="goes-random" MediumId="CE63A9C4"/>
     <TransportXref MediumType="goes-self-timed" MediumId="CE63A9C4"/>
-    <SiteName NameType="CWMS">RDGK-Reading-Marais_Des_Cygnes</SiteName>
+    <SiteName NameType="nwshb5">RDNK1</SiteName>
     <Agency>CWMS</Agency>
     <Description>Marais des Cygnes nr Reading, KS</Description>
     <ConfigName>NWK-RDGK-001</ConfigName>
@@ -2609,20 +2580,10 @@
     <IsProduction>false</IsProduction>
     <LastModifyTime>08/31/2020 15:53:55</LastModifyTime>
   </PlatformXref>
-  <PlatformXref PlatformId="274">
-    <TransportXref MediumType="goes-random" MediumId="CE127628"/>
-    <TransportXref MediumType="goes-self-timed" MediumId="CE127628"/>
-    <SiteName NameType="CWMS">STND-Stanton-Missouri</SiteName>
-    <Agency>CWMS</Agency>
-    <Description>Missouri River at Stanton, ND</Description>
-    <ConfigName>MRR-STND</ConfigName>
-    <IsProduction>false</IsProduction>
-    <LastModifyTime>08/31/2020 15:53:55</LastModifyTime>
-  </PlatformXref>
   <PlatformXref PlatformId="275">
     <TransportXref MediumType="goes-random" MediumId="CE742A7A"/>
     <TransportXref MediumType="goes-self-timed" MediumId="CE742A7A"/>
-    <SiteName NameType="CWMS">STTN-Stratton-Republican</SiteName>
+    <SiteName NameType="nwshb5">STTN1</SiteName>
     <Agency>CWMS</Agency>
     <Description>Republican River at Stratton, NE</Description>
     <ConfigName>NWK-STTN-001</ConfigName>
@@ -2780,7 +2741,7 @@
   <PlatformXref PlatformId="291">
     <TransportXref MediumType="goes-random" MediumId="DD89B5DA"/>
     <TransportXref MediumType="goes-self-timed" MediumId="DD89B5DA"/>
-    <SiteName NameType="CWMS">CLRI-Clarinda-Nodaway</SiteName>
+    <SiteName NameType="nwshb5">ICLI4</SiteName>
     <Agency>CWMS</Agency>
     <Description>Nodaway River at Clarinda, IA</Description>
     <ConfigName>NWK-CLRI-001</ConfigName>
@@ -3080,16 +3041,6 @@
     <IsProduction>false</IsProduction>
     <LastModifyTime>08/31/2020 15:53:57</LastModifyTime>
   </PlatformXref>
-  <PlatformXref PlatformId="323">
-    <TransportXref MediumType="goes-random" MediumId="CE12655E"/>
-    <TransportXref MediumType="goes-self-timed" MediumId="CE12655E"/>
-    <SiteName NameType="CWMS">MACM-Macon-East_Fork_Little_Chariton</SiteName>
-    <Agency>CWMS</Agency>
-    <Description>E Fk L Chariton R nr Macon, MO</Description>
-    <ConfigName>NWK-MACM-001</ConfigName>
-    <IsProduction>false</IsProduction>
-    <LastModifyTime>08/31/2020 15:53:57</LastModifyTime>
-  </PlatformXref>
   <PlatformXref PlatformId="324">
     <TransportXref MediumType="goes-random" MediumId="162FCEF8"/>
     <TransportXref MediumType="goes-self-timed" MediumId="D108A6A4"/>
@@ -3188,7 +3139,7 @@
   <PlatformXref PlatformId="334">
     <TransportXref MediumType="goes-random" MediumId="DDD061AC"/>
     <TransportXref MediumType="goes-self-timed" MediumId="DDD061AC"/>
-    <SiteName NameType="CWMS">BAGM-bl_Bagnell_Dam-Osage</SiteName>
+    <SiteName NameType="nwshb5">LKBM7</SiteName>
     <Agency>CWMS</Agency>
     <Description>bl Bagnell Dam on Osage R, MO</Description>
     <ConfigName>NWK-BAGM-001</ConfigName>
@@ -3227,7 +3178,7 @@
   <PlatformXref PlatformId="338">
     <TransportXref MediumType="goes-random" MediumId="DD67A74E"/>
     <TransportXref MediumType="goes-self-timed" MediumId="DD67A74E"/>
-    <SiteName NameType="CWMS">LNDK-Lyndon-Salt</SiteName>
+    <SiteName NameType="nwshb5">LNDK1</SiteName>
     <Agency>CWMS</Agency>
     <Description>Salt Creek trib near Lyndon, KS</Description>
     <ConfigName>NWK-LNDK-001</ConfigName>
@@ -3455,16 +3406,6 @@
     <IsProduction>false</IsProduction>
     <LastModifyTime>08/31/2020 15:53:59</LastModifyTime>
   </PlatformXref>
-  <PlatformXref PlatformId="362">
-    <TransportXref MediumType="goes-random" MediumId="CE1200B8"/>
-    <TransportXref MediumType="goes-self-timed" MediumId="CE1200B8"/>
-    <SiteName NameType="CWMS">SHND-Schmidt-Missouri</SiteName>
-    <Agency>CWMS</Agency>
-    <Description>Missouri River at Schmidt, ND</Description>
-    <ConfigName>MRR-SHND</ConfigName>
-    <IsProduction>false</IsProduction>
-    <LastModifyTime>08/31/2020 15:53:59</LastModifyTime>
-  </PlatformXref>
   <PlatformXref PlatformId="363">
     <TransportXref MediumType="goes-random" MediumId="CE5E2414"/>
     <TransportXref MediumType="goes-self-timed" MediumId="CE5E2414"/>
@@ -3614,7 +3555,7 @@
   <PlatformXref PlatformId="378">
     <TransportXref MediumType="goes-random" MediumId="CE6483CE"/>
     <TransportXref MediumType="goes-self-timed" MediumId="CE6483CE"/>
-    <SiteName NameType="CWMS">MELN-Melvern_Lake-Marais_Des_Cygnes</SiteName>
+    <SiteName NameType="nwshb5">MLVK1</SiteName>
     <Agency>CWMS</Agency>
     <Description>Melvern Lake on the MdC R, KS</Description>
     <ConfigName>NWK-MELN-001</ConfigName>
@@ -3752,7 +3693,7 @@
   <PlatformXref PlatformId="392">
     <TransportXref MediumType="goes-random" MediumId="CE63B460"/>
     <TransportXref MediumType="goes-self-timed" MediumId="CE63B460"/>
-    <SiteName NameType="CWMS">QUKS-Quenemo-Marais_Des_Cygnes</SiteName>
+    <SiteName NameType="nwshb5">MVNK1</SiteName>
     <Agency>CWMS</Agency>
     <Description>Marais des Cygnes R nr Quen, KS</Description>
     <ConfigName>NWK-QUKS-001</ConfigName>
@@ -5488,7 +5429,7 @@
   </PlatformXref>
   <PlatformXref PlatformId="575">
     <TransportXref MediumType="goes-self-timed" MediumId="32842174"/>
-    <SiteName NameType="CWMS">MYWY-Mammoth-Raws</SiteName>
+    <SiteName NameType="nwshb5">YLAW4</SiteName>
     <Agency>NWS-(BLM001)</Agency>
     <Description>Mammoth at Yellowstone NP Raws</Description>
     <ConfigName>NWO-MYWY-RAWS</ConfigName>
@@ -5544,5 +5485,64 @@
     <ConfigName>NWO-46ND</ConfigName>
     <IsProduction>false</IsProduction>
     <LastModifyTime>08/31/2020 16:29:08</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="14">
+    <TransportXref MediumType="goes-random" MediumId="CE094000"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="DE094000"/>
+    <SiteName NameType="CWMS">MCSD-Aberdeen-Moccasin</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Moccasin Creek at Aberdeen, SD</Description>
+    <ConfigName>NWO-MCSD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>12/15/2020 16:31:10</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="362">
+    <TransportXref MediumType="goes-random" MediumId="CE1200B8"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE1200B8"/>
+    <SiteName NameType="CWMS">SHND-Schmidt-Missouri</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Missouri River at Schmidt, ND</Description>
+    <ConfigName>MRR-SHND</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>12/15/2020 16:31:17</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="171">
+    <TransportXref MediumType="goes-random" MediumId="CE1213CE"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE1213CE"/>
+    <SiteName NameType="CWMS">GWSD-Greenwood-Missouri</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Missouri River at Greenwood, SD</Description>
+    <ConfigName>MRR-GWSD</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>12/15/2020 16:31:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="98">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE122654"/>
+    <SiteName NameType="CWMS">CHCR-Cherry_Creek_Dam-Cherry</SiteName>
+    <Agency>cwms</Agency>
+    <Description>Cherry Creek Dam in Denver, CO</Description>
+    <ConfigName>NWO-CHCR</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>12/15/2020 16:31:41</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="323">
+    <TransportXref MediumType="goes-random" MediumId="CE12655E"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE12655E"/>
+    <SiteName NameType="CWMS">MACM-Macon-East_Fork_Little_Chariton</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>E Fk L Chariton R nr Macon, MO</Description>
+    <ConfigName>NWK-MACM-001</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>12/15/2020 16:31:53</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="274">
+    <TransportXref MediumType="goes-random" MediumId="CE127628"/>
+    <TransportXref MediumType="goes-self-timed" MediumId="CE127628"/>
+    <SiteName NameType="CWMS">STND-Stanton-Missouri</SiteName>
+    <Agency>CWMS</Agency>
+    <Description>Missouri River at Stanton, ND</Description>
+    <ConfigName>MRR-STND</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>12/15/2020 16:32:00</LastModifyTime>
   </PlatformXref>
 </PlatformList>
