@@ -2,28 +2,2786 @@
 <NetworkList Name="nwdm">
   <TransportMediumType>goes</TransportMediumType>
   <SiteNameTypePreference>nwshb5</SiteNameTypePreference>
+  <NetworkListEntry TransportId="CE426FCE">
+    <PlatformName>VRSD-Vermillion-Vermillion</PlatformName>
+    <Description>Vermillion R at Vermillion, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDE0F2BE">
+    <PlatformName>BURK1</PlatformName>
+    <Description>White Rock Creek nr Burr Oak, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE42DC40">
+    <PlatformName>SC08-Salt_Cr_Dam_8-Wagon_Train_Lake</PlatformName>
+    <Description>Salt Cr Dam 8 in Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD3B74F8">
+    <PlatformName>STSD-Stratford-James</PlatformName>
+    <Description>James River at Stratford, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="40215E0E">
+    <PlatformName>HCNE-Lyman-Horse_Creek</PlatformName>
+    <Description>Horse Creek near Lyman, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD93868C">
+    <PlatformName>BDFI4</PlatformName>
+    <Description>E Fk 102 River near Bedford, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="50816494">
+    <PlatformName>HPCO-Homestake_Pipeline-South_Platte</PlatformName>
+    <Description>
+      Stage at Aurora Homestake Pipeline to Spinney Reservoir (HOMSPICO)
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE63EACE">
+    <PlatformName>CLZM-Clinton-South_Grand</PlatformName>
+    <Description>SOUTH GRAND RIVER NEAR CLINTON MO MAIN GAGE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE12C5A6">
+    <PlatformName>VENE-Verdel-Missouri</PlatformName>
+    <Description>Missouri River at Verdel, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE64734A">
+    <PlatformName>WILN-Wilson_Lake-Saline</PlatformName>
+    <Description>Wilson Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10041F0">
+    <PlatformName>HBGK-Hollenberg-Little_Blue</PlatformName>
+    <Description>Little Blue River at Hollenberg</Description>
+  </NetworkListEntry>
   <NetworkListEntry TransportId="CE122654">
     <PlatformName>CHCR-Cherry_Creek_Dam-Cherry</PlatformName>
     <Description>Cherry Creek Dam in Denver, CO</Description>
   </NetworkListEntry>
-  <NetworkListEntry TransportId="CE1213CE">
-    <PlatformName>GWSD-Greenwood-Missouri</PlatformName>
-    <Description>Missouri River at Greenwood, SD</Description>
+  <NetworkListEntry TransportId="DE3764F4">
+    <PlatformName>CHCO-bl_Cherry_Creek_Dam-Cherry</PlatformName>
+    <Description>Cherry Cr bl Cherry Cr Dam, CO</Description>
   </NetworkListEntry>
-  <NetworkListEntry TransportId="CE12655E">
-    <PlatformName>MACM-Macon-East_Fork_Little_Chariton</PlatformName>
-    <Description>E Fk L Chariton R nr Macon, MO</Description>
+  <NetworkListEntry TransportId="DDE0E1C8">
+    <PlatformName>MILK-bl_Milford_Lake-Republican</PlatformName>
+    <Description>Republican R b Milford nr JC, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE642DE4">
+    <PlatformName>SMNM-Sumner-Grand</PlatformName>
+    <Description>Grand River near Sumner, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE6446D0">
+    <PlatformName>NOVM-Novinger-Chariton</PlatformName>
+    <Description>Chariton River at Novinger, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE78A320">
+    <PlatformName>SIMT-Sidney-Yellowstone</PlatformName>
+    <Description>Yellowstone River near Sidney, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F330D07C">
+    <PlatformName>GRAR-Gray_Reef_Dam-North_Platte</PlatformName>
+    <Description>Gray Reef Dam on North Platte</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10C406C">
+    <PlatformName>SNWY-Saratoga-North_Brush</PlatformName>
+    <Description>North Bush Creek near Saratoga</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDE2F74A">
+    <PlatformName>SNCK-Seneca-Turkey</PlatformName>
+    <Description>Turkey Creek near Seneca, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE3A6016">
+    <PlatformName>IWSD-Pierre-Missouri-Isaac_Walton</PlatformName>
+    <Description>Missouri R at Isaac Walton, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3462E4E2">
+    <PlatformName>GDMT-Gibson_Dam-North_Fork_Sun</PlatformName>
+    <Description>Gibson Dam on NF Sun R, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="32842174">
+    <PlatformName>YLAW4</PlatformName>
+    <Description>Mammoth at Yellowstone NP Raws</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDEFA450">
+    <PlatformName>QSNE-Omaha-Q_St-Big_Papillion</PlatformName>
+    <Description>BIG PAPILLION CREEK AT Q ST AT OMAHA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE787548">
+    <PlatformName>BRND-Breien-Cannonball</PlatformName>
+    <Description>Cannonball River at Breien, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE6521CC">
+    <PlatformName>HILK-Hillsdale-bl_Big_Bull</PlatformName>
+    <Description>Big Bull Cr below Hillsdale, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5E2AC6">
+    <PlatformName>WSNE-West_Point-Elkhorn</PlatformName>
+    <Description>Elkhorn River at West Point, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="1738A1C4">
+    <PlatformName>SMSD-Fruitdale-Belle_Fourche</PlatformName>
+    <Description>Belle Fourche River nr Fruitdale</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDE100C0">
+    <PlatformName>CHPK1</PlatformName>
+    <Description>Chapman Creek nr Chapman, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="162B956C">
+    <PlatformName>MCON-McCook-Republican</PlatformName>
+    <Description>Republican R at McCook, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE64E628">
+    <PlatformName>MLTI-Moulton-Chariton</PlatformName>
+    <Description>Chariton River near Moulton, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10EC38C">
+    <PlatformName>SCNE-Lincoln-Stevens_Cr</PlatformName>
+    <Description>Stevens Creek near Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE5736BA">
+    <PlatformName>BTNE-Bennington-Thomas_Cr</PlatformName>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="346E068C">
+    <PlatformName>MBWY-Sinclair-Medicine_Bow</PlatformName>
+    <Description>Medicine Bow River near Sinclair, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10DA164">
+    <PlatformName>GDEK-Glade-North_Fork_Solomon</PlatformName>
+    <Description>N Fk Solomon River at Glade, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD753046">
+    <PlatformName>CAND</PlatformName>
+    <Description>EMERGENCY GAGE - Pipestem Creek near Carrington</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5DCE3A">
+    <PlatformName>CEIA-Correctionville-Little_Sioux</PlatformName>
+    <Description>L Sioux R at Correctionville, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10B512E">
+    <PlatformName>EKDK-Elkader-Smoky_Hill</PlatformName>
+    <Description>Smoky Hill River at Elkader, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5DE604">
+    <PlatformName>HAIA-Hamburg-Nishnabotna</PlatformName>
+    <Description>NISHNABOTNA RIVER NEAR HAMBURG 2NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D1105518">
+    <PlatformName>SZNE-Pierce-NF_Elkhorn</PlatformName>
+    <Description>North Fork Elkhorn River near Pierce, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD5A7430">
+    <PlatformName>WRDY-Dubois-Wind</PlatformName>
+    <Description>Wind river near Dubois</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE36D580">
+    <PlatformName>SWTN8</PlatformName>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5131F0">
+    <PlatformName>MKSL-State_Line-Marais_Des_Cygnes</PlatformName>
+    <Description>Marais des Cygnes nr KS-MO St Ln</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE7388B6">
+    <PlatformName>PLKM-Polk-Lindley</PlatformName>
+    <Description>Lindley Creek near Polk, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DF0340F0">
+    <PlatformName>BRNE-Blair-Big_Papillion</PlatformName>
+    <Description>Big Papillion Near Blair NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="515B4172">
+    <PlatformName>PTCL-Platteville-St_Vrain</PlatformName>
+    <Description>St. Vrain Cr at Platteville, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE23F4B6">
+    <PlatformName>PCIA-Sioux_City-Perry</PlatformName>
+    <Description>Perry Creek at 38th St. at Sioux City, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3473A28C">
+    <PlatformName>CHMT-Chester-Marias</PlatformName>
+    <Description>Marias R nr Chester, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE57402A">
+    <PlatformName>KDNE-Kennard-Big_Papillion</PlatformName>
+    <Description>BIG PAPILLION CREEK NEAR KENNARD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD7A034E">
+    <PlatformName>LRWY-Laramie-Laramie</PlatformName>
+    <Description>Laramie River at Laramie</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="5081F1F6">
+    <PlatformName>JECO-Jefferson-Michigan</PlatformName>
+    <Description>Michigan Creek abv Jefferson, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE095376">
+    <PlatformName>ABSD-Aberdeen-Foot</PlatformName>
+    <Description>Foot Creek near Aberdeen, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="345A83D2">
+    <PlatformName>SIWY-Sinclair-North_Platte</PlatformName>
+    <Description>
+      N Platte RIV AB Seminoe Reservoir, NR Sinclair, WY
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE513F22">
+    <PlatformName>TRUM-Warsaw-Osage-bl_Truman</PlatformName>
+    <Description>Osage R bl Truman Dam, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE6455A6">
+    <PlatformName>HACO-Harlan_Co_Lake-Republican</PlatformName>
+    <Description>Harlan County Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE3CC020">
+    <PlatformName>GCND-Grace_City-James</PlatformName>
+    <Description>James River at Grace City, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="5147619C">
+    <PlatformName>CECL-bl_Cheesman_Dam-South_Platte</PlatformName>
+    <Description>S Platte R bl Cheesman Dam, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="B140855C">
+    <PlatformName>SAWY-Saratoga-North_Platte</PlatformName>
+    <Description>North Platte River at Saratoga</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE73F0F4">
+    <PlatformName>TSTK-Tescott-Saline</PlatformName>
+    <Description>Saline River at Tescott, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDE583EE">
+    <PlatformName>ADAK1</PlatformName>
+    <Description>Salt Creek near Ada, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE64603C">
+    <PlatformName>KANS-Kanopolis_Lake-Smoky_Hill</PlatformName>
+    <Description>Kanopolis Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17D19788">
+    <PlatformName>WSHK-Washington-Mill</PlatformName>
+    <Description>Mill Creek (trib B.Blue) at Washington, KS</Description>
   </NetworkListEntry>
   <NetworkListEntry TransportId="CE1286AC">
     <PlatformName>PONE-Ponca-Missouri</PlatformName>
     <Description>Missouri River at Ponca, NE</Description>
   </NetworkListEntry>
-  <NetworkListEntry TransportId="CE1200B8">
-    <PlatformName>SHND-Schmidt-Missouri</PlatformName>
-    <Description>Missouri River at Schmidt, ND</Description>
+  <NetworkListEntry TransportId="CE3A7360">
+    <PlatformName>COSD-Columbia-James</PlatformName>
+    <Description>James River at Columbia SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F2333522">
+    <PlatformName>TMRM-Browning-Two_Medicine</PlatformName>
+    <Description>Two Medicine R nr Browning, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DF07B54E">
+    <PlatformName>BLTK-Beloit-Solomon</PlatformName>
+    <Description>Solomon River at Beloit, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="515873E6">
+    <PlatformName>ODCO-Orodell-Boulder</PlatformName>
+    <Description>Boulder Creek at Orodell, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE789868">
+    <PlatformName>CCSD-Howes-Cheyenne</PlatformName>
+    <Description>Cheyenne River at Howes, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="163B8184">
+    <PlatformName>DDSD-bl_Deerfield_Dam-Castle</PlatformName>
+    <Description>Castle Creek below Deerfield Dam, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE12E34A">
+    <PlatformName>WSND-Washburn-Missouri</PlatformName>
+    <Description>Missouri River at Washburn, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="178BE408">
+    <PlatformName>RILW-Riverton-Little_Wind</PlatformName>
+    <Description>Little Wind R at Riverton, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE3CB6B0">
+    <PlatformName>BBSD-S_Falls_blw_Div-Big_Sioux</PlatformName>
+    <Description>Big Sioux River below Diversion, Sioux Falls, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="B1841160">
+    <PlatformName>SCWY-Shell-Shell</PlatformName>
+    <Description>Shell Creek near Shell</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD7F6168">
+    <PlatformName>EGBM8</PlatformName>
+    <Description>E GALLATIN RIVER NEAR BOZEMAN</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="50819410">
+    <PlatformName>ARCO-ab_Antero_Res-SF_South_Platte</PlatformName>
+    <Description>SF S Platte av Antero Res, CO SEASONAL</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE3CA5C6">
+    <PlatformName>NINE-Niobrara-Niobrara</PlatformName>
+    <Description>Niobrara River at Niobrara, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE50C38E">
+    <PlatformName>BIS-Bismarck-Missouri</PlatformName>
+    <Description>Missouri River at Bismarck, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD35339A">
+    <PlatformName>WAAk-WaKeeney-Saline</PlatformName>
+    <Description>Saline River near WaKeeney, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5DB678">
+    <PlatformName>MLS-Miles_City-Yellowstone</PlatformName>
+    <Description>Yellowstone R at Miles City, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE3547EC">
+    <PlatformName>WBSD-Watertown-Big_Sioux-Broadway</PlatformName>
+    <Description>B Sioux R Broadway Watertown, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="344727D2">
+    <PlatformName>SXMT-St_Xavier-Bighorn</PlatformName>
+    <Description>Bighorn River near St. Xavier, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="40205CF4">
+    <PlatformName>BDYN1</PlatformName>
+    <Description>North Channel of the Platte River Near Brady, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE79291C">
+    <PlatformName>MKC-Kansas_City-Missouri</PlatformName>
+    <Description>2-Missouri R at Kansas City, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE3CD356">
+    <PlatformName>PIND-Pingree-Pipestem</PlatformName>
+    <Description>Pipestem Creek at Pingree, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD0F77B2">
+    <PlatformName>BGCM8</PlatformName>
+    <Description>Big Muddy Creek near Antelope. Montana</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE424922">
+    <PlatformName>SC17-Salt_Cr_Dam_17-Holmes_Lake</PlatformName>
+    <Description>Holmes Lake, Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDD336DE">
+    <PlatformName>LFNE-Lincoln-Fairgrounds-Salt</PlatformName>
+    <Description>Salt Creek at Fairgrounds at Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE647D98">
+    <PlatformName>MRRM-Morrisville-Little_Sac</PlatformName>
+    <Description>Little Sac R nr Morrisville, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DF0385EE">
+    <PlatformName>ACNE-Lincoln-27th_St-Antelope_Cr</PlatformName>
+    <Description>Antelope Creek at 27th Street at Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="34633070">
+    <PlatformName>ECMT-Eastern_Crossing-Milk</PlatformName>
+    <Description>Milk R at Eastern Crossing, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE07571E">
+    <PlatformName>CSCO-Commerce_City-Sand</PlatformName>
+    <Description>lower Sand Cr at mouth nr Commerce City, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD36E2FC">
+    <PlatformName>EGCO-Englewood-South_Platte</PlatformName>
+    <Description>South Platte River at Englewood, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE50E562">
+    <PlatformName>NLNE-St_Paul-North_Loup</PlatformName>
+    <Description>North Loup R at St Paul, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE51046A">
+    <PlatformName>OFK-Norfolk-Elkhorn</PlatformName>
+    <Description>Elkhorn River at Norfolk, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD5990CC">
+    <PlatformName>GMJW4</PlatformName>
+    <Description>GIBBON RIVER AT MADISON JUNCTION</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DF00FAA2">
+    <PlatformName>BSNE-Omaha-Blondo_St-Cole_Cr</PlatformName>
+    <Description>Cole Creek at Blondo Street At Omaha, Nebr.</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="162F8DF2">
+    <PlatformName>RCWR-ab_WRF-Rapid_Creek</PlatformName>
+    <Description>Rapid Creek above WRF nr Rapid City, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="402214D8">
+    <PlatformName>MTMC-Minatare-MC-North_Platte</PlatformName>
+    <Description>North Platte River at Minatare Main Channel</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD9671C8">
+    <PlatformName>GLMT-Glen-Big_Hole</PlatformName>
+    <Description>Big Hole River near Glen, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE63B460">
+    <PlatformName>MVNK1</PlatformName>
+    <Description>QUENEMO...below Melvern Lake, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE63A9C4">
+    <PlatformName>RDNK1</PlatformName>
+    <Description>Reading, Kansas</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE428C3C">
+    <PlatformName>AKIA-Akron-Big_Sioux</PlatformName>
+    <Description>Big Sioux River at Akron, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17DD6690">
+    <PlatformName>GARK-Garnett-Pottawatomie</PlatformName>
+    <Description>Pottawatomie Cr near Scipio, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE652F1E">
+    <PlatformName>HUTM-Huntsville-East_Fork_Chariton</PlatformName>
+    <Description>E Fk L Char R nr Huntsville, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE649E6A">
+    <PlatformName>RATN-Rathbun_Lake-Chariton</PlatformName>
+    <Description>Rathbun_Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F230E444">
+    <PlatformName>NKMA-Browning-NF_Milk</PlatformName>
+    <Description>N Fk Milk R nr Browning, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="348A20D0">
+    <PlatformName>MPWY-Lander-Middle_Popo_Agie</PlatformName>
+    <Description>Middle Popo Agie bel Sinks near Lander</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3470F5FE">
+    <PlatformName>FDMT-Fresno_Dam-Milk</PlatformName>
+    <Description>Fresno Dam on Milk nr Havre, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="5165A098">
+    <PlatformName>TRCO-Tarryall_Res-Tarryall</PlatformName>
+    <Description>
+      Tarryall Cr near Tarryall, CO, elevation at reservoir
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="5081C46C">
+    <PlatformName>HRCO-Hartsel-Four_Mile</PlatformName>
+    <Description>Fourmile Creek nr Hartsel, CO SEASONAL</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE73C56E">
+    <PlatformName>CHZM7</PlatformName>
+    <Description>Grand River at Chillicothe, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE12D6D0">
+    <PlatformName>PRND-Price-Missouri</PlatformName>
+    <Description>Missouri River at Price, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD67B438">
+    <PlatformName>RLDK-Richland-Wakarusa</PlatformName>
+    <Description>Wakarusa River nr Richland, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE822672">
+    <PlatformName>PA2A-Papio_Cr_Dam_20-Sediment_Trap</PlatformName>
+    <Description>Papio Cr 20 Sed Trap Dam</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10EF616">
+    <PlatformName>GRMT-Great_Falls-Missouri</PlatformName>
+    <Description>Missouri River nr Great Falls</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10D8788">
+    <PlatformName>ARNK1</PlatformName>
+    <Description>Smoky Hill River near Arnold, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="B180C232">
+    <PlatformName>GRAO-Grayrocks_Out-Laramie</PlatformName>
+    <Description>Grayrocks Outflow</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D11476CE">
+    <PlatformName>PXCK-Paxico-Mill</PlatformName>
+    <Description>Mill Creek near Paxico, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="348BF442">
+    <PlatformName>WEBR-Webster_Res-SF_Solomon</PlatformName>
+    <Description>Webster Reservoir</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="346FB7F8">
+    <PlatformName>SHHI-Shadehill_Dam-Grand</PlatformName>
+    <Description>Shadehill Dam on the Grand R, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE3293B0">
+    <PlatformName>TMND-Richardton-Heart</PlatformName>
+    <Description>Heart River nr Richardton, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="515B679E">
+    <PlatformName>HNCL-Henderson-South_Platte</PlatformName>
+    <Description>South Platte R at Henderson, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5DB8AA">
+    <PlatformName>MIMT-Miles_City-Tongue</PlatformName>
+    <Description>Tongue River at Miles City, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE63CC22">
+    <PlatformName>TPAK-Topeka-Kansas</PlatformName>
+    <Description>Kansas River at Topeka, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE500690">
+    <PlatformName>STOM-bl_Stockton_Lake-Sac</PlatformName>
+    <Description>Sac River bl Stockton Lake, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10DB212">
+    <PlatformName>WODK-Woodston-SF_Solomon</PlatformName>
+    <Description>S Fk Solomon R at Woodston, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="16E94294">
+    <PlatformName>CAMT-Cascade-Missouri</PlatformName>
+    <Description>Missouri River at Cascade, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDD061AC">
+    <PlatformName>LKBM7</PlatformName>
+    <Description>bl Bagnell Dam on Osage R, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="348C1584">
+    <PlatformName>GLEL-Waconda_Lake-Solomon</PlatformName>
+    <Description>Waconda Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="166A77B8">
+    <PlatformName>JEFM-Jefferson_City-Missouri</PlatformName>
+    <Description>Missouri River at Jefferson City, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DF06F4BE">
+    <PlatformName>VISD-abv_Victoria_Cr-Rapid</PlatformName>
+    <Description>Rapid Creek abv Victoria Creek nr Rapid City, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE7977B2">
+    <PlatformName>PDTM-Hermitage-Pomme_De_Terre</PlatformName>
+    <Description>Pomme De Terre R nr Hermtage, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE35549A">
+    <PlatformName>WWSD-Watertown-Willow</PlatformName>
+    <Description>Willow Creek near Watertown, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="176A95E8">
+    <PlatformName>BLRK1</PlatformName>
+    <Description>B Blue River at Blue Rapids, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="5081A18A">
+    <PlatformName>PRCO-Prince-MF_South_Platte</PlatformName>
+    <Description>Middle Fork South Platte at Prince, CO SEASONAL</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE64DD60">
+    <PlatformName>PRMI-Promise_City-South_Fork_Chariton</PlatformName>
+    <Description>S Fk Char R at Promise City, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE7810AE">
+    <PlatformName>BVNE-Brownville-Missouri</PlatformName>
+    <Description>Missouri River at Brownville, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="347683A0">
+    <PlatformName>SRBB-bl_Buffalo_Bill-Shoshone</PlatformName>
+    <Description>Shoshone R bl Buffalo Bill, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="16FEC12A">
+    <PlatformName>HZLM7</PlatformName>
+    <Description>Gasconade River near Hazelgreen, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE78BE84">
+    <PlatformName>TOMT-Toston-Missouri</PlatformName>
+    <Description>Missouri River at Toston, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="347114F6">
+    <PlatformName>SDMT-Swift_Reservoir-Birch</PlatformName>
+    <Description>Swift Reservoir near Dupuyer MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD1A4276">
+    <PlatformName>46ND</PlatformName>
+    <Description>
+      TEMPORARY GAGE - JAMES RIVER AT HWY 46 NR ADRIAN, ND
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="516BC116">
+    <PlatformName>HACL-ab_11-Mile_Res-South_Platte</PlatformName>
+    <Description>
+      South Plattle above 11-mile near Hartsel, Colorado
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE3AB1FA">
+    <PlatformName>FTSD-Forestburg-James</PlatformName>
+    <Description>James River at Forestburg, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD98F3B4">
+    <PlatformName>WSVM8</PlatformName>
+    <Description>BIG HOLE RIVER NEAR WISE RIVER</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE63DF54">
+    <PlatformName>FRI-Fort_Riley-Kansas</PlatformName>
+    <Description>Kansas River at Fort Riley, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE013236">
+    <PlatformName>CHNE-Chalco-South_Papillion</PlatformName>
+    <Description>SOUTH PAPILLION CREEK AT CHALCO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE42726A">
+    <PlatformName>SCSD-Scotland-James</PlatformName>
+    <Description>James River at Scotland, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DF065446">
+    <PlatformName>PSSD-St_Patrick_St-Rapid</PlatformName>
+    <Description>Rapid Creek at St. Patrick St. at Rapid City, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3240E534">
+    <PlatformName>BYCO-Bailey_Weather-NF_S_Platte</PlatformName>
+    <Description>South Platte River at Bailey, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE0A8594">
+    <PlatformName>FortRandallDCP</PlatformName>
+    <Description>Fort Randall DCP</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="163AC074">
+    <PlatformName>RESD-Redfield-James</PlatformName>
+    <Description>James River at Redfield, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="1739E034">
+    <PlatformName>DTTM8-Dutton-Tenton</PlatformName>
+    <Description>Teton River near Dutton, Montana</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE026544">
+    <PlatformName>TCCO-Rocky_Mtn_Ars-First</PlatformName>
+    <Description>First Cr at Hwy 2 nr Rocky Mtn Arsenal, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="16EA8084">
+    <PlatformName>LNEK1</PlatformName>
+    <Description>Pottawatomie Creek at Lane, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE64187E">
+    <PlatformName>BLVM7</PlatformName>
+    <Description>Blackwater R at Blue Lick, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F0010078">
+    <PlatformName>HEBN-Hebgen_Dam-Madison</PlatformName>
+    <Description>Madison R bl Hebgen Dam nr W Yellowstone, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="16E9878A">
+    <PlatformName>FLMT-Fort_Logan-Smith</PlatformName>
+    <Description>
+      Smith River blw Eagle Cr near Ft. Logan, SEASONAL GAGE, shuts off Nov 1.
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE099668">
+    <PlatformName>TYSD-White_Butte-NF_Grand</PlatformName>
+    <Description>North Fork Grand River near White Butte</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="16F2E65A">
+    <PlatformName>OMLN1</PlatformName>
+    <Description>LITTLE PAPILLION CREEK AT AK-SAR-BEN AT OMAHA, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="515B5204">
+    <PlatformName>ANCO-bl_Antero_Res-South_Platte</PlatformName>
+    <Description>S Platte R below Antero Res, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE240606">
+    <PlatformName>SBND-Starck_Bridge-Heart</PlatformName>
+    <Description>Heart River at Starck Bridge, nr Judson ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE74390C">
+    <PlatformName>CMBN-Cambridge-Republican</PlatformName>
+    <Description>Republican R at Cambridge, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10414B6">
+    <PlatformName>LMMT-Loma-Marias</PlatformName>
+    <Description>Marias River nr Loma, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD7F721E">
+    <PlatformName>FTMT-Fort_Benton-Missouri</PlatformName>
+    <Description>Missouri River Near at Fort Benton, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="51689664">
+    <PlatformName>BACO-Bailey-NF_South_Platte</PlatformName>
+    <Description>N Fk South Platte at Bailey, CO SEASONAL</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE73E382">
+    <PlatformName>EWKS-Ellsworth-Smoky_Hill</PlatformName>
+    <Description>Smoky Hill R at Ellsworth, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10A96CA">
+    <PlatformName>PLBM-Plattsburg-Little_Platte</PlatformName>
+    <Description>L Platte R at Plattsburg, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE0FF340">
+    <PlatformName>WCND-Watford_City-Little_Missouri</PlatformName>
+    <Description>L Missouri R at Watford City, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDFAC1E8">
+    <PlatformName>CBCO-ab_Cheesman_Dam-South_Platte</PlatformName>
+    <Description>South Platte R ab Cheesman, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17B80684">
+    <PlatformName>WRSY-ab_Boysen_Res-Wind</PlatformName>
+    <Description>Wind R ab Boysen Reservoir, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE093690">
+    <PlatformName>ODSD-Ordway-Elm</PlatformName>
+    <Description>Elm River near Ordway, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE1F754E">
+    <PlatformName>HTNM-Horton-Little_Osage</PlatformName>
+    <Description>Little Osage River at Horton, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE35317C">
+    <PlatformName>RUSD-Rauville-S_Br_Mud</PlatformName>
+    <Description>S Br Trib Mud Cr nr Rauville, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="162CEF1A">
+    <PlatformName>TBMT-Twin_Bridges-Beaverhead</PlatformName>
+    <Description>Beaverhead R at Twin Bridges, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD3D244A">
+    <PlatformName>NFS-Wapiti-NF_Shoshone</PlatformName>
+    <Description>North Fork Shoshone R at Wapiti, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD9E1088">
+    <PlatformName>KCIA-Glenwood-Keg</PlatformName>
+    <Description>Keg Creek at Epperson Avenue near Glenwood 4NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE367578">
+    <PlatformName>ELSK1</PlatformName>
+    <Description>Cedar Bluff Reservoir</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE790FF0">
+    <PlatformName>WVMO-Waverly-Missouri</PlatformName>
+    <Description>Missouri River at Waverly, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="1636B9AA">
+    <PlatformName>WSN-Williston-Missouri</PlatformName>
+    <Description>Missouri River at Williston, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3466843E">
+    <PlatformName>BRWY-Worland-Bighorn</PlatformName>
+    <Description>Bighorn River at Boy&apos;s Schol near Worland</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD35D068">
+    <PlatformName>WRKY-Kinnear-Wind</PlatformName>
+    <Description>Wind River nr Kinnear, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="B14F187E">
+    <PlatformName>LAWY-Lander-Popo_Agie</PlatformName>
+    <Description>
+      Note this is on the Little Popo Agie River.  See description in base
+      location for this site. Also LPWY is a duplicate name and has been
+      deprecated.
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="171E001C">
+    <PlatformName>J5ND-5th_Street-James</PlatformName>
+    <Description>
+      EMERGENCY GAGE - James River on 5th St. in Jamestown, ND
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10C531A">
+    <PlatformName>EEWY-Encmpt-Encampment</PlatformName>
+    <Description>Encampment R at Mouth nar Encmpt</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE42611C">
+    <PlatformName>NCSD-Sioux_Falls-Big_Sioux-N_Cliff_Av</PlatformName>
+    <Description>B Sioux R at N Cliff S Falls, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3477B4C0">
+    <PlatformName>GLEN-Glendo_Dam-North_Platte</PlatformName>
+    <Description>Glendo Reservoir, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDDAC006">
+    <PlatformName>SZND-Oakes-Bear</PlatformName>
+    <Description>Bear Creek nr Oakes, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD5B4350">
+    <PlatformName>TQWY-Basin-Bighorn</PlatformName>
+    <Description>Bighorn River at Basin</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5E2414">
+    <PlatformName>MPIA-Mapleton-Maple</PlatformName>
+    <Description>Maple River at Mapleton, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="171C83FC">
+    <PlatformName>WCHM8</PlatformName>
+    <Description>WILLOW CREEK NEAR HARRISON 3NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17AE42DE">
+    <PlatformName>ERCO-Evergreen-Bear</PlatformName>
+    <Description>Bear Creek above Evergreen, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5E41F2">
+    <PlatformName>MHIA-Turin-Monona_Harrison_Ditch</PlatformName>
+    <Description>Monona-H Ditch nr Turin, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F2307FF4">
+    <PlatformName>GRWY-Glenrock-North_Platte</PlatformName>
+    <Description>North Platte R at Glenrock, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE50D0F8">
+    <PlatformName>MAND-Mandan-Heart</PlatformName>
+    <Description>Heart River near Mandan, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE365394">
+    <PlatformName>CRSN8</PlatformName>
+    <Description>Antelope creek near Carson, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDE5F57E">
+    <PlatformName>TBSD-Farmingdale-Rapid</PlatformName>
+    <Description>Rapid Creek nr Farmingdale</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD2C92A0">
+    <PlatformName>DRGN-Dorchester-West_Fork_Big_Blue</PlatformName>
+    <Description>W Fk Big Blue nr Dorchester, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE643040">
+    <PlatformName>GLMO-Glasgow-Missouri</PlatformName>
+    <Description>2-Missouri River at Glasgow, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="515A50FE">
+    <PlatformName>WTCO-Waterton-South_Platte</PlatformName>
+    <Description>South Platte R at Waterton, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDF8D76A">
+    <PlatformName>MEWY-Meeteetsee-Greybull</PlatformName>
+    <Description>Greybull River near Meeteetsee,WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3489F1B6">
+    <PlatformName>WHWY-DiversionInterstate</PlatformName>
+    <Description>Interstate Canal on the North Platte River, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="164051E8">
+    <PlatformName>HESD-bl_Hermosa-Battle_Creek</PlatformName>
+    <Description>Battle Creek below Hermosa, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE6490B8">
+    <PlatformName>HILS-Hillsdale_Lake-Big_Bull</PlatformName>
+    <Description>Hillsdale Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE064692">
+    <PlatformName>RRBM8</PlatformName>
+    <Description>Ruby River below reservoir near Alder, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3486C2BE">
+    <PlatformName>MARM-Shelby-Marias</PlatformName>
+    <Description>Marias River near Shelby, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="402207AE">
+    <PlatformName>MICN1</PlatformName>
+    <Description>North Platte River near Mitchell 1se</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="16C7F49C">
+    <PlatformName>TOPK-Topeka-Soldier</PlatformName>
+    <Description>Soldier Creek near Topeka, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="16F1244A">
+    <PlatformName>GRND-Grand_Rapids-James</PlatformName>
+    <Description>
+      EMERGENCY GAGE - James River at County Road 34 nr Grand Rapids, ND
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE2A37F4">
+    <PlatformName>STAK-Stanley-Blue</PlatformName>
+    <Description>Blue River near Stanley, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD89B5DA">
+    <PlatformName>ICLI4</PlatformName>
+    <Description>Nodaway River at Clarinda, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE425A54">
+    <PlatformName>SC02-Salt_Cr_Dam_2-Olive_Creek_Lake</PlatformName>
+    <Description>Salt Cr Dam 2 in Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE7927CE">
+    <PlatformName>HEMO-Hermann-Missouri</PlatformName>
+    <Description>Missouri River at Hermann, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="173940CC">
+    <PlatformName>RWLN-Indianola-Red_Willow</PlatformName>
+    <Description>Red Willow Cr near Indianola, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE583028">
+    <PlatformName>GTNE-Gretna-South_Papillion</PlatformName>
+    <Description>South Papillion Creek near Gretna</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="162BE3FC">
+    <PlatformName>FRSD-Frederick-Elm</PlatformName>
+    <Description>Elm River near Frederick, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="16938374">
+    <PlatformName>ACHK1</PlatformName>
+    <Description>S Fk Sappa Cr nr Achilles, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17EE841C">
+    <PlatformName>JCMM7</PlatformName>
+    <Description>Moreau River near Jefferson City, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10A85BC">
+    <PlatformName>MRYM-Maryville-102</PlatformName>
+    <Description>102 River at Maryville, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D105A5C2">
+    <PlatformName>OTVM-Otterville-Lamine</PlatformName>
+    <Description>Lamine River near Otterville, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDC871E2">
+    <PlatformName>BIGM</PlatformName>
+    <Description>Big Piney River below Ft. Leonard Wood, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE63C2F0">
+    <PlatformName>DESO-DeSoto-Kansas</PlatformName>
+    <Description>Kansas River at DeSoto, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10D647A">
+    <PlatformName>NCRK-Norcatur-Sappa</PlatformName>
+    <Description>Sappa Creek at Norcatur, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE64B886">
+    <PlatformName>STON-Stockton_Lake-Sac</PlatformName>
+    <Description>Stockton Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D105B6B4">
+    <PlatformName>ATLM7</PlatformName>
+    <Description>Long Branch Creek at Atlanta, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE3303AC">
+    <PlatformName>SKSD-Sioux_Falls-Skunk</PlatformName>
+    <Description>Skunk Creek at Sioux Falls, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE429F4A">
+    <PlatformName>JMIA-James-Floyd</PlatformName>
+    <Description>Floyd River at James, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D1060234">
+    <PlatformName>TMHM8</PlatformName>
+    <Description>TENMILE CREEK NEAR HELENA 3NW</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDCB007C">
+    <PlatformName>STMN-Stamford-Sappa</PlatformName>
+    <Description>Sappa Creek near Stamford, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDD8A014">
+    <PlatformName>SYNE-Pilger-Elkhorn</PlatformName>
+    <Description>Elkhorn River at Pilger, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE73D8CA">
+    <PlatformName>BUNK1</PlatformName>
+    <Description>Smoky Hill R nr Bunker Hill, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDF9D590">
+    <PlatformName>CRCO-Commerce-South_Platte</PlatformName>
+    <Description>South Platte at 64th AVE. Commerce, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="5158E684">
+    <PlatformName>LYCL-Lyons-St_Vrain</PlatformName>
+    <Description>St. Vrain Creek at Lyons, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDCA7416">
+    <PlatformName>BRGK1</PlatformName>
+    <Description>Dragoon Creek at Burlingame, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D116B624">
+    <PlatformName>TSCM7</PlatformName>
+    <Description>Osage River at Tuscumbia, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE3504E6">
+    <PlatformName>FLSD-Florence-Big_Sioux</PlatformName>
+    <Description>Big Sioux River at Florence, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3460D48C">
+    <PlatformName>BULA-Bull_Lake_Dam-Bull_Lake</PlatformName>
+    <Description>Bull Lake Reservoir on Bull Lake Creek, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE08F6F0">
+    <PlatformName>CHCR2-Cherry_Creek_Dam-Cherry</PlatformName>
+    <Description>Cherry Creek Dam radar gage.</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE51171C">
+    <PlatformName>CLMT-Culbertson-Missouri</PlatformName>
+    <Description>Missouri River at Culbertson, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F0033016">
+    <PlatformName>SRLY-Lovell-Shoshone</PlatformName>
+    <Description>Shoshone River nr Lovell, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="4020B1D4">
+    <PlatformName>LEWN1</PlatformName>
+    <Description>North Platte River At Lewellen, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE33664A">
+    <PlatformName>JAND-Jamestown-James</PlatformName>
+    <Description>James River at Jamestown, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5E0C2A">
+    <PlatformName>BLNE-Blair-Missouri</PlatformName>
+    <Description>Missouri River at Blair, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE0BC464">
+    <PlatformName>PIPP-Pipestem_Dam-Precip</PlatformName>
+    <Description>Pipestem Dam Precip</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE740C96">
+    <PlatformName>BANK1</PlatformName>
+    <Description>Little Blue River nr Barnes, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D11F251A">
+    <PlatformName>MSSM7</PlatformName>
+    <Description>Mussel Fork near Musselfork, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="516A06F2">
+    <PlatformName>CHMA-Cheesman_Dam-South_Platte</PlatformName>
+    <Description>Cheesman Dam near Denver, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE12F03C">
+    <PlatformName>PIR-Pierre-Missouri</PlatformName>
+    <Description>Missouri River at Pierre, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D1047150">
+    <PlatformName>SLNE-Lincoln-N_70th_St-Salt</PlatformName>
+    <Description>Salt Creek at North 70th Street at Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="173524B6">
+    <PlatformName>BLAY-ab_Bull_Lake-Bull_Lake</PlatformName>
+    <Description>Bull Lake Creek ab Bull Lake, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE345660">
+    <PlatformName>GTMT-Gallatin_Gateway-Gallatin</PlatformName>
+    <Description>Gallatin River near Gallatin Gateway, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="1771A444">
+    <PlatformName>POMK-Quenemo-110</PlatformName>
+    <Description>110 Mile Cr at Quenemo, KS POMONA BELOW</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD2C81D6">
+    <PlatformName>ASNE-Ashland-Platte</PlatformName>
+    <Description>Platte River at Ashland, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD9BF4BA">
+    <PlatformName>WILK-bl_Wilson_Lake-Saline</PlatformName>
+    <Description>Saline R bl Wilson Lake, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE0A408A">
+    <PlatformName>FortPeckDCP</PlatformName>
+    <Description>Fort Peck Dam DCP</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE1295DA">
+    <PlatformName>MANE-Maskell-Missouri</PlatformName>
+    <Description>Missouri River at Maskell, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F00414CE">
+    <PlatformName>COCO-Como-Tarryall</PlatformName>
+    <Description>Tarryall Creek near Como 2NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5DDD4C">
+    <PlatformName>PSIA-Pisgah-Soldier</PlatformName>
+    <Description>Soldier River at Pisgah, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE64B654">
+    <PlatformName>PODT-Pomme_De_Terre_Lake-Pomme_De_Ter</PlatformName>
+    <Description>Pomme de Terre Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE78C814">
+    <PlatformName>RUMT-Roundup-Musselshell</PlatformName>
+    <Description>Musselshell River at Roundup, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE062374">
+    <PlatformName>RIMM8</PlatformName>
+    <Description>Tenmile Creek near Rimini MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE42B9A6">
+    <PlatformName>BOHA-Bowman_Haley_Dam-Grand</PlatformName>
+    <Description>Bowman-Haley Dam at Bowman, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE741132">
+    <PlatformName>FKFK-Frankfort-Black_Vermillion</PlatformName>
+    <Description>Black Verm R nr Frankfort, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE38B40E">
+    <PlatformName>HUSD-Huron-James</PlatformName>
+    <Description>James River at Huron, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10F618E">
+    <PlatformName>MOMT-Mosby-Musselshell</PlatformName>
+    <Description>Mussellshell River at Mosby</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD71A01E">
+    <PlatformName>NGWY-Northgate-North_Platte</PlatformName>
+    <Description>North Platte R at Northgate, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F003D3E4">
+    <PlatformName>TBCO-Trumbull-South_Platte</PlatformName>
+    <Description>
+      South Platte River blw Brush Creek near Trumbull, CO
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE7474D4">
+    <PlatformName>FISD-Pierre-Missouri-Farm_Island</PlatformName>
+    <Description>Missouri R at Farm Island, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD0AA61A">
+    <PlatformName>YKN1-Yankton-Missouri</PlatformName>
+    <Description>Missouri River at Yankton, SD - WQ gage</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE650720">
+    <PlatformName>CNKK-Concordia-Republican</PlatformName>
+    <Description>Republican R at Concordia, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="51430140">
+    <PlatformName>BECR-Tailwater</PlatformName>
+    <Description>Bear Creek Reservoir (Outflow), CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="516A3368">
+    <PlatformName>CHFI-Tailwater</PlatformName>
+    <Description>South Platte R bl Chatfield Dam</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE740244">
+    <PlatformName>OSBK-Osborne-SF_Solomon</PlatformName>
+    <Description>S Fk Solomon R at Osborne, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDFAB778">
+    <PlatformName>ENCO-Union-South_Platte</PlatformName>
+    <Description>South Platte R below Union Ave. at Englewood, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD0AC3FC">
+    <PlatformName>OBNK-Oberlin-Sappa</PlatformName>
+    <Description>Sappa Creek near Oberlin, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="515A266E">
+    <PlatformName>LGCO-nr_Lake_George-South_Platte</PlatformName>
+    <Description>S Platte R bl 11-Mile Res, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE35531E">
+    <PlatformName>VDNE-Verdel-Ponca</PlatformName>
+    <Description>Ponca Creek at Verdel, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE835218">
+    <PlatformName>LLND-Lake_Lamoure-Cottonwood</PlatformName>
+    <Description>NWO-LLND-Lake Lamoure, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10530A0">
+    <PlatformName>DWEN-Deweese-Little_Blue</PlatformName>
+    <Description>Little Blue River nr Deweese, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDD8B362">
+    <PlatformName>TANE-Ewing-Elkhorn</PlatformName>
+    <Description>Elkhorn River at Ewing, Nebraska</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DF0706C0">
+    <PlatformName>BESD-Big_Bend-Rapid</PlatformName>
+    <Description>Rapid Creek at Big Bend near Rapid CIty, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5DF572">
+    <PlatformName>OMA-Omaha-Missouri</PlatformName>
+    <Description>Missouri River at Omaha, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE6381FA">
+    <PlatformName>LEKS-Lecompton-Kansas</PlatformName>
+    <Description>Kansas River at Lecompton, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="16400194">
+    <PlatformName>PKPM8</PlatformName>
   </NetworkListEntry>
   <NetworkListEntry TransportId="CE127628">
     <PlatformName>STND-Stanton-Missouri</PlatformName>
     <Description>Missouri River at Stanton, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10B0152">
+    <PlatformName>FTCO-Fort_Morgan-South_Platte</PlatformName>
+    <Description>South Platte at Fort Morgan, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="162BAE24">
+    <PlatformName>RSON1</PlatformName>
+    <Description>South Platte R at Roscoe, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5DD39E">
+    <PlatformName>LGIA-Logan-Boyer</PlatformName>
+    <Description>Boyer River at Logan, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDCFB6C8">
+    <PlatformName>WLSD-Wewela-Keya_Paha</PlatformName>
+    <Description>Keya Paha River at Wewela, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE42B774">
+    <PlatformName>PIST-Pipestem_Dam-Pipestem</PlatformName>
+    <Description>Pipestem Dam at Jamestown, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDDB44E8">
+    <PlatformName>NORK-Norton-Prairie_Dog</PlatformName>
+    <Description>Prairie Dog Creek at Norton, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE500842">
+    <PlatformName>SCMO-Schell_City-Osage</PlatformName>
+    <Description>Osage River ab Schell City, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD081060">
+    <PlatformName>SCIA-Sioux_City-Big_Sioux</PlatformName>
+    <Description>Big Sioux River at Sioux City, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F330F690">
+    <PlatformName>NPOW-Orin-North_Platte</PlatformName>
+    <Description>North Platte River at Orin, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="165E0262">
+    <PlatformName>MOCO-Ab_Bear_Cr_Dam-Bear</PlatformName>
+    <Description>Abv Bear Creek Dam on Bear Creek</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="B155368C">
+    <PlatformName>BOWY-Bosler-Laramie</PlatformName>
+    <Description>Laramie river near Bosler, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE425486">
+    <PlatformName>SC18-Salt_Cr_Dam_18-Branched_Oak_Lake</PlatformName>
+    <Description>Salt Cr Dam 18 in Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD5220EA">
+    <PlatformName>PPNE-Papillion-Papillion</PlatformName>
+    <Description>Papillion Creek at Papillion, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE64CE16">
+    <PlatformName>MILD-Milford_Lake-Republican</PlatformName>
+    <Description>Milford Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="515BE18A">
+    <PlatformName>GYCL-Greeley-Cache_La_Poudre</PlatformName>
+    <Description>Cache La Poudre River at Greeley, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE50DE2A">
+    <PlatformName>YKN-Yankton-Missouri</PlatformName>
+    <Description>Missouri River at Yankton, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="348D0408">
+    <PlatformName>BUBI-Buffalo_Bill_Dam-Shoshone</PlatformName>
+    <Description>Buffalo Bill Dam, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE51618C">
+    <PlatformName>LPSD-Lake_Poinsett-Big_Sioux</PlatformName>
+    <Description>LAKE POINSETT NEAR WATERTOWN, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE3372B8">
+    <PlatformName>HCSD-Hill_City-Castle</PlatformName>
+    <Description>Castle Creek near Hill City, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="162AC938">
+    <PlatformName>LDSD-Spearfish-Spearfish</PlatformName>
+    <Description>Spearfish Cr near Spearfish, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE377006">
+    <PlatformName>NMNE-Niobrara-Missouri</PlatformName>
+    <Description>Missouri River at Niobrara, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDBD60F8">
+    <PlatformName>DELK-Delia-Soldier</PlatformName>
+    <Description>Soldier Creek near Delia, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F233655E">
+    <PlatformName>TMWY-Thermopolis-Bighorn</PlatformName>
+    <Description>Wind R at Thermopolis, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE745CEA">
+    <PlatformName>GRAM-Graham-Nodaway</PlatformName>
+    <Description>Nodaway River at Graham, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE094000">
+    <PlatformName>MCSD-Aberdeen-Moccasin</PlatformName>
+    <Description>Moccasin Creek at Aberdeen, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE648D1C">
+    <PlatformName>POMA-Pomona_Lake-110-Quenemo</PlatformName>
+    <Description>Pomona Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE73FE26">
+    <PlatformName>NWCK-New_Cambria-Smoky_Hill</PlatformName>
+    <Description>Smoky Hill R at New Cambria, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="348681B4">
+    <PlatformName>NFSM8</PlatformName>
+    <Description>North Fork Sun River near Augusta MT - NSMT*</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17F02712">
+    <PlatformName>LNMO-Linneus-Locust</PlatformName>
+    <Description>Locust Creek near Linneus, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE73A088">
+    <PlatformName>LWRK-Lawrence-Wakarusa</PlatformName>
+    <Description>Wakarusa River nr Lawrence, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDD85090">
+    <PlatformName>PWNE-Omaha-Pacific_St-West_Papillion</PlatformName>
+    <Description>WEST PAPILLION CREEK AT PACIFIC ST IN OMAHA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3462D178">
+    <PlatformName>CLCA-Clark_Canyon_Dam-Red_Rock</PlatformName>
+    <Description>Clark Canyon Res, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDC84478">
+    <PlatformName>TDMO-Tunnel_Dam-Niangua-Macks_Creek</PlatformName>
+    <Description>Tunnel Dam nr Macks Creek, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="170FB6F6">
+    <PlatformName>BARN1</PlatformName>
+    <Description>Big Blue River at Barneston, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE8295FC">
+    <PlatformName>ARSD-Argyle_Road-Fall</PlatformName>
+    <Description>Argyle Road nr Coldbrook Res, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD5E079A">
+    <PlatformName>THSD-blw_Pactola_Dam-Rapid</PlatformName>
+    <Description>
+      Rapid Creek below Pactola Reservoir near Rapid City
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDD8D684">
+    <PlatformName>ALNE-Ashland-Salt</PlatformName>
+    <Description>Salt Creek near Ashland, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="162D00C0">
+    <PlatformName>JDRM8</PlatformName>
+    <Description>Judith River near mouth, at Winifred, Montana</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE6532BA">
+    <PlatformName>LIVM-Livonia-Chariton</PlatformName>
+    <Description>Chariton River at Livonia, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE36109E">
+    <PlatformName>PACO-Parker-Cherry</PlatformName>
+    <Description>Cherry Creek nr Parker, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="163B0790">
+    <PlatformName>BOSD-Brookings-Big_Sioux</PlatformName>
+    <Description>Big Sioux River at Brookings, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="B180B4A2">
+    <PlatformName>GRAI-Grayrocks_In-Laramie</PlatformName>
+    <Description>Grayrocks Inflow</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F234741C">
+    <PlatformName>HVMT-Helena_Valley_Reservoir-Tenmile</PlatformName>
+    <Description>Helena Valley Reservoir</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE51827E">
+    <PlatformName>HBIA-Hamburg-Missouri</PlatformName>
+    <Description>
+      Missouri River at Hamburg, IA 2 Parameters: Headwater and Tailwater
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="163AD302">
+    <PlatformName>CASD-Castlewood-Big_Sioux</PlatformName>
+    <Description>Big Sioux R at Castlewood, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="163F4F72">
+    <PlatformName>TWBM8</PlatformName>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="16407704">
+    <PlatformName>TISD-Silver_City-Rapid</PlatformName>
+    <Description>
+      Rapid Creek above Pactola Reservoir near Silver City
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="51442598">
+    <PlatformName>DEN-Denver-South_Platte</PlatformName>
+    <Description>South Platte River at Denver, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE1DE5D8">
+    <PlatformName>VRNE-Verdel-Niobrara</PlatformName>
+    <Description>Niobrara River at Verdel, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="5165E392">
+    <PlatformName>WECL-Weldona-South_Platte</PlatformName>
+    <Description>South Platte R at Weldona, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE50F614">
+    <PlatformName>GRNE-Grand_Island-Platte</PlatformName>
+    <Description>Platte River at Grand Island, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE42E708">
+    <PlatformName>SC04-Salt_Cr_Dam_4-Blue_Stem_Lake</PlatformName>
+    <Description>Salt Cr Dam 4 in Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5E3762">
+    <PlatformName>LUNE-Louisville-Platte</PlatformName>
+    <Description>Platte River at Louisville, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE23B7BC">
+    <PlatformName>FRCL-Franktown-Cherry</PlatformName>
+    <Description>Cherry Creek at Franktown, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17E191F8">
+    <PlatformName>SPNK-Spring_Bull-Little_Bull</PlatformName>
+    <Description>L Bull Creek nr Spring Hill, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="514594EC">
+    <PlatformName>RTCL-Roberts_Tunnel-South_Platte</PlatformName>
+    <Description>Roberts Tunnel Div in Denver, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE42FAAC">
+    <PlatformName>SC12-Salt_Cr_Dam_12-Conestoga_Lake</PlatformName>
+    <Description>Salt Cr Dam 12 in Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD9C5676">
+    <PlatformName>RAMT</PlatformName>
+    <Description>Ruby River above Ruby Reservoir.06019500</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="348BE734">
+    <PlatformName>LOVL-Lovewell_Res-White_Rock</PlatformName>
+    <Description>Lovewell Reservoir</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD5B5026">
+    <PlatformName>MOWY-Moorcroft-Belle_Fourche</PlatformName>
+    <Description>Belle Fourche River near Moorcroft</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE645B74">
+    <PlatformName>PERY-Perry_Lake-Delaware</PlatformName>
+    <Description>Perry Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3489C42C">
+    <PlatformName>GLWY-bl_Glendo_Dam-North_Platte</PlatformName>
+    <Description>N Platte R bl Glendo Res, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="50818766">
+    <PlatformName>SMCO-Santa_Maria-MF_South_Platte</PlatformName>
+    <Description>MF South Platte, Santa Maria SEASONAL</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE638F28">
+    <PlatformName>MSCK-Muscotah-Delaware</PlatformName>
+    <Description>Delaware River near Muscotah, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE7803D8">
+    <PlatformName>CHFI-Chatfield_Dam-South_Platte</PlatformName>
+    <Description>Chatfield Dam in Denver, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE430600">
+    <PlatformName>SC13-Salt_Cr_Dam_13-Twin_Lakes</PlatformName>
+    <Description>Salt Cr Dam 13 in Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DF0793A2">
+    <PlatformName>LINK-Lincoln-Saline</PlatformName>
+    <Description>Saline River at Lincoln, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE50CD5C">
+    <PlatformName>HAND-Hazen-Knife</PlatformName>
+    <Description>Knife River at Hazen, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE23C12C">
+    <PlatformName>COTT-Cottonwood_Dam-Cottonwood_Spr</PlatformName>
+    <Description>Cottonwood Res at Hot Spring, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE42CF36">
+    <PlatformName>PA16-Papio_Cr_Dam_16-Stand_Bear_Lake</PlatformName>
+    <Description>Papio Cr Dam 16 in Omaha, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE73ED50">
+    <PlatformName>RUSK-Russell-Saline</PlatformName>
+    <Description>Saline River near Russell, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE1FA326">
+    <PlatformName>NEVM-Nevada-Marmaton</PlatformName>
+    <Description>Marmaton River at Nevada, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE38F704">
+    <PlatformName>WESD-at_Watertown-Big_Sioux</PlatformName>
+    <Description>Big Sioux River at Watertown, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE0690FA">
+    <PlatformName>EDNM8</PlatformName>
+    <Description>Smith River near Eden MT -</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DF0566D2">
+    <PlatformName>HBMT-Hardin-Bighorn</PlatformName>
+    <Description>Bighorn River at two leggins bridge, Near hardin</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="163AF5EE">
+    <PlatformName>BRSD-Bruce-Big_Sioux</PlatformName>
+    <Description>Big Sioux River near Bruce, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="1682D66C">
+    <PlatformName>CONE-Columbus-Shell</PlatformName>
+    <Description>Shell Creek near Columbus, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE1DD042">
+    <PlatformName>UENE-Uehling-Logan</PlatformName>
+    <Description>Logan Creek at Uehling, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE356684">
+    <PlatformName>UNNE-Union-Weeping_Water</PlatformName>
+    <Description>Weeping Water Creek at Union, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10E4598">
+    <PlatformName>LNIM7</PlatformName>
+    <Description>Little Niangua River near Macks Creek, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="51475406">
+    <PlatformName>SPCL-South_Platte-South_Platte</PlatformName>
+    <Description>South Platte R at S Platte, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="482F9268">
+    <PlatformName>MAMT-International_Boundary-St_Mary</PlatformName>
+    <Description>St Mary River at the International Boundary</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE642336">
+    <PlatformName>PRIM-Prairie_Hill-Chariton</PlatformName>
+    <Description>Chariton R nr Prairie Hill, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="162C4130">
+    <PlatformName>LEVK1</PlatformName>
+    <Description>Missouri River at Leavenworth, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10D770C">
+    <PlatformName>GLNK-bl_Glen_Elder-Solomon</PlatformName>
+    <Description>Solomon R at Glen Elder Below, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5DE8D6">
+    <PlatformName>NCNE-Nebraska_City-Missouri</PlatformName>
+    <Description>Missouri R at Nebraska City, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE83416E">
+    <PlatformName>AWND-Arrowwood_Res-James</PlatformName>
+    <Description>James River at Arrowwood NWR, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="1718D6BA">
+    <PlatformName>BLDM8</PlatformName>
+    <Description>BOULDER RIVER NEAR BOULDER</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F23081A2">
+    <PlatformName>KEYO-Keyhole_Dam-Belle_Fourche</PlatformName>
+    <Description>Keyhole Dam on Belle Fourche R, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="167576B4">
+    <PlatformName>MPSK-Minneapolis-Solomon</PlatformName>
+    <Description>Solomon River near Minneapolis, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD580754">
+    <PlatformName>GVMT-Glendive-Yellowstone</PlatformName>
+    <Description>Yellowstone River nr Glendive</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD7AC650">
+    <PlatformName>WRCH-Crowheart-Wind</PlatformName>
+    <Description>Wind River nr Crowheart, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F2348498">
+    <PlatformName>YETL-Yellowtail_Dam-Bighorn_Lake</PlatformName>
+    <Description>Yellowtail Dam on Bighorn R, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE42A402">
+    <PlatformName>HCIA-Hancock-West_Nishnabotna</PlatformName>
+    <Description>W Nishnabotna R at Hancock, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE78C6C6">
+    <PlatformName>UL6E-Ulm-Missouri</PlatformName>
+    <Description>Missouri River at Ulm, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="514AC202">
+    <PlatformName>KECL-Kersey-South_Platte</PlatformName>
+    <Description>South Platte River at Kersey, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE6483CE">
+    <PlatformName>MLVK1</PlatformName>
+    <Description>Melvern Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE782534">
+    <PlatformName>ITNE-Ithaca-Wahoo</PlatformName>
+    <Description>Wahoo Creek at Ithaca, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE42C1E4">
+    <PlatformName>COLD-Coldbrook_Dam-Cold_Br</PlatformName>
+    <Description>Coldbrook Dam in Hot Springs, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE7840D2">
+    <PlatformName>PA20-Papio_Cr_Dam_20-Wehrspann_Lake</PlatformName>
+    <Description>Papio Cr Dam 20 in Omaha, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17B100D8">
+    <PlatformName>EDGK-Edgerton-Big_Bull</PlatformName>
+    <Description>BIG BULL CREEK NEAR EDGERTON, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE64E8FA">
+    <PlatformName>NLSK-Niles-Solomon</PlatformName>
+    <Description>Solomon River at Niles, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F00407B8">
+    <PlatformName>EPCL-Haskins-East_Plum</PlatformName>
+    <Description>East Plum Cr Abv Haskins Gulch Nr Castle Rock, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE739BC0">
+    <PlatformName>SMHM-Smithville-Little_Platte</PlatformName>
+    <Description>L Platte R near Smithville, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3450B71A">
+    <PlatformName>DIND-Dickinson_Dam-Heart</PlatformName>
+    <Description>Dickinson Dam near Dickinson, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE64ABF0">
+    <PlatformName>LNGB-Long_Branch_Lake-Chariton</PlatformName>
+    <Description>Long Branch Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10E93F0">
+    <PlatformName>PBNE-Lincoln-Pioneers_Blvd-Salt</PlatformName>
+    <Description>Salt Creek at Pioneers Boulevard at Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="5156870A">
+    <PlatformName>GTCO-Georgetown-Clear</PlatformName>
+    <Description>Clear Cr abv Georgetown Lake nr Georgetown, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="1735B1D4">
+    <PlatformName>BEKN1</PlatformName>
+    <Description>Republican R at Benkelman, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE12655E">
+    <PlatformName>MACM-Macon-East_Fork_Little_Chariton</PlatformName>
+    <Description>E Fk L Chariton R nr Macon, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE40010E">
+    <PlatformName>STL-St_Louis-Mississippi</PlatformName>
+    <Description>Mississippi River at EADs Bridge St. Louis</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D112E362">
+    <PlatformName>BGSD-Buffalo_Gap-Beaver_Creek</PlatformName>
+    <Description>Beaver Creek near Buffalo Gap, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F23007B6">
+    <PlatformName>RRMT-bl_Lima_MT-Red_Rock</PlatformName>
+    <Description>Red Rock R bl Lima Reservoir nr Monida, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDA3A610">
+    <PlatformName>LWKK-bl-Lawrence-Kansas</PlatformName>
+    <Description>Kansas River at Lawrence, KS below Bowersock</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE34156A">
+    <PlatformName>BHWW4</PlatformName>
+    <Description>Bighorn River at Worland, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17127710">
+    <PlatformName>NRNE-Niobrara-Bazile_Creek</PlatformName>
+    <Description>Brazil Creek at Niobrara, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE78E02A">
+    <PlatformName>VAMT-Vaughn-Sun</PlatformName>
+    <Description>Sun River at Vaughn, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE791254">
+    <PlatformName>BNMO-Boonville-Missouri</PlatformName>
+    <Description>Missouri River at Boonville, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10EA66A">
+    <PlatformName>OCNE-Lincoln-Air_Park_Rd-Oak_Cr</PlatformName>
+    <Description>Oak Creek at Air Park Road at Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="1733F210">
+    <PlatformName>TNGK-Tonganoxie-Stranger</PlatformName>
+    <Description>Stranger Creek nr Tonganoxie, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="348DD260">
+    <PlatformName>HEBU-Heart_Butte_Dam-Heart</PlatformName>
+    <Description>Heart Butte Dam on Heart R, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE7896BA">
+    <PlatformName>WSSD-Wasta-Cheyenne</PlatformName>
+    <Description>Cheyenne River at Wasta, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE78ADF2">
+    <PlatformName>LGMT-Logan-Gallatin</PlatformName>
+    <Description>Gallatin River at Logan, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE63F9B8">
+    <PlatformName>CPMO-Caplinger_Mills-Sac</PlatformName>
+    <Description>Sac River nr Caplinger Mills, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE63D186">
+    <PlatformName>WGKS-Wamego-Kansas</PlatformName>
+    <Description>Kansas River at Wamego, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD7AD526">
+    <PlatformName>BLCK-Lenore-Bull_Lake</PlatformName>
+    <Description>Bull Lake Creek blw Res nr Lenore, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="1734353A">
+    <PlatformName>WYMT-Wyola-Little_Bighorn</PlatformName>
+    <Description>Little Bighorn R at State line, nr Wyola, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="34766052">
+    <PlatformName>BYWY-blw_Boysen_Res-Wind</PlatformName>
+    <Description>Wind River bl Boysen reservoir, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE73CBBC">
+    <PlatformName>WOFK-Woodruff-Prairie_Dog</PlatformName>
+    <Description>Prairie Dog Cr nr Woodruff, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="516AC3EC">
+    <PlatformName>SRCL-Sheridan-Bear</PlatformName>
+    <Description>Bear Creek at Sheridan, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17B0F2A6">
+    <PlatformName>MARK-Marmaton-Marmaton</PlatformName>
+    <Description>Marmaton River near Marmaton, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE781E7C">
+    <PlatformName>RONE-Roca-Salt</PlatformName>
+    <Description>Salt Creek at Roca, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE783642">
+    <PlatformName>FSNE-Omaha-Fort_St-Big_Papillion</PlatformName>
+    <Description>Big Papillion Creek at Fort Street at Omaha, Nebr</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE0A6666">
+    <PlatformName>OAHE</PlatformName>
+    <Description>Oahe Dam DCP</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE64D3B2">
+    <PlatformName>CHTI4</PlatformName>
+    <Description>Chariton River near Chariton, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17CBF4A2">
+    <PlatformName>MCNE-Lincoln-SW_63rd_St-Middle_Cr</PlatformName>
+    <Description>Middle Cr on SW 63rd St near Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE0A7510">
+    <PlatformName>BEND</PlatformName>
+    <Description>Big Bend Dam DCP</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE241570">
+    <PlatformName>OCSD-Oacoma-White</PlatformName>
+    <Description>White River at Oacoma, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="171C5594">
+    <PlatformName>RWRS2</PlatformName>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="40204150">
+    <PlatformName>BDBC-Bridgeport-BC-North_Platte</PlatformName>
+    <Description>
+      North Platte River at Bridgeport Browns Cr Channel
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE791C86">
+    <PlatformName>STJ-St_Joseph-Missouri</PlatformName>
+    <Description>Missouri R at St. Joseph, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD9BE7CC">
+    <PlatformName>MUNK-Hays-Big</PlatformName>
+    <Description>Big Creek near Hays, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE7885CC">
+    <PlatformName>FPSD-Fort_Pierre-Bad</PlatformName>
+    <Description>Bad River at Fort Pierre, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F23313CE">
+    <PlatformName>BFC-bl_Belle_Fourche_Res-Belle_F</PlatformName>
+    <Description>Channel bl Belle Fourche Res, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE23A4CA">
+    <PlatformName>SECO-Sedalia-Plum</PlatformName>
+    <Description>Plum Cr nr Sedalia, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D1101612">
+    <PlatformName>LSNE-Lincoln-Little_Salt</PlatformName>
+    <Description>Little Salt Creek near Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE651A84">
+    <PlatformName>MRYK-Marysville-Big_Blue</PlatformName>
+    <Description>Big Blue River at Marysville, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="16E81012">
+    <PlatformName>GDKN-Guide_Rock-Republican</PlatformName>
+    <Description>Republican R at Guide Rock, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="173450DC">
+    <PlatformName>MCKM8</PlatformName>
+    <Description>Big Hole River at Miner Creek near Jackson, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="162C37A0">
+    <PlatformName>LTRM8</PlatformName>
+    <Description>Teton River at Loma, Montana</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE067308">
+    <PlatformName>HOLM-bl_Holter_Dam-Missouri</PlatformName>
+    <Description>Missouri River bl Holter Dam, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE742A7A">
+    <PlatformName>STTN1</PlatformName>
+    <Description>Republican River at Stratton, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3470E688">
+    <PlatformName>LAUD-Lake_Audubon-Snake</PlatformName>
+    <Description>Lake Audubon</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE2DE3A8">
+    <PlatformName>KCTM-Kansas_City-Blue-12th_St</PlatformName>
+    <Description>Blue R at 12th St in KC, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE741FE0">
+    <PlatformName>FLNE-Falls_City-Big_Nemaha</PlatformName>
+    <Description>B Nemaha River at Falls City, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD3094A2">
+    <PlatformName>DIMT-Dillon-Beaverhead</PlatformName>
+    <Description>Beaverhead River at Dillon, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE653C68">
+    <PlatformName>GFMO-Greenfield-Turnback</PlatformName>
+    <Description>Turnback Creek ab Greenfield, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE64FB8C">
+    <PlatformName>MEKS-Mentor-Smoky_Hill</PlatformName>
+    <Description>Smoky Hill River near Mentor, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10D94FE">
+    <PlatformName>BVUK1</PlatformName>
+    <Description>Kansas River near Belvue, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD5E14EC">
+    <PlatformName>TXSD-Cash-South_Fork_Grand</PlatformName>
+    <Description>SF GRAND RIVER NR CASH NR LODGEPOLE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE783890">
+    <PlatformName>FCNE-Omaha-Fort_Crook-Papillion</PlatformName>
+    <Description>Papillion Creek at Fork Crook, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD7432BC">
+    <PlatformName>MISD-Mitchell-James</PlatformName>
+    <Description>James River at Mitchell</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17AFB0A0">
+    <PlatformName>RVSD-Elm_Springs-Belle_Fourche</PlatformName>
+    <Description>Belle Fourche River nr Elm Springs</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3477815A">
+    <PlatformName>CAFE-Canyon_Ferry_Dam-Missouri</PlatformName>
+    <Description>Canyon Ferry Dam, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="50802564">
+    <PlatformName>SPIN</PlatformName>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17B037B8">
+    <PlatformName>FMWY-Shoshoni-Five_Mile</PlatformName>
+    <Description>Fivemile Creek near Shoshoni</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE5F321C">
+    <PlatformName>TUYC2</PlatformName>
+    <Description>Turkey Creek above Bear Lake near Morrison, Co</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F23092D4">
+    <PlatformName>DFSD-Deerfield_Dam-Castle</PlatformName>
+    <Description>Deerfield Dam on Castle Cr, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F23343B2">
+    <PlatformName>MNWY-Morton-Wind</PlatformName>
+    <Description>Wind River at Hwy 26 Bridge near Morton</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE08518C">
+    <PlatformName>DCBY-Burris-Dinwoody</PlatformName>
+    <Description>Dinwoody Creek nr Burris, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE354068">
+    <PlatformName>AUNE-Auburn-Little_Nemaha</PlatformName>
+    <Description>L Nemaha River at Auburn, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE399018">
+    <PlatformName>MDMT-nr_Dodson-Milk</PlatformName>
+    <Description>Milk River near Dodson, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE2D26B6">
+    <PlatformName>HW7M-Warsaw-Osage</PlatformName>
+    <Description>Osage R at Warsaw, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="514551F2">
+    <PlatformName>MOCL-Morrison-Bear</PlatformName>
+    <Description>Bear Creek at Morrison, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE517C28">
+    <PlatformName>CNCL-Conifer-Turkey</PlatformName>
+    <Description>Turkey Creek at Conifer, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD3CD634">
+    <PlatformName>SMMT-Simms-Sun</PlatformName>
+    <Description>Sun River nr Simms, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="178A460A">
+    <PlatformName>LUND-Ludden-James_River</PlatformName>
+    <Description>James River nr Ludden, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE784E00">
+    <PlatformName>DENE-Decatur-Missouri</PlatformName>
+    <Description>Missouri River at Decatur, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD3F62B4">
+    <PlatformName>FLWY-Fort_Laramie-Laramie</PlatformName>
+    <Description>Laramie River @ Fort Laramie, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE35220A">
+    <PlatformName>RASD-Rauville-Mud</PlatformName>
+    <Description>Mud Creek near Rauville, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="16FD66DC">
+    <PlatformName>URHM-Urich-South_Grand</PlatformName>
+    <Description>South Grand River at Urich, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="5145D7E6">
+    <PlatformName>DECL-Derby-Clear</PlatformName>
+    <Description>Clear Creek at Derby, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="40201FFE">
+    <PlatformName>NPTN1</PlatformName>
+    <Description>North Platte river at North Platte Nebraska</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F00011F4">
+    <PlatformName>LWLK-bl_Lovewell_Res-White_Rock</PlatformName>
+    <Description>White Rock Creek below Lovewell KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5015E6">
+    <PlatformName>STTM-St_Thomas-Osage</PlatformName>
+    <Description>Osage River below St. Thomas, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE34708C">
+    <PlatformName>HSMT-bl_Hauser_Dam-Missouri</PlatformName>
+    <Description>Missouri River bl Hauser Dam nr Helena</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="5159E47E">
+    <PlatformName>JMCO-Julesberg-South_Platte-Ch_1</PlatformName>
+    <Description>S Platte R Ch 1 Julesburg, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE8435CA">
+    <PlatformName>VCWK-LaClede-Vermillion</PlatformName>
+    <Description>Vermillion Creek nr LaClede, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="177C3240">
+    <PlatformName>PTEM7</PlatformName>
+    <Description>Platte City near Platte City, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE30E750">
+    <PlatformName>STCH-St_Charles-Missouri</PlatformName>
+    <Description>Missouri River at St. Charles</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE332540">
+    <PlatformName>HSSD-Hot_Springs-Fall</PlatformName>
+    <Description>Fall River at Hot Springs, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="40205226">
+    <PlatformName>LSON1</PlatformName>
+    <Description>
+      North Platte River At Lisco; USGS: 686000; LONE-Lisco-North_Platte
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDB38762">
+    <PlatformName>DVSI-Davis_City-Thompson</PlatformName>
+    <Description>Thompson River at Davis City, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="166AA1D0">
+    <PlatformName>NKNE-Nickerson-Maple</PlatformName>
+    <Description>Maple Creek at Nickerson, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE12B336">
+    <PlatformName>SPSD-Springfield-Missouri</PlatformName>
+    <Description>Missouri R at Springfield, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE78D5B0">
+    <PlatformName>SACO-Saco-Milk</PlatformName>
+    <Description>Milk River near Saco, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE6416AC">
+    <PlatformName>SSMO-Sharps_Station-Platte</PlatformName>
+    <Description>Platte R at Sharps Station, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE510AB8">
+    <PlatformName>WTNE-Waterloo-Elkhorn</PlatformName>
+    <Description>Elkhorn River at Waterloo, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="1628EA20">
+    <PlatformName>ESSD-Elm_Springs-Elk</PlatformName>
+    <Description>Elk Creek near Elm Springs, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="173D06FC">
+    <PlatformName>HNIA-Hornick-West_Fork_Ditch</PlatformName>
+    <Description>West Fork Ditch at Hornick, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE744F9C">
+    <PlatformName>LGVM-Longview_Lake-Little_Blue</PlatformName>
+    <Description>Longview Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="163F3730">
+    <PlatformName>LMCN8-Williston-Little_Muddy</PlatformName>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="34628104">
+    <PlatformName>SSNM8</PlatformName>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDF9108E">
+    <PlatformName>WAKP-Wakpala-Oak</PlatformName>
+    <Description>Oak Creek at Wakpala, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="174A77F4">
+    <PlatformName>HAMT-Hardin-Little_Bighorn</PlatformName>
+    <Description>L Bighorn R at Hardin, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD9D47FA">
+    <PlatformName>RSSD-Red_Shirt-Cheyenne</PlatformName>
+    <Description>Cheyenne River at Red Shirt, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDF8F186">
+    <PlatformName>RCWY-Abv_Red_Cr-Wind</PlatformName>
+    <Description>Wind reiver above red creek</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE643E92">
+    <PlatformName>RIFM-Rich_Fountain-Gasconade</PlatformName>
+    <Description>Gasconade R nr Rich Fountain, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D1106082">
+    <PlatformName>RCNE-Ceresco-Rock_Cr</PlatformName>
+    <Description>Rock Creek near Ceresco, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="508270EC">
+    <PlatformName>BRCO-Borden_Ditch-Tarryall_Creek</PlatformName>
+    <Description>Tarryall Creek at Borden Ditch SEASONAL</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDCEB432">
+    <PlatformName>OPDK-Overland_Park-Indian</PlatformName>
+    <Description>Indian Cr at Overland Park, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE2F733E">
+    <PlatformName>LAND-Lamoure-James</PlatformName>
+    <Description>James River at Lamoure, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE1200B8">
+    <PlatformName>SHND-Schmidt-Missouri</PlatformName>
+    <Description>Missouri River at Schmidt, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE39057A">
+    <PlatformName>KAMP-Watertown-Lake_Kampeska_inlet</PlatformName>
+    <Description>Lake Kampeska nr Watertown, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="B157200E">
+    <PlatformName>WWY-Woods_Landing-Laramie</PlatformName>
+    <Description>Laramie River near Woods Landing</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3489E2C0">
+    <PlatformName>WHWY-DiversionFortLaramie</PlatformName>
+    <Description>Fort Laramie Canal on the North Platte River, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE63A716">
+    <PlatformName>OTTK-Ottawa-Marais_Des_Cygnes</PlatformName>
+    <Description>Marais des Cygnes R nr Ottwa, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE746970">
+    <PlatformName>BSZM7</PlatformName>
+    <Description>Blue Springs Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3265139E">
+    <PlatformName>RSNW4</PlatformName>
+    <Description>Fales Rock Raws Near Casper 40W</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE3CE6CC">
+    <PlatformName>KEND-Kensal-James</PlatformName>
+    <Description>James River above Arrowwood Lake near Kensal, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDCD6554">
+    <PlatformName>DMRK-Damar-South_Fork_Solomon</PlatformName>
+    <Description>S Fk Solomon R at Damar, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17F2821E">
+    <PlatformName>JRMM-Jerome-Gasconade</PlatformName>
+    <Description>Gasconade River at Jerome, Mo</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE63BAB2">
+    <PlatformName>FSKK1</PlatformName>
+    <Description>Marmaton River near Fort Scott, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="1735112C">
+    <PlatformName>MELM-Melrose-Big_Hole</PlatformName>
+    <Description>Big Hole R nr Melrose, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE64C0C4">
+    <PlatformName>HAST-Truman_Lake-Marais_Des_Cygnes</PlatformName>
+    <Description>Harry S Truman Reservoir</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17C057F2">
+    <PlatformName>VUMT-Vaughn-Muddy</PlatformName>
+    <Description>Muddy Creek at Vaughn, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F230A74E">
+    <PlatformName>BFSD-BF_Inlet_Canal-Belle_Fourche</PlatformName>
+    <Description>Inlet Canal above Belle Fourche Reservoir</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="163FBFF6">
+    <PlatformName>PBRM8</PlatformName>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE3685FC">
+    <PlatformName>SIMK-Simpson-Solomon</PlatformName>
+    <Description>Solomon River near Simpson, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE4E9780">
+    <PlatformName>TBVM7</PlatformName>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE4282EE">
+    <PlatformName>RVIA-Rock_Valley-Rock</PlatformName>
+    <Description>Rock River at Rock Valley, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE64A522">
+    <PlatformName>SMIE-Smithville_Lake-Little_Platte</PlatformName>
+    <Description>Smithville Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDF9A300">
+    <PlatformName>GLCL-Golden-Clear</PlatformName>
+    <Description>Clear Creek at Golden, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="348B04C6">
+    <PlatformName>JATO-Jamestown_Dam-James</PlatformName>
+    <Description>Jamestown Dam on James R, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="402186B4">
+    <PlatformName>TSNE-blw_TriState_Div-North_Platte</PlatformName>
+    <Description>
+      North Platte River downstream of Tri-State Diversion nr Henry, NE
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="348AF6B8">
+    <PlatformName>BFWY-State_Line-Belle_Fourche</PlatformName>
+    <Description>Belle Fourche R at WY-SD St Line</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE797960">
+    <PlatformName>RUNE-Rulo-Missouri</PlatformName>
+    <Description>2-Missouri River at Rulo, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE1213CE">
+    <PlatformName>GWSD-Greenwood-Missouri</PlatformName>
+    <Description>Missouri River at Greenwood, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D1100564">
+    <PlatformName>AWNE-Ashland-Wahoo</PlatformName>
+    <Description>Wahoo Creek at Ashland, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5E39B0">
+    <PlatformName>GWNE-Greenwood-Salt</PlatformName>
+    <Description>Salt Creek at Greenwood, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE6405DA">
+    <PlatformName>PLVM-Pleasant_View-Cedar</PlatformName>
+    <Description>Cedar Creek nr Pleasant View, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE656C14">
+    <PlatformName>KENE-Kearney-Platte</PlatformName>
+    <Description>Platte River at Kearney, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE306144">
+    <PlatformName>FCSD-Lk_Francis_Case-Missouri</PlatformName>
+    <Description>Lake Francis Case at Chamberlain, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="163F41A0">
+    <PlatformName>BRMT-Barretts-Beaverhead</PlatformName>
+    <Description>
+      45.0994611 -112.7504940 Beaverhead River at Barretts, MT
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD592342">
+    <PlatformName>FRYW4</PlatformName>
+    <Description>FIREHOLE RIVER NEAR WEST YELLOWSTONE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDF9661E">
+    <PlatformName>HEWY-State_Line-North_Platte</PlatformName>
+    <Description>
+      North Platte River at WY-NE State Line nr Henry, WY
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE651456">
+    <PlatformName>GLLM-Gallatin-Grand</PlatformName>
+    <Description>Grand River at Gallatin, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="515C76DC">
+    <PlatformName>BCCL-Burl_Well_Canal-South_Platte</PlatformName>
+    <Description>Burl-Well Canal in Denver, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE2D132C">
+    <PlatformName>SCAM-Schell_City-Osage-Aux</PlatformName>
+    <Description>Osage R at Schell City Aux, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE429198">
+    <PlatformName>ANIA-Alton-Floyd</PlatformName>
+    <Description>Floyd River at Alton, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10E3308">
+    <PlatformName>ARHM7</PlatformName>
+    <Description>South Grand River at Archie, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE788B1E">
+    <PlatformName>WHSD-Whitehorse-Moreau</PlatformName>
+    <Description>Moreau River at Whitehorse, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE351790">
+    <PlatformName>WTSD-nr_Watertown-Big_Sioux</PlatformName>
+    <Description>Big Sioux River nr Watertown, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE06F51C">
+    <PlatformName>PCCO-Louviers-Plum</PlatformName>
+    <Description>Plum Creek at Titan road nr Louviers, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDEFC1B6">
+    <PlatformName>BPNE-Bennington-Big_Papillion</PlatformName>
+    <Description>Big Pappilion Creek near Bennington Nebraska.</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="5146E572">
+    <PlatformName>TACO-blw_Tarryall_Res-Tarryall_Cr</PlatformName>
+    <Description>Tarryall Creek blw Tarryall Res. SEASONAL</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="515FC25C">
+    <PlatformName>BZCO-Balzac-South_Platte</PlatformName>
+    <Description>S Platte River nr Balzac, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE427CB8">
+    <PlatformName>LVIA-Linn_Grove-Little_Sioux</PlatformName>
+    <Description>L Sioux River at Linn Grove, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE73D618">
+    <PlatformName>CYCK1</PlatformName>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DF05E0C6">
+    <PlatformName>STMT-St_Xavier_Bridge-Bighorn</PlatformName>
+    <Description>Bighorn River at bridge at St. Xavier, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="174AA19C">
+    <PlatformName>JRMT-Twin_Bridges-Jefferson</PlatformName>
+    <Description>Jefferson R nr Twin Bridges, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="34867130">
+    <PlatformName>LRMT-Lima_Dam-Red_Rock</PlatformName>
+    <Description>Lima Res near Lima, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD9EB070">
+    <PlatformName>VGNE-Verdigre-Verdigre_Creek</PlatformName>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="344D5010">
+    <PlatformName>TIBR-Tiber_Dam-Marias</PlatformName>
+    <Description>
+      Tiber Dam on the Marias R, MT (bubbler) TIBR Main DCP info - 344D5010, Ch.
+      38, TX time 00:18:10 TIBR2 backup DCP 1 info - 34471248, CH 38, TX Time
+      00:16:10
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD5DD6FC">
+    <PlatformName>FPMT-Blw_Ft_Peck_Res-Missouri</PlatformName>
+    <Description>Missouri River Bl Fort Peck Dam nr Nashua</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE512C54">
+    <PlatformName>NAMT-Nashua-Milk</PlatformName>
+    <Description>Milk River at Nashua, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10481D4">
+    <PlatformName>CULN-Culbertson-Frenchman</PlatformName>
+    <Description>Frenchman Cr at Culbertson, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE7467A2">
+    <PlatformName>LCTM-Lake_City-Little_Blue</PlatformName>
+    <Description>Little Blue R near Lake City, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17972714">
+    <PlatformName>WRRY-Riverton-Wind</PlatformName>
+    <Description>Wind River at Riverton, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="16F5710C">
+    <PlatformName>IRNE-Irvington-Little_Papillion</PlatformName>
+    <Description>Little Papillion Cr at Irvington, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE64F55E">
+    <PlatformName>PTSK-Portis-NF_Solomon</PlatformName>
+    <Description>N Fk Solomon R at Portis, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE782BE6">
+    <PlatformName>LCNE-Lincoln-Salt</PlatformName>
+    <Description>Salt Creek at Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE3353D0">
+    <PlatformName>ROIA-Red_Oak-East_Nishnabotna</PlatformName>
+    <Description>E Nishnabotna R at Red Oak, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="515DF232">
+    <PlatformName>LACL-LaSalle-Big_Thompson</PlatformName>
+    <Description>Big Thompson R at LaSalle, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD3DA25E">
+    <PlatformName>KAWY-Kane-Bighorn</PlatformName>
+    <Description>Bighorn River at Kane, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10165E6">
+    <PlatformName>WPHM7</PlatformName>
+    <Description>Maries River at Westphalia, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17235576">
+    <PlatformName>MRHM-Harlem-Milk</PlatformName>
+    <Description>Milk River at Harlem, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10F72F8">
+    <PlatformName>MCMT-McAllister-Madison</PlatformName>
+    <Description>Madison River blw Ennis Lake nr McAllister, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE0655E4">
+    <PlatformName>THMT-Forsyth-Yellowstone</PlatformName>
+    <Description>Yellowstone River at Forsyth, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3476B63A">
+    <PlatformName>CRED-Edgemont-Cheyenne</PlatformName>
+    <Description>Cheyenne River at Edgemont, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE1DC334">
+    <PlatformName>NBNE-North_Bend-Platte</PlatformName>
+    <Description>Platte River at North Bend, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE63E41C">
+    <PlatformName>EPKS-Enterprise-Smoky_Hill</PlatformName>
+    <Description>Smoky Hill R at Enterprise, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE644802">
+    <PlatformName>TUCR-Tuttle_Creek_Lake-Big_Blue</PlatformName>
+    <Description>Tuttle Creek Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3476A54C">
+    <PlatformName>ARWY-Anchor_Reservoir-SF_Owl</PlatformName>
+    <Description>Anchor Reservoir</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE23C6A8">
+    <PlatformName>TLND-Glen_Ullin-Heart</PlatformName>
+    <Description>Heart River abv Lake Tschida near Glenn Ullin</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5E5C56">
+    <PlatformName>BECR-Bear_Creek_Dam-Bear</PlatformName>
+    <Description>Bear Creek Dam</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="40203912">
+    <PlatformName>NPSN1</PlatformName>
+    <Description>South Platte River at North Platte, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE12A040">
+    <PlatformName>SJNE-St_James-Missouri</PlatformName>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE3340A6">
+    <PlatformName>RNIA-Randolph-West_Nishnabotna</PlatformName>
+    <Description>W Nishnabotna R at Randolph, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE738664">
+    <PlatformName>DDVM-Dadeville-Sac</PlatformName>
+    <Description>Sac River near Dadeville, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="165512BC">
+    <PlatformName>FTNK-Fulton-Little_Osage</PlatformName>
+    <Description>Little Osage River at Fulton, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE739512">
+    <PlatformName>POKM-Polk-Pomme_De_Terre</PlatformName>
+    <Description>Pomme de Terre R near Polk, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE1F85CA">
+    <PlatformName>PMNK-Pomona-Marais_Des_Cygnes</PlatformName>
+    <Description>Marais des Cygnes R nr Pomna, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE23E7C0">
+    <PlatformName>PA18-Papio_Cr_Dam_18-Zorinsky_Lake</PlatformName>
+    <Description>Papio Cr Dam 18 in Omaha, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5119CE">
+    <PlatformName>WPMT-Wolf_Point-Missouri</PlatformName>
+    <Description>Missouri River nr Wolf Point, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="40231622">
+    <PlatformName>BDMC-Bridgeport-MC-North_Platte</PlatformName>
+    <Description>North Platte River at Bridgeport Main Channel</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD9C060A">
+    <PlatformName>SKTK-Stockton-Bow</PlatformName>
+    <Description>Bow Creek near Stockton, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F23497EE">
+    <PlatformName>PRMT-Pishkun_Reservoir-Pishkun</PlatformName>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D10F2284">
+    <PlatformName>MRKR-Cameron-Madison</PlatformName>
+    <Description>Madison River near Cameron, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="347690D6">
+    <PlatformName>WHWY-bl_Whalen-North_Platte</PlatformName>
+    <Description>North Platte River below Whalen Diversion dam, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DF0631A0">
+    <PlatformName>JSSD-ab_Johnson_Siding-Rapid</PlatformName>
+    <Description>
+      Rapid Creek above Johnson Siding below Pactola Dam, SD
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE0A96E2">
+    <PlatformName>GavinsDCP</PlatformName>
+    <Description>Gavins Point Dam DCP</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE63F76A">
+    <PlatformName>SHJM-Stockton-Sac</PlatformName>
+    <Description>Sac R at Hwy J bl Stockton, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE38E472">
+    <PlatformName>CSSD-Sioux_Falls-Silver</PlatformName>
+    <Description>Silver Creek - Sioux Falls, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17AF36B4">
+    <PlatformName>BLRM7</PlatformName>
+    <Description>Big Creek near Blairstown, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD9E2512">
+    <PlatformName>PMIA-Millnerville-Perry</PlatformName>
+    <Description>Perry Creek near Millnerville, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE646EEE">
+    <PlatformName>CLIK1</PlatformName>
+    <Description>Clinton Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDAEA576">
+    <PlatformName>SLND-James_River-State_Line</PlatformName>
+    <Description>James River at ND-SD State line near Ludden, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDE53060">
+    <PlatformName>LVMT-Livingston-Yellowstone</PlatformName>
+    <Description>Yellowstone R nr Livingston, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="D108A6A4">
+    <PlatformName>LCGK-LaCygne-Marais_Des_Cygnes</PlatformName>
+    <Description>Marais Des Cygnes at LaCygne, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="508177E2">
+    <PlatformName>SMCL-Ab_Spinney_Res-South_Platte</PlatformName>
+    <Description>S Platte R abv Spinney Res, CO SEASONAL</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE51B936">
+    <PlatformName>BIL-Billings-Yellowstone</PlatformName>
+    <Description>Yellowstone R at Billings, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17AF5352">
+    <PlatformName>PIWY-Piney-Belle_Fourche</PlatformName>
+    <Description>Belle Fourche BL Rattlesnake C, near Piney, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="B15566F0">
+    <PlatformName>LOWY-Lookout-Laramie</PlatformName>
+    <Description>Laramie River near Lookout, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE780D0A">
+    <PlatformName>PTNE-Plattsmouth-Missouri</PlatformName>
+    <Description>Missouri R at Plattsmouth, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE40D0E2">
+    <PlatformName>CDBK1</PlatformName>
+    <Description>Beaver Creek at Cedar Bluffs, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDEFD2C0">
+    <PlatformName>ELNE-Elkhorn-West_Papillion</PlatformName>
+    <Description>West Papillion Creek at Elkhorn Nebraska</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5172FA">
+    <PlatformName>POCA-Lake_Pocasse-Spring</PlatformName>
+    <Description>Lake Pocasse on Spring Creek - Temporary Gage</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="16E5F086">
+    <PlatformName>SNDK-Scandia-Republican</PlatformName>
+    <Description>Republican R at Scandia, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE388194">
+    <PlatformName>PASD-Parker-EF_Vermillion</PlatformName>
+    <Description>EF Vermillion R nr Parker, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="34471248">
+    <PlatformName>TIBR2-Tiber_Dam-Marias</PlatformName>
+    <Description>
+      back-up elevation gage for TIBR (transducer) TIBR Main DCP info -
+      344D5010, Ch. 38, TX time 00:18:10 TIBR2 backup DCP 1 info - 34471248, CH
+      38, TX Time 00:16:10
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE639C5E">
+    <PlatformName>FRBN-Fairbury-Little_Blue</PlatformName>
+    <Description>L Blue River nr Fairbury, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDEFB726">
+    <PlatformName>MDNE-Millard-West_Papillion</PlatformName>
+    <Description>
+      WEST PAPILLION CREEK AT MILLARD AVENUE NEAR MILLARD
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F23014C0">
+    <PlatformName>PACA-Pactola_Dam-Rapid</PlatformName>
+    <Description>Pactola Dam nr Rapid City, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="345B144A">
+    <PlatformName>SWWY-Alcova-Sweetwater</PlatformName>
+    <Description>Sweetwater River nr Alcova, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDE186D4">
+    <PlatformName>SHWY-Boxelder-Boxelder</PlatformName>
+    <Description>Box Elder Creek near Boxelder</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F003E67E">
+    <PlatformName>LACO-Lawson-Clear</PlatformName>
+    <Description>Clear Creek near Lawson, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE42AAD0">
+    <PlatformName>ACIA-Atlantic-East_Nishnabotna</PlatformName>
+    <Description>E Nishnabotna R nr Atlantic, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="345AF542">
+    <PlatformName>BHDY-Bighorn_Canal-Bighorn</PlatformName>
+    <Description>Bighorn Canal Diversion Dam, SEASONAL</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="163C46AE">
+    <PlatformName>SOND-Solen-Cannonball</PlatformName>
+    <Description>Cannonball River at Solen, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="16E7B678">
+    <PlatformName>lnsk1</PlatformName>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="34730274">
+    <PlatformName>Test</PlatformName>
+    <Description>test</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD98D558">
+    <PlatformName>PSNE-Omaha-Pacific_St-Big_Papillion</PlatformName>
+    <Description>BIG PAPILLION CREEK AT PACIFIC STREET AT OMAHA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="175D3154">
+    <PlatformName>CSMK-Manhattan-Big_Blue</PlatformName>
+    <Description>B Blue R nr Manhattan, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="516BD260">
+    <PlatformName>GRCL-Grant-NF_South_Platte</PlatformName>
+    <Description>NF South Platte R at Grant, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17AFD546">
+    <PlatformName>SFWY-Valley-Shoshone</PlatformName>
+    <Description>Shoshone River near valley</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE512286">
+    <PlatformName>VIMT-Virgelle-Missouri</PlatformName>
+    <Description>Missouri River at Virgelle, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="16864634">
+    <PlatformName>HBNE-Lincoln-SW_56th_St-Haines_Branch</PlatformName>
+    <Description>Haines Branch at SW 56th St. at Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE6571B0">
+    <PlatformName>LFSD-Pierre-Missouri-LaFrambois_Isl</PlatformName>
+    <Description>Missouri R nr LaFrambois Is, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="17F01288">
+    <PlatformName>BEYM7</PlatformName>
+    <Description>Bethany Mo-East Fork Big creek</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5DFBA0">
+    <PlatformName>SUX-Sioux_City-Missouri</PlatformName>
+    <Description>Missouri River at Sioux City, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE787B9A">
+    <PlatformName>LESD-Little_Eagle-Grand</PlatformName>
+    <Description>Grand River at Little Eagle, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD372518">
+    <PlatformName>ALTN8</PlatformName>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE3BE4F8">
+    <PlatformName>CTND-Cartwright-Yellowstone</PlatformName>
+    <Description>Yellowstone R at Cartwright, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="16DF9242">
+    <PlatformName>TVCM7</PlatformName>
+    <Description>Tavern Creek below St. Elizabeth, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5E02F8">
+    <PlatformName>TUIA-Turin-Little_Sioux</PlatformName>
+    <Description>Little Sioux River at Turin, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD1F702C">
+    <PlatformName>DRMT-Craig-Dearborn</PlatformName>
+    <Description>Dearborn Creek near Craig, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="348B17B0">
+    <PlatformName>BFR-Belle_Fourche_Res-Belle_Fourche</PlatformName>
+    <Description>Belle Fourche Res, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE78B056">
+    <PlatformName>TFMT-Three_Forks-Jefferson</PlatformName>
+    <Description>Jefferson R at Three Forks, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="1745C2E8">
+    <PlatformName>SPIA-Little_Sioux-Spencer</PlatformName>
+    <Description>Little Sioux River at 300th St near Spencer, IA</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="171CE61A">
+    <PlatformName>ASSD-Ashton-James</PlatformName>
+    <Description>James River at Ashton, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="348C06F2">
+    <PlatformName>KIRN-Kirwin_Res-NF_Solomon</PlatformName>
+    <Description>Kirwin Reservoir</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE2F90CC">
+    <PlatformName>LGLK-Langley-Smoky_Hill</PlatformName>
+    <Description>Smoky Hill River nr Langley, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD09E21E">
+    <PlatformName>HRAN8</PlatformName>
+    <Description>Green R nr New Hradec, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD67A74E">
+    <PlatformName>LNDK1</PlatformName>
+    <Description>LYNDON, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE0966EC">
+    <PlatformName>MASD-State_Line-Maple</PlatformName>
+    <Description>Maple R at ND-SD State Line, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="F2306250">
+    <PlatformName>ANGA-Angostura_Dam-Cheyenne</PlatformName>
+    <Description>Angustora Dam the Cheyenne R, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE50F8C6">
+    <PlatformName>MLNE-St_Paul-Middle_Loup</PlatformName>
+    <Description>Middle Loup R at St Paul, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD7931DA">
+    <PlatformName>SBWY-Canal_3-Sybille</PlatformName>
+    <Description>Sybille Creek above No. 3</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="162B88C8">
+    <PlatformName>MCKN-McCook-Driftwood</PlatformName>
+    <Description>Driftwood C nr McCook, NE Trib Rep.R.</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="40207A18">
+    <PlatformName>COZN1</PlatformName>
+    <Description>Platte River Near Cozad, NE 2S (North Channel)</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE6509F2">
+    <PlatformName>TTNM-Trenton-Thompson</PlatformName>
+    <Description>Thompson River at Trenton, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDCEC2A2">
+    <PlatformName>MFND</PlatformName>
+    <Description>James River at Manfred, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="40230554">
+    <PlatformName>MTNM-Minatare-NC-North_Platte</PlatformName>
+    <Description>North Platte River at Minatare Ninemile Channel</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE326334">
+    <PlatformName>SFS-ab_Buffalo_Bill_Dam-SF_Shoshone</PlatformName>
+    <Description>South Fork Shoshone R ab Buffalo B, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE74414E">
+    <PlatformName>ORNN-Orleans_Republican</PlatformName>
+    <Description>Republican River nr Orleans, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD5E2176">
+    <PlatformName>TFSD-Canyon_Lake-Rapid</PlatformName>
+    <Description>Rapid Creek above Canyon Lake nr Rapid City</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE2D005A">
+    <PlatformName>PBKS-bl_Perry_Lake-Delaware</PlatformName>
+    <Description>Delaware R below Perry Lake</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="166255F2">
+    <PlatformName>SASD-Salem-Little_Vermillion</PlatformName>
+    <Description>L Vermillion R nr Salem, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE4308D2">
+    <PlatformName>SC14-Salt_Cr_Dam_14-Pawnee_Lake</PlatformName>
+    <Description>Salt Cr Dam 14 in Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="515A4388">
+    <PlatformName>SSCO-bl_Strontia_Springs-South_Platte</PlatformName>
+    <Description>South Platte R bl Strontia Springs, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5149B2">
+    <PlatformName>PGSD-Pringle-Beaver_Creek</PlatformName>
+    <Description>Precip Gage at Pringle, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DDFAD29E">
+    <PlatformName>CDCO-Denver-Cherry</PlatformName>
+    <Description>Cherry Creek at Denver, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE745238">
+    <PlatformName>KACM-Bannister-Blue</PlatformName>
+    <Description>Blue River at Bannister, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE7424A8">
+    <PlatformName>CRTN-Crete-Big_Blue</PlatformName>
+    <Description>Big Blue River near Crete, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="167B61AA">
+    <PlatformName>NAPM-Napoleon-Missouri</PlatformName>
+    <Description>Missouri River at Napoleon, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE790122">
+    <PlatformName>BHMT-Bighorn-Bighorn</PlatformName>
+    <Description>Bighorn R ab Tullock Cr nr Bighorn, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD3E7338">
+    <PlatformName>KCKK-Kansas_City-Kansas-23rd_St</PlatformName>
+    <Description>Kansas R at 23rd St in KC, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE0A53FC">
+    <PlatformName>GarrisonDCP</PlatformName>
+    <Description>
+      Garrison Dam DCP Data and Lake Audubon Pump Diversion &amp; Elev
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="5159F708">
+    <PlatformName>JRCO-Julesberg-South_Platte-Ch_2</PlatformName>
+    <Description>S Platte R Ch 2 Julesburg, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="3489B2BC">
+    <PlatformName>BOYN-Boysen_Dam-Wind</PlatformName>
+    <Description>Boysen Dam on the Wind River, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD183112">
+    <PlatformName>CBND-1806_Bridge-Cannonball</PlatformName>
+    <Description>Cannonball River at 1806 Bridge, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="346674BA">
+    <PlatformName>GUWY-bl_Guernsey-North_Platte</PlatformName>
+    <Description>North Platte River below Guernsey Res</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE42F47E">
+    <PlatformName>SC10-Salt_Cr_Dam_10-Yankee_Hill_Lake</PlatformName>
+    <Description>Salt Cr Dam 10 in Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD0D82C2">
+    <PlatformName>LWKK-Lawrence-Kansas</PlatformName>
+    <Description>Kansas River at Lawrence, KS above Bowersock</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE3091C0">
+    <PlatformName>CSMT-Corwin_Springs-Yellowstone</PlatformName>
+    <Description>Yellowston River at Corwin Springs, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="348C201E">
+    <PlatformName>NORN-Norton_Res-Prairie_Dog</PlatformName>
+    <Description>Norton Reservoir</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE42E9DA">
+    <PlatformName>SC09-Salt_Cr_Dam_9-Stagecoach_Lake</PlatformName>
+    <Description>Salt Cr Dam 9 in Lincoln, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE7437DE">
+    <PlatformName>PALN-Palisade-Frenchman</PlatformName>
+    <Description>Frenchman Creek at Palisade, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="1719F2AC">
+    <PlatformName>SCSK-Schoenchen-Smoky_Hill</PlatformName>
+    <Description>Smoky Hill R nr Schoenchen, KS</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="348CA60A">
+    <PlatformName>CAWY-Casper-North_Platte</PlatformName>
+    <Description>North Platte River at Casper, WY</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DD56D554">
+    <PlatformName>RATI-bl_Rathbun-Chariton</PlatformName>
+    <Description>
+      RATHBUN BELOW, CHARITON RIVER NEAR RATHBUN LAKE, IA
+    </Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE78DB62">
+    <PlatformName>LOMT-Locate-Powder</PlatformName>
+    <Description>Powder River at Locate, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="DE357276">
+    <PlatformName>WPSD-Westport-Elm</PlatformName>
+    <Description>Elm River at Westport, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE2F3034">
+    <PlatformName>HARN-Hardy-Republican</PlatformName>
+    <Description>Republican River near Hardy, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE3310DA">
+    <PlatformName>DRSD-Dell_Rapids-Big_Sioux</PlatformName>
+    <Description>Big Sioux R at Dell Rapids, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="34710780">
+    <PlatformName>SRMT-Augusta_Bridge-Sun</PlatformName>
+    <Description>Sun River at Augusta Bridge, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE5DC0E8">
+    <PlatformName>RBMT-Landusky-Missouri</PlatformName>
+    <Description>Missouri River at Landusky, MT</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="178AE6F2">
+    <PlatformName>LECO-Georgetown-Leavenworth</PlatformName>
+    <Description>Leavenworth Creek at Mouth near Georgetown</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE32F1D2">
+    <PlatformName>RCSD-Rapid_City-Rapid</PlatformName>
+    <Description>Rapid Creek at Rapid City, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE42D292">
+    <PlatformName>PA11-Papio_Cr_Dam_11-Cunningham_Lake</PlatformName>
+    <Description>Papio Cr Dam 11 in Omaha, NE</Description>
   </NetworkListEntry>
 </NetworkList>
