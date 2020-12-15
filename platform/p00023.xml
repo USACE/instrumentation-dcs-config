@@ -3,7 +3,7 @@
   <Description>E Nishnabotna R nr Atlantic, IA</Description>
   <Agency>cwms</Agency>
   <IsProduction>false</IsProduction>
-  <LastModifyTime>12/15/2020 17:00:11</LastModifyTime>
+  <LastModifyTime>12/15/2020 17:09:37</LastModifyTime>
   <Site>
     <Latitude>41.3461111</Latitude>
     <Longitude>-95.0766666</Longitude>
@@ -291,19 +291,5 @@
     <Preamble>S</Preamble>
     <parity>U</parity>
   </TransportMedium>
-  <PlatformSensor SensorNumber="1">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="2">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="3">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="4">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="5">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="6">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="7">
-  </PlatformSensor>
   <PlatformProperty PropertyName="cwmsVersion">mrrdrgs-raw</PlatformProperty>
 </Platform>

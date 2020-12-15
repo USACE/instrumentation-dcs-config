@@ -3,7 +3,7 @@
   <Description>Cherry Creek Dam in Denver, CO</Description>
   <Agency>cwms</Agency>
   <IsProduction>false</IsProduction>
-  <LastModifyTime>12/15/2020 16:31:41</LastModifyTime>
+  <LastModifyTime>12/15/2020 17:06:54</LastModifyTime>
   <Site>
     <Latitude>39.6437694</Latitude>
     <Longitude>-104.8590111</Longitude>
@@ -252,24 +252,4 @@
     <TimeZone>UTC</TimeZone>
     <parity>U</parity>
   </TransportMedium>
-  <PlatformSensor SensorNumber="1">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="2">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="3">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="4">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="5">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="6">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="7">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="8">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="9">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="10">
-  </PlatformSensor>
 </Platform>

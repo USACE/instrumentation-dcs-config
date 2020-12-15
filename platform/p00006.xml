@@ -3,7 +3,7 @@
   <Description>S Fk Sappa Cr nr Achilles, KS</Description>
   <Agency>CWMS</Agency>
   <IsProduction>false</IsProduction>
-  <LastModifyTime>12/15/2020 16:59:34</LastModifyTime>
+  <LastModifyTime>12/15/2020 17:06:28</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>
     <Longitude>0</Longitude>
@@ -233,24 +233,16 @@
     <TimeZone>UTC</TimeZone>
     <parity>U</parity>
   </TransportMedium>
-  <PlatformSensor SensorNumber="1">
-  </PlatformSensor>
   <PlatformSensor SensorNumber="2">
     <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
     <PlatformSensorProperty PropertyName="RdbFile">
       06844900.rdb
     </PlatformSensorProperty>
   </PlatformSensor>
-  <PlatformSensor SensorNumber="3">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="4">
-  </PlatformSensor>
   <PlatformSensor SensorNumber="5">
     <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
     <PlatformSensorProperty PropertyName="RdbFile">
       06844900.rdb
     </PlatformSensorProperty>
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="6">
   </PlatformSensor>
 </Platform>

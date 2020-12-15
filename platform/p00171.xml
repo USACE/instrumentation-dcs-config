@@ -3,7 +3,7 @@
   <Description>Missouri River at Greenwood, SD</Description>
   <Agency>CWMS</Agency>
   <IsProduction>false</IsProduction>
-  <LastModifyTime>12/15/2020 16:31:29</LastModifyTime>
+  <LastModifyTime>12/15/2020 17:09:37</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>
     <Longitude>0</Longitude>
@@ -193,12 +193,4 @@
     <TimeZone>UTC</TimeZone>
     <parity>U</parity>
   </TransportMedium>
-  <PlatformSensor SensorNumber="1">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="2">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="3">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="4">
-  </PlatformSensor>
 </Platform>

@@ -3,7 +3,7 @@
   <Description>E Fk L Chariton R nr Macon, MO</Description>
   <Agency>CWMS</Agency>
   <IsProduction>false</IsProduction>
-  <LastModifyTime>12/15/2020 16:31:53</LastModifyTime>
+  <LastModifyTime>12/15/2020 17:07:09</LastModifyTime>
   <Site>
     <Latitude>39.75138889</Latitude>
     <Longitude>-92.5188888</Longitude>
@@ -239,18 +239,10 @@
       06906200.rdb
     </PlatformSensorProperty>
   </PlatformSensor>
-  <PlatformSensor SensorNumber="2">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="3">
-  </PlatformSensor>
   <PlatformSensor SensorNumber="4">
     <PlatformSensorProperty PropertyName="RdbShef">QR</PlatformSensorProperty>
     <PlatformSensorProperty PropertyName="RdbFile">
       06906200.rdb
     </PlatformSensorProperty>
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="5">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="6">
   </PlatformSensor>
 </Platform>

@@ -3,7 +3,7 @@
   <Description>Foot Creek near Aberdeen, SD</Description>
   <Agency>cwms</Agency>
   <IsProduction>false</IsProduction>
-  <LastModifyTime>12/15/2020 16:59:27</LastModifyTime>
+  <LastModifyTime>12/15/2020 17:09:37</LastModifyTime>
   <Site>
     <Latitude>45.5192222</Latitude>
     <Longitude>-98.5771666</Longitude>
@@ -241,16 +241,4 @@
     <Preamble>S</Preamble>
     <parity>U</parity>
   </TransportMedium>
-  <PlatformSensor SensorNumber="8">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="9">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="10">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="12">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="13">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="14">
-  </PlatformSensor>
 </Platform>

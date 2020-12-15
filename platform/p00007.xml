@@ -2,7 +2,7 @@
 <Platform PlatformId="7">
   <Description>Salt Creek near Ada, KS</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false/<IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:35</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>
