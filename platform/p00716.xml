@@ -2,7 +2,7 @@
 <Platform PlatformId="716">
   <Description>Horse Creek near Lyman, NE</Description>
   <Agency>NE DNR</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:23</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

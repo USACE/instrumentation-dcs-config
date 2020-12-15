@@ -2,7 +2,7 @@
 <Platform PlatformId="293">
   <Description>Wahoo Creek at Ithaca, NE</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:56</LastModifyTime>
   <Site>
     <Latitude>41.1475</Latitude>

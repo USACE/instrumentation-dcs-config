@@ -2,7 +2,7 @@
 <Platform PlatformId="221">
   <Description>Rock River at Rock Valley, IA</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:52</LastModifyTime>
   <Site>
     <Latitude>43.2146102</Latitude>

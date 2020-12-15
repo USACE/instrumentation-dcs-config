@@ -2,7 +2,7 @@
 <Platform PlatformId="624">
   <Description>Wind River Above Red Creek Near Duboise, WY</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
   <Site>
     <Latitude>43.44133333</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="65">
   <Description>Bowman-Haley Dam at Bowman, ND</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:39</LastModifyTime>
   <Site>
     <Latitude>45.982292</Latitude>

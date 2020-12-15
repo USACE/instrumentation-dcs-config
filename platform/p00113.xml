@@ -2,7 +2,7 @@
 <Platform PlatformId="113">
   <Description>Dinwoody Creek nr Burris, WY</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:48</LastModifyTime>
   <Site>
     <Latitude>43.346111111111</Latitude>

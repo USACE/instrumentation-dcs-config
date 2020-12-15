@@ -2,7 +2,7 @@
 <Platform PlatformId="434">
   <Description>Lake Pocasse on Spring Creek - Temporary Gage</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:03</LastModifyTime>
   <Site>
     <Latitude>45.911885</Latitude>

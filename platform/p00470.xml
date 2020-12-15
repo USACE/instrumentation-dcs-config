@@ -2,7 +2,7 @@
 <Platform PlatformId="470">
   <Description>Elkhorn River at Pilger, NE</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:05</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="364">
   <Description>Maple R at ND-SD State Line, SD</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:00</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

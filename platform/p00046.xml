@@ -2,7 +2,7 @@
 <Platform PlatformId="46">
   <Description>Yellowstone R at Billings, MT</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:37</LastModifyTime>
   <Site>
     <Latitude>45.8001667</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="575">
   <Description>Mammoth at Yellowstone NP Raws</Description>
   <Agency>NWS-(BLM001)</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:12</LastModifyTime>
   <Site>
     <Latitude>44.977222222222</Latitude>

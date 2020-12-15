@@ -2,7 +2,7 @@
 <Platform PlatformId="556">
   <Description>Owl Creek above McManus Ditch near Thermopolis</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
   <Site>
     <Latitude>43.6883333</Latitude>

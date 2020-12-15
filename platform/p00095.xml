@@ -2,7 +2,7 @@
 <Platform PlatformId="95">
   <Description>Wind River nr Crowheart, WY</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:47</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

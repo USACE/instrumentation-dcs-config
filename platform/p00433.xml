@@ -2,7 +2,7 @@
 <Platform PlatformId="433">
   <Description>Precip Gage at Pringle, SD</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:03</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

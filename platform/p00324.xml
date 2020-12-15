@@ -2,7 +2,7 @@
 <Platform PlatformId="324">
   <Description>Marais Des Cygnes at LaCygne, KS</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:57</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

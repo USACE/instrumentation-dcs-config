@@ -2,7 +2,7 @@
 <Platform PlatformId="432">
   <Description>Papio Cr 20 Sed Trap Dam</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:03</LastModifyTime>
   <Site>
     <Latitude>41.1455266</Latitude>

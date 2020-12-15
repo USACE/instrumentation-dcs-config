@@ -2,7 +2,7 @@
 <Platform PlatformId="443">
   <Description>EMERGENCY GAGE - James River near Ypsilanti, ND</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:04</LastModifyTime>
   <Site>
     <Latitude>46.7902778</Latitude>

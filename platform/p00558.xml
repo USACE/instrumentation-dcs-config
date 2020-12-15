@@ -2,7 +2,7 @@
 <Platform PlatformId="558">
   <Description>Shell Creek near Shell</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
   <Site>
     <Latitude>44.565</Latitude>

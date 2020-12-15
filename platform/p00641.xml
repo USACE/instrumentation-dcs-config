@@ -2,7 +2,7 @@
 <Platform PlatformId="641">
   <Description>Pipestem Dam Backup near Jamestown, ND</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:17</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

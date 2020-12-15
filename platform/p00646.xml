@@ -2,7 +2,7 @@
 <Platform PlatformId="646">
   <Description>Missouri River at Jefferson City, MO</Description>
   <Agency>USGS01</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:17</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

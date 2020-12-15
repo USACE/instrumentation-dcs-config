@@ -2,7 +2,7 @@
 <Platform PlatformId="33">
   <Description>Burl-Well Canal in Denver, CO</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:36</LastModifyTime>
   <Site>
     <Latitude>39.791944</Latitude>

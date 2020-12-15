@@ -2,7 +2,7 @@
 <Platform PlatformId="651">
   <Description>Platte R at Sharps Station, MO</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:17</LastModifyTime>
   <Site>
     <Latitude>39.40097</Latitude>

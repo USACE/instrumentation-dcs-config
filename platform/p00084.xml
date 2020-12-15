@@ -2,7 +2,7 @@
 <Platform PlatformId="84">
   <Description>Missouri River at Culbertson, MT</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:46</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

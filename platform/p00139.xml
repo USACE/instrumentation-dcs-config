@@ -2,7 +2,7 @@
 <Platform PlatformId="139">
   <Description>Black Verm R nr Frankfort, KS</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:49</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

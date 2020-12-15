@@ -2,7 +2,7 @@
 <Platform PlatformId="110">
   <Description>South Platte River at Denver, CO</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:47</LastModifyTime>
   <Site>
     <Latitude>39.75944444</Latitude>

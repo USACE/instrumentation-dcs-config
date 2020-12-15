@@ -3,7 +3,7 @@
   <Description>Big Bend Dam DCP</Description>
   <PlatformDesignator>BEND</PlatformDesignator>
   <Agency>USACE</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:17</LastModifyTime>
   <Site>
     <Latitude>44.0410389</Latitude>

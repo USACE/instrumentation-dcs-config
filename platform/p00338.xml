@@ -2,7 +2,7 @@
 <Platform PlatformId="338">
   <Description>Salt Creek trib near Lyndon, KS</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:59</LastModifyTime>
   <Site>
     <Latitude>38.608888888889</Latitude>

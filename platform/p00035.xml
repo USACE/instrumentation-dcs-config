@@ -2,7 +2,7 @@
 <Platform PlatformId="35">
   <Description>Bighorn Canal Diversion Dam, SEASONAL</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:36</LastModifyTime>
   <Site>
     <Latitude>43.9452778</Latitude>

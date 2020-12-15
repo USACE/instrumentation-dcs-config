@@ -2,7 +2,7 @@
 <Platform PlatformId="603">
   <Description>Platte River Near Cozad, NE 2S (North Channel)</Description>
   <Agency>NEBDNR</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
   <Site>
     <Latitude>40.8375</Latitude>

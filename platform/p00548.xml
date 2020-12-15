@@ -2,7 +2,7 @@
 <Platform PlatformId="548">
   <Description>North Platte River at Saratoga</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
   <Site>
     <Latitude>41.455</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="166">
   <Description>North Fork Grand River near White Butte</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:50</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

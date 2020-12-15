@@ -2,7 +2,7 @@
 <Platform PlatformId="11">
   <Description>Platte River near Agency, MO</Description>
   <Agency>CEMRK1</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:12</LastModifyTime>
   <Site>
     <Latitude>39.688</Latitude>

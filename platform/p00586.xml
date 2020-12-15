@@ -2,7 +2,7 @@
 <Platform PlatformId="586">
   <Description>Fales Rock Raws Near Casper 40W</Description>
   <Agency>NWS-(BLM001)</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:14</LastModifyTime>
   <Site>
     <Latitude>42.856388888889</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="662">
   <Description>Rapid Creek above WRF nr Rapid City, SD</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:18</LastModifyTime>
   <Site>
     <Latitude>44.026666666667</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="596">
   <Description>North Channel of the Platte River Near Brady, NE</Description>
   <Agency>NEBDNR</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:15</LastModifyTime>
   <Site>
     <Latitude>41.0192732</Latitude>

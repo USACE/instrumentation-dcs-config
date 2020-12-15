@@ -2,7 +2,7 @@
 <Platform PlatformId="480">
   <Description>Chariton R nr Prairie Hill, MO</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:05</LastModifyTime>
   <Site>
     <Latitude>39.53994</Latitude>

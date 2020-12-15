@@ -2,7 +2,7 @@
 <Platform PlatformId="76">
   <Description>Buffalo Bill Dam, WY</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:45</LastModifyTime>
   <Site>
     <Latitude>44.501443</Latitude>

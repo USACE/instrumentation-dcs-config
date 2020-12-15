@@ -2,7 +2,7 @@
 <Platform PlatformId="690">
   <Description>Gasconade River near Hazelgreen, MO</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:20</LastModifyTime>
   <Site>
     <Latitude>37.759167</Latitude>

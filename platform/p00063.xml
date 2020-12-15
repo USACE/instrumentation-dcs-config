@@ -2,7 +2,7 @@
 <Platform PlatformId="63">
   <Description>White Rock Creek nr Burr Oak, KS</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:38</LastModifyTime>
   <Site>
     <Latitude>39.89917</Latitude>

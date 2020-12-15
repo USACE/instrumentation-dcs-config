@@ -2,7 +2,7 @@
 <Platform PlatformId="201">
   <Description>RATHBUN BELOW, CHARITON RIVER NEAR RATHBUN LAKE, IA</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:51</LastModifyTime>
   <Site>
     <Latitude>40.821861</Latitude>

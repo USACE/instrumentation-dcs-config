@@ -2,7 +2,7 @@
 <Platform PlatformId="257">
   <Description>Smithville Lake nr Smithvlle, MO</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:54</LastModifyTime>
   <Site>
     <Latitude>39.39622589</Latitude>

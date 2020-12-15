@@ -2,7 +2,7 @@
 <Platform PlatformId="718">
   <Description>West Papillion Creek at Elkhorn Nebraska</Description>
   <Agency>USGS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:23</LastModifyTime>
   <Site>
     <Latitude>41.292862</Latitude>

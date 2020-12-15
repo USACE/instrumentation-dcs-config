@@ -2,7 +2,7 @@
 <Platform PlatformId="115">
   <Description>S Fk Solomon R at Damar, KS</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:48</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

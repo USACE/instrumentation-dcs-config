@@ -2,7 +2,7 @@
 <Platform PlatformId="288">
   <Description>Missouri River bl Holter Dam, MT</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:55</LastModifyTime>
   <Site>
     <Latitude>46.9947389</Latitude>

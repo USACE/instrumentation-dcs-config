@@ -2,7 +2,7 @@
 <Platform PlatformId="316">
   <Description>Lake Kampeska nr Watertown, SD</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:57</LastModifyTime>
   <Site>
     <Latitude>44.948889</Latitude>

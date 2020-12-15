@@ -2,7 +2,7 @@
 <Platform PlatformId="629">
   <Description>WEST PAPILLION CREEK AT PACIFIC ST IN OMAHA</Description>
   <Agency>USGS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
   <Site>
     <Latitude>41.248651</Latitude>

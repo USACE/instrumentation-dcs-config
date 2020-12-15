@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Platform PlatformId="722">
   <Description>Green R nr New Hradec, ND</Description>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:23</LastModifyTime>
   <Site>
     <Latitude>47.0277916</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="69">
   <Description>NWO-LLND-Lake Lamoure, ND</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:39</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="41">
   <Description>Bethany Mo-East Fork Big creek</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:37</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

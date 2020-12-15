@@ -2,7 +2,7 @@
 <Platform PlatformId="268">
   <Description>North Loup R at St Paul, NE</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:55</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

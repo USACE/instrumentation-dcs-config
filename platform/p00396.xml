@@ -2,7 +2,7 @@
 <Platform PlatformId="396">
   <Description>Smoky Hill R at New Cambria, KS</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:01</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

@@ -4,7 +4,7 @@
     Smith River blw Eagle Cr near Ft. Logan, SEASONAL GAGE, shuts off Nov 1.
   </Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:54</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

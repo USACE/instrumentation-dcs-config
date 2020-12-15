@@ -2,7 +2,7 @@
 <Platform PlatformId="555">
   <Description>Wind River at Hwy 26 Bridge near Morton</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
   <Site>
     <Latitude>43.1922222</Latitude>

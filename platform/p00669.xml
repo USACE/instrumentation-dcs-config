@@ -2,7 +2,7 @@
 <Platform PlatformId="669">
   <Description>Turkey Creek above Bear Lake near Morrison, Co</Description>
   <Agency>CO-DWR</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:18</LastModifyTime>
   <Site>
     <Latitude>39.640708</Latitude>

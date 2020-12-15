@@ -2,7 +2,7 @@
 <Platform PlatformId="642">
   <Description>James River at Huron, SD</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:17</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="238">
   <Description>S Platte R bl 11-Mile Res, CO</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:53</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

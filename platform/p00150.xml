@@ -2,7 +2,7 @@
 <Platform PlatformId="150">
   <Description>Missouri R at Farm Island, SD</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:50</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

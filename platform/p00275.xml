@@ -2,7 +2,7 @@
 <Platform PlatformId="275">
   <Description>Republican River at Stratton, NE</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:55</LastModifyTime>
   <Site>
     <Latitude>40.140555555556</Latitude>

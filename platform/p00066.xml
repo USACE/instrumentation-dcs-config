@@ -2,7 +2,7 @@
 <Platform PlatformId="66">
   <Description>Belle Fourche R at WY-SD St Line</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:39</LastModifyTime>
   <Site>
     <Latitude>44.74888</Latitude>

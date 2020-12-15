@@ -2,7 +2,7 @@
 <Platform PlatformId="3">
   <Description>Missouri River bl Hauser Dam nr Helena</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:35</LastModifyTime>
   <Site>
     <Latitude>46.76619167</Latitude>

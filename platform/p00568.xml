@@ -2,7 +2,7 @@
 <Platform PlatformId="568">
   <Description>Salt Creek at Fairgrounds at Lincoln, NE</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:11</LastModifyTime>
   <Site>
     <Latitude>40.8386111</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="416">
   <Description>South Platte R bl Chatfield Dam</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:02</LastModifyTime>
   <Site>
     <Latitude>39.558719444444</Latitude>

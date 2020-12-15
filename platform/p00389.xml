@@ -2,7 +2,7 @@
 <Platform PlatformId="389">
   <Description>Laramie river near Bosler, WY</Description>
   <Agency>WY SEO</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:00</LastModifyTime>
   <Site>
     <Latitude>41.5536111</Latitude>

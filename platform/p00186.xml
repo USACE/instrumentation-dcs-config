@@ -2,7 +2,7 @@
 <Platform PlatformId="186">
   <Description>West Fork Ditch at Hornick, IA</Description>
   <Agency>USGS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:51</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

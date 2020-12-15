@@ -2,7 +2,7 @@
 <Platform PlatformId="51">
   <Description>Bull Lake Reservoir on Bull Lake Creek, WY</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:37</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

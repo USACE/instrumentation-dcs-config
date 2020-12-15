@@ -2,7 +2,7 @@
 <Platform PlatformId="44">
   <Description>Bighorn River at Basin</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:37</LastModifyTime>
   <Site>
     <Latitude>44.38333333</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="528">
   <Description>S Fk Solomon R at Woodston, KS</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:08</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

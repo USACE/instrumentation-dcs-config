@@ -5,7 +5,7 @@
     NWO-RCWY-Abv_Red_Cr-Wind
   </Description>
   <Agency>USGS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:20</LastModifyTime>
   <Site>
     <Latitude>43.441666</Latitude>

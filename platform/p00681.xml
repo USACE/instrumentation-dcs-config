@@ -2,7 +2,7 @@
 <Platform PlatformId="681">
   <Description>Stevens Creek near Lincoln, NE</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:19</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

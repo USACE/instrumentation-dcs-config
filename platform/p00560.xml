@@ -2,7 +2,7 @@
 <Platform PlatformId="560">
   <Description>Gooseberry Creek near Dickie</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
   <Site>
     <Latitude>43.9938889</Latitude>

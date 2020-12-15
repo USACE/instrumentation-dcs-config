@@ -2,7 +2,7 @@
 <Platform PlatformId="365">
   <Description>Michigan Creek abv Jefferson, CO</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:00</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

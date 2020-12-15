@@ -2,7 +2,7 @@
 <Platform PlatformId="8">
   <Description>Foot Creek near Aberdeen, SD</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>trueIsProduction>
   <LastModifyTime>08/31/2020 15:53:35</LastModifyTime>
   <Site>
     <Latitude>45.5192222</Latitude>

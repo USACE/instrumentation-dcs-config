@@ -2,7 +2,7 @@
 <Platform PlatformId="552">
   <Description>Middle Popo Agie bel Sinks near Lander</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
   <Site>
     <Latitude>42.7572222</Latitude>

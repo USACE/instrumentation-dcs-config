@@ -2,7 +2,7 @@
 <Platform PlatformId="566">
   <Description>Wahoo Creek at Ashland, NE</Description>
   <Agency>USGS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
   <Site>
     <Latitude>41.0536111</Latitude>

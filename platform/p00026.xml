@@ -2,7 +2,7 @@
 <Platform PlatformId="26">
   <Description>N Fk South Platte at Bailey, CO SEASONAL</Description>
   <Agency>cwms</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:36</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

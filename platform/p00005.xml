@@ -2,7 +2,7 @@
 <Platform PlatformId="5">
   <Description>South Platte R ab Cheesman, CO</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:35</LastModifyTime>
   <Site>
     <Latitude>39.162778</Latitude>

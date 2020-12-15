@@ -2,7 +2,7 @@
 <Platform PlatformId="196">
   <Description>Pomme de Terre Lake nr Herm, MO</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <LastModifyTime>08/31/2020 15:53:51</LastModifyTime>
   <Site>
     <Latitude>37.90122121</Latitude>
