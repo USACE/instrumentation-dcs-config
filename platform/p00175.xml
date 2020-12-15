@@ -2,7 +2,7 @@
 <Platform PlatformId="175">
   <Description>South Plattle above 11-mile near Hartsel, Colorado</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:51</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

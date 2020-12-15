@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PresentationGroup Name="CWMS-Metric">
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <DataPresentation>
     <DataType Standard="CWMS" Code="Stage">
     </DataType>

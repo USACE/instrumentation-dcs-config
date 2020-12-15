@@ -2,7 +2,7 @@
 <Platform PlatformId="20">
   <Description>Smoky Hill River near Arnold, KS</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:36</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

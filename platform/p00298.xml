@@ -2,7 +2,7 @@
 <Platform PlatformId="298">
   <Description>James River at Jamestown, ND</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:56</LastModifyTime>
   <Site>
     <Latitude>46.8897222</Latitude>

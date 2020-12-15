@@ -2,7 +2,7 @@
 <Platform PlatformId="259">
   <Description>L Platte R near Smithville, MO</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:54</LastModifyTime>
   <Site>
     <Latitude>39.388056</Latitude>

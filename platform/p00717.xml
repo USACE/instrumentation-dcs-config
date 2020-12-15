@@ -2,7 +2,7 @@
 <Platform PlatformId="717">
   <Description>Big Pappilion Creek near Bennington Nebraska.</Description>
   <Agency>USGS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:23</LastModifyTime>
   <Site>
     <Latitude>41.378849</Latitude>

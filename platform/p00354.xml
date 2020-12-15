@@ -2,7 +2,7 @@
 <Platform PlatformId="354">
   <Description>Big Thompson R at LaSalle, CO</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:59</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

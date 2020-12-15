@@ -2,7 +2,7 @@
 <Platform PlatformId="133">
   <Description>Elm River near Frederick, SD</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:49</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="523">
   <Description>Oak Creek at Wakpala, SD</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:08</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

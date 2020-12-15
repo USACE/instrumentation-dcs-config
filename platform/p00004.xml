@@ -2,7 +2,7 @@
 <Platform PlatformId="4">
   <Description>L Nemaha River at Auburn, NE</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:35</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

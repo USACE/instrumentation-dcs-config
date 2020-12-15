@@ -2,7 +2,7 @@
 <Platform PlatformId="620">
   <Description>Republican R at Scandia, KS</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
   <Site>
     <Latitude>39.798611</Latitude>

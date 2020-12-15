@@ -2,7 +2,7 @@
 <Platform PlatformId="272">
   <Description>Webster Res on SF Solomon R, KS</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:55</LastModifyTime>
   <Site>
     <Latitude>39.41174488</Latitude>

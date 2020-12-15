@@ -2,7 +2,7 @@
 <Platform PlatformId="451">
   <Description>Sybille Creek above No. 3</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:05</LastModifyTime>
   <Site>
     <Latitude>41.9111111</Latitude>

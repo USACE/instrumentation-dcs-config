@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Platform PlatformId="715">
   <Agency>CO-DWR</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:23</LastModifyTime>
   <Site>
     <Elevation>1.7976931348623157E308</Elevation>

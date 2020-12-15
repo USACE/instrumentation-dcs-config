@@ -2,7 +2,7 @@
 <Platform PlatformId="123">
   <Description>Thompson River at Davis City, IA</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:49</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

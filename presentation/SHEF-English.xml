@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes"?>
 <PresentationGroup Name="SHEF-English">
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <DataPresentation>
     <DataType Standard="SHEF-PE" Code="BA">
     </DataType>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PresentationGroup Name="RSGIS-English">
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <DataPresentation>
     <DataType Standard="RSGIS" Code="Depth-Snow">
     </DataType>

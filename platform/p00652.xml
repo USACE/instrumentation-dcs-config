@@ -2,7 +2,7 @@
 <Platform PlatformId="652">
   <Description>Saline River at Lincoln, KS</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:17</LastModifyTime>
   <Site>
     <Latitude>39.028611</Latitude>

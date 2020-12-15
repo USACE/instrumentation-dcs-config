@@ -2,7 +2,7 @@
 <Platform PlatformId="407">
   <Description>N Fk Milk R nr Boundary, MT</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:01</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="676">
   <Description>Pilot Butte Reservoir</Description>
   <Agency>usbr</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:19</LastModifyTime>
   <Site>
     <Latitude>43.2</Latitude>

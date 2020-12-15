@@ -2,7 +2,7 @@
 <Platform PlatformId="355">
   <Description>James River nr Ludden, ND</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:59</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

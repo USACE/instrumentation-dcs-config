@@ -2,7 +2,7 @@
 <Platform PlatformId="34">
   <Description>Bear Creek Dam</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:36</LastModifyTime>
   <Site>
     <Latitude>39.652888888889</Latitude>

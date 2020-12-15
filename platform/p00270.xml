@@ -2,7 +2,7 @@
 <Platform PlatformId="270">
   <Description>South Platte R bl Strontia Springs, CO</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:55</LastModifyTime>
   <Site>
     <Elevation>1.7976931348623157E308</Elevation>

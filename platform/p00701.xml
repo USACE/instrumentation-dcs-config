@@ -2,7 +2,7 @@
 <Platform PlatformId="701">
   <Description>Solomon River at Beloit, KS</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:20</LastModifyTime>
   <Site>
     <Latitude>39.45444</Latitude>

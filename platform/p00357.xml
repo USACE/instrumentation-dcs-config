@@ -2,7 +2,7 @@
 <Platform PlatformId="357">
   <Description>Bighorn River at Kane, WY</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:59</LastModifyTime>
   <Site>
     <Latitude>44.75861111</Latitude>

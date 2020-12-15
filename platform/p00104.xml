@@ -2,7 +2,7 @@
 <Platform PlatformId="104">
   <Description>Rapid Creek above Canyon Lake nr Rapid City</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:47</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="460">
   <Description>Belle Fourche BL Rattlesnake C, near Piney, WY</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:05</LastModifyTime>
   <Site>
     <Latitude>43.9844444</Latitude>

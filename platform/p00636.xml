@@ -2,7 +2,7 @@
 <Platform PlatformId="636">
   <Description>Pottawatomie Creek at Lane, KS</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

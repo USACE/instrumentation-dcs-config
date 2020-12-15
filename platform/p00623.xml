@@ -2,7 +2,7 @@
 <Platform PlatformId="623">
   <Description>Cannonball River at 1806 Bridge, ND</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

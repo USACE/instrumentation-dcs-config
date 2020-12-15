@@ -2,7 +2,7 @@
 <Platform PlatformId="457">
   <Description>S Fk Solomon R at Osborne, KS</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:05</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

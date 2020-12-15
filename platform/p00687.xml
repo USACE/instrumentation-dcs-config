@@ -2,7 +2,7 @@
 <Platform PlatformId="687">
   <Description>North Platte River at Minatare Main Channel</Description>
   <Agency>NE DNR</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:20</LastModifyTime>
   <Site>
     <Latitude>41.788888888889</Latitude>

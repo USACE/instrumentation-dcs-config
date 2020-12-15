@@ -2,7 +2,7 @@
 <Platform PlatformId="353">
   <Description>Salt Cr N 70th St in Lincoln, NE</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:59</LastModifyTime>
   <Site>
     <Latitude>40.886111412241</Latitude>

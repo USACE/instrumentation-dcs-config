@@ -2,7 +2,7 @@
 <Platform PlatformId="423">
   <Description>Gallatin River near Gallatin Gateway, MT</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:02</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

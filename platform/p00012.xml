@@ -2,7 +2,7 @@
 <Platform PlatformId="12">
   <Description>Big Sioux River at Akron, IA</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:35</LastModifyTime>
   <Site>
     <Latitude>42.837</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="79">
   <Description>Chapman Creek nr Chapman, KS</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:45</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

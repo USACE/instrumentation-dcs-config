@@ -2,7 +2,7 @@
 <Platform PlatformId="404">
   <Description>Maple Creek at Nickerson, NE</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:01</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

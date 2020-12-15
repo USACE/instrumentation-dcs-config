@@ -2,7 +2,7 @@
 <Platform PlatformId="677">
   <Description>Helena Valley Reservoir</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:19</LastModifyTime>
   <Site>
     <Latitude>46.6380556</Latitude>

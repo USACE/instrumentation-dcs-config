@@ -2,7 +2,7 @@
 <Platform PlatformId="312">
   <Description>Castle Creek near Hill City, SD</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:57</LastModifyTime>
   <Site>
     <Latitude>44.013611111111</Latitude>

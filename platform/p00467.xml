@@ -2,7 +2,7 @@
 <Platform PlatformId="467">
   <Description>Encampment R at Mouth nar Encmpt</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:05</LastModifyTime>
   <Site>
     <Latitude>41.3033333</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="217">
   <Description>Harlan Co Lk on Republican R, NE</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:52</LastModifyTime>
   <Site>
     <Latitude>40.07145489</Latitude>

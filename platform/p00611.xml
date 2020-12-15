@@ -2,7 +2,7 @@
 <Platform PlatformId="611">
   <Description>Salt Creek near Ashland</Description>
   <Agency>usgs</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
   <Site>
     <Latitude>41.0516667</Latitude>

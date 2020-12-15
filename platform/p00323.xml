@@ -2,7 +2,7 @@
 <Platform PlatformId="323">
   <Description>E Fk L Chariton R nr Macon, MO</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:57</LastModifyTime>
   <Site>
     <Latitude>39.75138889</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="254">
   <Description>Sac R at Hwy J bl Stockton, MO</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:54</LastModifyTime>
   <Site>
     <Latitude>37.735889</Latitude>

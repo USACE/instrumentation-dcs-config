@@ -2,7 +2,7 @@
 <Platform PlatformId="185">
   <Description>E Fk L Char R nr Huntsville, MO</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:51</LastModifyTime>
   <Site>
     <Elevation>1.7976931348623157E308</Elevation>

@@ -2,7 +2,7 @@
 <Platform PlatformId="670">
   <Description>Antelope creek near Carson, ND</Description>
   <Agency>USGS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:18</LastModifyTime>
   <Site>
     <Latitude>46.5452839</Latitude>

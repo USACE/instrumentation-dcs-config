@@ -2,7 +2,7 @@
 <Platform PlatformId="626">
   <Description>test</Description>
   <Agency>test</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
   <Site>
     <Elevation>1.7976931348623157E308</Elevation>

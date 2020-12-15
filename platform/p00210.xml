@@ -4,7 +4,7 @@
     TEMPORARY GAGE - JAMES RIVER AT HWY 46 NR ADRIAN, ND
   </Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 16:29:08</LastModifyTime>
   <Site>
     <Latitude>46.6291667</Latitude>

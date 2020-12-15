@@ -2,7 +2,7 @@
 <Platform PlatformId="53">
   <Description>Boulder Creek near Boulder, CO</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:37</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

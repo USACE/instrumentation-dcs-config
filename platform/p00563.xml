@@ -2,7 +2,7 @@
 <Platform PlatformId="563">
   <Description>Leavenworth Creek at Mouth near Georgetown</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
   <Site>
     <Latitude>39.6872222</Latitude>

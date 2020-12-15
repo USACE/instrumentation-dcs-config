@@ -2,7 +2,7 @@
 <Platform PlatformId="380">
   <Description>Chariton River near Moulton, IA</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:00</LastModifyTime>
   <Site>
     <Latitude>40.6925</Latitude>

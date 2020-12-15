@@ -2,7 +2,7 @@
 <Platform PlatformId="303">
   <Description>Heart River at Starck Bridge, nr Judson ND</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:57</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

@@ -4,7 +4,7 @@
     Stage at Aurora Homestake Pipeline to Spinney Reservoir (HOMSPICO)
   </Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:20</LastModifyTime>
   <Site>
     <Elevation>1.7976931348623157E308</Elevation>

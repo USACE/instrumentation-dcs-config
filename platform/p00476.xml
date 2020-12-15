@@ -2,7 +2,7 @@
 <Platform PlatformId="476">
   <Description>Pomme de Terre R near Polk, MO</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:05</LastModifyTime>
   <Site>
     <Latitude>37.68267</Latitude>

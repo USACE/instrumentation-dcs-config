@@ -2,7 +2,7 @@
 <Platform PlatformId="713">
   <Description>Fort Laramie Canal on the North Platte River, WY</Description>
   <Agency>USBR</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:22</LastModifyTime>
   <Site>
     <Latitude>42.240994762569</Latitude>

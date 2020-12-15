@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Platform PlatformId="637">
   <Description>EMERGENCY GAGE - Pipestem Creek near Carrington</Description>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
   <Site>
     <Latitude>47.4575</Latitude>

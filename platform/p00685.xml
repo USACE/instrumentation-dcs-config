@@ -2,7 +2,7 @@
 <Platform PlatformId="685">
   <Description>North Platte River at Bridgeport Browns Cr Channel</Description>
   <Agency>NE DNR</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:20</LastModifyTime>
   <Site>
     <Latitude>41.682222222222</Latitude>

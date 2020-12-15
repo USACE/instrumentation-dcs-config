@@ -2,7 +2,7 @@
 <Platform PlatformId="163">
   <Description>Heart Butte Dam on Heart R, ND</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:50</LastModifyTime>
   <Site>
     <Latitude>46.597916</Latitude>

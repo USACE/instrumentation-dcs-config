@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Platform PlatformId="673">
   <Agency>USGS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:19</LastModifyTime>
   <Site>
     <Latitude>44.66720664</Latitude>

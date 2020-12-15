@@ -2,7 +2,7 @@
 <Platform PlatformId="546">
   <Description>KEG CREEK AT EPPERSON AVENUE NEAR GLENWOOD 4 NE</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
   <Site>
     <Latitude>41.1022222</Latitude>

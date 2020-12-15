@@ -2,7 +2,7 @@
 <Platform PlatformId="258">
   <Description>Shoshone River nr Lovell, WY</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:54</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

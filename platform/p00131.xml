@@ -2,7 +2,7 @@
 <Platform PlatformId="131">
   <Description>Smoky Hill R at Enterprise, KS</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:49</LastModifyTime>
   <Site>
     <Latitude>38.90639</Latitude>

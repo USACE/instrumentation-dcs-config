@@ -2,7 +2,7 @@
 <Platform PlatformId="487">
   <Description>Marais des Cygnes nr KS-MO St Ln</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:06</LastModifyTime>
   <Site>
     <Latitude>38.21861111</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="273">
   <Description>Sappa Creek near Stamford, NE</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:55</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

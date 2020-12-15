@@ -2,7 +2,7 @@
 <Platform PlatformId="469">
   <Description>Salt Cr Dam 13 in Lincoln, NE</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:05</LastModifyTime>
   <Site>
     <Latitude>40.824982</Latitude>

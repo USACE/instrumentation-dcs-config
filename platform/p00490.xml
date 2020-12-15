@@ -2,7 +2,7 @@
 <Platform PlatformId="490">
   <Description>Monona-H Ditch nr Turin, IA</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:06</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

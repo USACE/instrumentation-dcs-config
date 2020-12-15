@@ -2,7 +2,7 @@
 <Platform PlatformId="595">
   <Description>South Platte River at North Platte, NE</Description>
   <Agency>NEBDNR</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:15</LastModifyTime>
   <Site>
     <Latitude>41.11806</Latitude>

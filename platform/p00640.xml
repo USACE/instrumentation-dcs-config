@@ -6,7 +6,7 @@
     CH 38, TX Time 00:16:10
   </Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:17</LastModifyTime>
   <Site>
     <Latitude>48.319618</Latitude>

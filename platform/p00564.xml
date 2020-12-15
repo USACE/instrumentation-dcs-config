@@ -2,7 +2,7 @@
 <Platform PlatformId="564">
   <Description>Sun River bl Willow Cr nr Augusta, MT</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
   <Site>
     <Latitude>47.5027778</Latitude>

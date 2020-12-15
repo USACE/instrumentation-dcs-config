@@ -2,7 +2,7 @@
 <Platform PlatformId="537">
   <Description>Missouri River at Waverly, MO</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:09</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

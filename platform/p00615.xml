@@ -3,7 +3,7 @@
   <Description>Fort Peck Dam DCP</Description>
   <PlatformDesignator>FTPK</PlatformDesignator>
   <Agency>USACE</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:16</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

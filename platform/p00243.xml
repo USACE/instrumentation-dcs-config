@@ -2,7 +2,7 @@
 <Platform PlatformId="243">
   <Description>Shadehill Dam on the Grand R, SD</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:54</LastModifyTime>
   <Site>
     <Latitude>45.752972</Latitude>

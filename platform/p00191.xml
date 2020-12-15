@@ -2,7 +2,7 @@
 <Platform PlatformId="191">
   <Description>S Fk Char R at Promise City, IA</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:51</LastModifyTime>
   <Site>
     <Latitude>40.800556</Latitude>

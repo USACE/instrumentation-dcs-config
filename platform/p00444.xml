@@ -2,7 +2,7 @@
 <Platform PlatformId="444">
   <Description>Little Laramie River near Filmore</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:04</LastModifyTime>
   <Site>
     <Latitude>41.2997222</Latitude>

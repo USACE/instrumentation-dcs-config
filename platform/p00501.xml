@@ -2,7 +2,7 @@
 <Platform PlatformId="501">
   <Description>Weeping Water Creek at Union, NE</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:06</LastModifyTime>
   <Site>
     <Latitude>40.793927</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="593">
   <Description>North Platte River At Lisco, NE</Description>
   <Agency>NEBDNR</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:15</LastModifyTime>
   <Site>
     <Latitude>41.490111741166</Latitude>

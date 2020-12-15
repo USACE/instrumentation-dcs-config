@@ -4,7 +4,7 @@
     EMERGENCY GAGE - James River on 17th Ave. in Jamestown, ND
   </Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:03</LastModifyTime>
   <Site>
     <Latitude>46.9297222</Latitude>

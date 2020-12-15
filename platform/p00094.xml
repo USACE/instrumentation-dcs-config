@@ -2,7 +2,7 @@
 <Platform PlatformId="94">
   <Description>North Platte River at Casper, WY</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:47</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

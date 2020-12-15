@@ -2,7 +2,7 @@
 <Platform PlatformId="264">
   <Description>South Platte at 64th AVE. Commerce, CO</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:54</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

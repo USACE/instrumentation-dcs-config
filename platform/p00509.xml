@@ -2,7 +2,7 @@
 <Platform PlatformId="509">
   <Description>EF Vermillion R nr Parker, SD</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:07</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

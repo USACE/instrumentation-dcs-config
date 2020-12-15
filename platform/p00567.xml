@@ -3,7 +3,7 @@
   <Description>Little Salt Creek near Lincoln, NE</Description>
   <PlatformDesignator>D1101612</PlatformDesignator>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:11</LastModifyTime>
   <Site>
     <Latitude>40.8930556</Latitude>

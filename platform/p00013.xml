@@ -2,7 +2,7 @@
 <Platform PlatformId="13">
   <Description>Floyd River at Alton, IA</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true/<IsProduction>
+  <IsProduction>false/<IsProduction>
   <LastModifyTime>08/31/2020 15:53:35</LastModifyTime>
   <Site>
     <Latitude>42.9819444</Latitude>

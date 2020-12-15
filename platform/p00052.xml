@@ -2,7 +2,7 @@
 <Platform PlatformId="52">
   <Description>Blackwater R at Blue Lick, MO</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:37</LastModifyTime>
   <Site>
     <Latitude>38.99222</Latitude>

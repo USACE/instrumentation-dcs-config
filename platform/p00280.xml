@@ -2,7 +2,7 @@
 <Platform PlatformId="280">
   <Description>B Sioux R at N Cliff S Falls, SD</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:55</LastModifyTime>
   <Site>
     <Latitude>43.34013</Latitude>

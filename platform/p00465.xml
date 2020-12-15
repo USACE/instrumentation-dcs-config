@@ -2,7 +2,7 @@
 <Platform PlatformId="465">
   <Description>Delaware R below Perry Lake &#92;n</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:05</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

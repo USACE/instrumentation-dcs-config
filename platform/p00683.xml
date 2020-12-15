@@ -2,7 +2,7 @@
 <Platform PlatformId="683">
   <Description>Bighorn River at two leggins bridge, Near hardin</Description>
   <Agency>USGS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:20</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="551">
   <Description>L Popo Agie River near Lander</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
   <Site>
     <Latitude>42.7666667</Latitude>

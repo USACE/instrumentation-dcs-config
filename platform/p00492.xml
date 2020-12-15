@@ -2,7 +2,7 @@
 <Platform PlatformId="492">
   <Description>Tarryall Cr at Upper Station nr Como, CO</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:06</LastModifyTime>
   <Site>
     <Latitude>39.3319444</Latitude>

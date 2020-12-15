@@ -2,7 +2,7 @@
 <Platform PlatformId="2">
   <Description>Marias R nr Chester, MT</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:35</LastModifyTime>
   <Site>
     <Latitude>48.30596111</Latitude>

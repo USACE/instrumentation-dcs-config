@@ -2,7 +2,7 @@
 <Platform PlatformId="584">
   <Description>Teton River near Dutton, Montana</Description>
   <Agency>USGS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:12</LastModifyTime>
   <Site>
     <Latitude>47.930277777778</Latitude>

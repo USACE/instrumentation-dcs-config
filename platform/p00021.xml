@@ -2,7 +2,7 @@
 <Platform PlatformId="21">
   <Description>James River at Arrowwood NWR, ND</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:36</LastModifyTime>
   <Site>
     <Latitude>47.259216</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="232">
   <Description>Boysen Dam on the Wind River, WY</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:53</LastModifyTime>
   <Site>
     <Latitude>43.417393</Latitude>

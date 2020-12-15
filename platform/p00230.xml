@@ -2,7 +2,7 @@
 <Platform PlatformId="230">
   <Description>Milk River near Saco, MT</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:53</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

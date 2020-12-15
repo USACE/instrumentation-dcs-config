@@ -2,7 +2,7 @@
 <Platform PlatformId="540">
   <Description>Willow Creek near Watertown, SD</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:09</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

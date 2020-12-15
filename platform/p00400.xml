@@ -2,7 +2,7 @@
 <Platform PlatformId="400">
   <Description>N Fk Milk R nr Browning, MT</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:01</LastModifyTime>
   <Site>
     <Latitude>48.9633333</Latitude>

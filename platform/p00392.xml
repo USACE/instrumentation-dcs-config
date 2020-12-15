@@ -2,7 +2,7 @@
 <Platform PlatformId="392">
   <Description>Marais des Cygnes R nr Quen, KS</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:00</LastModifyTime>
   <Site>
     <Latitude>38.516111111111</Latitude>

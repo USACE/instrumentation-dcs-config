@@ -2,7 +2,7 @@
 <Platform PlatformId="90">
   <Description>Republican R at Concordia, KS</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:47</LastModifyTime>
   <Site>
     <Latitude>39.58861</Latitude>

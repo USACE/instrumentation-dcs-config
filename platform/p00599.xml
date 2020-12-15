@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Platform PlatformId="599">
   <Description>06035000 Willow Creek near Harrison MT - WHMT*</Description>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:15</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

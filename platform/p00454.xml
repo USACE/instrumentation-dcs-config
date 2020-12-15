@@ -2,7 +2,7 @@
 <Platform PlatformId="454">
   <Description>North Platte River at Orin, WY</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:05</LastModifyTime>
   <Site>
     <Latitude>42.65252778</Latitude>

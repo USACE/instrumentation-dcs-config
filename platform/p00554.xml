@@ -2,7 +2,7 @@
 <Platform PlatformId="554">
   <Description>Fivemile Creek near Shoshoni</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
   <Site>
     <Latitude>43.2219444</Latitude>

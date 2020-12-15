@@ -2,7 +2,7 @@
 <Platform PlatformId="647">
   <Description>Platte City, Mo Platte River</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:17</LastModifyTime>
   <Site>
     <Latitude>39.374444444444</Latitude>

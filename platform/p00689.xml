@@ -2,7 +2,7 @@
 <Platform PlatformId="689">
   <Description>WEST PAPILLION CREEK AT MILLARD AVENUE NEAR MILLARD</Description>
   <Agency>USGS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:20</LastModifyTime>
   <Site>
     <Latitude>41.207085</Latitude>

@@ -2,7 +2,7 @@
 <Platform PlatformId="570">
   <Description>Rapid Creek above Johnson Siding, SD</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:11</LastModifyTime>
   <Site>
     <Latitude>44.081944444444</Latitude>

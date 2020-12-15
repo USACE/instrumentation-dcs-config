@@ -2,7 +2,7 @@
 <Platform PlatformId="660">
   <Description>Cole Creek at Blondo Street At Omaha, Nebr.</Description>
   <Agency>USGS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:17</LastModifyTime>
   <Site>
     <Latitude>41.277663</Latitude>

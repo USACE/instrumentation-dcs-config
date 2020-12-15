@@ -2,7 +2,7 @@
 <Platform PlatformId="541">
   <Description>Missouri R at Isaac Walton, SD</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:09</LastModifyTime>
   <Site>
     <Latitude>44.3371884</Latitude>

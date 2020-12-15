@@ -2,7 +2,7 @@
 <Platform PlatformId="547">
   <Description>North Platte River below Guernsey Res</Description>
   <Agency>cwms</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:10</LastModifyTime>
   <Site>
     <Latitude>42.2805556</Latitude>

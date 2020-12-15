@@ -2,7 +2,7 @@
 <Platform PlatformId="459">
   <Description>Marais des Cygnes R nr Ottwa, KS</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:05</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>

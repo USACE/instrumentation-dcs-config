@@ -2,7 +2,7 @@
 <Platform PlatformId="519">
   <Description>Wind River at Riverton, WY</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:07</LastModifyTime>
   <Site>
     <Latitude>43.01055556</Latitude>

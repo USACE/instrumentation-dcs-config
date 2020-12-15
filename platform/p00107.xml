@@ -2,7 +2,7 @@
 <Platform PlatformId="107">
   <Description>Sac River near Dadeville, MO</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:53:47</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>
