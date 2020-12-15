@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<NetworkList Name="nwdm">
+  <TransportMediumType>goes</TransportMediumType>
+  <SiteNameTypePreference>nwshb5</SiteNameTypePreference>
+  <NetworkListEntry TransportId="CE122654">
+    <PlatformName>CHCR-Cherry_Creek_Dam-Cherry</PlatformName>
+    <Description>Cherry Creek Dam in Denver, CO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE1213CE">
+    <PlatformName>GWSD-Greenwood-Missouri</PlatformName>
+    <Description>Missouri River at Greenwood, SD</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE12655E">
+    <PlatformName>MACM-Macon-East_Fork_Little_Chariton</PlatformName>
+    <Description>E Fk L Chariton R nr Macon, MO</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE1286AC">
+    <PlatformName>PONE-Ponca-Missouri</PlatformName>
+    <Description>Missouri River at Ponca, NE</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE1200B8">
+    <PlatformName>SHND-Schmidt-Missouri</PlatformName>
+    <Description>Missouri River at Schmidt, ND</Description>
+  </NetworkListEntry>
+  <NetworkListEntry TransportId="CE127628">
+    <PlatformName>STND-Stanton-Missouri</PlatformName>
+    <Description>Missouri River at Stanton, ND</Description>
+  </NetworkListEntry>
+</NetworkList>
