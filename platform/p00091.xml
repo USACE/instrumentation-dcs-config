@@ -3,7 +3,7 @@
   <Description>Turkey Creek at Conifer, CO</Description>
   <Agency>cwms</Agency>
   <IsProduction>false</IsProduction>
-  <LastModifyTime>08/31/2020 15:53:47</LastModifyTime>
+  <LastModifyTime>12/15/2020 17:06:53</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>
     <Longitude>0</Longitude>
@@ -16,6 +16,61 @@
       Turkey Creek at Conifer, CO
     </SiteProperty>
   </Site>
+  <PlatformConfig ConfigName="NWO-CNCL">
+    <Description>Clear Creek nr Lawson, CO</Description>
+    <EquipmentModel Name="Sutron 8004">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Sutron</Company>
+      <Model>8004E</Model>
+      <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+    </EquipmentModel>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>cum_prec</SensorName>
+      <DataType Standard="SHEF-PE" Code="PC"/>
+      <DataType Standard="CWMS" Code="Precip"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>01:00</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="3">
+      <SensorName>battvolt</SensorName>
+      <DataType Standard="SHEF-PE" Code="VB"/>
+      <DataType Standard="CWMS" Code="Volt"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>04:00</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes</ScriptType>
+      <FormatStatement Label="st">
+        14X,16(F(S,A,5D&quot; &quot;,1)),11X,(F(S,A,4,3))
+      </FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="INCHES">
+          <Algorithm>linear</Algorithm>
+          <A>1.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="3">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="VOLTS">
+          <Algorithm>linear</Algorithm>
+          <A>1.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
   <TransportMedium MediumType="goes-self-timed" MediumId="CE517C28">
     <DecodesScript ScriptName="ST"/>
     <EquipmentModel Name="Sutron 8004">

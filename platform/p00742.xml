@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="742">
+  <Description>06035000 Willow Creek near Harrison MT - WHMT*</Description>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>12/15/2020 17:07:22</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <Description>WILLOW CREEK NEAR HARRISON 3NE</Description>
+    <SiteName NameType="CWMS">WHMT</SiteName>
+    <SiteName NameType="nwshb5">WCHM8</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06035000
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      WILLOW CREEK NEAR HARRISON 3NE
+    </SiteProperty>
+  </Site>
+  <PlatformConfig ConfigName="NWO-WHMT">
+    <Description></Description>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>Stage</SensorName>
+      <DataType Standard="SHEF-PE" Code="HG"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes</ScriptType>
+      <FormatStatement Label="ST">4X,12(F(S,B,3,1)),F(S,B,1,3)</FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
+  <TransportMedium MediumType="goes-self-timed" MediumId="171C83FC">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>70</ChannelNum>
+    <AssignedTime>00:21:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

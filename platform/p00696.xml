@@ -2,7 +2,7 @@
 <Platform PlatformId="696">
   <Description>Papillion Cr at Ft Crook Rd, NE</Description>
   <Agency>CWMS</Agency>
-  <IsProduction>true</IsProduction>
+  <IsProduction>false</IsProduction>
   <LastModifyTime>08/31/2020 15:54:20</LastModifyTime>
   <Site>
     <Latitude>41.1178333</Latitude>

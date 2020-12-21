@@ -3,7 +3,7 @@
   <Description>Blue River at Bannister, KS</Description>
   <Agency>CWMS</Agency>
   <IsProduction>false</IsProduction>
-  <LastModifyTime>08/31/2020 15:53:57</LastModifyTime>
+  <LastModifyTime>12/15/2020 17:07:08</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>
     <Longitude>0</Longitude>
@@ -17,6 +17,291 @@
     </SiteName>
     <SiteProperty PropertyName="PUBLIC_NAME">KACM-Bannister-Blue</SiteProperty>
   </Site>
+  <PlatformConfig ConfigName="NWK-KACM-001">
+    <Description>Bannister</Description>
+    <ConfigSensor SensorNumber="2">
+      <SensorName>STAGE</SensorName>
+      <DataType Standard="SHEF-PE" Code="HG"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="3">
+      <SensorName>WATERTEMP</SensorName>
+      <DataType Standard="SHEF-PE" Code="TW"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="4">
+      <SensorName>WaterConduct</SensorName>
+      <DataType Standard="SHEF-PE" Code="WC"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="5">
+      <SensorName>PH</SensorName>
+      <DataType Standard="SHEF-PE" Code="WP"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="6">
+      <SensorName>Turbidity</SensorName>
+      <DataType Standard="SHEF-PE" Code="WT"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="7">
+      <SensorName>DisolvedOxygen</SensorName>
+      <DataType Standard="SHEF-PE" Code="DO"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="8">
+      <SensorName>DOSaturation</SensorName>
+      <DataType Standard="SHEF-PE" Code="ST"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="9">
+      <SensorName>BATVT</SensorName>
+      <DataType Standard="SHEF-PE" Code="VB"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>01:00</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="10">
+      <SensorName>unknown</SensorName>
+      <DataType Standard="SHEF-PE" Code="XX"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <DecodesScript ScriptName="RD">
+      <ScriptType>Decodes</ScriptType>
+      <FormatStatement Label="rd">
+        2X,3(F(S,B,3,11),F(S,B,3,10)),2x,F(S,B,1,12)
+      </FormatStatement>
+      <ScriptSensor SensorNumber="2">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="3">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="4">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="5">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="6">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="7">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="8">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="9">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="10">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes</ScriptType>
+      <FormatStatement Label="st">
+        4X,4(F(S,B,3,10),f(S,b,3,2),f(S,b,3,3),f(S,b,3,4),f(S,b,3,5),f(S,b,3,6),f(S,b,3,7),f(s,b,3,8)),12x,F(S,A,5d&apos;
+        &apos;,9)
+      </FormatStatement>
+      <ScriptSensor SensorNumber="2">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="FT">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>1.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="3">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="DEG F">
+          <Algorithm>linear</Algorithm>
+          <A>0.018</A>
+          <B>32.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="4">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>linear</Algorithm>
+          <A>1.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="5">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="6">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>linear</Algorithm>
+          <A>0.1</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="7">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>1.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="8">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>linear</Algorithm>
+          <A>0.1</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="9">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>linear</Algorithm>
+          <A>1.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="10">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
   <TransportMedium MediumType="goes-random" MediumId="CE745238">
     <DecodesScript ScriptName="RD"/>
     <ChannelNum>128</ChannelNum>

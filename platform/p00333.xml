@@ -3,7 +3,7 @@
   <Description>Yellowstone R nr Livingston, MT</Description>
   <Agency>CWMS</Agency>
   <IsProduction>false</IsProduction>
-  <LastModifyTime>08/31/2020 15:53:58</LastModifyTime>
+  <LastModifyTime>12/15/2020 17:09:36</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>
     <Longitude>0</Longitude>
@@ -17,6 +17,177 @@
       LVMT-Livingston-Yellowstone
     </SiteProperty>
   </Site>
+  <PlatformConfig ConfigName="MRR-LVMT">
+    <Description>
+      Yellowstone River at Livingston, MT--changed format to 32-15 min values
+      added TW,TA,XX(HG5), YY(HG6) the HG5 and HG6 are stages at a downstream
+      location and we do not want them at this time. 7/17/06 Binary format not
+      corps site we do not pay for this site.
+    </Description>
+    <EquipmentModel Name="Sutron 8200">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Sutron</Company>
+      <Model>8200</Model>
+      <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+    </EquipmentModel>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>stage</SensorName>
+      <DataType Standard="SHEF-PE" Code="HG"/>
+      <DataType Standard="CWMS" Code="Stage"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <EquipmentModel Name="Sutron 8200">
+        <EquipmentType>DCP</EquipmentType>
+        <Company>Sutron</Company>
+        <Model>8200</Model>
+        <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+      </EquipmentModel>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="2">
+      <SensorName>battvolt</SensorName>
+      <DataType Standard="SHEF-PE" Code="VB"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>01:00</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <EquipmentModel Name="Sutron 8200">
+        <EquipmentType>DCP</EquipmentType>
+        <Company>Sutron</Company>
+        <Model>8200</Model>
+        <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+      </EquipmentModel>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="3">
+      <SensorName>wtemp</SensorName>
+      <DataType Standard="SHEF-PE" Code="TW"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <EquipmentModel Name="Sutron 8200">
+        <EquipmentType>DCP</EquipmentType>
+        <Company>Sutron</Company>
+        <Model>8200</Model>
+        <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+      </EquipmentModel>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="4">
+      <SensorName>temp_air</SensorName>
+      <DataType Standard="SHEF-PE" Code="TA"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <EquipmentModel Name="Sutron 8200">
+        <EquipmentType>DCP</EquipmentType>
+        <Company>Sutron</Company>
+        <Model>8200</Model>
+        <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+      </EquipmentModel>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="5">
+      <SensorName>stage</SensorName>
+      <DataType Standard="SHEF-PE" Code="XX"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <EquipmentModel Name="Sutron 8200">
+        <EquipmentType>DCP</EquipmentType>
+        <Company>Sutron</Company>
+        <Model>8200</Model>
+        <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+      </EquipmentModel>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="6">
+      <SensorName>stage</SensorName>
+      <DataType Standard="SHEF-PE" Code="YY"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <EquipmentModel Name="Sutron 8200">
+        <EquipmentType>DCP</EquipmentType>
+        <Company>Sutron</Company>
+        <Model>8200</Model>
+        <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+      </EquipmentModel>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes</ScriptType>
+      <FormatStatement Label="st">
+        4X,12(F(S,I,3,1)),12(F(S,I,3,3)),12(F(S,I,3,4)),F(S,B,1,2)
+      </FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="FEET">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="2">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="VOLTS">
+          <Algorithm>linear</Algorithm>
+          <A>0.234</A>
+          <B>10.6</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="3">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="DEGC">
+          <Algorithm>linear</Algorithm>
+          <A>0.1</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="4">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>linear</Algorithm>
+          <A>0.1</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="5">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>linear</Algorithm>
+          <A>0.1</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="6">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>linear</Algorithm>
+          <A>0.1</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
   <TransportMedium MediumType="goes-self-timed" MediumId="DDE53060">
     <DecodesScript ScriptName="ST"/>
     <EquipmentModel Name="Sutron 8200">

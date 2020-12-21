@@ -3,7 +3,7 @@
   <Description>Missouri River at Williston, ND</Description>
   <Agency>CWMS</Agency>
   <IsProduction>false</IsProduction>
-  <LastModifyTime>08/31/2020 15:54:08</LastModifyTime>
+  <LastModifyTime>12/15/2020 17:09:37</LastModifyTime>
   <Site>
     <Latitude>0</Latitude>
     <Longitude>0</Longitude>
@@ -19,6 +19,118 @@
       WSN-Williston-Missouri
     </SiteProperty>
   </Site>
+  <PlatformConfig ConfigName="MRR-WSN">
+    <Description>
+      Missouri River at Williston, ND&#92;n3 par TW,VB, and HG 32 -15 min values
+    </Description>
+    <EquipmentModel Name="Sutron 8200">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Sutron</Company>
+      <Model>8200</Model>
+      <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+    </EquipmentModel>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>Water Temp</SensorName>
+      <DataType Standard="SHEF-PE" Code="TW"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="2">
+      <SensorName>battvolt</SensorName>
+      <DataType Standard="SHEF-PE" Code="VB"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="3">
+      <SensorName>Stage-Orifice</SensorName>
+      <DataType Standard="SHEF-PE" Code="HG"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="4">
+      <SensorName>stage</SensorName>
+      <DataType Standard="SHEF-PE" Code="HC"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="5">
+      <SensorName>battvolt</SensorName>
+      <DataType Standard="SHEF-PE" Code="VB"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">R</ConfigSensorProperty>
+    </ConfigSensor>
+    <DecodesScript ScriptName="st">
+      <ScriptType>Decodes</ScriptType>
+      <FormatStatement Label="st">
+        4X,8(F(S,B,3,3)),8(3X),8(F(S,B,3,1)),8(F(S,B,3,5))
+      </FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Deg C">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="2">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Volts">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="3">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="4">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.1</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="5">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Volts">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
   <TransportMedium MediumType="goes-self-timed" MediumId="1636B9AA">
     <DecodesScript ScriptName="st"/>
     <ChannelNum>70</ChannelNum>

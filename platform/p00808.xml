@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="808">
+  <Agency>CMWS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>12/15/2020 17:07:23</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <SiteName NameType="CWMS">VGNE-Verdigre-Verdigre_Creek</SiteName>
+  </Site>
+  <PlatformConfig ConfigName="MRR-VGNE">
+    <Description>Verdigre Creek near Verdigre 4N, Nebaraska</Description>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>Stage</SensorName>
+      <DataType Standard="SHEF-PE" Code="HG"/>
+      <DataType Standard="CWMS" Code="Stage"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="2">
+      <SensorName>Precip</SensorName>
+      <DataType Standard="SHEF-PE" Code="PC"/>
+      <DataType Standard="CWMS" Code="Precip"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="3">
+      <SensorName>Air Temp</SensorName>
+      <DataType Standard="SHEF-PE" Code="TA"/>
+      <DataType Standard="CWMS" Code="Temp-Air"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes</ScriptType>
+      <FormatStatement Label="ST">
+        4X,8(F(S,B,3,1)),8(F(S,B,3,2)),8(F(s,b,3,3)),f(S,b,3,4)
+      </FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.06</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="2">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Inches">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.01</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="3">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="F">
+          <Algorithm>linear</Algorithm>
+          <A>0.0018</A>
+          <B>32.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DD9EB070">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>154</ChannelNum>
+    <AssignedTime>00:57:40</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

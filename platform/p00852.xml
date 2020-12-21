@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="852">
+  <Description>Missouri River at Blair, NE</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>12/15/2020 17:09:37</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>297.88104</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Central</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>NE</State>
+    <NearestCity>Fremont</NearestCity>
+    <SiteName NameType="CWMS">BLNE-Blair-Missouri</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Missouri River at Blair, NE
+    </SiteProperty>
+  </Site>
+  <PlatformConfig ConfigName="NWO-BLNE">
+    <Description>Missouri River at Blair, NE</Description>
+    <EquipmentModel Name="Sutron 8200">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Sutron</Company>
+      <Model>8200</Model>
+      <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+    </EquipmentModel>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>cum_prec</SensorName>
+      <DataType Standard="SHEF-PE" Code="PC"/>
+      <DataType Standard="CWMS" Code="Precip"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="2">
+      <SensorName>stage</SensorName>
+      <DataType Standard="SHEF-PE" Code="HG"/>
+      <DataType Standard="CWMS" Code="Stage"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <AbsoluteMin>0.0</AbsoluteMin>
+      <AbsoluteMax>46.5</AbsoluteMax>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="3">
+      <SensorName>battvolt</SensorName>
+      <DataType Standard="SHEF-PE" Code="VB"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>01:00</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes</ScriptType>
+      <FormatStatement Label="st">
+        4X,8(F(S,B,3,2),F(S,B,3,1)),F(S,B,1,3)
+      </FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="INCHES">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="2">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="FEET">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="3">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="VOLTS">
+          <Algorithm>linear</Algorithm>
+          <A>0.311</A>
+          <B>0.3124</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE5E0C2A">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>58</ChannelNum>
+    <AssignedTime>00:00:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

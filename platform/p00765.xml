@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="765">
+  <Description>Little Blue River at Hollenberg</Description>
+  <Agency>cwms</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>12/15/2020 17:07:22</LastModifyTime>
+  <Site>
+    <Latitude>39.980278</Latitude>
+    <Longitude>-97.004722</Longitude>
+    <Elevation>370.67</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>Etc/GMT-6</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>KS</State>
+    <NearestCity>Hollenberg</NearestCity>
+    <SiteName NameType="CWMS">HBGK-Hollenberg-Little_Blue</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Little Blue River at Hollenberg
+    </SiteProperty>
+  </Site>
+  <PlatformConfig ConfigName="NWK-HBGK-001">
+    <Description>Little Blue River at Hollenberg, KS</Description>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>stage</SensorName>
+      <DataType Standard="SHEF-PE" Code="HG"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="2">
+      <SensorName>BATVT</SensorName>
+      <DataType Standard="SHEF-PE" Code="VB"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes</ScriptType>
+      <FormatStatement Label="ST">
+        4X,8F(S,B,3,1),24x,F(S,B,1,2)
+      </FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>usgs-standard</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>1.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="2">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>usgs-standard</Algorithm>
+          <A>0.234</A>
+          <B>0.0</B>
+          <C>1.0</C>
+          <D>10.6</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
+  <TransportMedium MediumType="goes-self-timed" MediumId="D10041F0">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>178</ChannelNum>
+    <AssignedTime>00:05:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

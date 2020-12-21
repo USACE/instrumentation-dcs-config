@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DataSource Name="eddn1" Type="lrgs">
+  <DataSourceArg>
+    hostname=cdadata.wcda.noaa.gov, port=16003, password=$EDDN1_PASSWORD,
+    username=$EDDN1_USERNAME
+  </DataSourceArg>
+</DataSource>

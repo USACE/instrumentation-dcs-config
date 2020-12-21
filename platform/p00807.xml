@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="807">
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>12/15/2020 17:07:23</LastModifyTime>
+  <Site>
+    <Latitude>45.19222</Latitude>
+    <Longitude>-112.142778</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Mountain</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>00</State>
+    <Description>Ruby River above Ruby Reservoir.06019500</Description>
+    <SiteName NameType="CWMS">RAMT</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06019500
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Ruby River above Reservoir
+    </SiteProperty>
+  </Site>
+  <PlatformConfig ConfigName="NWO-RAMT">
+    <Description></Description>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>Stage</SensorName>
+      <DataType Standard="SHEF-PE" Code="HG"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes</ScriptType>
+      <FormatStatement Label="ST">4x,12(F(S,B,3,1))</FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DD9C5676">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>154</ChannelNum>
+    <AssignedTime>00:47:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

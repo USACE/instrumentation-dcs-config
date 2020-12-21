@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="790">
+  <Description>Platte City, Mo Platte River</Description>
+  <Agency>CWMS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>12/15/2020 17:07:22</LastModifyTime>
+  <Site>
+    <Latitude>39.374444444444</Latitude>
+    <Longitude>-94.791944444444</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>GMT</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>MO</State>
+    <NearestCity>Platte City</NearestCity>
+    <Description>Platte City near Platte City, MO</Description>
+    <SiteName NameType="CWMS">PTEM-Platte City-Platte</SiteName>
+    <SiteName NameType="local">NWK-PTEM</SiteName>
+    <SiteName NameType="nwshb5">PTEM7</SiteName>
+  </Site>
+  <PlatformConfig ConfigName="NWK-PTEM-001">
+    <Description>Platte City, Mo</Description>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>Stage</SensorName>
+      <DataType Standard="SHEF-PE" Code="HG"/>
+      <DataType Standard="CWMS" Code="Stage"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:30</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <EquipmentModel Name="SU8200D">
+        <EquipmentType>DCP</EquipmentType>
+        <Company>SUTRON</Company>
+        <Model>SUTRON 8200 SERIES</Model>
+        <EquipmentProperty PropertyName="PlatformType">DCP</EquipmentProperty>
+        <EquipmentProperty PropertyName="RetrievalMethod">
+          DCP
+        </EquipmentProperty>
+        <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+      </EquipmentModel>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="2">
+      <SensorName>Precip</SensorName>
+      <DataType Standard="SHEF-PE" Code="PC"/>
+      <DataType Standard="CWMS" Code="Precip"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:30</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="3">
+      <SensorName>Battery</SensorName>
+      <DataType Standard="SHEF-PE" Code="VB"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:30</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="4">
+      <SensorName>stage</SensorName>
+      <DataType Standard="SHEF-PE" Code="HG"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="5">
+      <SensorName>Precip</SensorName>
+      <DataType Standard="SHEF-PE" Code="PC"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="6">
+      <SensorName>battery</SensorName>
+      <DataType Standard="SHEF-PE" Code="VB"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes</ScriptType>
+      <FormatStatement Label="ST">
+        4X,4(F(S,B,3,1)),4(F(S,B,3,2)),F(S,B,1,3)
+      </FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="FEET">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="2">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="IN">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="3">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>linear</Algorithm>
+          <A>0.234</A>
+          <B>10.599</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="4">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="5">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="6">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
+  <TransportMedium MediumType="goes-self-timed" MediumId="177C3240">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>105</ChannelNum>
+    <AssignedTime>00:05:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

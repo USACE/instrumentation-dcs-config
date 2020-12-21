@@ -3,7 +3,7 @@
   <Description>Kirwin Res at Kirwin, KS</Description>
   <Agency>CWMS</Agency>
   <IsProduction>false</IsProduction>
-  <LastModifyTime>08/31/2020 15:53:57</LastModifyTime>
+  <LastModifyTime>12/15/2020 17:07:09</LastModifyTime>
   <Site>
     <Latitude>39.66314683</Latitude>
     <Longitude>-99.12840685</Longitude>
@@ -23,6 +23,110 @@
     <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
     <SiteProperty PropertyName="PUBLIC_NAME">Kirwin Dam</SiteProperty>
   </Site>
+  <PlatformConfig ConfigName="NWK-KIRN-001">
+    <Description>KIRWIN RESERVOIR AT KIRWIN</Description>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>Precip</SensorName>
+      <DataType Standard="SHEF-PE" Code="PC"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">R</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="2">
+      <SensorName>Elev</SensorName>
+      <DataType Standard="SHEF-PE" Code="HF"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">R</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="3">
+      <SensorName>battery</SensorName>
+      <DataType Standard="SHEF-PE" Code="VB"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    </ConfigSensor>
+    <DecodesScript ScriptName="RD">
+      <ScriptType>Decodes</ScriptType>
+      <FormatStatement Label="rd">
+        2X,(F(S,B,3,1),F(S,B,3,2)),F(S(,B,1,3)
+      </FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="FT">
+          <Algorithm>linear</Algorithm>
+          <A>1.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="2">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="FT">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>1700.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="3">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="VB">
+          <Algorithm>linear</Algorithm>
+          <A>0.234</A>
+          <B>10.59</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes</ScriptType>
+      <FormatStatement Label="st">
+        4x,4(F(S,B,3,2)),4(F(S,B,3,1))
+      </FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="2">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>1700.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="3">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+          <Algorithm>linear</Algorithm>
+          <A>0.234</A>
+          <B>10.59</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
   <TransportMedium MediumType="goes-random" MediumId="348C06F2">
     <DecodesScript ScriptName="RD"/>
     <ChannelNum>128</ChannelNum>

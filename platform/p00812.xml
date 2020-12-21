@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="812">
+  <Description>Turkey Creek above Bear Lake near Morrison, Co</Description>
+  <Agency>CO-DWR</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>12/15/2020 17:09:37</LastModifyTime>
+  <Site>
+    <Latitude>39.640708</Latitude>
+    <Longitude>-105.15935</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <NearestCity>Morrison</NearestCity>
+    <SiteName NameType="CWMS">TUCO</SiteName>
+    <SiteName NameType="local">NWO-TUCO</SiteName>
+    <SiteName NameType="nwshb5">TUYC2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      06711040
+    </SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Turkey Cr ab Bear Creek Res
+    </SiteProperty>
+  </Site>
+  <PlatformConfig ConfigName="NWO-TUCO">
+    <Description></Description>
+    <EquipmentModel Name="Sutron 8200">
+      <EquipmentType>DCP</EquipmentType>
+      <Company>Sutron</Company>
+      <Model>8200</Model>
+      <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+    </EquipmentModel>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>Stage</SensorName>
+      <DataType Standard="SHEF-PE" Code="HG"/>
+      <DataType Standard="CWMS" Code="Stage"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:05</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="2">
+      <SensorName>BattVolt</SensorName>
+      <DataType Standard="SHEF-PE" Code="VB"/>
+      <DataType Standard="CWMS" Code="BattVolt"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:05</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <EquipmentModel Name="Sutron 8200">
+        <EquipmentType>DCP</EquipmentType>
+        <Company>Sutron</Company>
+        <Model>8200</Model>
+        <EquipmentProperty PropertyName="TimeOrder">D</EquipmentProperty>
+      </EquipmentModel>
+      <ConfigSensorProperty PropertyName="TT">S</ConfigSensorProperty>
+    </ConfigSensor>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes</ScriptType>
+      <FormatStatement Label="st">4x,24(F(S,B,3,1)),F(S,B,1,2)</FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+          <Algorithm>linear</Algorithm>
+          <A>0.01</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="2">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+          <Algorithm>linear</Algorithm>
+          <A>0.234</A>
+          <B>10.6</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DE5F321C">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>46</ChannelNum>
+    <AssignedTime>00:24:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>00:05</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>
