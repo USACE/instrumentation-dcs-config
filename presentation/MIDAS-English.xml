@@ -1,266 +1,266 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<PresentationGroup Name="RSGIS-English">
+<PresentationGroup Name="MIDAS-English">
   <IsProduction>true</IsProduction>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Depth-Snow">
+    <DataType Standard="MIDAS" Code="Depth-Snow">
     </DataType>
     <UnitsAbbr>in</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Depth-Snowwater">
+    <DataType Standard="MIDAS" Code="Depth-Snowwater">
     </DataType>
     <UnitsAbbr>in</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Elevation">
+    <DataType Standard="MIDAS" Code="Elevation">
     </DataType>
     <UnitsAbbr>ft</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Elevation-Pool">
+    <DataType Standard="MIDAS" Code="Elevation-Pool">
     </DataType>
     <UnitsAbbr>ft</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Elevation-Tail">
+    <DataType Standard="MIDAS" Code="Elevation-Tail">
     </DataType>
     <UnitsAbbr>ft</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Flow">
+    <DataType Standard="MIDAS" Code="Flow">
     </DataType>
     <UnitsAbbr>cfs</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Flow-In">
+    <DataType Standard="MIDAS" Code="Flow-In">
     </DataType>
     <UnitsAbbr>cfs</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Flow-Out">
+    <DataType Standard="MIDAS" Code="Flow-Out">
     </DataType>
     <UnitsAbbr>cfs</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Height">
+    <DataType Standard="MIDAS" Code="Height">
     </DataType>
     <UnitsAbbr>ft</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Irrad">
+    <DataType Standard="MIDAS" Code="Irrad">
     </DataType>
     <UnitsAbbr>W/m2</UnitsAbbr>
     <MaxDecimals>3</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Opening">
+    <DataType Standard="MIDAS" Code="Opening">
     </DataType>
     <UnitsAbbr>ft</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Opening-East">
+    <DataType Standard="MIDAS" Code="Opening-East">
     </DataType>
     <UnitsAbbr>ft</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Opening-Rollers">
+    <DataType Standard="MIDAS" Code="Opening-Rollers">
     </DataType>
     <UnitsAbbr>ft</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Opening-Tainters">
+    <DataType Standard="MIDAS" Code="Opening-Tainters">
     </DataType>
     <UnitsAbbr>ft</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Opening-West">
+    <DataType Standard="MIDAS" Code="Opening-West">
     </DataType>
     <UnitsAbbr>ft</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Opening-Wickets">
+    <DataType Standard="MIDAS" Code="Opening-Wickets">
     </DataType>
     <UnitsAbbr>ft</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Power">
+    <DataType Standard="MIDAS" Code="Power">
     </DataType>
     <UnitsAbbr>kW</UnitsAbbr>
     <MaxDecimals>3</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Precipitation">
+    <DataType Standard="MIDAS" Code="Precipitation">
     </DataType>
     <UnitsAbbr>in</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Pressure">
+    <DataType Standard="MIDAS" Code="Pressure">
     </DataType>
     <UnitsAbbr>mb</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Rad">
+    <DataType Standard="MIDAS" Code="Rad">
     </DataType>
     <UnitsAbbr>J/m2</UnitsAbbr>
     <MaxDecimals>3</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Ratio">
+    <DataType Standard="MIDAS" Code="Ratio">
     </DataType>
     <UnitsAbbr>%</UnitsAbbr>
     <MaxDecimals>3</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Rotation">
+    <DataType Standard="MIDAS" Code="Rotation">
     </DataType>
     <UnitsAbbr>rev</UnitsAbbr>
     <MaxDecimals>3</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Speed">
+    <DataType Standard="MIDAS" Code="Speed">
     </DataType>
     <UnitsAbbr>mph</UnitsAbbr>
     <MaxDecimals>3</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Speed-Water">
+    <DataType Standard="MIDAS" Code="Speed-Water">
     </DataType>
     <UnitsAbbr>mph</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Speed-Wind">
+    <DataType Standard="MIDAS" Code="Speed-Wind">
     </DataType>
     <UnitsAbbr>mph</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="SpinRate">
+    <DataType Standard="MIDAS" Code="SpinRate">
     </DataType>
     <UnitsAbbr>rpm</UnitsAbbr>
     <MaxDecimals>3</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Stage">
+    <DataType Standard="MIDAS" Code="Stage">
     </DataType>
     <UnitsAbbr>ft</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Stage-Pool">
+    <DataType Standard="MIDAS" Code="Stage-Pool">
     </DataType>
     <UnitsAbbr>ft</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Stage-Tail">
+    <DataType Standard="MIDAS" Code="Stage-Tail">
     </DataType>
     <UnitsAbbr>ft</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Stor">
+    <DataType Standard="MIDAS" Code="Stor">
     </DataType>
     <UnitsAbbr>ac-ft</UnitsAbbr>
     <MaxDecimals>3</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Temperature">
+    <DataType Standard="MIDAS" Code="Temperature">
     </DataType>
     <UnitsAbbr>F</UnitsAbbr>
     <MaxDecimals>3</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Temperature-Air">
+    <DataType Standard="MIDAS" Code="Temperature-Air">
     </DataType>
     <UnitsAbbr>F</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Temperature-Water">
+    <DataType Standard="MIDAS" Code="Temperature-Water">
     </DataType>
     <UnitsAbbr>F</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Thickness">
+    <DataType Standard="MIDAS" Code="Thickness">
     </DataType>
     <UnitsAbbr>in</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Thickness-Ice">
+    <DataType Standard="MIDAS" Code="Thickness-Ice">
     </DataType>
     <UnitsAbbr>in</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Timing">
+    <DataType Standard="MIDAS" Code="Timing">
     </DataType>
     <UnitsAbbr>hr</UnitsAbbr>
     <MaxDecimals>3</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Travel">
+    <DataType Standard="MIDAS" Code="Travel">
     </DataType>
     <UnitsAbbr>ft</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Turbidity">
+    <DataType Standard="MIDAS" Code="Turbidity">
     </DataType>
     <UnitsAbbr>JTU</UnitsAbbr>
     <MaxDecimals>3</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="TurbidityF">
+    <DataType Standard="MIDAS" Code="TurbidityF">
     </DataType>
     <UnitsAbbr>FNU</UnitsAbbr>
     <MaxDecimals>3</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="TurbidityJ">
+    <DataType Standard="MIDAS" Code="TurbidityJ">
     </DataType>
     <UnitsAbbr>JTU</UnitsAbbr>
     <MaxDecimals>3</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="TurbidityN">
+    <DataType Standard="MIDAS" Code="TurbidityN">
     </DataType>
     <UnitsAbbr>NTU</UnitsAbbr>
     <MaxDecimals>3</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Voltage">
+    <DataType Standard="MIDAS" Code="Voltage">
     </DataType>
     <UnitsAbbr>V</UnitsAbbr>
     <MaxDecimals>3</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="Volume">
+    <DataType Standard="MIDAS" Code="Volume">
     </DataType>
     <UnitsAbbr>ac-ft</UnitsAbbr>
     <MaxDecimals>3</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="RSGIS" Code="pH">
+    <DataType Standard="MIDAS" Code="pH">
     </DataType>
     <UnitsAbbr>su</UnitsAbbr>
     <MaxDecimals>2</MaxDecimals>

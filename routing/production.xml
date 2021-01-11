@@ -24,7 +24,7 @@
   <UsePerformanceMeasurements>false</UsePerformanceMeasurements>
   <OutputFormat>emit-oracle</OutputFormat>
   <OutputTimeZone>UTC</OutputTimeZone>
-  <PresentationGroupName>RSGIS-English</PresentationGroupName>
+  <PresentationGroupName>MIDAS-English</PresentationGroupName>
   <ConsumerType>directory</ConsumerType>
   <ConsumerArg>/opendcs_output</ConsumerArg>
   <SinceTime>now - 2 hours</SinceTime>

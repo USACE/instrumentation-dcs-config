@@ -6,28 +6,28 @@
   </Description>
   <ConfigSensor SensorNumber="1">
     <SensorName>HP</SensorName>
-    <DataType Standard="RSGIS" Code="Elevation"/>
+    <DataType Standard="MIDAS" Code="Elevation"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:00</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="2">
     <SensorName>HT</SensorName>
-    <DataType Standard="RSGIS" Code="Elevation"/>
+    <DataType Standard="MIDAS" Code="Elevation"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:00</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="3">
     <SensorName>PC</SensorName>
-    <DataType Standard="RSGIS" Code="Precipitation"/>
+    <DataType Standard="MIDAS" Code="Precipitation"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:00</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="4">
     <SensorName>VB</SensorName>
-    <DataType Standard="RSGIS" Code="Volt"/>
+    <DataType Standard="MIDAS" Code="Volt"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:00</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
