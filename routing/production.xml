@@ -22,7 +22,7 @@
   </DataSource>
   <EnableEquations>false</EnableEquations>
   <UsePerformanceMeasurements>false</UsePerformanceMeasurements>
-  <OutputFormat>emit-oracle</OutputFormat>
+  <OutputFormat>cwms-oracle</OutputFormat>
   <OutputTimeZone>UTC</OutputTimeZone>
   <PresentationGroupName>MIDAS-English</PresentationGroupName>
   <ConsumerType>directory</ConsumerType>
@@ -36,7 +36,7 @@
     ,
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="dateFormat">
-    yyyy-MM-dd HH:mm z
+    yyyy-MM-dd&apos;T&apos;HH:mmZ
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="sc:SOURCE_0000">
     GOES_SELFTIMED
@@ -54,7 +54,7 @@
     l
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="dataType">
-    rsgis
+    midas
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="addMsgDelim">
     False

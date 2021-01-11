@@ -144,14 +144,6 @@
     <IsProduction>true</IsProduction>
     <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
   </PlatformXref>
-  <PlatformXref PlatformId="19">
-    <TransportXref MediumType="goes-self-timed" MediumId="CE437E42"/>
-    <SiteName NameType="CWMS">AKLN6</SiteName>
-    <Agency>CENAB</Agency>
-    <ConfigName>AKLN6-Pseudo-Shef</ConfigName>
-    <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
-  </PlatformXref>
   <PlatformXref PlatformId="20">
     <TransportXref MediumType="goes-self-timed" MediumId="CE7EEE36"/>
     <SiteName NameType="CWMS">PTGN6</SiteName>
@@ -223,5 +215,13 @@
     <ConfigName>OatkaCr-Warsaw</ConfigName>
     <IsProduction>true</IsProduction>
     <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="19">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE437E42"/>
+    <SiteName NameType="CWMS">AKLN6</SiteName>
+    <Agency>CENAB</Agency>
+    <ConfigName>AKLN6-Pseudo-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/11/2021 19:36:00</LastModifyTime>
   </PlatformXref>
 </PlatformList>

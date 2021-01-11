@@ -1,122 +1,512 @@
-<?xml version="1.0" standalone="yes"?>
+<?xml version="1.0" ?>
 <DataTypeEquivalenceList>
   <DataTypeEquivalence>
-    <DataType Standard="EPA-CODE" Code="00300"/>
+    <DataType Standard="CWMS" Code="Code-Surface Frost Intensity"/>
+    <DataType Standard="SHEF-PE" Code="AF"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="EPA-CODE" Code="00076"/>
+    <DataType Standard="CWMS" Code="%-Green Vegetation"/>
+    <DataType Standard="SHEF-PE" Code="AG"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="EPA-CODE" Code="00010"/>
-    <DataType Standard="SHEF-PE" Code="TW"/>
+    <DataType Standard="CWMS" Code="Code-Surface Dew Intensity"/>
+    <DataType Standard="SHEF-PE" Code="AM"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="SP"/>
+    <DataType Standard="CWMS" Code="Temp-Index"/>
+    <DataType Standard="SHEF-PE" Code="BD"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="SN"/>
+    <DataType Standard="CWMS" Code="Depth-SnowWE-Since Accum"/>
+    <DataType Standard="SHEF-PE" Code="BE"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="VP"/>
+    <DataType Standard="CWMS" Code="Depth-SnowWE-Before New Snow"/>
+    <DataType Standard="SHEF-PE" Code="BF"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="SL"/>
+    <DataType Standard="CWMS" Code="Depth-SnowWE"/>
+    <DataType Standard="SHEF-PE" Code="BH"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Depth-Excess Liquid Water"/>
+    <DataType Standard="SHEF-PE" Code="BI"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Precip-Antecedent Precip Index"/>
+    <DataType Standard="SHEF-PE" Code="CG"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Depth-Soil Moisture Deficit"/>
+    <DataType Standard="SHEF-PE" Code="CH"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Depth-Base Flow Storage"/>
+    <DataType Standard="SHEF-PE" Code="CI"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Depth-Base Flow Index"/>
+    <DataType Standard="SHEF-PE" Code="CJ"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Temp-Frost Index"/>
+    <DataType Standard="SHEF-PE" Code="CM"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="%-Frost Efficiency Index"/>
+    <DataType Standard="SHEF-PE" Code="CN"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Precip-Storm Total Rain"/>
+    <DataType Standard="SHEF-PE" Code="CP"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Precip-Storm Total Runoff"/>
+    <DataType Standard="SHEF-PE" Code="CQ"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Count-Storm Period"/>
+    <DataType Standard="SHEF-PE" Code="CT"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Temp-Air-Average"/>
+    <DataType Standard="SHEF-PE" Code="CU"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Evap-Storm Antecedent Evap Index"/>
+    <DataType Standard="SHEF-PE" Code="CW"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Evap-Potential"/>
+    <DataType Standard="SHEF-PE" Code="EA"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Evap-Pan"/>
+    <DataType Standard="SHEF-PE" Code="ED"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Evap-Transporation"/>
+    <DataType Standard="SHEF-PE" Code="EM"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Evap-Pan Increment"/>
+    <DataType Standard="SHEF-PE" Code="EP"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="EvapRate"/>
+    <DataType Standard="SHEF-PE" Code="ER"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Evap-Transporation"/>
+    <DataType Standard="SHEF-PE" Code="ET"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Evap-Lake"/>
+    <DataType Standard="SHEF-PE" Code="EV"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Fish-Shad"/>
+    <DataType Standard="SHEF-PE" Code="FA"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Fish-Sockey"/>
+    <DataType Standard="SHEF-PE" Code="FB"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Fish-Chinook"/>
+    <DataType Standard="SHEF-PE" Code="FC"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Fish-Chum"/>
+    <DataType Standard="SHEF-PE" Code="FE"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Fish-Coho"/>
+    <DataType Standard="SHEF-PE" Code="FK"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Count-Fish Ladder"/>
+    <DataType Standard="SHEF-PE" Code="FL"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Fish-Pink"/>
+    <DataType Standard="SHEF-PE" Code="FP"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Fish-Steelhead"/>
+    <DataType Standard="SHEF-PE" Code="FS"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Height-Altitude"/>
+    <DataType Standard="SHEF-PE" Code="HA"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Depth"/>
+    <DataType Standard="SHEF-PE" Code="HB"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Height-Ceiling"/>
+    <DataType Standard="SHEF-PE" Code="HC"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Height-Head"/>
+    <DataType Standard="SHEF-PE" Code="HD"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Height-Regulating Gate"/>
+    <DataType Standard="SHEF-PE" Code="HE"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Elev-Forebay"/>
+    <DataType Standard="SHEF-PE" Code="HF"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Stage"/>
+    <DataType Standard="SHEF-PE" Code="HG"/>
+    <DataType Standard="EPA-CODE" Code="00065"/>
+    <DataType Standard="MIDAS" Code="Stage"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Elev-MSL"/>
+    <DataType Standard="SHEF-PE" Code="HH"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Code-Stage Trend"/>
+    <DataType Standard="SHEF-PE" Code="HI"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Height-Spillway Gate"/>
+    <DataType Standard="SHEF-PE" Code="HJ"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Height-Lake"/>
+    <DataType Standard="SHEF-PE" Code="HK"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Elev-Lake"/>
+    <DataType Standard="SHEF-PE" Code="HL"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Height-Tide"/>
+    <DataType Standard="SHEF-PE" Code="HM"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Height-Flood Stage"/>
+    <DataType Standard="SHEF-PE" Code="HO"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Elev-Pool"/>
+    <DataType Standard="SHEF-PE" Code="HP"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Elev-Forebay"/>
+    <DataType Standard="SHEF-PE" Code="HS"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Elev-Tail"/>
+    <DataType Standard="SHEF-PE" Code="HT"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Height-Spillway Tail Water"/>
+    <DataType Standard="SHEF-PE" Code="HW"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Area-Lake"/>
+    <DataType Standard="SHEF-PE" Code="LA"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Stor-Delta"/>
+    <DataType Standard="SHEF-PE" Code="LC"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Stor"/>
+    <DataType Standard="SHEF-PE" Code="LS"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Opening-Total Gates"/>
+    <DataType Standard="SHEF-PE" Code="NG"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Count-Large Flash Board Down"/>
+    <DataType Standard="SHEF-PE" Code="NL"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Count-Spillway Gate Reported"/>
+    <DataType Standard="SHEF-PE" Code="NN"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Count-Small Flash Board Down"/>
+    <DataType Standard="SHEF-PE" Code="NS"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Pres-Atmosperic"/>
+    <DataType Standard="SHEF-PE" Code="PA"/>
+    <DataType Standard="EPA-CODE" Code="00047"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Precip-Cum"/>
     <DataType Standard="SHEF-PE" Code="PC"/>
     <DataType Standard="EPA-CODE" Code="00045"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="PA"/>
-    <DataType Standard="EPA-CODE" Code="00047"/> 
+    <DataType Standard="CWMS" Code="Pres-Sea Level"/>
+    <DataType Standard="SHEF-PE" Code="PL"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="VB"/>
-    <DataType Standard="EPA-CODE" Code="70969"/>
-    <DataType Standard="Hydstra-Code" Code="300"/>
+    <DataType Standard="CWMS" Code="Precip-Normal"/>
+    <DataType Standard="SHEF-PE" Code="PN"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="EPA-CODE" Code="00036"/>
+    <DataType Standard="CWMS" Code="Precip-Incremental"/>
+    <DataType Standard="SHEF-PE" Code="PP"/>
+    <DataType Standard="MIDAS" Code="Precipitation"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="UY"/>
+    <DataType Standard="CWMS" Code="Precip-Rate"/>
+    <DataType Standard="SHEF-PE" Code="PR"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="EPA-CODE" Code="00035"/>
+    <DataType Standard="CWMS" Code="Code-Precip Type"/>
+    <DataType Standard="SHEF-PE" Code="PT"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="UX"/>
+    <DataType Standard="CWMS" Code="Flow-Adjusted"/>
+    <DataType Standard="SHEF-PE" Code="QA"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="EPA-CODE" Code="00065"/>
-    <DataType Standard="SHEF-PE" Code="HG"/>
+    <DataType Standard="CWMS" Code="Depth-Runoff"/>
+    <DataType Standard="SHEF-PE" Code="QB"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="EPA-CODE" Code="00096"/>
+    <DataType Standard="CWMS" Code="Volume-Runoff"/>
+    <DataType Standard="SHEF-PE" Code="QC"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="EPA-CODE" Code="00095"/>
-    <DataType Standard="SHEF-PE" Code="WC"/>
+    <DataType Standard="CWMS" Code="Flow-Canal"/>
+    <DataType Standard="SHEF-PE" Code="QD"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="US"/>
+    <DataType Standard="CWMS" Code="%-Flow Diverted"/>
+    <DataType Standard="SHEF-PE" Code="QE"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="EPA-CODE" Code="00061"/>
+    <DataType Standard="CWMS" Code="Speed-Discharge"/>
+    <DataType Standard="SHEF-PE" Code="QF"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Flow-Gen"/>
+    <DataType Standard="SHEF-PE" Code="QG"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Flow-In"/>
+    <DataType Standard="SHEF-PE" Code="QI"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Flow-Pumping"/>
+    <DataType Standard="SHEF-PE" Code="QP"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Flow"/>
     <DataType Standard="SHEF-PE" Code="QR"/>
+    <DataType Standard="EPA-CODE" Code="00061"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="RF"/>
+    <DataType Standard="CWMS" Code="Flow-Spill"/>
+    <DataType Standard="SHEF-PE" Code="QS"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="RE"/>
+    <DataType Standard="CWMS" Code="Flow-Out"/>
+    <DataType Standard="SHEF-PE" Code="QT"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="UG"/>
+    <DataType Standard="CWMS" Code="Flow-Reg"/>
+    <DataType Standard="SHEF-PE" Code="QU"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="EPA-CODE" Code="99772"/>
-    <DataType Standard="Hydstra-Code" Code="10"/>
+    <DataType Standard="CWMS" Code="Irrad-Net"/>
+    <DataType Standard="SHEF-PE" Code="RN"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="EPA-CODE" Code="99065"/>
-    <DataType Standard="Hydstra-Code" Code="100"/>
+    <DataType Standard="CWMS" Code="Irrad"/>
+    <DataType Standard="SHEF-PE" Code="RW"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="EPA-CODE" Code="99999"/>
+    <DataType Standard="CWMS" Code="%-ofArea-Snow"/>
+    <DataType Standard="SHEF-PE" Code="SA"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="UF"/>
+    <DataType Standard="CWMS" Code="Depth-Snow"/>
+    <DataType Standard="SHEF-PE" Code="SD"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Depth-Snow-New"/>
+    <DataType Standard="SHEF-PE" Code="SF"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Depth-Snow-Top of RiverLake"/>
+    <DataType Standard="SHEF-PE" Code="SI"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Elev-Snow Line"/>
+    <DataType Standard="SHEF-PE" Code="SL"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Depth-SnowWE"/>
+    <DataType Standard="SHEF-PE" Code="SW"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Temp-Air-Dry Bulb"/>
+    <DataType Standard="SHEF-PE" Code="TA"/>
+    <DataType Standard="EPA-CODE" Code="00020"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Temp-Dew Point"/>
+    <DataType Standard="SHEF-PE" Code="TD"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Temp-Air-Wet Bulb"/>
+    <DataType Standard="SHEF-PE" Code="TM"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Temp-Water-Pan"/>
+    <DataType Standard="SHEF-PE" Code="TP"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Tempe-water"/>
+    <DataType Standard="SHEF-PE" Code="TW"/>
+    <DataType Standard="EPA-CODE" Code="00010"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Dir-Wind"/>
     <DataType Standard="SHEF-PE" Code="UD"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="BV"/>
+    <DataType Standard="CWMS" Code="Speed-Wind"/>
+    <DataType Standard="SHEF-PE" Code="US"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="HT"/>
+    <DataType Standard="CWMS" Code="Volt"/>
+    <DataType Standard="SHEF-PE" Code="VB"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="HR"/>
+    <DataType Standard="CWMS" Code="Power-Surplus"/>
+    <DataType Standard="SHEF-PE" Code="VC"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="HP"/>
+    <DataType Standard="CWMS" Code="Power"/>
+    <DataType Standard="SHEF-PE" Code="VE"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="EPA-CODE" Code="00020"/>
-    <DataType Standard="SHEF-PE" Code="TA"/>
+    <DataType Standard="CWMS" Code="Power-Pumped Water"/>
+    <DataType Standard="SHEF-PE" Code="VG"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="HH"/>
+    <DataType Standard="CWMS" Code="Energy-Pumped Water"/>
+    <DataType Standard="SHEF-PE" Code="VJ"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="TI"/>
+    <DataType Standard="CWMS" Code="Power-Loss"/>
+    <DataType Standard="SHEF-PE" Code="VM"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="SHEF-PE" Code="TC"/>
+    <DataType Standard="CWMS" Code="Power-Use Pumping"/>
+    <DataType Standard="SHEF-PE" Code="VP"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="EPA-CODE" Code="00400"/>
+    <DataType Standard="CWMS" Code="Energy-Use Pumping"/>
+    <DataType Standard="SHEF-PE" Code="VQ"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Energy-Station Load"/>
+    <DataType Standard="SHEF-PE" Code="VS"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Power"/>
+    <DataType Standard="SHEF-PE" Code="VT"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Code-Generator Status"/>
+    <DataType Standard="SHEF-PE" Code="VU"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Power-Station Load"/>
+    <DataType Standard="SHEF-PE" Code="VW"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Conc-Diss N and Ar"/>
+    <DataType Standard="SHEF-PE" Code="WA"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Cond-Water"/>
+    <DataType Standard="SHEF-PE" Code="WC"/>
+    <DataType Standard="EPA-CODE" Code="00095"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Depth-PZ"/>
+    <DataType Standard="SHEF-PE" Code="WD"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="TurbF"/>
+    <DataType Standard="SHEF-PE" Code="WF"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Pres-Diss Total Gas"/>
+    <DataType Standard="SHEF-PE" Code="WG"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Conc-Diss H2S"/>
+    <DataType Standard="SHEF-PE" Code="WH"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="TurbN"/>
+    <DataType Standard="SHEF-PE" Code="WJ"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Conc-Suspended Sediment"/>
+    <DataType Standard="SHEF-PE" Code="WL"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Conc-Dissolved Oxygen"/>
+    <DataType Standard="SHEF-PE" Code="WO"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="pH"/>
+    <DataType Standard="SHEF-PE" Code="WP"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="TurbJ"/>
+    <DataType Standard="SHEF-PE" Code="WT"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Speed-Water"/>
+    <DataType Standard="SHEF-PE" Code="WV"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Coeff-Sky Cover"/>
+    <DataType Standard="SHEF-PE" Code="XC"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="%-Relative Humidity"/>
+    <DataType Standard="SHEF-PE" Code="XR"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Conc-Absolute Humidity"/>
+    <DataType Standard="SHEF-PE" Code="XU"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Dist-Visibility"/>
+    <DataType Standard="SHEF-PE" Code="XV"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Power-Forward"/>
+    <DataType Standard="SHEF-PE" Code="YF"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Power-Reflected"/>
+    <DataType Standard="SHEF-PE" Code="YR"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Count-DCP Transmit"/>
+    <DataType Standard="SHEF-PE" Code="YS"/>
   </DataTypeEquivalence>
 </DataTypeEquivalenceList>
