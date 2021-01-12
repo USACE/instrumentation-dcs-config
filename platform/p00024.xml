@@ -2,7 +2,7 @@
 <Platform PlatformId="24">
   <Agency>CENAB</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+  <LastModifyTime>01/12/2021 20:52:25</LastModifyTime>
   <Site>
     <Latitude>41.9875</Latitude>
     <Longitude>-77.3025</Longitude>
@@ -21,21 +21,21 @@
     <Description>Stage, precip, and battery load in psuedo binary</Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>HG</SensorName>
-      <DataType Standard="MIDAS" Code="Stage"/>
+      <DataType Standard="SHEF-PE" Code="HG"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="2">
       <SensorName>PC</SensorName>
-      <DataType Standard="MIDAS" Code="Precipitation"/>
+      <DataType Standard="SHEF-PE" Code="PC"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="3">
       <SensorName>BL</SensorName>
-      <DataType Standard="MIDAS" Code="Volt"/>
+      <DataType Standard="SHEF-PE" Code="VB"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>

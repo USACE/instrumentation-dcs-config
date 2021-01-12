@@ -6,7 +6,7 @@
     <Agency>CELRB</Agency>
     <ConfigName>BasePara-Shef</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="2">
     <TransportXref MediumType="goes-self-timed" MediumId="CE7EBE4A"/>
@@ -14,7 +14,7 @@
     <Agency>CELRB</Agency>
     <ConfigName>BasePara-Shef</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="3">
     <TransportXref MediumType="goes-self-timed" MediumId="CE7EC608"/>
@@ -22,7 +22,7 @@
     <Agency>CELRB</Agency>
     <ConfigName>BasePara-Shef</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="4">
     <TransportXref MediumType="goes-self-timed" MediumId="CE7EC8DA"/>
@@ -30,7 +30,7 @@
     <Agency>CELRB</Agency>
     <ConfigName>BasePara-Shef</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="5">
     <TransportXref MediumType="goes-self-timed" MediumId="CE7ED57E"/>
@@ -38,7 +38,7 @@
     <Agency>CELRB</Agency>
     <ConfigName>BasePara-Shef</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="6">
     <TransportXref MediumType="goes-self-timed" MediumId="CE7EDBAC"/>
@@ -46,7 +46,7 @@
     <Agency>CELRB</Agency>
     <ConfigName>BasePara-Shef</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="7">
     <TransportXref MediumType="goes-self-timed" MediumId="1715F330"/>
@@ -54,15 +54,7 @@
     <Agency>USGS</Agency>
     <ConfigName>BlackCr-Churchville</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
-  </PlatformXref>
-  <PlatformXref PlatformId="8">
-    <TransportXref MediumType="goes-self-timed" MediumId="DF055D9A"/>
-    <SiteName NameType="CWMS">GenR Avon</SiteName>
-    <Agency>USGS</Agency>
-    <ConfigName>GenR-Avon-Pshef</ConfigName>
-    <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:51:19</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="9">
     <TransportXref MediumType="goes-self-timed" MediumId="1716615C"/>
@@ -70,7 +62,7 @@
     <Agency>USGS</Agency>
     <ConfigName>BasePara-Pseudo-Shef</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:49:40</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="10">
     <TransportXref MediumType="goes-self-timed" MediumId="DD8362E0"/>
@@ -78,7 +70,7 @@
     <Agency>USGS</Agency>
     <ConfigName>OatkaCr-Garbutt</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:55:57</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="11">
     <TransportXref MediumType="goes-self-timed" MediumId="172024E8"/>
@@ -86,7 +78,7 @@
     <Agency>USGS</Agency>
     <ConfigName>KNVN6-Kenyonville</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:53:54</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="12">
     <TransportXref MediumType="goes-self-timed" MediumId="CE5D2DC8"/>
@@ -94,7 +86,7 @@
     <Agency>CENAB</Agency>
     <ConfigName>MBYP1-CrookedCr-MiddleburyCenter</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:54:27</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="13">
     <TransportXref MediumType="goes-self-timed" MediumId="CE6B8B8E"/>
@@ -102,7 +94,7 @@
     <Agency>CELRP</Agency>
     <ConfigName>BasePara-Pseudo-Shef</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:49:40</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="14">
     <TransportXref MediumType="goes-self-timed" MediumId="DDA2D27A"/>
@@ -110,7 +102,7 @@
     <Agency>USGS</Agency>
     <ConfigName>ROHN6-FordStreet-Pbinary</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:57:24</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="15">
     <TransportXref MediumType="goes-self-timed" MediumId="CE216420"/>
@@ -118,7 +110,7 @@
     <Agency>CELRP</Agency>
     <ConfigName>SHNP1-Shinglehouse</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:57:59</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="16">
     <TransportXref MediumType="goes-self-timed" MediumId="DD6E777A"/>
@@ -126,7 +118,7 @@
     <Agency>USGS</Agency>
     <ConfigName>BasePara-Pseudo-Shef</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:49:40</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="17">
     <TransportXref MediumType="goes-self-timed" MediumId="CE7EE0E4"/>
@@ -134,7 +126,7 @@
     <Agency>CELRB</Agency>
     <ConfigName>JONN6-Shef</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:53:26</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="18">
     <TransportXref MediumType="goes-self-timed" MediumId="CE1FF35A"/>
@@ -142,7 +134,7 @@
     <Agency>CELRB</Agency>
     <ConfigName>MountMorris-Shef</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:55:06</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="20">
     <TransportXref MediumType="goes-self-timed" MediumId="CE7EEE36"/>
@@ -150,7 +142,7 @@
     <Agency>CELRB</Agency>
     <ConfigName>BasePara-Shef</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="21">
     <TransportXref MediumType="goes-self-timed" MediumId="CE7EFD40"/>
@@ -158,7 +150,7 @@
     <Agency>CELRB</Agency>
     <ConfigName>BasePara-Shef</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="22">
     <TransportXref MediumType="goes-self-timed" MediumId="CE7EF392"/>
@@ -166,7 +158,7 @@
     <Agency>CELRB</Agency>
     <ConfigName>BasePara-Shef</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="23">
     <TransportXref MediumType="goes-self-timed" MediumId="33655136"/>
@@ -174,7 +166,7 @@
     <Agency>NOS</Agency>
     <ConfigName>Nos6Min-Rochester</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:55:36</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="24">
     <TransportXref MediumType="goes-self-timed" MediumId="CE5D231A"/>
@@ -182,7 +174,7 @@
     <Agency>CENAB</Agency>
     <ConfigName>ELKP1-Pseudo-Binary</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:52:25</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="25">
     <TransportXref MediumType="goes-self-timed" MediumId="CE19401A"/>
@@ -190,7 +182,7 @@
     <Agency>CEORP</Agency>
     <ConfigName>BasePara-Pseudo-Shef</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:49:40</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="26">
     <TransportXref MediumType="goes-self-timed" MediumId="CE59652A"/>
@@ -198,7 +190,7 @@
     <Agency>CENAB</Agency>
     <ConfigName>BasePara-Pseudo-Shef</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:49:40</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="27">
     <TransportXref MediumType="goes-self-timed" MediumId="DF02AF2A"/>
@@ -206,7 +198,7 @@
     <Agency>USGS</Agency>
     <ConfigName>CanaseragaCr-ShakersX</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:51:57</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="28">
     <TransportXref MediumType="goes-self-timed" MediumId="DD66C052"/>
@@ -214,7 +206,7 @@
     <Agency>USGS</Agency>
     <ConfigName>OatkaCr-Warsaw</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:56:21</LastModifyTime>
   </PlatformXref>
   <PlatformXref PlatformId="19">
     <TransportXref MediumType="goes-self-timed" MediumId="CE437E42"/>
@@ -222,6 +214,14 @@
     <Agency>CENAB</Agency>
     <ConfigName>AKLN6-Pseudo-Shef</ConfigName>
     <IsProduction>true</IsProduction>
-    <LastModifyTime>01/11/2021 19:36:00</LastModifyTime>
+    <LastModifyTime>01/12/2021 20:48:17</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="8">
+    <TransportXref MediumType="goes-self-timed" MediumId="DF055D9A"/>
+    <SiteName NameType="CWMS">GenR Avon</SiteName>
+    <Agency>USGS</Agency>
+    <ConfigName>GenR-Avon-Pshef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 21:02:56</LastModifyTime>
   </PlatformXref>
 </PlatformList>

@@ -2,7 +2,7 @@
 <Platform PlatformId="20">
   <Agency>CELRB</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
   <Site>
     <Latitude>42.5697</Latitude>
     <Longitude>-78.0431</Longitude>
@@ -13,6 +13,7 @@
     <State>NY</State>
     <Description>
       Stage and discharge gauge on the Genesee River upstream of Mount Morris
+  
       Dam.
     </Description>
     <SiteName NameType="CWMS">PTGN6</SiteName>
@@ -28,21 +29,21 @@
     </Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>HG</SensorName>
-      <DataType Standard="MIDAS" Code="Stage"/>
+      <DataType Standard="SHEF-PE" Code="HG"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="2">
       <SensorName>PC</SensorName>
-      <DataType Standard="MIDAS" Code="Precipitation"/>
+      <DataType Standard="SHEF-PE" Code="PC"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="3">
       <SensorName>VB</SensorName>
-      <DataType Standard="MIDAS" Code="Volt"/>
+      <DataType Standard="SHEF-PE" Code="VB"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>

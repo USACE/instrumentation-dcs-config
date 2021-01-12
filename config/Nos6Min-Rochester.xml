@@ -3,26 +3,26 @@
   <Description>
     This &apos;config&apos; uses the National Ocean Service&apos;s &quot;Guide
     to CO-OPS SHEF and CREX Products&quot;. This config is specific for Depth of
-    Reading (HB) converted to Lake Ontario Elevationations, air temperature (TA), and
-    atmospheric pressure (PA) at Rochester NY
+    Reading (HB) converted to Lake Ontario Elevationations, air temperature
+    (TA), and atmospheric pressure (PA) at Rochester NY
   </Description>
   <ConfigSensor SensorNumber="1">
     <SensorName>HB</SensorName>
-    <DataType Standard="MIDAS" Code="Depth"/>
+    <DataType Standard="SHEF-PE" Code="HB"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:06</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="2">
     <SensorName>TA</SensorName>
-    <DataType Standard="MIDAS" Code="Temp-Air"/>
+    <DataType Standard="SHEF-PE" Code="TA"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:06</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="3">
     <SensorName>PA</SensorName>
-    <DataType Standard="MIDAS" Code="Pres-Atmospheric"/>
+    <DataType Standard="SHEF-PE" Code="PA"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:06</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>

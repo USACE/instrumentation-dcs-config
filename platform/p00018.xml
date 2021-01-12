@@ -2,7 +2,7 @@
 <Platform PlatformId="18">
   <Agency>CELRB</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  <LastModifyTime>01/12/2021 20:55:06</LastModifyTime>
   <Site>
     <Latitude>42.7332881</Latitude>
     <Longitude>-77.9070755</Longitude>
@@ -25,28 +25,28 @@
     </Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>HP</SensorName>
-      <DataType Standard="MIDAS" Code="Elev"/>
+      <DataType Standard="SHEF-PE" Code="HP"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="2">
       <SensorName>HT</SensorName>
-      <DataType Standard="MIDAS" Code="Elev"/>
+      <DataType Standard="SHEF-PE" Code="HT"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="3">
       <SensorName>PC</SensorName>
-      <DataType Standard="MIDAS" Code="Precipitation"/>
+      <DataType Standard="SHEF-PE" Code="PC"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="4">
       <SensorName>VB</SensorName>
-      <DataType Standard="MIDAS" Code="Volt"/>
+      <DataType Standard="SHEF-PE" Code="VB"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
@@ -164,6 +164,7 @@
       <State>NY</State>
       <Description>
         Mount Morris Dam Tailwater location used to contain tailwater
+       
         elevations, stages, flows, ratings, etc.
       </Description>
       <SiteName NameType="CWMS">Mount Morris-Tailwater</SiteName>

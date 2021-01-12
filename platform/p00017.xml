@@ -2,7 +2,7 @@
 <Platform PlatformId="17">
   <Agency>CELRB</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>10/29/2020 13:52:05</LastModifyTime>
+  <LastModifyTime>01/12/2021 20:53:26</LastModifyTime>
   <Site>
     <Latitude>42.7667</Latitude>
     <Longitude>-77.8386</Longitude>
@@ -25,21 +25,21 @@
     </Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>HG</SensorName>
-      <DataType Standard="MIDAS" Code="Stage"/>
+      <DataType Standard="SHEF-PE" Code="HG"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="2">
       <SensorName>PC</SensorName>
-      <DataType Standard="MIDAS" Code="Precipitation"/>
+      <DataType Standard="SHEF-PE" Code="PC"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="3">
       <SensorName>VB</SensorName>
-      <DataType Standard="MIDAS" Code="Volt"/>
+      <DataType Standard="SHEF-PE" Code="VB"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>

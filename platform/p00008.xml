@@ -2,7 +2,7 @@
 <Platform PlatformId="8">
   <Agency>USGS</Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>10/29/2020 13:51:22</LastModifyTime>
+  <LastModifyTime>01/12/2021 21:02:56</LastModifyTime>
   <Site>
     <Latitude>42.917778</Latitude>
     <Longitude>-77.757222</Longitude>
@@ -22,21 +22,21 @@
     <Description></Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>HG</SensorName>
-      <DataType Standard="MIDAS" Code="Stage"/>
+      <DataType Standard="SHEF-PE" Code="HG"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="2">
       <SensorName>WV</SensorName>
-      <DataType Standard="MIDAS" Code="Speed"/>
+      <DataType Standard="SHEF-PE" Code="WV"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:00</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="3">
       <SensorName>VB</SensorName>
-      <DataType Standard="MIDAS" Code="Volt"/>
+      <DataType Standard="SHEF-PE" Code="VB"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>01:00</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
@@ -111,7 +111,7 @@
       15Minutes
     </PlatformSensorProperty>
     <PlatformSensorProperty PropertyName="CwmsVersion">
-      GOES-USGS-Raw
+      GOES-Raw
     </PlatformSensorProperty>
     <PlatformSensorProperty PropertyName="CwmsDuration">
       0
@@ -125,7 +125,7 @@
       15Minutes
     </PlatformSensorProperty>
     <PlatformSensorProperty PropertyName="CwmsVersion">
-      GOES-USGS-Raw
+      GOES-Raw
     </PlatformSensorProperty>
     <PlatformSensorProperty PropertyName="CwmsDuration">
       0
@@ -136,7 +136,7 @@
       Inst
     </PlatformSensorProperty>
     <PlatformSensorProperty PropertyName="CwmsVersion">
-      GOES-USGS-Raw
+      GOES-Raw
     </PlatformSensorProperty>
     <PlatformSensorProperty PropertyName="cwmsInterval">
       1Hour

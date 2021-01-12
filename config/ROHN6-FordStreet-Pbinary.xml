@@ -3,49 +3,49 @@
   <Description></Description>
   <ConfigSensor SensorNumber="1">
     <SensorName>WV</SensorName>
-    <DataType Standard="MIDAS" Code="Speed"/>
+    <DataType Standard="SHEF-PE" Code="WV"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:15</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="2">
     <SensorName>HG</SensorName>
-    <DataType Standard="MIDAS" Code="Stage"/>
+    <DataType Standard="SHEF-PE" Code="HG"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:15</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="3">
     <SensorName>TW</SensorName>
-    <DataType Standard="MIDAS" Code="Temp-Water"/>
+    <DataType Standard="SHEF-PE" Code="TA"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:15</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="4">
     <SensorName>WC</SensorName>
-    <DataType Standard="MIDAS" Code="Cond"/>
+    <DataType Standard="SHEF-PE" Code="WC"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:15</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="5">
     <SensorName>WP</SensorName>
-    <DataType Standard="MIDAS" Code="pH"/>
+    <DataType Standard="SHEF-PE" Code="WP"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:15</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="6">
     <SensorName>WT</SensorName>
-    <DataType Standard="MIDAS" Code="TurbF"/>
+    <DataType Standard="SHEF-PE" Code="WT"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:15</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="7">
     <SensorName>WO</SensorName>
-    <DataType Standard="MIDAS" Code="Conc-DO"/>
+    <DataType Standard="SHEF-PE" Code="WO"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:15</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>

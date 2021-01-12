@@ -3,21 +3,21 @@
   <Description></Description>
   <ConfigSensor SensorNumber="1">
     <SensorName>HG</SensorName>
-    <DataType Standard="MIDAS" Code="Stage"/>
+    <DataType Standard="SHEF-PE" Code="HG"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:15</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="2">
     <SensorName>PC</SensorName>
-    <DataType Standard="MIDAS" Code="Precipitation"/>
+    <DataType Standard="SHEF-PE" Code="PC"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:15</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="3">
     <SensorName>BL</SensorName>
-    <DataType Standard="MIDAS" Code="Volt"/>
+    <DataType Standard="SHEF-PE" Code="VB"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:15</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>

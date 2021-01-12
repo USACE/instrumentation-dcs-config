@@ -6,28 +6,28 @@
   </Description>
   <ConfigSensor SensorNumber="1">
     <SensorName>HP</SensorName>
-    <DataType Standard="MIDAS" Code="Elevation"/>
+    <DataType Standard="SHEF-PE" Code="HP"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:00</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="2">
     <SensorName>HT</SensorName>
-    <DataType Standard="MIDAS" Code="Elevation"/>
+    <DataType Standard="SHEF-PE" Code="HT"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:00</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="3">
     <SensorName>PC</SensorName>
-    <DataType Standard="MIDAS" Code="Precipitation"/>
+    <DataType Standard="SHEF-PE" Code="PC"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:00</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
   </ConfigSensor>
   <ConfigSensor SensorNumber="4">
     <SensorName>VB</SensorName>
-    <DataType Standard="MIDAS" Code="Volt"/>
+    <DataType Standard="SHEF-PE" Code="VB"/>
     <RecordingMode>F</RecordingMode>
     <RecordingInterval>00:00</RecordingInterval>
     <TimeOfFirstSample>00:00</TimeOfFirstSample>
