@@ -5,7 +5,7 @@
   </Description>
   <Agency></Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>07/06/2020 17:31:59</LastModifyTime>
+  <LastModifyTime>01/15/2021 14:11:58</LastModifyTime>
   <Site>
     <Elevation>1.7976931348623157E308</Elevation>
     <ElevationUnits>ft</ElevationUnits>
@@ -13,20 +13,17 @@
     <SiteName NameType="local">PZ-R3-G-A1</SiteName>
   </Site>
   <PlatformConfig ConfigName="HHD002">
-    <Description>
-      Davie. Satlink 300 baud, pseudobinary, SideLooker. 8 values each. S-308,
-      S-80, and NNRC@S-351.
-    </Description>
+    <Description></Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>stage1</SensorName>
-      <DataType Standard="RSGIS" Code="Stage"/>
+      <DataType Standard="MIDAS" Code="Stage"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="2">
       <SensorName>temp-water</SensorName>
-      <DataType Standard="RSGIS" Code="Temperature"/>
+      <DataType Standard="MIDAS" Code="Temperature"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
@@ -41,21 +38,21 @@
     </ConfigSensor>
     <ConfigSensor SensorNumber="4">
       <SensorName>xvelocity</SensorName>
-      <DataType Standard="RSGIS" Code="Speed"/>
+      <DataType Standard="MIDAS" Code="Speed"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="5">
       <SensorName>xvelocity</SensorName>
-      <DataType Standard="RSGIS" Code="Speed"/>
+      <DataType Standard="MIDAS" Code="Speed"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="6">
       <SensorName>SNR</SensorName>
-      <DataType Standard="SHEF-PE" Code="99237"/>
+      <DataType Standard="EPA-CODE" Code="99237"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
@@ -63,21 +60,21 @@
     </ConfigSensor>
     <ConfigSensor SensorNumber="7">
       <SensorName>stage2</SensorName>
-      <DataType Standard="RSGIS" Code="Stage"/>
+      <DataType Standard="MIDAS" Code="Stage"/>
       <RecordingMode>F</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="8">
       <SensorName>BATT</SensorName>
-      <DataType Standard="RSGIS" Code="Voltage"/>
+      <DataType Standard="MIDAS" Code="Voltage"/>
       <RecordingMode>V</RecordingMode>
       <RecordingInterval>00:15</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
     </ConfigSensor>
     <ConfigSensor SensorNumber="9">
       <SensorName>Fpower</SensorName>
-      <DataType Standard="SHEF-PE" Code="99901"/>
+      <DataType Standard="SHEF-PE" Code="YF"/>
       <RecordingMode>V</RecordingMode>
       <RecordingInterval>01:00</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
@@ -85,7 +82,7 @@
     </ConfigSensor>
     <ConfigSensor SensorNumber="10">
       <SensorName>Rpower</SensorName>
-      <DataType Standard="SHEF-PE" Code="99901"/>
+      <DataType Standard="SHEF-PE" Code="YR"/>
       <RecordingMode>V</RecordingMode>
       <RecordingInterval>01:00</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>
@@ -93,7 +90,7 @@
     </ConfigSensor>
     <ConfigSensor SensorNumber="11">
       <SensorName>Random_Counter</SensorName>
-      <DataType Standard="SHEF-PE" Code="99901"/>
+      <DataType Standard="SHEF-PE" Code="YS"/>
       <RecordingMode>V</RecordingMode>
       <RecordingInterval>01:00</RecordingInterval>
       <TimeOfFirstSample>00:00</TimeOfFirstSample>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<EquipmentModel Name="SU_SL3D">
-  <EquipmentType>DCP</EquipmentType>
-  <Company>Sutron</Company>
-  <Model>Satlink3</Model>
-  <Description>Sutron Satlink3 DCP</Description>
-</EquipmentModel>

@@ -12,8 +12,16 @@
   <DataSourceGroupMember SequenceNum="1">
     <DataSource Name="cdabackup" Type="lrgs">
       <DataSourceArg>
-        hostname=cdabackup.wcda.noaa.gov, port=16003, password=$CDADATA_PASSWORD,
-        username=$CDADATA_USERNAME
+        hostname=cdabackup.wcda.noaa.gov, port=16003,
+        password=$CDABACKUP_PASSWORD, username=$CDABACKUP_USERNAME
+      </DataSourceArg>
+    </DataSource>
+  </DataSourceGroupMember>
+  <DataSourceGroupMember SequenceNum="2">
+    <DataSource Name="eddn1" Type="lrgs">
+      <DataSourceArg>
+        hostname=lrgseddn1.cr.usgs.gov, port=16003, password=$EDDN1_PASSWORD,
+        username=$EDDN1_USERNAME
       </DataSourceArg>
     </DataSource>
   </DataSourceGroupMember>
