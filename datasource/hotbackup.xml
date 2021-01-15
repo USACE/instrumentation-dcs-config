@@ -15,7 +15,7 @@
       <DataSourceArg>
         hostname=cdabackup.wcda.noaa.gov, port=16003,
          
-        password=$CDADATA_PASSWORD, username=$CDADATA_USERNAME
+        password=$CDABACKUP_PASSWORD, username=$CDABACKUP_USERNAME
       </DataSourceArg>
     </DataSource>
   </DataSourceGroupMember>
