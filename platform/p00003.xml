@@ -5,7 +5,7 @@
   </Description>
   <Agency></Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>07/06/2020 17:31:59</LastModifyTime>
+  <LastModifyTime>01/15/2021 13:47:19</LastModifyTime>
   <Site>
     <Elevation>1.7976931348623157E308</Elevation>
     <ElevationUnits>ft</ElevationUnits>
@@ -13,10 +13,7 @@
     <SiteName NameType="local">PZ-R3-G-A1</SiteName>
   </Site>
   <PlatformConfig ConfigName="HHD002">
-    <Description>
-      Davie. Satlink 300 baud, pseudobinary, SideLooker. 8 values each. S-308,
-      S-80, and NNRC@S-351.
-    </Description>
+    <Description></Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>stage1</SensorName>
       <DataType Standard="RSGIS" Code="Stage"/>

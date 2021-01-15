@@ -3,7 +3,7 @@
   <Description>FISHEATING CREEK AT LAKEPORT, FL</Description>
   <Agency></Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>07/06/2020 17:31:51</LastModifyTime>
+  <LastModifyTime>01/15/2021 13:47:03</LastModifyTime>
   <Site>
     <Elevation>1.7976931348623157E308</Elevation>
     <ElevationUnits>ft</ElevationUnits>
@@ -11,14 +11,7 @@
     <SiteName NameType="local">PZ-R3-SH-B1A</SiteName>
   </Site>
   <PlatformConfig ConfigName="HHD003">
-    <Description>
-      SATLINK,BINARY, 4X,12 Values, GH, V,VT,LV,CE,SR,VY, Appended BV
-    </Description>
-    <EquipmentModel Name="SATLINKD">
-      <EquipmentType>DCP</EquipmentType>
-      <Company>SUTRON</Company>
-      <Model>SATLINK</Model>
-    </EquipmentModel>
+    <Description></Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>stage1</SensorName>
       <DataType Standard="RSGIS" Code="Stage"/>

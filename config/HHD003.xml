@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PlatformConfig ConfigName="HHD003">
-  <Description>
-    SATLINK,BINARY, 4X,12 Values, GH, V,VT,LV,CE,SR,VY, Appended BV
-  </Description>
-  <EquipmentModel Name="SATLINKD">
-    <EquipmentType>DCP</EquipmentType>
-    <Company>SUTRON</Company>
-    <Model>SATLINK</Model>
-  </EquipmentModel>
+  <Description></Description>
   <ConfigSensor SensorNumber="1">
     <SensorName>stage1</SensorName>
     <DataType Standard="RSGIS" Code="Stage"/>

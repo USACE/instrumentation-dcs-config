@@ -3,7 +3,7 @@
   <Description>LEVEE 8 CANAL AT US 441 NEAR CANAL POINT 4NNE</Description>
   <Agency></Agency>
   <IsProduction>true</IsProduction>
-  <LastModifyTime>07/06/2020 17:31:19</LastModifyTime>
+  <LastModifyTime>01/15/2021 13:47:10</LastModifyTime>
   <Site>
     <Elevation>1.7976931348623157E308</Elevation>
     <ElevationUnits>ft</ElevationUnits>
@@ -11,9 +11,7 @@
     <SiteName NameType="local">PZ-R3-D-A1</SiteName>
   </Site>
   <PlatformConfig ConfigName="HHD001">
-    <Description>
-      Davie. Satlink-3. SideLooker. 4 values each. For L-8 canal.
-    </Description>
+    <Description></Description>
     <ConfigSensor SensorNumber="1">
       <SensorName>stage1</SensorName>
       <DataType Standard="RSGIS" Code="Stage"/>

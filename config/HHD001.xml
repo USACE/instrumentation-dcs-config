@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PlatformConfig ConfigName="HHD001">
-  <Description>
-    Davie. Satlink-3. SideLooker. 4 values each. For L-8 canal.
-  </Description>
+  <Description></Description>
   <ConfigSensor SensorNumber="1">
     <SensorName>stage1</SensorName>
     <DataType Standard="RSGIS" Code="Stage"/>

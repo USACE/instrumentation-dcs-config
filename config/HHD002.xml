@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PlatformConfig ConfigName="HHD002">
-  <Description>
-    Davie. Satlink 300 baud, pseudobinary, SideLooker. 8 values each. S-308,
-    S-80, and NNRC@S-351.
-  </Description>
+  <Description></Description>
   <ConfigSensor SensorNumber="1">
     <SensorName>stage1</SensorName>
     <DataType Standard="RSGIS" Code="Stage"/>
