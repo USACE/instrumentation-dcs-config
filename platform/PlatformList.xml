@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PlatformList>
-  <PlatformXref PlatformId="4">
-    <TransportXref MediumType="goes-self-timed" MediumId="17D065F6"/>
-    <SiteName NameType="uuid">0e2cb2b9-bf18-4ed9-8792-85c286b085ba</SiteName>
-    <Agency></Agency>
-    <Description>LEVEE 8 CANAL AT US 441 NEAR CANAL POINT 4NNE</Description>
-    <ConfigName>HHD001</ConfigName>
-    <IsProduction>true</IsProduction>
-    <LastModifyTime>01/15/2021 14:07:02</LastModifyTime>
-  </PlatformXref>
   <PlatformXref PlatformId="3">
     <TransportXref MediumType="goes-self-timed" MediumId="CE8B6324"/>
     <SiteName NameType="uuid">e6772734-05fb-4359-81e9-5ff2a164ba96</SiteName>
@@ -28,5 +19,14 @@
     <ConfigName>HHD003</ConfigName>
     <IsProduction>true</IsProduction>
     <LastModifyTime>01/15/2021 14:44:45</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="4">
+    <TransportXref MediumType="goes-self-timed" MediumId="17D065F6"/>
+    <SiteName NameType="uuid">0e2cb2b9-bf18-4ed9-8792-85c286b085ba</SiteName>
+    <Agency></Agency>
+    <Description>LEVEE 8 CANAL AT US 441 NEAR CANAL POINT 4NNE</Description>
+    <ConfigName>HHD001</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/15/2021 15:09:16</LastModifyTime>
   </PlatformXref>
 </PlatformList>
