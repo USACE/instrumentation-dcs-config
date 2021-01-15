@@ -457,6 +457,12 @@
       <ExecClass>covesw.azul.consumer.DecodesXml1Formatter</ExecClass>
       <SortNumber>19</SortNumber>
     </EnumValue>
+    <EnumValue EnumValue="cwms-oracle">
+      <Description></Description>
+      <ExecClass>rsgis.consumer.CwmsOracleFormatter</ExecClass>
+      <EditClass></EditClass>
+      <SortNumber>20</SortNumber>
+    </EnumValue>
   </Enum>
   <Enum Name="DataTypeStandard">
     <EnumDefaultValue>rsgis</EnumDefaultValue>
@@ -478,7 +484,7 @@
       <Description>CWMS Param</Description>
       <SortNumber>4</SortNumber>
     </EnumValue>
-    <EnumValue EnumValue="rsgis">
+    <EnumValue EnumValue="midas">
       <Description>Remote Sensing Database and Parameters</Description>
       <ExecClass></ExecClass>
       <EditClass></EditClass>

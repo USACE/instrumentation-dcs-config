@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <RoutingSpec Name="production">
-  <IsProduction>false</IsProduction>
+  <IsProduction>true</IsProduction>
   <DataSource Name="hotbackup" Type="hotbackupgroup">
     <DataSourceArg></DataSourceArg>
     <DataSourceGroupMember SequenceNum="0">
@@ -15,36 +15,33 @@
       <DataSource Name="cdabackup" Type="lrgs">
         <DataSourceArg>
           hostname=cdabackup.wcda.noaa.gov, port=16003,
-          password=$CDADATA_PASSWORD, username=$CDADATA_USERNAME
+          password=$CDABACKUP_PASSWORD, username=$CDABACKUP_USERNAME
         </DataSourceArg>
       </DataSource>
     </DataSourceGroupMember>
     <DataSourceGroupMember SequenceNum="2">
       <DataSource Name="eddn1" Type="lrgs">
         <DataSourceArg>
-          hostname=cdadata.wcda.noaa.gov, port=16003,
-          password=$CDADATA_PASSWORD, username=$CDADATA_USERNAME
+          hostname=lrgseddn1.cr.usgs.gov, port=16003, password=$EDDN1_PASSWORD,
+          username=$EDDN1_USERNAME
         </DataSourceArg>
       </DataSource>
     </DataSourceGroupMember>
   </DataSource>
   <EnableEquations>false</EnableEquations>
   <UsePerformanceMeasurements>false</UsePerformanceMeasurements>
-  <OutputFormat>emit-oracle</OutputFormat>
+  <OutputFormat>cwms-oracle</OutputFormat>
   <OutputTimeZone>UTC</OutputTimeZone>
-  <PresentationGroupName>RSGIS-English</PresentationGroupName>
+  <PresentationGroupName>CWMS-English</PresentationGroupName>
   <ConsumerType>directory</ConsumerType>
   <ConsumerArg>/opendcs_output</ConsumerArg>
   <SinceTime>now - 2 hours</SinceTime>
-  <RoutingSpecNetworkList Name="&lt;Production&gt;"/>
-  <RoutingSpecProperty PropertyName="siteNameType">
-    uuid
-  </RoutingSpecProperty>
+  <RoutingSpecNetworkList Name="nwdm"/>
   <RoutingSpecProperty PropertyName="delimiter">
     ,
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="dateFormat">
-    yyyy-MM-dd HH:mm z
+    yyyy-MM-dd&apos;T&apos;HH:mmZ
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="sc:SOURCE_0000">
     GOES_SELFTIMED
@@ -62,7 +59,7 @@
     l
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="dataType">
-    rsgis
+    cwms
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="addMsgDelim">
     False
