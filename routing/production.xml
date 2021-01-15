@@ -19,19 +19,24 @@
         </DataSourceArg>
       </DataSource>
     </DataSourceGroupMember>
+    <DataSourceGroupMember SequenceNum="2">
+      <DataSource Name="eddn1" Type="lrgs">
+        <DataSourceArg>
+          hostname=lrgseddn1.cr.usgs.gov, port=16003, password=$EDDN1_PASSWORD,
+          username=$EDDN1_USERNAME
+        </DataSourceArg>
+      </DataSource>
+    </DataSourceGroupMember>
   </DataSource>
   <EnableEquations>false</EnableEquations>
   <UsePerformanceMeasurements>false</UsePerformanceMeasurements>
   <OutputFormat>cwms-oracle</OutputFormat>
   <OutputTimeZone>UTC</OutputTimeZone>
-  <PresentationGroupName>MIDAS-English</PresentationGroupName>
+  <PresentationGroupName>CWMS-English</PresentationGroupName>
   <ConsumerType>directory</ConsumerType>
   <ConsumerArg>/opendcs_output</ConsumerArg>
   <SinceTime>now - 2 hours</SinceTime>
   <RoutingSpecNetworkList Name="&lt;Production&gt;"/>
-  <RoutingSpecProperty PropertyName="siteNameType">
-    uuid
-  </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="delimiter">
     ,
   </RoutingSpecProperty>
@@ -54,7 +59,7 @@
     l
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="dataType">
-    midas
+    cwms
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="addMsgDelim">
     False

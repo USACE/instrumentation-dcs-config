@@ -208,14 +208,6 @@
     <IsProduction>true</IsProduction>
     <LastModifyTime>01/12/2021 20:56:21</LastModifyTime>
   </PlatformXref>
-  <PlatformXref PlatformId="19">
-    <TransportXref MediumType="goes-self-timed" MediumId="CE437E42"/>
-    <SiteName NameType="CWMS">AKLN6</SiteName>
-    <Agency>CENAB</Agency>
-    <ConfigName>AKLN6-Pseudo-Shef</ConfigName>
-    <IsProduction>true</IsProduction>
-    <LastModifyTime>01/12/2021 20:48:17</LastModifyTime>
-  </PlatformXref>
   <PlatformXref PlatformId="8">
     <TransportXref MediumType="goes-self-timed" MediumId="DF055D9A"/>
     <SiteName NameType="CWMS">GenR Avon</SiteName>
@@ -223,5 +215,13 @@
     <ConfigName>GenR-Avon-Pshef</ConfigName>
     <IsProduction>true</IsProduction>
     <LastModifyTime>01/12/2021 21:02:56</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="19">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE437E42"/>
+    <SiteName NameType="CWMS">AKLN6</SiteName>
+    <Agency>CENAB</Agency>
+    <ConfigName>AKLN6-Pseudo-Shef</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/15/2021 16:34:15</LastModifyTime>
   </PlatformXref>
 </PlatformList>
