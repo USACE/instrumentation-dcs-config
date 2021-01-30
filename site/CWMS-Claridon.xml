@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.5827</Latitude>
+  <Longitude>-82.9888</Longitude>
+  <Elevation>293.13225600000004</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Claridon</NearestCity>
+  <Description>Olentangy Riv @ Claridon</Description>
+  <SiteName NameType="CWMS">Claridon</SiteName>
+  <SiteName NameType="local">CLOC3</SiteName>
+  <SiteName NameType="nwshb5">CRDO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03223000</SiteName>
+  <SiteName NameType="uuid">5e267448-5924-4328-b523-0e0bdaab02d5</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

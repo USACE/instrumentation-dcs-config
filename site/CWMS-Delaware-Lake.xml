@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.3592</Latitude>
+  <Longitude>-83.0692</Longitude>
+  <Elevation>182.95315200000002</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Delaware</NearestCity>
+  <Description>Delaware Lk near Delaware 5N</Description>
+  <SiteName NameType="CWMS">Delaware-Lake</SiteName>
+  <SiteName NameType="local">DDOD2</SiteName>
+  <SiteName NameType="nwshb5">DCWO1</SiteName>
+  <SiteName NameType="uuid">f11573a2-4ff9-43e7-88ad-9a8bf002af59</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

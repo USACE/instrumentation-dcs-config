@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="60">
+  <Description>Queen Shoals, WV (KAN)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>38.4722</Latitude>
+    <Longitude>-81.2844</Longitude>
+    <Elevation>184.12663200000003</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <NearestCity>Queen Shoals</NearestCity>
+    <Description>Elk Riv @ Queen Shoals</Description>
+    <SiteName NameType="CWMS">QueenShoals</SiteName>
+    <SiteName NameType="local">QSEL6</SiteName>
+    <SiteName NameType="nwshb5">QUSW2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03197000
+    </SiteName>
+    <SiteName NameType="uuid">93ac5061-7bfd-4bd9-8c40-c5338889ed2c</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Queen Shoals</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE4F14EA">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:06:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>EST</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

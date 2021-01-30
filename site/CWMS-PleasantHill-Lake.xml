@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.6239</Latitude>
+  <Longitude>-82.3239</Longitude>
+  <Elevation>296.18940000000003</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Perrysville</NearestCity>
+  <Description>Pleasant Hill Lk near Perrysville 2S</Description>
+  <SiteName NameType="CWMS">PleasantHill-Lake</SiteName>
+  <SiteName NameType="local">PHCC4</SiteName>
+  <SiteName NameType="nwshb5">PTHO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03133000</SiteName>
+  <SiteName NameType="uuid">279cb5c8-cb33-429a-8d27-9d5291cc6920</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

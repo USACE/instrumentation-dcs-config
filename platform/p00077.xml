@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="77">
+  <Description>Loundenville, OH (MUS)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>40.635880349615</Latitude>
+    <Longitude>-82.239100113106</Longitude>
+    <Elevation>283.207968</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>OH</State>
+    <NearestCity>Loudenville</NearestCity>
+    <Description>Black Fk Riv @ Loudonville</Description>
+    <SiteName NameType="CWMS">Loudonville</SiteName>
+    <SiteName NameType="local">LOBC4</SiteName>
+    <SiteName NameType="nwshb5">LDVO1</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03131500
+    </SiteName>
+    <SiteName NameType="uuid">077ca447-2605-4415-98a9-6df6995f940d</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Loudonville</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE578C62">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>17</ChannelNum>
+    <AssignedTime>00:51</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

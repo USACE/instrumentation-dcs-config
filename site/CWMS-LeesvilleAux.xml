@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.4755</Latitude>
+  <Longitude>-81.2191</Longitude>
+  <Elevation>282.8544</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Leesville</NearestCity>
+  <SiteName NameType="CWMS">LeesvilleAux</SiteName>
+  <SiteName NameType="uuid">933987f7-7c58-43c7-82d2-a6292a3e267e</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

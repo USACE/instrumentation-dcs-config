@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.5267</Latitude>
+  <Longitude>-81.285</Longitude>
+  <Elevation>271.272</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>New Cumberland</NearestCity>
+  <Description>
+    Pool on Indian Fk @ Atwood Dam near New Cumberland 1SSE
+  </Description>
+  <SiteName NameType="CWMS">Atwood-Lake</SiteName>
+  <SiteName NameType="local">ATIC6</SiteName>
+  <SiteName NameType="uuid">b9d77417-8820-4b1b-a724-f7413eb06987</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

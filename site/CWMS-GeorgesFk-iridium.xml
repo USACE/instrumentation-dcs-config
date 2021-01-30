@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>0</Latitude>
+  <Longitude>0</Longitude>
+  <Elevation>448.17487200000005</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KY</State>
+  <NearestCity>Presque Isle</NearestCity>
+  <Description>Entry for GeorgesFk for iridium data</Description>
+  <SiteName NameType="CWMS">GeorgesFk-iridium</SiteName>
+  <SiteName NameType="uuid">2e1db846-778a-4230-9afa-589646b95b5b</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

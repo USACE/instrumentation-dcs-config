@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="18">
+  <Description>Beech Fork Outflow, WV (TWE)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>38.305</Latitude>
+    <Longitude>-82.424444</Longitude>
+    <Elevation>167.64000000000001</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <NearestCity>Lavalette</NearestCity>
+    <Description>Beech Fk Dam Outflow near Lavalette 3E</Description>
+    <SiteName NameType="CWMS">BeechFk-Outflow</SiteName>
+    <SiteName NameType="local">BBFOF</SiteName>
+    <SiteName NameType="nwshb5">BFOW2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03207057
+    </SiteName>
+    <SiteName NameType="uuid">14535829-8a1b-433b-8890-db811ec6bac7</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Beech Fork Dam Outflow
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE4F5932">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:56:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>EST</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

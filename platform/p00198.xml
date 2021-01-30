@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="198">
+  <Description>Bland, VA</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:59</LastModifyTime>
+  <Site>
+    <Latitude>37.105</Latitude>
+    <Longitude>-81.1067</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>VA</State>
+    <NearestCity>Bland</NearestCity>
+    <Description>Bland</Description>
+    <SiteName NameType="CWMS">Bland</SiteName>
+    <SiteName NameType="local">BLAQ6</SiteName>
+    <SiteName NameType="nwshb5">BNDV2</SiteName>
+    <SiteName NameType="uuid">fafa117f-4bb2-432c-aad6-4dc8f39cbf11</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Bland</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE67C918">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:38:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

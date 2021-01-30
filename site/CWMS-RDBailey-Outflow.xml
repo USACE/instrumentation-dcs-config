@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.59791050768</Latitude>
+  <Longitude>-81.82701913209</Longitude>
+  <Elevation>268.01673600000004</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Hanover</NearestCity>
+  <Description>
+    Guyandotte Riv below RD Bailey Dam near Hanover 2WNW
+  </Description>
+  <SiteName NameType="CWMS">RDBailey-Outflow</SiteName>
+  <SiteName NameType="local">RDBOF</SiteName>
+  <SiteName NameType="nwshb5">RDBW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03202915</SiteName>
+  <SiteName NameType="uuid">f33c63d5-68ca-4555-8120-ecd557cd38b1</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

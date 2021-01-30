@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.165</Latitude>
+  <Longitude>-82.05861</Longitude>
+  <Elevation>213.149688</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Palermo</NearestCity>
+  <Description>MUD RIVER AT PALERMO, WV</Description>
+  <SiteName NameType="CWMS">Palermo</SiteName>
+  <SiteName NameType="uuid">c574b10c-d800-4955-9b7c-c20619a119c0</SiteName>
+  <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
+</Site>

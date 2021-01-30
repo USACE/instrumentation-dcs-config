@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.5578</Latitude>
+  <Longitude>-81.413</Longitude>
+  <Elevation>261.5184</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Dover</NearestCity>
+  <Description>Dover Lk @ Dover</Description>
+  <SiteName NameType="CWMS">Dover-Lake</SiteName>
+  <SiteName NameType="local">DOTC6</SiteName>
+  <SiteName NameType="nwshb5">DVRO1</SiteName>
+  <SiteName NameType="uuid">aa926712-1de2-4cfd-935f-c05a6466f186</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

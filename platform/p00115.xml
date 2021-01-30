@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="115">
+  <Description>Mohawk Dam, OH (MUS)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>40.3525</Latitude>
+    <Longitude>-82.0878</Longitude>
+    <Elevation>243.59616000000003</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>OH</State>
+    <NearestCity>Nellie</NearestCity>
+    <Description>Mohawk Lk near Nellie 2NW</Description>
+    <SiteName NameType="CWMS">Mohawk-Lake</SiteName>
+    <SiteName NameType="local">MKWD4</SiteName>
+    <SiteName NameType="nwshb5">MHWO1</SiteName>
+    <SiteName NameType="uuid">6278f636-a4c8-48b8-81e8-eb7000fbd127</SiteName>
+    <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Mohawk</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE44B968">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:44:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>EST</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="offset">799.2</PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

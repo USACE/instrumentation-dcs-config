@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.341323765767</Latitude>
+  <Longitude>-82.971067813492</Longitude>
+  <Elevation>180.920136</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Chillicothe</NearestCity>
+  <Description>Scioto Riv @ Chillicothe</Description>
+  <SiteName NameType="CWMS">Chillicothe</SiteName>
+  <SiteName NameType="local">CHSH3</SiteName>
+  <SiteName NameType="nwshb5">CHCO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03231500</SiteName>
+  <SiteName NameType="uuid">1999dfb5-5051-48f3-8325-54165bfb6764</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

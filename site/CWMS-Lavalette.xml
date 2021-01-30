@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.320144</Latitude>
+  <Longitude>-82.4437128</Longitude>
+  <Elevation>163.2204</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Lavalette</NearestCity>
+  <Description>Twelepole Ck at Lavalette</Description>
+  <SiteName NameType="CWMS">Lavalette</SiteName>
+  <SiteName NameType="local">LATL4</SiteName>
+  <SiteName NameType="nwshb5">LAVW2</SiteName>
+  <SiteName NameType="uuid">90c4a74a-06d8-4cee-996b-6ef72dcedece</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

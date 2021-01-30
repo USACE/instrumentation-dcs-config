@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <SiteName NameType="CWMS">HannibalLD</SiteName>
+  <SiteName NameType="uuid">f363830b-3639-47fa-96c0-bb8d20c7be9d</SiteName>
+</Site>

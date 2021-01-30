@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="105">
+  <Description>Racine L&amp;D, WV (OHI)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>38.9169</Latitude>
+    <Longitude>-81.9122</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <NearestCity>Letart</NearestCity>
+    <Description>Ohio Riv @ Racine L&amp;D near Letart</Description>
+    <SiteName NameType="CWMS">RacineLD</SiteName>
+    <SiteName NameType="local">RAOJ5</SiteName>
+    <SiteName NameType="nwshb5">RACW2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03159870
+    </SiteName>
+    <SiteName NameType="uuid">68b1364d-e6f4-4001-93ed-c265ad99fb16</SiteName>
+    <SiteProperty PropertyName="location_type">Lock</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Racine Locks and Dam</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE4ACB90">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:01:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <Site>
+      <Latitude>38.9147662</Latitude>
+      <Longitude>-81.9097343</Longitude>
+      <Elevation>166.87800000000001</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>OH</State>
+      <NearestCity>Racine</NearestCity>
+      <SiteName NameType="CWMS">RacineLD-Pool</SiteName>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Racine L&amp;D Pool</SiteProperty>
+    </Site>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="2">
+    <Site>
+      <Latitude>38.9175209</Latitude>
+      <Longitude>-81.9108072</Longitude>
+      <Elevation>160.181544</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>OH</State>
+      <NearestCity>Racine</NearestCity>
+      <SiteName NameType="CWMS">RacineLD-Tailwater</SiteName>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">
+        Racine L&amp;D Tailwater
+      </SiteProperty>
+    </Site>
+  </PlatformSensor>
+</Platform>

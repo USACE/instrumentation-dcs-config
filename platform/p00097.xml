@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="97">
+  <Description>Waynesburg, OH (MUS)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>40.672593834441</Latitude>
+    <Longitude>-81.259957400894</Longitude>
+    <Elevation>290.62070400000005</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>OH</State>
+    <NearestCity>Waynesburg</NearestCity>
+    <Description>Sandy Ck @ Waynesburg</Description>
+    <SiteName NameType="CWMS">Waynesburg</SiteName>
+    <SiteName NameType="local">WAYC6</SiteName>
+    <SiteName NameType="nwshb5">WANO1</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03117500
+    </SiteName>
+    <SiteName NameType="uuid">3932883c-3d60-4e0c-a557-4599208e0a24</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Waynesburg</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE77D322">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>17</ChannelNum>
+    <AssignedTime>00:12:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

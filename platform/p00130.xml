@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="130">
+  <Description>Glen Lynn, WV (KAN)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>37.3728</Latitude>
+    <Longitude>-80.8608</Longitude>
+    <Elevation>454.185528</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>VA</State>
+    <NearestCity>Glen Lynn</NearestCity>
+    <Description>New River @ Glen Lyn</Description>
+    <SiteName NameType="CWMS">GlenLynn</SiteName>
+    <SiteName NameType="local">GNNP7</SiteName>
+    <SiteName NameType="nwshb5">GLLV2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03176500
+    </SiteName>
+    <SiteName NameType="uuid">b3d88484-38e2-4b60-86ca-2fde7882d681</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Glen Lyn</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE4E7D24">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:38:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

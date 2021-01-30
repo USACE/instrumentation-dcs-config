@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.620645</Latitude>
+  <Longitude>-83.212308</Longitude>
+  <Elevation>234.0864</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Pancoastburg</NearestCity>
+  <Description>Deer Ck Lake near Pancoastburg 3E</Description>
+  <SiteName NameType="CWMS">DeerCr-Outflow</SiteName>
+  <SiteName NameType="local">DCSOF</SiteName>
+  <SiteName NameType="nwshb5">PCBO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03230900</SiteName>
+  <SiteName NameType="uuid">a88f91c2-e363-436f-b4d5-ed482c10e667</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.3536</Latitude>
+  <Longitude>-82.1958</Longitude>
+  <Elevation>264.06957600000004</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>VA</State>
+  <NearestCity>Big Rock</NearestCity>
+  <Description>Levisa Fork @ Big Rock, VA</Description>
+  <SiteName NameType="CWMS">BigRock</SiteName>
+  <SiteName NameType="local">BRLP4</SiteName>
+  <SiteName NameType="nwshb5">BIGV2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03207800</SiteName>
+  <SiteName NameType="uuid">8932d213-f5f7-4255-bc1f-64e00b486e88</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

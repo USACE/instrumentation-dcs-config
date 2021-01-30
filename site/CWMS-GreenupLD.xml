@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.6475</Latitude>
+  <Longitude>-82.8608</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KY</State>
+  <NearestCity>Greenup</NearestCity>
+  <Description>Ohio Riv Lock and Dam near Greenup</Description>
+  <SiteName NameType="CWMS">GreenupLD</SiteName>
+  <SiteName NameType="local">GROK3</SiteName>
+  <SiteName NameType="nwshb5">GNUK2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03216600</SiteName>
+  <SiteName NameType="uuid">d64a99f3-08d2-40ac-b610-7aeeb231fea3</SiteName>
+  <SiteProperty PropertyName="location_type">Lock</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

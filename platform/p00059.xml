@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="59">
+  <Description>Narrows, VA (KAN)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>37.3055</Latitude>
+    <Longitude>-80.85</Longitude>
+    <Elevation>482.75138400000003</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>VA</State>
+    <NearestCity>Narrows</NearestCity>
+    <Description>Wolf Ck near Narrows 1S</Description>
+    <SiteName NameType="CWMS">Narrows</SiteName>
+    <SiteName NameType="local">NARP7</SiteName>
+    <SiteName NameType="nwshb5">WOLV2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03175500
+    </SiteName>
+    <SiteName NameType="uuid">0c22bedd-4449-4c0e-9c4b-fa40b06a5e13</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Narrows</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE6FB5FC">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:39:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>EST</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

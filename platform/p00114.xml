@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="114">
+  <Description>Palermo, WV (GUY)</Description>
+  <Agency>USGS</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>38.165</Latitude>
+    <Longitude>-82.05861</Longitude>
+    <Elevation>213.149688</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <NearestCity>Palermo</NearestCity>
+    <Description>MUD RIVER AT PALERMO, WV</Description>
+    <SiteName NameType="CWMS">Palermo</SiteName>
+    <SiteName NameType="uuid">c574b10c-d800-4955-9b7c-c20619a119c0</SiteName>
+    <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Palermo</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DD6AA428">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>163</ChannelNum>
+    <AssignedTime>00:49</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>EST</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.7605556</Latitude>
+  <Longitude>-81.1625</Longitude>
+  <Elevation>635.2184400000001</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Raleigh</NearestCity>
+  <Description>Piney Creek at Raleigh near Beckley</Description>
+  <SiteName NameType="CWMS">Raleigh</SiteName>
+  <SiteName NameType="local">PCRK5</SiteName>
+  <SiteName NameType="nwshb5">PCRW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03185000</SiteName>
+  <SiteName NameType="uuid">f8f79f92-0c1e-4560-95c5-f36e3ec1fe14</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="101">
+  <Description>Prestonsburg, KY (BSA)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>37.6708</Latitude>
+    <Longitude>-82.7772</Longitude>
+    <Elevation>179.502816</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>KY</State>
+    <NearestCity>Prestonsburg</NearestCity>
+    <Description>Levisa Fk @ Prestonsburg</Description>
+    <SiteName NameType="CWMS">Prestonsburg</SiteName>
+    <SiteName NameType="local">PRLO3</SiteName>
+    <SiteName NameType="nwshb5">PSTK2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03209800
+    </SiteName>
+    <SiteName NameType="uuid">53dbe403-c6ab-4085-a1f1-4c0d2290df5e</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Prestonsburg</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE5F7692">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:45:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="181">
+  <Description>Pound Lower, VA (BSA)</Description>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:59</LastModifyTime>
+  <Site>
+    <Latitude>37.1225</Latitude>
+    <Longitude>-82.5986</Longitude>
+    <Elevation>465.0973680000001</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>VA</State>
+    <NearestCity>Pound</NearestCity>
+    <Description>Pound Riv below Bold Camp Ck near Pound</Description>
+    <SiteName NameType="CWMS">PoundLwr</SiteName>
+    <SiteName NameType="local">PLPQ3</SiteName>
+    <SiteName NameType="nwshb5">PBCV2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03208800
+    </SiteName>
+    <SiteName NameType="uuid">392c81e3-5377-4dee-9299-f209940d3ef1</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Pound Lower</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE4B7436">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:45:40</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>EST</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

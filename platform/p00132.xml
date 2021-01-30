@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="132">
+  <Description>Guardian, WV (KAN)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>38.6353</Latitude>
+    <Longitude>-80.4658</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <NearestCity>Guardian</NearestCity>
+    <Description>Right Fk Holly Riv at Guardian</Description>
+    <SiteName NameType="CWMS">Guardian</SiteName>
+    <SiteName NameType="local">GARK7</SiteName>
+    <SiteName NameType="nwshb5">GUAW2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03195100
+    </SiteName>
+    <SiteName NameType="uuid">d9995dcc-610e-4589-94eb-673448a1483b</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Guardian</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE02D14E">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>17</ChannelNum>
+    <AssignedTime>00:46:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

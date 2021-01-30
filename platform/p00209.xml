@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="209">
+  <Description>Wills Creek Lk Outflow, OH (MUS)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:59</LastModifyTime>
+  <Site>
+    <Latitude>40.1591</Latitude>
+    <Longitude>-81.8475</Longitude>
+    <Elevation>218.5416</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>OH</State>
+    <NearestCity>Conesville</NearestCity>
+    <Description>Wills Ck below Wills Ck Dam near Conesville 2E</Description>
+    <SiteName NameType="CWMS">WillsCr-Outflow</SiteName>
+    <SiteName NameType="local">WCWOF</SiteName>
+    <SiteName NameType="nwshb5">WLLO1</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03143500
+    </SiteName>
+    <SiteName NameType="uuid">1a9828d6-def5-4d0b-8cb5-c3a375c459dc</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Wills Creek Outflow</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE5747AE">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:46:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="offset">717</PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

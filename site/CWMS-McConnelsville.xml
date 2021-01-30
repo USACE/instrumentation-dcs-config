@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.645</Latitude>
+  <Longitude>-81.8516</Longitude>
+  <Elevation>198.214488</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>McConnelsville</NearestCity>
+  <Description>Muskingum Riv @ McConnelsville (Lock 7)</Description>
+  <SiteName NameType="CWMS">McConnelsville</SiteName>
+  <SiteName NameType="local">MCMG5</SiteName>
+  <SiteName NameType="nwshb5">MCCO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03150000</SiteName>
+  <SiteName NameType="uuid">b39936c1-9ee5-4d84-bc06-160cbe4e224e</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

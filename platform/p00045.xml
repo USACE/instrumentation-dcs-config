@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="45">
+  <Description>Mount Vernon, OH (MUS)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>40.405780212601</Latitude>
+    <Longitude>-82.499780103874</Longitude>
+    <Elevation>299.057568</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>OH</State>
+    <NearestCity>Mt. Vernon</NearestCity>
+    <Description>Kokosing Riv @ Mount Vernon</Description>
+    <SiteName NameType="CWMS">MtVernon</SiteName>
+    <SiteName NameType="local">MTVD4</SiteName>
+    <SiteName NameType="nwshb5">MVEO1</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03136500
+    </SiteName>
+    <SiteName NameType="uuid">7ca37b20-244c-4c38-b230-bc89297bdf4e</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Mt. Vernon</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE5791C6">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:27:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>EST</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.7278</Latitude>
+  <Longitude>-82.9931</Longitude>
+  <Elevation>143.387064</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Portsmouth</NearestCity>
+  <Description>Ohio Riv @ Portsmouth</Description>
+  <SiteName NameType="CWMS">Portsmouth</SiteName>
+  <SiteName NameType="local">PMHK3</SiteName>
+  <SiteName NameType="nwshb5">PORO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03217200</SiteName>
+  <SiteName NameType="uuid">ef96708e-4d60-4b35-96f8-9cb2dc1aed22</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

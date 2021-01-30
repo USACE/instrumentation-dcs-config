@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.742933</Latitude>
+  <Longitude>-82.723687</Longitude>
+  <Elevation>182.05704</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KY</State>
+  <NearestCity>Van Lear</NearestCity>
+  <Description>John&apos;s Ck near Van Lear</Description>
+  <SiteName NameType="CWMS">Dewey-Outflow</SiteName>
+  <SiteName NameType="local">DWJOF</SiteName>
+  <SiteName NameType="nwshb5">VLRK2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03211500</SiteName>
+  <SiteName NameType="uuid">0ee24f72-16b2-4f04-9d23-84bdb17b5f0b</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.2713889</Latitude>
+  <Longitude>-81.305</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>VA</State>
+  <NearestCity>Falls Mills</NearestCity>
+  <Description>Bluestone River at Falls Mills</Description>
+  <SiteName NameType="CWMS">FallsMills</SiteName>
+  <SiteName NameType="local">BRVK5</SiteName>
+  <SiteName NameType="nwshb5">BRVV2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03177710</SiteName>
+  <SiteName NameType="uuid">6eb356ed-51af-4e5e-b0a1-ad78247428a1</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

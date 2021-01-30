@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="216">
+  <Description>Parkersburg, WV (OHI)</Description>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:59</LastModifyTime>
+  <Site>
+    <Latitude>39.2681</Latitude>
+    <Longitude>-81.5639</Longitude>
+    <Elevation>171.09643200000002</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <NearestCity>Parkersburg</NearestCity>
+    <Description>Ohio Riv @ Parkersburg</Description>
+    <SiteName NameType="CWMS">Parkersburg</SiteName>
+    <SiteName NameType="local">PKRH5</SiteName>
+    <SiteName NameType="nwshb5">PARW2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03151000
+    </SiteName>
+    <SiteName NameType="uuid">1d1349e6-9c13-48dc-9fd6-a95f8d764615</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Parkersburg</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE4B4F7E">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:00:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

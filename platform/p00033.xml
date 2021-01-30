@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="33">
+  <Description>Summersville Lake, WV (KAN)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>38.222630874641</Latitude>
+    <Longitude>-80.890322634888</Longitude>
+    <Elevation>457.20000000000005</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <NearestCity>Summersville</NearestCity>
+    <Description>Summersville Lake near Summersville 5SW</Description>
+    <SiteName NameType="CWMS">Summersville-Lake</SiteName>
+    <SiteName NameType="local">SUGM7</SiteName>
+    <SiteName NameType="nwshb5">SULW2</SiteName>
+    <SiteName NameType="uuid">fb5e40a0-f1af-4c42-8677-9e37626bd159</SiteName>
+    <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Summersville Lake</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE4E8372">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:50:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

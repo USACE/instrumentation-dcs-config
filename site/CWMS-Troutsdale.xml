@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>36.7019</Latitude>
+  <Longitude>-81.4401</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>VA</State>
+  <NearestCity>Troutdale</NearestCity>
+  <Description>Troutdale 4S (Volney, VA)</Description>
+  <SiteName NameType="CWMS">Troutsdale</SiteName>
+  <SiteName NameType="local">TRDS6</SiteName>
+  <SiteName NameType="nwshb5">TRTV2</SiteName>
+  <SiteName NameType="uuid">1aae1efc-f664-4bf0-ad9e-adde1db53e9a</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

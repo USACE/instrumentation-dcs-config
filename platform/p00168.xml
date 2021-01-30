@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="168">
+  <Description>Belleville L&amp;D (OHI)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:59</LastModifyTime>
+  <Site>
+    <Latitude>39.1186978</Latitude>
+    <Longitude>-81.7434818</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>EST</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>OH</State>
+    <NearestCity>Reedsville</NearestCity>
+    <Description>Ohio Riv @ Belleville L&amp;D</Description>
+    <SiteName NameType="CWMS">BellevilleLD</SiteName>
+    <SiteName NameType="local">BELI5</SiteName>
+    <SiteName NameType="nwshb5">BEVW2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03155520
+    </SiteName>
+    <SiteName NameType="uuid">83eb2b63-49bc-4065-9ed5-8ae837fe083c</SiteName>
+    <SiteProperty PropertyName="location_type">Lock</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Belleville Locks and Dam
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE4AC542">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:01</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <Site>
+      <Latitude>39.1217772</Latitude>
+      <Longitude>-81.7399756</Longitude>
+      <Elevation>173.60493600000004</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>OH</State>
+      <NearestCity>Reedsville</NearestCity>
+      <SiteName NameType="CWMS">BellevilleLD-Pool</SiteName>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">
+        Belleville L&amp;D Pool
+      </SiteProperty>
+    </Site>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="2">
+    <Site>
+      <Latitude>39.1135199</Latitude>
+      <Longitude>-81.7413703</Longitude>
+      <Elevation>166.926768</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>OH</State>
+      <NearestCity>Reedsville</NearestCity>
+      <SiteName NameType="CWMS">BellevilleLD-Tailwater</SiteName>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">
+        Belleville L&amp;D Tailwater
+      </SiteProperty>
+    </Site>
+  </PlatformSensor>
+</Platform>

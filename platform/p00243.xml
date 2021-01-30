@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="243">
+  <Description>Claytor Lake, VA (KAN)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:59</LastModifyTime>
+  <Site>
+    <Latitude>37.0744</Latitude>
+    <Longitude>-80.5847</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>VA</State>
+    <NearestCity>Radford</NearestCity>
+    <Description>Claytor Dam near Radford, VA</Description>
+    <SiteName NameType="CWMS">Claytor-Lake</SiteName>
+    <SiteName NameType="local">CLNQ7</SiteName>
+    <SiteName NameType="nwshb5">CLLV2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03169000
+    </SiteName>
+    <SiteName NameType="uuid">0394b959-488e-4125-91c2-c95d0f342aba</SiteName>
+    <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Claytor Lake</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE6FBB2E">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:38:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="offset">1800</PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

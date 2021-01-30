@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="141">
+  <Description>Winfield L&amp;D, WV (KAN)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>38.5269</Latitude>
+    <Longitude>-81.9136</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <NearestCity>Winfield</NearestCity>
+    <Description>Winfield L-D</Description>
+    <SiteName NameType="CWMS">WinfieldLD</SiteName>
+    <SiteName NameType="local">WMFK5</SiteName>
+    <SiteName NameType="nwshb5">WINW2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03201300
+    </SiteName>
+    <SiteName NameType="uuid">af630c48-86f6-4fd6-87f4-24b39a8162bf</SiteName>
+    <SiteProperty PropertyName="location_type">Lock</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Winfield Locks and Dam
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE042104">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>17</ChannelNum>
+    <AssignedTime>00:44:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <Site>
+      <Latitude>38.526060661304</Latitude>
+      <Longitude>-81.916861566162</Longitude>
+      <Elevation>161.20262400000001</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WV</State>
+      <NearestCity>Winfield</NearestCity>
+      <SiteName NameType="CWMS">WinfieldLD-Tailwater</SiteName>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">
+        Winfield L&amp;D Tailwater
+      </SiteProperty>
+    </Site>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="2">
+    <Site>
+      <Latitude>38.525389183299</Latitude>
+      <Longitude>-81.911625894165</Longitude>
+      <Elevation>167.009064</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WV</State>
+      <NearestCity>Winfield</NearestCity>
+      <SiteName NameType="CWMS">WinfieldLD-Pool</SiteName>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Winfield L&amp;D Pool</SiteProperty>
+    </Site>
+  </PlatformSensor>
+</Platform>

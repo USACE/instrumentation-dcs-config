@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="85">
+  <Description>Georges Fork, KY (BSA)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>37.1642</Latitude>
+    <Longitude>-82.525</Longitude>
+    <Elevation>448.17487200000005</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>VA</State>
+    <NearestCity>Clintwood</NearestCity>
+    <Description>Pound Riv near Georges Fork</Description>
+    <SiteName NameType="CWMS">GeorgesFk</SiteName>
+    <SiteName NameType="local">GFPQ4</SiteName>
+    <SiteName NameType="nwshb5">GFPV2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03208900
+    </SiteName>
+    <SiteName NameType="uuid">2b350f33-2294-4c3a-b1db-9408ff437c12</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Georges Fork</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE57DC1E">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>17</ChannelNum>
+    <AssignedTime>00:56:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="240">
+  <Description>Rockbridge on Clear Creek (HOC)</Description>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:59</LastModifyTime>
+  <Site>
+    <Latitude>39.588323</Latitude>
+    <Longitude>-82.57863</Longitude>
+    <Elevation>230.41965600000003</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>OH</State>
+    <NearestCity>Rockbridge</NearestCity>
+    <Description>Rockbridge on Clear Creek</Description>
+    <SiteName NameType="CWMS">Rockbridge</SiteName>
+    <SiteName NameType="uuid">a756526a-cb68-440e-9b19-ecbf0dea652d</SiteName>
+    <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Rockbridge</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="D1207584">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>157</ChannelNum>
+    <AssignedTime>00:59:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

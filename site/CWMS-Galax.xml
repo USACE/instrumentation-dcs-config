@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>36.6472</Latitude>
+  <Longitude>-80.9792</Longitude>
+  <Elevation>714.503016</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>VA</State>
+  <NearestCity>Galax</NearestCity>
+  <Description>New Riv @ Old Town near Galax 3SW</Description>
+  <SiteName NameType="CWMS">Galax</SiteName>
+  <SiteName NameType="local">GLXR7</SiteName>
+  <SiteName NameType="nwshb5">GAXV2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03164000</SiteName>
+  <SiteName NameType="uuid">0eec33f1-5fd4-4720-a921-97ef16b927cc</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

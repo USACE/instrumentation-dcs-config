@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="70">
+  <Description>Charles Mill Lake, OH (MUS)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>40.7403</Latitude>
+    <Longitude>-82.3625</Longitude>
+    <Elevation>300.8376</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>OH</State>
+    <NearestCity>Mansfield</NearestCity>
+    <Description>Charles Mill Lk near Mansfield 8E</Description>
+    <SiteName NameType="CWMS">CharlesMill-Lake</SiteName>
+    <SiteName NameType="local">CMBC4</SiteName>
+    <SiteName NameType="nwshb5">CHOO1</SiteName>
+    <SiteName NameType="uuid">4b3ecbf9-734e-4856-bd50-2b9ee8222c49</SiteName>
+    <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Charles Mill Lake</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE44A4CC">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:17:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="offset">987</PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

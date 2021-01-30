@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.563055555556</Latitude>
+  <Longitude>-81.203888888889</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <SiteName NameType="CWMS">BloomfieldOH</SiteName>
+  <SiteName NameType="uuid">33ef02da-7e4e-4ebf-81df-0bcf00d0acc9</SiteName>
+</Site>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformConfig ConfigName="300434064633190">
+  <Description>Racine L&amp;D - Iridium - 300434064633190</Description>
+  <ConfigSensor SensorNumber="1">
+    <SensorName>Pool</SensorName>
+    <DataType Standard="CWMS" Code="Stage"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:05</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <ConfigSensorProperty PropertyName="CwmsVersion">
+      Iridium-raw
+    </ConfigSensorProperty>
+  </ConfigSensor>
+  <ConfigSensor SensorNumber="2">
+    <SensorName>Tailwater</SensorName>
+    <DataType Standard="CWMS" Code="Stage"/>
+    <RecordingMode>F</RecordingMode>
+    <RecordingInterval>00:05</RecordingInterval>
+    <TimeOfFirstSample>00:00</TimeOfFirstSample>
+    <ConfigSensorProperty PropertyName="CwmsVersion">
+      Iridium-raw
+    </ConfigSensorProperty>
+  </ConfigSensor>
+  <DecodesScript ScriptName="ST">
+    <ScriptType>Decodes:iridium</ScriptType>
+    <FormatStatement Label="start">
+      20x,F(S,A,6d&apos; &apos;,1),10x,F(S,A,6d&apos; &apos;,2)
+    </FormatStatement>
+    <ScriptSensor SensorNumber="1">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+    <ScriptSensor SensorNumber="2">
+      <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+        <Algorithm>none</Algorithm>
+        <A>0.0</A>
+        <B>0.0</B>
+        <C>0.0</C>
+        <D>0.0</D>
+        <E>0.0</E>
+        <F>0.0</F>
+      </UnitConverter>
+    </ScriptSensor>
+  </DecodesScript>
+</PlatformConfig>

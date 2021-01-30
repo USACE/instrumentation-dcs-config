@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="241">
+  <Description>New River Below Hawks Nest Dam, WV (KAN)</Description>
+  <Agency>USGS</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:59</LastModifyTime>
+  <Site>
+    <Latitude>38.113611</Latitude>
+    <Longitude>-81.1425</Longitude>
+    <Elevation>224.024952</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <NearestCity>Hawks Nest</NearestCity>
+    <Description>New River below Hawks Nest Dam, WV</Description>
+    <SiteName NameType="CWMS">HawksNest</SiteName>
+    <SiteName NameType="uuid">0a7b115b-352f-4bdb-9736-cc8e0489efd0</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Hawks Nest</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DE16B188">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>35</ChannelNum>
+    <AssignedTime>00:48:40</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

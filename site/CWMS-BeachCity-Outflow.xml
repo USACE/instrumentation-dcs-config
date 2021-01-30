@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.635609</Latitude>
+  <Longitude>-81.554028</Longitude>
+  <Elevation>282.8544</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Beach City</NearestCity>
+  <Description>Sugar Ck below Beach City Dam near Beach City 2SE</Description>
+  <SiteName NameType="CWMS">BeachCity-Outflow</SiteName>
+  <SiteName NameType="local">BCSOF</SiteName>
+  <SiteName NameType="nwshb5">BHLO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03124000</SiteName>
+  <SiteName NameType="uuid">1447194d-d6b3-4723-8262-04ec454205c4</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

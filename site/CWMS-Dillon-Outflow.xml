@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.9898</Latitude>
+  <Longitude>-82.078825</Longitude>
+  <Elevation>213.36</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Zanesville</NearestCity>
+  <Description>Licking Riv below Dillon Dam near Dillon Falls, OH</Description>
+  <SiteName NameType="CWMS">Dillon-Outflow</SiteName>
+  <SiteName NameType="local">DILOF</SiteName>
+  <SiteName NameType="nwshb5">DLLO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03147500</SiteName>
+  <SiteName NameType="uuid">74bcc816-2cdb-4d5f-9d1e-a1d66a03f2fe</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>0</Latitude>
+  <Longitude>0</Longitude>
+  <Elevation>213.36</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KY</State>
+  <NearestCity>Presque Isle</NearestCity>
+  <Description>
+    Testing pulling in Iridium gage with a new location. Does not work with
+    
+    existing location
+  </Description>
+  <SiteName NameType="CWMS">Paintsville-Outflow-Iridium</SiteName>
+  <SiteName NameType="uuid">8df9c5f4-1b08-4aed-9592-d43c38ff9487</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+</Site>

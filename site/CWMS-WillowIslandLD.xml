@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.3603</Latitude>
+  <Longitude>-81.3208</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Reno</NearestCity>
+  <Description>Ohio Riv @ Willow Island L&amp;D near Reno 4ESE</Description>
+  <SiteName NameType="CWMS">WillowIslandLD</SiteName>
+  <SiteName NameType="local">WIOH6</SiteName>
+  <SiteName NameType="nwshb5">RNOO1</SiteName>
+  <SiteName NameType="uuid">f4ee9072-e4ea-4f35-92c1-314211ded0ba</SiteName>
+  <SiteProperty PropertyName="location_type">Lock</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

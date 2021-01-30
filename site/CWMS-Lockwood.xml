@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.2625</Latitude>
+  <Longitude>-81.0233</Longitude>
+  <Elevation>324.33768</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Lockwood</NearestCity>
+  <Description>Peters Ck nr Lockwood, WV (USGS)</Description>
+  <SiteName NameType="CWMS">Lockwood</SiteName>
+  <SiteName NameType="local">LOCM7</SiteName>
+  <SiteName NameType="nwshb5">LCKW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03191500</SiteName>
+  <SiteName NameType="uuid">c08353b8-c2cf-448a-88c8-70c7d2756e8c</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

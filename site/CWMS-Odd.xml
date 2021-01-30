@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.5869</Latitude>
+  <Longitude>-81.1931</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Odd</NearestCity>
+  <Description>Odd, WV</Description>
+  <SiteName NameType="CWMS">Odd</SiteName>
+  <SiteName NameType="local">ODDO6</SiteName>
+  <SiteName NameType="nwshb5">ODDW2</SiteName>
+  <SiteName NameType="uuid">53f373b0-563d-4dc4-91c9-bd07c10ae031</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.1325</Latitude>
+  <Longitude>-82.1481</Longitude>
+  <Elevation>227.82885600000003</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Frazeysburg</NearestCity>
+  <Description>Wakatomika Ck near Frazeysburg 2NW</Description>
+  <SiteName NameType="CWMS">Frazeysburg</SiteName>
+  <SiteName NameType="local">FZWE4</SiteName>
+  <SiteName NameType="nwshb5">FRAO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03144000</SiteName>
+  <SiteName NameType="uuid">fd8dc3b3-2057-4251-8e0e-07e9ede66a15</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

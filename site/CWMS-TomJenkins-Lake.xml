@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.5408</Latitude>
+  <Longitude>-82.0567</Longitude>
+  <Elevation>213.42705600000002</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Burr Oak</NearestCity>
+  <Description>Tom Jenkins Lk near Burr Oak 1SE</Description>
+  <SiteName NameType="CWMS">TomJenkins-Lake</SiteName>
+  <SiteName NameType="local">TJEG4</SiteName>
+  <SiteName NameType="nwshb5">TJLO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03158500</SiteName>
+  <SiteName NameType="uuid">c8956a04-735a-4cfc-9e1a-8f5318d3eac5</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

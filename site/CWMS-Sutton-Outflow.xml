@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.662746</Latitude>
+  <Longitude>-80.709391</Longitude>
+  <Elevation>243.84</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Sutton</NearestCity>
+  <Description>Elk Riv near Sutton 2SE</Description>
+  <SiteName NameType="CWMS">Sutton-Outflow</SiteName>
+  <SiteName NameType="local">SUEOF</SiteName>
+  <SiteName NameType="nwshb5">SUSW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03195500</SiteName>
+  <SiteName NameType="uuid">157bffbf-ebcb-4112-8282-b534519512a2</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

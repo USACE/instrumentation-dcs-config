@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.7405</Latitude>
+  <Longitude>-81.3661</Longitude>
+  <Elevation>298.71924</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>North Industry</NearestCity>
+  <Description>Nimishillen Creek near North Industry</Description>
+  <SiteName NameType="CWMS">NoIndustry</SiteName>
+  <SiteName NameType="local">NINC6</SiteName>
+  <SiteName NameType="nwshb5">NHSO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03118500</SiteName>
+  <SiteName NameType="uuid">993ed9f0-4630-4919-834f-7822d0437c79</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="44">
+  <Description>Fishtrap OF, KY (BSA)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>37.43</Latitude>
+    <Longitude>-82.4164</Longitude>
+    <Elevation>201.155808</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>KY</State>
+    <NearestCity>Shelbiana</NearestCity>
+    <Description>
+      Levisa Fk below Fishtrap Dam near Millard near Shelbiana 1E
+    </Description>
+    <SiteName NameType="CWMS">Fishtrap-Outflow</SiteName>
+    <SiteName NameType="local">FRLOF</SiteName>
+    <SiteName NameType="nwshb5">MILK2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03208000
+    </SiteName>
+    <SiteName NameType="uuid">04894a00-8d4e-4de1-b298-457b3d9aff52</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Fishtrap Outflow</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE4FF9CA">
+    <DecodesScript ScriptName="st"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:57:40</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>EST</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="offset">
+      659.96
+    </PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

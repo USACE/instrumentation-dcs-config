@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="28">
+  <Description>Marmet, WV (KAN)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>38.25372893993</Latitude>
+    <Longitude>-81.566782571411</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <NearestCity>Belle</NearestCity>
+    <Description>Marmet L&amp;D</Description>
+    <SiteName NameType="CWMS">MarmetLD</SiteName>
+    <SiteName NameType="local">MMKL5</SiteName>
+    <SiteName NameType="nwshb5">MMTW2</SiteName>
+    <SiteName NameType="uuid">4f10c839-6573-4cac-8201-a486a5e0fc62</SiteName>
+    <SiteProperty PropertyName="location_type">Lock</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Marmet Locks and Dam</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE5F507E">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>177</ChannelNum>
+    <AssignedTime>00:00:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>EST</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <Site>
+      <Latitude>38.256054231513</Latitude>
+      <Longitude>-81.569443322754</Longitude>
+      <Elevation>169.87113600000004</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WV</State>
+      <NearestCity>Belle</NearestCity>
+      <SiteName NameType="CWMS">MarmetLD-Tailwater</SiteName>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">
+        Marmet L&amp;D Tailwater
+      </SiteProperty>
+    </Site>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="2">
+    <Site>
+      <Latitude>38.25086434801</Latitude>
+      <Longitude>-81.56626758728</Longitude>
+      <Elevation>174.44313600000004</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WV</State>
+      <NearestCity>Belle</NearestCity>
+      <SiteName NameType="CWMS">MarmetLD-Pool</SiteName>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Marmet L&amp;D Pool</SiteProperty>
+    </Site>
+  </PlatformSensor>
+</Platform>

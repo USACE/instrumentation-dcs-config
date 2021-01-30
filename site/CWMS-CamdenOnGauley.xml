@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.3658</Latitude>
+  <Longitude>-80.6011</Longitude>
+  <Elevation>610.764336</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Camden On Gauley</NearestCity>
+  <Description>Gauley Riv @ Camden-on-Gauley</Description>
+  <SiteName NameType="CWMS">CamdenOnGauley</SiteName>
+  <SiteName NameType="local">CMDL7</SiteName>
+  <SiteName NameType="nwshb5">COGW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03187000</SiteName>
+  <SiteName NameType="uuid">fc901578-8134-4670-b29d-184d0c1109ea</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

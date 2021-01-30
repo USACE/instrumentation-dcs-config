@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="149">
+  <Description>Bolivar Lake, OH (MUS)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>40.6486</Latitude>
+    <Longitude>-81.4328</Longitude>
+    <Elevation>272.796</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>OH</State>
+    <NearestCity>Bolivar</NearestCity>
+    <Description>Bolivar Lk near Bolivar 1E</Description>
+    <SiteName NameType="CWMS">Bolivar-Lake</SiteName>
+    <SiteName NameType="local">BOSC6</SiteName>
+    <SiteName NameType="nwshb5">BIVO1</SiteName>
+    <SiteName NameType="uuid">913a370d-a859-44cd-814a-599c1f4113f8</SiteName>
+    <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Bolivar Lake</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE44D25C">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:12:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="offset">895.0</PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

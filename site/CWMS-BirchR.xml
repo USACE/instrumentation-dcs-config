@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.5</Latitude>
+  <Longitude>-80.75</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Birch River</NearestCity>
+  <Description>Birch River</Description>
+  <SiteName NameType="CWMS">BirchR</SiteName>
+  <SiteName NameType="local">BIRL7</SiteName>
+  <SiteName NameType="nwshb5">IRCW2</SiteName>
+  <SiteName NameType="uuid">866bfaca-a9e6-4cfc-82e7-aa3f6a93320e</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

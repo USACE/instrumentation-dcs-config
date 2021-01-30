@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.2616</Latitude>
+  <Longitude>-81.6088</Longitude>
+  <Elevation>237.54892800000002</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Newcomerstown</NearestCity>
+  <Description>Tuscarawas Riv @ Newcomerstown</Description>
+  <SiteName NameType="CWMS">Newcomerstown</SiteName>
+  <SiteName NameType="local">NECD5</SiteName>
+  <SiteName NameType="nwshb5">NCTO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03129000</SiteName>
+  <SiteName NameType="uuid">4936cced-1664-4841-89ac-60f3c42d38d5</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

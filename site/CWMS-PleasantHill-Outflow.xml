@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.620518</Latitude>
+  <Longitude>82.323769</Longitude>
+  <Elevation>294.7416</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Perrysville</NearestCity>
+  <Description>
+    Clear Fk below Pleasant Hill Dam near Perrysville 3S
+  </Description>
+  <SiteName NameType="CWMS">PleasantHill-Outflow</SiteName>
+  <SiteName NameType="local">PHCOF</SiteName>
+  <SiteName NameType="nwshb5">PHLO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03133500</SiteName>
+  <SiteName NameType="uuid">1f23e3d5-2852-41ee-921a-cc7d584f0f24</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

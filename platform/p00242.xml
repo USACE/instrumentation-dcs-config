@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="242">
+  <Description>Hannibal L&amp;D (OHI)</Description>
+  <Agency>LRP</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:59</LastModifyTime>
+  <Site>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <SiteName NameType="CWMS">HannibalLD</SiteName>
+    <SiteName NameType="uuid">f363830b-3639-47fa-96c0-bb8d20c7be9d</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Hannibal Locks and Dam
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE47C8F6">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:00:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <Site>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>00</State>
+      <SiteName NameType="CWMS">HannibalLD-Pool</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">
+        Hannibal Locks and Dam Pool
+      </SiteProperty>
+    </Site>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="2">
+    <Site>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>00</State>
+      <SiteName NameType="CWMS">HannibalLD-Tailwater</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">
+        Hannibal Locks and Dam Tailwater
+      </SiteProperty>
+    </Site>
+  </PlatformSensor>
+</Platform>

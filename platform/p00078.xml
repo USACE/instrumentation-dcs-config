@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="78">
+  <Description>Lucas, OH (MUS)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>40.703611</Latitude>
+    <Longitude>-82.414444</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>OH</State>
+    <NearestCity>Lucas</NearestCity>
+    <SiteName NameType="CWMS">Lucas</SiteName>
+    <SiteName NameType="uuid">9af38dc4-0a09-43ea-86ba-9a8b672b6782</SiteName>
+    <SiteProperty PropertyName="vertical_datum">null</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Lucas</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE4CA06A">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>17</ChannelNum>
+    <AssignedTime>00:57:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

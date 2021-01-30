@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.4325</Latitude>
+  <Longitude>-82.4156</Longitude>
+  <Elevation>213.366096</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KY</State>
+  <NearestCity>Shelbiana</NearestCity>
+  <Description>Fishtrap Lk near Shelbiana 1E</Description>
+  <SiteName NameType="CWMS">Fishtrap-Lake</SiteName>
+  <SiteName NameType="local">FRLP4</SiteName>
+  <SiteName NameType="nwshb5">FTLK2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03207995</SiteName>
+  <SiteName NameType="uuid">5621cc91-6cb7-409a-ba2d-e894549d9cc3</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

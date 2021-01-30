@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="219">
+  <Description>R C Byrd (Gallipolis, WV) (OHI)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:59</LastModifyTime>
+  <Site>
+    <Latitude>38.6819</Latitude>
+    <Longitude>-82.1869</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <NearestCity>Gallipolis Ferry</NearestCity>
+    <Description>Gallipolis Locks and Dam</Description>
+    <SiteName NameType="CWMS">RCByrdLD</SiteName>
+    <SiteName NameType="local">GPOK4</SiteName>
+    <SiteName NameType="nwshb5">GALW2</SiteName>
+    <SiteName NameType="uuid">e4490217-7510-41f2-803d-a0b1dae63852</SiteName>
+    <SiteProperty PropertyName="location_type">Lock</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      R.C. Byrd Locks and Dam
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE4AD8E6">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:01:40</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <Site>
+      <Latitude>38.6822853</Latitude>
+      <Longitude>-82.188445</Longitude>
+      <Elevation>160.205928</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WV</State>
+      <NearestCity>Gallipolis Ferry</NearestCity>
+      <SiteName NameType="CWMS">RCByrdLD-Pool</SiteName>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">R.C. Byrd L&amp;D Pool</SiteProperty>
+    </Site>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="2">
+    <Site>
+      <Latitude>38.6802585</Latitude>
+      <Longitude>-82.1911916</Longitude>
+      <Elevation>153.219912</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WV</State>
+      <NearestCity>Gallipolis Ferry</NearestCity>
+      <SiteName NameType="CWMS">RCByrdLD-Tailwater</SiteName>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">
+        R.C. Byrd L&amp;D Tailwater
+      </SiteProperty>
+    </Site>
+  </PlatformSensor>
+</Platform>

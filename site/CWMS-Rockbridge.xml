@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.588323</Latitude>
+  <Longitude>-82.57863</Longitude>
+  <Elevation>230.41965600000003</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Rockbridge</NearestCity>
+  <Description>Rockbridge on Clear Creek</Description>
+  <SiteName NameType="CWMS">Rockbridge</SiteName>
+  <SiteName NameType="uuid">a756526a-cb68-440e-9b19-ecbf0dea652d</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+</Site>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.2703341</Latitude>
+  <Longitude>-81.2902429</Longitude>
+  <Elevation>258.54355200000003</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Tippecanoe</NearestCity>
+  <Description>Stillwater Ck @ Tippecanoe</Description>
+  <SiteName NameType="CWMS">Tippecanoe</SiteName>
+  <SiteName NameType="local">TISD6</SiteName>
+  <SiteName NameType="nwshb5">TPPO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03127000</SiteName>
+  <SiteName NameType="uuid">28c08e22-2ce8-4691-bda1-27c0b71cb4b6</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

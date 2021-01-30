@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>36.499719</Latitude>
+  <Longitude>-80.978056</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NC</State>
+  <NearestCity>Ennice, NC</NearestCity>
+  <Description>Ennice (aka Glade)</Description>
+  <SiteName NameType="CWMS">Ennice</SiteName>
+  <SiteName NameType="local">GLDR7</SiteName>
+  <SiteName NameType="nwshb5">GLCN7</SiteName>
+  <SiteName NameType="uuid">bebe017c-22c3-4480-bafc-62e5bde1473b</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

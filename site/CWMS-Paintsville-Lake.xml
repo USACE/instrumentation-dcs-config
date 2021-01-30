@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.8403</Latitude>
+  <Longitude>-82.8742</Longitude>
+  <Elevation>213.36</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KY</State>
+  <NearestCity>Paintsville</NearestCity>
+  <Description>Paintsville Lk near Paintsville</Description>
+  <SiteName NameType="CWMS">Paintsville-Lake</SiteName>
+  <SiteName NameType="local">PIVN3</SiteName>
+  <SiteName NameType="nwshb5">PNTK2</SiteName>
+  <SiteName NameType="uuid">24ddef02-6132-4d94-bd59-9b76f4b97471</SiteName>
+  <SiteProperty PropertyName="location_type">Reservoir</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

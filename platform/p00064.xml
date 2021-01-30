@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="64">
+  <Description>Jobs Knob, WV (KAN)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>38.0786</Latitude>
+    <Longitude>-80.543</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <NearestCity>Clearco</NearestCity>
+    <Description>Jobs Knob near Clearco 1S</Description>
+    <SiteName NameType="CWMS">JobsKnob</SiteName>
+    <SiteName NameType="local">JOKM7</SiteName>
+    <SiteName NameType="nwshb5">JOBW2</SiteName>
+    <SiteName NameType="uuid">a0d9d7a6-7f0a-4e55-be6d-277dc350d22d</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Jobs Knob</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE4B84B2">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>177</ChannelNum>
+    <AssignedTime>00:02</AssignedTime>
+    <TransmitWindow>00:00:05</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>EST</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

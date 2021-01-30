@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.0375</Latitude>
+  <Longitude>-80.5569</Longitude>
+  <Elevation>170.06316</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>VA</State>
+  <NearestCity>Graysontown</NearestCity>
+  <Description>Little Riv near Graysontown 1SE</Description>
+  <SiteName NameType="CWMS">Graysontown</SiteName>
+  <SiteName NameType="local">GRYR7</SiteName>
+  <SiteName NameType="nwshb5">GRYV2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03170000</SiteName>
+  <SiteName NameType="uuid">32d0e925-cb2c-499e-bf8b-c14f52bfbfbf</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

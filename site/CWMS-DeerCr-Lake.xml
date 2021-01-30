@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.6222</Latitude>
+  <Longitude>-83.215</Longitude>
+  <Elevation>234.696</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Pancoastburg</NearestCity>
+  <Description>Deer Ck Res near Pancoastburg</Description>
+  <SiteName NameType="CWMS">DeerCr-Lake</SiteName>
+  <SiteName NameType="local">DCSG2</SiteName>
+  <SiteName NameType="nwshb5">DCRO1</SiteName>
+  <SiteName NameType="uuid">43b91cb9-9e64-475b-9c0d-1e73b489b995</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

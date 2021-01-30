@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="20">
+  <Description>Kermit, WV (BSA)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>37.8372</Latitude>
+    <Longitude>-82.4088</Longitude>
+    <Elevation>175.189896</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <NearestCity>Kermit</NearestCity>
+    <Description>Tug Fk Riv near Kermit</Description>
+    <SiteName NameType="CWMS">Kermit</SiteName>
+    <SiteName NameType="local">KMTN4</SiteName>
+    <SiteName NameType="nwshb5">KRMW2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03214500
+    </SiteName>
+    <SiteName NameType="uuid">a20d0206-b5a0-4e43-b7fe-7a26b77dcf4b</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Kermit</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE6AE240">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>177</ChannelNum>
+    <AssignedTime>00:02:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>EST</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

@@ -1,217 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Platform PlatformId="5">
-  <Description>FISHEATING CREEK AT LAKEPORT, FL</Description>
-  <Agency></Agency>
-  <IsProduction>true</IsProduction>
-  <LastModifyTime>01/15/2021 14:44:45</LastModifyTime>
+  <Description>Willard, KY (LSA)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
   <Site>
+    <Latitude>38.213965950317</Latitude>
+    <Longitude>-82.904824264526</Longitude>
     <Elevation>1.7976931348623157E308</Elevation>
-    <ElevationUnits>ft</ElevationUnits>
-    <SiteName NameType="uuid">77f0e427-e387-47b5-b707-b8dc5acad643</SiteName>
-    <SiteName NameType="local">PZ-R3-SH-B1A</SiteName>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>KY</State>
+    <NearestCity>Willard</NearestCity>
+    <Description>Willard, KY</Description>
+    <SiteName NameType="CWMS">Willard</SiteName>
+    <SiteName NameType="local">WILL3</SiteName>
+    <SiteName NameType="nwshb5">WLLK2</SiteName>
+    <SiteName NameType="uuid">bc3a2e44-8dfa-4917-8db6-6d280d88e803</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Willard</SiteProperty>
   </Site>
-  <PlatformConfig ConfigName="HHD003">
-    <Description></Description>
-    <ConfigSensor SensorNumber="1">
-      <SensorName>stage1</SensorName>
-      <DataType Standard="MIDAS" Code="Stage"/>
-      <RecordingMode>F</RecordingMode>
-      <RecordingInterval>00:15</RecordingInterval>
-      <TimeOfFirstSample>00:00</TimeOfFirstSample>
-    </ConfigSensor>
-    <ConfigSensor SensorNumber="2">
-      <SensorName>xvelocity</SensorName>
-      <DataType Standard="MIDAS" Code="Speed"/>
-      <RecordingMode>F</RecordingMode>
-      <RecordingInterval>00:15</RecordingInterval>
-      <TimeOfFirstSample>00:00</TimeOfFirstSample>
-    </ConfigSensor>
-    <ConfigSensor SensorNumber="3">
-      <SensorName>Temp-Water</SensorName>
-      <DataType Standard="MIDAS" Code="Temperature"/>
-      <RecordingMode>F</RecordingMode>
-      <RecordingInterval>00:15</RecordingInterval>
-      <TimeOfFirstSample>00:00</TimeOfFirstSample>
-    </ConfigSensor>
-    <ConfigSensor SensorNumber="4">
-      <SensorName>stage2</SensorName>
-      <DataType Standard="MIDAS" Code="Stage"/>
-      <RecordingMode>F</RecordingMode>
-      <RecordingInterval>00:15</RecordingInterval>
-      <TimeOfFirstSample>00:00</TimeOfFirstSample>
-    </ConfigSensor>
-    <ConfigSensor SensorNumber="5">
-      <SensorName>Cell End</SensorName>
-      <DataType Standard="EPA-CODE" Code="99238"/>
-      <RecordingMode>F</RecordingMode>
-      <RecordingInterval>00:15</RecordingInterval>
-      <TimeOfFirstSample>00:00</TimeOfFirstSample>
-      <UsgsStatCode>00011</UsgsStatCode>
-    </ConfigSensor>
-    <ConfigSensor SensorNumber="6">
-      <SensorName>SNR</SensorName>
-      <DataType Standard="EPA-CODE" Code="99237"/>
-      <RecordingMode>F</RecordingMode>
-      <RecordingInterval>00:15</RecordingInterval>
-      <TimeOfFirstSample>00:00</TimeOfFirstSample>
-      <UsgsStatCode>00011</UsgsStatCode>
-    </ConfigSensor>
-    <ConfigSensor SensorNumber="7">
-      <SensorName>Y Velocity</SensorName>
-      <DataType Standard="EPA-CODE" Code="00055"/>
-      <RecordingMode>F</RecordingMode>
-      <RecordingInterval>00:15</RecordingInterval>
-      <TimeOfFirstSample>00:00</TimeOfFirstSample>
-      <UsgsStatCode>00011</UsgsStatCode>
-    </ConfigSensor>
-    <ConfigSensor SensorNumber="8">
-      <SensorName>battery</SensorName>
-      <DataType Standard="MIDAS" Code="Voltage"/>
-      <RecordingMode>F</RecordingMode>
-      <RecordingInterval>01:00</RecordingInterval>
-      <TimeOfFirstSample>00:00</TimeOfFirstSample>
-    </ConfigSensor>
-    <DecodesScript ScriptName="ST">
-      <ScriptType>Decodes</ScriptType>
-      <FormatStatement Label="ST">
-        4X,12(F(S,I,3,1)),12(F(S,I,3,2)),12(F(S,I,3,3)),12(F(S,I,3,4)),12(F(S,I,3,5)),12(F(S,I,3,6)),12(F(S,I,3,7)),F(S,I,1,8),
-      </FormatStatement>
-      <ScriptSensor SensorNumber="1">
-        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
-          <Algorithm>usgs-standard</Algorithm>
-          <A>0.01</A>
-          <B>0.0</B>
-          <C>1.0</C>
-          <D>0.0</D>
-          <E>0.0</E>
-          <F>0.0</F>
-        </UnitConverter>
-      </ScriptSensor>
-      <ScriptSensor SensorNumber="2">
-        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft/sec">
-          <Algorithm>usgs-standard</Algorithm>
-          <A>0.01</A>
-          <B>0.0</B>
-          <C>1.0</C>
-          <D>0.0</D>
-          <E>0.0</E>
-          <F>0.0</F>
-        </UnitConverter>
-      </ScriptSensor>
-      <ScriptSensor SensorNumber="3">
-        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="deg F">
-          <Algorithm>usgs-standard</Algorithm>
-          <A>0.01</A>
-          <B>0.0</B>
-          <C>1.0</C>
-          <D>0.0</D>
-          <E>0.0</E>
-          <F>0.0</F>
-        </UnitConverter>
-      </ScriptSensor>
-      <ScriptSensor SensorNumber="4">
-        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
-          <Algorithm>usgs-standard</Algorithm>
-          <A>0.01</A>
-          <B>0.0</B>
-          <C>1.0</C>
-          <D>0.0</D>
-          <E>0.0</E>
-          <F>0.0</F>
-        </UnitConverter>
-      </ScriptSensor>
-      <ScriptSensor SensorNumber="5">
-        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="count">
-          <Algorithm>usgs-standard</Algorithm>
-          <A>0.01</A>
-          <B>0.0</B>
-          <C>1.0</C>
-          <D>0.0</D>
-          <E>0.0</E>
-          <F>0.0</F>
-        </UnitConverter>
-      </ScriptSensor>
-      <ScriptSensor SensorNumber="6">
-        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="db">
-          <Algorithm>usgs-standard</Algorithm>
-          <A>0.01</A>
-          <B>0.0</B>
-          <C>1.0</C>
-          <D>0.0</D>
-          <E>0.0</E>
-          <F>0.0</F>
-        </UnitConverter>
-      </ScriptSensor>
-      <ScriptSensor SensorNumber="7">
-        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft/sec">
-          <Algorithm>usgs-standard</Algorithm>
-          <A>0.01</A>
-          <B>0.0</B>
-          <C>1.0</C>
-          <D>0.0</D>
-          <E>0.0</E>
-          <F>0.0</F>
-        </UnitConverter>
-      </ScriptSensor>
-      <ScriptSensor SensorNumber="8">
-        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
-          <Algorithm>usgs-standard</Algorithm>
-          <A>0.234</A>
-          <B>0.0</B>
-          <C>1.0</C>
-          <D>10.59998</D>
-          <E>0.0</E>
-          <F>0.0</F>
-        </UnitConverter>
-      </ScriptSensor>
-    </DecodesScript>
-  </PlatformConfig>
-  <TransportMedium MediumType="goes-self-timed" MediumId="DD3E83BC">
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE6F9DC2">
     <DecodesScript ScriptName="ST"/>
-    <EquipmentModel Name="SATLINKD">
-      <EquipmentType>DCP</EquipmentType>
-      <Company>SUTRON</Company>
-      <Model>SATLINK</Model>
-    </EquipmentModel>
-    <ChannelNum>105</ChannelNum>
-    <AssignedTime>00:56:40</AssignedTime>
+    <ChannelNum>17</ChannelNum>
+    <AssignedTime>00:57:40</AssignedTime>
     <TransmitWindow>00:00:10</TransmitWindow>
     <TransmitInterval>01:00</TransmitInterval>
     <Preamble>S</Preamble>
-    <TimeZone>UTC</TimeZone>
+    <TimeZone>EST</TimeZone>
     <parity>U</parity>
   </TransportMedium>
-  <PlatformSensor SensorNumber="1">
-    <Site>
-      <Elevation>1.7976931348623157E308</Elevation>
-      <ElevationUnits>ft</ElevationUnits>
-      <SiteName NameType="uuid">27a43e2d-6b8d-4a9d-92c3-7e7b6de96d4a</SiteName>
-      <SiteName NameType="local">PZ-R3-SH-C1</SiteName>
-    </Site>
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="2">
-    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="3">
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="4">
-    <Site>
-      <Elevation>1.7976931348623157E308</Elevation>
-      <ElevationUnits>ft</ElevationUnits>
-      <SiteName NameType="uuid">b0eccef9-ef09-44b4-b821-6cab400c0959</SiteName>
-      <SiteName NameType="local">PZ-R3-SH-C2</SiteName>
-    </Site>
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="5">
-    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="6">
-    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="7">
-    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
-  </PlatformSensor>
-  <PlatformSensor SensorNumber="8">
-    <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
-  </PlatformSensor>
 </Platform>

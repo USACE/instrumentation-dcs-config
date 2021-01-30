@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="164">
+  <Description>North Br of Kokosing, OH (MUS)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>40.5039</Latitude>
+    <Longitude>-82.5775</Longitude>
+    <Elevation>335.28000000000003</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>OH</State>
+    <NearestCity>Fredericktown</NearestCity>
+    <Description>North Br Kokosing Riv near Fredericktown 4S</Description>
+    <SiteName NameType="CWMS">NoBrKokosing-Lake</SiteName>
+    <SiteName NameType="local">NBKD3</SiteName>
+    <SiteName NameType="nwshb5">FTNO1</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03136300
+    </SiteName>
+    <SiteName NameType="uuid">ac16bfd7-6f0f-43c5-9350-a7de750b5d84</SiteName>
+    <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      North Br Kokosing River Lake
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE4BDA1C">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:22:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="offset">1100</PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

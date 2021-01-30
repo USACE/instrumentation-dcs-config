@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="236">
+  <Description>Little River Reservoir near Radford, VA</Description>
+  <Agency>USGS</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:59</LastModifyTime>
+  <Site>
+    <Latitude>37.077625</Latitude>
+    <Longitude>-80.572556</Longitude>
+    <Elevation>539.496</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>VA</State>
+    <NearestCity>Radford, VA</NearestCity>
+    <Description>Little River Reservoir near Radford, VA</Description>
+    <SiteName NameType="CWMS">LittleRiverRes</SiteName>
+    <SiteName NameType="local">LRRQ7</SiteName>
+    <SiteName NameType="nwshb5">LRSV2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03170500
+    </SiteName>
+    <SiteName NameType="uuid">a294c7b3-e83c-43f1-ac3f-c7fd056409f8</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Little River Reservoir
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="175C33AE">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>107</ChannelNum>
+    <AssignedTime>00:42:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

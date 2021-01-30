@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="74">
+  <Description>Dover Lake Outflow, OH (MUS)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>40.5297</Latitude>
+    <Longitude>-81.4294</Longitude>
+    <Elevation>262.588248</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>OH</State>
+    <NearestCity>Dover</NearestCity>
+    <Description>
+      Tuscarawas Riv Tailwater below Dover Dam near Dover 3ENE
+    </Description>
+    <SiteName NameType="CWMS">Dover-Outflow</SiteName>
+    <SiteName NameType="local">DOTOF</SiteName>
+    <SiteName NameType="nwshb5">DVLO1</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03122500
+    </SiteName>
+    <SiteName NameType="uuid">741693a3-c211-4023-bdb8-f17547a45256</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Dover Outflow (White Bridge)
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE572C9A">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:21:40</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <PlatformSensorProperty PropertyName="offset">
+      861.51
+    </PlatformSensorProperty>
+  </PlatformSensor>
+</Platform>

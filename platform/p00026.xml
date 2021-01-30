@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="26">
+  <Description>Yatesville Lk Outflow, KY (BSA)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>38.128</Latitude>
+    <Longitude>-82.6972</Longitude>
+    <Elevation>169.16400000000002</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>KY</State>
+    <NearestCity>Blaine</NearestCity>
+    <Description>Blaine Ck</Description>
+    <SiteName NameType="CWMS">Yatesville-Outflow</SiteName>
+    <SiteName NameType="local">YBCOF</SiteName>
+    <SiteName NameType="nwshb5">YATK2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03215500
+    </SiteName>
+    <SiteName NameType="uuid">ab1fe913-5272-449e-b718-9feff3137841</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">
+      Yatesville Lake Outflow
+    </SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE43E5F2">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>177</ChannelNum>
+    <AssignedTime>00:44:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>EST</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

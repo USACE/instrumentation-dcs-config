@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.4781</Latitude>
+  <Longitude>-80.595</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Rock Camp</NearestCity>
+  <Description>Rock Camp, WV</Description>
+  <SiteName NameType="CWMS">RockCamp</SiteName>
+  <SiteName NameType="local">ROCP7</SiteName>
+  <SiteName NameType="nwshb5">RCPW2</SiteName>
+  <SiteName NameType="uuid">66040f05-5ea2-4610-b586-96c685f2bad4</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

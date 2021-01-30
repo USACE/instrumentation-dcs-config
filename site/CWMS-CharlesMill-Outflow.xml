@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.737994</Latitude>
+  <Longitude>-82.363204</Longitude>
+  <Elevation>299.179488</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Mifflin</NearestCity>
+  <Description>Black Fk below Charles Mill Dam near Mifflin 2S</Description>
+  <SiteName NameType="CWMS">CharlesMill-Outflow</SiteName>
+  <SiteName NameType="local">CMBOF</SiteName>
+  <SiteName NameType="nwshb5">CHAO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03130000</SiteName>
+  <SiteName NameType="uuid">6163b32f-a14f-4567-a1ff-c8a7660918dc</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

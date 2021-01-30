@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.635880349615</Latitude>
+  <Longitude>-82.239100113106</Longitude>
+  <Elevation>283.207968</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Loudenville</NearestCity>
+  <Description>Black Fk Riv @ Loudonville</Description>
+  <SiteName NameType="CWMS">Loudonville</SiteName>
+  <SiteName NameType="local">LOBC4</SiteName>
+  <SiteName NameType="nwshb5">LDVO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03131500</SiteName>
+  <SiteName NameType="uuid">077ca447-2605-4415-98a9-6df6995f940d</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

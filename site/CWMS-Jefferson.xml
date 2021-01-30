@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>36.394686293223</Latitude>
+  <Longitude>-81.407403847885</Longitude>
+  <Elevation>809.865792</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>NC</State>
+  <NearestCity>Jefferson</NearestCity>
+  <Description>South Fk New Riv near Jefferson 4SE</Description>
+  <SiteName NameType="CWMS">Jefferson</SiteName>
+  <SiteName NameType="local">JFST6</SiteName>
+  <SiteName NameType="nwshb5">JFRN7</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03161000</SiteName>
+  <SiteName NameType="uuid">b22c222b-cabc-4467-88c9-b034a0f7a291</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

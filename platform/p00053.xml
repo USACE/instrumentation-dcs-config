@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="53">
+  <Description>Big Coal River At Ashford (KAN)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>38.1797222</Latitude>
+    <Longitude>-81.7116667</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <NearestCity>Ashford</NearestCity>
+    <Description>Big Coal River At Ashford</Description>
+    <SiteName NameType="CWMS">Ashford</SiteName>
+    <SiteName NameType="local">ASHK5</SiteName>
+    <SiteName NameType="nwshb5">ASHW2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03198500
+    </SiteName>
+    <SiteName NameType="uuid">f09674c0-17fb-47d9-a42d-ef58a0fdd820</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Ashford</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DD6A91B2">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>163</ChannelNum>
+    <AssignedTime>00:48:50</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>EST</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

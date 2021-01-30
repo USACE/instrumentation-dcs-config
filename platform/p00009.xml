@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="9">
+  <Description>Rocksdale, WV (LKA)</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>38.8438</Latitude>
+    <Longitude>-81.2213</Longitude>
+    <Elevation>200.51268000000002</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <NearestCity>Rocksdale</NearestCity>
+    <Description>Little Kanawha Riv @ Rocksdale</Description>
+    <SiteName NameType="CWMS">Rocksdale</SiteName>
+    <SiteName NameType="local">ROWJ6</SiteName>
+    <SiteName NameType="nwshb5">RCKW2</SiteName>
+    <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+      03154000
+    </SiteName>
+    <SiteName NameType="uuid">0cfc14e4-5cdd-46d1-856e-e77e96257632</SiteName>
+    <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Rocksdale</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE5F3B4A">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>177</ChannelNum>
+    <AssignedTime>00:44</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>EST</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

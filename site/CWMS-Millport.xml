@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.722217</Latitude>
+  <Longitude>-80.89804</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Millport</NearestCity>
+  <Description>Millport 1NW</Description>
+  <SiteName NameType="CWMS">Millport</SiteName>
+  <SiteName NameType="local">MLPC7</SiteName>
+  <SiteName NameType="nwshb5">MPOO1</SiteName>
+  <SiteName NameType="uuid">f1914c92-beb9-4af2-8e0c-e0ffb8cef7e2</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.7243</Latitude>
+  <Longitude>-80.6413</Longitude>
+  <Elevation>466.16721600000005</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Alderson</NearestCity>
+  <Description>Greenbrier Riv @ Alderson</Description>
+  <SiteName NameType="CWMS">Alderson</SiteName>
+  <SiteName NameType="local">ALDO7</SiteName>
+  <SiteName NameType="nwshb5">ALDW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03183500</SiteName>
+  <SiteName NameType="uuid">024821e3-91c2-4056-9170-bfd173afe10d</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

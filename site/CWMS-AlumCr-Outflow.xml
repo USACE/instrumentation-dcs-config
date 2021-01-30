@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.182279695066</Latitude>
+  <Longitude>-82.961492711639</Longitude>
+  <Elevation>250.5456</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Africa</NearestCity>
+  <Description>Alum Ck @ Africa (O.F.)</Description>
+  <SiteName NameType="CWMS">AlumCr-Outflow</SiteName>
+  <SiteName NameType="local">ACSOF</SiteName>
+  <SiteName NameType="nwshb5">AFRO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03228805</SiteName>
+  <SiteName NameType="uuid">1f1c694b-59d7-4952-97f8-23bcaaf79635</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

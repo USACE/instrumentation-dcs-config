@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.2333</Latitude>
+  <Longitude>-83.6092</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Hillsboro</NearestCity>
+  <Description>Hillsboro</Description>
+  <SiteName NameType="CWMS">Hillsboro</SiteName>
+  <SiteName NameType="local">HILI1</SiteName>
+  <SiteName NameType="nwshb5">HSPO1</SiteName>
+  <SiteName NameType="uuid">f6dddaef-c7fa-4cb0-9633-80596f8e1399</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

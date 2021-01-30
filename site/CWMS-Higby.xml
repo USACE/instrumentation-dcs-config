@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.2125</Latitude>
+  <Longitude>-82.8641</Longitude>
+  <Elevation>172.906944</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Higby</NearestCity>
+  <Description>Scioto Riv @ Higby</Description>
+  <SiteName NameType="CWMS">Higby</SiteName>
+  <SiteName NameType="local">HIGH3</SiteName>
+  <SiteName NameType="nwshb5">HIGO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03234500</SiteName>
+  <SiteName NameType="uuid">8af946c5-e4f5-4e29-a0e6-9e1c4aef547d</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

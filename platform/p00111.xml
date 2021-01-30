@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="111">
+  <Description>Hanover, WV (GUY)</Description>
+  <IsProduction>false</IsProduction>
+  <LastModifyTime>01/30/2021 03:49:58</LastModifyTime>
+  <Site>
+    <Latitude>37.585213</Latitude>
+    <Longitude>-81.821493</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <NearestCity>Hanover</NearestCity>
+    <SiteName NameType="CWMS">Hanover</SiteName>
+    <SiteName NameType="uuid">7386231f-6360-4c12-90a0-322ced916c3c</SiteName>
+    <SiteProperty PropertyName="vertical_datum">null</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
+    <SiteProperty PropertyName="PUBLIC_NAME">Hanover</SiteProperty>
+  </Site>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE0D01B4">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:33:40</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>EST</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

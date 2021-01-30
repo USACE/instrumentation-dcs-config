@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.1239</Latitude>
+  <Longitude>-82.6078</Longitude>
+  <Elevation>468.06307200000003</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>VA</State>
+  <NearestCity>Pound</NearestCity>
+  <Description>Pound Riv above Indian Ck near Pound</Description>
+  <SiteName NameType="CWMS">PoundUpr</SiteName>
+  <SiteName NameType="local">PUPQ3</SiteName>
+  <SiteName NameType="nwshb5">PICV2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03208850</SiteName>
+  <SiteName NameType="uuid">c07aac83-1f19-454e-b704-a514843d50ee</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>

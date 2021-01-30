@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.2342</Latitude>
+  <Longitude>-82.3489</Longitude>
+  <Elevation>396.20342400000004</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>VA</State>
+  <NearestCity>Haysi</NearestCity>
+  <Description>John W. Flannagan Lake Dam near Haysi 3NW</Description>
+  <SiteName NameType="CWMS">JWFlannagan-Lake</SiteName>
+  <SiteName NameType="local">JFPQ4</SiteName>
+  <SiteName NameType="nwshb5">HYSV2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03208990</SiteName>
+  <SiteName NameType="uuid">c3d7a46d-b981-424d-b987-c66d0d3e7a53</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+</Site>
