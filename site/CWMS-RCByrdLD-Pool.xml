@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.6822853</Latitude>
+  <Longitude>-82.188445</Longitude>
+  <Elevation>160.205928</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Gallipolis Ferry</NearestCity>
+  <SiteName NameType="CWMS">RCByrdLD-Pool</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">R.C. Byrd L&amp;D Pool</SiteProperty>
+</Site>

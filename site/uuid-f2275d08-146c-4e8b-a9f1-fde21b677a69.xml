@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.222630874641</Latitude>
+  <Longitude>-80.890322634888</Longitude>
+  <Elevation>457.20000000000005</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Summersville</NearestCity>
+  <Description>Summersville Lake near Summersville 5SW</Description>
+  <SiteName NameType="CWMS">Summersville-Lake</SiteName>
+  <SiteName NameType="local">SUGM7</SiteName>
+  <SiteName NameType="nwshb5">SULW2</SiteName>
+  <SiteName NameType="uuid">f2275d08-146c-4e8b-a9f1-fde21b677a69</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Summersville Lake</SiteProperty>
+</Site>

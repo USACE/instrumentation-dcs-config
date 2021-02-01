@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>36.8617</Latitude>
+  <Longitude>-80.4819</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>VA</State>
+  <NearestCity>Willis</NearestCity>
+  <Description>Willis, VA</Description>
+  <SiteName NameType="CWMS">Willis</SiteName>
+  <SiteName NameType="local">WILR8</SiteName>
+  <SiteName NameType="nwshb5">WLLV2</SiteName>
+  <SiteName NameType="uuid">eb825b51-0660-41f5-b028-79631bac4874</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Willis</SiteProperty>
+</Site>

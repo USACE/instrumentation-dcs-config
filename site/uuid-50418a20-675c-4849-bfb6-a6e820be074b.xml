@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.4094</Latitude>
+  <Longitude>-81.4577</Longitude>
+  <Elevation>172.70882400000002</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Marietta</NearestCity>
+  <Description>Ohio Riv @ Marietta</Description>
+  <SiteName NameType="CWMS">Marietta</SiteName>
+  <SiteName NameType="local">MAOH6</SiteName>
+  <SiteName NameType="nwshb5">MRTO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03150700</SiteName>
+  <SiteName NameType="uuid">50418a20-675c-4849-bfb6-a6e820be074b</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Marietta</SiteProperty>
+</Site>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.8767</Latitude>
+  <Longitude>-83.4417</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>London</NearestCity>
+  <Description>London</Description>
+  <SiteName NameType="CWMS">London</SiteName>
+  <SiteName NameType="local">LONF2</SiteName>
+  <SiteName NameType="nwshb5">LOOO1</SiteName>
+  <SiteName NameType="uuid">e4a3adb5-c5c5-427e-84ee-2fc5a23dfbfa</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">London</SiteProperty>
+</Site>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="252">
+  <Description>Middle Island Creek @ Little, WV (Ohio River Basin)</Description>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  <Site>
+    <Latitude>39.474611111111</Latitude>
+    <Longitude>-80.997591666667</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <SiteName NameType="CWMS">MiddleIslandCr</SiteName>
+    <SiteName NameType="uuid">69068adb-fe0f-471d-9bb8-38790d179a10</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">Middle Island Creek</SiteProperty>
+  </Site>
+  <PlatformConfig ConfigName="DD166506">
+    <Description>Middle Island Creek, WV - LTLW2 - DD166506</Description>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>Stage</SensorName>
+      <DataType Standard="CWMS" Code="Stage"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:30</TimeOfFirstSample>
+    </ConfigSensor>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes</ScriptType>
+      <DataOrder>D</DataOrder>
+      <FormatStatement Label="start">8(/,W,F(S,A,6d&apos; &apos;,1))</FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
+  <TransportMedium MediumType="goes-self-timed" MediumId="DD166506">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>83</ChannelNum>
+    <AssignedTime>00:33:30</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

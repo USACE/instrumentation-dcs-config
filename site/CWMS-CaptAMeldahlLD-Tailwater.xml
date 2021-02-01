@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.7965381</Latitude>
+  <Longitude>-84.1788214</Longitude>
+  <Elevation>134.81913600000001</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Felicity</NearestCity>
+  <SiteName NameType="CWMS">CaptAMeldahlLD-Tailwater</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">
+    C.A. Meldahl L&amp;D Tailwater
+  </SiteProperty>
+</Site>

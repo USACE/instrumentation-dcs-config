@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.9219</Latitude>
+  <Longitude>-81.0977</Longitude>
+  <Elevation>198.976488</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Grantsville</NearestCity>
+  <Description>Little Kanawha @ Grantsville</Description>
+  <SiteName NameType="CWMS">Grantsville</SiteName>
+  <SiteName NameType="local">GRVJ6</SiteName>
+  <SiteName NameType="nwshb5">GRTW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03153500</SiteName>
+  <SiteName NameType="uuid">b58bb1fc-526a-4f68-a66e-df0f62df5919</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Grantsville</SiteProperty>
+</Site>

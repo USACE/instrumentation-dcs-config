@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.1044</Latitude>
+  <Longitude>-81.5544</Longitude>
+  <Elevation>274.32</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>North Salem</NearestCity>
+  <Description>Salt Fork @ Salt Fk Lk near North Salem 2SE</Description>
+  <SiteName NameType="CWMS">SaltFk-Lake</SiteName>
+  <SiteName NameType="local">SLTE5</SiteName>
+  <SiteName NameType="nwshb5">SILO1</SiteName>
+  <SiteName NameType="uuid">6bbdb05b-1e68-44fc-a34a-bb41e7b9125d</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Salt Fork Lake</SiteProperty>
+</Site>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.4703</Latitude>
+  <Longitude>-81.1944</Longitude>
+  <Elevation>282.84830400000004</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Leesville</NearestCity>
+  <Description>Leesville Lk near Leesville 4NE</Description>
+  <SiteName NameType="CWMS">Leesville-Lake</SiteName>
+  <SiteName NameType="local">LEMD6</SiteName>
+  <SiteName NameType="nwshb5">LELO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03120000</SiteName>
+  <SiteName NameType="uuid">de5952ca-05a5-4373-af35-c8c80df081f9</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Leesville Lake</SiteProperty>
+</Site>

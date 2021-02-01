@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.9888</Latitude>
+  <Longitude>-82.4753</Longitude>
+  <Elevation>260.93318400000004</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Hebron</NearestCity>
+  <Description>South Fk Licking Riv @ Buckeye Lk near Hebron</Description>
+  <SiteName NameType="CWMS">Hebron</SiteName>
+  <SiteName NameType="local">HBLF3</SiteName>
+  <SiteName NameType="nwshb5">BEEO1</SiteName>
+  <SiteName NameType="uuid">d7d9be22-86f0-438c-b4f3-21d8c358710a</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Hebron</SiteProperty>
+</Site>

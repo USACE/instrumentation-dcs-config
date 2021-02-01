@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.1135199</Latitude>
+  <Longitude>-81.7413703</Longitude>
+  <Elevation>166.926768</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Reedsville</NearestCity>
+  <SiteName NameType="CWMS">BellevilleLD-Tailwater</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">
+    Belleville L&amp;D Tailwater
+  </SiteProperty>
+</Site>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.0294</Latitude>
+  <Longitude>-82.8461</Longitude>
+  <Elevation>171.16653600000004</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KY</State>
+  <NearestCity>Blaine</NearestCity>
+  <Description>Blaine Creek</Description>
+  <SiteName NameType="CWMS">Blaine</SiteName>
+  <SiteName NameType="local">BLAM3</SiteName>
+  <SiteName NameType="nwshb5">BLNK2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03215370</SiteName>
+  <SiteName NameType="uuid">4c571e5a-4abf-4d50-b2d6-ef4d9bbe6894</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Blaine</SiteProperty>
+</Site>

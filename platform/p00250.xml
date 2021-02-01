@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="250">
+  <Description>Bloomfield, OH (Little Muskingum River)</Description>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  <Site>
+    <Latitude>39.563055555556</Latitude>
+    <Longitude>-81.203888888889</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>OH</State>
+    <SiteName NameType="CWMS">BloomfieldOH</SiteName>
+    <SiteName NameType="uuid">c543ca8c-4d72-47b0-b9fd-253d67b0b45c</SiteName>
+    <SiteProperty PropertyName="PUBLIC_NAME">Bloomfield</SiteProperty>
+  </Site>
+  <PlatformConfig ConfigName="16C8676C">
+    <Description>
+      Bloomfield - LNB01 - 16C8676C (Little Mus Riv at Bloomfield)
+    </Description>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>Stage</SensorName>
+      <DataType Standard="CWMS" Code="Stage"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:15</RecordingInterval>
+      <TimeOfFirstSample>00:45</TimeOfFirstSample>
+    </ConfigSensor>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes</ScriptType>
+      <DataOrder>D</DataOrder>
+      <FormatStatement Label="start">8(/,W,F(S,A,6d&apos; &apos;,1))</FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
+  <TransportMedium MediumType="goes-self-timed" MediumId="16C8676C">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>83</ChannelNum>
+    <AssignedTime>00:58:10</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+</Platform>

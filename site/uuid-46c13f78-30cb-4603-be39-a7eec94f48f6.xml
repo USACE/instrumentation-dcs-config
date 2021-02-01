@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.5</Latitude>
+  <Longitude>-82.0847</Longitude>
+  <Elevation>202.76210400000002</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Glouster</NearestCity>
+  <Description>Sunday Ck @ Glouster, OH</Description>
+  <SiteName NameType="CWMS">Glouster</SiteName>
+  <SiteName NameType="local">GLSG4</SiteName>
+  <SiteName NameType="nwshb5">SUNO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">0315900</SiteName>
+  <SiteName NameType="uuid">46c13f78-30cb-4603-be39-a7eec94f48f6</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Glouster</SiteProperty>
+</Site>

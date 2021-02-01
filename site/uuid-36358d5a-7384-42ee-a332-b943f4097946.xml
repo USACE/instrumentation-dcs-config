@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.565</Latitude>
+  <Longitude>-82.475</Longitude>
+  <Elevation>220.54718400000002</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Enterprise</NearestCity>
+  <Description>Hocking Riv @ Enterprise</Description>
+  <SiteName NameType="CWMS">Enterprise</SiteName>
+  <SiteName NameType="local">ENTG4</SiteName>
+  <SiteName NameType="nwshb5">ENTO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03157500</SiteName>
+  <SiteName NameType="uuid">36358d5a-7384-42ee-a332-b943f4097946</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Enterprise</SiteProperty>
+</Site>

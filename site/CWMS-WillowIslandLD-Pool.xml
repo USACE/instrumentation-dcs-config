@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.3628045</Latitude>
+  <Longitude>-81.3178913</Longitude>
+  <Elevation>179.697888</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Newport</NearestCity>
+  <SiteName NameType="CWMS">WillowIslandLD-Pool</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Willow Island L&amp;D Pool</SiteProperty>
+</Site>

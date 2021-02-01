@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.4411</Latitude>
+  <Longitude>-81.5833</Longitude>
+  <Elevation>386.4864</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Welch</NearestCity>
+  <Description>Tug Fork @ Welch</Description>
+  <SiteName NameType="CWMS">Welch</SiteName>
+  <SiteName NameType="local">WELP6</SiteName>
+  <SiteName NameType="nwshb5">WLCW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03212750</SiteName>
+  <SiteName NameType="uuid">c7b7826c-ea30-4717-9b37-64cae543d045</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Welch</SiteProperty>
+</Site>

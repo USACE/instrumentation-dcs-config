@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.6039</Latitude>
+  <Longitude>-81.6453</Longitude>
+  <Elevation>347.47200000000004</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Baileysville</NearestCity>
+  <Description>Guyandotte Riv near Baileysville</Description>
+  <SiteName NameType="CWMS">Baileysville</SiteName>
+  <SiteName NameType="local">BAGO5</SiteName>
+  <SiteName NameType="nwshb5">BAIW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03202400</SiteName>
+  <SiteName NameType="uuid">ac7c4489-1ac3-4f83-bb7c-8ddf25e98bbb</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Baileysville</SiteProperty>
+</Site>

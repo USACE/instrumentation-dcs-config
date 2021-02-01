@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.8736</Latitude>
+  <Longitude>-82.3558</Longitude>
+  <Elevation>173.99508</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Adamsville</NearestCity>
+  <Description>Raccoon Riv @ Adamsville</Description>
+  <SiteName NameType="CWMS">Adamsville</SiteName>
+  <SiteName NameType="local">ADVJ4</SiteName>
+  <SiteName NameType="nwshb5">ADMO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03202000</SiteName>
+  <SiteName NameType="uuid">174a819f-766e-48a8-a636-4d0ac569ae4f</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Adamsville</SiteProperty>
+</Site>

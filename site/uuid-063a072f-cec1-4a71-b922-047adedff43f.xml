@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.8372</Latitude>
+  <Longitude>-82.4088</Longitude>
+  <Elevation>175.189896</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Kermit</NearestCity>
+  <Description>Tug Fk Riv near Kermit</Description>
+  <SiteName NameType="CWMS">Kermit</SiteName>
+  <SiteName NameType="local">KMTN4</SiteName>
+  <SiteName NameType="nwshb5">KRMW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03214500</SiteName>
+  <SiteName NameType="uuid">063a072f-cec1-4a71-b922-047adedff43f</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Kermit</SiteProperty>
+</Site>

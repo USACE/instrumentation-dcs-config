@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>36.9375</Latitude>
+  <Longitude>-80.7458</Longitude>
+  <Elevation>563.380128</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>VA</State>
+  <NearestCity>Allisonia</NearestCity>
+  <Description>New Riv near Allisonia 1SW</Description>
+  <SiteName NameType="CWMS">Allisonia</SiteName>
+  <SiteName NameType="local">ALNR7</SiteName>
+  <SiteName NameType="nwshb5">ALSV2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03168000</SiteName>
+  <SiteName NameType="uuid">86d26745-cdea-40cd-9c12-e18eb81908fe</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Allisonia</SiteProperty>
+</Site>

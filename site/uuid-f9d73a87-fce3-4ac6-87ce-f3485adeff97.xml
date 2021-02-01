@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.1858</Latitude>
+  <Longitude>-80.1308</Longitude>
+  <Elevation>635.779272</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Buckeye</NearestCity>
+  <Description>Greenbrier Riv @ Buckeye</Description>
+  <SiteName NameType="CWMS">Buckeye</SiteName>
+  <SiteName NameType="local">BUGM8</SiteName>
+  <SiteName NameType="nwshb5">BUCW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03182500</SiteName>
+  <SiteName NameType="uuid">f9d73a87-fce3-4ac6-87ce-f3485adeff97</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Buckeye</SiteProperty>
+</Site>

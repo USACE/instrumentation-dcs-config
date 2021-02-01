@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.9338</Latitude>
+  <Longitude>-80.8391</Longitude>
+  <Elevation>212.686392</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Glenville</NearestCity>
+  <Description>Little Kanawha Riv near Glenville 1ENE</Description>
+  <SiteName NameType="CWMS">Glenville</SiteName>
+  <SiteName NameType="local">GLVJ7</SiteName>
+  <SiteName NameType="nwshb5">GLEW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03152000</SiteName>
+  <SiteName NameType="uuid">f6b0059b-b3f8-46ba-a181-8220d8f33300</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Glenville</SiteProperty>
+</Site>

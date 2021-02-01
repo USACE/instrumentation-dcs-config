@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.968484843199</Latitude>
+  <Longitude>-80.763385083961</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>East Rainelle</NearestCity>
+  <Description>East Rainelle, WV</Description>
+  <SiteName NameType="CWMS">Rainelle</SiteName>
+  <SiteName NameType="local">RANN7</SiteName>
+  <SiteName NameType="nwshb5">ERHW2</SiteName>
+  <SiteName NameType="uuid">a1102d4b-cb5d-425a-b849-511227c890b9</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Rainelle</SiteProperty>
+</Site>

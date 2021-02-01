@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.147622</Latitude>
+  <Longitude>-82.382569</Longitude>
+  <Elevation>182.779416</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>East Lynn</NearestCity>
+  <Description>East Fk Twelvepole near East Lynn 2SSW</Description>
+  <SiteName NameType="CWMS">EastLynn-Outflow</SiteName>
+  <SiteName NameType="local">ELTOF</SiteName>
+  <SiteName NameType="nwshb5">ELSW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03206790</SiteName>
+  <SiteName NameType="uuid">53aee091-8487-448d-aea1-f6cf47560b84</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">East Lynn Lake Outflow</SiteProperty>
+</Site>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.9094</Latitude>
+  <Longitude>-83.0092</Longitude>
+  <Elevation>207.264</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Columbus</NearestCity>
+  <Description>Scioto Riv @ Columbus</Description>
+  <SiteName NameType="CWMS">ColumbusScioto</SiteName>
+  <SiteName NameType="local">CLSF4</SiteName>
+  <SiteName NameType="nwshb5">COLO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03227500</SiteName>
+  <SiteName NameType="uuid">3c5cc0ce-58a6-454d-9a60-12733b265855</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Columbus (Scioto)</SiteProperty>
+</Site>

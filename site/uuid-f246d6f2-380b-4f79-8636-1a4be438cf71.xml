@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.919722222222</Latitude>
+  <Longitude>-83.928330555556</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <SiteName NameType="CWMS">GeorgetownOH</SiteName>
+  <SiteName NameType="uuid">f246d6f2-380b-4f79-8636-1a4be438cf71</SiteName>
+  <SiteProperty PropertyName="PUBLIC_NAME">Georgetown</SiteProperty>
+</Site>

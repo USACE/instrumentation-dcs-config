@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.3864</Latitude>
+  <Longitude>-82.5444</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KY</State>
+  <NearestCity>Virgie</NearestCity>
+  <Description>Virgie</Description>
+  <SiteName NameType="CWMS">Virgie</SiteName>
+  <SiteName NameType="local">VIRP3</SiteName>
+  <SiteName NameType="nwshb5">VRGK2</SiteName>
+  <SiteName NameType="uuid">4c3975c3-b5dc-498e-a7ef-363ca2034e2a</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Virgie</SiteProperty>
+</Site>

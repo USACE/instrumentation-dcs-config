@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.1569</Latitude>
+  <Longitude>-81.8497</Longitude>
+  <Elevation>223.41840000000002</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Conesville</NearestCity>
+  <Description>Wills Ck Lk @ Wills Ck Dam near Conesville 2E</Description>
+  <SiteName NameType="CWMS">WillsCr-Lake</SiteName>
+  <SiteName NameType="local">WCWE5</SiteName>
+  <SiteName NameType="nwshb5">WCLO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03143000</SiteName>
+  <SiteName NameType="uuid">8cdc7343-7ca9-476a-986b-98f075afbf23</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Wills Creek Lake</SiteProperty>
+</Site>

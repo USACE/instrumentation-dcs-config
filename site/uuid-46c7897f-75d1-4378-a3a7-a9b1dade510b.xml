@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.8172</Latitude>
+  <Longitude>-82.7906</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KY</State>
+  <NearestCity>Paintsville</NearestCity>
+  <Description>Levisa Fk @ Paintsville</Description>
+  <SiteName NameType="CWMS">PaintsvilleKY</SiteName>
+  <SiteName NameType="local">PTLN3</SiteName>
+  <SiteName NameType="nwshb5">PTVK2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03212500</SiteName>
+  <SiteName NameType="uuid">46c7897f-75d1-4378-a3a7-a9b1dade510b</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">PaintsvilleKY</SiteProperty>
+</Site>

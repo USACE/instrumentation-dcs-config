@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.1797222</Latitude>
+  <Longitude>-81.7116667</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Ashford</NearestCity>
+  <Description>Big Coal River At Ashford</Description>
+  <SiteName NameType="CWMS">Ashford</SiteName>
+  <SiteName NameType="local">ASHK5</SiteName>
+  <SiteName NameType="nwshb5">ASHW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03198500</SiteName>
+  <SiteName NameType="uuid">503496c7-55c9-4d1b-bb54-b85e63d8ed0a</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Ashford</SiteProperty>
+</Site>

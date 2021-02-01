@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.6489991</Latitude>
+  <Longitude>-80.885998</Longitude>
+  <Elevation>426.72</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Hinton</NearestCity>
+  <SiteName NameType="CWMS">Bluestone-Outflow</SiteName>
+  <SiteProperty PropertyName="location_type">Calculated</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">
+    Bluestone Outflow (Calc)
+  </SiteProperty>
+</Site>

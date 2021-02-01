@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.1447</Latitude>
+  <Longitude>-82.3839</Longitude>
+  <Elevation>182.883048</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>East Lynn</NearestCity>
+  <Description>East Lynn Lake near East Lynn 2S</Description>
+  <SiteName NameType="CWMS">EastLynn-Lake</SiteName>
+  <SiteName NameType="local">ELTM4</SiteName>
+  <SiteName NameType="nwshb5">ELYW2</SiteName>
+  <SiteName NameType="uuid">b96cd55b-6247-4c6d-8179-33c1e6928f66</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">East Lynn Lake</SiteProperty>
+</Site>

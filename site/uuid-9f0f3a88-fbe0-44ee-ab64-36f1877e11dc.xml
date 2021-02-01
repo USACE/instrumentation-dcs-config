@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.8428</Latitude>
+  <Longitude>-80.6203</Longitude>
+  <Elevation>213.36</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Burnsville</NearestCity>
+  <Description>Burnsville Dam near Burnsville</Description>
+  <SiteName NameType="CWMS">Burnsville-Lake</SiteName>
+  <SiteName NameType="local">BUSJ7</SiteName>
+  <SiteName NameType="nwshb5">BRNW2</SiteName>
+  <SiteName NameType="uuid">9f0f3a88-fbe0-44ee-ab64-36f1877e11dc</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Burnsville Lake</SiteProperty>
+</Site>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>36.716111</Latitude>
+  <Longitude>-80.526944</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <State>VA</State>
+  <NearestCity>Laurel Fork</NearestCity>
+  <Description>Laurel Fork</Description>
+  <SiteName NameType="CWMS">LaurelFork</SiteName>
+  <SiteName NameType="local">LAFR7</SiteName>
+  <SiteName NameType="nwshb5">LFKV2</SiteName>
+  <SiteName NameType="uuid">21142e17-c553-4866-9f1e-58d4050bc004</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Laurel Fork</SiteProperty>
+</Site>

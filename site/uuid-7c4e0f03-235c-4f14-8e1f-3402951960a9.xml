@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.64</Latitude>
+  <Longitude>-80.8855</Longitude>
+  <Elevation>426.72</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Hinton</NearestCity>
+  <Description>Bluestone Lk near Hinton 3SE</Description>
+  <SiteName NameType="CWMS">Bluestone-Lake</SiteName>
+  <SiteName NameType="local">BLNO7</SiteName>
+  <SiteName NameType="nwshb5">BLLW2</SiteName>
+  <SiteName NameType="uuid">7c4e0f03-235c-4f14-8e1f-3402951960a9</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Bluestone Lake</SiteProperty>
+</Site>

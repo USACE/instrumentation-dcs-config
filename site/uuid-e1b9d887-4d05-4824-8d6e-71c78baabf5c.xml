@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.3039</Latitude>
+  <Longitude>-82.4164</Longitude>
+  <Elevation>152.4</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Lavalette</NearestCity>
+  <Description>Beech Fk Dam near Huntington 7SSE</Description>
+  <SiteName NameType="CWMS">BeechFk-Lake</SiteName>
+  <SiteName NameType="local">BBFL4</SiteName>
+  <SiteName NameType="nwshb5">BFLW2</SiteName>
+  <SiteName NameType="uuid">e1b9d887-4d05-4824-8d6e-71c78baabf5c</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Beech Fork Lake</SiteProperty>
+</Site>

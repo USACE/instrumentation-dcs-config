@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.4816</Latitude>
+  <Longitude>-81.9855</Longitude>
+  <Elevation>240.19764</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Killbuck</NearestCity>
+  <Description>Killbuck Ck @ Killbuck</Description>
+  <SiteName NameType="CWMS">Killbuck</SiteName>
+  <SiteName NameType="local">KIKC5</SiteName>
+  <SiteName NameType="nwshb5">KILO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03139000</SiteName>
+  <SiteName NameType="uuid">29f03083-91ea-4e36-b984-e7f3ec98b943</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Killbuck</SiteProperty>
+</Site>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.5249</Latitude>
+  <Longitude>-81.9118</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>EST</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Winfield</NearestCity>
+  <Description>Winfield W.Q.</Description>
+  <SiteName NameType="CWMS">WinfieldWQ-Test</SiteName>
+  <SiteName NameType="local">WINK5</SiteName>
+  <SiteName NameType="uuid">fddfa90b-d95e-4700-a37e-79f019f3a29d</SiteName>
+</Site>

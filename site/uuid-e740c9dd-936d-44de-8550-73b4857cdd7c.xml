@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.248</Latitude>
+  <Longitude>-81.8727</Longitude>
+  <Elevation>220.727016</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Coshocton</NearestCity>
+  <Description>Muskingum Riv near Coshocton 1S</Description>
+  <SiteName NameType="CWMS">Coshocton</SiteName>
+  <SiteName NameType="local">COMD5</SiteName>
+  <SiteName NameType="nwshb5">CSHO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03140500</SiteName>
+  <SiteName NameType="uuid">e740c9dd-936d-44de-8550-73b4857cdd7c</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Coshocton</SiteProperty>
+</Site>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.0786</Latitude>
+  <Longitude>-80.543</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Clearco</NearestCity>
+  <Description>Jobs Knob near Clearco 1S</Description>
+  <SiteName NameType="CWMS">JobsKnob</SiteName>
+  <SiteName NameType="local">JOKM7</SiteName>
+  <SiteName NameType="nwshb5">JOBW2</SiteName>
+  <SiteName NameType="uuid">2845fe58-8921-4014-84bb-4ffe7422387b</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Jobs Knob</SiteProperty>
+</Site>

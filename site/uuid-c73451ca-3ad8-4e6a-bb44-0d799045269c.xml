@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.8619</Latitude>
+  <Longitude>-80.6733</Longitude>
+  <Elevation>225.143568</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Burnsville</NearestCity>
+  <Description>L. Kanawha Riv @ Burnsville</Description>
+  <SiteName NameType="CWMS">BurnsvilleWV</SiteName>
+  <SiteName NameType="local">BRNJ7</SiteName>
+  <SiteName NameType="nwshb5">BURW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03151600</SiteName>
+  <SiteName NameType="uuid">c73451ca-3ad8-4e6a-bb44-0d799045269c</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">BurnsvilleWV</SiteProperty>
+</Site>

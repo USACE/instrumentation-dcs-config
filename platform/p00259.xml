@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="259">
+  <Description>George&apos;s Fork, KY - Iridium - 300434063787330</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  <Site>
+    <Latitude>0</Latitude>
+    <Longitude>0</Longitude>
+    <Elevation>448.17487200000005</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>US/Eastern</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>KY</State>
+    <NearestCity>Presque Isle</NearestCity>
+    <Description>Entry for GeorgesFk for iridium data</Description>
+    <SiteName NameType="CWMS">GeorgesFk-iridium</SiteName>
+    <SiteName NameType="uuid">8c378eb3-7a12-4446-be04-7656ba2b7f1c</SiteName>
+    <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+    <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  </Site>
+  <PlatformConfig ConfigName="300434063787330">
+    <Description>George&apos;s Fork, KY - Iridium - 300434063787330</Description>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>Stage</SensorName>
+      <DataType Standard="CWMS" Code="Stage"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>00:05</RecordingInterval>
+      <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      <ConfigSensorProperty PropertyName="CwmsVersion">
+        Iridium-raw
+      </ConfigSensorProperty>
+    </ConfigSensor>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes:iridium</ScriptType>
+      <FormatStatement Label="start">22x,W,F(S,A,6d&apos; &apos;,1)</FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
+  <TransportMedium MediumType="iridium" MediumId="300434063787330">
+    <DecodesScript ScriptName="ST"/>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <Site>
+      <Latitude>37.1642</Latitude>
+      <Longitude>-82.525</Longitude>
+      <Elevation>448.17487200000005</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>VA</State>
+      <NearestCity>Clintwood</NearestCity>
+      <Description>Pound Riv near Georges Fork</Description>
+      <SiteName NameType="CWMS">GeorgesFk</SiteName>
+      <SiteName NameType="local">GFPQ4</SiteName>
+      <SiteName NameType="nwshb5">GFPV2</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03208900
+      </SiteName>
+      <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Georges Fork</SiteProperty>
+    </Site>
+  </PlatformSensor>
+</Platform>

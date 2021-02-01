@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.365856</Latitude>
+  <Longitude>-81.669637</Longitude>
+  <Elevation>167.03040000000001</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Charleston</NearestCity>
+  <Description>Charleston Lock 6 - Sonar (KAN)</Description>
+  <SiteName NameType="CWMS">CharlestonLk6</SiteName>
+  <SiteName NameType="local">CLKL5</SiteName>
+  <SiteName NameType="nwshb5">CHAW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03198000</SiteName>
+  <SiteName NameType="uuid">0b92ed78-592c-46ec-a0cd-4acba65cab58</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Charleston Lock 6</SiteProperty>
+</Site>

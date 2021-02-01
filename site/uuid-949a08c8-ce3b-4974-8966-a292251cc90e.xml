@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.8364</Latitude>
+  <Longitude>-82.87</Longitude>
+  <Elevation>183.16956000000002</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KY</State>
+  <NearestCity>Staffordsville</NearestCity>
+  <Description>Paintsville @Staffordsville</Description>
+  <SiteName NameType="CWMS">Paintsville-Outflow</SiteName>
+  <SiteName NameType="local">PIVOF</SiteName>
+  <SiteName NameType="nwshb5">SFDK2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03212000</SiteName>
+  <SiteName NameType="uuid">949a08c8-ce3b-4974-8966-a292251cc90e</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">
+    Paintsville Lake Outflow
+  </SiteProperty>
+</Site>

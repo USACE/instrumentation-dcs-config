@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.6511</Latitude>
+  <Longitude>-81.2994</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Magnolia</NearestCity>
+  <Description>Magnolia Levee</Description>
+  <SiteName NameType="CWMS">MagnoliaLevee</SiteName>
+  <SiteName NameType="local">MASC6</SiteName>
+  <SiteName NameType="nwshb5">MGLO1</SiteName>
+  <SiteName NameType="uuid">a9d2eb37-c394-4cf1-9cb6-aec262a06a61</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Magnolia Levee</SiteProperty>
+</Site>

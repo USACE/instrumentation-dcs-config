@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.252295</Latitude>
+  <Longitude>-83.349371</Longitude>
+  <Elevation>227.435664</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Bainbridge</NearestCity>
+  <Description>Paint Ck below Dam near Bainbridge</Description>
+  <SiteName NameType="CWMS">PaintCr-Outflow</SiteName>
+  <SiteName NameType="local">PCSOF</SiteName>
+  <SiteName NameType="nwshb5">BBRO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03232470</SiteName>
+  <SiteName NameType="uuid">f096f3f4-a0e6-4dab-b98a-1e6bf5cfd1be</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Paint Creek Outflow</SiteProperty>
+</Site>

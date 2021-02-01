@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.0144</Latitude>
+  <Longitude>-81.5872</Longitude>
+  <Elevation>235.40923200000003</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Cambridge</NearestCity>
+  <Description>Wills Ck @ Cambridge (Water Plant)</Description>
+  <SiteName NameType="CWMS">Cambridge</SiteName>
+  <SiteName NameType="local">CAWE5</SiteName>
+  <SiteName NameType="nwshb5">CDIO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03142000</SiteName>
+  <SiteName NameType="uuid">07289010-7c49-450b-ba0a-eeedf70e8f66</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Cambridge</SiteProperty>
+</Site>

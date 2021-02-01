@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.1525</Latitude>
+  <Longitude>-81.378333</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>VA</State>
+  <NearestCity>Bastian, VA</NearestCity>
+  <Description>Bastian</Description>
+  <SiteName NameType="CWMS">Bastian</SiteName>
+  <SiteName NameType="local">BASQ6</SiteName>
+  <SiteName NameType="nwshb5">CFKV2</SiteName>
+  <SiteName NameType="uuid">ed38c69f-1301-4bff-853f-1740a6a2605d</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Bastian</SiteProperty>
+</Site>

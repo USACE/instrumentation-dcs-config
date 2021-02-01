@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>36.834865</Latitude>
+  <Longitude>-80.95229</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>America/New_York</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>VA</State>
+  <NearestCity>Ivanhoe</NearestCity>
+  <SiteName NameType="CWMS">Ivanhoe</SiteName>
+  <SiteName NameType="uuid">4aa74af6-5b46-413c-932a-8218265ca41a</SiteName>
+  <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Ivanhoe</SiteProperty>
+</Site>

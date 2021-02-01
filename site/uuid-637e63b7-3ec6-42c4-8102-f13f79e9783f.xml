@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.703611</Latitude>
+  <Longitude>-82.414444</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Lucas</NearestCity>
+  <SiteName NameType="CWMS">Lucas</SiteName>
+  <SiteName NameType="uuid">637e63b7-3ec6-42c4-8102-f13f79e9783f</SiteName>
+  <SiteProperty PropertyName="vertical_datum">null</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Lucas</SiteProperty>
+</Site>

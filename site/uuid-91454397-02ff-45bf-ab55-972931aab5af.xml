@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.1186978</Latitude>
+  <Longitude>-81.7434818</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>EST</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Reedsville</NearestCity>
+  <Description>Ohio Riv @ Belleville L&amp;D</Description>
+  <SiteName NameType="CWMS">BellevilleLD</SiteName>
+  <SiteName NameType="local">BELI5</SiteName>
+  <SiteName NameType="nwshb5">BEVW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03155520</SiteName>
+  <SiteName NameType="uuid">91454397-02ff-45bf-ab55-972931aab5af</SiteName>
+  <SiteProperty PropertyName="location_type">Lock</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">
+    Belleville Locks and Dam
+  </SiteProperty>
+</Site>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.4706</Latitude>
+  <Longitude>-81.1981</Longitude>
+  <Elevation>278.892</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Leesville</NearestCity>
+  <Description>
+    McGuire Ck Tailwater @ Leesville Dam near Leesville 1NE
+  </Description>
+  <SiteName NameType="CWMS">Leesville-Outflow</SiteName>
+  <SiteName NameType="local">LEMOF</SiteName>
+  <SiteName NameType="nwshb5">LVLO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03120500</SiteName>
+  <SiteName NameType="uuid">e0fb204b-021f-4886-b1cb-41ee5844533d</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Leesville Outflow</SiteProperty>
+</Site>

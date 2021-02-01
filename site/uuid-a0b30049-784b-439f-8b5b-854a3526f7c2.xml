@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.7667</Latitude>
+  <Longitude>-80.3333</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>White Sulphur Springs</NearestCity>
+  <Description>White Sulphur Springs, WV</Description>
+  <SiteName NameType="CWMS">WhSulphurSprgs</SiteName>
+  <SiteName NameType="local">WSSN8</SiteName>
+  <SiteName NameType="nwshb5">SUPW2</SiteName>
+  <SiteName NameType="uuid">a0b30049-784b-439f-8b5b-854a3526f7c2</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">White Sulphur Springs</SiteProperty>
+</Site>

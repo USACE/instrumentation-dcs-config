@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.3558</Latitude>
+  <Longitude>-81.2261</Longitude>
+  <Elevation>265.176</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Feed Springs</NearestCity>
+  <SiteName NameType="CWMS">Tappan-Lake</SiteName>
+  <SiteName NameType="local">TALD6</SiteName>
+  <SiteName NameType="nwshb5">TAPO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03128000</SiteName>
+  <SiteName NameType="uuid">31955a8f-756e-476f-852b-3e04ea21d215</SiteName>
+  <SiteProperty PropertyName="location_type">Reservoir</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Tappan Lake</SiteProperty>
+</Site>

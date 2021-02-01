@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Platform PlatformId="170">
+  <Description>Winfield Test Data</Description>
+  <Agency>LRH</Agency>
+  <IsProduction>true</IsProduction>
+  <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  <Site>
+    <Latitude>38.5249</Latitude>
+    <Longitude>-81.9118</Longitude>
+    <Elevation>1.7976931348623157E308</Elevation>
+    <ElevationUnits>m</ElevationUnits>
+    <Timezone>EST</Timezone>
+    <Country>UNITED STATES</Country>
+    <State>WV</State>
+    <NearestCity>Winfield</NearestCity>
+    <Description>Winfield W.Q.</Description>
+    <SiteName NameType="CWMS">WinfieldWQ-Test</SiteName>
+    <SiteName NameType="local">WINK5</SiteName>
+    <SiteName NameType="uuid">fddfa90b-d95e-4700-a37e-79f019f3a29d</SiteName>
+  </Site>
+  <PlatformConfig ConfigName="CE6F1504">
+    <Description>Winfield WQ Test - WINK5 - CE6F1504</Description>
+    <ConfigSensor SensorNumber="1">
+      <SensorName>Temp-Water</SensorName>
+      <DataType Standard="CWMS" Code="Temp-Water"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>01:00</RecordingInterval>
+      <TimeOfFirstSample>00:30</TimeOfFirstSample>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="2">
+      <SensorName>Conductivity</SensorName>
+      <DataType Standard="SHEF-PE" Code="WC"/>
+      <DataType Standard="CWMS" Code="Cond"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>01:00</RecordingInterval>
+      <TimeOfFirstSample>00:30</TimeOfFirstSample>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="3">
+      <SensorName>DO-SAT</SensorName>
+      <DataType Standard="SHEF-PE" Code="WX"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>01:00</RecordingInterval>
+      <TimeOfFirstSample>00:30</TimeOfFirstSample>
+    </ConfigSensor>
+    <ConfigSensor SensorNumber="4">
+      <SensorName>D.O.</SensorName>
+      <DataType Standard="SHEF-PE" Code="WO"/>
+      <DataType Standard="CWMS" Code="Conc-DO"/>
+      <RecordingMode>F</RecordingMode>
+      <RecordingInterval>01:00</RecordingInterval>
+      <TimeOfFirstSample>00:30</TimeOfFirstSample>
+    </ConfigSensor>
+    <DecodesScript ScriptName="ST">
+      <ScriptType>Decodes</ScriptType>
+      <DataOrder>D</DataOrder>
+      <FormatStatement Label="start">
+        /,2(W,F(S,A,6d&apos; &apos;,1),W,F(S,A,6d&apos;
+        &apos;,-1)),/,2(W,F(S,A,6d&apos; &apos;,2),W,F(S,A,6d&apos;
+        &apos;,-2)),/
+      </FormatStatement>
+      <FormatStatement Label="START">
+        ,2(W,F(S,A,6d&apos; &apos;,3),W,F(S,A,6d&apos;
+        &apos;,-3),)/,2(W,F(S,A,6d&apos; &apos;,4),W,F(S,A,6d&apos; &apos;,-4))
+      </FormatStatement>
+      <ScriptSensor SensorNumber="1">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="DegF">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="2">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="uMHOS/CM">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="3">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="pct">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+      <ScriptSensor SensorNumber="4">
+        <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="MG/L">
+          <Algorithm>none</Algorithm>
+          <A>0.0</A>
+          <B>0.0</B>
+          <C>0.0</C>
+          <D>0.0</D>
+          <E>0.0</E>
+          <F>0.0</F>
+        </UnitConverter>
+      </ScriptSensor>
+    </DecodesScript>
+  </PlatformConfig>
+  <TransportMedium MediumType="goes-self-timed" MediumId="CE6F1504">
+    <DecodesScript ScriptName="ST"/>
+    <ChannelNum>25</ChannelNum>
+    <AssignedTime>00:51:20</AssignedTime>
+    <TransmitWindow>00:00:10</TransmitWindow>
+    <TransmitInterval>01:00</TransmitInterval>
+    <Preamble>S</Preamble>
+    <TimeZone>UTC</TimeZone>
+    <parity>U</parity>
+  </TransportMedium>
+  <PlatformSensor SensorNumber="1">
+    <Site>
+      <Latitude>38.5269</Latitude>
+      <Longitude>-81.9136</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WV</State>
+      <NearestCity>Winfield</NearestCity>
+      <Description>Winfield L-D</Description>
+      <SiteName NameType="CWMS">WinfieldLD</SiteName>
+      <SiteName NameType="local">WMFK5</SiteName>
+      <SiteName NameType="nwshb5">WINW2</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03201300
+      </SiteName>
+      <SiteProperty PropertyName="location_type">Lock</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">
+        Winfield Locks and Dam
+      </SiteProperty>
+    </Site>
+    <PlatformSensorProperty PropertyName="scale">1.8</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="offset">32</PlatformSensorProperty>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="2">
+    <Site>
+      <Latitude>38.5269</Latitude>
+      <Longitude>-81.9136</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WV</State>
+      <NearestCity>Winfield</NearestCity>
+      <Description>Winfield L-D</Description>
+      <SiteName NameType="CWMS">WinfieldLD</SiteName>
+      <SiteName NameType="local">WMFK5</SiteName>
+      <SiteName NameType="nwshb5">WINW2</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03201300
+      </SiteName>
+      <SiteProperty PropertyName="location_type">Lock</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">
+        Winfield Locks and Dam
+      </SiteProperty>
+    </Site>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="3">
+    <Site>
+      <Latitude>38.5269</Latitude>
+      <Longitude>-81.9136</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WV</State>
+      <NearestCity>Winfield</NearestCity>
+      <Description>Winfield L-D</Description>
+      <SiteName NameType="CWMS">WinfieldLD</SiteName>
+      <SiteName NameType="local">WMFK5</SiteName>
+      <SiteName NameType="nwshb5">WINW2</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03201300
+      </SiteName>
+      <SiteProperty PropertyName="location_type">Lock</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">
+        Winfield Locks and Dam
+      </SiteProperty>
+    </Site>
+  </PlatformSensor>
+  <PlatformSensor SensorNumber="4">
+    <Site>
+      <Latitude>38.5269</Latitude>
+      <Longitude>-81.9136</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WV</State>
+      <NearestCity>Winfield</NearestCity>
+      <Description>Winfield L-D</Description>
+      <SiteName NameType="CWMS">WinfieldLD</SiteName>
+      <SiteName NameType="local">WMFK5</SiteName>
+      <SiteName NameType="nwshb5">WINW2</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03201300
+      </SiteName>
+      <SiteProperty PropertyName="location_type">Lock</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">
+        Winfield Locks and Dam
+      </SiteProperty>
+    </Site>
+  </PlatformSensor>
+</Platform>

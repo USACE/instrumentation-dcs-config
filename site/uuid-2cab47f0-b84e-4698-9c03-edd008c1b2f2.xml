@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.624922</Latitude>
+  <Longitude>-81.44895</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Bolivar</NearestCity>
+  <SiteName NameType="CWMS">BolivarAUX</SiteName>
+  <SiteName NameType="uuid">2cab47f0-b84e-4698-9c03-edd008c1b2f2</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Bolivar Aux Gage</SiteProperty>
+</Site>

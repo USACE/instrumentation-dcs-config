@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.1225</Latitude>
+  <Longitude>-82.5986</Longitude>
+  <Elevation>465.0973680000001</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>VA</State>
+  <NearestCity>Pound</NearestCity>
+  <Description>Pound Riv below Bold Camp Ck near Pound</Description>
+  <SiteName NameType="CWMS">PoundLwr</SiteName>
+  <SiteName NameType="local">PLPQ3</SiteName>
+  <SiteName NameType="nwshb5">PBCV2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03208800</SiteName>
+  <SiteName NameType="uuid">7025c679-83e4-40bd-93b0-923dd75a61bb</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Pound Lower</SiteProperty>
+</Site>

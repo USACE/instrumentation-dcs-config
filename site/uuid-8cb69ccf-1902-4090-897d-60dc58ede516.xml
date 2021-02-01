@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.25372893993</Latitude>
+  <Longitude>-81.566782571411</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Belle</NearestCity>
+  <Description>Marmet L&amp;D</Description>
+  <SiteName NameType="CWMS">MarmetLD</SiteName>
+  <SiteName NameType="local">MMKL5</SiteName>
+  <SiteName NameType="nwshb5">MMTW2</SiteName>
+  <SiteName NameType="uuid">8cb69ccf-1902-4090-897d-60dc58ede516</SiteName>
+  <SiteProperty PropertyName="location_type">Lock</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Marmet Locks and Dam</SiteProperty>
+</Site>

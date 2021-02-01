@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.1928</Latitude>
+  <Longitude>-81.3692</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>London</NearestCity>
+  <Description>Kanawha Riv at London L&amp;D</Description>
+  <SiteName NameType="CWMS">LondonLD</SiteName>
+  <SiteName NameType="local">LONW2</SiteName>
+  <SiteName NameType="nwshb5">LONW2</SiteName>
+  <SiteName NameType="uuid">ef49d427-0af0-46f6-b5f3-75710207f725</SiteName>
+  <SiteProperty PropertyName="location_type">Lock</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">London Locks and Dam</SiteProperty>
+</Site>

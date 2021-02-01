@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.781355</Latitude>
+  <Longitude>-81.919734</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Wooster</NearestCity>
+  <Description>
+    Wooster, OH (Old Chippewa Lake ID/Time) Old nwshb5 CIPO1
+  </Description>
+  <SiteName NameType="CWMS">Wooster</SiteName>
+  <SiteName NameType="local">WOSC4</SiteName>
+  <SiteName NameType="nwshb5">CIPO1</SiteName>
+  <SiteName NameType="uuid">8d370edb-f2c2-4bea-8da5-d13ea431a79a</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Wooster</SiteProperty>
+</Site>

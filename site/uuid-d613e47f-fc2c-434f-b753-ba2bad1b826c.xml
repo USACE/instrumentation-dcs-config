@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.94</Latitude>
+  <Longitude>-82.0125</Longitude>
+  <Elevation>203.3016</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Zanesville</NearestCity>
+  <Description>Muskingum Riv @ Zanesville</Description>
+  <SiteName NameType="CWMS">Zanesville</SiteName>
+  <SiteName NameType="local">ZANF5</SiteName>
+  <SiteName NameType="nwshb5">ZANO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03148000</SiteName>
+  <SiteName NameType="uuid">d613e47f-fc2c-434f-b753-ba2bad1b826c</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Zanesville</SiteProperty>
+</Site>

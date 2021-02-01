@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.6353</Latitude>
+  <Longitude>-80.4658</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Guardian</NearestCity>
+  <Description>Right Fk Holly Riv at Guardian</Description>
+  <SiteName NameType="CWMS">Guardian</SiteName>
+  <SiteName NameType="local">GARK7</SiteName>
+  <SiteName NameType="nwshb5">GUAW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03195100</SiteName>
+  <SiteName NameType="uuid">a3658b5e-e469-47a0-a624-75c767aad599</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Guardian</SiteProperty>
+</Site>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.169089054365</Latitude>
+  <Longitude>-82.61965310173</Longitude>
+  <Elevation>156.304488</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KY</State>
+  <NearestCity>Louisa</NearestCity>
+  <Description>Big Sandy Riv @ Fullers Station near Louisa 7N</Description>
+  <SiteName NameType="CWMS">Fullers</SiteName>
+  <SiteName NameType="local">FSSM3</SiteName>
+  <SiteName NameType="nwshb5">FLRK2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03215000</SiteName>
+  <SiteName NameType="uuid">590b946d-f4c8-4ae0-a1c1-595efdee5ddc</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Fullers</SiteProperty>
+</Site>

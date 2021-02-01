@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.0175</Latitude>
+  <Longitude>-82.2964</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Dunlow</NearestCity>
+  <Description>East Fk Twelvepole Ck near Dunlow 7E</Description>
+  <SiteName NameType="CWMS">Dunlow</SiteName>
+  <SiteName NameType="local">DUNM4</SiteName>
+  <SiteName NameType="nwshb5">DUNW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03206600</SiteName>
+  <SiteName NameType="uuid">3d775f96-c983-4ed4-9865-5f26df4908eb</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Dunlow</SiteProperty>
+</Site>

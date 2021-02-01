@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.253877</Latitude>
+  <Longitude>-82.991112</Longitude>
+  <Elevation>176.784</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KY</State>
+  <NearestCity>Grayson</NearestCity>
+  <Description>Little Sandy Riv below Grayson Dam near Grayson</Description>
+  <SiteName NameType="CWMS">Grayson-Outflow</SiteName>
+  <SiteName NameType="local">GRLOF</SiteName>
+  <SiteName NameType="nwshb5">GYLK2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03216350</SiteName>
+  <SiteName NameType="uuid">51bdc8f8-60a4-4f75-a987-a43e753f54c2</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Grayson Outflow</SiteProperty>
+</Site>

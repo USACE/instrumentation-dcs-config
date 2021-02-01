@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.3414</Latitude>
+  <Longitude>-82.0655</Longitude>
+  <Elevation>240.792</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Nellie</NearestCity>
+  <Description>Walhonding Riv Tailwater below Mohawk Dam @ Nellie</Description>
+  <SiteName NameType="CWMS">Mohawk-Outflow</SiteName>
+  <SiteName NameType="local">MKWOF</SiteName>
+  <SiteName NameType="nwshb5">NLLO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03138500</SiteName>
+  <SiteName NameType="uuid">3f377d4a-8c27-47b3-8e9f-afb778feec9d</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Mohawk Outflow</SiteProperty>
+</Site>

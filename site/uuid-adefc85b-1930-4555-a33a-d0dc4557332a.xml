@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.5853</Latitude>
+  <Longitude>-83.1217</Longitude>
+  <Elevation>219.047568</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Williamsport</NearestCity>
+  <Description>Deer Ck @ Williamsport</Description>
+  <SiteName NameType="CWMS">Williamsport</SiteName>
+  <SiteName NameType="local">WMTH2</SiteName>
+  <SiteName NameType="nwshb5">WMSO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03231000</SiteName>
+  <SiteName NameType="uuid">adefc85b-1930-4555-a33a-d0dc4557332a</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Williamsport</SiteProperty>
+</Site>

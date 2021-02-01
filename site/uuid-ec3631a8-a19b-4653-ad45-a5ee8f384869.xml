@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.1591</Latitude>
+  <Longitude>-81.8475</Longitude>
+  <Elevation>218.5416</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Conesville</NearestCity>
+  <Description>Wills Ck below Wills Ck Dam near Conesville 2E</Description>
+  <SiteName NameType="CWMS">WillsCr-Outflow</SiteName>
+  <SiteName NameType="local">WCWOF</SiteName>
+  <SiteName NameType="nwshb5">WLLO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03143500</SiteName>
+  <SiteName NameType="uuid">ec3631a8-a19b-4653-ad45-a5ee8f384869</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Wills Creek Outflow</SiteProperty>
+</Site>

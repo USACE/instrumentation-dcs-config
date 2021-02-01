@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.9255</Latitude>
+  <Longitude>-81.4341</Longitude>
+  <Elevation>247.4976</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Senecaville</NearestCity>
+  <Description>Senecaville Lk near Senecaville 2SE</Description>
+  <SiteName NameType="CWMS">Senecaville-Lake</SiteName>
+  <SiteName NameType="local">SESF6</SiteName>
+  <SiteName NameType="nwshb5">SNLO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03141000</SiteName>
+  <SiteName NameType="uuid">465865d4-f42c-4aea-b933-993c62e5b0ee</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Senecaville Lake</SiteProperty>
+</Site>

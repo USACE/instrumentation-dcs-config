@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.7233</Latitude>
+  <Longitude>-82.7994</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Galion</NearestCity>
+  <Description>Galion</Description>
+  <SiteName NameType="CWMS">Galion</SiteName>
+  <SiteName NameType="local">GALC3</SiteName>
+  <SiteName NameType="nwshb5">GAIO1</SiteName>
+  <SiteName NameType="uuid">be6a93aa-bc64-4b44-9cda-7b7aebf2f158</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Galion</SiteProperty>
+</Site>

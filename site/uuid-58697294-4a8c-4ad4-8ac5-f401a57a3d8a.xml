@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.7975</Latitude>
+  <Longitude>-84.1733</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Chilo</NearestCity>
+  <Description>Meldahl Dam @ Chilo</Description>
+  <SiteName NameType="CWMS">CaptAMeldahlLD</SiteName>
+  <SiteName NameType="local">MDOJ0</SiteName>
+  <SiteName NameType="nwshb5">MELO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03238680</SiteName>
+  <SiteName NameType="uuid">58697294-4a8c-4ad4-8ac5-f401a57a3d8a</SiteName>
+  <SiteProperty PropertyName="location_type">Lock</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">
+    C.A. Meldahl Locks and Dam
+  </SiteProperty>
+</Site>

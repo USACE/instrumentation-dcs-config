@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.215057</Latitude>
+  <Longitude>-80.888366</Longitude>
+  <Elevation>411.48</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Summersville</NearestCity>
+  <Description>Gauley Riv below Summersville Lake</Description>
+  <SiteName NameType="CWMS">Summersville-Outflow</SiteName>
+  <SiteName NameType="local">SUGOF</SiteName>
+  <SiteName NameType="nwshb5">SUMW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03189600</SiteName>
+  <SiteName NameType="uuid">c4e249f2-f343-4a49-b7e2-b870269d3d19</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">
+    Summersville Lake Outflow
+  </SiteProperty>
+</Site>

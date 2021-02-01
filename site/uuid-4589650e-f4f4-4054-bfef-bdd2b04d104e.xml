@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.5302793</Latitude>
+  <Longitude>-83.4531191</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Washington Courthouse</NearestCity>
+  <Description>Washington Courthouse</Description>
+  <SiteName NameType="CWMS">WashingtonCourtH</SiteName>
+  <SiteName NameType="local">WCHG2</SiteName>
+  <SiteName NameType="nwshb5">WCHO1</SiteName>
+  <SiteName NameType="uuid">4589650e-f4f4-4054-bfef-bdd2b04d104e</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Washington Courthouse</SiteProperty>
+</Site>

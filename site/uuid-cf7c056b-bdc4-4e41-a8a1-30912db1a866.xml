@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.5669</Latitude>
+  <Longitude>-82.4581</Longitude>
+  <Elevation>218.133168</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KY</State>
+  <NearestCity>Meta</NearestCity>
+  <Description>Johns Ck near Meta</Description>
+  <SiteName NameType="CWMS">Meta</SiteName>
+  <SiteName NameType="local">METO4</SiteName>
+  <SiteName NameType="nwshb5">MTGK2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03210000</SiteName>
+  <SiteName NameType="uuid">cf7c056b-bdc4-4e41-a8a1-30912db1a866</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Meta</SiteProperty>
+</Site>

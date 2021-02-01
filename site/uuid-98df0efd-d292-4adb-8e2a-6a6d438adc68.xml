@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.613826</Latitude>
+  <Longitude>-81.417679</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Zoar</NearestCity>
+  <SiteName NameType="CWMS">Zoar-Dam</SiteName>
+  <SiteName NameType="uuid">98df0efd-d292-4adb-8e2a-6a6d438adc68</SiteName>
+  <SiteProperty PropertyName="location_type">Dam</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Zoar Diversion Dam</SiteProperty>
+</Site>

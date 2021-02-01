@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.113611</Latitude>
+  <Longitude>-81.1425</Longitude>
+  <Elevation>224.024952</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Hawks Nest</NearestCity>
+  <Description>New River below Hawks Nest Dam, WV</Description>
+  <SiteName NameType="CWMS">HawksNest</SiteName>
+  <SiteName NameType="uuid">fa3e3b3d-4648-4849-b36c-a8fade939f50</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Hawks Nest</SiteProperty>
+</Site>

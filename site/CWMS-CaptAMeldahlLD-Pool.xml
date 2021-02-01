@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.7946651</Latitude>
+  <Longitude>-84.1666764</Longitude>
+  <Elevation>143.95704</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Felicity</NearestCity>
+  <SiteName NameType="CWMS">CaptAMeldahlLD-Pool</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">C.A. Meldahl L&amp;D Pool</SiteProperty>
+</Site>

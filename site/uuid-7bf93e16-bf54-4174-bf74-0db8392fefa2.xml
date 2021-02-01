@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.43</Latitude>
+  <Longitude>-82.4164</Longitude>
+  <Elevation>201.155808</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KY</State>
+  <NearestCity>Shelbiana</NearestCity>
+  <Description>
+    Levisa Fk below Fishtrap Dam near Millard near Shelbiana 1E
+  </Description>
+  <SiteName NameType="CWMS">Fishtrap-Outflow</SiteName>
+  <SiteName NameType="local">FRLOF</SiteName>
+  <SiteName NameType="nwshb5">MILK2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03208000</SiteName>
+  <SiteName NameType="uuid">7bf93e16-bf54-4174-bf74-0db8392fefa2</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Fishtrap Outflow</SiteProperty>
+</Site>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.52925</Latitude>
+  <Longitude>-80.770194</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Red Sulphur Springs</NearestCity>
+  <Description>Indian Creek @ Red Sulphur Springs</Description>
+  <SiteName NameType="CWMS">RedSulphurSpr</SiteName>
+  <SiteName NameType="local">RSIP7</SiteName>
+  <SiteName NameType="nwshb5">INCW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03177480</SiteName>
+  <SiteName NameType="uuid">2188af94-5477-49e2-9ccd-db79b222c8ed</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Red Sulphur Springs</SiteProperty>
+</Site>

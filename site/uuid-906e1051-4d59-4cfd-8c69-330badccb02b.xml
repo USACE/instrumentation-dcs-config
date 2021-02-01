@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.2453</Latitude>
+  <Longitude>-82.3242</Longitude>
+  <Elevation>355.09200000000004</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>VA</State>
+  <NearestCity>Bartlick</NearestCity>
+  <Description>Russell Fk-Tug Riv near Bartlick</Description>
+  <SiteName NameType="CWMS">Bartlick</SiteName>
+  <SiteName NameType="local">BLRQ4</SiteName>
+  <SiteName NameType="nwshb5">BRFV2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03209200</SiteName>
+  <SiteName NameType="uuid">906e1051-4d59-4cfd-8c69-330badccb02b</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Bartlick</SiteProperty>
+</Site>

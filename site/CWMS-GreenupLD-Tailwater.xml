@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.6496451</Latitude>
+  <Longitude>-82.8600276</Longitude>
+  <Elevation>144.01495200000002</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KY</State>
+  <NearestCity>Greenup</NearestCity>
+  <SiteName NameType="CWMS">GreenupLD-Tailwater</SiteName>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Greenup L&amp;D Tailwater</SiteProperty>
+</Site>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.5297</Latitude>
+  <Longitude>-81.4294</Longitude>
+  <Elevation>262.588248</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Dover</NearestCity>
+  <Description>
+    Tuscarawas Riv Tailwater below Dover Dam near Dover 3ENE
+  </Description>
+  <SiteName NameType="CWMS">Dover-Outflow</SiteName>
+  <SiteName NameType="local">DOTOF</SiteName>
+  <SiteName NameType="nwshb5">DVLO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03122500</SiteName>
+  <SiteName NameType="uuid">4aca1e22-2649-4e5b-b5b7-c611c2b4c65c</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">
+    Dover Outflow (White Bridge)
+  </SiteProperty>
+</Site>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.312881</Latitude>
+  <Longitude>-82.359542</Longitude>
+  <Elevation>235.6104</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KY</State>
+  <NearestCity>Elkhorn City</NearestCity>
+  <Description>Russell Fork at Cedarville, KY</Description>
+  <SiteName NameType="CWMS">ElkhornCity</SiteName>
+  <SiteName NameType="local">ECRP4</SiteName>
+  <SiteName NameType="nwshb5">ELKK2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03209300</SiteName>
+  <SiteName NameType="uuid">6acdc820-bfb2-4dca-94b8-261a3e35af7d</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Elkhorn City</SiteProperty>
+</Site>

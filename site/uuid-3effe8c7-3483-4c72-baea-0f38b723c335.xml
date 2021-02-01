@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.4275</Latitude>
+  <Longitude>-80.1647</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Slaty Fork</NearestCity>
+  <Description>Sharps Knob near Slaty Fk</Description>
+  <SiteName NameType="CWMS">SharpsKnob</SiteName>
+  <SiteName NameType="local">SPKL8</SiteName>
+  <SiteName NameType="nwshb5">STYW2</SiteName>
+  <SiteName NameType="uuid">3effe8c7-3483-4c72-baea-0f38b723c335</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Sharps Knob</SiteProperty>
+</Site>

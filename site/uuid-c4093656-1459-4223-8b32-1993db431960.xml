@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.3392</Latitude>
+  <Longitude>-81.8414</Longitude>
+  <Elevation>173.87925600000003</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Tornado</NearestCity>
+  <Description>Coal Riv @ Tornado</Description>
+  <SiteName NameType="CWMS">Tornado</SiteName>
+  <SiteName NameType="local">TORM5</SiteName>
+  <SiteName NameType="nwshb5">TORW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03200500</SiteName>
+  <SiteName NameType="uuid">c4093656-1459-4223-8b32-1993db431960</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Tornado</SiteProperty>
+</Site>

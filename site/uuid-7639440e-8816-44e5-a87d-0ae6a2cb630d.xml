@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.263437061336</Latitude>
+  <Longitude>-83.167532730103</Longitude>
+  <Elevation>202.75296000000003</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Bourneville</NearestCity>
+  <Description>Paint Ck near Bourneville 1SW</Description>
+  <SiteName NameType="CWMS">Bourneville</SiteName>
+  <SiteName NameType="local">BRPH2</SiteName>
+  <SiteName NameType="nwshb5">BVLO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03234000</SiteName>
+  <SiteName NameType="uuid">7639440e-8816-44e5-a87d-0ae6a2cb630d</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Bourneville</SiteProperty>
+</Site>

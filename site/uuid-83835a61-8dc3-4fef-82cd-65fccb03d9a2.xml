@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.405780212601</Latitude>
+  <Longitude>-82.499780103874</Longitude>
+  <Elevation>299.057568</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Mt. Vernon</NearestCity>
+  <Description>Kokosing Riv @ Mount Vernon</Description>
+  <SiteName NameType="CWMS">MtVernon</SiteName>
+  <SiteName NameType="local">MTVD4</SiteName>
+  <SiteName NameType="nwshb5">MVEO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03136500</SiteName>
+  <SiteName NameType="uuid">83835a61-8dc3-4fef-82cd-65fccb03d9a2</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Mt. Vernon</SiteProperty>
+</Site>

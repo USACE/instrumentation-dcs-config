@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.9917</Latitude>
+  <Longitude>-82.0817</Longitude>
+  <Elevation>213.36</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Zanesville</NearestCity>
+  <Description>Dillon Lk near Dillon Falls near Zanesville 2NW</Description>
+  <SiteName NameType="CWMS">Dillon-Lake</SiteName>
+  <SiteName NameType="local">DILF4</SiteName>
+  <SiteName NameType="nwshb5">DLFO1</SiteName>
+  <SiteName NameType="uuid">93a3cd66-db02-4141-af0e-1cbda67176c1</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Dillon Lake</SiteProperty>
+</Site>

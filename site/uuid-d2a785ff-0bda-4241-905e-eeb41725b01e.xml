@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.1203</Latitude>
+  <Longitude>-81.9992</Longitude>
+  <Elevation>211.016088</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Dresden</NearestCity>
+  <Description>Muskingum Riv near Dresden 1E</Description>
+  <SiteName NameType="CWMS">Dresden</SiteName>
+  <SiteName NameType="local">DRME4</SiteName>
+  <SiteName NameType="nwshb5">DREO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03144500</SiteName>
+  <SiteName NameType="uuid">d2a785ff-0bda-4241-905e-eeb41725b01e</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Dresden</SiteProperty>
+</Site>

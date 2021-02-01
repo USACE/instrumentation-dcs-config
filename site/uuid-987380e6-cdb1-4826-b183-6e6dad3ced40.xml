@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.125</Latitude>
+  <Longitude>-82.6992</Longitude>
+  <Elevation>182.88</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>KY</State>
+  <NearestCity>Blaine</NearestCity>
+  <Description>Yatesville Lake, KY</Description>
+  <SiteName NameType="CWMS">Yatesville-Lake</SiteName>
+  <SiteName NameType="local">YBCM3</SiteName>
+  <SiteName NameType="nwshb5">YTUK2</SiteName>
+  <SiteName NameType="uuid">987380e6-cdb1-4826-b183-6e6dad3ced40</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Yatesville Lake</SiteProperty>
+</Site>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.2483</Latitude>
+  <Longitude>-83.1738</Longitude>
+  <Elevation>263.694672</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Bellepoint</NearestCity>
+  <Description>Mill Ck near Bellepoint</Description>
+  <SiteName NameType="CWMS">Bellepoint</SiteName>
+  <SiteName NameType="local">BLPD2</SiteName>
+  <SiteName NameType="nwshb5">BLPO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03220000</SiteName>
+  <SiteName NameType="uuid">ca75c004-1215-435c-ba3d-d865a7dc36d1</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Bellepoint</SiteProperty>
+</Site>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.099556</Latitude>
+  <Longitude>-82.136877</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>VA</State>
+  <NearestCity>Davenport</NearestCity>
+  <Description>Davenport</Description>
+  <SiteName NameType="CWMS">Davenport</SiteName>
+  <SiteName NameType="local">DAVQ4</SiteName>
+  <SiteName NameType="nwshb5">DVPV2</SiteName>
+  <SiteName NameType="uuid">da2200e8-b6c6-498d-9083-2f225e037908</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Davenport</SiteProperty>
+</Site>

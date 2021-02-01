@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.4805</Latitude>
+  <Longitude>-81.4483</Longitude>
+  <Elevation>258.854448</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>New Philadelphia</NearestCity>
+  <Description>Tuscarawas Riv @ New Philadelphia</Description>
+  <SiteName NameType="CWMS">NewPhiladelphia</SiteName>
+  <SiteName NameType="local">NPTD6</SiteName>
+  <SiteName NameType="nwshb5">NWPO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03124800</SiteName>
+  <SiteName NameType="uuid">32539bfe-0a4c-4e8a-8a37-afadad3b068c</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">New Philadelphia</SiteProperty>
+</Site>

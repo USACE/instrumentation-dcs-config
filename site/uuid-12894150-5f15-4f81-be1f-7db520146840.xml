@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.845</Latitude>
+  <Longitude>-80.6281</Longitude>
+  <Elevation>228.24643200000003</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Burnsville</NearestCity>
+  <Description>L Kanawha Riv below Burnsville 1SSW</Description>
+  <SiteName NameType="CWMS">Burnsville-Outflow</SiteName>
+  <SiteName NameType="local">BUSOF</SiteName>
+  <SiteName NameType="nwshb5">BULW2</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03151520</SiteName>
+  <SiteName NameType="uuid">12894150-5f15-4f81-be1f-7db520146840</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">
+    Burnsville Lake Outflow
+  </SiteProperty>
+</Site>

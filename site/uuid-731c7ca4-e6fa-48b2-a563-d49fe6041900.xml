@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.7703</Latitude>
+  <Longitude>-81.5214</Longitude>
+  <Elevation>278.910288</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Massillon</NearestCity>
+  <Description>Tuscarawas Riv @ Massillon</Description>
+  <SiteName NameType="CWMS">Massillon</SiteName>
+  <SiteName NameType="local">MATB5</SiteName>
+  <SiteName NameType="nwshb5">MLNO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03117000</SiteName>
+  <SiteName NameType="uuid">731c7ca4-e6fa-48b2-a563-d49fe6041900</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Massillon</SiteProperty>
+</Site>

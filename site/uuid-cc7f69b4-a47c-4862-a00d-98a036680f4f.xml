@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.1027</Latitude>
+  <Longitude>-82.8836</Longitude>
+  <Elevation>248.460768</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Gould Park</NearestCity>
+  <Description>Big Walnut Ck @ Central College near Gould Park 2N</Description>
+  <SiteName NameType="CWMS">CentralCollege</SiteName>
+  <SiteName NameType="local">CNCE3</SiteName>
+  <SiteName NameType="nwshb5">CSCO1</SiteName>
+  <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">03228500</SiteName>
+  <SiteName NameType="uuid">cc7f69b4-a47c-4862-a00d-98a036680f4f</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Central College</SiteProperty>
+</Site>

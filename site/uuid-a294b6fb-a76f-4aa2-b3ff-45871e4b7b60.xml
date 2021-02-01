@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>39.9189</Latitude>
+  <Longitude>-81.5314</Longitude>
+  <Elevation>238.26216000000002</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Derwent</NearestCity>
+  <Description>Wills Ck @ Derwent 1ESE</Description>
+  <SiteName NameType="CWMS">Derwent</SiteName>
+  <SiteName NameType="local">DRWF5</SiteName>
+  <SiteName NameType="nwshb5">DWTO1</SiteName>
+  <SiteName NameType="uuid">a294b6fb-a76f-4aa2-b3ff-45871e4b7b60</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Derwent</SiteProperty>
+</Site>

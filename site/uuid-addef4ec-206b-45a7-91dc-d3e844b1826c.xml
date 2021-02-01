@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>37.797096154216</Latitude>
+  <Longitude>-81.212660894489</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Beckley</NearestCity>
+  <Description>Crab Orchard near Beckley 1E</Description>
+  <SiteName NameType="CWMS">Beckley</SiteName>
+  <SiteName NameType="local">BECN6</SiteName>
+  <SiteName NameType="nwshb5">CRBW2</SiteName>
+  <SiteName NameType="uuid">addef4ec-206b-45a7-91dc-d3e844b1826c</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Beckley</SiteProperty>
+</Site>

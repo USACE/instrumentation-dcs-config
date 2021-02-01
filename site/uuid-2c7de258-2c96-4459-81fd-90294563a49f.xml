@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>40.185803957278</Latitude>
+  <Longitude>-82.966798709679</Longitude>
+  <Elevation>243.84</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>OH</State>
+  <NearestCity>Kilbourne, OH</NearestCity>
+  <Description>Alum Creek at Alum Creek Res near Kilbourne</Description>
+  <SiteName NameType="CWMS">AlumCr-Lake</SiteName>
+  <SiteName NameType="local">ACSE3</SiteName>
+  <SiteName NameType="nwshb5">ACRO1</SiteName>
+  <SiteName NameType="uuid">2c7de258-2c96-4459-81fd-90294563a49f</SiteName>
+  <SiteProperty PropertyName="location_type">Lake</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Alum Creek Lake</SiteProperty>
+</Site>

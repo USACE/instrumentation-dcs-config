@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>36.498055555556</Latitude>
+  <Longitude>-81.510833333333</Longitude>
+  <Elevation>1.7976931348623157E308</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <State>NC</State>
+  <Description>LansingPrecip</Description>
+  <SiteName NameType="CWMS">Lansing</SiteName>
+  <SiteName NameType="local">LAWR6</SiteName>
+  <SiteName NameType="uuid">b9c48d31-4862-496b-9de9-2c236e2d4fec</SiteName>
+  <SiteProperty PropertyName="location_type">Gage</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Lansing</SiteProperty>
+</Site>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Site>
+  <Latitude>38.8433</Latitude>
+  <Longitude>-80.62</Longitude>
+  <Elevation>213.36</Elevation>
+  <ElevationUnits>m</ElevationUnits>
+  <Timezone>US/Eastern</Timezone>
+  <Country>UNITED STATES</Country>
+  <State>WV</State>
+  <NearestCity>Burnsville</NearestCity>
+  <Description>Burnsville Sump Pump</Description>
+  <SiteName NameType="CWMS">Burnsville-Sump</SiteName>
+  <SiteProperty PropertyName="location_type">Pump</SiteProperty>
+  <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+  <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+  <SiteProperty PropertyName="PUBLIC_NAME">Burnsville Sump</SiteProperty>
+</Site>

@@ -1,0 +1,2324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PlatformList>
+  <PlatformXref PlatformId="1">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4B41AC"/>
+    <SiteName NameType="uuid">174a819f-766e-48a8-a636-4d0ac569ae4f</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Adamsville, OH (OHI)</Description>
+    <ConfigName>LRH-ADMO1</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="2">
+    <TransportXref MediumType="goes-self-timed" MediumId="DE16F282"/>
+    <SiteName NameType="uuid">07caff5c-f661-4266-bf78-15e8c849b35b</SiteName>
+    <Agency>USGS-LRH</Agency>
+    <Description>Alderson, WV (KAN)</Description>
+    <ConfigName>LRH-ALDW2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="3">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4EC078"/>
+    <SiteName NameType="uuid">eb9868d0-16be-4a69-881f-bd7f359012b0</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Grayson Lake, KY (LSA)</Description>
+    <ConfigName>LRH-GRAK2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="4">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4E73F6"/>
+    <SiteName NameType="uuid">51bdc8f8-60a4-4f75-a987-a43e753f54c2</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Grayson Lk OF, KY (LSA)</Description>
+    <ConfigName>LRH-GVLK2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="5">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6F9DC2"/>
+    <SiteName NameType="uuid">a0cede59-4535-41a1-a614-b1ccc02f4b77</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Willard, KY (LSA)</Description>
+    <ConfigName>LRH-WLLK2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="6">
+    <TransportXref MediumType="goes-self-timed" MediumId="DE16C718"/>
+    <SiteName NameType="uuid">986b6fd0-63e0-49bf-841a-e4d43c7781a3</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Cairo, Wv (LKA)</Description>
+    <ConfigName>LRH-CANH2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="7">
+    <TransportXref MediumType="goes-self-timed" MediumId="DD65A2BA"/>
+    <SiteName NameType="uuid">9ebea298-7d94-4dec-89ea-26d643dc88b0</SiteName>
+    <Agency>LRH</Agency>
+    <Description>MacFarlan, WV (LKA)</Description>
+    <ConfigName>LRH-MCFHH6</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="8">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4F6CA8"/>
+    <SiteName NameType="uuid">5dfe69fb-e52e-46eb-baed-e06872986f73</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Wildcat, WV (LKA)</Description>
+    <ConfigName>LRH-WLDW2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="9">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5F3B4A"/>
+    <SiteName NameType="uuid">c3a1561d-7c6c-4e35-9f91-2b99b3ade96d</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Rocksdale, WV (LKA)</Description>
+    <ConfigName>LRH-RCKW2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="10">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5F65E4"/>
+    <SiteName NameType="uuid">6acdc820-bfb2-4dca-94b8-261a3e35af7d</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Elkhorn City, KY (BSA)</Description>
+    <ConfigName>CE5F65E4</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="11">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6F08A0"/>
+    <SiteName NameType="uuid">da2200e8-b6c6-498d-9083-2f225e037908</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Davenport, VA (BSA)</Description>
+    <ConfigName>DAVENPORT</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="12">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5F0002"/>
+    <SiteName NameType="uuid">24195c39-998b-4699-8a49-f868f008b7bc</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Bane, VA (KAN)</Description>
+    <ConfigName>LRH-BANV2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="13">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE572248"/>
+    <SiteName NameType="uuid">2aa6fe2c-3dec-49af-b0ec-e79e97652371</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Beach City Lake Outflow, OH (MUS)</Description>
+    <ConfigName>CE572248</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="14">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6F70E2"/>
+    <SiteName NameType="uuid">addef4ec-206b-45a7-91dc-d3e844b1826c</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Beckley, WV (KAN)</Description>
+    <ConfigName>CE6F70E2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="15">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE57E756"/>
+    <SiteName NameType="uuid">906e1051-4d59-4cfd-8c69-330badccb02b</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Bartlick, VA (BSA)</Description>
+    <ConfigName>LRH-BRFV2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="16">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE00243E"/>
+    <SiteName NameType="uuid">ed38c69f-1301-4bff-853f-1740a6a2605d</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Bastian, VA (KAN)</Description>
+    <ConfigName>LRH-CFKV2</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="17">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4F627A"/>
+    <SiteName NameType="uuid">e1b9d887-4d05-4824-8d6e-71c78baabf5c</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Beech Fork Lake, WV (TWE)</Description>
+    <ConfigName>CE4F627A</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="18">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4F5932"/>
+    <SiteName NameType="uuid">2e769446-9919-4b34-b709-a149444cab49</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Beech Fork Outflow, WV (TWE)</Description>
+    <ConfigName>CE4F5932</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="19">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE57AA8E"/>
+    <SiteName NameType="uuid">ca75c004-1215-435c-ba3d-d865a7dc36d1</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Bellepoint, OH (SCI)</Description>
+    <ConfigName>CE57AA8E</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="20">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6AE240"/>
+    <SiteName NameType="uuid">063a072f-cec1-4a71-b922-047adedff43f</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Kermit, WV (BSA)</Description>
+    <ConfigName>CE6AE240</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="21">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4E9ED6"/>
+    <SiteName NameType="uuid">cf7c056b-bdc4-4e41-a8a1-30912db1a866</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Meta, KY (BSA)</Description>
+    <ConfigName>CE4E9ED6</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="22">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4B6740"/>
+    <SiteName NameType="uuid">62a7d7ba-ec81-4b23-832f-e03983137301</SiteName>
+    <Agency>LRH</Agency>
+    <Description>North Fk of Pound Lake, VA (BSA)</Description>
+    <ConfigName>CE4B6740</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="23">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE57C1BA"/>
+    <SiteName NameType="uuid">4007021d-e4d5-4016-9dcb-81f80e7dee89</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Pound Upper, VA (BSA)</Description>
+    <ConfigName>CE57C1BA</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="24">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6AD7DA"/>
+    <SiteName NameType="uuid">c7b7826c-ea30-4717-9b37-64cae543d045</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Welch, WV (BSA)</Description>
+    <ConfigName>CE6AD7DA</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="25">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5F7840"/>
+    <SiteName NameType="uuid">7cea62c0-9d65-4fcb-aca3-e1175b0b485f</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Williamson, WV (BSA)</Description>
+    <ConfigName>CE5F7840</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="26">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE43E5F2"/>
+    <SiteName NameType="uuid">301bd757-f060-4d6c-aed3-7ed52e5698ce</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Yatesville Lk Outflow, KY (BSA)</Description>
+    <ConfigName>CE43E5F2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="27">
+    <TransportXref MediumType="goes-self-timed" MediumId="DD53A404"/>
+    <SiteName NameType="uuid">adfd0438-a9a0-4cee-9c4b-7f1903c2577b</SiteName>
+    <Description>Lockwood, WV (KAN)</Description>
+    <ConfigName>DD53A404</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="28">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5F507E"/>
+    <SiteName NameType="uuid">8cb69ccf-1902-4090-897d-60dc58ede516</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Marmet, WV (KAN)</Description>
+    <ConfigName>CE5F507E</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="29">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4BE154"/>
+    <SiteName NameType="uuid">8a52aeb2-a221-45bf-a429-a626695a1856</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Red Oak Knob, WV (KAN)</Description>
+    <ConfigName>CE4BE154</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="30">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE045794"/>
+    <SiteName NameType="uuid">2188af94-5477-49e2-9ccd-db79b222c8ed</SiteName>
+    <Agency>USGS</Agency>
+    <Description>Indian Creek @ Red Sulphur Springs</Description>
+    <ConfigName>CE045794</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="31">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4C50EE"/>
+    <SiteName NameType="uuid">7417368d-e3a6-4a38-9357-0530e2616d8f</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Rock Camp, WV (KAN)</Description>
+    <ConfigName>CE4C50EE</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="32">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4BEF86"/>
+    <SiteName NameType="uuid">3effe8c7-3483-4c72-baea-0f38b723c335</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Sharps Knob, WV (KAN)</Description>
+    <ConfigName>CE4BEF86</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="33">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4E8372"/>
+    <SiteName NameType="uuid">f2275d08-146c-4e8b-a9f1-fde21b677a69</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Summersville Lake, WV (KAN)</Description>
+    <ConfigName>CE4E8372</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="34">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4F2170"/>
+    <SiteName NameType="uuid">f9a4b9f2-d49a-4823-be82-031360f9dc7e</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Sutton Lake, WV (KAN)</Description>
+    <ConfigName>CE4F2170</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="35">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4EB83A"/>
+    <SiteName NameType="uuid">1270d81d-4586-46b1-ba13-ef1a8f0a5b07</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Leon, KY (LSA)</Description>
+    <ConfigName>LRH-LEOK2</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="36">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4F3206"/>
+    <SiteName NameType="uuid">3d775f96-c983-4ed4-9865-5f26df4908eb</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Dunlow, WV (TWE)</Description>
+    <ConfigName>CE4F3206</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="37">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE67A22C"/>
+    <SiteName NameType="uuid">d7d9be22-86f0-438c-b4f3-21d8c358710a</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Hebron, OH (MUS)</Description>
+    <ConfigName>CE67A22C</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="38">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4F9C2C"/>
+    <SiteName NameType="uuid">a7acd5e1-0adb-4162-9b10-91566cf2a0f7</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Elizabeth, WV (LKA)</Description>
+    <ConfigName>LRH-ELZW2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="39">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4F8F5A"/>
+    <SiteName NameType="uuid">f6b0059b-b3f8-46ba-a181-8220d8f33300</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Glenville, WV (LKA)</Description>
+    <ConfigName>LRH-GLEW2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="40">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4F7FDE"/>
+    <SiteName NameType="uuid">9f0f3a88-fbe0-44ee-ab64-36f1877e11dc</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Burnsville Lake, WV (LKA)</Description>
+    <ConfigName>LRH-BRNW2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="41">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4F8188"/>
+    <SiteName NameType="uuid">c73451ca-3ad8-4e6a-bb44-0d799045269c</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Burnsville Town, WV (LKA)</Description>
+    <ConfigName>LRH-BURW2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="42">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4F710C"/>
+    <SiteName NameType="uuid">12894150-5f15-4f81-be1f-7db520146840</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Burnsville Outflow, WV (LKA)</Description>
+    <ConfigName>LRH-BULW2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="43">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4F92FE"/>
+    <SiteName NameType="uuid">b58bb1fc-526a-4f68-a66e-df0f62df5919</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Grantsville, WV (LKA)</Description>
+    <ConfigName>LRH-GRTW2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="44">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4FF9CA"/>
+    <SiteName NameType="uuid">7bf93e16-bf54-4174-bf74-0db8392fefa2</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Fishtrap OF, KY (BSA)</Description>
+    <ConfigName>LRH-MILK2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="45">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5791C6"/>
+    <SiteName NameType="uuid">83835a61-8dc3-4fef-82cd-65fccb03d9a2</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Mount Vernon, OH (MUS)</Description>
+    <ConfigName>LRH-MVE01</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="46">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE45081C"/>
+    <SiteName NameType="uuid">ac41bcfd-e58a-44c2-aee5-0f5f2d76e6f3</SiteName>
+    <Description>Newcomerstown, OH (MUS)</Description>
+    <ConfigName>CE45081C</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="47">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6752A8"/>
+    <SiteName NameType="uuid">e3ab6b44-5f0d-4e5b-a683-bd37de420da4</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Alexandria, OH (MUS)</Description>
+    <ConfigName>CE6752A8</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="48">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5F3598"/>
+    <SiteName NameType="uuid">c4093656-1459-4223-8b32-1993db431960</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Tornado, WV (KAN)</Description>
+    <ConfigName>CE5F3598</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="49">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4FF718"/>
+    <SiteName NameType="uuid">af209f73-fc86-400b-ac84-87c01c913890</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Big Rock, VA (BSA)</Description>
+    <ConfigName>CE4FF718</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="50">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE57F420"/>
+    <SiteName NameType="uuid">86d26745-cdea-40cd-9c12-e18eb81908fe</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Allisonia, VA (KAN)</Description>
+    <ConfigName>CE57F420</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="51">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4C13E4"/>
+    <SiteName NameType="uuid">6c2122a2-33dd-4d2a-aab3-741fac7770d5</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Higby, OH (SCI)</Description>
+    <ConfigName>CE4C13E4</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="52">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4C3BDA"/>
+    <SiteName NameType="uuid">526d5738-966a-4820-a439-51dd7fe97c6d</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Darbyville, OH (SCI)</Description>
+    <ConfigName>CE4C3BDA</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="53">
+    <TransportXref MediumType="goes-self-timed" MediumId="DD6A91B2"/>
+    <SiteName NameType="uuid">503496c7-55c9-4d1b-bb54-b85e63d8ed0a</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Big Coal River At Ashford (KAN)</Description>
+    <ConfigName>DD6A91B2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="54">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4E9004"/>
+    <SiteName NameType="uuid">48df3d8d-25e7-4a01-8dbf-bc4a0c0f2917</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Fishtrap Lake, KY (BSA)</Description>
+    <ConfigName>CE4E9004</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="55">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4FB412"/>
+    <SiteName NameType="uuid">ac7c4489-1ac3-4f83-bb7c-8ddf25e98bbb</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Baileysville, WV (GUY)</Description>
+    <ConfigName>CE4FB412</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="56">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4FE46E"/>
+    <SiteName NameType="uuid">09df236a-7c97-421e-bd2a-49cd6699bd60</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Branchland, WV (GUY)</Description>
+    <ConfigName>CE4FE46E</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="57">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4FBAC0"/>
+    <SiteName NameType="uuid">68955840-ae9a-4850-88ed-1c651e625949</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Clear Fork, WV (GUY)</Description>
+    <ConfigName>CE4FBAC0</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="58">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE0444E2"/>
+    <SiteName NameType="uuid">237046ae-6e8c-4201-92ec-59ca326b924b</SiteName>
+    <Agency>USGS</Agency>
+    <Description>Meadow River near Nallen, WV</Description>
+    <ConfigName>CE0444E2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="59">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6FB5FC"/>
+    <SiteName NameType="uuid">1c9d8a34-cc4d-4d57-ba60-3769a2017d43</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Narrows, VA (KAN)</Description>
+    <ConfigName>CE6FB5FC</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="60">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4F14EA"/>
+    <SiteName NameType="uuid">53ec2627-babb-41fa-92a0-17ddcd30754d</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Queen Shoals, WV (KAN)</Description>
+    <ConfigName>CE4F14EA</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="61">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE57FAF2"/>
+    <SiteName NameType="uuid">fbea0dc9-ae42-40a8-8fdc-bd2a35d4b903</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Radford, VA (KAN)</Description>
+    <ConfigName>CE57FAF2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="62">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6F3D3A"/>
+    <SiteName NameType="uuid">a1102d4b-cb5d-425a-b849-511227c890b9</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Rainelle, WV (KAN)</Description>
+    <ConfigName>CE6F3D3A</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="63">
+    <TransportXref MediumType="goes-self-timed" MediumId="DDFF8522"/>
+    <SiteName NameType="uuid">936c0c8e-9152-4175-9d3a-3fcb497b557d</SiteName>
+    <Agency>USGS</Agency>
+    <Description>Raleigh, WV (KAN)</Description>
+    <ConfigName>DD53B772</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="64">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4B84B2"/>
+    <SiteName NameType="uuid">2845fe58-8921-4014-84bb-4ffe7422387b</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Jobs Knob, WV (KAN)</Description>
+    <ConfigName>CE4B84B2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="65">
+    <TransportXref MediumType="goes-self-timed" MediumId="DE29C7FA"/>
+    <SiteName NameType="uuid">2096c3fd-c5c3-4bdc-b818-624ffda8ae20</SiteName>
+    <Description>Kanawha Falls, WV (KAN)</Description>
+    <ConfigName>CE4CAEB8</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="66">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE006734"/>
+    <SiteName NameType="uuid">b9c48d31-4862-496b-9de9-2c236e2d4fec</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Lansing, WV (KAN)</Description>
+    <ConfigName>CE006734</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="67">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE0002D2"/>
+    <SiteName NameType="uuid">21142e17-c553-4866-9f1e-58d4050bc004</SiteName>
+    <Agency>local</Agency>
+    <Description>Laurel Fork</Description>
+    <ConfigName>CE0002D2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="68">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5704A4"/>
+    <SiteName NameType="uuid">132e0c65-c2c3-4068-a4cd-c4ed7ecb90e8</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Charles Mill OF, OH (MUS)</Description>
+    <ConfigName>CE5704A4</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="69">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE67FC82"/>
+    <SiteName NameType="uuid">2cab47f0-b84e-4698-9c03-edd008c1b2f2</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Bolivar Auxiliary E-gage (MUS)</Description>
+    <ConfigName>CE67FC82</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="70">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE44A4CC"/>
+    <SiteName NameType="uuid">e48f5678-bbb5-4267-b4b0-5bf1e3893ff6</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Charles Mill Lake, OH (MUS)</Description>
+    <ConfigName>CE44A4CC</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="71">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4CEDB2"/>
+    <SiteName NameType="uuid">c4e249f2-f343-4a49-b7e2-b870269d3d19</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Summersville Lk Outflow, WV (KAN)</Description>
+    <ConfigName>CE4CEDB2</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="72">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE438EC6"/>
+    <SiteName NameType="uuid">0865a184-ff99-4e08-b1be-38abfee8b278</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Clendening Lake, OH (MUS)</Description>
+    <ConfigName>CE438EC6</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="73">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE43A82A"/>
+    <SiteName NameType="uuid">93a3cd66-db02-4141-af0e-1cbda67176c1</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Dillon Lake, OH (MUS)</Description>
+    <ConfigName>CE43A82A</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="74">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE572C9A"/>
+    <SiteName NameType="uuid">4aca1e22-2649-4e5b-b5b7-c611c2b4c65c</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Dover Lake Outflow, OH (MUS)</Description>
+    <ConfigName>CE572C9A</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="75">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE452EF0"/>
+    <SiteName NameType="uuid">29f03083-91ea-4e36-b984-e7f3ec98b943</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Killbuck, OH (MUS)</Description>
+    <ConfigName>CE452EF0</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="76">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE57313E"/>
+    <SiteName NameType="uuid">e0fb204b-021f-4886-b1cb-41ee5844533d</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Leesville OF, OH (MUS)</Description>
+    <ConfigName>CE57313E</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="77">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE578C62"/>
+    <SiteName NameType="uuid">47d41969-c741-494d-a75b-0e310479f645</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Loundenville, OH (MUS)</Description>
+    <ConfigName>CE578C62</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="78">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4CA06A"/>
+    <SiteName NameType="uuid">637e63b7-3ec6-42c4-8102-f13f79e9783f</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Lucas, OH (MUS)</Description>
+    <ConfigName>CE4CA06A</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="79">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6741DE"/>
+    <SiteName NameType="uuid">a9d2eb37-c394-4cf1-9cb6-aec262a06a61</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Magnolia Levee, OH (MUS)</Description>
+    <ConfigName>CE6741DE</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="80">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE576142"/>
+    <SiteName NameType="uuid">731c7ca4-e6fa-48b2-a563-d49fe6041900</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Massillon, OH (MUS)</Description>
+    <ConfigName>CE576142</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="81">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE44F4B0"/>
+    <SiteName NameType="uuid">5103c3b4-e733-4895-bc22-70e87d6cd281</SiteName>
+    <Agency>LRH</Agency>
+    <Description>McConnelsville, OH (MUS)</Description>
+    <ConfigName>CE44F4B0</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="82">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5782B0"/>
+    <SiteName NameType="uuid">b9599272-1227-4591-8701-51d72ad04afe</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Melco, OH (MUS)</Description>
+    <ConfigName>CE5782B0</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="83">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE67399C"/>
+    <SiteName NameType="uuid">e4f316eb-b824-4545-8536-4729ce601c36</SiteName>
+    <Agency>LRH-LRP</Agency>
+    <Description>Millport, OH (MUS)</Description>
+    <ConfigName>CE67399C</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="84">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE571900"/>
+    <SiteName NameType="uuid">3f377d4a-8c27-47b3-8e9f-afb778feec9d</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Mohawk Outflow, OH (MUS)</Description>
+    <ConfigName>CE571900</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="85">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE57DC1E"/>
+    <SiteName NameType="uuid">c557958b-e89e-445b-bfc4-6d57ebfbb8a7</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Georges Fork, KY (BSA)</Description>
+    <ConfigName>CE57DC1E</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="86">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE67F250"/>
+    <SiteName NameType="uuid">a0cbe7d2-e76e-477f-944d-92e424ababa1</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Pilgrim Knob, VA (BSA)</Description>
+    <ConfigName>CE67F250</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="87">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4FCC50"/>
+    <SiteName NameType="uuid">86a45bd7-7aaa-4aaf-a124-fab2f0775270</SiteName>
+    <Agency>LRH</Agency>
+    <Description>RD Bailey Lake, WV (GUY)</Description>
+    <ConfigName>CE4FCC50</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="88">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4FC282"/>
+    <SiteName NameType="uuid">7ff25f7c-305f-429e-a9d5-ec48c6d33ccf</SiteName>
+    <Agency>LRH</Agency>
+    <Description>RD Bailey Lk Outflow, WV (GUY)</Description>
+    <ConfigName>CE4FC282</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="89">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6F4BAA"/>
+    <SiteName NameType="uuid">5b32095a-11ff-490a-95b4-1d9c7def1bbb</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Wolf Pen, WV (GUY)</Description>
+    <ConfigName>CE6F4BAA</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="90">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE77DDF0"/>
+    <SiteName NameType="uuid">64284cf9-4bdf-43d3-ae0f-c104766b116d</SiteName>
+    <Agency>LRH</Agency>
+    <Description>North Industry, OH (MUS)</Description>
+    <ConfigName>CE77DDF0</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="91">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE438014"/>
+    <SiteName NameType="uuid">85123011-ca9a-4b75-a3cb-38b0ae82d99b</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Piedmont Lake, OH (MUS)</Description>
+    <ConfigName>CE438014</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="92">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6FCDBE"/>
+    <SiteName NameType="uuid">bcda116f-dfa3-446e-a24b-db655d97c74e</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Piedmont Outflow, OH (MUS)</Description>
+    <ConfigName>CE6FCDBE</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="93">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE675C7A"/>
+    <SiteName NameType="uuid">7ebd5976-f966-4c12-9592-1a8d5b7f743c</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Roseville, OH (MUS)</Description>
+    <ConfigName>CE675C7A</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="94">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE439DB0"/>
+    <SiteName NameType="uuid">465865d4-f42c-4aea-b933-993c62e5b0ee</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Senecaville Lake, OH (MUS)</Description>
+    <ConfigName>CE439DB0</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="95">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE573FEC"/>
+    <SiteName NameType="uuid">c2b1333b-12ac-43d9-bbce-b5e6d8c640e9</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Tappan Lk Outflow, OH (MUS)</Description>
+    <ConfigName>CE573FEC</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="96">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE451B6A"/>
+    <SiteName NameType="uuid">0ceb4ad7-c050-496b-8862-de8a5762d358</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Tippecanoe, OH (MUS)</Description>
+    <ConfigName>CE451B6A</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="97">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE77D322"/>
+    <SiteName NameType="uuid">0bd945a3-284b-4235-abdd-32d53e25d000</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Waynesburg, OH (MUS)</Description>
+    <ConfigName>CE77D322</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="98">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4F4496"/>
+    <SiteName NameType="uuid">b96cd55b-6247-4c6d-8179-33c1e6928f66</SiteName>
+    <Agency>LRH</Agency>
+    <Description>East Lynn Lake, WV (TWE)</Description>
+    <ConfigName>CE4F4496</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="99">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4F3CD4"/>
+    <SiteName NameType="uuid">53aee091-8487-448d-aea1-f6cf47560b84</SiteName>
+    <Agency>LRH</Agency>
+    <Description>East Lynn OF (TWE)</Description>
+    <ConfigName>CE4F3CD4</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="100">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4F57E0"/>
+    <SiteName NameType="uuid">7cd6afe5-6164-439f-bd82-f135c3830660</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Wayne, WV (TWE)</Description>
+    <ConfigName>CE4F57E0</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="101">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5F7692"/>
+    <SiteName NameType="uuid">9cece48a-7159-4ca8-8bcd-d1e458e01a46</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Prestonsburg, KY (BSA)</Description>
+    <ConfigName>CE5F7692</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="102">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4ED30E"/>
+    <SiteName NameType="uuid">6a862d66-3b6c-4735-bfbe-4343ec796607</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Deer Creek Lake, OH (SCI)</Description>
+    <ConfigName>CE4ED30E</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="103">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4ECEAA"/>
+    <SiteName NameType="uuid">27b229ff-6bd8-437b-bd48-a135ecb339b5</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Deer Creek Outflow, OH (SCI)</Description>
+    <ConfigName>CE4ECEAA</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="104">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE57B72A"/>
+    <SiteName NameType="uuid">484f21d8-11c1-4c05-a108-4a060bae59eb</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Prospect, OH (SCI)</Description>
+    <ConfigName>CE57B72A</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="105">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4ACB90"/>
+    <SiteName NameType="uuid">ecb094b5-cf25-4410-aa76-873df3314731</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Racine L&amp;D, WV (OHI)</Description>
+    <ConfigName>CE4ACB90</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="106">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE44FA62"/>
+    <SiteName NameType="uuid">d2a785ff-0bda-4241-905e-eeb41725b01e</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Dresden, OH (MUS)</Description>
+    <ConfigName>LRH-DREO1</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="107">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4D3920"/>
+    <SiteName NameType="uuid">4c571e5a-4abf-4d50-b2d6-ef4d9bbe6894</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Blaine, KY (BSA)</Description>
+    <ConfigName>CE4D3920</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="108">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6ACA7E"/>
+    <SiteName NameType="uuid">a45ee8f7-d668-468b-88a7-702e757e2fe4</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Bradshaw, WV (BSA)</Description>
+    <ConfigName>CE6ACA7E</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="109">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE57CF68"/>
+    <SiteName NameType="uuid">0aae7d55-5ae8-4309-88a1-c270bb6ec153</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Clintwood, VA (BSA)</Description>
+    <ConfigName>CE57CF68</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="110">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6AC4AC"/>
+    <SiteName NameType="uuid">2c6f4eb8-ba0f-478f-8812-1617aefc26f3</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Harts, WV (GUY)</Description>
+    <ConfigName>CE6AC4AC</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="111">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE0D01B4"/>
+    <SiteName NameType="uuid">cb3cce3f-4296-4d57-b1c7-84c9d057b594</SiteName>
+    <Description>Hanover, WV (GUY)</Description>
+    <ConfigName>CE0D01B4</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="112">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4FDF26"/>
+    <SiteName NameType="uuid">6a32d3e0-ad62-4127-956a-72287c203756</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Logan, WV (GUY)</Description>
+    <ConfigName>CE4FDF26</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="113">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4FD1F4"/>
+    <SiteName NameType="uuid">0fbffb79-df3e-4d58-bcda-838dc60756aa</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Man, WV (GUY)</Description>
+    <ConfigName>CE4FD1F4</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="114">
+    <TransportXref MediumType="goes-self-timed" MediumId="DD6AA428"/>
+    <SiteName NameType="uuid">4cc2e875-f385-4281-bd35-cb5765f45a48</SiteName>
+    <Agency>USGS</Agency>
+    <Description>Palermo, WV (GUY)</Description>
+    <ConfigName>DD6AA428</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="115">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE44B968"/>
+    <SiteName NameType="uuid">baf15926-4fd8-4e51-9a44-2c9c29df8ded</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Mohawk Dam, OH (MUS)</Description>
+    <ConfigName>CE44B968</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="116">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4C0E40"/>
+    <SiteName NameType="uuid">46c7897f-75d1-4378-a3a7-a9b1dade510b</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Paintsville (Town), KY (BSA)</Description>
+    <ConfigName>CE4C0E40</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="117">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4FA764"/>
+    <SiteName NameType="uuid">1280c28e-9a90-4f21-b63c-b53b43e370dd</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Kopperston, WV (GUY)</Description>
+    <ConfigName>LRH-KOPW2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="118">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE67BF88"/>
+    <SiteName NameType="uuid">4c3975c3-b5dc-498e-a7ef-363ca2034e2a</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Virgie, KY (BSA)</Description>
+    <ConfigName>CE67BF88</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="119">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE453D86"/>
+    <SiteName NameType="uuid">f8bc7eb2-3ae0-4afd-a22f-8ae7b5cadda9</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Walhonding, OH (MUS)</Description>
+    <ConfigName>CE453D86</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="120">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6711A2"/>
+    <SiteName NameType="uuid">4589650e-f4f4-4054-bfef-bdd2b04d104e</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Washington Courthouse, OH (SCI)</Description>
+    <ConfigName>CE6711A2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="121">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5F283C"/>
+    <SiteName NameType="uuid">f9d73a87-fce3-4ac6-87ce-f3485adeff97</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Buckeye, WV (KAN)</Description>
+    <ConfigName>CE5F283C</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="122">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE422CC4"/>
+    <SiteName NameType="uuid">e2664896-2f4e-49aa-842c-47fc248f8e2d</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Camden on Gauley, WV (KAN)</Description>
+    <ConfigName>CE422CC4</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="123">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5F26EE"/>
+    <SiteName NameType="uuid">1fd690d8-2224-4ee7-8420-e9348f0a6680</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Clay, WV (KAN)</Description>
+    <ConfigName>CE5F26EE</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="124">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4CE360"/>
+    <SiteName NameType="uuid">c40530ca-e408-4591-a28d-b24b7c12fec5</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Craigsville, WV (KAN)</Description>
+    <ConfigName>CE4CE360</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="125">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6F33E8"/>
+    <SiteName NameType="uuid">810da8cb-0ba4-4558-a28d-d52b48fcb421</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Cranberry River, WV (KAN)</Description>
+    <ConfigName>CE6F33E8</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="126">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE003748"/>
+    <SiteName NameType="uuid">38064246-13df-432c-87e9-f925348161b0</SiteName>
+    <Agency>local</Agency>
+    <Description>Ennice (aka Glade) (KAN)</Description>
+    <ConfigName>CE003748</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="127">
+    <TransportXref MediumType="goes-self-timed" MediumId="DDA51550"/>
+    <SiteName NameType="uuid">c3a928b0-e397-46b0-abcf-ab29f8861ff1</SiteName>
+    <Agency>USGS</Agency>
+    <Description>Falls Mills, VA (KAN)</Description>
+    <ConfigName>DDA51550</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="128">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5F1DA6"/>
+    <SiteName NameType="uuid">8da35852-cb4e-4e9a-8a0a-4130a3b511ce</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Frametown, WV (KAN)</Description>
+    <ConfigName>CE5F1DA6</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="129">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE57E984"/>
+    <SiteName NameType="uuid">63670582-78b1-459d-8962-7b2cc17f3eaf</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Galax, VA (KAN)</Description>
+    <ConfigName>CE57E984</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="130">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4E7D24"/>
+    <SiteName NameType="uuid">e6daf84e-bdad-4afc-843f-40e8fbfa2be8</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Glen Lynn, WV (KAN)</Description>
+    <ConfigName>CE4E7D24</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="131">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5F0ED0"/>
+    <SiteName NameType="uuid">cd182703-3a6f-4cb5-8987-c74ea3065e71</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Graysontown, VA (KAN)</Description>
+    <ConfigName>CE5F0ED0</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="132">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE02D14E"/>
+    <SiteName NameType="uuid">a3658b5e-e469-47a0-a624-75c767aad599</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Guardian, WV (KAN)</Description>
+    <ConfigName>CE02D14E</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="133">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE047178"/>
+    <SiteName NameType="uuid">aaafa157-2d86-4e15-b989-568eedb93694</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Herold, WV (KAN)</Description>
+    <ConfigName>CE047178</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="134">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4CBDCE"/>
+    <SiteName NameType="uuid">fb5ac53d-9405-4253-88f7-4bfe4011fffe</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Hilldale, WV (KAN)</Description>
+    <ConfigName>CE4CBDCE</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="135">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4CCB5E"/>
+    <SiteName NameType="uuid">c2bbe659-a3a1-484c-8243-c76eb50d79dc</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Hinton, WV (KAN)</Description>
+    <ConfigName>CE4CCB5E</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="136">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4BB128"/>
+    <SiteName NameType="uuid">f384373f-8d4d-4cf8-82d3-26fed4a22bac</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Webster Springs, WV (KAN)</Description>
+    <ConfigName>CE4BB128</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="137">
+    <TransportXref MediumType="goes-self-timed" MediumId="17B024CE"/>
+    <SiteName NameType="uuid">bdab35eb-96c6-4b84-b8f9-51b9b9c50b4f</SiteName>
+    <Agency>USGS</Agency>
+    <Description>Clear Fork @ Whitesville (KAN)</Description>
+    <ConfigName>17B024CE</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="138">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6F7E30"/>
+    <SiteName NameType="uuid">a0b30049-784b-439f-8b5b-854a3526f7c2</SiteName>
+    <Agency>LRH</Agency>
+    <Description>White Sulphur Springs, WV (KAN)</Description>
+    <ConfigName>CE6F7E30</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="139">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE67DA6E"/>
+    <SiteName NameType="uuid">eb825b51-0660-41f5-b028-79631bac4874</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Willis, VA (KAN)</Description>
+    <ConfigName>CE67DA6E</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="140">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE04620E"/>
+    <SiteName NameType="uuid">68fcac2b-91dc-478b-80a5-fe226a7d6468</SiteName>
+    <Agency>local</Agency>
+    <Description>East River @ Willowton</Description>
+    <ConfigName>CE04620E</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="141">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE042104"/>
+    <SiteName NameType="uuid">746e1b20-85e3-4124-adad-a5de3fdcae4f</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Winfield L&amp;D, WV (KAN)</Description>
+    <ConfigName>CE042104</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="142">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4506CE"/>
+    <SiteName NameType="uuid">e740c9dd-936d-44de-8550-73b4857cdd7c</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Coshocton, OH (MUS)</Description>
+    <ConfigName>CE4506CE</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="143">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE44CFF8"/>
+    <SiteName NameType="uuid">4a09305a-4a35-48ce-86ec-f6f9d5cbb5a5</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Atwood Lake, OH (MUS)</Description>
+    <ConfigName>CE44CFF8</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="144">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4C6574"/>
+    <SiteName NameType="uuid">93ae22e0-e107-42ec-8ed5-34562f625557</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Centerfield, OH (SCI)</Description>
+    <ConfigName>CE4C6574</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="145">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6797B6"/>
+    <SiteName NameType="uuid">cc7f69b4-a47c-4862-a00d-98a036680f4f</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Central College, OH (SCI)</Description>
+    <ConfigName>CE6797B6</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="146">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4C0092"/>
+    <SiteName NameType="uuid">0639ba5e-9ae0-44db-9809-8e11dd6d7591</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Chillicothe, OH (SCI)</Description>
+    <ConfigName>CE4C0092</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="147">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4C3508"/>
+    <SiteName NameType="uuid">6f9c17bd-0ffb-41fc-8284-b6dd6ee2dd06</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Circleville, OH (SCI)</Description>
+    <ConfigName>CE4C3508</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="148">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE44E7C6"/>
+    <SiteName NameType="uuid">debf6620-0f44-4d13-bfaf-4f2e21abe0c8</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Beach City Lake, OH (MUS)</Description>
+    <ConfigName>CE44E7C6</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="149">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE44D25C"/>
+    <SiteName NameType="uuid">fe06b983-3552-4fdc-806a-853202c87818</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Bolivar Lake, OH (MUS)</Description>
+    <ConfigName>CE44D25C</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="150">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE679964"/>
+    <SiteName NameType="uuid">6bbdb05b-1e68-44fc-a34a-bb41e7b9125d</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Salt Fork Dam, OH (MUS)</Description>
+    <ConfigName>CE679964</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="151">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4C6BA6"/>
+    <SiteName NameType="uuid">21b4d379-a071-4c53-b74d-6953c1b7e72a</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Barretts Mills, OH (SCI)</Description>
+    <ConfigName>CE4C6BA6</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="152">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4B97C4"/>
+    <SiteName NameType="uuid">7639440e-8816-44e5-a87d-0ae6a2cb630d</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Bourneville, OH (SCI)</Description>
+    <ConfigName>CE4B97C4</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="153">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4BBFFA"/>
+    <SiteName NameType="uuid">7100262b-df9e-42c5-8c4f-394989cd84dc</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Columbus at Alum Creek, OH (SCI)</Description>
+    <ConfigName>CE4BBFFA</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="154">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4B9916"/>
+    <SiteName NameType="uuid">3c5cc0ce-58a6-454d-9a60-12733b265855</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Scioto Riv at Columbus, OH (SCI)</Description>
+    <ConfigName>CE4B9916</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="155">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4EFB30"/>
+    <SiteName NameType="uuid">f70c4f40-a404-44ea-b5bd-2cc31f45e46b</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Delaware Lake, OH (SCI)</Description>
+    <ConfigName>CE4EFB30</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="156">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4B1F02"/>
+    <SiteName NameType="uuid">90efb097-0e1a-4f7f-923b-25d21525f75d</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Paint Creek Lake, OH (SCI)</Description>
+    <ConfigName>CE4B1F02</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="157">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4CB31C"/>
+    <SiteName NameType="uuid">f096f3f4-a0e6-4dab-b98a-1e6bf5cfd1be</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Paint Creek OF, OH (SCI)</Description>
+    <ConfigName>CE4CB31C</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="158">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE57B9F8"/>
+    <SiteName NameType="uuid">005ee6d2-0728-4915-9444-038450c65765</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Claridon, OH (SCI)</Description>
+    <ConfigName>CE57B9F8</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="159">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4EF5E2"/>
+    <SiteName NameType="uuid">904305ea-e2e1-4a20-911e-51e5706fb357</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Delaware Lake Outflow, OH (SCI)</Description>
+    <ConfigName>CE4EF5E2</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="160">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6702D4"/>
+    <SiteName NameType="uuid">be6a93aa-bc64-4b44-9cda-7b7aebf2f158</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Galion, OH (SCI)</Description>
+    <ConfigName>CE6702D4</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="161">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4AD634"/>
+    <SiteName NameType="uuid">4089394d-ae29-4912-8fa3-ab36c18163b7</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Athens, OH (HOC)</Description>
+    <ConfigName>CE4AD634</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="162">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE449F84"/>
+    <SiteName NameType="uuid">a294b6fb-a76f-4aa2-b3ff-45871e4b7b60</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Derwent, OH (MUS)</Description>
+    <ConfigName>CE449F84</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="163">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4B02A6"/>
+    <SiteName NameType="uuid">84f8d5b1-e747-4562-b4ab-b4cceb3f351d</SiteName>
+    <Agency>LRH</Agency>
+    <Description>John Flannagan Lake, VA (BSA)</Description>
+    <ConfigName>CE4B02A6</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="164">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4BDA1C"/>
+    <SiteName NameType="uuid">9efef8c2-3607-4425-ae1d-44d4c0f4960f</SiteName>
+    <Agency>LRH</Agency>
+    <Description>North Br of Kokosing, OH (MUS)</Description>
+    <ConfigName>CE4BDA1C</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="165">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE439362"/>
+    <SiteName NameType="uuid">31955a8f-756e-476f-852b-3e04ea21d215</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Tappan Lake, OH (MUS)</Description>
+    <ConfigName>CE439362</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="166">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE43A6F8"/>
+    <SiteName NameType="uuid">8cdc7343-7ca9-476a-986b-98f075afbf23</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Wills Creek Lake, OH (MUS)</Description>
+    <ConfigName>CE43A6F8</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="167">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE44C12A"/>
+    <SiteName NameType="uuid">de5952ca-05a5-4373-af35-c8c80df081f9</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Leesville Lake, OH (MUS)</Description>
+    <ConfigName>CE44C12A</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="168">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4AC542"/>
+    <SiteName NameType="uuid">91454397-02ff-45bf-ab55-972931aab5af</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Belleville L&amp;D (OHI)</Description>
+    <ConfigName>CE4AC542</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="169">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE43D068"/>
+    <SiteName NameType="uuid">835adeb1-47af-4b28-b93e-57a87824d789</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Leesville Lake Auxiliary, OH (MUS)</Description>
+    <ConfigName>CE43D068</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="170">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6F1504"/>
+    <SiteName NameType="uuid">fddfa90b-d95e-4700-a37e-79f019f3a29d</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Winfield Test Data</Description>
+    <ConfigName>CE6F1504</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="171">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4ABD00"/>
+    <SiteName NameType="uuid">590b946d-f4c8-4ae0-a1c1-595efdee5ddc</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Fullers, KY (BSA)</Description>
+    <ConfigName>CE4ABD00</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="172">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4BF222"/>
+    <SiteName NameType="uuid">2afefe16-b903-4c57-a665-50d561b02e5a</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Pipestem, WV (KAN)</Description>
+    <ConfigName>LRH-PIPW2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="173">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE17E48A"/>
+    <SiteName NameType="uuid">987380e6-cdb1-4826-b183-6e6dad3ced40</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Yatesville Lake, KY</Description>
+    <ConfigName>LRH-YTUK2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="174">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4EB6E8"/>
+    <SiteName NameType="uuid">f4574100-673c-436e-aab8-c6cb5947ad31</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Grayson (Town), KY (LSA)</Description>
+    <ConfigName>LRH-GYNK2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="175">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4C95F0"/>
+    <SiteName NameType="uuid">949a08c8-ce3b-4974-8966-a292251cc90e</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Paintsville Lk Outflow, KY</Description>
+    <ConfigName>LRH-SFDK2</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="176">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE453354"/>
+    <SiteName NameType="uuid">07289010-7c49-450b-ba0a-eeedf70e8f66</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Cambridge, OH (MUS)</Description>
+    <ConfigName>LRH-CDIO1</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="177">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4515B8"/>
+    <SiteName NameType="uuid">ba9d2525-308f-4898-a39d-879a755afc3b</SiteName>
+    <Description>Uhrichsville, OH (MUS)</Description>
+    <ConfigName>CE4515B8</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="178">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4CC58C"/>
+    <SiteName NameType="uuid">7c4e0f03-235c-4f14-8e1f-3402951960a9</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Bluestone Lake, WV (KAN)</Description>
+    <ConfigName>CE4CC58C</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="179">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4B6992"/>
+    <SiteName NameType="uuid">84187769-af53-4189-8657-5264063a5bfd</SiteName>
+    <Agency>LRH</Agency>
+    <Description>North Fk of Pound Outflow, VA (BSA)</Description>
+    <ConfigName>CE4B6992</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="180">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6F8EB4"/>
+    <SiteName NameType="uuid">fbb3f20d-22ef-48ab-9ee1-3b67b3bf6cdc</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Odd, WV (GUY)</Description>
+    <ConfigName>CE6F8EB4</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="181">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4B7436"/>
+    <SiteName NameType="uuid">7025c679-83e4-40bd-93b0-923dd75a61bb</SiteName>
+    <Description>Pound Lower, VA (BSA)</Description>
+    <ConfigName>CE4B7436</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="182">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6F58DC"/>
+    <SiteName NameType="uuid">9532dc38-3070-43cc-9dd8-b370452b6282</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Pineville, WV (GUY)</Description>
+    <ConfigName>CE6F58DC</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="183">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE43DEBA"/>
+    <SiteName NameType="uuid">4ebcdecf-fa60-4a83-82d7-5f88d7a88fd4</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Lavalette, WV (TWE)</Description>
+    <ConfigName>CE43DEBA</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="184">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE57497C"/>
+    <SiteName NameType="uuid">bce5bcdd-7474-4593-a666-1d210464cd17</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Senecaville Lk Outflow, OH (MUS)</Description>
+    <ConfigName>CE57497C</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="185">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4EA59E"/>
+    <SiteName NameType="uuid">5574c8b4-25ac-4fd8-a60a-8ea42342a320</SiteName>
+    <Description>Dewey Lake Outflow, KY (BSA)</Description>
+    <ConfigName>CE4EA59E</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="186">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4EAB4C"/>
+    <SiteName NameType="uuid">d292114b-58a6-4870-ba8d-a2d31f49d79d</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Dewey Lake, KY (BSA)</Description>
+    <ConfigName>CE4EAB4C</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="187">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6F560E"/>
+    <SiteName NameType="uuid">c9b9d769-2aef-44ba-bee8-1a35be52d53d</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Gary, WV (BSA)</Description>
+    <ConfigName>CE6F560E</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="188">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE57D2CC"/>
+    <SiteName NameType="uuid">dd9795eb-5bf7-4991-af43-fbb37ec4da64</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Haysi, VA (BSA)</Description>
+    <ConfigName>CE57D2CC</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="189">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4B0C74"/>
+    <SiteName NameType="uuid">38125598-7c43-4186-b4ad-4189152e3a3d</SiteName>
+    <Agency>LRH</Agency>
+    <Description>John W. Flannagan Outflow, VA (BSA)</Description>
+    <ConfigName>CE4B0C74</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="190">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4C8854"/>
+    <SiteName NameType="uuid">c104d419-97e2-4c21-824c-2bf59b686659</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Paintsville Lake, KY (BSA)</Description>
+    <ConfigName>CE4C8854</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="191">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5F6B36"/>
+    <SiteName NameType="uuid">72200486-7971-4766-bb3a-9e1e8984c70a</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Pikeville, KY (BSA)</Description>
+    <ConfigName>CE5F6B36</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="192">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4F1A38"/>
+    <SiteName NameType="uuid">cec23d17-05f3-4226-928f-a996b3ea70f6</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Sutton Lk Outflow, WV (KAN)</Description>
+    <ConfigName>CE4F1A38</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="193">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE661D8A"/>
+    <SiteName NameType="uuid">33ee9725-b06f-4d77-b9d6-bb05237e2de5</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Thurmond, WV (KAN)</Description>
+    <ConfigName>CE661D8A</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="194">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6FA68A"/>
+    <SiteName NameType="uuid">7a46f14c-184f-4f3f-bf33-4654d040b399</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Troutdale (Volney), VA (KAN)</Description>
+    <ConfigName>CE6FA68A</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="195">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE3B070A"/>
+    <SiteName NameType="uuid">a3b0a47c-ff7e-45af-ac70-13a519d5bcf2</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Atwood Outflow, OH (MUS)</Description>
+    <ConfigName>CE3B070A</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="196">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4CD828"/>
+    <SiteName NameType="uuid">61e3e153-727a-4370-8d70-3881dc271d45</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Belva, WV (KAN)</Description>
+    <ConfigName>CE4CD828</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="197">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6F2E4C"/>
+    <SiteName NameType="uuid">3ec7ab83-a146-4a75-9e92-f76a0eb839d9</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Birch River, WV (KAN)</Description>
+    <ConfigName>CE6F2E4C</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="198">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE67C918"/>
+    <SiteName NameType="uuid">d7ff9f54-d197-4b13-a67a-6c18716f2e32</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Bland, VA</Description>
+    <ConfigName>CE67C918</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="199">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE03E62E"/>
+    <SiteName NameType="uuid">0b92ed78-592c-46ec-a0cd-4acba65cab58</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Charleston Lock 6, WV (KAN)</Description>
+    <ConfigName>CE03E62E</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="200">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE579F14"/>
+    <SiteName NameType="uuid">36358d5a-7384-42ee-a332-b943f4097946</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Enterprise, OH (HOC)</Description>
+    <ConfigName>CE579F14</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="201">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE57A45C"/>
+    <SiteName NameType="uuid">46c13f78-30cb-4603-be39-a7eec94f48f6</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Glouster, OH (HOC)</Description>
+    <ConfigName>CE57A45C</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="202">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6784C0"/>
+    <SiteName NameType="uuid">12641a4a-7f2c-4315-b73f-99f2c899e5d4</SiteName>
+    <Agency>LRH</Agency>
+    <Description>New Lexington, OH (HOC)</Description>
+    <ConfigName>CE6784C0</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="203">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE3B147C"/>
+    <SiteName NameType="uuid">a21f964d-d20a-41c1-a685-1f874c33ecd8</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Tom Jenkins Outflow (HOC)</Description>
+    <ConfigName>CE3B147C</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="204">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE575A0A"/>
+    <SiteName NameType="uuid">ac68b0f2-b09a-4acd-a399-a863eb21ac7f</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Tom Jenkins Lake, OH (HOC)</Description>
+    <ConfigName>CE575A0A</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="205">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE44B7BA"/>
+    <SiteName NameType="uuid">202d3e84-3bd7-4cdf-982b-2917e7e67753</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Mohicanville Dam, OH (MUS)</Description>
+    <ConfigName>CE44B7BA</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="206">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE570A76"/>
+    <SiteName NameType="uuid">25c3a80b-1a47-4dfc-9839-d33e6655bfef</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Mohicanville Outflow, OH (MUS)</Description>
+    <ConfigName>CE570A76</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="207">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE577CE6"/>
+    <SiteName NameType="uuid">e83df1ff-aae8-4d2a-95e0-9ad89f826869</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Newark, OH (MUS)</Description>
+    <ConfigName>CE577CE6</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="208">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE452022"/>
+    <SiteName NameType="uuid">32539bfe-0a4c-4e8a-8a37-afadad3b068c</SiteName>
+    <Agency>LRH</Agency>
+    <Description>New Philadelphia, OH (MUS)</Description>
+    <ConfigName>CE452022</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="209">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5747AE"/>
+    <SiteName NameType="uuid">ec3631a8-a19b-4653-ad45-a5ee8f384869</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Wills Creek Lk Outflow, OH (MUS)</Description>
+    <ConfigName>CE5747AE</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="210">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE672438"/>
+    <SiteName NameType="uuid">8d370edb-f2c2-4bea-8da5-d13ea431a79a</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Wooster, OH (MUS)</Description>
+    <ConfigName>CE672438</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="211">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE44E914"/>
+    <SiteName NameType="uuid">d613e47f-fc2c-434f-b753-ba2bad1b826c</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Zanesville, OH (MUS)</Description>
+    <ConfigName>CE44E914</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="212">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE0011A4"/>
+    <SiteName NameType="uuid">98df0efd-d292-4adb-8e2a-6a6d438adc68</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Zoar Diversion Dam</Description>
+    <ConfigName>CE0011A4</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="213">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4AE3AE"/>
+    <SiteName NameType="uuid">55c59831-b954-4f8c-8d18-ff2e9497dced</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Greenup L&amp;D, KY (OHI)</Description>
+    <ConfigName>CE4AE3AE</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="214">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4B39EE"/>
+    <SiteName NameType="uuid">45254da8-cede-40db-aba6-7fb238c2aea1</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Huntington Lock 28, WV (OHI)</Description>
+    <ConfigName>CE4B39EE</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="215">
+    <TransportXref MediumType="goes-self-timed" MediumId="DDB154FE"/>
+    <SiteName NameType="uuid">50418a20-675c-4849-bfb6-a6e820be074b</SiteName>
+    <Description>Marietta, OH (OHI)</Description>
+    <ConfigName>DDB154FE</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="216">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4B4F7E"/>
+    <SiteName NameType="uuid">50b27dae-0cf5-496c-88e5-119353e62f48</SiteName>
+    <Description>Parkersburg, WV (OHI)</Description>
+    <ConfigName>CE4B4F7E</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="217">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4B52DA"/>
+    <SiteName NameType="uuid">40a69e47-fc64-4dad-bb3c-312bb67aa4d9</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Point Pleasant, WV (OHI)</Description>
+    <ConfigName>CE4B52DA</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="218">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4AFE0A"/>
+    <SiteName NameType="uuid">b991db71-d4c6-4d69-be5f-f67ca24b608a</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Portsmouth, OH (OHI)</Description>
+    <ConfigName>CE4AFE0A</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="219">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4AD8E6"/>
+    <SiteName NameType="uuid">7eed20ca-525c-4343-a50a-3c67ae29c5a8</SiteName>
+    <Agency>LRH</Agency>
+    <Description>R C Byrd (Gallipolis, WV) (OHI)</Description>
+    <ConfigName>CE4AD8E6</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="220">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4B2A98"/>
+    <SiteName NameType="uuid">b197d3db-7cb7-4370-8d70-7d09daaaabba</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Alum Creek Outflow, OH (SCI)</Description>
+    <ConfigName>CE4B2A98</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="221">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4EE846"/>
+    <SiteName NameType="uuid">2c7de258-2c96-4459-81fd-90294563a49f</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Alum Creek Lake (SCI)</Description>
+    <ConfigName>CE4EE846</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="222">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4C5E3C"/>
+    <SiteName NameType="uuid">ce57c13e-10ba-4326-af9b-65c0beebf310</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Greenfield, OH (SCI)</Description>
+    <ConfigName>CE4C5E3C</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="223">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6A9A02"/>
+    <SiteName NameType="uuid">46b11ab2-8bb5-476d-98f4-7f395570e0db</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Hillsboro, OH (SCI)</Description>
+    <ConfigName>CE6A9A02</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="224">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4BAC8C"/>
+    <SiteName NameType="uuid">9d258a92-f9aa-436c-9760-aa692b8ce0db</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Kilbourne, OH (SCI)</Description>
+    <ConfigName>CE4BAC8C</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="225">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE677444"/>
+    <SiteName NameType="uuid">e13bb94c-43e3-4417-9ed5-44f9f7b50089</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Lithopolis, OH (SCI)</Description>
+    <ConfigName>CE677444</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="226">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6AB23C"/>
+    <SiteName NameType="uuid">e4a3adb5-c5c5-427e-84ee-2fc5a23dfbfa</SiteName>
+    <Description>London, OH (SCI)</Description>
+    <ConfigName>CE6AB23C</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="227">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4B8A60"/>
+    <SiteName NameType="uuid">b79a0527-0669-492e-804f-74424887f9e6</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Mount Sterling, OH (SCI)</Description>
+    <ConfigName>CE4B8A60</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="228">
+    <TransportXref MediumType="goes-self-timed" MediumId="DD4B57B8"/>
+    <SiteName NameType="uuid">137ace79-fe96-4214-a0d3-40a4b416f306</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Scioto River at Piketon (SCI)</Description>
+    <ConfigName>DD4B57B8</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="229">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4BC96A"/>
+    <SiteName NameType="uuid">fe4d29ca-192e-4101-b13a-4e5d129f854e</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Rees, OH (SCI)</Description>
+    <ConfigName>CE4BC96A</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="230">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE671F70"/>
+    <SiteName NameType="uuid">0c361634-7eee-43cd-ba13-835262e5a212</SiteName>
+    <Agency>LRH</Agency>
+    <Description>West Jefferson, OH (SCI)</Description>
+    <ConfigName>CE671F70</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="231">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4C4398"/>
+    <SiteName NameType="uuid">adefc85b-1930-4555-a33a-d0dc4557332a</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Williamsport, OH (SCI)</Description>
+    <ConfigName>CE4C4398</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="232">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4EDDDC"/>
+    <SiteName NameType="uuid">8e727f48-efe3-4535-acc4-2b32414bd789</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Worthington, OH (SCI)</Description>
+    <ConfigName>CE4EDDDC</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="233">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5F4DDA"/>
+    <SiteName NameType="uuid">ef49d427-0af0-46f6-b5f3-75710207f725</SiteName>
+    <Agency>LRH</Agency>
+    <Description>London Locks &amp; Dam, WV (KAN)</Description>
+    <ConfigName>C45F4DDA</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="234">
+    <TransportXref MediumType="goes-self-timed" MediumId="DE2A3070"/>
+    <SiteName NameType="uuid">4aa74af6-5b46-413c-932a-8218265ca41a</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Ivanhoe</Description>
+    <ConfigName>DE2A3070</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="235">
+    <TransportXref MediumType="goes-self-timed" MediumId="17E802C6"/>
+    <SiteName NameType="uuid">b8f9718a-d5cf-4c93-9afb-f694d6a88ffd</SiteName>
+    <Agency>SAW-LRH</Agency>
+    <Description>Jefferson, NC (KAN)</Description>
+    <ConfigName>17E802C6</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="236">
+    <TransportXref MediumType="goes-self-timed" MediumId="175C33AE"/>
+    <SiteName NameType="uuid">48cd77a1-4037-4688-9547-943b22c9613f</SiteName>
+    <Agency>USGS</Agency>
+    <Description>Little River Reservoir near Radford, VA</Description>
+    <ConfigName>175C33AE</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="237">
+    <TransportXref MediumType="iridium" MediumId="300434063789660"/>
+    <SiteName NameType="uuid">050afac3-0cc1-4297-9f31-9f830cc5ee3e</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Iridium Test - RCB Shop</Description>
+    <ConfigName>300434063789660</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="238">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5717D2"/>
+    <SiteName NameType="uuid">df12c8dd-f167-455d-b6c4-62b03cd0f40e</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Pleasant Hill Outflow, OH (MUS)</Description>
+    <ConfigName>CE5717D2</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="239">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE44DC8E"/>
+    <SiteName NameType="uuid">d7a077b6-978a-4db2-a457-2727a7266e78</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Dover Lake, OH (MUS)</Description>
+    <ConfigName>CE44DC8E</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="240">
+    <TransportXref MediumType="goes-self-timed" MediumId="D1207584"/>
+    <SiteName NameType="uuid">a1e12d2c-ade6-45cf-b6e0-c25e78b7071f</SiteName>
+    <Description>Rockbridge on Clear Creek (HOC)</Description>
+    <ConfigName>D1207584</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="241">
+    <TransportXref MediumType="goes-self-timed" MediumId="DE16B188"/>
+    <SiteName NameType="uuid">fa3e3b3d-4648-4849-b36c-a8fade939f50</SiteName>
+    <Agency>USGS</Agency>
+    <Description>New River Below Hawks Nest Dam, WV (KAN)</Description>
+    <ConfigName>DE16B188</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="242">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE47C8F6"/>
+    <SiteName NameType="uuid">0a312c6c-c73b-487f-a9c6-54975e240d7a</SiteName>
+    <Agency>LRP</Agency>
+    <Description>Hannibal L&amp;D (OHI)</Description>
+    <ConfigName>CE47C8F6</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="243">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE6FBB2E"/>
+    <SiteName NameType="uuid">7e2bd318-dd0b-4e52-8325-6d0d8d737d47</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Claytor Lake, VA (KAN)</Description>
+    <ConfigName>CE6FBB2E</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="244">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE5754D8"/>
+    <SiteName NameType="uuid">634c9c71-0972-452e-a4a9-7e6faa8b47bd</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Dillon Lake Outflow, OH (MUS)</Description>
+    <ConfigName>CE5754D8</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="245">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4EE694"/>
+    <SiteName NameType="uuid">44f856aa-a6bf-4587-8937-8acf748ab798</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Dublin, OH (SCI)</Description>
+    <ConfigName>CE4EE694</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="246">
+    <TransportXref MediumType="iridium" MediumId="300434063782310"/>
+    <SiteName NameType="uuid">6bf51ee5-4cd5-4523-9f00-5197c0bfeeb4</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Paintsville Outflow - Iridium</Description>
+    <ConfigName>300434063782310</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="247">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4AF0D8"/>
+    <SiteName NameType="uuid">6052cd44-f998-499e-870c-bf240c69c50b</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Willow Island L&amp;D, OH (OHI)</Description>
+    <ConfigName>CE4AF0D8</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="248">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE43B58E"/>
+    <SiteName NameType="uuid">a8dd4118-6ae1-480d-9683-4b207920ff0d</SiteName>
+    <Agency>Replete</Agency>
+    <Description>Replete, WV (KAN)</Description>
+    <ConfigName>CE43B58E</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="249">
+    <TransportXref MediumType="goes-self-timed" MediumId="DD659720"/>
+    <SiteName NameType="uuid">f246d6f2-380b-4f79-8636-1a4be438cf71</SiteName>
+    <Agency>USGS</Agency>
+    <Description>Georgetown, OH (Ohio River Basin)</Description>
+    <ConfigName>DD659720</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="250">
+    <TransportXref MediumType="goes-self-timed" MediumId="16C8676C"/>
+    <SiteName NameType="uuid">c543ca8c-4d72-47b0-b9fd-253d67b0b45c</SiteName>
+    <Description>Bloomfield, OH (Little Muskingum River)</Description>
+    <ConfigName>16C8676C</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="251">
+    <TransportXref MediumType="goes-self-timed" MediumId="DD4B44CE"/>
+    <SiteName NameType="uuid">9e3074e0-47d0-4478-bb7d-05036f293ed7</SiteName>
+    <Agency>USGS</Agency>
+    <Description>
+      Ohio Brush Creek near West Union OH (Ohio River Basin)
+    </Description>
+    <ConfigName>DD4B44CE</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="252">
+    <TransportXref MediumType="goes-self-timed" MediumId="DD166506"/>
+    <SiteName NameType="uuid">69068adb-fe0f-471d-9bb8-38790d179a10</SiteName>
+    <Description>
+      Middle Island Creek @ Little, WV (Ohio River Basin)
+    </Description>
+    <ConfigName>DD166506</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="253">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4B373C"/>
+    <SiteName NameType="uuid">5b8a63fd-74cb-4165-98a9-be28f1f61b5f</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Ashland, KY (OHI)</Description>
+    <ConfigName>CE4B373C</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="254">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4B5C08"/>
+    <SiteName NameType="uuid">6e4da417-2c94-4b51-a248-5975621f5595</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Maysville, KY (OHI)</Description>
+    <ConfigName>CE4B5C08</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="255">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE4AED7C"/>
+    <SiteName NameType="uuid">58697294-4a8c-4ad4-8ac5-f401a57a3d8a</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Meldahl L&amp;D, OH (OHI)</Description>
+    <ConfigName>CE4AED7C</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="256">
+    <TransportXref MediumType="goes-self-timed" MediumId="173C470C"/>
+    <SiteName NameType="uuid">b1edf0be-0706-42c9-9ed3-3db1bf96f26a</SiteName>
+    <Description>Frazeysburg, OH (MUS)</Description>
+    <ConfigName>173C470C</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="257">
+    <TransportXref MediumType="goes-self-timed" MediumId="CE44AA1E"/>
+    <SiteName NameType="uuid">816891af-ba80-409b-8489-acf69a955b19</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Pleasant Hill Lake, OH (MUS)</Description>
+    <ConfigName>CE44AA1E</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="258">
+    <TransportXref MediumType="iridium" MediumId="300434064633190"/>
+    <SiteName NameType="uuid">bf674f2f-fbc4-4654-b48e-ce2c7a4e1697</SiteName>
+    <Agency>LRH</Agency>
+    <Description>Racine L&amp;D, WV (OHI) - Iridium - 300434064633190</Description>
+    <ConfigName>300434064633190</ConfigName>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+  <PlatformXref PlatformId="259">
+    <TransportXref MediumType="iridium" MediumId="300434063787330"/>
+    <SiteName NameType="uuid">8c378eb3-7a12-4446-be04-7656ba2b7f1c</SiteName>
+    <Agency>LRH</Agency>
+    <Description>George&apos;s Fork, KY - Iridium - 300434063787330</Description>
+    <ConfigName>300434063787330</ConfigName>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>02/01/2021 21:21:29</LastModifyTime>
+  </PlatformXref>
+</PlatformList>
