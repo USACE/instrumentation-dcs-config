@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PresentationGroup Name="MIDAS-Metric">
+  <IsProduction>false</IsProduction>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Stage">
+    </DataType>
+    <UnitsAbbr>m</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Height">
+    </DataType>
+    <UnitsAbbr>m</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Irrad">
+    </DataType>
+    <UnitsAbbr>W/m2</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Opening">
+    </DataType>
+    <UnitsAbbr>m</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="pH">
+    </DataType>
+    <UnitsAbbr>su</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Power">
+    </DataType>
+    <UnitsAbbr>kW</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Precipitation">
+    </DataType>
+    <UnitsAbbr>mm</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Pressure">
+    </DataType>
+    <UnitsAbbr>mb</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Rad">
+    </DataType>
+    <UnitsAbbr>J/m2</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Ratio">
+    </DataType>
+    <UnitsAbbr>%</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Rotation">
+    </DataType>
+    <UnitsAbbr>rev</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Speed">
+    </DataType>
+    <UnitsAbbr>kph</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="SpinRate">
+    </DataType>
+    <UnitsAbbr>rpm</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Storage">
+    </DataType>
+    <UnitsAbbr>m3</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Temperature">
+    </DataType>
+    <UnitsAbbr>C</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Thickness">
+    </DataType>
+    <UnitsAbbr>cm</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Timing">
+    </DataType>
+    <UnitsAbbr>hr</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Travel">
+    </DataType>
+    <UnitsAbbr>m</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Turbidity">
+    </DataType>
+    <UnitsAbbr>JTU</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="TurbidityF">
+    </DataType>
+    <UnitsAbbr>FNU</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="TurbidityJ">
+    </DataType>
+    <UnitsAbbr>JTU</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="TurbidityN">
+    </DataType>
+    <UnitsAbbr>NTU</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Voltage">
+    </DataType>
+    <UnitsAbbr>v</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Volume">
+    </DataType>
+    <UnitsAbbr>m3</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Depth-Snow">
+    </DataType>
+    <UnitsAbbr>mm</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Depth-Snowwater">
+    </DataType>
+    <UnitsAbbr>mm</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Elevation">
+    </DataType>
+    <UnitsAbbr>m</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Elevation-Pool">
+    </DataType>
+    <UnitsAbbr>m</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Elevation-Tail">
+    </DataType>
+    <UnitsAbbr>m</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Flow-In">
+    </DataType>
+    <UnitsAbbr>cms</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Flow-Out">
+    </DataType>
+    <UnitsAbbr>cms</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Flow">
+    </DataType>
+    <UnitsAbbr>cms</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Opening-East">
+    </DataType>
+    <UnitsAbbr>m</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Opening-West">
+    </DataType>
+    <UnitsAbbr>m</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Opening-Rollers">
+    </DataType>
+    <UnitsAbbr>m</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Opening-Tainters">
+    </DataType>
+    <UnitsAbbr>m</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Opening-Wickets">
+    </DataType>
+    <UnitsAbbr>m</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Speed-Water">
+    </DataType>
+    <UnitsAbbr>kph</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Speed-Wind">
+    </DataType>
+    <UnitsAbbr>kph</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Stage">
+    </DataType>
+    <UnitsAbbr>m</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Stage-Pool">
+    </DataType>
+    <UnitsAbbr>m</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Stage-Tail">
+    </DataType>
+    <UnitsAbbr>m</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Temperature-Air">
+    </DataType>
+    <UnitsAbbr>C</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Temperature-Water">
+    </DataType>
+    <UnitsAbbr>C</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+  <DataPresentation>
+    <DataType Standard="MIDAS" Code="Thickness-Ice">
+    </DataType>
+    <UnitsAbbr>cm</UnitsAbbr>
+    <MaxDecimals>3</MaxDecimals>
+  </DataPresentation>
+</PresentationGroup>

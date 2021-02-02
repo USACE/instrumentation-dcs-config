@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EnumList>
+  <Enum Name="DataSourceType">
+    <EnumValue EnumValue="lrgs">
+      <Description>Read messages from LRGS data server</Description>
+      <ExecClass>decodes.datasource.LrgsDataSource</ExecClass>
+      <SortNumber>1</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="hotbackupgroup">
+      <Description>Read messages from one source in a group</Description>
+      <ExecClass>decodes.datasource.HotBackupGroup</ExecClass>
+      <SortNumber>2</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="file">
+      <Description>Read message(s) from specified file</Description>
+      <ExecClass>decodes.datasource.FileDataSource</ExecClass>
+      <SortNumber>3</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="directory">
+      <Description>
+        Read messages from files in a specified directory
+      </Description>
+      <ExecClass>decodes.datasource.DirectoryDataSource</ExecClass>
+      <SortNumber>4</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="socketstream">
+      <Description>Read messages a socket stream</Description>
+      <ExecClass>decodes.datasource.SocketStreamDataSource</ExecClass>
+      <SortNumber>5</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="roundrobingroup">
+      <Description>Read messages from all sources in a group</Description>
+      <ExecClass>decodes.datasource.RoundRobinGroup</ExecClass>
+      <SortNumber>6</SortNumber>
+    </EnumValue>
+  </Enum>
+  <Enum Name="ScriptType">
+    <EnumValue EnumValue="ndbc">
+      <Description>
+        National Data Buoy Center Context-Sensitive Parser
+      </Description>
+      <ExecClass>NDBCMessageParser</ExecClass>
+      <SortNumber>1</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="nos">
+      <Description>Hard-coded NOS data parser</Description>
+      <ExecClass>NOSMessageParser</ExecClass>
+      <SortNumber>2</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="standard">
+      <Description>DECODES Format Statements and Unit Conversions</Description>
+      <ExecClass>DecodesScript</ExecClass>
+      <SortNumber>3</SortNumber>
+    </EnumValue>
+  </Enum>
+  <Enum Name="SiteNameType">
+    <EnumValue EnumValue="nwshb5">
+      <Description>National Weather Service Handbook 5 Name</Description>
+      <SortNumber>1</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="local">
+      <Description>Local Site Naming Convention</Description>
+      <SortNumber>2</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="usgs">
+      <Description>USGS Numeric Station ID</Description>
+      <SortNumber>3</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="cbtt">
+      <Description>Columbia Basin TeleType</Description>
+      <SortNumber>4</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="cwms">
+      <Description>CWMS Name</Description>
+      <ExecClass></ExecClass>
+      <EditClass></EditClass>
+      <SortNumber>5</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="uuid">
+      <Description>UUID4 identifier</Description>
+      <ExecClass></ExecClass>
+      <EditClass></EditClass>
+      <SortNumber>6</SortNumber>
+    </EnumValue>
+  </Enum>
+  <Enum Name="DataConsumer">
+    <EnumValue EnumValue="pipe">
+      <Description>Pipe data to standard output.</Description>
+      <ExecClass>decodes.consumer.PipeConsumer</ExecClass>
+      <SortNumber>1</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="file">
+      <Description>Save data in specified file</Description>
+      <ExecClass>decodes.consumer.FileConsumer</ExecClass>
+      <SortNumber>2</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="file-append">
+      <Description>Append data to file in a specified directory.</Description>
+      <ExecClass>decodes.consumer.FileAppendConsumer</ExecClass>
+      <SortNumber>3</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="directory">
+      <Description>
+        Save message data in files in a directory, then optionally run a trigger
+        script.
+      </Description>
+      <ExecClass>decodes.consumer.DirectoryConsumer</ExecClass>
+      <SortNumber>4</SortNumber>
+    </EnumValue>
+  </Enum>
+  <Enum Name="Measures">
+    <EnumValue EnumValue="arc">
+      <Description>degrees or radians</Description>
+      <SortNumber>1</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="area">
+      <Description>Area</Description>
+      <SortNumber>2</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="flow">
+      <Description>Volume / Time</Description>
+      <SortNumber>3</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="length">
+      <Description>Length or distance</Description>
+      <SortNumber>4</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="ratio">
+      <Description>Ratio</Description>
+      <SortNumber>5</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="temperature">
+      <Description>Temperature</Description>
+      <SortNumber>6</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="time">
+      <Description>Time</Description>
+      <SortNumber>7</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="velocity">
+      <Description>Velocity</Description>
+      <SortNumber>8</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="voltage">
+      <Description>voltage</Description>
+      <SortNumber>9</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="volume">
+      <Description>Volume</Description>
+      <SortNumber>10</SortNumber>
+    </EnumValue>
+  </Enum>
+  <Enum Name="UnitConversionAlgorithm">
+    <EnumValue EnumValue="linear">
+      <Description>Y = Ax + B</Description>
+      <ExecClass>LinearConverter</ExecClass>
+      <SortNumber>1</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="none">
+      <Description>No Conversion (output = input)</Description>
+      <ExecClass>NoConversion</ExecClass>
+      <SortNumber>2</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="poly-5">
+      <Description>Y = Ax5 + Bx4 + Cx3 + Dx2 + Ex + F</Description>
+      <ExecClass>Poly5Converter</ExecClass>
+      <SortNumber>3</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="usgs-standard">
+      <Description>Y = A * (B + x)^C + D</Description>
+      <ExecClass>UsgsStdConverter</ExecClass>
+      <SortNumber>4</SortNumber>
+    </EnumValue>
+  </Enum>
+  <Enum Name="DataOrder">
+    <EnumValue EnumValue="d">
+      <Description>Descending</Description>
+      <SortNumber>1</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="a">
+      <Description>Ascending</Description>
+      <SortNumber>2</SortNumber>
+    </EnumValue>
+  </Enum>
+  <Enum Name="LookupAlgorithm">
+    <EnumValue EnumValue="exact-match">
+      <Description>
+        Input must match table value to produce an output
+      </Description>
+      <ExecClass>ExactMatchLookup</ExecClass>
+    </EnumValue>
+    <EnumValue EnumValue="exponential">
+      <Description>Exponential interpolation between table values</Description>
+      <ExecClass>ExponentialInterpLookup</ExecClass>
+    </EnumValue>
+    <EnumValue EnumValue="linear">
+      <Description>Linear interpolation between table values</Description>
+      <ExecClass>LinearInterpLookup</ExecClass>
+    </EnumValue>
+    <EnumValue EnumValue="logarithmic">
+      <Description>Logarithmic interpolation between table values</Description>
+      <ExecClass>LogarithmicInterpLookup</ExecClass>
+    </EnumValue>
+    <EnumValue EnumValue="rounding">
+      <Description>Inputs are rounded to nearest table value</Description>
+      <ExecClass>RoundingLookup</ExecClass>
+    </EnumValue>
+    <EnumValue EnumValue="truncating">
+      <Description>Inputs are truncated to lower table value</Description>
+      <ExecClass>TruncatingLookup</ExecClass>
+    </EnumValue>
+  </Enum>
+  <Enum Name="EquationScope">
+    <EnumValue EnumValue="all">
+      <Description>Apply to all platforms</Description>
+    </EnumValue>
+    <EnumValue EnumValue="dcf">
+      <Description>
+        Apply to platforms sharing a given configuration
+      </Description>
+    </EnumValue>
+    <EnumValue EnumValue="dcp">
+      <Description>Apply to specific platform(s)</Description>
+    </EnumValue>
+    <EnumValue EnumValue="nl">
+      <Description>Apply to platforms in a network list</Description>
+    </EnumValue>
+    <EnumValue EnumValue="site">
+      <Description>Apply to platform at a given site</Description>
+    </EnumValue>
+  </Enum>
+  <Enum Name="UnitFamily">
+    <EnumValue EnumValue="english">
+      <Description>English Measurements</Description>
+      <SortNumber>1</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="metric">
+      <Description>International Metric System</Description>
+      <SortNumber>2</SortNumber>
+    </EnumValue>
+  </Enum>
+  <Enum Name="OutputFormat">
+    <EnumValue EnumValue="human-readable">
+      <Description>Display Format</Description>
+      <ExecClass>decodes.consumer.HumanReadableFormatter</ExecClass>
+      <SortNumber>1</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="shef">
+      <Description>Standard Hydrometerologic Exchange Format</Description>
+      <ExecClass>decodes.consumer.ShefFormatter</ExecClass>
+      <SortNumber>2</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="shefit">
+      <Description>USACE HEC Intermediate SHEF Format</Description>
+      <ExecClass>decodes.consumer.ShefitFormatter</ExecClass>
+      <SortNumber>3</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="stdmsg">
+      <Description>USGS Standard Message Format</Description>
+      <ExecClass>decodes.consumer.StdmsgFormatter</ExecClass>
+      <SortNumber>4</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="emit-ascii">
+      <Description>Compatible with EMIT ASCII format</Description>
+      <ExecClass>decodes.consumer.EmitAsciiFormatter</ExecClass>
+      <SortNumber>5</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="emit-oracle">
+      <Description>Compatible with EMIT Oracle format</Description>
+      <ExecClass>decodes.consumer.EmitOracleFormatter</ExecClass>
+      <SortNumber>6</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="dump">
+      <Description>Dump Format for testing and trouble-shooting</Description>
+      <ExecClass>decodes.consumer.DumpFormatter</ExecClass>
+      <SortNumber>7</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="transmit-monitor">
+      <Description>Transmission Monitor</Description>
+      <ExecClass>decodes.consumer.TransmitMonitorFormatter</ExecClass>
+      <SortNumber>8</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="ascii-table">
+      <Description>Delimited row-column format</Description>
+      <ExecClass>decodes.consumer.TableFormatter</ExecClass>
+      <SortNumber>9</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="hydstra">
+      <Description>Hydstra Format.</Description>
+      <ExecClass>decodes.consumer.HydstraFormatter</ExecClass>
+      <SortNumber>10</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="html-report">
+      <Description>HTML Report Format</Description>
+      <ExecClass>decodes.consumer.HtmlFormatter</ExecClass>
+      <SortNumber>11</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="cwms-oracle">
+      <Description>CWMS Oracle with TSID format</Description>
+      <ExecClass>rsgis.consumer.CwmsOracleFormatter</ExecClass>
+      <EditClass></EditClass>
+      <SortNumber>12</SortNumber>
+    </EnumValue>
+  </Enum>
+  <Enum Name="DataTypeStandard">
+    <EnumDefaultValue>shef-pe</EnumDefaultValue>
+    <EnumValue EnumValue="shef-pe">
+      <Description>
+        Standard Hydrometeorologic Exchange Format Physical Element Code
+      </Description>
+      <SortNumber>1</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="epa-code">
+      <Description>Environmental Protection Agency Parameter Code</Description>
+      <SortNumber>2</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="hdb">
+      <Description>U.S. Bureau of Reclamations Hydrologic Database</Description>
+      <SortNumber>3</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="hydstra-code">
+      <Description>Hydstra Data Code</Description>
+      <SortNumber>4</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="cwms">
+      <Description>CWMS parameters</Description>
+      <ExecClass></ExecClass>
+      <EditClass></EditClass>
+      <SortNumber>5</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="midas">
+      <Description>UUID4</Description>
+      <ExecClass></ExecClass>
+      <EditClass></EditClass>
+      <SortNumber>6</SortNumber>
+    </EnumValue>
+  </Enum>
+  <Enum Name="TransportMediumType">
+    <EnumValue EnumValue="data-logger">
+      <Description>Electronic Data Logger File</Description>
+      <SortNumber>1</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="goes">
+      <Description>GOES DCP</Description>
+      <SortNumber>2</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="goes-random">
+      <Description>GOES DCP Random Message</Description>
+      <SortNumber>3</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="goes-self-timed">
+      <Description>GOES DCP Self-Timed Message</Description>
+      <SortNumber>4</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="lrgs-archive">
+      <Description>LRGS Archive File</Description>
+      <SortNumber>5</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="modem">
+      <Description>Data collected via telephone telementry</Description>
+      <SortNumber>6</SortNumber>
+    </EnumValue>
+  </Enum>
+  <Enum Name="Season">
+  </Enum>
+  <Enum Name="EquipmentType">
+    <EnumValue EnumValue="dcp">
+      <Description>Data Collection Platform</Description>
+      <SortNumber>1</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="transportmedium">
+      <Description>Transmitter, data logger, modem, etc.</Description>
+      <SortNumber>2</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="sensor">
+      <Description>Environmental Sensor</Description>
+      <SortNumber>3</SortNumber>
+    </EnumValue>
+  </Enum>
+  <Enum Name="RecordingMode">
+    <EnumValue EnumValue="f">
+      <Description>Fixed Regular Interval</Description>
+      <SortNumber>1</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="v">
+      <Description>Variable, Triggered or Random</Description>
+      <SortNumber>2</SortNumber>
+    </EnumValue>
+  </Enum>
+</EnumList>
