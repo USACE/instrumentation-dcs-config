@@ -14,6 +14,8 @@ def create_slug(name):
 parser = argparse.ArgumentParser(description='Adds converts the JSON file to SQL insert statements')
 parser.add_argument('-i', '--input', type=str, required=True, 
                     help='Input file located in the output/json directory')
+parser.add_argument('-p', '--projectuuid', type=str, required=True, 
+                    help='Project UUID')
 args = parser.parse_args()
 
 script_dir = os.path.dirname(os.path.realpath(__file__))
@@ -89,8 +91,8 @@ for d in data:
     create_date = datetime.now().strftime('%Y-%m-%dT%H:%M:%S.%fZ')
     update_date = 'null'
     type_id = '98a61f29-18a8-430a-9d02-0f53486e0984' #Instrument
-    project_id = 'a6e542eb-41bc-45b3-aab7-7f45004ad8d3'
-    creator = 'a26d1ef8-acaf-411d-90c1-695bf4c21bf7'
+    project_id = args.projectuuid
+    creator = 'null'
     updater = 'null'
 
     if name not in unique_sites:
