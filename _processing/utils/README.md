@@ -16,7 +16,8 @@
 
 - Requirements:
   - platforms.xxx.json input file must be in present in the output/json dir
+  - Have the Project UUID already established in database
 - Example Usage:
-  - <code>python3 json_to_sql.py -i platforms.lrh.json</code>
+  - <code>python3 json_to_sql.py -i platforms.lrh.json -p 0000000-0000-0000-0000-4180350dc82a</code>
   - Output SQL files will be saved to the \_processing/output/sql dir
   - Output file will be overwritten without confirmation
