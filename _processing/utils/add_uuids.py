@@ -124,7 +124,7 @@ def get_site_fields(site_element):
             else:
                 tag_value = elem.text.strip()
             
-            site_fields[elem.tag.lower()] = elem.text.strip()
+            site_fields[elem.tag.lower()] = tag_value
 
     site_fields['sitenames'] = sitenames
 
