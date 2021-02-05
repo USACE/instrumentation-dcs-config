@@ -92,7 +92,7 @@ for d in data:
     update_date = 'null'
     type_id = '98a61f29-18a8-430a-9d02-0f53486e0984' #Instrument
     project_id = args.projectuuid
-    creator = 'null'
+    creator = '00000000-0000-0000-0000-000000000000'
     updater = 'null'
 
     if name not in unique_sites:
