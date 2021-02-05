@@ -27,26 +27,40 @@ with open(infile) as f:
 
 unique_sites = []
 valid_medium_types = ['goes', 'goes-self-timed', 'goes-random', 'iridium']
+telemetry_types = {
+    'goes-self-timed':'10a32652-af43-4451-bd52-4980c5690cc9',
+    'iridium':'c0b03b0d-bfce-453a-b5a9-636118940449'
+    }
 
 instrument_sql = 'INSERT INTO public.instrument(' \
     'id, deleted, slug, name, formula, geometry, station, station_offset, create_date, update_date,' \
     'type_id, project_id, creator, updater)\n VALUES \n'
 
-
 instrument_status_sql = 'INSERT INTO public.instrument_status(id, instrument_id, status_id, "time")\n' \
 	'VALUES \n'
 
+telemetry_obj = {}
+
 for d in data:
 
-    # print(d['description'])
+    #print(d['description'])
     # print(type(d))
+    _uuid = d['site']['sitenames']['uuid'] 
 
-    if 'transportmedium' in d.keys() and d['transportmedium']['mediumtype'].lower() not in valid_medium_types:
-        print(f"Ignoring {d['transportmedium']['mediumtype']} - {d['transportmedium']['mediumid']}")
+    if 'transportmedium' not in d.keys():
+        print(f'Ignoring {_uuid}, no transportmedium found..')
         continue
 
-    _uuid = d['site']['sitenames']['uuid']
-       
+    if d['transportmedium']['mediumtype'].lower() not in valid_medium_types:
+        print(f"Ignoring {d['transportmedium']['mediumtype']} - {d['transportmedium']['mediumid']}...")
+        continue       
+
+    
+
+    # telemetry info for each platform
+    telemetry_data = {}  
+
+          
     _sitenames = d['site']['sitenames']
     if 'cwms' in _sitenames.keys():
         name = _sitenames['cwms']
@@ -84,6 +98,17 @@ for d in data:
         instrument_sql += f"'{create_date}', {update_date}, '{type_id}', '{project_id}', '{creator}', {updater}),\n"
         instrument_status_sql += f"('{uuid.uuid4()}', '{_uuid}', 'e26ba2ef-9b52-4c71-97df-9e4b6cf4174d', '{create_date}'),\n"
         unique_sites.append(name)
+
+        transport_medium_type = d['transportmedium']['mediumtype'].lower()
+
+        # Add to the telemetry object for progressing down below
+        if transport_medium_type in telemetry_types.keys():            
+            telemetry_data['telemetry_type_id'] = telemetry_types[transport_medium_type]   
+            telemetry_data['mediumtype'] = transport_medium_type
+            telemetry_data['mediumid'] = d['transportmedium']['mediumid']
+
+            telemetry_obj[_uuid] = telemetry_data            
+
     else:
         outfile_contents += f'\n--Ignoring {name} site/instrument, already in instruments unique list'
 
@@ -133,7 +158,7 @@ for d in data:
 
 
 
-outfile_contents += '\n\n--INSERT INSTRUMENTS--\n'
+outfile_contents += f'\n\n--INSERT INSTRUMENTS--COUNT:{len(unique_sites)}\n'
 
 # Replace the last line ending comma with semi-colon
 instrument_sql = instrument_sql[:-2]+';\n'
@@ -144,6 +169,47 @@ outfile_contents += '\n--INSERT INSTRUMENT STATUS--\n'
 # Replace the last line ending comma with semi-colon
 instrument_status_sql = instrument_status_sql[:-2]+';\n'
 outfile_contents += instrument_status_sql
+
+''' Create insert statements for telemetry_goes, telemetry_iridium, instrument_telemetry '''
+
+telemetry_goes = []
+telemetry_iridium = []
+
+instrument_telemetry_sql = 'INSERT INTO public.instrument_telemetry (instrument_id, telemetry_type_id, telemetry_id) \nVALUES\n'
+
+for id, obj in telemetry_obj.items():
+
+    telemetry_id = uuid.uuid4()
+    if 'goes' in obj['mediumtype']:
+        telemetry_goes.append([telemetry_id, obj['mediumid']])
+    if 'iridium' in obj['mediumtype']:
+        telemetry_iridium.append([telemetry_id, obj['mediumid']])
+
+    instrument_telemetry_sql += f"('{id}', \'{obj['telemetry_type_id']}\', '{telemetry_id}'),\n"
+
+if telemetry_goes:
+    outfile_contents += f'\n--INSERT TELEMETRY_GOES--COUNT:{len(telemetry_goes)}\n'
+    telemetry_goes_sql = 'INSERT INTO public.telemetry_goes (id, nesdis_id) \nVALUES\n'
+    for tg in telemetry_goes:
+        telemetry_goes_sql += f"('{tg[0]}', '{tg[1]}'),\n"
+    # Replace the last line ending comma with semi-colon
+    telemetry_goes_sql = telemetry_goes_sql[:-2]+';\n'
+    outfile_contents += telemetry_goes_sql
+
+if telemetry_iridium:
+    outfile_contents += f'\n--INSERT TELEMETRY_IRIDIUM--COUNT:{len(telemetry_iridium)}\n'
+    telemetry_iridium_sql = 'INSERT INTO public.telemetry_iridium (id, imei) \nVALUES\n'
+    for ti in telemetry_iridium:
+        telemetry_iridium_sql += f"('{ti[0]}', '{ti[1]}'),\n"
+    # Replace the last line ending comma with semi-colon
+    telemetry_iridium_sql = telemetry_iridium_sql[:-2]+';\n'
+    outfile_contents += telemetry_iridium_sql
+
+outfile_contents += f'\n--INSERT INSTRUMENT_TELEMETRY--COUNT:{len(telemetry_obj.keys())}\n'
+# Replace the last line ending comma with semi-colon
+instrument_telemetry_sql = instrument_telemetry_sql[:-2]+';\n'
+outfile_contents += instrument_telemetry_sql
+
 
 outfile_sql = os.path.abspath(os.path.join(script_dir, '..', 'output', 'sql', f'{os.path.basename(infile)}'))
 outfile_sql = outfile_sql.replace('.json', '.sql')

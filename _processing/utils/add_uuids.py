@@ -62,7 +62,7 @@ def parse_coordinate(name, value):
     try:
         dd = round(float(value),4)
     except:
-        print(f'*{name}**{value} is not a proper coodinate format***')
+        print(f'{name}: {value} is not a proper coodinate format***')
         print('Attempting to convert...')
         '''
         Possible coord formats:
@@ -80,11 +80,11 @@ def parse_coordinate(name, value):
         086  25 43
         36*10'02"
         35 27' 46"
-        '''
-        
-        x = re.match(r"^(\d+)\W+(\d+)\W+(\d*\.?\d*)\W?$", value)
+        '''        
         # remove special chars to help with regex
         value = unescape(value)
+        
+        x = re.match(r"^(\d+)\W+(\d+)\W+(\d*\.?\d*)\W?$", value)                
 
         if x:
             degrees = int(x.groups()[0])
@@ -109,22 +109,16 @@ def get_site_fields(site_element):
     for elem in site_element:
         if elem.attrib.items():
             for k,v in elem.attrib.items():
-                if elem.tag == 'SiteName':
-                    # if elem.get(k).lower() in ('latitude', 'longitude'):   
-                    #     tag_value = parse_coordinate(elem.text.strip())                        
-                    # else:
-                    #     tag_value = elem.text.strip()
-                    
-                    # sitenames[elem.get(k).lower()] = tag_value  
+                if elem.tag == 'SiteName': 
                     sitenames[elem.get(k).lower()] = elem.text.strip()                 
                     print(elem.tag,':',elem.get(k).lower(), '->', tag_value)
         else:
             if elem.tag.lower() in ('latitude', 'longitude'): 
-                 tag_value = parse_coordinate(elem.tag.lower(), elem.text.strip())
+                tag_value = parse_coordinate(elem.tag.lower(), elem.text.strip())
             else:
                 tag_value = elem.text.strip()
             
-            site_fields[elem.tag.lower()] = elem.text.strip()
+            site_fields[elem.tag.lower()] = tag_value
 
     site_fields['sitenames'] = sitenames
 
@@ -172,9 +166,18 @@ for p in platforms:
 
     print('-'*60)
     print(f"Platform Id: {p.get('PlatformId')}")
-
     
+    # Check for expiration tag - usually means it's already expired
+    expiration = p.find('Expiration')
+    if expiration is not None:
+        print('INFO: Platform has been marked "Expired".  Ignoring...')
+        continue
 
+    # Set IsProduction to True for all
+    isProduction = p.find('IsProduction')
+    if isProduction is not None and isProduction.text.strip() == 'false':
+        print('NOTICE: Changing IsProduction value to "true"')
+        isProduction.text = 'true'    
 
     # Set initial platform outer level values
     platform_obj = get_platform_fields(p)
