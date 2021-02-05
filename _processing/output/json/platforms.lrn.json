@@ -12,7 +12,7 @@
             "description": "Testing networked DCP at Cheatham",
             "sitenames": {
                 "local": "0D112020",
-                "uuid": "cd5118b3-1635-494f-8136-cc8eb915c229"
+                "uuid": "2831ab23-c91a-4338-9cdf-fc96fb844aca"
             }
         },
         "platformconfig": "",
@@ -31,8 +31,8 @@
         "isproduction": "true",
         "lastmodifytime": "04/20/2016 17:03:09",
         "site": {
-            "latitude": "36 41 30 N",
-            "longitude": "88 16 25 W",
+            "latitude": 36.6917,
+            "longitude": -88.2736,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -41,7 +41,7 @@
             "sitenames": {
                 "nwshb5": "AMOK2",
                 "cwms": "AMOK2-ClarksR-AlmoKY",
-                "uuid": "1c37c494-13fb-47e7-80fe-b35f35ca7ad4"
+                "uuid": "fbaae120-0c45-4dd0-8226-8476bfa8ce81"
             }
         },
         "platformconfig": "",
@@ -59,8 +59,8 @@
         "isproduction": "true",
         "lastmodifytime": "04/21/2015 13:10:20",
         "site": {
-            "latitude": "35 55 04",
-            "longitude": "84 59 50",
+            "latitude": 35.9178,
+            "longitude": -84.9972,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -69,7 +69,7 @@
             "sitenames": {
                 "nwshb5": "CSST1",
                 "cwms": "CSST1-CrossvilleTN",
-                "uuid": "6f4aa6b4-0be1-4e2b-bbcf-1bae9f45e63d"
+                "uuid": "2c735458-03ba-4832-9a0e-6afaf399266a"
             }
         },
         "platformconfig": "",
@@ -87,8 +87,8 @@
         "isproduction": "true",
         "lastmodifytime": "04/21/2015 13:10:19",
         "site": {
-            "latitude": "36 37 32",
-            "longitude": "87 32 13",
+            "latitude": 36.6256,
+            "longitude": -87.5369,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -97,7 +97,7 @@
             "sitenames": {
                 "nwshb5": "FCRT1",
                 "cwms": "FCRT1-FortCampbellTN",
-                "uuid": "88df56c2-f16b-47ca-9695-930154faaa72"
+                "uuid": "ce4097da-d1e0-432b-a8e7-76f7e9bff1b1"
             }
         },
         "platformconfig": "",
@@ -116,8 +116,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:39",
         "site": {
-            "latitude": "36 44 43 N",
-            "longitude": "085 07 18 W",
+            "latitude": 36.7453,
+            "longitude": -85.1217,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -129,7 +129,7 @@
                 "lrn-dssname": "ALBANY",
                 "cwms": "ALBK2-AlbanyKY",
                 "nwshb5": "ALBK2",
-                "uuid": "73286fb1-735b-4e2c-8258-ee79bff6b1be"
+                "uuid": "abe95109-b6b7-4191-a399-d15493e720f1"
             }
         },
         "platformconfig": "",
@@ -148,8 +148,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/22/2016 13:12:23",
         "site": {
-            "latitude": "36.397322",
-            "longitude": "-85.174489",
+            "latitude": 36.3973,
+            "longitude": -85.1745,
             "elevation": "684.28",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -159,7 +159,7 @@
             "sitenames": {
                 "nwshb5": "ALPT1",
                 "cwms": "ALPT1-WFkObeyR-AlpineTN",
-                "uuid": "9486874a-f9f4-42db-b67f-809f75733423"
+                "uuid": "40705bc0-7a0b-4605-8330-d62a79ca7531"
             }
         },
         "platformconfig": "",
@@ -178,8 +178,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:39",
         "site": {
-            "latitude": "36 53 54",
-            "longitude": "82 47 18",
+            "latitude": 36.8983,
+            "longitude": -82.7883,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5CDT",
@@ -188,7 +188,7 @@
             "sitenames": {
                 "nwshb5": "APLV2",
                 "cwms": "APLV2-AppalachiaVA",
-                "uuid": "1c42b65b-af09-4a39-a6cb-ea3e58b31906"
+                "uuid": "695834c0-de82-47a4-bc32-b764f9cd0538"
             }
         },
         "platformconfig": "",
@@ -207,8 +207,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:39",
         "site": {
-            "latitude": "36 32 31",
-            "longitude": "83 37 49",
+            "latitude": 36.5419,
+            "longitude": -83.6303,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -217,7 +217,7 @@
             "sitenames": {
                 "nwshb5": "ARTT1",
                 "cwms": "ARTT1-PowellR-ArthurTN",
-                "uuid": "e75ecc54-e66a-4d5a-a4e5-2fdd3557bec9"
+                "uuid": "e1f07a5f-8d6d-48b9-b953-4c57ec7511e9"
             }
         },
         "platformconfig": "",
@@ -236,8 +236,8 @@
         "isproduction": "true",
         "lastmodifytime": "06/21/2018 18:17:43",
         "site": {
-            "latitude": "37 01 28 N",
-            "longitude": "088 13 22 W",
+            "latitude": 37.0244,
+            "longitude": -88.2228,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -249,7 +249,7 @@
                 "local": "BarkleyHWRdnt",
                 "cwms": "BAHK2-BARKLEY",
                 "lrn-dssname": "BARKLEY_HW_RDNT",
-                "uuid": "09070135-f4a9-406c-8b06-49fd8a8e6c57"
+                "uuid": "3d60ea91-0b79-49a7-8045-a2e00c496386"
             }
         },
         "platformconfig": "",
@@ -268,8 +268,8 @@
         "isproduction": "true",
         "lastmodifytime": "06/21/2018 18:17:43",
         "site": {
-            "latitude": "36 19 22 N",
-            "longitude": "87 13 42 W",
+            "latitude": 36.3228,
+            "longitude": -87.2283,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -281,7 +281,7 @@
                 "local": "CheathamTwRdnt",
                 "cwms": "ASHT1-CHEATHAM",
                 "lrn-dssname": "CHEATHAM_TW_RDNT",
-                "uuid": "b532eaec-20d8-495f-ace8-84ad3e747885"
+                "uuid": "a82e204d-b775-4e37-ad5b-57d10461e1b2"
             }
         },
         "platformconfig": "",
@@ -300,8 +300,8 @@
         "isproduction": "true",
         "lastmodifytime": "06/21/2018 18:17:43",
         "site": {
-            "latitude": "36 17 30 N",
-            "longitude": "85 56 20 W",
+            "latitude": 36.2917,
+            "longitude": -85.9389,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -313,7 +313,7 @@
                 "cwms": "COHT1-CORDELL_HULL",
                 "local": "CordellHullHWRdnt",
                 "lrn-dssname": "CORDELL_HULL_HW_RDNT",
-                "uuid": "2c7a0e9a-09b7-4678-9170-a803409af6be"
+                "uuid": "8bbd020d-c496-46c4-85de-ed8dc919a8ca"
             }
         },
         "platformconfig": "",
@@ -332,8 +332,8 @@
         "isproduction": "true",
         "lastmodifytime": "06/21/2018 18:17:43",
         "site": {
-            "latitude": "36 17 07 N",
-            "longitude": "085 56 23 W",
+            "latitude": 36.2853,
+            "longitude": -85.9397,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -345,7 +345,7 @@
                 "local": "CordellHull",
                 "cwms": "CORT1-CORDELL_HULL",
                 "lrn-dssname": "CORDELL_HULL_GOES",
-                "uuid": "278c1176-3bb1-4b14-bedf-c1e42227318a"
+                "uuid": "e7035c37-bab9-40a2-b0ad-b43b8dd0ddb1"
             }
         },
         "platformconfig": "",
@@ -364,8 +364,8 @@
         "isproduction": "true",
         "lastmodifytime": "06/21/2018 18:17:43",
         "site": {
-            "latitude": "63 32 50 N",
-            "longitude": "85 27 40 W",
+            "latitude": 63.5472,
+            "longitude": -85.4611,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -377,7 +377,7 @@
                 "local": "DaleHollowTwRdnt",
                 "cwms": "DHTT1-DALE_HOLLOW",
                 "lrn-dssname": "DALE_HOLLOW_TW_RDNT",
-                "uuid": "3858b500-7aa2-4bb9-aff0-0f18e55664f1"
+                "uuid": "4412c873-a8a5-417d-9b94-10c42895fa6c"
             }
         },
         "platformconfig": "",
@@ -396,8 +396,8 @@
         "isproduction": "true",
         "lastmodifytime": "06/21/2018 18:17:43",
         "site": {
-            "latitude": "36 32 29N",
-            "longitude": "085 27 23 W",
+            "latitude": 36.5414,
+            "longitude": -85.4564,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -409,7 +409,7 @@
                 "local": "DaleHollow",
                 "cwms": "DLHT1-DALE_HOLLOW",
                 "lrn-dssname": "DALE_HOLLOW_DAM",
-                "uuid": "b62024c1-3d12-46bd-bdca-9addbb76ba76"
+                "uuid": "08fdc172-6dfa-4b8a-8a28-ac996c5378cc"
             }
         },
         "platformconfig": "",
@@ -427,8 +427,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/22/2016 13:12:23",
         "site": {
-            "latitude": "35.912072",
-            "longitude": "-85.476350",
+            "latitude": 35.9121,
+            "longitude": -85.4763,
             "elevation": "820.66",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -438,7 +438,7 @@
             "sitenames": {
                 "nwshb5": "CAFT1",
                 "cwms": "CAFT1-CalfkillerR-blwSpartaTN",
-                "uuid": "215cfa39-96c2-41ea-ad84-9b1b5d04385c"
+                "uuid": "88fdb36d-00fb-4f79-88f9-832f78e3d2b2"
             }
         },
         "platformconfig": "",
@@ -456,8 +456,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/22/2016 13:12:23",
         "site": {
-            "latitude": "36.116667",
-            "longitude": "-86.719050",
+            "latitude": 36.1167,
+            "longitude": -86.719,
             "elevation": "432.55",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -467,7 +467,7 @@
             "sitenames": {
                 "nwshb5": "WBNT1",
                 "cwms": "WBNT1-MillCr-nrWoodbineTN",
-                "uuid": "78889a0e-f6d1-4530-adec-5520cf56238f"
+                "uuid": "4a3cf67d-aa92-4b25-88b9-c3c376631eb0"
             }
         },
         "platformconfig": "",
@@ -486,8 +486,8 @@
         "isproduction": "true",
         "lastmodifytime": "06/21/2018 18:17:43",
         "site": {
-            "latitude": "36 52 06 N",
-            "longitude": "085 08 49 W",
+            "latitude": 36.8683,
+            "longitude": -85.1469,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -498,7 +498,7 @@
                 "nwshb5": "WLCK2",
                 "cwms": "WLCK2-WOLF_CREEK",
                 "local": "Jamestown",
-                "uuid": "8181d9fb-82f2-4891-96e4-2026d6a57c4a"
+                "uuid": "a9296751-9f0d-4a4b-bd1e-b845e470af26"
             }
         },
         "platformconfig": "",
@@ -517,8 +517,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:39",
         "site": {
-            "latitude": "36 47 43 N",
-            "longitude": "085 22 05 W",
+            "latitude": 36.7953,
+            "longitude": -85.3681,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST",
@@ -529,7 +529,7 @@
                 "local": "CumbRBurkesville",
                 "cwms": "Burkesville",
                 "lrn-dssname": "BURKESVILLE",
-                "uuid": "73f14899-0cd1-48bf-b6dc-761d04b1dd82"
+                "uuid": "d9af8917-e1da-45c3-9447-32f8fdb85214"
             }
         },
         "platformconfig": "",
@@ -548,8 +548,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:39",
         "site": {
-            "latitude": "36 50 09 N",
-            "longitude": "084 20 29 W",
+            "latitude": 36.8358,
+            "longitude": -84.3414,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -559,7 +559,7 @@
             "sitenames": {
                 "nwshb5": "CFAK2",
                 "cwms": "CFAK2-CumberlandR-CumberlandFallsKY",
-                "uuid": "92840d17-3a10-46d8-9f4a-3e2b1b66a53a"
+                "uuid": "b0a86a03-84f5-457c-b988-c4d7fcc730c0"
             }
         },
         "platformconfig": "",
@@ -578,8 +578,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:39",
         "site": {
-            "latitude": "35 48 39 N",
-            "longitude": "87 46 49 W",
+            "latitude": 35.8108,
+            "longitude": -87.7803,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -588,7 +588,7 @@
             "sitenames": {
                 "nwshb5": "LBVT1",
                 "cwms": "LBVT1-BuffaloR-blwLobelvilleTN",
-                "uuid": "3a4fc90a-37e5-4166-abb2-5562416fdd05"
+                "uuid": "904e0751-3f35-4a1b-a40b-0bee65f7afe4"
             }
         },
         "platformconfig": "",
@@ -606,8 +606,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:39",
         "site": {
-            "latitude": "36.477306",
-            "longitude": "-84.669428",
+            "latitude": 36.4773,
+            "longitude": -84.6694,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -617,7 +617,7 @@
             "sitenames": {
                 "nwshb5": "LTWT1",
                 "cwms": "LTWT1-SFkCumberlandR-LeatherwoodFordTN",
-                "uuid": "7c904f89-8d00-4c8c-ac57-efc37335dba1"
+                "uuid": "24824e81-2aab-4c6f-9640-652a82424db2"
             }
         },
         "platformconfig": "",
@@ -636,8 +636,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:39",
         "site": {
-            "latitude": "36 09 41 N",
-            "longitude": "086 46 23 W",
+            "latitude": 36.1614,
+            "longitude": -86.7731,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -649,7 +649,7 @@
                 "local": "Nashville",
                 "cwms": "NAST1-CumberlandR-NashvilleTN",
                 "lrn-dssname": "NASHVILLE",
-                "uuid": "d70e1524-fb95-4506-906d-fdf2c6fa619c"
+                "uuid": "2d7aac87-07e8-4105-8d09-61217ec4acfe"
             }
         },
         "platformconfig": "",
@@ -668,8 +668,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:39",
         "site": {
-            "latitude": "35 28 58 N",
-            "longitude": "86 27 45 W",
+            "latitude": 35.4828,
+            "longitude": -86.4625,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -679,7 +679,7 @@
             "sitenames": {
                 "nwshb5": "SHET1",
                 "cwms": "SHET1-DuckR-ShelbyvilleTN",
-                "uuid": "c4de6e96-e862-4bb7-b2b8-d067ef2e95db"
+                "uuid": "65db2945-fe9b-4f9b-96e6-c6aabe4c91b6"
             }
         },
         "platformconfig": "",
@@ -698,8 +698,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:39",
         "site": {
-            "latitude": "36 43 33 N",
-            "longitude": "83 17 13 W",
+            "latitude": 36.7258,
+            "longitude": -83.2869,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -713,7 +713,7 @@
                 "cwms": "SMHK2-MartinsFk-SmithKY",
                 "usgs": "03400785",
                 "01": "03400785",
-                "uuid": "44343e3a-06f3-4176-bce4-ad85b80dc87e"
+                "uuid": "ac4186ae-b6c7-41aa-ab29-db143e74f00f"
             }
         },
         "platformconfig": "",
@@ -732,8 +732,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:39",
         "site": {
-            "latitude": "36 50 41 N",
-            "longitude": "083 19 31 W",
+            "latitude": 36.8447,
+            "longitude": -83.3253,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -745,7 +745,7 @@
                 "local": "MartinsForkHarlan",
                 "lrn-dssname": "MARTINS_FORK_HARLAN",
                 "cwms": "NCFK2-MartinsFk-HarlanKY",
-                "uuid": "9cd7d0d0-6c7e-4c3b-ad64-e1b91292078b"
+                "uuid": "cf12ba0a-8aaa-499a-bbc1-db3f96d66ee4"
             }
         },
         "platformconfig": "",
@@ -764,8 +764,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:39",
         "site": {
-            "latitude": "36 45 01 N",
-            "longitude": "083 15 18 W",
+            "latitude": 36.7503,
+            "longitude": -83.255,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -776,7 +776,7 @@
                 "local": "MartinsForkTW",
                 "lrn-dssname": "MARTINS_FORK_TW",
                 "cwms": "MNLK2-MARTINS_FORK",
-                "uuid": "2e0de7a8-1495-4210-9ad4-9af1a1c5fcbd"
+                "uuid": "c339ff35-740a-482e-83e8-69dff2a1e50e"
             }
         },
         "platformconfig": "",
@@ -795,8 +795,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:39",
         "site": {
-            "latitude": "36 33 16 N",
-            "longitude": "085 30 56 W",
+            "latitude": 36.5544,
+            "longitude": -85.5156,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -808,7 +808,7 @@
                 "local": "CumbRCelina",
                 "cwms": "CLAT1-CumberlandR-CelinaTN",
                 "lrn-dssname": "CELINA_TN",
-                "uuid": "f46febf6-3432-407e-bd52-9d12fa80253e"
+                "uuid": "9d8a6654-a994-4d96-9d12-752e4b980ecb"
             }
         },
         "platformconfig": "",
@@ -827,8 +827,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:39",
         "site": {
-            "latitude": "36 29 23 N",
-            "longitude": "087 50 20 W",
+            "latitude": 36.4897,
+            "longitude": -87.8389,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -840,7 +840,7 @@
                 "cwms": "DOVT1-CumberlandR-DoverTN",
                 "lrn-dssname": "DOVER",
                 "local": "CumbRDover",
-                "uuid": "30ecfd49-c99a-4f7b-a786-d2582ca05504"
+                "uuid": "c20e2c35-6a22-41ba-82eb-8963059d5d6b"
             }
         },
         "platformconfig": "",
@@ -859,8 +859,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:39",
         "site": {
-            "latitude": "36 17 57 N",
-            "longitude": "086 15 51 W",
+            "latitude": 36.2992,
+            "longitude": -86.2642,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -872,7 +872,7 @@
                 "local": "HuntersPoint",
                 "cwms": "HNTT1-CumberlandR-HuntersPointTN",
                 "lrn-dssname": "HUNTERS_POINT",
-                "uuid": "a9636b5e-15b2-4344-9cf0-72763a7f0713"
+                "uuid": "a18f0416-573c-450f-ad35-bd9f174fd1ca"
             }
         },
         "platformconfig": "",
@@ -891,8 +891,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 50 22 N",
-            "longitude": "087 28 53 W",
+            "latitude": 36.8394,
+            "longitude": -87.4814,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -904,7 +904,7 @@
                 "local": "Hopkinsville",
                 "cwms": "HPKK2-SFkLittleR-HopkinsvilleKY",
                 "lrn-dssname": "HOPKINSVILLE",
-                "uuid": "84cdfc5d-52a5-415f-a202-ec502b66f321"
+                "uuid": "7e798c02-a4bf-4ce4-a9a8-4057da756baa"
             }
         },
         "platformconfig": "",
@@ -922,8 +922,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 11 24",
-            "longitude": "85 54 17",
+            "latitude": 36.19,
+            "longitude": -85.9047,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -935,7 +935,7 @@
                 "cwms": "STWT1-CaneyFk-StonewallTN",
                 "usgs": "03424860",
                 "01": "03424860",
-                "uuid": "2ce9d37d-dcb0-430a-af9d-e0d1932d0438"
+                "uuid": "ecd58ae6-1048-4bd0-8fb1-6bd2ea74767d"
             }
         },
         "platformconfig": "",
@@ -953,8 +953,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 06 00",
-            "longitude": "85 13 46",
+            "latitude": 35.1,
+            "longitude": -85.2294,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -963,7 +963,7 @@
             "sitenames": {
                 "nwshb5": "CKDT1",
                 "cwms": "CKDT1-CHICKAMAUGA",
-                "uuid": "c3b543de-635d-4d5e-873f-98675f600be7"
+                "uuid": "b9f183b8-3662-4ce3-a09d-3ee22b209c6a"
             }
         },
         "platformconfig": "",
@@ -981,8 +981,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 39 49",
-            "longitude": "87 01 58",
+            "latitude": 35.6636,
+            "longitude": -87.0328,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -991,7 +991,7 @@
             "sitenames": {
                 "nwshb5": "CLBT1",
                 "cwms": "CLBT1-ColumbiaTN",
-                "uuid": "d862ddb1-00cd-4ece-b817-7ebe4ba5b51d"
+                "uuid": "acb719c9-c519-43b4-9280-2a0b12ef41b9"
             }
         },
         "platformconfig": "",
@@ -1009,8 +1009,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 20 42",
-            "longitude": "85 41 47",
+            "latitude": 35.345,
+            "longitude": -85.6964,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1019,7 +1019,7 @@
             "sitenames": {
                 "nwshb5": "CLMT1",
                 "cwms": "CLMT1-CoalmontTN",
-                "uuid": "7a330ff5-8bc5-4170-8bf5-1b8a5e18d150"
+                "uuid": "a558eba4-3279-45f8-a5d8-17a0db5168df"
             }
         },
         "platformconfig": "",
@@ -1038,8 +1038,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 28 16 N",
-            "longitude": "086 50 30 W",
+            "latitude": 36.4711,
+            "longitude": -86.8417,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1051,7 +1051,7 @@
                 "local": "Springfield",
                 "cwms": "SPST1-SpringfieldTN",
                 "lrn-dssname": "SPRINGFIELD",
-                "uuid": "f0b2c324-94f0-4dba-9466-e5a70c07ece4"
+                "uuid": "0971c9b6-3ad3-4702-b2df-b2eb0b862be6"
             }
         },
         "platformconfig": "",
@@ -1069,8 +1069,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 57 47",
-            "longitude": "85 16 54",
+            "latitude": 35.9631,
+            "longitude": -85.2817,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CDT6CST",
@@ -1079,7 +1079,7 @@
             "sitenames": {
                 "nwshb5": "DERT1",
                 "cwms": "DERT1-DeRossetTN",
-                "uuid": "0effb553-621f-43b0-b957-1e2467ff131e"
+                "uuid": "144191ac-e042-416b-910c-240d3b27bdaf"
             }
         },
         "platformconfig": "",
@@ -1098,8 +1098,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "37 06 16  N",
-            "longitude": "084 36 57 W",
+            "latitude": 37.1044,
+            "longitude": -84.6158,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -1111,7 +1111,7 @@
                 "cwms": "SSTK2-SomersetKY",
                 "lrn-dssname": "SomersetKY",
                 "nwshb5": "SSTK2",
-                "uuid": "e2c8cbff-f42f-4632-a5a0-f59f9ce595ec"
+                "uuid": "4e790775-62f8-4d6a-ae78-a22df7b66e17"
             }
         },
         "platformconfig": "",
@@ -1129,8 +1129,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35.4825",
-            "longitude": "86.4622",
+            "latitude": 35.4825,
+            "longitude": 86.4622,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1139,7 +1139,7 @@
             "description": "Precip gauge that was at SHET1",
             "sitenames": {
                 "nwshb5": "SBVT1",
-                "uuid": "e8ff15df-e696-4a70-bcb2-93245b0492d1"
+                "uuid": "9e05097b-9654-46b1-ba43-68405553d9c8"
             }
         },
         "platformconfig": "",
@@ -1157,8 +1157,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 04 42",
-            "longitude": "85 03 40",
+            "latitude": 36.0783,
+            "longitude": -85.0611,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1167,7 +1167,7 @@
             "sitenames": {
                 "nwshb5": "ISOT1",
                 "cwms": "ISOT1-IsolineTN",
-                "uuid": "80a613f4-58b7-40c0-a312-579dea1b164d"
+                "uuid": "77220894-f4e4-4629-9eb6-2b9a0d529d59"
             }
         },
         "platformconfig": "",
@@ -1186,8 +1186,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 30 00 N",
-            "longitude": "084 30 60 W",
+            "latitude": 36.5,
+            "longitude": -84.5167,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -1199,7 +1199,7 @@
                 "local": "Oneida",
                 "cwms": "ONIT1-OneidaTN",
                 "lrn-dssname": "ONEIDA",
-                "uuid": "7c071847-bcec-4060-836c-e1b84b7b74fc"
+                "uuid": "a13df2e5-f4d0-4925-a4b7-45b0a51344be"
             }
         },
         "platformconfig": "",
@@ -1217,8 +1217,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "34 45 45",
-            "longitude": "87 23 01",
+            "latitude": 34.7625,
+            "longitude": -87.3836,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1227,7 +1227,7 @@
             "sitenames": {
                 "nwshb5": "WHLA1",
                 "cwms": "WHLA1-WHEELER",
-                "uuid": "fd1a0c50-34a0-4fdd-a792-92bcbcf15a36"
+                "uuid": "128d7a35-132e-43f5-8cf7-815493280417"
             }
         },
         "platformconfig": "",
@@ -1246,8 +1246,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 31 09 N",
-            "longitude": "085 01 52 W",
+            "latitude": 36.5192,
+            "longitude": -85.0311,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1259,7 +1259,7 @@
                 "local": "Lafayette",
                 "cwms": "LFTT1-LafayetteTN",
                 "lrn-dssname": "LAFAYETTE",
-                "uuid": "d13e723c-557e-464f-b3a4-f6bcaa5e1c42"
+                "uuid": "4933a02b-7365-4c76-b478-c7af8d3a6962"
             }
         },
         "platformconfig": "",
@@ -1278,8 +1278,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 01 06 N",
-            "longitude": "086 07 17 W",
+            "latitude": 36.0183,
+            "longitude": -86.1214,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1291,7 +1291,7 @@
                 "local": "Statesville",
                 "cwms": "STLT1-StatesvilleTN",
                 "lrn-dssname": "STATESVILLE",
-                "uuid": "06ddbbbd-f220-43f3-aa28-f3bc661f8162"
+                "uuid": "1d099a0e-9bb9-4e3d-8c8c-840324fe3655"
             }
         },
         "platformconfig": "",
@@ -1309,8 +1309,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "3 04 5",
-            "longitude": "88 15 04",
+            "latitude": 3.0681,
+            "longitude": -88.2511,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1319,7 +1319,7 @@
             "sitenames": {
                 "nwshb5": "PICT1",
                 "cwms": "PICT1-PICKWICK",
-                "uuid": "fdc6de3c-6b15-4eec-8786-faf7f9be8bdd"
+                "uuid": "e71e8173-d65b-4e7a-a6a4-2a1dd91fdb3a"
             }
         },
         "platformconfig": "",
@@ -1337,8 +1337,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 28 16",
-            "longitude": "86 04 59",
+            "latitude": 35.4711,
+            "longitude": -86.0831,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1347,7 +1347,7 @@
             "sitenames": {
                 "nwshb5": "MANT1",
                 "cwms": "MANT1-ManchesterTN",
-                "uuid": "1c934f2c-9269-4af2-943f-1537dddecbeb"
+                "uuid": "924561b1-395e-4222-b4eb-85365e77f9fc"
             }
         },
         "platformconfig": "",
@@ -1366,8 +1366,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 08 00 N",
-            "longitude": "085 17 60 W",
+            "latitude": 36.1333,
+            "longitude": -85.3,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1378,7 +1378,7 @@
                 "local": "Monterey",
                 "cwms": "MNYT1-MontereyTN",
                 "lrn-dssname": "MONTEREY",
-                "uuid": "8b9bd2b2-ffa9-43db-b4ad-cdfd553ede3f"
+                "uuid": "cba2fce6-3760-47da-b3d8-7aeb3ee67ce0"
             }
         },
         "platformconfig": "",
@@ -1397,8 +1397,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35.782778",
-            "longitude": "87.774722",
+            "latitude": 35.7828,
+            "longitude": 87.7747,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1406,7 +1406,7 @@
             "nearestcity": "Lobelville",
             "sitenames": {
                 "nwshb5": "LVLT1",
-                "uuid": "6efce89b-b0e2-48ff-bbaf-637d79581972"
+                "uuid": "314ac348-1135-417b-8f5c-795cfd058857"
             }
         },
         "platformconfig": "",
@@ -1425,8 +1425,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 48 29 N",
-            "longitude": "085 38 01 W",
+            "latitude": 35.8081,
+            "longitude": -85.6336,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1438,7 +1438,7 @@
                 "local": "GreatFalls",
                 "lrn-dssname": "GREAT_FALLS",
                 "cwms": "GRTT1-GREAT_FALLS",
-                "uuid": "a3f24950-543c-49fd-99f6-fc76f425d6bc"
+                "uuid": "f39b5c2f-6ef2-421c-bedf-3c071d490de8"
             }
         },
         "platformconfig": "",
@@ -1457,8 +1457,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 05 56",
-            "longitude": "84 26 46",
+            "latitude": 36.0989,
+            "longitude": -84.4461,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5CDT",
@@ -1467,7 +1467,7 @@
             "sitenames": {
                 "nwshb5": "PTST1",
                 "cwms": "PTST1-PetrosTN",
-                "uuid": "636dde59-efc2-40a3-abf2-8d9d3a6cf828"
+                "uuid": "2d1a4206-ca7b-4640-9777-d51caf194171"
             }
         },
         "platformconfig": "",
@@ -1486,8 +1486,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 32 40 N",
-            "longitude": "084 10 23 W",
+            "latitude": 36.5444,
+            "longitude": -84.1731,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -1499,7 +1499,7 @@
                 "local": "Newcomb",
                 "cwms": "NEWT1-NewcombTN",
                 "lrn-dssname": "NEWCOMB",
-                "uuid": "34982b42-a26c-4842-853e-6f6125a199e3"
+                "uuid": "70b84da4-61b4-45f3-8e55-cdd370fe3c19"
             }
         },
         "platformconfig": "",
@@ -1517,8 +1517,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "34 25 16",
-            "longitude": "86 23 36",
+            "latitude": 34.4211,
+            "longitude": -86.3933,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1527,7 +1527,7 @@
             "sitenames": {
                 "nwshb5": "GVDA1",
                 "cwms": "GVDA1-GUNTERSVILLE",
-                "uuid": "ff6d2ff6-09f0-416f-b301-a53733bf8787"
+                "uuid": "6dc5dbb1-3ee1-47b3-a039-ec8d1d8ecd03"
             }
         },
         "platformconfig": "",
@@ -1546,8 +1546,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "37 23 03 N",
-            "longitude": "083 55 34 W",
+            "latitude": 37.3842,
+            "longitude": -83.9261,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -1559,7 +1559,7 @@
                 "local": "McKee(GrayHawk)",
                 "cwms": "GRHK2-McKeeKY",
                 "lrn-dssname": "MCKEE_(GRAY_HWK)",
-                "uuid": "6c04c3fb-1bd7-4767-a3f8-a46009208ccc"
+                "uuid": "0a6f8403-dba0-4d65-a694-4c984581f6d0"
             }
         },
         "platformconfig": "",
@@ -1577,8 +1577,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35.179722",
-            "longitude": "88.209722",
+            "latitude": 35.1797,
+            "longitude": 88.2097,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1587,7 +1587,7 @@
             "description": "this site replaces precipitation from HORT1",
             "sitenames": {
                 "nwshb5": "SNNT1",
-                "uuid": "a193592d-ea0d-4719-95e4-0b478f588271"
+                "uuid": "130c3437-3c43-4425-91c5-6b24a859edcd"
             }
         },
         "platformconfig": "",
@@ -1605,8 +1605,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "34 47 33",
-            "longitude": "87 37 30",
+            "latitude": 34.7925,
+            "longitude": -87.625,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1615,7 +1615,7 @@
             "sitenames": {
                 "nwshb5": "WSDA1",
                 "cwms": "WSDA1-WILSON",
-                "uuid": "9516101e-45e4-452c-8334-7b19e797f35c"
+                "uuid": "efd9a905-6a03-4c97-9a48-654c3a259bb6"
             }
         },
         "platformconfig": "",
@@ -1634,8 +1634,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 38 03 N",
-            "longitude": "88 24 53 W",
+            "latitude": 35.6342,
+            "longitude": -88.4147,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1644,7 +1644,7 @@
             "sitenames": {
                 "nwshb5": "BCHT1",
                 "cwms": "BCHT1-BeechR-nrLexingtonTN",
-                "uuid": "1a27882c-d0f9-4f9b-9419-f663d671124e"
+                "uuid": "0068a62b-04a1-4683-8aa6-0b455a78e889"
             }
         },
         "platformconfig": "",
@@ -1662,8 +1662,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 37 29 N",
-            "longitude": "88 02 20 W",
+            "latitude": 35.6247,
+            "longitude": -88.0389,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1672,7 +1672,7 @@
             "sitenames": {
                 "nwshb5": "PRVT1",
                 "cwms": "PRVT1-TennesseeR-PerryvilleTN",
-                "uuid": "04e14e2a-963f-4f8f-8452-2bda2da6db4f"
+                "uuid": "e5f3df28-c253-45f2-8bdf-e80912d7db51"
             }
         },
         "platformconfig": "",
@@ -1690,8 +1690,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 55 47 N",
-            "longitude": "87 44 35 W",
+            "latitude": 35.9297,
+            "longitude": -87.7431,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1700,7 +1700,7 @@
             "sitenames": {
                 "nwshb5": "HMLT1",
                 "cwms": "HMLT1-DuckR-abvHurricaneMillsTN",
-                "uuid": "bbb00131-52bf-4b1d-abf3-621631e8257e"
+                "uuid": "c98d9f72-5c6f-4ccc-a51b-e6f28ad71f52"
             }
         },
         "platformconfig": "",
@@ -1718,8 +1718,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 52 16 N",
-            "longitude": "87 30 05 W",
+            "latitude": 35.8711,
+            "longitude": -87.5014,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1728,7 +1728,7 @@
             "sitenames": {
                 "nwshb5": "VERT1",
                 "cwms": "VERT1-PineyR-VernonTN",
-                "uuid": "fa9c0fff-051e-4824-b006-fd4567ff6798"
+                "uuid": "f1f7259e-aa28-458d-a722-a5116e6bcf97"
             }
         },
         "platformconfig": "",
@@ -1746,8 +1746,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 29 45 N",
-            "longitude": "87 49 58 W",
+            "latitude": 35.4958,
+            "longitude": -87.8328,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1756,7 +1756,7 @@
             "sitenames": {
                 "nwshb5": "FLTT1",
                 "cwms": "FLTT1-BuffaloR-nrFlatWoodsTN",
-                "uuid": "1fa5de86-b282-4805-a25c-64f284b28650"
+                "uuid": "2bc54c6c-b626-4d77-9e1d-c4afd2688529"
             }
         },
         "platformconfig": "",
@@ -1775,8 +1775,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 25 22 N",
-            "longitude": "086 20 58 W",
+            "latitude": 36.4228,
+            "longitude": -86.3494,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1786,7 +1786,7 @@
             "sitenames": {
                 "nwshb5": "BLCT1",
                 "cwms": "BLCT1-BledsoeCr-GallatinTN",
-                "uuid": "c266fee0-2313-4225-9300-6bf5f2bcfce7"
+                "uuid": "8fb7c9bf-f49e-4f06-8207-b37d25516eff"
             }
         },
         "platformconfig": "",
@@ -1805,8 +1805,8 @@
         "isproduction": "true",
         "lastmodifytime": "06/21/2018 18:17:43",
         "site": {
-            "latitude": "36 08 56 N",
-            "longitude": "86 37 10 W",
+            "latitude": 36.1489,
+            "longitude": -86.6194,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1818,7 +1818,7 @@
                 "local": "JPercyPriestHwRdnt",
                 "cwms": "JPHT1-J_PERCY_PRIEST",
                 "lrn-dssname": "J_PERCY_PRIEST_RDNT",
-                "uuid": "3bca71b9-3a57-4130-8592-63f1a9611704"
+                "uuid": "dc2d5dbe-0eec-4f26-be9a-1bcb4d941306"
             }
         },
         "platformconfig": "",
@@ -1837,8 +1837,8 @@
         "isproduction": "true",
         "lastmodifytime": "06/21/2018 18:17:43",
         "site": {
-            "latitude": "36 09 24 N",
-            "longitude": "086 37 05 W",
+            "latitude": 36.1567,
+            "longitude": -86.6181,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1850,7 +1850,7 @@
                 "local": "JPercyPriestDam",
                 "lrn-dssname": "J_PERCY_PRIEST_DAM",
                 "cwms": "JPPT1-J_PERCY_PRIEST",
-                "uuid": "69d1e6c5-fdba-4f3f-8e8b-8b524bad7599"
+                "uuid": "d35922a1-b79d-4e33-a9ad-529d718e0070"
             }
         },
         "platformconfig": "",
@@ -1869,8 +1869,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "37 10 16 N",
-            "longitude": "084 17 48 W",
+            "latitude": 37.1711,
+            "longitude": -84.2967,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -1882,7 +1882,7 @@
                 "local": "RockcastleRBillows",
                 "cwms": "BLWK2-RockcastleR-BillowsKY",
                 "lrn-dssname": "BILLOWS",
-                "uuid": "3ca8ff1e-c9ef-4c29-8781-050a3a22f9f7"
+                "uuid": "5d469117-c7ab-4d53-a37f-2804e52524c5"
             }
         },
         "platformconfig": "",
@@ -1901,8 +1901,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 51 47 N",
-            "longitude": "85 04 22 W",
+            "latitude": 36.8631,
+            "longitude": -85.0728,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1914,7 +1914,7 @@
                 "lrn-dssname": "BYRDSTOWN_TN.",
                 "nwshb5": "BYGT1",
                 "local": "WolfRByrdstown",
-                "uuid": "0ee513ef-bed1-4dc0-9a84-1b0e2e76c095"
+                "uuid": "d6b71b90-1259-471e-b3e9-d6c8c997113e"
             }
         },
         "platformconfig": "",
@@ -1933,8 +1933,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 44 22 N",
-            "longitude": "083 14 18 W",
+            "latitude": 36.7394,
+            "longitude": -83.2383,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -1946,7 +1946,7 @@
                 "local": "CranksCreek",
                 "cwms": "CCLK2-CRANKS_CREEK",
                 "lrn-dssname": "CRANKS_CREEK_DAM",
-                "uuid": "2649c4a7-de66-4bd8-a0a2-2ec772bfe0e8"
+                "uuid": "b674d698-0f0c-4019-a31d-8986c7359af7"
             }
         },
         "platformconfig": "",
@@ -1965,8 +1965,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 46 40 N",
-            "longitude": "087 43 18 W",
+            "latitude": 36.7778,
+            "longitude": -87.7217,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -1978,7 +1978,7 @@
                 "local": "LittleRCadiz",
                 "cwms": "CDZK2-LittleR-CadizKY",
                 "lrn-dssname": "CADIZ",
-                "uuid": "5e770413-51b2-4c87-bff9-32165df5d33a"
+                "uuid": "99a4ff62-6354-4b59-ba20-e3e6f020be03"
             }
         },
         "platformconfig": "",
@@ -1997,8 +1997,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 55 06 N",
-            "longitude": "086 20 01 W",
+            "latitude": 35.9183,
+            "longitude": -86.3336,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2010,7 +2010,7 @@
                 "local": "Lascassas",
                 "cwms": "LAST1-EFkStonesR-LascassasTN",
                 "lrn-dssname": "LASCASSAS",
-                "uuid": "91fd0680-3f41-47e8-a830-64ea98112b0c"
+                "uuid": "e792d532-6695-4987-953f-70210cdbe785"
             }
         },
         "platformconfig": "",
@@ -2029,8 +2029,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 24 57 N",
-            "longitude": "085 01 34 W",
+            "latitude": 36.4158,
+            "longitude": -85.0261,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2042,7 +2042,7 @@
                 "local": "EaFkObeyRJamestown",
                 "cwms": "JAGT1-EFkObeyR-JamestownTN",
                 "lrn-dssname": "JAMESTOWN_TN.",
-                "uuid": "c7fb4300-3cd4-40da-a2c4-5020cb253fe7"
+                "uuid": "c35515ca-d720-432e-b95c-53b52600cccb"
             }
         },
         "platformconfig": "",
@@ -2060,8 +2060,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36.388211",
-            "longitude": "-84.630247",
+            "latitude": 36.3882,
+            "longitude": -84.6302,
             "elevation": "1081.46",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2071,7 +2071,7 @@
             "sitenames": {
                 "nwshb5": "CFKT1",
                 "cwms": "CFKT1-ClearFkR-nrRobinsTN",
-                "uuid": "eeaa9ea0-c40d-45c1-aac7-4793db40fd6e"
+                "uuid": "e12668c2-168d-4d5a-a830-f2adbeae6740"
             }
         },
         "platformconfig": "",
@@ -2090,8 +2090,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 55 16 N",
-            "longitude": "086 51 56 W",
+            "latitude": 35.9211,
+            "longitude": -86.8656,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2103,7 +2103,7 @@
                 "local": "Franklin",
                 "cwms": "FRAT1-HarpethR-FranklinTN",
                 "lrn-dssname": "FRANKLIN",
-                "uuid": "925ff07d-468a-48b0-b43a-440e444349a4"
+                "uuid": "d317e9c1-df30-4c47-89e4-c6cfbfba81a9"
             }
         },
         "platformconfig": "",
@@ -2122,8 +2122,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 50 52 N",
-            "longitude": "083 21 16 W",
+            "latitude": 36.8478,
+            "longitude": -83.3544,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -2135,7 +2135,7 @@
                 "local": "CumbRLoyall",
                 "cwms": "LYLK2-CumberlandR-LoyallKY",
                 "lrn-dssname": "LOYALL_KY",
-                "uuid": "bd36b501-a5f2-43a5-b593-5165a0a0f6bd"
+                "uuid": "537cb139-e03c-4196-9996-6b03e623ce43"
             }
         },
         "platformconfig": "",
@@ -2153,8 +2153,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 54 09 N",
-            "longitude": "086  25 43 W",
+            "latitude": 35.9025,
+            "longitude": -86.4286,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2166,7 +2166,7 @@
                 "local": "Murfreesboro",
                 "cwms": "MUGT1-EFkStonesR-MurfreesboroTN",
                 "lrn-dssname": "MURFREESBORO",
-                "uuid": "fdc4f999-98c8-487b-a543-9694366f5b93"
+                "uuid": "d44e3814-6472-49d4-ab89-a14d62b4eb31"
             }
         },
         "platformconfig": "",
@@ -2185,8 +2185,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 33 14 N",
-            "longitude": "087 08 32 W",
+            "latitude": 36.5539,
+            "longitude": -87.1422,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2198,7 +2198,7 @@
                 "local": "PortRoyal",
                 "cwms": "PORT1-RedR-PortRoyalTN",
                 "lrn-dssname": "PORT_ROYAL",
-                "uuid": "1c136dc5-5ec1-49ce-b956-bad985d74cbb"
+                "uuid": "f7a5d66b-6f2a-4b04-90ac-2c46ec3f9813"
             }
         },
         "platformconfig": "",
@@ -2217,8 +2217,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 37 45 N",
-            "longitude": "084 31 57 W",
+            "latitude": 36.6292,
+            "longitude": -84.5325,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -2230,7 +2230,7 @@
                 "local": "Stearns",
                 "cwms": "STRK2-SFkCumberlandR-StearnsKY",
                 "lrn-dssname": "STEARNS",
-                "uuid": "5f8e4536-0c0d-4377-90d5-d296fc0998c6"
+                "uuid": "0713fbcf-426c-4a6a-9661-3af7990b2ba7"
             }
         },
         "platformconfig": "",
@@ -2248,8 +2248,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36.385439",
-            "longitude": "-84.554778",
+            "latitude": 36.3854,
+            "longitude": -84.5548,
             "elevation": "1092.43",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2259,7 +2259,7 @@
             "sitenames": {
                 "nwshb5": "NRVT1",
                 "cwms": "NRVT1-NewR-nrRobinsTN",
-                "uuid": "8d915f5f-b272-4387-9717-b6b3ade83d03"
+                "uuid": "b067fb49-80ea-46e7-b7e8-8421ad267d26"
             }
         },
         "platformconfig": "",
@@ -2278,8 +2278,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "37 08 48 N",
-            "longitude": "88 23 59 W",
+            "latitude": 37.1467,
+            "longitude": -88.3997,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2290,7 +2290,7 @@
                 "nwshb5": "SMLK2",
                 "local": "Smithland",
                 "cwms": "SMLK2-CumberlandR-SmithlandKY",
-                "uuid": "ff693342-5177-4737-93bc-00ffb485f5f4"
+                "uuid": "c9560d3c-8774-4914-ad03-b445a0b7da9d"
             }
         },
         "platformconfig": "",
@@ -2309,8 +2309,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 42 30 N",
-            "longitude": "085 43 55 W",
+            "latitude": 35.7083,
+            "longitude": -85.7319,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2321,7 +2321,7 @@
                 "local": "McMinnville",
                 "cwms": "MCGT1-CollinsR-McMinnvilleTN",
                 "lrn-dssname": "MCMINNVILLE",
-                "uuid": "f5a70fd0-9092-49ee-ba72-d81b6c8772b5"
+                "uuid": "f76b38fb-4ebd-4342-811f-d6d240f72b63"
             }
         },
         "platformconfig": "",
@@ -2340,8 +2340,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 45 52 N",
-            "longitude": "083 41 33 W",
+            "latitude": 36.7644,
+            "longitude": -83.6925,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -2353,7 +2353,7 @@
                 "local": "PineStBrKY",
                 "cwms": "PVLK2-CumberlandR-PinevilleKY",
                 "lrn-dssname": "PINE_ST._BR._KY.",
-                "uuid": "5470de40-5015-4d99-b97e-73e0fdce3aec"
+                "uuid": "1df8f4a4-4fd7-4854-bd6a-9d8223674257"
             }
         },
         "platformconfig": "",
@@ -2371,8 +2371,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 13 18 N",
-            "longitude": "086 14 13 W",
+            "latitude": 36.2217,
+            "longitude": -86.2369,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2382,7 +2382,7 @@
                 "local": "SpringCreekTN",
                 "cwms": "LBST1-SpringCr-LebanonTN",
                 "lrn-dssname": "SPRING_CREEK_TN",
-                "uuid": "6a0c5227-58b1-4bea-9241-91bc47281363"
+                "uuid": "4a909b0e-babf-45a8-86b3-7380de576c8e"
             }
         },
         "platformconfig": "",
@@ -2401,8 +2401,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 26 22 N",
-            "longitude": "085 35 45 W",
+            "latitude": 36.4394,
+            "longitude": -85.5958,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2413,7 +2413,7 @@
                 "local": "PenitentiaryBranch",
                 "cwms": "PENT1-CumberlandR-PenitentiaryBrTN",
                 "lrn-dssname": "PENITENTIARY_BR",
-                "uuid": "02d5ffdd-afa0-4047-89f7-dacd76495108"
+                "uuid": "52a2ea78-537d-4bac-84c2-b68c3e369fb8"
             }
         },
         "platformconfig": "",
@@ -2432,8 +2432,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 40 04 N",
-            "longitude": "083 41 17 W",
+            "latitude": 36.6678,
+            "longitude": -83.6881,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -2445,7 +2445,7 @@
                 "local": "Middlesboro",
                 "lrn-dssname": "MIDDLESBORO",
                 "cwms": "MDLK2-YellowCr-MiddlesboroKY",
-                "uuid": "377e6ba1-0268-4e2b-9b2c-8e08869f97f5"
+                "uuid": "8d62c70e-0c4f-4764-a89d-7460a489b264"
             }
         },
         "platformconfig": "",
@@ -2464,8 +2464,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 26 25 N",
-            "longitude": "085 40 29 W",
+            "latitude": 36.4403,
+            "longitude": -85.6747,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2479,7 +2479,7 @@
                 "cwms": "JNCT1-JenningsCr-WhitleyvilleTN",
                 "usgs": "03418224",
                 "01": "03418224",
-                "uuid": "e29c54f6-747c-4a87-81bf-385ef8a02e54"
+                "uuid": "bdf8606a-cd54-47f5-b300-3dd5f45b6e99"
             }
         },
         "platformconfig": "",
@@ -2498,8 +2498,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 05 15 N",
-            "longitude": "085 54 28 W",
+            "latitude": 36.0875,
+            "longitude": -85.9078,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2511,7 +2511,7 @@
                 "cwms": "GVST1-SmithFkCr-TemperanceHallTN",
                 "lrn-dssname": "SMITHS_FORK",
                 "nwshb5": "GVST1",
-                "uuid": "b2b4383b-7485-4707-93dc-e780b325d727"
+                "uuid": "62952458-39ee-4f4a-ada1-8911868d6d68"
             }
         },
         "platformconfig": "",
@@ -2530,8 +2530,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 38 02 N",
-            "longitude": "084 06 52 W",
+            "latitude": 36.6339,
+            "longitude": -84.1144,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -2543,7 +2543,7 @@
                 "local": "ClearFkSaxton",
                 "cwms": "SXTK2-ClearFk-SaxtonKY",
                 "lrn-dssname": "CLEAR_FORK_AT_SAXTON",
-                "uuid": "4944306d-9908-411f-936c-b795b5894141"
+                "uuid": "a21f8d4c-41fb-47f7-9a40-7c5f93f85343"
             }
         },
         "platformconfig": "",
@@ -2561,8 +2561,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 01 04 N",
-            "longitude": "88 00 01 W",
+            "latitude": 35.0178,
+            "longitude": -88.0003,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2571,7 +2571,7 @@
             "sitenames": {
                 "nwshb5": "NJNT1",
                 "cwms": "NJNT1-TennesseeR-nrNewJohnsonvilleTN",
-                "uuid": "5d2a514a-62d2-45e7-adbb-b1d12dfa9ad9"
+                "uuid": "bd1adf73-944d-4bb1-acf2-ec533f796039"
             }
         },
         "platformconfig": "",
@@ -2590,8 +2590,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 07 20 N",
-            "longitude": "087 05 56 W",
+            "latitude": 36.1222,
+            "longitude": -87.0989,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2603,7 +2603,7 @@
                 "local": "KingstonSprings",
                 "cwms": "KINT1-HarpethR-KingstonSprngsTN",
                 "lrn-dssname": "KINGSTON_SPRINGS",
-                "uuid": "9508ee19-7f49-42f3-a7bd-37e716adedd5"
+                "uuid": "661e34eb-2ace-4d33-9d28-bc62b9fe0f76"
             }
         },
         "platformconfig": "",
@@ -2622,8 +2622,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 10 50 N",
-            "longitude": "88 12 34 W",
+            "latitude": 35.1806,
+            "longitude": -88.2094,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2632,7 +2632,7 @@
             "sitenames": {
                 "nwshb5": "HORT1",
                 "cwms": "HORT1-HorseCr-nrSavannahTN",
-                "uuid": "35185ad3-3243-45db-b84f-d809133e214d"
+                "uuid": "6203ad8e-1f17-4320-ba99-5dff4792748a"
             }
         },
         "platformconfig": "",
@@ -2651,8 +2651,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 18 39 N",
-            "longitude": "087 33 13 W",
+            "latitude": 36.3108,
+            "longitude": -87.5536,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2664,7 +2664,7 @@
                 "local": "YellowCreekTN",
                 "cwms": "EMGT1-YellowCr-EllisMillsTN",
                 "lrn-dssname": "YELLOW_CRK_TN.",
-                "uuid": "7edbdf81-6ba8-46cf-9587-750c7895e451"
+                "uuid": "98b2a65e-22e2-4f55-97b6-477e9f518d96"
             }
         },
         "platformconfig": "",
@@ -2683,8 +2683,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 47 51 N",
-            "longitude": "084 53 46 W",
+            "latitude": 36.7975,
+            "longitude": -84.8961,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -2696,7 +2696,7 @@
                 "local": "Monticello",
                 "cwms": "MTCK2-BeaverCr-MonticelloKY",
                 "lrn-dssname": "MONTICELLO",
-                "uuid": "2014d05b-5674-4bf6-8486-14775b4535aa"
+                "uuid": "0b973d32-1f93-4aa2-a2c8-821552ab2ddd"
             }
         },
         "platformconfig": "",
@@ -2714,8 +2714,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 37 05 N",
-            "longitude": "87 01 57 W",
+            "latitude": 35.6181,
+            "longitude": -87.0325,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2724,7 +2724,7 @@
             "sitenames": {
                 "nwshb5": "COLT1",
                 "cwms": "COLT1-DuckR-ColumbiaTN",
-                "uuid": "41b01f51-73e1-4494-885d-2a67fca19908"
+                "uuid": "84f90597-a764-4be8-99e2-0ef09212672d"
             }
         },
         "platformconfig": "",
@@ -2743,8 +2743,8 @@
         "isproduction": "true",
         "lastmodifytime": "06/21/2018 18:17:43",
         "site": {
-            "latitude": "36 17 50 N",
-            "longitude": "086 39 32 W",
+            "latitude": 36.2972,
+            "longitude": -86.6589,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2756,7 +2756,7 @@
                 "local": "OldHickoryDamTw",
                 "cwms": "OHIT1-OLD_HICKORY",
                 "lrn-dssname": "OLD_HICKORY_DAM_TW",
-                "uuid": "34982f05-8e98-4d2d-8db4-e71a7b2346a4"
+                "uuid": "fb44ae76-02c0-4b91-8756-edac44a51925"
             }
         },
         "platformconfig": "",
@@ -2775,8 +2775,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 44 37 N",
-            "longitude": "084 09 23 W",
+            "latitude": 36.7436,
+            "longitude": -84.1564,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -2788,7 +2788,7 @@
                 "local": "Williamsburg",
                 "cwms": "WLBK2-CumberlandR-WilliamsburgKY",
                 "lrn-dssname": "WILLIAMSBURG",
-                "uuid": "197420f6-b0e6-4d78-ada3-e4305330645d"
+                "uuid": "12989fd5-fa1f-46a6-a784-2e784dc18a44"
             }
         },
         "platformconfig": "",
@@ -2806,8 +2806,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 28 49 N",
-            "longitude": "86 29 57 W",
+            "latitude": 35.4803,
+            "longitude": -86.4992,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2817,7 +2817,7 @@
             "sitenames": {
                 "nwshb5": "SHVT1",
                 "cwms": "SHVT1-DuckR-nrShelbyvilleTN",
-                "uuid": "efd7c154-a608-48d0-b82e-67c20dfe8016"
+                "uuid": "328969f6-67b3-4126-92ed-768edc93cefd"
             }
         },
         "platformconfig": "",
@@ -2835,8 +2835,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 47 32",
-            "longitude": "84 14 44",
+            "latitude": 35.7922,
+            "longitude": -84.2456,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -2845,7 +2845,7 @@
             "sitenames": {
                 "nwshb5": "FLDT1",
                 "cwms": "FLDT1-FORT_LOUDON",
-                "uuid": "28c3bc6e-e651-47b1-b95b-0e0e1f406d7c"
+                "uuid": "8dcf5fed-620d-4dc4-be34-1dcf5c95eb0c"
             }
         },
         "platformconfig": "",
@@ -2864,8 +2864,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 23 00 N",
-            "longitude": "085 18 60 W",
+            "latitude": 36.3833,
+            "longitude": -85.3167,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2876,7 +2876,7 @@
                 "local": "Livingston",
                 "cwms": "LVGT1-LivingstonTN",
                 "lrn-dssname": "LIVINGSTON",
-                "uuid": "0fc0f463-85ef-4460-840d-daeb07932829"
+                "uuid": "d1ff93f8-43b0-42ce-a160-eff33a428d47"
             }
         },
         "platformconfig": "",
@@ -2894,8 +2894,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36.030833",
-            "longitude": "87.975833",
+            "latitude": 36.0308,
+            "longitude": 87.9758,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2904,7 +2904,7 @@
             "description": "Precip moved from NJNT1",
             "sitenames": {
                 "nwshb5": "JNVT1",
-                "uuid": "5811361c-1067-49bb-926e-47557f820161"
+                "uuid": "81998deb-96b1-404f-9aa0-311f5a383938"
             }
         },
         "platformconfig": "",
@@ -2923,8 +2923,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 21 05 N",
-            "longitude": "085 32 43 W",
+            "latitude": 36.3514,
+            "longitude": -85.5453,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2938,7 +2938,7 @@
                 "lrn-dssname": "GAINESBORO",
                 "usgs": "03418000",
                 "01": "03418000",
-                "uuid": "6048594b-f0f9-44f8-96d3-1f1a5f2d4d84"
+                "uuid": "bed0b812-d4c1-4b54-aab2-b3c58dab76b9"
             }
         },
         "platformconfig": "",
@@ -2957,8 +2957,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 13 43 N",
-            "longitude": "086 19 04 W",
+            "latitude": 36.2286,
+            "longitude": -86.3178,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -2970,7 +2970,7 @@
                 "local": "Lebanon",
                 "cwms": "LEBT1-LebanonTN",
                 "lrn-dssname": "LEBANON",
-                "uuid": "8429977d-c679-4c33-8b02-38cf581d7e30"
+                "uuid": "579ed4e7-4306-4f5b-99e9-4e469d59fab0"
             }
         },
         "platformconfig": "",
@@ -2988,8 +2988,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 37 16",
-            "longitude": "86 35 11",
+            "latitude": 35.6211,
+            "longitude": -86.5864,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CDT6CST",
@@ -2998,7 +2998,7 @@
             "sitenames": {
                 "nwshb5": "UNVT1",
                 "cwms": "UNVT1-UnionvilleTN",
-                "uuid": "911cb243-d8f6-4209-9332-dab3e6a2dafb"
+                "uuid": "3778cd69-73cd-4df3-992b-a7fe204e4f3a"
             }
         },
         "platformconfig": "",
@@ -3017,8 +3017,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 49 45 N",
-            "longitude": "086 04 24 W",
+            "latitude": 35.8292,
+            "longitude": -86.0733,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -3030,7 +3030,7 @@
                 "local": "Woodbury",
                 "cwms": "WDBT1-WoodburyTN",
                 "lrn-dssname": "WOODBURY",
-                "uuid": "95d40c1e-4e10-41dc-bd2d-001571921b30"
+                "uuid": "9e468f66-23aa-4397-9268-6d4632d9ee53"
             }
         },
         "platformconfig": "",
@@ -3049,8 +3049,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "37 18 00 N",
-            "longitude": "084 55 60 W",
+            "latitude": 37.3,
+            "longitude": -84.9333,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -3062,7 +3062,7 @@
                 "local": "Liberty",
                 "cwms": "LBYK2-LibertyKY",
                 "lrn-dssname": "LIBERTY",
-                "uuid": "095856a5-b3cd-412f-a6e7-4878180b16d8"
+                "uuid": "a39196f0-fa1e-4312-840b-41d246d92860"
             }
         },
         "platformconfig": "",
@@ -3080,8 +3080,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 00 06",
-            "longitude": "85 37 20",
+            "latitude": 35.0017,
+            "longitude": -85.6222,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -3090,7 +3090,7 @@
             "sitenames": {
                 "nwshb5": "NKJT1",
                 "cwms": "NKJT1-NICKAJACK",
-                "uuid": "935c4ff5-f411-44c2-a099-406c888acbe3"
+                "uuid": "ca0c3c9f-03ae-40f6-bb41-5f9f5dff8a15"
             }
         },
         "platformconfig": "",
@@ -3108,8 +3108,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 36 31",
-            "longitude": "84 47 19",
+            "latitude": 35.6086,
+            "longitude": -84.7886,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -3118,7 +3118,7 @@
             "sitenames": {
                 "nwshb5": "WBOT1",
                 "cwms": "WBOT1-WATTS_BAR",
-                "uuid": "6835df07-ddbd-4ee5-8b6c-fd1b8f715024"
+                "uuid": "bae5493c-330e-40dd-b248-efb766b0a1e4"
             }
         },
         "platformconfig": "",
@@ -3137,8 +3137,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 36 09 N",
-            "longitude": "086 42 55 W",
+            "latitude": 36.6025,
+            "longitude": -86.7153,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -3150,7 +3150,7 @@
                 "local": "Orlinda",
                 "cwms": "ORLT1-OrlindaTN",
                 "lrn-dssname": "ORLINDA",
-                "uuid": "4fe87cb3-d512-4dcf-bb3d-52cb2deb1a98"
+                "uuid": "7a9fb19b-78bc-45c0-8026-df61c311ac0f"
             }
         },
         "platformconfig": "",
@@ -3172,7 +3172,7 @@
             "elevationunits": "ft",
             "sitenames": {
                 "nwshb5": "CNTT1",
-                "uuid": "00d0518f-1a30-4682-aa30-096da465238e"
+                "uuid": "8066a682-0c43-43bb-9095-34d8592e6adc"
             }
         },
         "platformconfig": "",
@@ -3191,8 +3191,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 47 39 N",
-            "longitude": "087 57 52 W",
+            "latitude": 36.7942,
+            "longitude": -87.9644,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -3204,7 +3204,7 @@
                 "local": "Canton",
                 "cwms": "CTNK2-CantonKY",
                 "lrn-dssname": "CANTON",
-                "uuid": "237b4a74-5f87-4e3b-8b7f-18ef05a65d4f"
+                "uuid": "10d31320-e970-4b16-b125-424e4c4c448e"
             }
         },
         "platformconfig": "",
@@ -3223,8 +3223,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 09 00 N",
-            "longitude": "085 29 60 W",
+            "latitude": 36.15,
+            "longitude": -85.5,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -3236,7 +3236,7 @@
                 "local": "Cookeville",
                 "cwms": "COOT1-CookevilleTN",
                 "lrn-dssname": "COOKEVILLE",
-                "uuid": "f4f86232-7217-4065-b636-aae060fe0382"
+                "uuid": "af90c532-3648-4b6e-bb86-90979db67729"
             }
         },
         "platformconfig": "",
@@ -3254,8 +3254,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "5 56 44",
-            "longitude": "83 55 44",
+            "latitude": 5.9456,
+            "longitude": -83.9289,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -3264,7 +3264,7 @@
             "sitenames": {
                 "nwshb5": "KWTT1",
                 "cwms": "KWTT1-KnoxvilleTN-WTP",
-                "uuid": "2f475cbb-2ce7-456f-9c08-5f0505ee3cb9"
+                "uuid": "4a61fd9f-216b-4db1-ae85-83e0574d7dfb"
             }
         },
         "platformconfig": "",
@@ -3283,8 +3283,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "37 34 28 N",
-            "longitude": "084 15 09 W",
+            "latitude": 37.5744,
+            "longitude": -84.2525,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -3296,7 +3296,7 @@
                 "local": "Berea",
                 "cwms": "BRAK2-BereaKY",
                 "lrn-dssname": "BEREA",
-                "uuid": "72203a1c-c1a1-4229-928e-c9a82765d6a4"
+                "uuid": "72417936-0198-480f-88b1-bc75a2cb11d1"
             }
         },
         "platformconfig": "",
@@ -3315,8 +3315,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 59 36 N",
-            "longitude": "087 46 41 W",
+            "latitude": 36.9933,
+            "longitude": -87.7781,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -3328,7 +3328,7 @@
                 "local": "Cobb",
                 "cwms": "CBBK2-CobbKY",
                 "lrn-dssname": "COBB",
-                "uuid": "584764f4-72e3-4727-b95f-26bd957a52e0"
+                "uuid": "d9980223-aefb-4dee-a9b8-1fcb6e998773"
             }
         },
         "platformconfig": "",
@@ -3347,8 +3347,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 48 08 N",
-            "longitude": "087 06 08 W",
+            "latitude": 36.8022,
+            "longitude": -87.1022,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -3360,7 +3360,7 @@
                 "local": "Elkton",
                 "cwms": "EKTK2-ElktonKY",
                 "lrn-dssname": "ELKTON",
-                "uuid": "8d326735-1709-4fd5-a1f7-f6768801e9f1"
+                "uuid": "c3f98550-023a-490e-b7a3-847e8353a061"
             }
         },
         "platformconfig": "",
@@ -3379,8 +3379,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/22/2016 13:12:23",
         "site": {
-            "latitude": "035 56 53 N",
-            "longitude": "086 52 54 W",
+            "latitude": 35.9481,
+            "longitude": -86.8817,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -3392,7 +3392,7 @@
                 "local": "HarpethRblwFranklin",
                 "cwms": "HBFT1-HarpethR-blwFranklin",
                 "lrn-dssname": "HARPETH_R_BLW_FRANKLIN",
-                "uuid": "850e8639-62a0-47b2-bc53-23ba478779cf"
+                "uuid": "b090f475-dd3b-449d-9e8a-81ce6bafda39"
             }
         },
         "platformconfig": "",
@@ -3411,8 +3411,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/22/2016 13:12:23",
         "site": {
-            "latitude": "36 02 13 N",
-            "longitude": "88 13 44 W",
+            "latitude": 36.0369,
+            "longitude": -88.2289,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -3421,7 +3421,7 @@
             "sitenames": {
                 "nwshb5": "BIGT1",
                 "cwms": "BIGT1-BigSandyR-BrucetonTN",
-                "uuid": "9d94dc95-3003-40e4-bf01-1e3e08dcdd5d"
+                "uuid": "0b94b773-4e84-4cad-80ea-492047044870"
             }
         },
         "platformconfig": "",
@@ -3439,8 +3439,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/22/2016 13:12:23",
         "site": {
-            "latitude": "35 34 35 N",
-            "longitude": "86 46 44 W",
+            "latitude": 35.5764,
+            "longitude": -86.7789,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -3449,7 +3449,7 @@
             "sitenames": {
                 "nwshb5": "MLTT1",
                 "cwms": "MLTT1-DuckR-avbMilltownTN",
-                "uuid": "877820eb-6ba4-48c1-a33e-eb059c3025e4"
+                "uuid": "3bced85a-304c-470a-9d89-3b0405bfcd63"
             }
         },
         "platformconfig": "",
@@ -3468,8 +3468,8 @@
         "isproduction": "true",
         "lastmodifytime": "06/21/2018 18:17:43",
         "site": {
-            "latitude": "36 18 52 N",
-            "longitude": "87 13 39 W",
+            "latitude": 36.3144,
+            "longitude": -87.2275,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -3481,7 +3481,7 @@
                 "local": "CheathamHWRdnt",
                 "cwms": "CHPT1-CHEATHAM",
                 "lrn-dssname": "CHEATHAM_DAM_HW_RDNT",
-                "uuid": "93105b1f-a2a9-4b63-a799-85e0606b7113"
+                "uuid": "2bce3be9-1aa2-44d9-b07b-988770bd519b"
             }
         },
         "platformconfig": "",
@@ -3504,7 +3504,7 @@
             "description": "CE034WOL is a dummy site name for manually entered data from the project\n        operators.  This site is used in a platform with an identical Transport\n        ID.",
             "sitenames": {
                 "local": "CELRNCHE",
-                "uuid": "502ca78e-d758-4d84-b1cc-a3f93523870c"
+                "uuid": "760447b8-a703-4818-88bb-3480a3358e04"
             }
         },
         "platformconfig": "",
@@ -3527,7 +3527,7 @@
             "description": "CE034WOL is a dummy site name for manually entered data from the project\n        operators.  This site is used in a platform with an identical Transport\n        ID.",
             "sitenames": {
                 "local": "CELRNDAL",
-                "uuid": "e61442da-e06d-4d14-8764-3027fba51d28"
+                "uuid": "1b920554-ad38-4875-a92a-7ad3902a49a9"
             }
         },
         "platformconfig": "",
@@ -3550,7 +3550,7 @@
             "description": "CE034WOL is a dummy site name for manually entered data from the project\n        operators.  This site is used in a platform with an identical Transport\n\n        ID.",
             "sitenames": {
                 "local": "CELRNJPP",
-                "uuid": "9a8369a3-d1b2-4af0-9310-143eaed29445"
+                "uuid": "2722ffcb-5f2a-442b-aae5-c26df4c5e570"
             }
         },
         "platformconfig": "",
@@ -3573,7 +3573,7 @@
             "description": "CE034WOL is a dummy site name for manually entered data from the project\n        operators.  This site is used in a platform with an identical Transport\n        ID.",
             "sitenames": {
                 "local": "CELRNOLD",
-                "uuid": "9d729d25-f890-4231-8bd4-6f1fc660309a"
+                "uuid": "0425b633-33e8-4c0d-bd8f-a7457e15b779"
             }
         },
         "platformconfig": "",
@@ -3595,7 +3595,7 @@
             "description": "CE034WOL is a dummy site name for manually entered data from the project\n        operators.  This site is used in a platform with an identical Transport\n        ID.",
             "sitenames": {
                 "local": "CELRNLAU",
-                "uuid": "eaf4c3ea-1deb-407b-980d-379d437a1dcc"
+                "uuid": "77d2bd87-98cd-4109-b602-1f40c11ba83c"
             }
         },
         "platformconfig": "",
@@ -3614,8 +3614,8 @@
         "isproduction": "true",
         "lastmodifytime": "06/21/2018 18:17:43",
         "site": {
-            "latitude": "36 05 38 N",
-            "longitude": "085 49 38 W",
+            "latitude": 36.0939,
+            "longitude": -85.8272,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -3627,7 +3627,7 @@
                 "local": "CenterHillDamRdnt",
                 "cwms": "CEHT1-CENTER_HILL",
                 "lrn-dssname": "CENTER_HILL_RDNT",
-                "uuid": "653638af-a058-43dd-8054-2573b25ae6b5"
+                "uuid": "0ff0e1e1-7116-43b2-9e67-ec1ec5bf0824"
             }
         },
         "platformconfig": "",
@@ -3645,8 +3645,8 @@
         "isproduction": "true",
         "lastmodifytime": "06/21/2018 18:17:44",
         "site": {
-            "latitude": "36 57 45 N",
-            "longitude": "84 16 04 W",
+            "latitude": 36.9625,
+            "longitude": -84.2678,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -3656,7 +3656,7 @@
             "sitenames": {
                 "nwshb5": "LAPK2",
                 "cwms": "LAPK2-LAUREL",
-                "uuid": "35991072-5e05-42e6-ad0a-b58dfdb75416"
+                "uuid": "bb1af020-f53e-4f4c-9745-138a857d9a96"
             }
         },
         "platformconfig": "",
@@ -3675,8 +3675,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 58 24 N",
-            "longitude": "082 59 38 W",
+            "latitude": 36.9733,
+            "longitude": -82.9939,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -3688,7 +3688,7 @@
                 "local": "PoorFkCumbRCumberlan",
                 "lrn-dssname": "CUMBERLAND_KY.",
                 "cwms": "CMBK2-PoorFk-CumberlandKY",
-                "uuid": "63221715-9fba-4be5-a8ee-7671a7f34947"
+                "uuid": "13f844b5-f11a-4844-adc4-64cd0c33b8f4"
             }
         },
         "platformconfig": "",
@@ -3706,8 +3706,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/22/2016 13:12:23",
         "site": {
-            "latitude": "35 31 05 N",
-            "longitude": "86 56 31 W",
+            "latitude": 35.5181,
+            "longitude": -86.9419,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -3716,7 +3716,7 @@
             "sitenames": {
                 "nwshb5": "FNHT1",
                 "cwms": "FNHT1-FountainCr-nrFountainHeightsTN",
-                "uuid": "2ed4ebc9-0c98-4a64-8606-1e84c0c421c4"
+                "uuid": "867a2c98-0553-4491-a6de-fb052c1eb9db"
             }
         },
         "platformconfig": "",
@@ -3735,8 +3735,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 29 14 N",
-            "longitude": "086 18 38 W",
+            "latitude": 36.4872,
+            "longitude": -86.3106,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -3748,7 +3748,7 @@
                 "local": "Bethpage",
                 "cwms": "BPGT1-BethpageTN",
                 "lrn-dssname": "BETHPAGE",
-                "uuid": "e7270bc6-4fd7-45ec-a741-fd6e691c5364"
+                "uuid": "8970d053-bcb5-473f-8d01-269b743378b8"
             }
         },
         "platformconfig": "",
@@ -3767,8 +3767,8 @@
         "isproduction": "true",
         "lastmodifytime": "05/10/2016 17:25:00",
         "site": {
-            "latitude": "36 51 47 N",
-            "longitude": "83 53 15 W",
+            "latitude": 36.8631,
+            "longitude": -83.8875,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -3780,7 +3780,7 @@
                 "nwshb5": "BBVK2",
                 "local": "CumberlandR-BarbourvilleKY",
                 "cwms": "BBVK2-CumberlandR-BarbourvilleKY",
-                "uuid": "e3fa43f0-5218-41fc-ada6-59299d482f96"
+                "uuid": "683092b7-8dc9-42fa-938a-9aa2d65ebdd8"
             }
         },
         "platformconfig": "",
@@ -3798,8 +3798,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/22/2016 13:12:23",
         "site": {
-            "latitude": "35 47 03 N",
-            "longitude": "87 27 36 W",
+            "latitude": 35.7842,
+            "longitude": -87.46,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -3808,7 +3808,7 @@
             "sitenames": {
                 "nwshb5": "CNVT1",
                 "cwms": "CNVT1-DuckR-CentervilleTN",
-                "uuid": "2e27fda6-6fb6-4056-b19f-1012d2c8acf0"
+                "uuid": "ead4b9d0-09c4-45bd-af43-dd123ae95973"
             }
         },
         "platformconfig": "",
@@ -3826,8 +3826,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/22/2016 13:12:23",
         "site": {
-            "latitude": "35 30 16N",
-            "longitude": "86 46 07 W",
+            "latitude": 35.5044,
+            "longitude": -86.7686,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -3836,7 +3836,7 @@
             "sitenames": {
                 "nwshb5": "DBLT1",
                 "cwms": "DBLT1-BigRockCr-nrDoubleBridgesTN",
-                "uuid": "e07d82f1-fb80-4c97-a010-8b4c30bddbb4"
+                "uuid": "29e8d3e5-1eb3-40dc-84bf-86c329ebbf57"
             }
         },
         "platformconfig": "",
@@ -3854,8 +3854,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/22/2016 13:12:38",
         "site": {
-            "latitude": "36 06 25",
-            "longitude": "87 38 13",
+            "latitude": 36.1069,
+            "longitude": -87.6369,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -3864,7 +3864,7 @@
             "sitenames": {
                 "nwshb5": "MCET1",
                 "cwms": "MCET1-McEwenTN",
-                "uuid": "53a48e84-4c51-4352-a80e-4528523a197b"
+                "uuid": "48cc73a8-16bb-4d04-8a6a-899a1980126b"
             }
         },
         "platformconfig": "",
@@ -3883,8 +3883,8 @@
         "isproduction": "true",
         "lastmodifytime": "06/21/2018 18:17:44",
         "site": {
-            "latitude": "36 17 50 N",
-            "longitude": "086 39 32 W",
+            "latitude": 36.2972,
+            "longitude": -86.6589,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -3896,7 +3896,7 @@
                 "local": "OldHickoryHwRdnt",
                 "cwms": "OHHT1-OLD_HICKORY",
                 "lrn-dssname": "OLD_HICKORY_DAM_HW_RDNT",
-                "uuid": "ace8ad06-8f11-4a22-a7bb-0665a3f21da6"
+                "uuid": "50b60c57-8bb9-4886-a7af-45c931b6b59b"
             }
         },
         "platformconfig": "",
@@ -3919,7 +3919,7 @@
             "description": "CE034WOL is a dummy site name for manually entered data from the project\n        operators.  This site is used in a platform with an identical Transport\n        ID.",
             "sitenames": {
                 "local": "CELRNCOR",
-                "uuid": "6c778e22-1eee-4776-b7ed-efc2b76e6f0d"
+                "uuid": "c552362c-ede1-4bc6-82ac-483b4e103eaa"
             }
         },
         "platformconfig": "",
@@ -3942,7 +3942,7 @@
             "description": "CE034WOL is a dummy site name for manually entered data from the project\n        operators.  This site is used in a platform with an identical Transport\n\n        ID.",
             "sitenames": {
                 "local": "CELRNWOL",
-                "uuid": "fba917a8-b532-4e13-8ac4-d7bbcc1e9a78"
+                "uuid": "8cdf17c4-d0c5-4fa2-8ac6-156f0906cc17"
             }
         },
         "platformconfig": "",
@@ -3965,7 +3965,7 @@
             "description": "CE034WOL is a dummy site name for manually entered data from the project\n        operators.  This site is used in a platform with an identical Transport\n        ID.",
             "sitenames": {
                 "local": "CELRNBAR",
-                "uuid": "749e3e5d-b467-4192-b0f1-fcbb00657ca3"
+                "uuid": "0444693c-e42c-4cfe-b274-a2eb045f2d1f"
             }
         },
         "platformconfig": "",
@@ -3989,7 +3989,7 @@
             "description": "CE034WOL is a dummy site name for manually entered data from the project\n        operators.  This site is used in a platform with an identical Transport\n        ID.",
             "sitenames": {
                 "local": "CELRNCEN",
-                "uuid": "f2b9e19f-7028-4c80-9471-03ba449af7fa"
+                "uuid": "e7bb6e81-b279-4ff0-98f5-254ce183fdb9"
             }
         },
         "platformconfig": "",
@@ -4012,7 +4012,7 @@
             "description": "Wolf Creek Project Operations manually entered data; EDL on LRGS",
             "sitenames": {
                 "local": "COELRNWO",
-                "uuid": "c505b2b0-e37f-4109-a52b-18ed78420e65"
+                "uuid": "ed9442c0-5bf9-4d37-8cb9-0e31e0f66635"
             }
         },
         "platformconfig": "",
@@ -4035,7 +4035,7 @@
             "description": "Barkley Project Operations manually entered data; EDL on LRGS",
             "sitenames": {
                 "local": "COELRNBA",
-                "uuid": "598d6eac-e990-49db-b737-ee68aadc5ab2"
+                "uuid": "5eea8125-a8c4-4cc5-868b-f78203ebfb79"
             }
         },
         "platformconfig": "",
@@ -4058,7 +4058,7 @@
             "description": "Center Hill Project Operations manually entered data; EDL on LRGS",
             "sitenames": {
                 "local": "COELRNCE",
-                "uuid": "feee1305-fa34-473b-a7f7-09c229b1f46d"
+                "uuid": "c8c00411-2514-4945-9b4e-3bcc15706223"
             }
         },
         "platformconfig": "",
@@ -4081,7 +4081,7 @@
             "description": "Cheatham Project Operations manually entered data; EDL on LRGS",
             "sitenames": {
                 "local": "COELRNCH",
-                "uuid": "5e2f9ae0-1329-48d1-a868-1c3c5aba0647"
+                "uuid": "84b685ef-daa5-4dd2-ba7b-e63287e40ace"
             }
         },
         "platformconfig": "",
@@ -4104,7 +4104,7 @@
             "description": "Cordell Hull Project Operations manually entered data; EDL on LRGS",
             "sitenames": {
                 "local": "COELRNCO",
-                "uuid": "0cf0754d-0310-4ea4-81a6-eda2f1379bc5"
+                "uuid": "0d3e8015-a986-4b47-af9b-48d2db7ad038"
             }
         },
         "platformconfig": "",
@@ -4127,7 +4127,7 @@
             "description": "Dale Hollow Project Operations manually entered data; EDL on LRGS",
             "sitenames": {
                 "local": "COELRNDA",
-                "uuid": "9e63e27d-39ef-480f-b3bf-46e5be4bef99"
+                "uuid": "81a1e5cd-faa0-4332-9a6c-3f8617487d9c"
             }
         },
         "platformconfig": "",
@@ -4150,7 +4150,7 @@
             "description": "J Percy Priest Project Operations manually entered data; EDL on LRGS",
             "sitenames": {
                 "local": "COELRNJP",
-                "uuid": "4c8ecb09-526d-4770-af22-4d8959a9b918"
+                "uuid": "70831df5-01d3-4480-a5e6-30db5233ceef"
             }
         },
         "platformconfig": "",
@@ -4173,7 +4173,7 @@
             "description": "Laurel Project Operations manually entered data; EDL on LRGS",
             "sitenames": {
                 "local": "COELRNLA",
-                "uuid": "1c523bb0-0b12-45b2-8d41-7abc68f72ca3"
+                "uuid": "26a1edc0-96a3-4409-8ddf-b82a647d8bfa"
             }
         },
         "platformconfig": "",
@@ -4196,7 +4196,7 @@
             "description": "Old Hickory Project Operations manually entered data; EDL on LRGS",
             "sitenames": {
                 "local": "COELRNOL",
-                "uuid": "4297664f-fe80-487e-a8ac-c7e28e80e217"
+                "uuid": "4934b0cf-4914-4588-9ac1-ee3b3c23cecc"
             }
         },
         "platformconfig": "",
@@ -4215,8 +4215,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/22/2016 13:12:52",
         "site": {
-            "latitude": "36 17 49",
-            "longitude": "86 39 31",
+            "latitude": 36.2969,
+            "longitude": -86.6586,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -4228,7 +4228,7 @@
                 "cwms": "OHGT1-OLD_HICKORY",
                 "local": "OldHickoryOpeningGates",
                 "lrn-dssname": "OLD_HICKORY_OPENING_GATE",
-                "uuid": "f8ee93cd-cb67-4d79-baa7-d712b8fed777"
+                "uuid": "78ed1c56-2a8a-4f65-9681-7ad3a2c2b817"
             }
         },
         "platformconfig": "",
@@ -4246,8 +4246,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/22/2016 13:11:26",
         "site": {
-            "latitude": "37.020683",
-            "longitude": "-88.223523",
+            "latitude": 37.0207,
+            "longitude": -88.2235,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -4256,7 +4256,7 @@
             "description": "Barkley Dam Spillwat Gate Positioning",
             "sitenames": {
                 "local": "Barkley-Spillway-Gates",
-                "uuid": "ce4f8ad9-2805-4769-9524-745702bc53f2"
+                "uuid": "bc257152-d5b8-4cfa-b805-272e559a717e"
             }
         },
         "platformconfig": "",
@@ -4273,8 +4273,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/22/2016 13:12:52",
         "site": {
-            "latitude": "36.290098",
-            "longitude": "-85.943212",
+            "latitude": 36.2901,
+            "longitude": -85.9432,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -4282,7 +4282,7 @@
             "description": "Cordell Hull Spillway Gate Positions",
             "sitenames": {
                 "local": "Cordell-Hull-Spillway-Gates",
-                "uuid": "75a96855-ffcb-4ea2-9040-ce699fa23e8f"
+                "uuid": "31de340d-4115-4adf-b43b-f3532935a1f4"
             }
         },
         "platformconfig": "",
@@ -4300,8 +4300,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/22/2016 13:11:39",
         "site": {
-            "latitude": "37.020683",
-            "longitude": "-88.223523",
+            "latitude": 37.0207,
+            "longitude": -88.2235,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -4310,7 +4310,7 @@
             "description": "Barkley Dam Spillwat Gate Positioning",
             "sitenames": {
                 "local": "Barkley-Spillway-Gates",
-                "uuid": "abdda8e0-8c49-4d92-ada4-65691f5389e3"
+                "uuid": "5915b9bf-aa01-4cda-808b-b68487a65914"
             }
         },
         "platformconfig": "",
@@ -4327,8 +4327,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/22/2016 13:12:52",
         "site": {
-            "latitude": "36.319612",
-            "longitude": "-87.222648",
+            "latitude": 36.3196,
+            "longitude": -87.2226,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -4337,7 +4337,7 @@
             "description": "Cheatham Lock and Dam Spillway Gate Positions",
             "sitenames": {
                 "local": "Cheatham-Spillway-Gates",
-                "uuid": "e4db8ebc-aa08-42c0-8494-f35b00896abd"
+                "uuid": "93c1c2cc-c23e-4a32-b717-a2709103b6c0"
             }
         },
         "platformconfig": "",
@@ -4356,8 +4356,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/23/2016 13:15:44",
         "site": {
-            "latitude": "36 13 03",
-            "longitude": "86 49 13",
+            "latitude": 36.2175,
+            "longitude": -86.8203,
             "elevation": "402.87",
             "elevationunits": "ft",
             "timezone": "US/Central",
@@ -4369,7 +4369,7 @@
                 "cwms": "BORT1",
                 "usgs": "03431599",
                 "01": "03431599",
-                "uuid": "edb8518b-e849-4e31-8e3e-d2f5dbe806d4"
+                "uuid": "089b25dd-813c-4209-9aa4-90317dfda7ae"
             }
         },
         "platformconfig": "",
@@ -4388,8 +4388,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/23/2016 16:55:46",
         "site": {
-            "latitude": "36 09 04",
-            "longitude": "86 51 15",
+            "latitude": 36.1511,
+            "longitude": -86.8542,
             "elevation": "409.56",
             "elevationunits": "ft",
             "timezone": "US/Central",
@@ -4401,7 +4401,7 @@
                 "usgs": "03431700",
                 "01": "03431700",
                 "cwms": "NRCT1",
-                "uuid": "1c9f4fd3-c5d3-4f7b-b50b-c32df3b70dca"
+                "uuid": "8a456b58-67cb-4d55-8f5e-ff492ab7f27a"
             }
         },
         "platformconfig": "",
@@ -4420,8 +4420,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/23/2016 16:58:33",
         "site": {
-            "latitude": "36 07 48",
-            "longitude": "86 45 40",
+            "latitude": 36.13,
+            "longitude": -86.7611,
             "elevation": "439.81",
             "elevationunits": "ft",
             "timezone": "US/Central",
@@ -4433,7 +4433,7 @@
                 "usgs": "03431300",
                 "01": "03431300",
                 "cwms": "NBCT1",
-                "uuid": "83f18517-8d32-4300-beef-130ccfe39c95"
+                "uuid": "dbc17081-a9af-404c-a276-064c0f49f770"
             }
         },
         "platformconfig": "",
@@ -4452,8 +4452,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/20/2016 19:34:20",
         "site": {
-            "latitude": "N 36*10'02\"",
-            "longitude": "W 86*46'35\"",
+            "latitude": 36.1672,
+            "longitude": -86.7764,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -4464,7 +4464,7 @@
             "sitenames": {
                 "nwshb5": "NSST1",
                 "local": "CumberlandNashville",
-                "uuid": "5a16c967-8480-4406-ac89-3ce562e4df75"
+                "uuid": "6487b608-0117-4395-855c-00357c83bc8c"
             }
         },
         "platformconfig": "",
@@ -4482,8 +4482,8 @@
         "isproduction": "true",
         "lastmodifytime": "12/12/2016 18:29:01",
         "site": {
-            "latitude": "37 05 22",
-            "longitude": "88 35 40",
+            "latitude": 37.0894,
+            "longitude": -88.5944,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -4493,7 +4493,7 @@
                 "local": "Paducah",
                 "usgs": "03611000",
                 "01": "03611000",
-                "uuid": "1e10932d-37e9-4113-b5a6-c0a96e0597f6"
+                "uuid": "f4419db2-b033-475c-9b7c-77f875c235d8"
             }
         },
         "platformconfig": "",
@@ -4512,8 +4512,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 45 02 N",
-            "longitude": "83 15 35 W",
+            "latitude": 36.7506,
+            "longitude": -83.2597,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -4522,7 +4522,7 @@
             "sitenames": {
                 "nwshb5": "MFLK2",
                 "cwms": "MFLK2-MARTINS_FORK",
-                "uuid": "a182a598-6206-46cb-b3b9-a9d99e575fb9"
+                "uuid": "688396ac-99b4-4633-a982-377fbdff5e02"
             }
         },
         "platformconfig": "",
@@ -4545,7 +4545,7 @@
             "description": "Ogdensburg, NY",
             "sitenames": {
                 "nos": "83110301",
-                "uuid": "e225def4-afdd-4be9-b77d-61a778f34229"
+                "uuid": "3890dfd5-8d0c-48b3-b99f-016c9d1e7a4e"
             }
         },
         "transportmedium": {
@@ -4567,7 +4567,7 @@
             "description": "Algonac, MI",
             "sitenames": {
                 "nos": "90140701",
-                "uuid": "b532d840-66bb-4eff-a396-75a159099797"
+                "uuid": "f0c1c711-5733-4109-b715-800506fa1aeb"
             }
         },
         "transportmedium": {
@@ -4589,7 +4589,7 @@
             "description": "Gibraltar, MI",
             "sitenames": {
                 "nos": "90440201",
-                "uuid": "bdf6b0b6-b1ea-43de-93eb-cca6901b361d"
+                "uuid": "5d179ed6-6c8d-4300-89be-9e01735bd0ad"
             }
         },
         "transportmedium": {
@@ -4611,7 +4611,7 @@
             "description": "Wyandotte, MI",
             "sitenames": {
                 "nos": "90440301",
-                "uuid": "c5b44860-bdb4-405e-a130-e9b90677c320"
+                "uuid": "dfc797b7-2562-447b-bcc0-ba283381ef97"
             }
         },
         "transportmedium": {
@@ -4633,7 +4633,7 @@
             "description": "Oswego, NY",
             "sitenames": {
                 "nos": "90520301",
-                "uuid": "29877d06-7fa9-4d86-b3bf-48d99c340564"
+                "uuid": "cc6a8006-b783-43a7-b286-bb8906bf5c96"
             }
         },
         "transportmedium": {
@@ -4655,7 +4655,7 @@
             "description": "Olcott, NY",
             "sitenames": {
                 "nos": "90520761",
-                "uuid": "afc2a2be-0a30-4b8b-b0b5-98feef4ffec4"
+                "uuid": "db2b29f6-318a-46ed-945f-ce0a502afb4c"
             }
         },
         "transportmedium": {
@@ -4677,7 +4677,7 @@
             "description": "Ashland Ave., NY",
             "sitenames": {
                 "nos": "90630071",
-                "uuid": "5723cea9-4d05-4fb8-a2f4-6a51c777f51c"
+                "uuid": "2d78e364-62cc-413a-ac36-2adbdb6445df"
             }
         },
         "transportmedium": {
@@ -4699,7 +4699,7 @@
             "description": "Erie, PA",
             "sitenames": {
                 "nos": "90630381",
-                "uuid": "775151e3-96c1-4180-b443-cb235a6564c7"
+                "uuid": "ba9a9381-ed05-48c2-9e22-abe3a3ebc6a7"
             }
         },
         "transportmedium": {
@@ -4721,7 +4721,7 @@
             "description": "Fairport, OH",
             "sitenames": {
                 "nos": "90630531",
-                "uuid": "26b96212-b431-467b-bd3f-f7de9907b2ab"
+                "uuid": "9e7c4265-a1e3-4c9c-9099-9cd3939000b0"
             }
         },
         "transportmedium": {
@@ -4743,7 +4743,7 @@
             "description": "Cleveland, OH",
             "sitenames": {
                 "nos": "90630631",
-                "uuid": "f8ad4074-80bd-4482-9419-be6975563354"
+                "uuid": "41ecc9d7-1766-4021-a3f8-7caea3de5f9d"
             }
         },
         "transportmedium": {
@@ -4765,7 +4765,7 @@
             "description": "Marblehead, OH",
             "sitenames": {
                 "nos": "90630791",
-                "uuid": "fd2353c4-702c-4a12-81f1-791caf415da9"
+                "uuid": "a1c1eaa2-7749-4f15-9f26-fd855388f586"
             }
         },
         "transportmedium": {
@@ -4787,7 +4787,7 @@
             "description": "Toledo, OH",
             "sitenames": {
                 "nos": "90630851",
-                "uuid": "c5e79cb8-34c8-446e-9d25-86247ea7304d"
+                "uuid": "cd82f1f6-ade2-4646-9048-3f8b0a24195b"
             }
         },
         "transportmedium": {
@@ -4809,7 +4809,7 @@
             "description": "Lakeport, MI",
             "sitenames": {
                 "nos": "90750021",
-                "uuid": "d955b70e-9a6c-48ca-a1d4-be2e7c812097"
+                "uuid": "ab2810cf-7125-4fe0-a482-6c37df85a711"
             }
         },
         "transportmedium": {
@@ -4831,7 +4831,7 @@
             "description": "Essexville, MI",
             "sitenames": {
                 "nos": "90750351",
-                "uuid": "e12cf81f-9d0c-43dd-8c72-2411aed6fa8f"
+                "uuid": "7ee7fd09-8054-4e24-84a5-2956cbe6c9b7"
             }
         },
         "transportmedium": {
@@ -4853,7 +4853,7 @@
             "description": "Alpena",
             "sitenames": {
                 "nos": "90750651",
-                "uuid": "cca526a9-f8e8-4156-ae5c-cd48bceb910e"
+                "uuid": "361ffa35-eb47-4803-8bfa-f2027edf7df5"
             }
         },
         "transportmedium": {
@@ -4875,7 +4875,7 @@
             "description": "Mackinaw City, MI",
             "sitenames": {
                 "nos": "90750801",
-                "uuid": "d46cc2c0-4999-4865-bff8-296a6de0caef"
+                "uuid": "5d0244d1-938d-446d-8e52-0290b005bf42"
             }
         },
         "transportmedium": {
@@ -4897,7 +4897,7 @@
             "description": "Ludington, MI",
             "sitenames": {
                 "nos": "90870231",
-                "uuid": "d48136a4-4079-4a6a-9942-352057c41ab1"
+                "uuid": "f5fc08a1-46dc-4017-845e-68648451bf49"
             }
         },
         "transportmedium": {
@@ -4919,7 +4919,7 @@
             "description": "Holland, MI",
             "sitenames": {
                 "nos": "90870311",
-                "uuid": "65892844-8ca2-49eb-a6bc-26dafce108e0"
+                "uuid": "cf35a6c8-b756-4666-93a8-50d0488acd8c"
             }
         },
         "transportmedium": {
@@ -4941,7 +4941,7 @@
             "description": "Calumet Harbor, IL",
             "sitenames": {
                 "nos": "90870441",
-                "uuid": "e09d7715-df4b-4080-ae12-7ae87cdbe1db"
+                "uuid": "a301431d-9cc0-4e19-9d3d-e6ce14b5c5ca"
             }
         },
         "transportmedium": {
@@ -4963,7 +4963,7 @@
             "description": "Milwaukee, WI",
             "sitenames": {
                 "nos": "90870571",
-                "uuid": "3549b752-6ca4-4476-84cf-6ffc095f1add"
+                "uuid": "c5ba9296-0bcb-49aa-8914-3720db609351"
             }
         },
         "transportmedium": {
@@ -4985,7 +4985,7 @@
             "description": "Kewaunee, WI",
             "sitenames": {
                 "nos": "90870681",
-                "uuid": "fd5035a5-1427-4fc0-8ea8-453a263bbedb"
+                "uuid": "32520e7d-650e-487b-9221-e9ac0fb0887c"
             }
         },
         "transportmedium": {
@@ -5007,7 +5007,7 @@
             "description": "Menominee, MI",
             "sitenames": {
                 "nos": "90870881",
-                "uuid": "1a181b43-7a59-4ea1-8592-7e0da221b196"
+                "uuid": "826e7724-99b0-4f73-8714-41d74d6b882e"
             }
         },
         "transportmedium": {
@@ -5029,7 +5029,7 @@
             "description": "Marquette C.G., MI",
             "sitenames": {
                 "nos": "90990181",
-                "uuid": "c0ea5400-7a7b-4717-a2e0-abc4a645be2c"
+                "uuid": "1bccbaf8-043c-4338-90f0-9706f052aa8b"
             }
         },
         "transportmedium": {
@@ -5051,7 +5051,7 @@
             "description": "Ontonagon, MI",
             "sitenames": {
                 "nos": "90990441",
-                "uuid": "994fd8b7-c722-4097-b655-ffb6703d1a5c"
+                "uuid": "a40ea0c6-966a-4a62-b4c5-98cab9ee9bd7"
             }
         },
         "transportmedium": {
@@ -5073,7 +5073,7 @@
             "description": "Duluth, MN",
             "sitenames": {
                 "nos": "90990641",
-                "uuid": "07062034-628d-44c5-8d0a-baad9377e0e3"
+                "uuid": "1123f8da-09a8-4722-8005-f5c5490eaf55"
             }
         },
         "transportmedium": {
@@ -5090,8 +5090,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/16/2017 12:32:59",
         "site": {
-            "latitude": "42.395833",
-            "longitude": "-77.716667",
+            "latitude": 42.3958,
+            "longitude": -77.7167,
             "elevation": "1200.0",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -5101,7 +5101,7 @@
                 "nwshb5": "AKLN6",
                 "cwms": "AKLN6",
                 "local": "ArkportLake",
-                "uuid": "d04cad3c-8402-4c16-8c75-0673e2bd422d"
+                "uuid": "4e8a3037-d547-467b-870e-ee4d9232274a"
             }
         },
         "platformconfig": "",
@@ -5120,8 +5120,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "N 43\u00b005'32\"",
-            "longitude": "W 77\u00b040'50\"",
+            "latitude": 43.0922,
+            "longitude": -77.6806,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "UTC",
@@ -5134,7 +5134,7 @@
                 "nwshb5": "BLBN6",
                 "local": "BallantyneBr",
                 "cwms": "RochesterNY-BLBN6",
-                "uuid": "c895b520-20f7-40d5-8cbb-cb4f10948d95"
+                "uuid": "1fb3a89d-aefa-4b7d-ad05-f312cc938667"
             }
         },
         "platformconfig": "",
@@ -5153,8 +5153,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "N 43\u00b006'02\"",
-            "longitude": "W 77\u00b052'57\"",
+            "latitude": 43.1006,
+            "longitude": -77.8825,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "UTC",
@@ -5169,7 +5169,7 @@
                 "cwms": "ChurchvilleNY-CHCN6",
                 "usgs": "04231000",
                 "01": "04231000",
-                "uuid": "749f577d-2123-49d2-894d-4b636a964dcc"
+                "uuid": "9ccc71c2-55e5-456d-bd38-ecd928413ba7"
             }
         },
         "platformconfig": "",
@@ -5188,8 +5188,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "N 42\u00b032'08\"",
-            "longitude": "W 77\u00b042'16\"",
+            "latitude": 42.5356,
+            "longitude": -77.7044,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "UTC",
@@ -5204,7 +5204,7 @@
                 "cwms": "DansvilleNY-DSVN6",
                 "usgs": "04224775",
                 "01": "04224775",
-                "uuid": "71458494-a3ff-4180-b982-bd148d0efb86"
+                "uuid": "6e888269-61fc-483f-8f8d-10e42e229bfe"
             }
         },
         "platformconfig": "",
@@ -5223,8 +5223,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "N 42\u00b057'25\"",
-            "longitude": "W 77\u00b035'20\"",
+            "latitude": 42.9569,
+            "longitude": -77.5889,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "UTC",
@@ -5239,7 +5239,7 @@
                 "cwms": "HoneoyeCreekNY-HNYN6",
                 "usgs": "04229500",
                 "01": "04229500",
-                "uuid": "0fb4fb2f-3a9b-4510-a792-503b51cd271f"
+                "uuid": "f8e40159-6484-494c-8407-787fccb28b47"
             }
         },
         "platformconfig": "",
@@ -5258,8 +5258,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "N 42\u00b046'00\"",
-            "longitude": "W 77\u00b050'21\"",
+            "latitude": 42.7667,
+            "longitude": -77.8392,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "UTC",
@@ -5274,7 +5274,7 @@
                 "cwms": "JonesBridgeNY-JONN6",
                 "usgs": "04227500",
                 "01": "04227500",
-                "uuid": "b45dd2b4-8bd4-4a96-a194-9d0d54c7401f"
+                "uuid": "2df711dd-2056-4cb2-934f-f80022d410eb"
             }
         },
         "platformconfig": "",
@@ -5293,8 +5293,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "N 42\u00b007'20\"",
-            "longitude": "W 77\u00b057'27\"",
+            "latitude": 42.1222,
+            "longitude": -77.9575,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "UTC",
@@ -5309,7 +5309,7 @@
                 "cwms": "WellsvilleNY-WELN6",
                 "usgs": "04221000",
                 "01": "04221000",
-                "uuid": "249eb02e-ea6a-4d30-8a5e-19a61267820b"
+                "uuid": "253202a2-0a8b-4e5a-bddd-a13b2f80c3ff"
             }
         },
         "platformconfig": "",
@@ -5328,8 +5328,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "N 42\u00b044'39\"",
-            "longitude": "W 78\u00b008'16\"",
+            "latitude": 42.7442,
+            "longitude": -78.1378,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "UTC",
@@ -5344,7 +5344,7 @@
                 "cwms": "WarsawNY-WRSN6",
                 "usgs": "04230380",
                 "01": "04230380",
-                "uuid": "6274ee7d-3688-4847-a675-39c38d3bf8a1"
+                "uuid": "a2d41306-ee43-4ef1-a3b2-84592b4121e7"
             }
         },
         "platformconfig": "",
@@ -5362,8 +5362,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/16/2017 12:58:21",
         "site": {
-            "latitude": "41.9875",
-            "longitude": "-77.3025",
+            "latitude": 41.9875,
+            "longitude": -77.3025,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -5375,7 +5375,7 @@
                 "local": "CowanesqueElkland",
                 "usgs": "01519200",
                 "01": "01519200",
-                "uuid": "f6ab67c1-8143-4cf2-af68-b19a4c460836"
+                "uuid": "72803fb7-9e3d-4366-86d0-d4e2b3528096"
             }
         },
         "platformconfig": "",
@@ -5393,8 +5393,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/16/2017 13:20:39",
         "site": {
-            "latitude": "42.348889",
-            "longitude": "-77.704444",
+            "latitude": 42.3489,
+            "longitude": -77.7044,
             "elevation": "1200.0",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -5404,7 +5404,7 @@
                 "cwms": "HRLN6",
                 "nwshb5": "HRLN6",
                 "local": "AlmondLake",
-                "uuid": "aef92053-7ac5-4e81-ba22-2911cf9aa8c8"
+                "uuid": "904f3d4b-8e2e-4531-ac2b-de21793a9016"
             }
         },
         "platformconfig": "",
@@ -5422,8 +5422,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/16/2017 13:36:18",
         "site": {
-            "latitude": "41.8425",
-            "longitude": "-77.276667",
+            "latitude": 41.8425,
+            "longitude": -77.2767,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -5435,7 +5435,7 @@
                 "local": "CrookedCrMiddleburyCenter",
                 "usgs": "01518420",
                 "01": "01518420",
-                "uuid": "d0cd000e-b100-4ea9-a350-572726159a83"
+                "uuid": "40a6124c-77ca-48de-a5c0-0e9f152b052b"
             }
         },
         "platformconfig": "",
@@ -5453,8 +5453,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/16/2017 13:49:16",
         "site": {
-            "latitude": "42.329444",
-            "longitude": "-78.463611",
+            "latitude": 42.3294,
+            "longitude": -78.4636,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -5464,7 +5464,7 @@
                 "cwms": "FRKN6",
                 "nwshb5": "FRKN6",
                 "local": "Franklinville",
-                "uuid": "e219ae76-16df-473f-a5d8-a1de0a186fbb"
+                "uuid": "fa1a6921-eefe-4c99-85c2-00fc597c38e3"
             }
         },
         "platformconfig": "",
@@ -5482,8 +5482,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/16/2017 13:52:21",
         "site": {
-            "latitude": "42.073056",
-            "longitude": "-78.451111",
+            "latitude": 42.0731,
+            "longitude": -78.4511,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -5495,7 +5495,7 @@
                 "local": "AlleghenyNrOlean",
                 "usgs": "03010820",
                 "01": "03010820",
-                "uuid": "f5e46914-2cae-4101-aa89-f0856eb3320e"
+                "uuid": "c1a5219e-a579-4771-92f4-1f097d3c2766"
             }
         },
         "platformconfig": "",
@@ -5513,8 +5513,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/16/2017 14:15:19",
         "site": {
-            "latitude": "43.301111",
-            "longitude": "-78.310278",
+            "latitude": 43.3011,
+            "longitude": -78.3103,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -5526,7 +5526,7 @@
                 "local": "OakOrchardCreek",
                 "usgs": "422016550",
                 "01": "422016550",
-                "uuid": "90416e69-1c50-4011-9895-f70d93e004e3"
+                "uuid": "30542291-5420-4eb3-b5ed-eccc4641873b"
             }
         },
         "platformconfig": "",
@@ -5544,8 +5544,8 @@
         "isproduction": "true",
         "lastmodifytime": "08/16/2017 14:50:42",
         "site": {
-            "latitude": "41.961667",
-            "longitude": "-78.198333",
+            "latitude": 41.9617,
+            "longitude": -78.1983,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -5554,7 +5554,7 @@
                 "cwms": "SHNP1",
                 "nwshb5": "SHNP1",
                 "local": "OswayoCrShinglehouse",
-                "uuid": "f29305aa-3d9f-4c49-a525-8e59c63ac17f"
+                "uuid": "c418df64-1989-4b86-a8f3-ca50ef255c50"
             }
         },
         "platformconfig": "",
@@ -5572,8 +5572,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "N 42\u00b055'04\"",
-            "longitude": "W 77\u00b045'27\"",
+            "latitude": 42.9178,
+            "longitude": -77.7575,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "UTC",
@@ -5587,7 +5587,7 @@
                 "local": "Avon",
                 "usgs": "04228500",
                 "01": "04228500",
-                "uuid": "1463785f-06d4-47ed-958c-9d83a1f11a1e"
+                "uuid": "89d1a9ed-3342-4ebc-9aed-b3e29464ada8"
             }
         },
         "platformconfig": "",
@@ -5606,8 +5606,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "43 00 36",
-            "longitude": "77 47 30",
+            "latitude": 43.01,
+            "longitude": -77.7917,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -5618,7 +5618,7 @@
                 "local": "OatkaCreekGarbutt",
                 "usgs": "04230500",
                 "01": "04230500",
-                "uuid": "1f8a20b8-bcda-4961-be02-1cc385a8bd3e"
+                "uuid": "cb864d00-4ae7-446a-a975-7cf3d6ba1f02"
             }
         },
         "platformconfig": "",
@@ -5636,8 +5636,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "N 42\u00b043'59\"",
-            "longitude": "W 77\u00b054'27\"",
+            "latitude": 42.7331,
+            "longitude": -77.9075,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "UTC",
@@ -5650,7 +5650,7 @@
                 "nwshb5": "MMDN6",
                 "local": "MtMorris",
                 "cwms": "MtMorris-Lake",
-                "uuid": "0310a033-d1b8-4533-9800-2101d3254903"
+                "uuid": "4aa66a38-b454-44e0-808a-884b1f7969dd"
             }
         },
         "platformconfig": "",
@@ -5669,8 +5669,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "42 34 13",
-            "longitude": "78 02 33",
+            "latitude": 42.5703,
+            "longitude": -78.0425,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -5681,7 +5681,7 @@
                 "local": "Portageville",
                 "usgs": "04223000",
                 "01": "04223000",
-                "uuid": "b078f2f2-145d-4fd6-b543-60268b6305a7"
+                "uuid": "29c05639-1315-4958-808d-003e46c18769"
             }
         },
         "platformconfig": "",
@@ -5704,7 +5704,7 @@
             "description": "Rochester, NY",
             "sitenames": {
                 "nos": "90520581",
-                "uuid": "bc3d404e-6d75-404b-ab6d-fcd56649a431"
+                "uuid": "ddf3ee8f-a5fb-4ef9-9c7e-d2f94e79dffa"
             }
         },
         "platformconfig": "",
@@ -5723,8 +5723,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 32 29 N",
-            "longitude": "087 22 04 W",
+            "latitude": 36.5414,
+            "longitude": -87.3678,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -5736,7 +5736,7 @@
                 "cwms": "CKVT1-CumberlandR-ClarksvilleTN",
                 "local": "CumbRClarksville",
                 "lrn-dssname": "CLARKSVILLE",
-                "uuid": "35d59fd6-2fc2-4a54-9508-705df57cfe9b"
+                "uuid": "e7569ec3-0387-47fa-818c-9a9bfad0578b"
             }
         },
         "platformconfig": "",
@@ -5754,8 +5754,8 @@
         "isproduction": "true",
         "lastmodifytime": "09/11/2017 17:08:31",
         "site": {
-            "latitude": "43 08 30",
-            "longitude": "77 36 59",
+            "latitude": 43.1417,
+            "longitude": -77.6164,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EDT5EST",
@@ -5766,7 +5766,7 @@
                 "usgs": "04231600",
                 "01": "04231600",
                 "local": "Ford_Street_at_Rochester",
-                "uuid": "1b12ab50-4f6d-4d3f-bc19-154ff27ae4b5"
+                "uuid": "36a97ba3-fbfc-4e2a-b32e-3843b221d2b9"
             }
         },
         "platformconfig": "",
@@ -5784,8 +5784,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "N 35\u00b027'27\"",
-            "longitude": "W 86\u00b014'43\"",
+            "latitude": 35.4575,
+            "longitude": -86.2453,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -5795,7 +5795,7 @@
             "sitenames": {
                 "nwshb5": "NDPT1",
                 "local": "Normandy_Rain_Near_Normandy",
-                "uuid": "b017e530-e893-419a-9993-e93cc8966d18"
+                "uuid": "dea3b440-5650-43e0-b8ed-f4dd7a0f9952"
             }
         },
         "platformconfig": "",
@@ -5813,8 +5813,8 @@
         "isproduction": "true",
         "lastmodifytime": "02/28/2018 19:23:10",
         "site": {
-            "latitude": "N 35 27' 46\"",
-            "longitude": "W 86 14' 48\"",
+            "latitude": 35.4628,
+            "longitude": -86.2467,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -5824,7 +5824,7 @@
             "sitenames": {
                 "nwshb5": "NDTT1",
                 "local": "NORMANDY_TAILWATER",
-                "uuid": "a6870868-841b-4246-bbab-251861f10853"
+                "uuid": "684993ee-a0d0-4a45-8a36-62558a473559"
             }
         },
         "platformconfig": "",
@@ -5842,8 +5842,8 @@
         "isproduction": "true",
         "lastmodifytime": "02/28/2018 19:29:04",
         "site": {
-            "latitude": "N 35 27' 55\"",
-            "longitude": "W 86 14' 50\"",
+            "latitude": 35.4653,
+            "longitude": -86.2472,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -5853,7 +5853,7 @@
             "sitenames": {
                 "nwshb5": "NRMT1",
                 "local": "Normandy_Headwater",
-                "uuid": "ddeaed2d-a68a-4b0a-9dd2-eb8680e7802c"
+                "uuid": "0d68dccf-8a26-40cf-ae46-a299074d0737"
             }
         },
         "platformconfig": "",
@@ -5872,8 +5872,8 @@
         "isproduction": "true",
         "lastmodifytime": "07/06/2018 17:09:06",
         "site": {
-            "latitude": "36 53 01 N",
-            "longitude": "085 08 22 W",
+            "latitude": 36.8836,
+            "longitude": -85.1394,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -5885,7 +5885,7 @@
                 "local": "Rowena",
                 "cwms": "RWNK2-WOLF_CREEK",
                 "lrn-dssname": "Rowena",
-                "uuid": "b2c725e8-3545-42da-9f09-abbf7dc1a5e1"
+                "uuid": "0e81e807-81dc-4547-9d7d-9819bda849f9"
             }
         },
         "platformconfig": "",
@@ -5903,8 +5903,8 @@
         "isproduction": "true",
         "lastmodifytime": "09/13/2018 18:04:34",
         "site": {
-            "latitude": "37 09 30",
-            "longitude": "88 25 34",
+            "latitude": 37.1583,
+            "longitude": -88.4261,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -5917,7 +5917,7 @@
                 "usgs": "03399800",
                 "01": "03399800",
                 "cwms": "Smithland LD",
-                "uuid": "9eefdeef-ff3a-45b4-9509-0574f987343b"
+                "uuid": "ffbb13b3-71e1-4872-9bef-5ddd4d78634d"
             }
         },
         "platformconfig": "",
@@ -5936,8 +5936,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35 40 57",
-            "longitude": "85 18 31",
+            "latitude": 35.6825,
+            "longitude": -85.3086,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CDT6CST",
@@ -5946,7 +5946,7 @@
             "sitenames": {
                 "nwshb5": "FALT1",
                 "cwms": "FALT1-FallsStateParkTN",
-                "uuid": "f78fb8a2-57ec-43d3-8fdb-00f7f1c0c36e"
+                "uuid": "13b8b34a-3b2b-45ad-833e-c189ffbc3e51"
             }
         },
         "platformconfig": "",
@@ -5965,8 +5965,8 @@
         "isproduction": "true",
         "lastmodifytime": "04/01/2019 20:11:27",
         "site": {
-            "latitude": "36 04 38 N",
-            "longitude": "85 31 17 W",
+            "latitude": 36.0772,
+            "longitude": -85.5214,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "America/Chicago",
@@ -5980,7 +5980,7 @@
                 "lrn-dssname": "FALLING_WATER_RIVER",
                 "usgs": "03423000",
                 "01": "03423000",
-                "uuid": "16041703-d13e-49df-b31b-391170191fda"
+                "uuid": "05218a85-8dad-49ca-896a-8e1cc79c73da"
             }
         },
         "platformconfig": "",
@@ -5999,8 +5999,8 @@
         "isproduction": "true",
         "lastmodifytime": "09/05/2019 14:35:23",
         "site": {
-            "latitude": "36 05 30",
-            "longitude": "85 50 00",
+            "latitude": 36.0917,
+            "longitude": -85.8333,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -6011,7 +6011,7 @@
                 "nwshb5": "CETT1",
                 "cwms": "CETT1-CENTER_HILL",
                 "local": "CenterHillTw",
-                "uuid": "e6fc9baa-9811-4e30-824b-69fb244d7f9d"
+                "uuid": "4750d6ee-7b98-4645-8246-678de0373523"
             }
         },
         "platformconfig": "",
@@ -6029,8 +6029,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35.01361111",
-            "longitude": "-85.21055556",
+            "latitude": 35.0136,
+            "longitude": -85.2106,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -6039,7 +6039,7 @@
             "sitenames": {
                 "nwshb5": "CHKT1",
                 "local": "South_Chick_Cr_near_Chattanooga",
-                "uuid": "8644b3d1-18a9-4bae-a179-4ee695e01588"
+                "uuid": "1b37b7d5-bb92-491f-b57f-32f5a12d3cc5"
             }
         },
         "platformconfig": "",
@@ -6057,8 +6057,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35.01138889",
-            "longitude": "-85.69750000",
+            "latitude": 35.0114,
+            "longitude": -85.6975,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -6067,7 +6067,7 @@
             "sitenames": {
                 "nwshb5": "SPTT1",
                 "local": "Tenn_River_at_S_Pittsburg",
-                "uuid": "3d6d6e90-64e5-4665-bb67-5e8a11529a60"
+                "uuid": "f97af627-f44c-4f72-883c-7e2a2df10e44"
             }
         },
         "platformconfig": "",
@@ -6085,8 +6085,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35.00277778",
-            "longitude": "-85.89722222",
+            "latitude": 35.0028,
+            "longitude": -85.8972,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -6095,7 +6095,7 @@
             "sitenames": {
                 "nwshb5": "ANDT1",
                 "local": "Anderson_Rain",
-                "uuid": "343c7d27-6464-41cc-85ee-dd777b3bf815"
+                "uuid": "bffef26a-787e-49c0-aa62-c62cfe473c85"
             }
         },
         "platformconfig": "",
@@ -6113,8 +6113,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35.21111111",
-            "longitude": "-85.21527778",
+            "latitude": 35.2111,
+            "longitude": -85.2153,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -6123,7 +6123,7 @@
             "sitenames": {
                 "nwshb5": "NCCT1",
                 "local": "N_Chick_Cr_at_Mile_Straight",
-                "uuid": "15a91147-b93f-42c3-8966-e2e55be22c9b"
+                "uuid": "59807d85-54a5-4db2-b776-f2c8788e9232"
             }
         },
         "platformconfig": "",
@@ -6141,8 +6141,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35.09666667",
-            "longitude": "-84.98972222",
+            "latitude": 35.0967,
+            "longitude": -84.9897,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -6151,7 +6151,7 @@
             "sitenames": {
                 "nwshb5": "MCDT1",
                 "local": "McDonald",
-                "uuid": "dd73b6d9-4d6a-4ec8-834e-87aa520b89ef"
+                "uuid": "951580aa-0a5f-43f9-9011-74fb1a56281b"
             }
         },
         "platformconfig": "",
@@ -6169,8 +6169,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35.18361111",
-            "longitude": "-84.82138889",
+            "latitude": 35.1836,
+            "longitude": -84.8214,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -6179,7 +6179,7 @@
             "sitenames": {
                 "nwshb5": "CLET1",
                 "local": "Cleveland",
-                "uuid": "bca788bf-f224-4e69-886d-08d010958b91"
+                "uuid": "cfe75d8d-30a1-45ce-ac43-adeb005a492b"
             }
         },
         "platformconfig": "",
@@ -6197,8 +6197,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35.32166667",
-            "longitude": "-84.96555556",
+            "latitude": 35.3217,
+            "longitude": -84.9656,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -6207,7 +6207,7 @@
             "sitenames": {
                 "nwshb5": "GEOT1",
                 "local": "Georgetown",
-                "uuid": "5be4dde1-7a71-486c-b8fa-882b18ef97b7"
+                "uuid": "dcbe6e98-96ec-4e02-878d-e37f48d1c8b4"
             }
         },
         "platformconfig": "",
@@ -6225,8 +6225,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35.20638889",
-            "longitude": "-85.49722222",
+            "latitude": 35.2064,
+            "longitude": -85.4972,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -6235,7 +6235,7 @@
             "sitenames": {
                 "nwshb5": "WHTT1",
                 "local": "Sequatchie_River_near_Whitwell",
-                "uuid": "dda46c1c-fcac-4a94-af92-8dbea8a942b5"
+                "uuid": "6e7219a2-1866-40aa-98fb-d013c477d9ce"
             }
         },
         "platformconfig": "",
@@ -6253,8 +6253,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35.20972222",
-            "longitude": "-85.51944444",
+            "latitude": 35.2097,
+            "longitude": -85.5194,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -6263,7 +6263,7 @@
             "sitenames": {
                 "nwshb5": "WWLT1",
                 "local": "Whitwell",
-                "uuid": "8fe853bb-0c1f-40f8-914f-9de4e39e1e8d"
+                "uuid": "ace9c7b2-ddc5-4c2c-a645-78bc6ca1799e"
             }
         },
         "platformconfig": "",
@@ -6281,8 +6281,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "35.05666667",
-            "longitude": "-85.38750000",
+            "latitude": 35.0567,
+            "longitude": -85.3875,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -6291,7 +6291,7 @@
             "sitenames": {
                 "nwshb5": "RACT1",
                 "local": "Raccoon_Mountain_near_Whitwell",
-                "uuid": "9c44a00b-a6ad-46b0-82e2-c6c0397ac8b0"
+                "uuid": "74c2acc0-ad4f-4b2c-bc87-8358fbce9293"
             }
         },
         "platformconfig": "",
@@ -6310,8 +6310,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "34*57'26\"",
-            "longitude": "85*12'20\"",
+            "latitude": 34.9572,
+            "longitude": -85.2056,
             "elevation": "666.2",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -6323,7 +6323,7 @@
                 "usgs": "03567340",
                 "01": "03567340",
                 "cwms": "WCKG1-WestChickamaugaCr-LakeviewGA",
-                "uuid": "467f6fb8-0ed5-497b-a5a9-988a445f663f"
+                "uuid": "aa10f365-1ac0-4c18-9586-30620560759a"
             }
         },
         "platformconfig": "",
@@ -6342,8 +6342,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "34*57'26\"",
-            "longitude": "85*20'04\"",
+            "latitude": 34.9572,
+            "longitude": -85.3344,
             "elevation": "663.0",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -6355,7 +6355,7 @@
                 "usgs": "03568400",
                 "01": "03568400",
                 "cwms": "CCFG1-ChattanoogaCr-FlintstoneGA",
-                "uuid": "4fc725a3-179d-489b-a0b8-0891c1211ac1"
+                "uuid": "1307cf24-fa17-4c05-bef0-dac4390fb051"
             }
         },
         "platformconfig": "",
@@ -6374,8 +6374,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "34*55'08\"",
-            "longitude": "85*07'32\"",
+            "latitude": 34.9189,
+            "longitude": -85.1256,
             "elevation": "739.0",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -6387,7 +6387,7 @@
                 "usgs": "03566700",
                 "01": "03566700",
                 "cwms": "SCKG1-SouthChickamaugaCr-RingoldGA",
-                "uuid": "73aa28da-6519-44a6-8b1e-be52d8cd929f"
+                "uuid": "a3986bff-1794-4f20-9580-e26f63bf03d1"
             }
         },
         "platformconfig": "",
@@ -6406,8 +6406,8 @@
         "isproduction": "true",
         "lastmodifytime": "03/03/2020 21:01:22",
         "site": {
-            "latitude": "N 37*00'52\"",
-            "longitude": "W 88*16'04\"",
+            "latitude": 37.0144,
+            "longitude": -88.2678,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -6418,7 +6418,7 @@
                 "nwshb5": "KYDK2",
                 "cwms": "KYDK2-KENTUCKY",
                 "lrn-dssname": "KENTUCKY_DAM_PC",
-                "uuid": "a0982d96-e140-4e87-91a2-806fbd25b8bf"
+                "uuid": "d849e0c6-0014-4125-8d57-dab8653314cc"
             }
         },
         "platformconfig": "",
@@ -6437,8 +6437,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 11:58:40",
         "site": {
-            "latitude": "36 14 51 N",
-            "longitude": "085 57 23 W",
+            "latitude": 36.2475,
+            "longitude": -85.9564,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -6450,7 +6450,7 @@
                 "local": "CumbRCarthage",
                 "cwms": "CTHT1-CumberlandR-CarthageTN",
                 "lrn-dssname": "CARTHAGE_TN",
-                "uuid": "71a98b04-20b7-4ed6-b910-b2e557ba016a"
+                "uuid": "8d001b01-30b4-4be2-a059-6cf919847121"
             }
         },
         "platformconfig": "",
@@ -6469,8 +6469,8 @@
         "isproduction": "true",
         "lastmodifytime": "05/11/2020 13:42:17",
         "site": {
-            "latitude": "36 04 54 N",
-            "longitude": "086 40 51 W",
+            "latitude": 36.0817,
+            "longitude": -86.6808,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -6482,7 +6482,7 @@
                 "local": "MillCreek",
                 "cwms": "ANTT1-MillCr-AntiochTN",
                 "lrn-dssname": "MILL_CREEK",
-                "uuid": "5e513d46-a213-498c-a508-bc735ead65cc"
+                "uuid": "a772ddf2-c2f5-483c-b52b-7130a2e23a7c"
             }
         },
         "platformconfig": "",
@@ -6499,8 +6499,8 @@
         "isproduction": "true",
         "lastmodifytime": "07/14/2020 21:59:25",
         "site": {
-            "latitude": "36 42 10",
-            "longitude": "84 33 47",
+            "latitude": 36.7028,
+            "longitude": -84.5631,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -6509,7 +6509,7 @@
                 "local": "Yamacraw",
                 "usgs": "03410590",
                 "01": "03410590",
-                "uuid": "d0e40812-4453-4690-91f6-60237cf578ae"
+                "uuid": "290a6af1-222f-4154-907f-f8e7ed6b6712"
             }
         },
         "platformconfig": "",
@@ -6528,8 +6528,8 @@
         "isproduction": "true",
         "lastmodifytime": "07/21/2020 18:20:40",
         "site": {
-            "latitude": "36 45 02 N",
-            "longitude": "83 15 35 W",
+            "latitude": 36.7506,
+            "longitude": -83.2597,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -6538,7 +6538,7 @@
             "sitenames": {
                 "nwshb5": "MFLK2",
                 "cwms": "MFLK2-MARTINS_FORK",
-                "uuid": "da335801-2da8-4a90-9342-a917583ea4e1"
+                "uuid": "d6635270-241b-4c08-b956-35cfaab22ace"
             }
         },
         "platformconfig": "",
@@ -6556,8 +6556,8 @@
         "isproduction": "true",
         "lastmodifytime": "07/23/2020 17:53:45",
         "site": {
-            "latitude": "36.2705555555556",
-            "longitude": "-87.0761111111111",
+            "latitude": 36.2706,
+            "longitude": -87.0761,
             "elevation": "367.04",
             "elevationunits": "ft",
             "timezone": "CST",
@@ -6570,7 +6570,7 @@
                 "01": "03431790",
                 "nwshb5": "ACIT1",
                 "local": "CumbR_AshlandCity",
-                "uuid": "4a249620-ac68-4a7b-8be2-f77c44d59927"
+                "uuid": "0dac7069-29da-4491-ba6c-dfb5ecddc54e"
             }
         },
         "platformconfig": "",
@@ -6593,7 +6593,7 @@
                 "local": "Bledsoe_Cr_nr_Bethpage",
                 "usgs": "03425622",
                 "01": "03425622",
-                "uuid": "b4d0f31c-8b39-4cf3-ae8d-a18c8c24ef45"
+                "uuid": "3cef1bec-9713-4f13-89eb-012d84aee9f6"
             }
         },
         "platformconfig": "",
@@ -6617,7 +6617,7 @@
                 "local": "DuckR_blw_Manchester",
                 "usgs": "03596000",
                 "01": "03596000",
-                "uuid": "a1811726-9802-49a9-ba57-eaceecd53242"
+                "uuid": "ba98f546-0e3f-4a99-acc6-84bf5e1feb63"
             }
         },
         "platformconfig": "",
@@ -6641,7 +6641,7 @@
                 "usgs": "03599419",
                 "01": "03599419",
                 "local": "DuckR_nr_Pottsville",
-                "uuid": "432f9c2e-b959-41df-83e2-cfe190567b74"
+                "uuid": "a1ecda79-af10-4bea-8962-746541f085c6"
             }
         },
         "platformconfig": "",
@@ -6664,7 +6664,7 @@
                 "local": "DuckR_nr_ShadyGrove",
                 "usgs": "03601600",
                 "01": "03601600",
-                "uuid": "3c758fcf-62d9-45e6-88d7-543fff60123a"
+                "uuid": "2cf143e6-cb7c-4219-8624-f0d3e6e4b122"
             }
         },
         "platformconfig": "",
@@ -6688,7 +6688,7 @@
                 "local": "RedR_at_Dot",
                 "usgs": "03435105",
                 "01": "03435105",
-                "uuid": "39bf9d83-5f55-4671-a7e7-2841aa1e576b"
+                "uuid": "5772cf35-3df6-4043-b1eb-ff6d889b6627"
             }
         },
         "platformconfig": "",
@@ -6710,7 +6710,7 @@
             "sitenames": {
                 "nwshb5": "HILT1",
                 "local": "RoaringR_nr_Hilham",
-                "uuid": "7ba32261-7acf-4a11-9a58-d40fe37421d8"
+                "uuid": "cc88e930-24e5-43af-ae09-2824580b3667"
             }
         },
         "platformconfig": "",
@@ -6734,7 +6734,7 @@
                 "local": "WartraceCr_at_Wartrace",
                 "usgs": "03597590",
                 "01": "03597590",
-                "uuid": "0ab33d75-1525-4e9e-9a63-fecacea0aa68"
+                "uuid": "dd0af1cc-ad57-4d24-9cd7-f64fff40531e"
             }
         },
         "platformconfig": "",
@@ -6752,8 +6752,8 @@
         "isproduction": "true",
         "lastmodifytime": "02/01/2021 15:26:07",
         "site": {
-            "latitude": "37.2105555555556",
-            "longitude": "-84.4644444444445",
+            "latitude": 37.2106,
+            "longitude": -84.4644,
             "elevation": "831.59",
             "elevationunits": "ft",
             "timezone": "US/Eastern",
@@ -6765,7 +6765,7 @@
                 "usgs": "03407500",
                 "01": "03407500",
                 "local": "BuckCr_Shopville",
-                "uuid": "2695b2f3-22eb-490b-84cd-90116700c177"
+                "uuid": "98ffc2ca-a196-43cf-bf3c-433553ac5082"
             }
         },
         "platformconfig": "",
@@ -6789,7 +6789,7 @@
                 "nwshb5": "NLVT1",
                 "usgs": "03430550",
                 "01": "03430550",
-                "uuid": "37be42ff-8484-4b85-bc97-eeeec051269a"
+                "uuid": "d8367707-78d8-4e98-a82b-762ebfe33761"
             }
         },
         "platformconfig": "",
@@ -6806,8 +6806,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/13/2020 14:57:07",
         "site": {
-            "latitude": "36.2844525",
-            "longitude": "-86.7063414",
+            "latitude": 36.2845,
+            "longitude": -86.7063,
             "elevation": "423.29",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -6820,7 +6820,7 @@
                 "nwshb5": "NSRT1",
                 "usgs": "03426470",
                 "01": "03426470",
-                "uuid": "21e59d90-3e6a-4dd0-ae9d-28c75e0d99d7"
+                "uuid": "25328875-4206-4766-a0c1-bdec8e7d039e"
             }
         },
         "platformconfig": "",
@@ -6837,8 +6837,8 @@
         "isproduction": "true",
         "lastmodifytime": "10/15/2020 11:56:49",
         "site": {
-            "latitude": "36.8494444",
-            "longitude": "-87.428889",
+            "latitude": 36.8494,
+            "longitude": -87.4289,
             "elevation": "520.0",
             "elevationunits": "ft",
             "timezone": "US/Central",
@@ -6850,7 +6850,7 @@
                 "usgs": "03437495",
                 "01": "03437495",
                 "cwms": "SFLittleR Hopkin",
-                "uuid": "103003ce-f963-423f-8506-2ff1317cba5a"
+                "uuid": "08a16d78-a9be-4f14-8e7a-7dde8e03d625"
             }
         },
         "platformconfig": "",
@@ -6869,8 +6869,8 @@
         "isproduction": "true",
         "lastmodifytime": "11/19/2020 19:38:01",
         "site": {
-            "latitude": "36 19 23 N",
-            "longitude": "87 03 14 W",
+            "latitude": 36.3231,
+            "longitude": -87.0539,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -6882,7 +6882,7 @@
                 "local": "SycamoreCreek",
                 "cwms": "ACST1-SycamoreCr-AshlandCityTN",
                 "lrn-dssname": "SYCAMORE_CREEK",
-                "uuid": "721d24d8-e84e-4561-a969-f5250d62f16d"
+                "uuid": "1dfa54b9-baff-4767-9ed2-d685e6b2ade8"
             }
         },
         "platformconfig": "",
@@ -6901,8 +6901,8 @@
         "isproduction": "true",
         "lastmodifytime": "11/19/2020 19:38:54",
         "site": {
-            "latitude": "36 56 42 N",
-            "longitude": "084 05 15 W",
+            "latitude": 36.945,
+            "longitude": -84.0875,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -6914,7 +6914,7 @@
                 "local": "LynnCampCrCorbin",
                 "cwms": "CORK2-LynnCampCr-CorbinKY",
                 "lrn-dssname": "CORBIN_SOUTH_KY",
-                "uuid": "98232ba9-9247-498a-afee-c4aff6524c3b"
+                "uuid": "19f3ac23-24f3-4e7a-adea-81ccc78bc2a7"
             }
         },
         "platformconfig": "",
@@ -6933,8 +6933,8 @@
         "isproduction": "true",
         "lastmodifytime": "11/19/2020 19:38:58",
         "site": {
-            "latitude": "36 58 14 N",
-            "longitude": "084 07 10 W",
+            "latitude": 36.9706,
+            "longitude": -84.1194,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -6946,7 +6946,7 @@
                 "local": "LaurelRCorbin",
                 "cwms": "CBNK2-LaurelR-CorbinKY",
                 "lrn-dssname": "CORBIN_NORTH_KY",
-                "uuid": "87949db6-59e0-49af-a959-6c258b69edd1"
+                "uuid": "8deed16a-4f78-4b4e-9a84-8ea7c0813bc3"
             }
         },
         "platformconfig": "",
@@ -6969,7 +6969,7 @@
                 "local": "DuckR_abv_Williamsport",
                 "usgs": "03600358",
                 "01": "03600358",
-                "uuid": "f7a07f08-b98b-4dc8-b000-f63bfef0eaae"
+                "uuid": "806e0339-a84e-4e45-98ed-690abcde19d3"
             }
         },
         "platformconfig": "",
@@ -6988,8 +6988,8 @@
         "isproduction": "true",
         "lastmodifytime": "11/19/2020 19:39:50",
         "site": {
-            "latitude": "35 03 17 N",
-            "longitude": "086 55 43 W",
+            "latitude": 35.0547,
+            "longitude": -86.9286,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -7001,7 +7001,7 @@
                 "local": "HarpethRBellevue",
                 "cwms": "BELT1-HarpethR-BellevueTN",
                 "lrn-dssname": "BELLEVUE_TN.",
-                "uuid": "5667ab5b-574d-4cfa-8b15-b2b00a79299b"
+                "uuid": "6673114a-d1bf-4b3c-b085-51bac92fccaf"
             }
         },
         "platformconfig": "",
@@ -7019,8 +7019,8 @@
         "isproduction": "true",
         "lastmodifytime": "11/19/2020 19:40:13",
         "site": {
-            "latitude": "36 02 49 N",
-            "longitude": "88 04 33 W",
+            "latitude": 36.0469,
+            "longitude": -88.0758,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -7029,7 +7029,7 @@
             "sitenames": {
                 "nwshb5": "CMTT1",
                 "cwms": "CMTT1-CypressCr-CamdenTN",
-                "uuid": "cb67eb56-d53d-4f49-89c0-eb3bec6e7be3"
+                "uuid": "d1d68ab1-98ac-472f-96a8-680220aaa7bd"
             }
         },
         "platformconfig": "",
@@ -7048,8 +7048,8 @@
         "isproduction": "true",
         "lastmodifytime": "02/01/2021 15:00:43",
         "site": {
-            "latitude": "36 53 48.05",
-            "longitude": "85 18 38.58",
+            "latitude": 36.8967,
+            "longitude": -85.3107,
             "elevation": "1.7976931348623157E308",
             "elevationunits": "ft",
             "timezone": "EST5EDT",
@@ -7062,7 +7062,7 @@
                 "lrn-dssname": "CROCUS_CREEK",
                 "usgs": "03414078",
                 "01": "03414078",
-                "uuid": "4df3870c-5486-4f2a-b322-f06156991a6f"
+                "uuid": "4ef4247f-6829-43c2-9bc4-cb0f3996cbb6"
             }
         },
         "platformconfig": "",
@@ -7079,8 +7079,8 @@
         "isproduction": "true",
         "lastmodifytime": "02/01/2021 18:43:15",
         "site": {
-            "latitude": "36.186154",
-            "longitude": "-86.633433",
+            "latitude": 36.1862,
+            "longitude": -86.6334,
             "elevation": "382.3",
             "elevationunits": "ft",
             "timezone": "CST6CDT",
@@ -7090,7 +7090,7 @@
             "sitenames": {
                 "nwshb5": "DONT1",
                 "local": "StonesR_Donelson",
-                "uuid": "64581cfa-c125-42ff-9c69-16c3335ff881"
+                "uuid": "46749244-f2df-43c1-8f71-74438c87e47c"
             }
         },
         "platformconfig": "",
