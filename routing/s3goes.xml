@@ -53,7 +53,7 @@
     False
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="cmdAfterFile">
-    /s3load.sh $FILENAME
+    /app/s3load.sh $FILENAME
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="sc:DAPS_STATUS">
     R
