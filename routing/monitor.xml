@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<RoutingSpec Name="s3goes">
+<RoutingSpec Name="monitor">
   <IsProduction>true</IsProduction>
   <DataSource Name="hotbackup" Type="hotbackupgroup">
     <DataSourceArg></DataSourceArg>
@@ -30,9 +30,8 @@
   </DataSource>
   <EnableEquations>false</EnableEquations>
   <UsePerformanceMeasurements>false</UsePerformanceMeasurements>
-  <OutputFormat>cwms-oracle</OutputFormat>
+  <OutputFormat>transmit-monitor</OutputFormat>
   <OutputTimeZone>UTC</OutputTimeZone>
-  <PresentationGroupName>MIDAS-English</PresentationGroupName>
   <ConsumerType>directory</ConsumerType>
   <ConsumerArg>/opendcs_output</ConsumerArg>
   <SinceTime>now - 2 hours</SinceTime>
