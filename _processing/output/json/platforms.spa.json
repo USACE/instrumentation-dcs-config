@@ -1,0 +1,4519 @@
+[
+    {
+        "description": "Rio Grande at Rio Grande Village",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "07/21/2020 16:49:06",
+        "site": {
+            "latitude": 29.1833,
+            "longitude": -102.975,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "America/Chicago",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "sitenames": {
+                "cwms": "Big Bend NP",
+                "uuid": "6e2f0ba8-d350-4f3f-8aa8-95baf97f945c"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "D10346FE"
+        },
+        "platform_sensors": [],
+        "id": "32362043"
+    },
+    {
+        "description": "Academy Acres Drain",
+        "isproduction": "true",
+        "lastmodifytime": "03/28/2018 15:02:21",
+        "site": {
+            "latitude": 35.1511,
+            "longitude": -106.5731,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Albuquerque",
+            "description": "Academy Acres Drain near Albuquerque",
+            "sitenames": {
+                "cwms": "AADN5",
+                "uuid": "0744a290-40d5-4b33-94b6-44e3f07ba399"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "16F6E360"
+        },
+        "platform_sensors": [],
+        "id": "32367043"
+    },
+    {
+        "description": "Arrey Canal - Percha Dam",
+        "agency": "EBID",
+        "isproduction": "true",
+        "lastmodifytime": "06/08/2017 14:50:26",
+        "site": {
+            "latitude": 32.869,
+            "longitude": -107.3053,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Arrey Cn",
+                "uuid": "f6e60386-694d-4956-b5a4-69c7a4564482"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "other",
+            "mediumid": "ArreyCn-EbidOneRain"
+        },
+        "platform_sensors": [],
+        "id": "32376043"
+    },
+    {
+        "description": "South Diversion Channel above Tijeras Arroyo and Tijeras Arroyo",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "05/15/2018 12:56:50",
+        "site": {
+            "latitude": 35.0028,
+            "longitude": -106.6572,
+            "elevation": "1502.664",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Pajarito, NM",
+            "sitenames": {
+                "cwms": "SDC",
+                "uuid": "8329b965-ef44-4998-aaee-71c20f85af9d"
+            }
+        },
+        "platformconfig": "",
+        "platform_sensors": [],
+        "id": "31209043"
+    },
+    {
+        "description": "Rio Grande below El Mulato Dam near Redford",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 21:22:18",
+        "site": {
+            "latitude": 29.4856,
+            "longitude": -104.2161,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "sitenames": {
+                "cwms": "Redford",
+                "uuid": "6d2fdaf7-cd7e-4b72-92e7-f611a408c7e0"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "0093F7AC"
+        },
+        "platform_sensors": [],
+        "id": "31236043"
+    },
+    {
+        "description": "Raws: Brushy MTN\\nBrushy Mountain RAWS near Acoma Pueblo",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/22/2019 14:59:21",
+        "site": {
+            "latitude": 34.7197,
+            "longitude": -107.8483,
+            "elevation": "2678.8872",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Brushy Mountain",
+            "description": "RAWS: BRUSHY MTN",
+            "sitenames": {
+                "cwms": "RawsACON5",
+                "uuid": "b0740390-77d8-41ea-b47c-c3d6f5bdcec3"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5210D682"
+        },
+        "platform_sensors": [],
+        "id": "11733043"
+    },
+    {
+        "description": "Raws: Batdraw\\nBat Draw RAWS at Carlsbad Caverns National Park near\n      Carlsbad",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 18:07:31",
+        "site": {
+            "latitude": 32.1786,
+            "longitude": -104.4406,
+            "elevation": "1348.74",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Whites City, NM",
+            "description": "RAWS: BATDRAW",
+            "sitenames": {
+                "cwms": "RawsBATN5",
+                "uuid": "94aab589-c2bf-431f-852b-fec818d2da57"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "FA623058"
+        },
+        "platform_sensors": [],
+        "id": "11734043"
+    },
+    {
+        "description": "Raws:Big Bear Park",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/21/2019 23:04:17",
+        "site": {
+            "latitude": 37.4961,
+            "longitude": -107.7294,
+            "elevation": "3151.9368",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Tacoma, CO",
+            "description": "RAWS: BIG BEAR PARK",
+            "sitenames": {
+                "cwms": "RawsBBRC2",
+                "uuid": "6e352cd6-20d8-40db-9177-d5e11805dc2a"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3276A080"
+        },
+        "platform_sensors": [],
+        "id": "11735043"
+    },
+    {
+        "description": "Raws: Chupadera\\n",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/22/2019 15:20:09",
+        "site": {
+            "latitude": 33.7731,
+            "longitude": -106.0986,
+            "elevation": "1688.8968",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Carrizozo, NM",
+            "description": "RAWS: CHUPADERA",
+            "sitenames": {
+                "cwms": "RawsBCHN5",
+                "uuid": "50538af3-56cd-474c-95d6-e3d3b9ca57a2"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "325B376A"
+        },
+        "platform_sensors": [],
+        "id": "11736043"
+    },
+    {
+        "description": "Raws:Bosque",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:04",
+        "site": {
+            "latitude": 33.8211,
+            "longitude": -106.8819,
+            "elevation": "1357.884",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "San Antonio, NM",
+            "description": "RAWS: BOSQUE",
+            "sitenames": {
+                "cwms": "RawsBDAN5",
+                "uuid": "b00eeef9-05c7-49de-8899-9634576c08d5"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "837141D2"
+        },
+        "platform_sensors": [],
+        "id": "11737043"
+    },
+    {
+        "description": "Raws: Big Horn",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/21/2019 23:02:01",
+        "site": {
+            "latitude": 37.0208,
+            "longitude": -106.2011,
+            "elevation": "2636.8248000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Mogote, CO",
+            "description": "RAWS: BIG HORN",
+            "sitenames": {
+                "cwms": "RawsBHRC2",
+                "uuid": "266f20f5-f990-4b29-a2bc-439070f45c86"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "32302586"
+        },
+        "platform_sensors": [],
+        "id": "11738043"
+    },
+    {
+        "description": "Raws: Blue Park",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/22/2019 15:29:51",
+        "site": {
+            "latitude": 37.7931,
+            "longitude": -106.7786,
+            "elevation": "3179.0640000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Creede, CO",
+            "description": "RAWS: BLUE PARK",
+            "sitenames": {
+                "cwms": "RawsBLPC2",
+                "uuid": "b7069c3e-5c87-4012-9a37-d34b90b37727"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3234F6D4"
+        },
+        "platform_sensors": [],
+        "id": "11739043"
+    },
+    {
+        "description": "Raws: Bluewater Ridge",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:04",
+        "site": {
+            "latitude": 35.1942,
+            "longitude": -108.1631,
+            "elevation": "2526.4872",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Bluewater, NM",
+            "description": "RAWS: BLUEWATER RIDGE",
+            "sitenames": {
+                "cwms": "RawsBLWN5",
+                "uuid": "e93eca96-7269-4d33-94c4-39e88b3eab35"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3333B648"
+        },
+        "platform_sensors": [],
+        "id": "11740043"
+    },
+    {
+        "description": "Raws:Black Mtn",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/21/2019 21:28:42",
+        "site": {
+            "latitude": 37.8614,
+            "longitude": -105.2842,
+            "elevation": "2721.864",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Gardner, CO",
+            "description": "RAWS: BLACK MTN",
+            "sitenames": {
+                "cwms": "RawsBMOC2",
+                "uuid": "faebbf9a-fab9-4df4-b50e-62c06e0abc55"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3230101C"
+        },
+        "platform_sensors": [],
+        "id": "11741043"
+    },
+    {
+        "description": "Raws:Barnhart",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/22/2019 16:48:24",
+        "site": {
+            "latitude": 30.9856,
+            "longitude": -101.1578,
+            "elevation": "780.8976",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "nearestcity": "Barnhart, TX",
+            "description": "RAWS: BARNHART",
+            "sitenames": {
+                "cwms": "RawsBNHT2",
+                "uuid": "213ecd05-d39c-4c84-8537-364d524c1145"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "8841731C"
+        },
+        "platform_sensors": [],
+        "id": "11742043"
+    },
+    {
+        "description": "Raws: Beaverhead",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:04",
+        "site": {
+            "latitude": 33.4236,
+            "longitude": -108.11,
+            "elevation": "2029.6632000000002",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Beaverhead",
+            "description": "RAWS: BEAVERHEAD",
+            "sitenames": {
+                "cwms": "RawsBVRN5",
+                "uuid": "08e67606-999a-43f8-a96c-a2241ef3adc0"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3276130E"
+        },
+        "platform_sensors": [],
+        "id": "11743043"
+    },
+    {
+        "description": "Raws: Cuba",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/22/2019 18:43:58",
+        "site": {
+            "latitude": 35.9419,
+            "longitude": -107.0772,
+            "elevation": "2143.6584000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "La Jara, NM",
+            "description": "RAWS: CUBA",
+            "sitenames": {
+                "cwms": "RawsCBBN5",
+                "uuid": "6910ce1e-edaa-418d-b34e-4d7a5d370a25"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "325B84E4"
+        },
+        "platform_sensors": [],
+        "id": "11744043"
+    },
+    {
+        "description": "Raws: Pinion Canyon",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:04",
+        "site": {
+            "latitude": 37.5425,
+            "longitude": -104.0319,
+            "elevation": "1652.6256",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Delhi, CO",
+            "description": "RAWS: PINION CANYON",
+            "sitenames": {
+                "cwms": "RawsCCEC2",
+                "uuid": "864cafb6-efa5-4134-85f4-a3d0bfa452cd"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3241E7CE"
+        },
+        "platform_sensors": [],
+        "id": "11745043"
+    },
+    {
+        "description": "Raws: Colorado City",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:04",
+        "site": {
+            "latitude": 37.9478,
+            "longitude": -104.8692,
+            "elevation": "1886.712",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Greenhorn, CO",
+            "description": "RAWS: COLORADO CITY",
+            "sitenames": {
+                "cwms": "RawsCCYC2",
+                "uuid": "fab8d02d-8d60-4a35-ba73-7ef67e3714c9"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "6200012A"
+        },
+        "platform_sensors": [],
+        "id": "11746043"
+    },
+    {
+        "description": "Raws:Cimarron KS",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:04",
+        "site": {
+            "latitude": 37.1408,
+            "longitude": -101.9014,
+            "elevation": "1078.3824",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "KS",
+            "nearestcity": "Elkhart, KS",
+            "description": "RAWS: CIMARRON",
+            "sitenames": {
+                "cwms": "RawsCGLK1",
+                "uuid": "00c3584f-e75a-4326-a830-2f93809bbe46"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "33337356"
+        },
+        "platform_sensors": [],
+        "id": "11747043"
+    },
+    {
+        "description": "Raws: Copper Gulch",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/22/2019 19:36:11",
+        "site": {
+            "latitude": 38.3456,
+            "longitude": -105.4519,
+            "elevation": "2265.5784000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Texas Creek, CO",
+            "description": "RAWS: COPPER GULCH",
+            "sitenames": {
+                "cwms": "RawsCGRC2",
+                "uuid": "3bdcea87-dafc-4772-b7a4-f92e84950abd"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "32599266"
+        },
+        "platform_sensors": [],
+        "id": "11748043"
+    },
+    {
+        "description": "Raws: Chapin",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:04",
+        "site": {
+            "latitude": 37.1994,
+            "longitude": -108.4892,
+            "elevation": "2172.0048",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Cortez, CO",
+            "description": "RAWS: CHAPIN",
+            "sitenames": {
+                "cwms": "RawsCHAC2",
+                "uuid": "8d63d41e-5123-4b2b-8a62-24806f8505f6"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "FA62F546"
+        },
+        "platform_sensors": [],
+        "id": "11749043"
+    },
+    {
+        "description": "Raws: Cimarron NM",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:04",
+        "site": {
+            "latitude": 36.6061,
+            "longitude": -105.1203,
+            "elevation": "2665.1712",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Ute Park, NM",
+            "description": "RAWS: CIMARRON",
+            "sitenames": {
+                "cwms": "RawsCIMN5",
+                "uuid": "d14a0588-a335-41f3-ad22-0266a82d778e"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3333A53E"
+        },
+        "platform_sensors": [],
+        "id": "11750043"
+    },
+    {
+        "description": "Raws: Smokey Bear",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:05",
+        "site": {
+            "latitude": 33.3503,
+            "longitude": -105.6861,
+            "elevation": "2161.032",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Ruidoso, NM",
+            "description": "RAWS: SMOKEY BEAR",
+            "sitenames": {
+                "cwms": "RawsCOPN5",
+                "uuid": "7562dbf4-43c3-46d5-979c-8e6928e3e392"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "32340650"
+        },
+        "platform_sensors": [],
+        "id": "11751043"
+    },
+    {
+        "description": "Raws: Coyote",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/21/2019 23:02:06",
+        "site": {
+            "latitude": 36.0731,
+            "longitude": -106.6572,
+            "elevation": "2636.8248000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Coyote, NM",
+            "description": "RAWS: COYOTE",
+            "sitenames": {
+                "cwms": "RawsCOYN5",
+                "uuid": "3e2f2b7f-bb3a-4802-831d-65ea7b26616b"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3232D0F6"
+        },
+        "platform_sensors": [],
+        "id": "11752043"
+    },
+    {
+        "description": "Raws: CCDBLMFTS2",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "10/21/2019 13:37:27",
+        "site": {
+            "latitude": 38.7422,
+            "longitude": -105.2675,
+            "elevation": "2468.88",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Cripple Creek, CO",
+            "description": "RAWS: CCDBLMFTS2",
+            "sitenames": {
+                "cwms": "RawsCPPC2",
+                "uuid": "e99fe54f-ed50-41a6-b25c-66d626bac6e4"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "32644118"
+        },
+        "platform_sensors": [],
+        "id": "11753043"
+    },
+    {
+        "description": "Raws:Caprock",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/22/2019 20:11:06",
+        "site": {
+            "latitude": 32.9278,
+            "longitude": -103.8567,
+            "elevation": "1283.208",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Maljamar, NM",
+            "description": "RAWS: CAPROCK",
+            "sitenames": {
+                "cwms": "RawsCPPN5",
+                "uuid": "33718576-9ac0-4455-96a9-bff5069deef2"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "325B241C"
+        },
+        "platform_sensors": [],
+        "id": "11754043"
+    },
+    {
+        "description": "Raws: Cosmic",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:05",
+        "site": {
+            "latitude": 32.7792,
+            "longitude": -105.82,
+            "elevation": "2768.1936",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Valmont, NM",
+            "description": "RAWS: COSMIC",
+            "sitenames": {
+                "cwms": "RawsCSMN5",
+                "uuid": "f0f4ca7a-a986-426e-9531-6ed7599d621f"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "326FF13E"
+        },
+        "platform_sensors": [],
+        "id": "11755043"
+    },
+    {
+        "description": "Raws: Bosque CO",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:05",
+        "site": {
+            "latitude": 37.0919,
+            "longitude": -104.9194,
+            "elevation": "2491.4352000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Weston, CO",
+            "description": "RAWS: BOSQUE",
+            "sitenames": {
+                "cwms": "RawsCUHC2",
+                "uuid": "89067b0d-2f9d-4b32-8d18-05e147ab43f0"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "325D1148"
+        },
+        "platform_sensors": [],
+        "id": "11756043"
+    },
+    {
+        "description": "Raws: Albino Canyon",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/22/2019 20:32:17",
+        "site": {
+            "latitude": 36.9767,
+            "longitude": -107.6289,
+            "elevation": "2186.3304000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Tiffany, CO",
+            "description": "RAWS: ALBINO CANYON",
+            "sitenames": {
+                "cwms": "RawsCWRN5",
+                "uuid": "02c27fc3-275c-4193-a889-8c1886c63d20"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "324BF5EA"
+        },
+        "platform_sensors": [],
+        "id": "11757043"
+    },
+    {
+        "description": "Raws: Canon City",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:05",
+        "site": {
+            "latitude": 38.0167,
+            "longitude": -105.1181,
+            "elevation": "3516.1728000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Beulah, CO",
+            "description": "RAWS: CANON CITY",
+            "sitenames": {
+                "cwms": "RawsCYNC2",
+                "uuid": "8ecc2765-fd6c-41b1-8cb6-b494cecbdc99"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "327260A4"
+        },
+        "platform_sensors": [],
+        "id": "11758043"
+    },
+    {
+        "description": "Raws: Dog Canyon",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:05",
+        "site": {
+            "latitude": 31.9961,
+            "longitude": -104.8339,
+            "elevation": "1908.6576",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "nearestcity": "Pine Springs, TX",
+            "description": "RAWS: DOG CANYON",
+            "sitenames": {
+                "cwms": "RawsDGCT2",
+                "uuid": "172dedf7-9947-4c42-b683-fa73ea976213"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "326C06B4"
+        },
+        "platform_sensors": [],
+        "id": "11759043"
+    },
+    {
+        "description": "Raws: Dulce #2",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/22/2019 21:20:05",
+        "site": {
+            "latitude": 36.9353,
+            "longitude": -107.0,
+            "elevation": "2051.304",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Lumberton, NM",
+            "description": "RAWS: DULCE #2",
+            "sitenames": {
+                "cwms": "RawsDLCN5",
+                "uuid": "2bce7c80-c74c-48ff-8ce0-7c12d0576951"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "52146036"
+        },
+        "platform_sensors": [],
+        "id": "11760043"
+    },
+    {
+        "description": "Raws: Deadman Peak\\t",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/21/2019 23:02:11",
+        "site": {
+            "latitude": 36.4228,
+            "longitude": -106.7719,
+            "elevation": "2518.5624000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Alire, NM",
+            "description": "RAWS: DEADMAN PEAK",
+            "sitenames": {
+                "cwms": "RawsDPKN5",
+                "uuid": "dde0ca45-6296-4559-99a0-4bad805582b5"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "326EB0CE"
+        },
+        "platform_sensors": [],
+        "id": "11761043"
+    },
+    {
+        "description": "Raws: Pelona Mtn",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/22/2019 21:37:24",
+        "site": {
+            "latitude": 33.6939,
+            "longitude": -108.0617,
+            "elevation": "2447.5440000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Pelona Mountain",
+            "description": "RAWS: PELONA MOUNTAIN",
+            "sitenames": {
+                "cwms": "RawsDPRN5",
+                "uuid": "e7122918-9405-40ed-8b34-2f6c0550ac6a"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "324BE69C"
+        },
+        "platform_sensors": [],
+        "id": "11762043"
+    },
+    {
+        "description": "Raws: Datil",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:05",
+        "site": {
+            "latitude": 34.2925,
+            "longitude": -107.7681,
+            "elevation": "2570.9880000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Datil, NM",
+            "description": "RAWS: DATIL",
+            "sitenames": {
+                "cwms": "RawsDTLN5",
+                "uuid": "94b3b793-15c4-4fab-a3b3-0ba51f3ac7fe"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3283F528"
+        },
+        "platform_sensors": [],
+        "id": "11763043"
+    },
+    {
+        "description": "Raws: Durango",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:58",
+        "site": {
+            "latitude": 37.4942,
+            "longitude": -108.3267,
+            "elevation": "2483.5104",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Stoner, CO",
+            "description": "RAWS: DURANGO",
+            "sitenames": {
+                "cwms": "RawsDUFC2",
+                "uuid": "8ae3aaca-f9d9-49d4-952e-1a345bce927c"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "328097C0"
+        },
+        "platform_sensors": [],
+        "id": "11764043"
+    },
+    {
+        "description": "Raws: Dunken",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/22/2019 21:50:38",
+        "site": {
+            "latitude": 32.8247,
+            "longitude": -105.1825,
+            "elevation": "1655.3688000000002",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Dunken, NM",
+            "description": "RAWS: DUNKEN",
+            "sitenames": {
+                "cwms": "RawsDUNN5",
+                "uuid": "4f169974-d970-4b8b-a1eb-a10df15b3020"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "325B41FA"
+        },
+        "platform_sensors": [],
+        "id": "11765043"
+    },
+    {
+        "description": "Raws:Devil Mtn",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "07/19/2020 18:45:49",
+        "site": {
+            "latitude": 37.2269,
+            "longitude": -107.3053,
+            "elevation": "2273.808",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Chimney Rock, CO",
+            "description": "RAWS: DEVIL MTN",
+            "sitenames": {
+                "cwms": "RawsDYKC2",
+                "uuid": "37843d6d-e059-4c4f-b171-73fd8384322f"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "323A37A2"
+        },
+        "platform_sensors": [],
+        "id": "11766043"
+    },
+    {
+        "description": "Raws: Ft Carson",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/30/2019 19:00:29",
+        "site": {
+            "latitude": 38.6589,
+            "longitude": -104.8539,
+            "elevation": "2072.6400000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Fountain, CO",
+            "description": "RAWS: FT. CARSON",
+            "sitenames": {
+                "cwms": "RawsFCRC2",
+                "uuid": "39b75e50-c280-45bd-b0a8-5425e39bf7bf"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "32673086"
+        },
+        "platform_sensors": [],
+        "id": "11767043"
+    },
+    {
+        "description": "Raws: Fort Davis",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:05",
+        "site": {
+            "latitude": 30.6006,
+            "longitude": -103.8867,
+            "elevation": "1452.0672000000002",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "nearestcity": "Fort Davis, TX",
+            "description": "RAWS: FORT DAVIS",
+            "sitenames": {
+                "cwms": "RawsFDST2",
+                "uuid": "26733ed6-9aaa-45af-8fd4-c16a255c3df7"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "8841B602"
+        },
+        "platform_sensors": [],
+        "id": "11768043"
+    },
+    {
+        "description": "Raws: Guadalupe Bowl",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:05",
+        "site": {
+            "latitude": 31.925,
+            "longitude": -104.8253,
+            "elevation": "2363.724",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "nearestcity": "Pine Springs, TX",
+            "description": "RAWS: THE BOWL",
+            "sitenames": {
+                "cwms": "RawsGDBT2",
+                "uuid": "ae5d6b77-9f75-4cdb-bdb1-889c737f841f"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "FA61E13E"
+        },
+        "platform_sensors": [],
+        "id": "11769043"
+    },
+    {
+        "description": "Raws: Malpias lava",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/30/2019 19:15:51",
+        "site": {
+            "latitude": 34.8519,
+            "longitude": -108.1744,
+            "elevation": "2290.2672000000002",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "San Rafael, NM",
+            "description": "RAWS: MALPIAS LAVA",
+            "sitenames": {
+                "cwms": "RawsGMLN5",
+                "uuid": "c23a5233-8154-4e7c-ab52-c1a7b8e9a907"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "324B837A"
+        },
+        "platform_sensors": [],
+        "id": "11770043"
+    },
+    {
+        "description": "Raws:Gila Center",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/21/2019 23:02:21",
+        "site": {
+            "latitude": 33.2236,
+            "longitude": -108.2403,
+            "elevation": "1706.88",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Gila Center Raws",
+            "description": "RAWS: GILA CENTER",
+            "sitenames": {
+                "cwms": "RawsGNMN5",
+                "uuid": "bc3625f5-8876-4dfb-8abd-beef9590ffab"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3232F61A"
+        },
+        "platform_sensors": [],
+        "id": "11771043"
+    },
+    {
+        "description": "Raws:Grants",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:05",
+        "site": {
+            "latitude": 35.2428,
+            "longitude": -107.6653,
+            "elevation": "2627.376",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "San Mateo, NM",
+            "description": "RAWS: GRANTS",
+            "sitenames": {
+                "cwms": "RawsGRSN5",
+                "uuid": "7b4a2033-cd35-47fd-bea2-240f099c24ab"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3283B622"
+        },
+        "platform_sensors": [],
+        "id": "11772043"
+    },
+    {
+        "description": "Raws:Bartley",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:05",
+        "site": {
+            "latitude": 35.8939,
+            "longitude": -105.4619,
+            "elevation": "2541.7272000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Gascon, NM",
+            "description": "RAWS: BARTLEY",
+            "sitenames": {
+                "cwms": "RawsGSCN5",
+                "uuid": "c81b9d1a-3fb2-44a7-a1b9-2f226701a4c1"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "32881572"
+        },
+        "platform_sensors": [],
+        "id": "11773043"
+    },
+    {
+        "description": "Raws: Hachita Valley",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/30/2019 19:19:39",
+        "site": {
+            "latitude": 31.7019,
+            "longitude": -108.3417,
+            "elevation": "1307.8968",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Hachita, NM",
+            "description": "RAWS: HACHITA VALLEY",
+            "sitenames": {
+                "cwms": "RawsHHRN5",
+                "uuid": "1316646e-c67a-4ed5-a77a-c8c79a563291"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3243D7A0"
+        },
+        "platform_sensors": [],
+        "id": "11774043"
+    },
+    {
+        "description": "Raws:Jarita Mesa",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:05",
+        "site": {
+            "latitude": 36.5558,
+            "longitude": -106.1031,
+            "elevation": "2683.1544000000004",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Tres Piedras, NM",
+            "description": "RAWS: JARITA MESA",
+            "sitenames": {
+                "cwms": "RawsJARN5",
+                "uuid": "518de509-0fff-4b40-91a3-de77875cd7cb"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "32814352"
+        },
+        "platform_sensors": [],
+        "id": "11775043"
+    },
+    {
+        "description": "Raws: Jemez",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:05",
+        "site": {
+            "latitude": 35.8406,
+            "longitude": -106.6197,
+            "elevation": "2493.8736000000004",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Jemez Springs, NM",
+            "description": "RAWS: JEMEZ",
+            "sitenames": {
+                "cwms": "RawsJESN5",
+                "uuid": "2bb4da28-5d3e-4c74-8d97-6e61f9e174cd"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "328390CE"
+        },
+        "platform_sensors": [],
+        "id": "11776043"
+    },
+    {
+        "description": "Raws:Dripping Springs",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/30/2019 19:27:23",
+        "site": {
+            "latitude": 32.3222,
+            "longitude": -106.5867,
+            "elevation": "1793.748",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Organ, NM",
+            "description": "RAWS: DRIPPING SPRINGS",
+            "sitenames": {
+                "cwms": "RawsLOMN5",
+                "uuid": "487ce3c0-d548-49a0-a71e-ab6271b4019b"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "324B900C"
+        },
+        "platform_sensors": [],
+        "id": "11777043"
+    },
+    {
+        "description": "Raws: Lodge Pole Flats",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:05",
+        "site": {
+            "latitude": 39.1536,
+            "longitude": -106.3497,
+            "elevation": "2938.272",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Twin Lakes, CO",
+            "description": "RAWS: LODGE POLE FLATS",
+            "sitenames": {
+                "cwms": "RawsLPFC2",
+                "uuid": "2b084120-3b93-4ddb-a35c-a6cb50bab98a"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "328F9152"
+        },
+        "platform_sensors": [],
+        "id": "11778043"
+    },
+    {
+        "description": "Raws: Lujan",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/21/2019 23:02:26",
+        "site": {
+            "latitude": 38.2547,
+            "longitude": -106.5678,
+            "elevation": "3376.5744",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Sargents, CO",
+            "description": "RAWS: LUJAN",
+            "sitenames": {
+                "cwms": "RawsLUJC2",
+                "uuid": "1361466c-7320-43fb-be69-89dcbd4c2556"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3240D0AE"
+        },
+        "platform_sensors": [],
+        "id": "11779043"
+    },
+    {
+        "description": "Raws: Pecos",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/21/2019 23:02:30",
+        "site": {
+            "latitude": 35.5458,
+            "longitude": -105.4942,
+            "elevation": "2481.9864000000002",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Ilfeld, NM",
+            "description": "RAWS: PECOS",
+            "sitenames": {
+                "cwms": "RawsLVPN5",
+                "uuid": "c9777e8c-c534-4da9-869f-018901289509"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3246E5FA"
+        },
+        "platform_sensors": [],
+        "id": "11780043"
+    },
+    {
+        "description": "Raws:Mayhill",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:05",
+        "site": {
+            "latitude": 32.9097,
+            "longitude": -105.4697,
+            "elevation": "1972.3608000000002",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Mayhill, NM",
+            "description": "RAWS: MAYHILL",
+            "sitenames": {
+                "cwms": "RawsMAYN5",
+                "uuid": "1a550994-21ae-4ab0-96b7-9905e3d8b5fe"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3283C0B2"
+        },
+        "platform_sensors": [],
+        "id": "11781043"
+    },
+    {
+        "description": "Raws:Mcgreggor",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/31/2019 16:30:44",
+        "site": {
+            "latitude": 32.4314,
+            "longitude": -105.6217,
+            "elevation": "1489.2528",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Sacramento, NM",
+            "description": "RAWS: MCGREGGOR",
+            "sitenames": {
+                "cwms": "RawsMCRN5",
+                "uuid": "aae3efe1-c81f-4fee-b096-4585ee316ed1"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "326335BC"
+        },
+        "platform_sensors": [],
+        "id": "11782043"
+    },
+    {
+        "description": "Raws:Magdalena",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/31/2019 14:56:59",
+        "site": {
+            "latitude": 33.8511,
+            "longitude": -107.5392,
+            "elevation": "2590.8",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Magdalena, NM",
+            "description": "RAWS: MAGDALENA",
+            "sitenames": {
+                "cwms": "RawsMGLN5",
+                "uuid": "7df813c2-9c4f-4796-8bb6-649abcecba43"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "32336182"
+        },
+        "platform_sensors": [],
+        "id": "11783043"
+    },
+    {
+        "description": "Raws:Mogollon",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/21/2019 23:02:35",
+        "site": {
+            "latitude": 33.3906,
+            "longitude": -108.8067,
+            "elevation": "2393.8992000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Glenwood, NM",
+            "description": "RAWS: MOGOLLON",
+            "sitenames": {
+                "cwms": "RawsMGNN5",
+                "uuid": "5dc11c13-17c9-4bd9-a98a-45361a6f4fb1"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "326C15C2"
+        },
+        "platform_sensors": [],
+        "id": "11784043"
+    },
+    {
+        "description": "Raws: mills canyon",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:05",
+        "site": {
+            "latitude": 36.055,
+            "longitude": -104.3244,
+            "elevation": "1779.7272",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Mills, NM",
+            "description": "RAWS: MILLS CANYON",
+            "sitenames": {
+                "cwms": "RawsMLCN5",
+                "uuid": "49014947-1157-4a5c-9542-c2f1230b23f8"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "328904FE"
+        },
+        "platform_sensors": [],
+        "id": "11786043"
+    },
+    {
+        "description": "Raws: Mesa Mtn",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/31/2019 16:37:13",
+        "site": {
+            "latitude": 37.0564,
+            "longitude": -107.7086,
+            "elevation": "2249.424",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Ignacio, CO",
+            "description": "RAWS: MESA MTN",
+            "sitenames": {
+                "cwms": "RawsMMRC2",
+                "uuid": "e00d753d-537f-403e-8eaa-e8ff850d9412"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5210A012"
+        },
+        "platform_sensors": [],
+        "id": "11787043"
+    },
+    {
+        "description": "Raws: midland",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:06",
+        "site": {
+            "latitude": 31.9431,
+            "longitude": -102.1897,
+            "elevation": "854.0496",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "nearestcity": "Midland, TX",
+            "description": "RAWS: MIDLAND",
+            "sitenames": {
+                "cwms": "RawsMNDT2",
+                "uuid": "a2121ad7-804f-4b81-96ed-50afe02c4370"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "8841C092"
+        },
+        "platform_sensors": [],
+        "id": "11788043"
+    },
+    {
+        "description": "Raws: Paduca",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/31/2019 16:41:42",
+        "site": {
+            "latitude": 32.1797,
+            "longitude": -103.7217,
+            "elevation": "1069.848",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Angeles, TX",
+            "description": "RAWS: PADUCA",
+            "sitenames": {
+                "cwms": "RawsMPAN5",
+                "uuid": "4630d04f-3161-42eb-a393-695a5c359de9"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "325B6716"
+        },
+        "platform_sensors": [],
+        "id": "11789043"
+    },
+    {
+        "description": "Raws:Morefield",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:06",
+        "site": {
+            "latitude": 37.2972,
+            "longitude": -108.4128,
+            "elevation": "2383.536",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Mancos, CO",
+            "description": "RAWS: MOREFIELD",
+            "sitenames": {
+                "cwms": "RawsMRFC2",
+                "uuid": "da99d64a-e3fb-4729-bb6b-15435baef35a"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "FA630738"
+        },
+        "platform_sensors": [],
+        "id": "11790043"
+    },
+    {
+        "description": "Raws: Melrose range",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/22/2019 16:48:29",
+        "site": {
+            "latitude": 34.3,
+            "longitude": -103.8,
+            "elevation": "1325.88",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Krider, NM",
+            "description": "RAWS: MELROSE RANGE",
+            "sitenames": {
+                "cwms": "RawsMRRN5",
+                "uuid": "7ccf975d-9a9b-4779-a7a7-40195aede49e"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "AF100680"
+        },
+        "platform_sensors": [],
+        "id": "11791043"
+    },
+    {
+        "description": "Raws: Mescal",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/31/2019 17:04:49",
+        "site": {
+            "latitude": 33.1581,
+            "longitude": -105.7689,
+            "elevation": "1897.9896",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Mescalero, NM",
+            "description": "RAWS: MESCAL",
+            "sitenames": {
+                "cwms": "RawsMSCN5",
+                "uuid": "dcf7d56c-5abe-496b-b84d-ae150e3a3378"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5212B690"
+        },
+        "platform_sensors": [],
+        "id": "11792043"
+    },
+    {
+        "description": "Raws:MountainAir",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:06",
+        "site": {
+            "latitude": 34.5206,
+            "longitude": -106.2617,
+            "elevation": "1977.5424",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Mountainair, NM",
+            "description": "RAWS: MOUNTAINAIR",
+            "sitenames": {
+                "cwms": "RawsMTNN5",
+                "uuid": "477a2bfb-f4a2-4042-a550-75f3a7d547db"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3283A554"
+        },
+        "platform_sensors": [],
+        "id": "11793043"
+    },
+    {
+        "description": "Raws:Pinery",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:06",
+        "site": {
+            "latitude": 31.8944,
+            "longitude": -104.7978,
+            "elevation": "1640.1288000000002",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "nearestcity": "Pine Springs, TX",
+            "description": "RAWS: PINERY",
+            "sitenames": {
+                "cwms": "RawsPSGT2",
+                "uuid": "5cc7b916-e6dd-4958-b13e-242a0edd9695"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "FA40D7B0"
+        },
+        "platform_sensors": [],
+        "id": "11794043"
+    },
+    {
+        "description": "Raws:PX Well",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:06",
+        "site": {
+            "latitude": 31.9722,
+            "longitude": -104.9478,
+            "elevation": "1180.4904000000001",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "nearestcity": "Pine Springs, TX",
+            "description": "RAWS: PX WELL",
+            "sitenames": {
+                "cwms": "RawsPXWT2",
+                "uuid": "6192c668-019a-4b2d-9ee9-9e170b54ba39"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3241A4C4"
+        },
+        "platform_sensors": [],
+        "id": "11795043"
+    },
+    {
+        "description": "Raws:Queen",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:06",
+        "site": {
+            "latitude": 32.2036,
+            "longitude": -104.6903,
+            "elevation": "1708.404",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Queen",
+            "description": "RAWS: QUEEN",
+            "sitenames": {
+                "cwms": "RawsQENN5",
+                "uuid": "87c85314-130c-4971-a001-3eaaa91bdc40"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3287C588"
+        },
+        "platform_sensors": [],
+        "id": "11796043"
+    },
+    {
+        "description": "Raws: Red Creek",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/31/2019 21:15:25",
+        "site": {
+            "latitude": 38.2072,
+            "longitude": -104.9978,
+            "elevation": "1793.1384",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Wetmore, CO",
+            "description": "RAWS: RED CREEK",
+            "sitenames": {
+                "cwms": "RawsRDDC2",
+                "uuid": "7a0d1182-dc68-4631-a316-3c0f5198b653"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "328D345E"
+        },
+        "platform_sensors": [],
+        "id": "11797043"
+    },
+    {
+        "description": "Raws: Red Deer",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:06",
+        "site": {
+            "latitude": 38.8272,
+            "longitude": -106.2117,
+            "elevation": "2659.9896000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Buena Vista, CO",
+            "description": "RAWS: RED DEER",
+            "sitenames": {
+                "cwms": "RawsRDKC2",
+                "uuid": "207e31ec-08f1-4c8f-bc66-5efcefb2be64"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3241C122"
+        },
+        "platform_sensors": [],
+        "id": "11798043"
+    },
+    {
+        "description": "Raws: Eight Mile Draw",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/31/2019 18:31:33",
+        "site": {
+            "latitude": 33.6506,
+            "longitude": -104.3211,
+            "elevation": "1126.8456",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Acme, NM",
+            "description": "RAWS: EIGHT MILE DRAW",
+            "sitenames": {
+                "cwms": "RawsREMN5",
+                "uuid": "075a95f3-27b4-42b4-93be-3985139df816"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "327CA1D2"
+        },
+        "platform_sensors": [],
+        "id": "11799043"
+    },
+    {
+        "description": "Raws: Montano",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/31/2019 18:56:51",
+        "site": {
+            "latitude": 35.1458,
+            "longitude": -106.6808,
+            "elevation": "1516.38",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Paradise Hills, NM",
+            "description": "RAWS: MONTANO",
+            "sitenames": {
+                "cwms": "RawsRGMN5",
+                "uuid": "be83e190-dc9a-4cad-af38-f4e0a3844d1a"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "333221D0"
+        },
+        "platform_sensors": [],
+        "id": "11800043"
+    },
+    {
+        "description": "Raws: Rampart range",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:06",
+        "site": {
+            "latitude": 38.9586,
+            "longitude": -104.9528,
+            "elevation": "2806.2936",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Crystola, CO",
+            "description": "RAWS: RAMPART RANGE",
+            "sitenames": {
+                "cwms": "RawsRRAC2",
+                "uuid": "34278b96-207e-4d38-971d-211d0ffe601c"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "329295AA"
+        },
+        "platform_sensors": [],
+        "id": "11801043"
+    },
+    {
+        "description": "Raws:Sand Dunes",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/31/2019 21:25:43",
+        "site": {
+            "latitude": 37.7267,
+            "longitude": -105.5108,
+            "elevation": "2523.4392000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Blanca, CO",
+            "description": "RAWS: SAND DUNES",
+            "sitenames": {
+                "cwms": "RawsSDNC2",
+                "uuid": "b4ea5b28-5243-4777-90a5-b90a2203d4b1"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "8378E776"
+        },
+        "platform_sensors": [],
+        "id": "11802043"
+    },
+    {
+        "description": "Raws: Sandoval Mesa",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "06/10/2019 18:24:06",
+        "site": {
+            "latitude": 37.0994,
+            "longitude": -107.3028,
+            "elevation": "2588.0568000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Chimney Rock, CO",
+            "description": "RAWS: SANDOVAL MESA",
+            "sitenames": {
+                "cwms": "RawsSDVC2",
+                "uuid": "01aca710-a11e-4a4d-bbde-0626dbea3dca"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "32661490"
+        },
+        "platform_sensors": [],
+        "id": "11803043"
+    },
+    {
+        "description": "Raws:Sevilleta",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:06",
+        "site": {
+            "latitude": 34.3769,
+            "longitude": -106.7981,
+            "elevation": "1459.6872",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Contreras, NM",
+            "description": "RAWS: SEVILLETA",
+            "sitenames": {
+                "cwms": "RawsSEVN5",
+                "uuid": "fbc5353f-e32a-4d90-8cbd-385307e5526b"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "837933E4"
+        },
+        "platform_sensors": [],
+        "id": "11804043"
+    },
+    {
+        "description": "Raws: Santa Fe",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:06",
+        "site": {
+            "latitude": 35.6869,
+            "longitude": -105.8603,
+            "elevation": "2339.0352000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Santa Fe, NM",
+            "description": "RAWS: SANTA FE",
+            "sitenames": {
+                "cwms": "RawsSFWN5",
+                "uuid": "53a4e4b5-446b-4074-a42f-10865abec526"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "324172AC"
+        },
+        "platform_sensors": [],
+        "id": "11805043"
+    },
+    {
+        "description": "Raws: Salida",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:08",
+        "site": {
+            "latitude": 38.5933,
+            "longitude": -106.17,
+            "elevation": "2720.34",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Maysville, CO",
+            "description": "RAWS: SALIDA",
+            "sitenames": {
+                "cwms": "RawsSIDC2",
+                "uuid": "e8b0398b-2dc9-499f-9599-d07e6775f77a"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "323EF786"
+        },
+        "platform_sensors": [],
+        "id": "11806043"
+    },
+    {
+        "description": "Raws: Slaughter",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/21/2019 23:02:40",
+        "site": {
+            "latitude": 34.0606,
+            "longitude": -108.4447,
+            "elevation": "2645.664",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Slaughter",
+            "description": "RAWS: SLAUGHTER",
+            "sitenames": {
+                "cwms": "RawsSLMN5",
+                "uuid": "22793d6e-3e67-45d2-8ada-6296cc813685"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3233D20C"
+        },
+        "platform_sensors": [],
+        "id": "11807043"
+    },
+    {
+        "description": "Raws:San Andres",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:06",
+        "site": {
+            "latitude": 32.58,
+            "longitude": -106.525,
+            "elevation": "1870.8624000000002",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Organ, NM",
+            "description": "RAWS: SAN ANDRES",
+            "sitenames": {
+                "cwms": "RawsSNDN5",
+                "uuid": "06b8e158-55f5-44e3-98ca-9bf0bb8040a0"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "83709540"
+        },
+        "platform_sensors": [],
+        "id": "11808043"
+    },
+    {
+        "description": "Raws: Sandia Lakes",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "06/10/2019 18:59:05",
+        "site": {
+            "latitude": 35.2297,
+            "longitude": -106.5906,
+            "elevation": "1517.2944",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Corrales, NM",
+            "description": "RAWS: SANDIA LAKES",
+            "sitenames": {
+                "cwms": "RawsSNLN5",
+                "uuid": "287cb419-44e3-401a-8921-7f867ee0249d"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "327AE216"
+        },
+        "platform_sensors": [],
+        "id": "11809043"
+    },
+    {
+        "description": "Raws: Stone Lake",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "07/08/2019 18:20:15",
+        "site": {
+            "latitude": 36.7317,
+            "longitude": -106.8658,
+            "elevation": "2250.9480000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Monero, NM",
+            "description": "RAWS: STONE LAKE",
+            "sitenames": {
+                "cwms": "RawsSTLN5",
+                "uuid": "7e6b275b-3afc-498b-b423-f2899ab32500"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "52139286"
+        },
+        "platform_sensors": [],
+        "id": "11810043"
+    },
+    {
+        "description": "Raws: Oak Flats",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/23/2019 19:01:04",
+        "site": {
+            "latitude": 35.0061,
+            "longitude": -106.3158,
+            "elevation": "2331.7200000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Escabosa, NM",
+            "description": "RAWS: OAK FLATS",
+            "sitenames": {
+                "cwms": "RawsTJRN5",
+                "uuid": "31fddd43-58fc-49a3-96b2-d02104ed2cb9"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "323372F4"
+        },
+        "platform_sensors": [],
+        "id": "11811043"
+    },
+    {
+        "description": "Raws: Truchas",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:07",
+        "site": {
+            "latitude": 36.0589,
+            "longitude": -105.7694,
+            "elevation": "2524.9632",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Truchas, NM",
+            "description": "RAWS: TRUCHAS",
+            "sitenames": {
+                "cwms": "RawsTRUN5",
+                "uuid": "dfebc267-3f2f-425e-ac0b-937c4e9cf348"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "328383B8"
+        },
+        "platform_sensors": [],
+        "id": "11812043"
+    },
+    {
+        "description": "Raws: Tower",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/21/2019 23:02:45",
+        "site": {
+            "latitude": 35.7789,
+            "longitude": -106.2661,
+            "elevation": "1990.0392000000002",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Tower",
+            "description": "RAWS: TOWER",
+            "sitenames": {
+                "cwms": "RawsTWRN5",
+                "uuid": "3c55a0dc-8b5d-42e8-afcf-c4622bb24ea3"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "FA6362DE"
+        },
+        "platform_sensors": [],
+        "id": "11813043"
+    },
+    {
+        "description": "Raws: Ute Canyon",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "07/08/2019 18:42:50",
+        "site": {
+            "latitude": 37.0608,
+            "longitude": -102.6303,
+            "elevation": "1332.5856",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Campo, CO",
+            "description": "RAWS: UTE CANYON",
+            "sitenames": {
+                "cwms": "RawsUCNC2",
+                "uuid": "e50c5e7c-42b8-440a-a6f6-84e94f665997"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3236F320"
+        },
+        "platform_sensors": [],
+        "id": "11814043"
+    },
+    {
+        "description": "Raws: Willis Creek",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "05/21/2019 21:29:24",
+        "site": {
+            "latitude": 38.0028,
+            "longitude": -105.0561,
+            "elevation": "2759.3544",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "nearestcity": "Beulah, CO",
+            "description": "RAWS: WILLIS CREEK",
+            "sitenames": {
+                "cwms": "RawsWLCC2",
+                "uuid": "ddedd222-90b3-48c6-b8b8-3a4c5803614b"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3240B548"
+        },
+        "platform_sensors": [],
+        "id": "11816043"
+    },
+    {
+        "description": "Raws:Wa Pass",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "07/08/2019 18:54:24",
+        "site": {
+            "latitude": 36.0767,
+            "longitude": -108.8608,
+            "elevation": "2567.3304000000003",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Sheep Springs, NM",
+            "description": "RAWS: WA PASS",
+            "sitenames": {
+                "cwms": "RawsWPSN5",
+                "uuid": "8abfe135-1d0e-4304-b35e-7ec40b6d42d4"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3279F66E"
+        },
+        "platform_sensors": [],
+        "id": "11817043"
+    },
+    {
+        "description": "Raws: Zuni Buttes",
+        "agency": "CWMS",
+        "isproduction": "true",
+        "lastmodifytime": "10/16/2019 20:44:22",
+        "site": {
+            "latitude": 35.1392,
+            "longitude": -108.9414,
+            "elevation": "2015.3376",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Zuni, NM",
+            "description": "RAWS: ZUNI BUTTES",
+            "sitenames": {
+                "cwms": "RawsZNRN5",
+                "uuid": "3e8071b7-3bec-47fb-a83b-9e1ef85bfbe0"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "327B25F2"
+        },
+        "platform_sensors": [],
+        "id": "11818043"
+    },
+    {
+        "description": "Wightman Fork at Mouth near Jasper near South Fork",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 19:40:50",
+        "site": {
+            "latitude": 37.4039,
+            "longitude": -106.5217,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Wightman Fork",
+                "uuid": "32e59f24-12cd-4811-872c-87a198fa960d"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5144D51C"
+        },
+        "platform_sensors": [],
+        "id": "14076043"
+    },
+    {
+        "description": "Sangre de Cristo Creek near Ft Garland",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:46",
+        "site": {
+            "latitude": 37.425,
+            "longitude": -105.415,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "FT Garland S D C",
+                "uuid": "f732b237-5054-4436-bf4a-b5c441f15d56"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5164F21E"
+        },
+        "platform_sensors": [],
+        "id": "14081043"
+    },
+    {
+        "description": "Costilla Creek above Costilla Dam near Costilla",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:46",
+        "site": {
+            "latitude": 36.8984,
+            "longitude": -105.2547,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Costilla US",
+                "uuid": "4802c586-4a94-4e73-9827-faab0fbf8033"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "DD647628"
+        },
+        "platform_sensors": [],
+        "id": "14085043"
+    },
+    {
+        "description": "Santistevan Creek near Costilla",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:46",
+        "site": {
+            "latitude": 36.8842,
+            "longitude": -105.2811,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Costilla Santvan",
+                "uuid": "5349cf07-9490-4126-a4d3-c7318b538742"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "DD7B12C2"
+        },
+        "platform_sensors": [],
+        "id": "14089043"
+    },
+    {
+        "description": "Santa Cruz River near Cundiyo",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:46",
+        "site": {
+            "latitude": 35.9647,
+            "longitude": -105.9047,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Cundiyo",
+                "uuid": "f147f931-90b4-4d34-85e8-ecddb171a2b4"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "F0004188"
+        },
+        "platform_sensors": [],
+        "id": "14094043"
+    },
+    {
+        "description": "Rio Grande at the Narrows in Elephant Butte Lake near Truth or\n      Consequences",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "03/08/2019 15:47:52",
+        "site": {
+            "latitude": 33.3861,
+            "longitude": -107.1625,
+            "elevation": "1330.034",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Narrows",
+                "uuid": "5822cedb-ec5d-48cd-86c9-47d9ca833966"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "DE60446E"
+        },
+        "platform_sensors": [],
+        "id": "14099043"
+    },
+    {
+        "description": "Santa Fe River below McClure Dam near Santa Fe",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:46",
+        "site": {
+            "latitude": 35.6864,
+            "longitude": -105.8436,
+            "elevation": "2353.056",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Santa Fe",
+                "uuid": "31610502-0d0f-4fef-ae42-bd53ec28d40a"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "F0006764"
+        },
+        "platform_sensors": [],
+        "id": "14103043"
+    },
+    {
+        "description": "Nichols Reservoir near Santa Fe",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:46",
+        "site": {
+            "latitude": 35.6894,
+            "longitude": -105.88,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Nichols",
+                "uuid": "9a5c2a98-eb61-4840-bc99-3f16ccdb3b24"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "F0007412"
+        },
+        "platform_sensors": [],
+        "id": "14108043"
+    },
+    {
+        "description": "Prairie Ditch near Seven-mile Plaza",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:47",
+        "site": {
+            "latitude": 37.6455,
+            "longitude": -106.2315,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Prairie Dtch",
+                "uuid": "a9385408-e794-472b-9ba3-e6c99dd27b7a"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "51412258"
+        },
+        "platform_sensors": [],
+        "id": "14112043"
+    },
+    {
+        "description": "Rio Grande near Dryden",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:47",
+        "site": {
+            "latitude": 29.8236,
+            "longitude": -102.1667,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "sitenames": {
+                "cwms": "Dryden",
+                "uuid": "4b4b81db-84c0-43e0-81b4-18064db18821"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "00900026"
+        },
+        "platform_sensors": [],
+        "id": "14117043"
+    },
+    {
+        "description": "Rio Grande at Foster Ranch near Langtry",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 21:18:00",
+        "site": {
+            "latitude": 29.7806,
+            "longitude": -101.7556,
+            "elevation": "352.705416",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "description": "Rio Grande at Foster Ranch near Langtry, TX",
+            "sitenames": {
+                "cwms": "Foster Ranch",
+                "uuid": "c01cc2a6-2b33-4136-957e-61d161f272fe"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "00901350"
+        },
+        "platform_sensors": [],
+        "id": "14122043"
+    },
+    {
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:47",
+        "site": {
+            "latitude": 37.4292,
+            "longitude": -106.5842,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Summitville",
+                "uuid": "7b41db66-cf6b-48d1-b62e-cd3598b83dc5"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "515C8658"
+        },
+        "platform_sensors": [],
+        "id": "14127043"
+    },
+    {
+        "description": "Terlingua Creek near Terlingua",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:47",
+        "site": {
+            "latitude": 29.2028,
+            "longitude": -103.6194,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "sitenames": {
+                "cwms": "Terlingua",
+                "uuid": "4b9b3ecb-1c45-4afd-a496-9728ece898a0"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "009102DC"
+        },
+        "platform_sensors": [],
+        "id": "14132043"
+    },
+    {
+        "description": "Ute Creek near Ft Garland",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:48",
+        "site": {
+            "latitude": 37.4471,
+            "longitude": -105.4258,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Ft Garland Ute",
+                "uuid": "1c395ec2-d17a-473b-b8a2-ba23f0557ae4"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "515AB30C"
+        },
+        "platform_sensors": [],
+        "id": "14137043"
+    },
+    {
+        "description": "Rio Grande near El Paso\\n1.7 miles upstream from American Dam",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 21:19:31",
+        "site": {
+            "latitude": 31.8028,
+            "longitude": -106.5403,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "sitenames": {
+                "cwms": "El Paso",
+                "uuid": "6530417e-8ce3-4463-a034-edf1956f730f"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "00900EF4"
+        },
+        "platform_sensors": [],
+        "id": "14146043"
+    },
+    {
+        "description": "Rio Grande at Castolon",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:48",
+        "site": {
+            "latitude": 29.1378,
+            "longitude": -103.5244,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "sitenames": {
+                "cwms": "Castolon",
+                "nwshb5": "CSTT2",
+                "uuid": "af95a24e-e89e-4ca8-8aa6-bff067e3d62d"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "1684D6A2"
+        },
+        "platform_sensors": [],
+        "id": "14150043"
+    },
+    {
+        "description": "Rio Grande del Rancho near Talpa",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:49",
+        "site": {
+            "latitude": 36.3031,
+            "longitude": -105.5811,
+            "elevation": "2206.752",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Talpa",
+                "uuid": "45181bae-4bbc-4a90-a265-e37777c726fe"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "17494560"
+        },
+        "platform_sensors": [],
+        "id": "14155043"
+    },
+    {
+        "description": "Santa Fe River above Cochiti Lake near Santo Domingo Pueblo",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:49",
+        "site": {
+            "latitude": 35.5472,
+            "longitude": -106.2289,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Cochiti Santa Fe",
+                "uuid": "16ba5115-dd06-4d5d-8e69-661751865514"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "1749B5E4"
+        },
+        "platform_sensors": [],
+        "id": "14159043"
+    },
+    {
+        "description": "Rio Brazos at Fishtail Road near Tierra Amarilla",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:49",
+        "site": {
+            "latitude": 36.7381,
+            "longitude": -106.4708,
+            "elevation": "2357.628",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "description": "Rio Brazos at Fishtail Road near Tierra Amarilla, NM",
+            "sitenames": {
+                "cwms": "Fishtail rd",
+                "uuid": "55481fd4-9657-4f7b-8f74-be4acba36a98"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "16DB748A"
+        },
+        "platform_sensors": [],
+        "id": "14164043"
+    },
+    {
+        "description": "Romero Ditch near Conejos",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:49",
+        "site": {
+            "latitude": 37.0869,
+            "longitude": -106.0384,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Romero Dtch",
+                "uuid": "9d063929-1af0-4c01-a5a0-4084dd6ba1a0"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5140805A"
+        },
+        "platform_sensors": [],
+        "id": "14168043"
+    },
+    {
+        "description": "Rito de Los Frijoles in Bandelier National Monument",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "06/17/2019 19:02:22",
+        "site": {
+            "latitude": 35.7764,
+            "longitude": -106.2683,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Frijoles",
+                "uuid": "d1bc7baa-bfc1-4d70-9c77-c31ef20f881a"
+            }
+        },
+        "platformconfig": "",
+        "platform_sensors": [],
+        "id": "14173043"
+    },
+    {
+        "description": "Manassa Ditch near Conejos",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:49",
+        "site": {
+            "latitude": 37.1054,
+            "longitude": -106.0054,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Manassa Dtch",
+                "uuid": "6869f868-a5e0-4a0d-aff0-7a251d3c2054"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5140B5C0"
+        },
+        "platform_sensors": [],
+        "id": "14177043"
+    },
+    {
+        "description": "San Luis Valley Canal near Rio Grande-Alamosa County Line",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:49",
+        "site": {
+            "latitude": 37.5767,
+            "longitude": -106.0513,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "San Luis Val Cn",
+                "uuid": "3168afd9-51ed-4c10-8f82-bdc2f4b08811"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "514104B4"
+        },
+        "platform_sensors": [],
+        "id": "14181043"
+    },
+    {
+        "description": "Pine River Weminuche Pass Ditch near Silverton (PDWDITCO)",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:49",
+        "site": {
+            "latitude": 37.6669,
+            "longitude": -107.3214,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "PRWP Dtch",
+                "uuid": "30289bb5-04cb-4a29-bf52-d6c0e8150e8c"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5141C1AA"
+        },
+        "platform_sensors": [],
+        "id": "14186043"
+    },
+    {
+        "description": "Bear Creek near South Fork",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:18:49",
+        "site": {
+            "latitude": 37.6798,
+            "longitude": -106.6082,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "South Fork Bear",
+                "uuid": "2a822bb7-d5fe-4726-bd40-38dc536fd6b8"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "514F653A"
+        },
+        "platform_sensors": [],
+        "id": "14195043"
+    },
+    {
+        "description": "Bluewater Lake near Bluewater",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:11",
+        "site": {
+            "latitude": 35.2925,
+            "longitude": -108.1114,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Bluewater",
+                "nwshb5": "BWLN5",
+                "uuid": "cb448fa5-8475-4b80-a2a8-da8b04958921"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "17CEC6F8"
+        },
+        "platform_sensors": [],
+        "id": "15055043"
+    },
+    {
+        "description": "Conejos River near Conejos",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:11",
+        "site": {
+            "latitude": 37.1015,
+            "longitude": -106.0069,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Conejos",
+                "uuid": "60218561-f043-48ea-bccd-a8e76b4c4e98"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5140932C"
+        },
+        "platform_sensors": [],
+        "id": "15059043"
+    },
+    {
+        "description": "Monte Vista Canal near Monte Vista",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:12",
+        "site": {
+            "latitude": 37.616,
+            "longitude": -106.222,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Monte Vista Cn",
+                "uuid": "afdd5da1-bce3-4580-8235-da61d8d32524"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "514147BE"
+        },
+        "platform_sensors": [],
+        "id": "15063043"
+    },
+    {
+        "description": "Mountain Home Reservoir near Ft Garland",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 19:31:27",
+        "site": {
+            "latitude": 37.3931,
+            "longitude": -105.3936,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Mountain Home",
+                "uuid": "bcbdb4fa-71c6-4c3c-be7a-f1558003f036"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5141D2DC"
+        },
+        "platformsensor": "",
+        "platform_sensors": [
+            {
+                "latitude": 37.394,
+                "longitude": -105.395,
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "m",
+                "timezone": "US/Mountain",
+                "country": "UNITED STATES",
+                "state": "CO",
+                "sitenames": {
+                    "cwms": "Mountain Home DS",
+                    "uuid": "1c1779b0-c546-4b85-8698-5e3524707d99"
+                }
+            }
+        ],
+        "id": "15068043"
+    },
+    {
+        "description": "Alamosa River below Ranger Creek near Jasper",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 17:04:31",
+        "site": {
+            "latitude": 37.3889,
+            "longitude": -106.3773,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Jasper DS",
+                "uuid": "dde632e7-a9b5-4cc8-8525-eeda24bf5a58"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "514475E4"
+        },
+        "platform_sensors": [],
+        "id": "15073043"
+    },
+    {
+        "description": "Alamosa River above Wightman Fork near Jasper",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 17:07:12",
+        "site": {
+            "latitude": 37.4025,
+            "longitude": -106.522,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Jasper US",
+                "uuid": "d6a7c9de-fb1c-4aac-9f0d-3b185f461e16"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5144C66A"
+        },
+        "platform_sensors": [],
+        "id": "15078043"
+    },
+    {
+        "description": "Rio Grande at Marchall Park Campground near Creede",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:12",
+        "site": {
+            "latitude": 37.7932,
+            "longitude": -106.9819,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Marshall Park CG",
+                "uuid": "cbf5160c-b48f-43d0-a9a6-36c4c9008e2d"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "514C07D2"
+        },
+        "platform_sensors": [],
+        "id": "15083043"
+    },
+    {
+        "description": "Goose Creek above Humphreys Reservoir near Wagon Wheel Gap",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:12",
+        "site": {
+            "latitude": 37.6764,
+            "longitude": -106.8593,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Humphreys US",
+                "uuid": "d4282cff-5ceb-4906-80a5-3a6b7db1e96b"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "514BF562"
+        },
+        "platform_sensors": [],
+        "id": "15088043"
+    },
+    {
+        "description": "Terrace Reservoir in Conejos County",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:12",
+        "site": {
+            "latitude": 37.3572,
+            "longitude": -106.285,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Terrace",
+                "uuid": "bd52b58d-edb0-4800-b8fa-e87b0e77dbc6"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5163B320"
+        },
+        "platform_sensors": [],
+        "id": "15093043"
+    },
+    {
+        "description": "North Branch Conejos River near Conejos",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:12",
+        "site": {
+            "latitude": 37.1018,
+            "longitude": -106.0091,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Conejos N B",
+                "uuid": "551bffc8-70fb-4717-973c-d49f4c4c56e4"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5143C45E"
+        },
+        "platform_sensors": [],
+        "id": "15098043"
+    },
+    {
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:12",
+        "site": {
+            "latitude": 37.8728,
+            "longitude": -107.1587,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Tabor Dtch",
+                "uuid": "f0d3207e-f49f-4d2d-a33f-584cd3db9e1e"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5164C784"
+        },
+        "platform_sensors": [],
+        "id": "15103043"
+    },
+    {
+        "description": "Beaver Creek below Beaver Creek Resevoir near South Fork",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "07/20/2020 19:13:53",
+        "site": {
+            "latitude": 37.5989,
+            "longitude": -106.6675,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Beaver Creek DS",
+                "nwshb5": "BCBC2",
+                "uuid": "83de2ae7-b48c-4691-a6e6-baf52057899d"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5164D4F2"
+        },
+        "platform_sensors": [],
+        "id": "15108043"
+    },
+    {
+        "description": "Goose Creek at Wagonwheel Gap",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 15:55:54",
+        "site": {
+            "latitude": 37.7519,
+            "longitude": -106.83,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Wagon WG Goose",
+                "uuid": "486b34d9-19cc-475a-9a7b-54ba43d13eb2"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5145E27C"
+        },
+        "platform_sensors": [],
+        "id": "15113043"
+    },
+    {
+        "description": "San Francisco Creek at Upper Station, near Del Norte",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 16:00:14",
+        "site": {
+            "latitude": 37.5793,
+            "longitude": -106.3702,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Del Norte San Fr",
+                "uuid": "6e45193f-8188-4767-b482-a13d56f2405a"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5163D6C6"
+        },
+        "platform_sensors": [],
+        "id": "15118043"
+    },
+    {
+        "description": "Rio Grande at Hayner's Bridge near Rincon",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:14",
+        "site": {
+            "latitude": 32.6133,
+            "longitude": -107.0194,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Hayner Bridge",
+                "uuid": "6f2860f9-d33c-4e2c-ba5e-68d1f51a1d01"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "0090432C"
+        },
+        "platform_sensors": [],
+        "id": "15123043"
+    },
+    {
+        "description": "Rio Grande at Canutillo near Anthony",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:14",
+        "site": {
+            "latitude": 31.915,
+            "longitude": -106.6014,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "description": "Rio Grande at Canutillo near Anthony",
+            "sitenames": {
+                "cwms": "Anthony",
+                "nwshb5": "RCLT2",
+                "uuid": "bbc6683d-3f72-450c-9320-02bc350cde2a"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "009065C0"
+        },
+        "platform_sensors": [],
+        "id": "15128043"
+    },
+    {
+        "description": "American Canal diversions below American Canal",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:14",
+        "site": {
+            "latitude": 31.7778,
+            "longitude": -106.5264,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "description": "Diversions from the Rio Grande, American Canal At El Paso, Texas",
+            "sitenames": {
+                "cwms": "American Cn",
+                "nwshb5": "ACDT2",
+                "uuid": "d7ee5ba8-ef90-4141-a0c1-ba9f4bd2ab35"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "00909544"
+        },
+        "platform_sensors": [],
+        "id": "15133043"
+    },
+    {
+        "description": "Rio Grande at Fort Quitman",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:14",
+        "site": {
+            "latitude": 31.0861,
+            "longitude": -105.6083,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "sitenames": {
+                "cwms": "Ft Quitman",
+                "uuid": "f83a4c6a-14ac-46b8-9671-d74e68c135be"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "0090A0DE"
+        },
+        "platform_sensors": [],
+        "id": "15138043"
+    },
+    {
+        "description": "Rio Grande near Candelaria, TX and San Antonio Del Bravo, Chihuahua",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:14",
+        "site": {
+            "latitude": 30.175,
+            "longitude": -104.6861,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "sitenames": {
+                "cwms": "Candelaria",
+                "nwshb5": "CDET2",
+                "uuid": "081ffc0d-58a8-4b07-8ffe-43b17b3d72cf"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "0090B3A8"
+        },
+        "platform_sensors": [],
+        "id": "15143043"
+    },
+    {
+        "description": "Rio Grande above Rio Conchos near Presidio",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:14",
+        "site": {
+            "latitude": 29.6042,
+            "longitude": -104.4514,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "sitenames": {
+                "cwms": "Presidio US",
+                "uuid": "025cd9af-856e-4757-815e-c242f44f3e0b"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "0090C538"
+        },
+        "platform_sensors": [],
+        "id": "15148043"
+    },
+    {
+        "description": "Rio Grande International Bridge at Presidio",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:14",
+        "site": {
+            "latitude": 29.5578,
+            "longitude": -104.3936,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "sitenames": {
+                "cwms": "Presidio",
+                "uuid": "3f2c8523-0eae-4e0b-b08f-1fdcb55d1fd7"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "0090D64E"
+        },
+        "platform_sensors": [],
+        "id": "15153043"
+    },
+    {
+        "description": "Rio Grande below American Dam",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:15",
+        "site": {
+            "latitude": 31.7761,
+            "longitude": -106.5222,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "sitenames": {
+                "cwms": "American DS",
+                "nwshb5": "RGAT2",
+                "uuid": "01937816-60be-46f2-a4ad-74608d737212"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "0094D374"
+        },
+        "platform_sensors": [],
+        "id": "15157043"
+    },
+    {
+        "description": "Rio Grande below Mesilla Dam near Mesilla",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:15",
+        "site": {
+            "latitude": 32.2103,
+            "longitude": -106.7717,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Mesilla DS",
+                "uuid": "3e624d3c-6af6-492e-a72c-eac80aa7d1d3"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "0093C236"
+        },
+        "platform_sensors": [],
+        "id": "15161043"
+    },
+    {
+        "description": "Rio Conchos near Ojinaga",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:15",
+        "site": {
+            "latitude": 29.5833,
+            "longitude": -104.43,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "sitenames": {
+                "cwms": "Rio Conchos",
+                "uuid": "c05d3a59-c5c1-44af-bd64-3b42a9465980"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "00945560"
+        },
+        "platform_sensors": [],
+        "id": "15165043"
+    },
+    {
+        "description": "Rio Grande below Leasburg Dam near Radium Springs",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 21:18:53",
+        "site": {
+            "latitude": 32.4764,
+            "longitude": -106.9194,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Leasburg DS",
+                "uuid": "df463dae-03be-4ae3-acca-4e4a5ae8aa42"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "009088E0"
+        },
+        "platform_sensors": [],
+        "id": "15170043"
+    },
+    {
+        "description": "Alamito Creek near Presidio",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:15",
+        "site": {
+            "latitude": 29.5236,
+            "longitude": -104.2875,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "sitenames": {
+                "cwms": "Presidio Alamito",
+                "uuid": "06d7606b-c25d-4222-bc07-7f6eaf5c1a41"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "0090E3D4"
+        },
+        "platform_sensors": [],
+        "id": "15174043"
+    },
+    {
+        "description": "Sanchez Reservoir near San Luis",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 19:33:57",
+        "site": {
+            "latitude": 37.1136,
+            "longitude": -105.4125,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Sanchez Res",
+                "uuid": "f2e9c065-b014-4f58-b41d-dc54b11170d9"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "51650060"
+        },
+        "platformsensor": "",
+        "platform_sensors": [
+            {
+                "latitude": 37.1143,
+                "longitude": -105.4092,
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "m",
+                "timezone": "US/Mountain",
+                "country": "UNITED STATES",
+                "state": "CO",
+                "sitenames": {
+                    "cwms": "Sanchez Res DS",
+                    "uuid": "0b3fe0ad-1c4c-4871-abe4-fa8af4962a5a"
+                }
+            }
+        ],
+        "id": "15179043"
+    },
+    {
+        "description": "Rio Grande Reservoir near Creede",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:15",
+        "site": {
+            "latitude": 37.7219,
+            "longitude": -107.2676,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Rio Grande Res",
+                "uuid": "f31b174d-2f2c-411d-b8ef-6fe62c6e764c"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "516A1584"
+        },
+        "platform_sensors": [],
+        "id": "15184043"
+    },
+    {
+        "description": "Rio Grande at Johnson Ranch near Terlingua",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:16",
+        "site": {
+            "latitude": 29.0347,
+            "longitude": -103.3903,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "sitenames": {
+                "cwms": "Johnson Ranch",
+                "uuid": "3d2fc9b2-fb67-4ddd-90b8-92681cd64677"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "009111AA"
+        },
+        "platform_sensors": [],
+        "id": "15189043"
+    },
+    {
+        "description": "Rio Grande below Rio Conchos near Presidio",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:16",
+        "site": {
+            "latitude": 29.5192,
+            "longitude": -104.2864,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "sitenames": {
+                "cwms": "Presidio DS",
+                "uuid": "72921715-6125-4a50-b2c6-5958b318f7e6"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "0090F0A2"
+        },
+        "platform_sensors": [],
+        "id": "15196043"
+    },
+    {
+        "description": "Santa Fe River above McClure Reservoir near Santa Fe",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:16",
+        "site": {
+            "latitude": 35.6889,
+            "longitude": -105.8228,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "McClure US",
+                "uuid": "ad7c605f-292d-4d6f-8ddd-f79906e2a818"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "17895272"
+        },
+        "platform_sensors": [],
+        "id": "15201043"
+    },
+    {
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "05/15/2018 12:55:31",
+        "site": {
+            "latitude": 35.0019,
+            "longitude": -106.6575,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Tijeras Arroyo",
+                "uuid": "5de77a94-be88-426c-afda-11bbf89030b3"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "DE51B060"
+        },
+        "platform_sensors": [],
+        "id": "15205043"
+    },
+    {
+        "description": "Tesuque Creek above Diversions near Santa Fe",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:16",
+        "site": {
+            "latitude": 35.7394,
+            "longitude": -105.905,
+            "elevation": "2167.7376",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Santa Fe Tesq",
+                "uuid": "72176523-c0f0-4fc1-a863-939ca6c103e1"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "178C6028"
+        },
+        "platform_sensors": [],
+        "id": "15210043"
+    },
+    {
+        "description": "Costilla Creek below Costilla Dam near Costilla",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:16",
+        "site": {
+            "latitude": 36.8728,
+            "longitude": -105.2837,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Costilla DS",
+                "uuid": "75287f17-a159-4854-a6e3-22a40e9e5401"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "179233A2"
+        },
+        "platform_sensors": [],
+        "id": "15214043"
+    },
+    {
+        "description": "South Fork Rio Grande below Columbine Creek near South Fork",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:16",
+        "site": {
+            "latitude": 37.5744,
+            "longitude": -106.7534,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "South Fork US",
+                "uuid": "434acf2d-e949-4e64-b1c9-cbe52b37a3c0"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "514C213E"
+        },
+        "platform_sensors": [],
+        "id": "15219043"
+    },
+    {
+        "description": "Rio Grande at mouth of Box Canyon near Creede (RIOBOXCO)",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:16",
+        "site": {
+            "latitude": 37.7746,
+            "longitude": -107.1413,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Box Canyon",
+                "nwshb5": "RGBC2",
+                "uuid": "e40383b6-02b9-4d3a-9df2-d79b5e0169a5"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "514C14A4"
+        },
+        "platform_sensors": [],
+        "id": "15224043"
+    },
+    {
+        "description": "Farmers Union Canal near Del Norte",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:16",
+        "site": {
+            "latitude": 37.6659,
+            "longitude": -106.2639,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Farmers Union Cn",
+                "uuid": "23729e3c-5321-44d3-9905-bd3b395bd671"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5141312E"
+        },
+        "platform_sensors": [],
+        "id": "15228043"
+    },
+    {
+        "description": "Empire Canal near Monte Vista",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:17",
+        "site": {
+            "latitude": 37.5808,
+            "longitude": -106.1055,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Empire Cn",
+                "uuid": "0b4ade32-e12b-46bf-8911-48211b88d6de"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5157367E"
+        },
+        "platform_sensors": [],
+        "id": "15232043"
+    },
+    {
+        "description": "Costilla Creek south of CO-NM Border near Garcia",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:17",
+        "site": {
+            "latitude": 36.989,
+            "longitude": -105.5325,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Garcia",
+                "uuid": "91a6b769-df69-4c1f-bbdb-a51aa238224c"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "D106C72A"
+        },
+        "platform_sensors": [],
+        "id": "15236043"
+    },
+    {
+        "description": "Rio Chama above Chama",
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:17",
+        "site": {
+            "latitude": 36.935,
+            "longitude": -106.5547,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Chama",
+                "uuid": "1cdef8d7-077b-4796-adee-a13d7268ddb7"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "168226E8"
+        },
+        "platform_sensors": [],
+        "id": "15241043"
+    },
+    {
+        "description": "Norton Drain near La Sauses",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:13",
+        "site": {
+            "latitude": 37.3346,
+            "longitude": -105.7715,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Norton Drain",
+                "uuid": "cf68c64d-81f2-4cda-8142-35b29731ecbf"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5145771E"
+        },
+        "platform_sensors": [],
+        "id": "15245043"
+    },
+    {
+        "description": "South Channel Norton Drain Ditch near La Sauses",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:13",
+        "site": {
+            "latitude": 37.2986,
+            "longitude": -105.8547,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Norton Drain S",
+                "uuid": "cd97eef2-8516-4baf-825e-dc69a388ce82"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5151853E"
+        },
+        "platform_sensors": [],
+        "id": "15250043"
+    },
+    {
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "10/25/2016 21:53:20",
+        "site": {
+            "latitude": 37.1143,
+            "longitude": -105.4092,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Sanchez Res DS",
+                "uuid": "45a2cbdf-17e3-40cb-8bc4-e82d0545eca0"
+            }
+        },
+        "platformconfig": "",
+        "platform_sensors": [],
+        "id": "15255043"
+    },
+    {
+        "description": "Trinchera Creek above Mountain Home Reservoir",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:13",
+        "site": {
+            "latitude": 37.3947,
+            "longitude": -105.3689,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Mountain Home US",
+                "uuid": "23f08784-c0f0-4a8d-b9b3-ec5e0fc74fb5"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "51651316"
+        },
+        "platform_sensors": [],
+        "id": "15260043"
+    },
+    {
+        "description": "Costilla Ditch near Alamosa",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/24/2017 15:19:13",
+        "site": {
+            "latitude": 37.5527,
+            "longitude": -105.9488,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Costilla Dtch Al",
+                "uuid": "9298f662-578f-4ce4-807e-c535122efb1a"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "5165268C"
+        },
+        "platform_sensors": [],
+        "id": "15264043"
+    },
+    {
+        "description": "Centennial Canal near Monte Vista",
+        "agency": "CODWR",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 18:06:19",
+        "site": {
+            "latitude": 37.5719,
+            "longitude": -106.0704,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "CO",
+            "sitenames": {
+                "cwms": "Centennial Cn",
+                "uuid": "62d69e73-32c9-4e25-a9b8-0f2e420aaefd"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "516576F0"
+        },
+        "platform_sensors": [],
+        "id": "15268043"
+    },
+    {
+        "description": "Raws: Rio Grande Village",
+        "agency": "NPS",
+        "isproduction": "true",
+        "lastmodifytime": "05/25/2017 13:43:10",
+        "site": {
+            "latitude": 29.1858,
+            "longitude": -102.9631,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "nearestcity": "Marathon",
+            "description": "Rio Grande Village RAWS near Marathon 72S",
+            "sitenames": {
+                "cwms": "RawsRGET2",
+                "nwshb5": "RGET2",
+                "uuid": "e85cdf36-fb28-4480-886f-b3f667859cee"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3237015E"
+        },
+        "platform_sensors": [],
+        "id": "32299043"
+    },
+    {
+        "description": "Leasburg Canal - Leasburg Dam",
+        "agency": "EBID",
+        "isproduction": "true",
+        "lastmodifytime": "06/08/2017 15:09:12",
+        "site": {
+            "latitude": 32.4879,
+            "longitude": -106.9221,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Leasburg Cn",
+                "uuid": "e0c338f6-8e61-472f-8b72-4042cffd95e4"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "other",
+            "mediumid": "LeasburgCn-EbidOneRain"
+        },
+        "platform_sensors": [],
+        "id": "32382043"
+    },
+    {
+        "description": "Eastside Canal - Mesilla Dam",
+        "agency": "EBID",
+        "isproduction": "true",
+        "lastmodifytime": "06/08/2017 15:57:31",
+        "site": {
+            "latitude": 32.2284,
+            "longitude": -106.7962,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Eastside Cn",
+                "uuid": "4e6d7563-dd97-40bc-a699-47f9197f4c8c"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "other",
+            "mediumid": "EastsideCn-EbidOneRain"
+        },
+        "platform_sensors": [],
+        "id": "32383043"
+    },
+    {
+        "description": "Westside Canal - Mesilla Dam",
+        "agency": "EBID",
+        "isproduction": "true",
+        "lastmodifytime": "06/08/2017 15:58:30",
+        "site": {
+            "latitude": 32.2256,
+            "longitude": -106.7971,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "sitenames": {
+                "cwms": "Westside Cn",
+                "uuid": "3ec574c6-fcff-407c-bf89-4c0bc4ce4d41"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "other",
+            "mediumid": "WestsideCn-EbidOneRain"
+        },
+        "platform_sensors": [],
+        "id": "32384043"
+    },
+    {
+        "description": "Rio Grande near Lantry",
+        "agency": "USIBWC",
+        "isproduction": "true",
+        "lastmodifytime": "07/11/2018 18:30:47",
+        "site": {
+            "latitude": 29.8028,
+            "longitude": -101.4458,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "TX",
+            "sitenames": {
+                "cwms": "Langtry",
+                "uuid": "e17b0b6d-d1bb-4c61-b63c-d2d6f7576666"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "009035BC"
+        },
+        "platform_sensors": [],
+        "id": "41131043"
+    },
+    {
+        "description": "RAWS: WIld Rivers near Questa",
+        "agency": "BLM",
+        "isproduction": "true",
+        "lastmodifytime": "09/09/2019 16:26:19",
+        "site": {
+            "latitude": 36.695,
+            "longitude": -105.6689,
+            "elevation": "2240.3",
+            "elevationunits": "m",
+            "timezone": "US/Mountain",
+            "country": "UNITED STATES",
+            "state": "NM",
+            "nearestcity": "Los Alamos",
+            "description": "Wild Rivers RAWS near Questa",
+            "sitenames": {
+                "cwms": "RawsWDRN5",
+                "uuid": "df191fbb-205c-4435-9966-7d530a6a770d"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "3291212A"
+        },
+        "platform_sensors": [],
+        "id": "59372043"
+    }
+]
