@@ -48,9 +48,6 @@
   <RoutingSpecProperty PropertyName="cmdAfterFile">
     /s3load.sh $FILENAME
   </RoutingSpecProperty>
-  <RoutingSpecProperty PropertyName="filename">
-    transmit_$SITENAME-$DATE(yyyyMMddHHmmss)
-  </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="delimiter">
     ,
   </RoutingSpecProperty>
