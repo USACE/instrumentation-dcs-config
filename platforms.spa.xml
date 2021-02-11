@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <Database>
   <Platform PlatformId="32362043">
     <Description>Rio Grande at Rio Grande Village</Description>
@@ -14,10 +14,9 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Big Bend NP</SiteName>
+      <SiteName NameType="uuid">6e2f0ba8-d350-4f3f-8aa8-95baf97f945c</SiteName>
       <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Grande at Big Bend NP
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande at Big Bend NP</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="BOQT2">
       <Description>Rio Grande at Rio Grande Village</Description>
@@ -166,7 +165,7 @@
   </Platform>
   <Platform PlatformId="32367043">
     <Description>Academy Acres Drain</Description>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>03/28/2018 15:02:21</LastModifyTime>
     <Site>
       <Latitude>35.1511</Latitude>
@@ -179,11 +178,10 @@
       <NearestCity>Albuquerque</NearestCity>
       <Description>Academy Acres Drain near Albuquerque</Description>
       <SiteName NameType="CWMS">AADN5</SiteName>
+      <SiteName NameType="uuid">0744a290-40d5-4b33-94b6-44e3f07ba399</SiteName>
       <SiteProperty PropertyName="location_type">Precip</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Academy Acres Drain
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Academy Acres Drain</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="AADN5">
       <Description>Academy Acres Drain near Albuquerque 5N (Rain)</Description>
@@ -227,7 +225,7 @@
   <Platform PlatformId="32376043">
     <Description>Arrey Canal - Percha Dam</Description>
     <Agency>EBID</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>06/08/2017 14:50:26</LastModifyTime>
     <Site>
       <Latitude>32.869</Latitude>
@@ -238,6 +236,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Arrey Cn</SiteName>
+      <SiteName NameType="uuid">f6e60386-694d-4956-b5a4-69c7a4564482</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Arrey Cn</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="OneRainFlow">
@@ -246,7 +245,7 @@
         <EquipmentType>DCP</EquipmentType>
         <Company>generic</Company>
         <Model>generic</Model>
-        <Description>Generic &quot;equip&quot; for a descending dcp</Description>
+        <Description>Generic "equip" for a descending dcp</Description>
         <EquipmentProperty PropertyName="DataOrder">D</EquipmentProperty>
       </EquipmentModel>
       <ConfigSensor SensorNumber="1">
@@ -262,7 +261,7 @@
           <EquipmentType>DCP</EquipmentType>
           <Company>generic</Company>
           <Model>generic</Model>
-          <Description>Generic &quot;equip&quot; for a descending dcp</Description>
+          <Description>Generic "equip" for a descending dcp</Description>
           <EquipmentProperty PropertyName="DataOrder">D</EquipmentProperty>
         </EquipmentModel>
       </ConfigSensor>
@@ -309,12 +308,11 @@
       <State>NM</State>
       <NearestCity>Pajarito, NM</NearestCity>
       <SiteName NameType="CWMS">SDC</SiteName>
+      <SiteName NameType="uuid">8329b965-ef44-4998-aaee-71c20f85af9d</SiteName>
       <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        South Div Channel ab Tijeras Ar
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">South Div Channel ab Tijeras Ar</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SDVN5">
       <Description>SDC &amp; Tijeras Arroyo</Description>
@@ -404,9 +402,8 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Redford</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Grande bl El Mulato Dam
-      </SiteProperty>
+      <SiteName NameType="uuid">6d2fdaf7-cd7e-4b72-92e7-f611a408c7e0</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande bl El Mulato Dam</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="EMDT2">
       <Description>Redford</Description>
@@ -450,10 +447,10 @@
   </Platform>
   <Platform PlatformId="11733043">
     <Description>
-      Raws: Brushy MTN&#92;nBrushy Mountain RAWS near Acoma Pueblo
+      Raws: Brushy MTN\nBrushy Mountain RAWS near Acoma Pueblo
     </Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/22/2019 14:59:21</LastModifyTime>
     <Site>
       <Latitude>34.719722</Latitude>
@@ -466,6 +463,7 @@
       <NearestCity>Brushy Mountain</NearestCity>
       <Description>RAWS: BRUSHY MTN</Description>
       <SiteName NameType="CWMS">RawsACON5</SiteName>
+      <SiteName NameType="uuid">b0740390-77d8-41ea-b47c-c3d6f5bdcec3</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -571,10 +569,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -690,11 +688,11 @@
   </Platform>
   <Platform PlatformId="11734043">
     <Description>
-      Raws: Batdraw&#92;nBat Draw RAWS at Carlsbad Caverns National Park near
+      Raws: Batdraw\nBat Draw RAWS at Carlsbad Caverns National Park near
       Carlsbad
     </Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 18:07:31</LastModifyTime>
     <Site>
       <Latitude>32.178611</Latitude>
@@ -707,6 +705,7 @@
       <NearestCity>Whites City, NM</NearestCity>
       <Description>RAWS: BATDRAW</Description>
       <SiteName NameType="CWMS">RawsBATN5</SiteName>
+      <SiteName NameType="uuid">94aab589-c2bf-431f-852b-fec818d2da57</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -812,10 +811,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -932,7 +931,7 @@
   <Platform PlatformId="11735043">
     <Description>Raws:Big Bear Park</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/21/2019 23:04:17</LastModifyTime>
     <Site>
       <Latitude>37.496111</Latitude>
@@ -945,6 +944,7 @@
       <NearestCity>Tacoma, CO</NearestCity>
       <Description>RAWS: BIG BEAR PARK</Description>
       <SiteName NameType="CWMS">RawsBBRC2</SiteName>
+      <SiteName NameType="uuid">6e352cd6-20d8-40db-9177-d5e11805dc2a</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -1050,10 +1050,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -1168,9 +1168,9 @@
     </TransportMedium>
   </Platform>
   <Platform PlatformId="11736043">
-    <Description>Raws: Chupadera&#92;n</Description>
+    <Description>Raws: Chupadera\n</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/22/2019 15:20:09</LastModifyTime>
     <Site>
       <Latitude>33.773056</Latitude>
@@ -1183,6 +1183,7 @@
       <NearestCity>Carrizozo, NM</NearestCity>
       <Description>RAWS: CHUPADERA</Description>
       <SiteName NameType="CWMS">RawsBCHN5</SiteName>
+      <SiteName NameType="uuid">50538af3-56cd-474c-95d6-e3d3b9ca57a2</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -1288,10 +1289,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -1408,7 +1409,7 @@
   <Platform PlatformId="11737043">
     <Description>Raws:Bosque</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:04</LastModifyTime>
     <Site>
       <Latitude>33.821111</Latitude>
@@ -1421,6 +1422,7 @@
       <NearestCity>San Antonio, NM</NearestCity>
       <Description>RAWS: BOSQUE</Description>
       <SiteName NameType="CWMS">RawsBDAN5</SiteName>
+      <SiteName NameType="uuid">b00eeef9-05c7-49de-8899-9634576c08d5</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -1526,10 +1528,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -1646,7 +1648,7 @@
   <Platform PlatformId="11738043">
     <Description>Raws: Big Horn</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/21/2019 23:02:01</LastModifyTime>
     <Site>
       <Latitude>37.020833</Latitude>
@@ -1659,6 +1661,7 @@
       <NearestCity>Mogote, CO</NearestCity>
       <Description>RAWS: BIG HORN</Description>
       <SiteName NameType="CWMS">RawsBHRC2</SiteName>
+      <SiteName NameType="uuid">266f20f5-f990-4b29-a2bc-439070f45c86</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -1764,10 +1767,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -1884,7 +1887,7 @@
   <Platform PlatformId="11739043">
     <Description>Raws: Blue Park</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/22/2019 15:29:51</LastModifyTime>
     <Site>
       <Latitude>37.793056</Latitude>
@@ -1897,6 +1900,7 @@
       <NearestCity>Creede, CO</NearestCity>
       <Description>RAWS: BLUE PARK</Description>
       <SiteName NameType="CWMS">RawsBLPC2</SiteName>
+      <SiteName NameType="uuid">b7069c3e-5c87-4012-9a37-d34b90b37727</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -2002,10 +2006,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -2122,7 +2126,7 @@
   <Platform PlatformId="11740043">
     <Description>Raws: Bluewater Ridge</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:04</LastModifyTime>
     <Site>
       <Latitude>35.194167</Latitude>
@@ -2135,6 +2139,7 @@
       <NearestCity>Bluewater, NM</NearestCity>
       <Description>RAWS: BLUEWATER RIDGE</Description>
       <SiteName NameType="CWMS">RawsBLWN5</SiteName>
+      <SiteName NameType="uuid">e93eca96-7269-4d33-94c4-39e88b3eab35</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -2240,10 +2245,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -2360,7 +2365,7 @@
   <Platform PlatformId="11741043">
     <Description>Raws:Black Mtn</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/21/2019 21:28:42</LastModifyTime>
     <Site>
       <Latitude>37.861389</Latitude>
@@ -2373,6 +2378,7 @@
       <NearestCity>Gardner, CO</NearestCity>
       <Description>RAWS: BLACK MTN</Description>
       <SiteName NameType="CWMS">RawsBMOC2</SiteName>
+      <SiteName NameType="uuid">faebbf9a-fab9-4df4-b50e-62c06e0abc55</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -2478,10 +2484,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -2598,7 +2604,7 @@
   <Platform PlatformId="11742043">
     <Description>Raws:Barnhart</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/22/2019 16:48:24</LastModifyTime>
     <Site>
       <Latitude>30.985556</Latitude>
@@ -2611,6 +2617,7 @@
       <NearestCity>Barnhart, TX</NearestCity>
       <Description>RAWS: BARNHART</Description>
       <SiteName NameType="CWMS">RawsBNHT2</SiteName>
+      <SiteName NameType="uuid">213ecd05-d39c-4c84-8537-364d524c1145</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -2716,10 +2723,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -2836,7 +2843,7 @@
   <Platform PlatformId="11743043">
     <Description>Raws: Beaverhead</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:04</LastModifyTime>
     <Site>
       <Latitude>33.423611</Latitude>
@@ -2849,6 +2856,7 @@
       <NearestCity>Beaverhead</NearestCity>
       <Description>RAWS: BEAVERHEAD</Description>
       <SiteName NameType="CWMS">RawsBVRN5</SiteName>
+      <SiteName NameType="uuid">08e67606-999a-43f8-a96c-a2241ef3adc0</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -2954,10 +2962,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -3074,7 +3082,7 @@
   <Platform PlatformId="11744043">
     <Description>Raws: Cuba</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/22/2019 18:43:58</LastModifyTime>
     <Site>
       <Latitude>35.941944</Latitude>
@@ -3087,6 +3095,7 @@
       <NearestCity>La Jara, NM</NearestCity>
       <Description>RAWS: CUBA</Description>
       <SiteName NameType="CWMS">RawsCBBN5</SiteName>
+      <SiteName NameType="uuid">6910ce1e-edaa-418d-b34e-4d7a5d370a25</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -3192,10 +3201,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -3312,7 +3321,7 @@
   <Platform PlatformId="11745043">
     <Description>Raws: Pinion Canyon</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:04</LastModifyTime>
     <Site>
       <Latitude>37.5425</Latitude>
@@ -3325,6 +3334,7 @@
       <NearestCity>Delhi, CO</NearestCity>
       <Description>RAWS: PINION CANYON</Description>
       <SiteName NameType="CWMS">RawsCCEC2</SiteName>
+      <SiteName NameType="uuid">864cafb6-efa5-4134-85f4-a3d0bfa452cd</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -3430,10 +3440,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -3550,7 +3560,7 @@
   <Platform PlatformId="11746043">
     <Description>Raws: Colorado City</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:04</LastModifyTime>
     <Site>
       <Latitude>37.947778</Latitude>
@@ -3563,6 +3573,7 @@
       <NearestCity>Greenhorn, CO</NearestCity>
       <Description>RAWS: COLORADO CITY</Description>
       <SiteName NameType="CWMS">RawsCCYC2</SiteName>
+      <SiteName NameType="uuid">fab8d02d-8d60-4a35-ba73-7ef67e3714c9</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -3668,10 +3679,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -3788,7 +3799,7 @@
   <Platform PlatformId="11747043">
     <Description>Raws:Cimarron KS</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:04</LastModifyTime>
     <Site>
       <Latitude>37.140833</Latitude>
@@ -3801,6 +3812,7 @@
       <NearestCity>Elkhart, KS</NearestCity>
       <Description>RAWS: CIMARRON</Description>
       <SiteName NameType="CWMS">RawsCGLK1</SiteName>
+      <SiteName NameType="uuid">00c3584f-e75a-4326-a830-2f93809bbe46</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -3906,10 +3918,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -4026,7 +4038,7 @@
   <Platform PlatformId="11748043">
     <Description>Raws: Copper Gulch</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/22/2019 19:36:11</LastModifyTime>
     <Site>
       <Latitude>38.345556</Latitude>
@@ -4039,6 +4051,7 @@
       <NearestCity>Texas Creek, CO</NearestCity>
       <Description>RAWS: COPPER GULCH</Description>
       <SiteName NameType="CWMS">RawsCGRC2</SiteName>
+      <SiteName NameType="uuid">3bdcea87-dafc-4772-b7a4-f92e84950abd</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -4144,10 +4157,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -4264,7 +4277,7 @@
   <Platform PlatformId="11749043">
     <Description>Raws: Chapin</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:04</LastModifyTime>
     <Site>
       <Latitude>37.199444</Latitude>
@@ -4277,6 +4290,7 @@
       <NearestCity>Cortez, CO</NearestCity>
       <Description>RAWS: CHAPIN</Description>
       <SiteName NameType="CWMS">RawsCHAC2</SiteName>
+      <SiteName NameType="uuid">8d63d41e-5123-4b2b-8a62-24806f8505f6</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -4382,10 +4396,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -4502,7 +4516,7 @@
   <Platform PlatformId="11750043">
     <Description>Raws: Cimarron NM</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:04</LastModifyTime>
     <Site>
       <Latitude>36.606111</Latitude>
@@ -4515,6 +4529,7 @@
       <NearestCity>Ute Park, NM</NearestCity>
       <Description>RAWS: CIMARRON</Description>
       <SiteName NameType="CWMS">RawsCIMN5</SiteName>
+      <SiteName NameType="uuid">d14a0588-a335-41f3-ad22-0266a82d778e</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -4620,10 +4635,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -4740,7 +4755,7 @@
   <Platform PlatformId="11751043">
     <Description>Raws: Smokey Bear</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:05</LastModifyTime>
     <Site>
       <Latitude>33.350278</Latitude>
@@ -4753,6 +4768,7 @@
       <NearestCity>Ruidoso, NM</NearestCity>
       <Description>RAWS: SMOKEY BEAR</Description>
       <SiteName NameType="CWMS">RawsCOPN5</SiteName>
+      <SiteName NameType="uuid">7562dbf4-43c3-46d5-979c-8e6928e3e392</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -4858,10 +4874,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -4978,7 +4994,7 @@
   <Platform PlatformId="11752043">
     <Description>Raws: Coyote</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/21/2019 23:02:06</LastModifyTime>
     <Site>
       <Latitude>36.073056</Latitude>
@@ -4991,6 +5007,7 @@
       <NearestCity>Coyote, NM</NearestCity>
       <Description>RAWS: COYOTE</Description>
       <SiteName NameType="CWMS">RawsCOYN5</SiteName>
+      <SiteName NameType="uuid">3e2f2b7f-bb3a-4802-831d-65ea7b26616b</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -5096,10 +5113,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -5216,7 +5233,7 @@
   <Platform PlatformId="11753043">
     <Description>Raws: CCDBLMFTS2</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>10/21/2019 13:37:27</LastModifyTime>
     <Site>
       <Latitude>38.742222</Latitude>
@@ -5229,6 +5246,7 @@
       <NearestCity>Cripple Creek, CO</NearestCity>
       <Description>RAWS: CCDBLMFTS2</Description>
       <SiteName NameType="CWMS">RawsCPPC2</SiteName>
+      <SiteName NameType="uuid">e99fe54f-ed50-41a6-b25c-66d626bac6e4</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -5334,10 +5352,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -5454,7 +5472,7 @@
   <Platform PlatformId="11754043">
     <Description>Raws:Caprock</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/22/2019 20:11:06</LastModifyTime>
     <Site>
       <Latitude>32.927778</Latitude>
@@ -5467,6 +5485,7 @@
       <NearestCity>Maljamar, NM</NearestCity>
       <Description>RAWS: CAPROCK</Description>
       <SiteName NameType="CWMS">RawsCPPN5</SiteName>
+      <SiteName NameType="uuid">33718576-9ac0-4455-96a9-bff5069deef2</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -5572,10 +5591,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -5692,7 +5711,7 @@
   <Platform PlatformId="11755043">
     <Description>Raws: Cosmic</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:05</LastModifyTime>
     <Site>
       <Latitude>32.779167</Latitude>
@@ -5705,6 +5724,7 @@
       <NearestCity>Valmont, NM</NearestCity>
       <Description>RAWS: COSMIC</Description>
       <SiteName NameType="CWMS">RawsCSMN5</SiteName>
+      <SiteName NameType="uuid">f0f4ca7a-a986-426e-9531-6ed7599d621f</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -5810,10 +5830,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -5930,7 +5950,7 @@
   <Platform PlatformId="11756043">
     <Description>Raws: Bosque CO</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:05</LastModifyTime>
     <Site>
       <Latitude>37.091944</Latitude>
@@ -5943,6 +5963,7 @@
       <NearestCity>Weston, CO</NearestCity>
       <Description>RAWS: BOSQUE</Description>
       <SiteName NameType="CWMS">RawsCUHC2</SiteName>
+      <SiteName NameType="uuid">89067b0d-2f9d-4b32-8d18-05e147ab43f0</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -6048,10 +6069,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -6168,7 +6189,7 @@
   <Platform PlatformId="11757043">
     <Description>Raws: Albino Canyon</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/22/2019 20:32:17</LastModifyTime>
     <Site>
       <Latitude>36.976667</Latitude>
@@ -6181,6 +6202,7 @@
       <NearestCity>Tiffany, CO</NearestCity>
       <Description>RAWS: ALBINO CANYON</Description>
       <SiteName NameType="CWMS">RawsCWRN5</SiteName>
+      <SiteName NameType="uuid">02c27fc3-275c-4193-a889-8c1886c63d20</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -6286,10 +6308,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -6406,7 +6428,7 @@
   <Platform PlatformId="11758043">
     <Description>Raws: Canon City</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:05</LastModifyTime>
     <Site>
       <Latitude>38.016667</Latitude>
@@ -6419,6 +6441,7 @@
       <NearestCity>Beulah, CO</NearestCity>
       <Description>RAWS: CANON CITY</Description>
       <SiteName NameType="CWMS">RawsCYNC2</SiteName>
+      <SiteName NameType="uuid">8ecc2765-fd6c-41b1-8cb6-b494cecbdc99</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -6524,10 +6547,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -6644,7 +6667,7 @@
   <Platform PlatformId="11759043">
     <Description>Raws: Dog Canyon</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:05</LastModifyTime>
     <Site>
       <Latitude>31.996111</Latitude>
@@ -6657,6 +6680,7 @@
       <NearestCity>Pine Springs, TX</NearestCity>
       <Description>RAWS: DOG CANYON</Description>
       <SiteName NameType="CWMS">RawsDGCT2</SiteName>
+      <SiteName NameType="uuid">172dedf7-9947-4c42-b683-fa73ea976213</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -6762,10 +6786,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -6882,7 +6906,7 @@
   <Platform PlatformId="11760043">
     <Description>Raws: Dulce #2</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/22/2019 21:20:05</LastModifyTime>
     <Site>
       <Latitude>36.935278</Latitude>
@@ -6895,6 +6919,7 @@
       <NearestCity>Lumberton, NM</NearestCity>
       <Description>RAWS: DULCE #2</Description>
       <SiteName NameType="CWMS">RawsDLCN5</SiteName>
+      <SiteName NameType="uuid">2bce7c80-c74c-48ff-8ce0-7c12d0576951</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -7000,10 +7025,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -7118,9 +7143,9 @@
     </TransportMedium>
   </Platform>
   <Platform PlatformId="11761043">
-    <Description>Raws: Deadman Peak&#92;t</Description>
+    <Description>Raws: Deadman Peak\t</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/21/2019 23:02:11</LastModifyTime>
     <Site>
       <Latitude>36.422778</Latitude>
@@ -7133,6 +7158,7 @@
       <NearestCity>Alire, NM</NearestCity>
       <Description>RAWS: DEADMAN PEAK</Description>
       <SiteName NameType="CWMS">RawsDPKN5</SiteName>
+      <SiteName NameType="uuid">dde0ca45-6296-4559-99a0-4bad805582b5</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -7238,10 +7264,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -7358,7 +7384,7 @@
   <Platform PlatformId="11762043">
     <Description>Raws: Pelona Mtn</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/22/2019 21:37:24</LastModifyTime>
     <Site>
       <Latitude>33.693889</Latitude>
@@ -7371,6 +7397,7 @@
       <NearestCity>Pelona Mountain</NearestCity>
       <Description>RAWS: PELONA MOUNTAIN</Description>
       <SiteName NameType="CWMS">RawsDPRN5</SiteName>
+      <SiteName NameType="uuid">e7122918-9405-40ed-8b34-2f6c0550ac6a</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -7476,10 +7503,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -7596,7 +7623,7 @@
   <Platform PlatformId="11763043">
     <Description>Raws: Datil</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:05</LastModifyTime>
     <Site>
       <Latitude>34.2925</Latitude>
@@ -7609,6 +7636,7 @@
       <NearestCity>Datil, NM</NearestCity>
       <Description>RAWS: DATIL</Description>
       <SiteName NameType="CWMS">RawsDTLN5</SiteName>
+      <SiteName NameType="uuid">94b3b793-15c4-4fab-a3b3-0ba51f3ac7fe</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -7714,10 +7742,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -7834,7 +7862,7 @@
   <Platform PlatformId="11764043">
     <Description>Raws: Durango</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/24/2017 15:18:58</LastModifyTime>
     <Site>
       <Latitude>37.494167</Latitude>
@@ -7847,6 +7875,7 @@
       <NearestCity>Stoner, CO</NearestCity>
       <Description>RAWS: DURANGO</Description>
       <SiteName NameType="CWMS">RawsDUFC2</SiteName>
+      <SiteName NameType="uuid">8ae3aaca-f9d9-49d4-952e-1a345bce927c</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -7942,10 +7971,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -8051,7 +8080,7 @@
   <Platform PlatformId="11765043">
     <Description>Raws: Dunken</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/22/2019 21:50:38</LastModifyTime>
     <Site>
       <Latitude>32.824722</Latitude>
@@ -8064,6 +8093,7 @@
       <NearestCity>Dunken, NM</NearestCity>
       <Description>RAWS: DUNKEN</Description>
       <SiteName NameType="CWMS">RawsDUNN5</SiteName>
+      <SiteName NameType="uuid">4f169974-d970-4b8b-a1eb-a10df15b3020</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -8169,10 +8199,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -8289,7 +8319,7 @@
   <Platform PlatformId="11766043">
     <Description>Raws:Devil Mtn</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>07/19/2020 18:45:49</LastModifyTime>
     <Site>
       <Latitude>37.226944</Latitude>
@@ -8302,6 +8332,7 @@
       <NearestCity>Chimney Rock, CO</NearestCity>
       <Description>RAWS: DEVIL MTN</Description>
       <SiteName NameType="CWMS">RawsDYKC2</SiteName>
+      <SiteName NameType="uuid">37843d6d-e059-4c4f-b171-73fd8384322f</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -8407,10 +8438,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -8527,7 +8558,7 @@
   <Platform PlatformId="11767043">
     <Description>Raws: Ft Carson</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/30/2019 19:00:29</LastModifyTime>
     <Site>
       <Latitude>38.658889</Latitude>
@@ -8540,6 +8571,7 @@
       <NearestCity>Fountain, CO</NearestCity>
       <Description>RAWS: FT. CARSON</Description>
       <SiteName NameType="CWMS">RawsFCRC2</SiteName>
+      <SiteName NameType="uuid">39b75e50-c280-45bd-b0a8-5425e39bf7bf</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -8645,10 +8677,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -8765,7 +8797,7 @@
   <Platform PlatformId="11768043">
     <Description>Raws: Fort Davis</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:05</LastModifyTime>
     <Site>
       <Latitude>30.600556</Latitude>
@@ -8778,6 +8810,7 @@
       <NearestCity>Fort Davis, TX</NearestCity>
       <Description>RAWS: FORT DAVIS</Description>
       <SiteName NameType="CWMS">RawsFDST2</SiteName>
+      <SiteName NameType="uuid">26733ed6-9aaa-45af-8fd4-c16a255c3df7</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -8883,10 +8916,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -9003,7 +9036,7 @@
   <Platform PlatformId="11769043">
     <Description>Raws: Guadalupe Bowl</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:05</LastModifyTime>
     <Site>
       <Latitude>31.925</Latitude>
@@ -9016,6 +9049,7 @@
       <NearestCity>Pine Springs, TX</NearestCity>
       <Description>RAWS: THE BOWL</Description>
       <SiteName NameType="CWMS">RawsGDBT2</SiteName>
+      <SiteName NameType="uuid">ae5d6b77-9f75-4cdb-bdb1-889c737f841f</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -9121,10 +9155,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -9241,7 +9275,7 @@
   <Platform PlatformId="11770043">
     <Description>Raws: Malpias lava</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/30/2019 19:15:51</LastModifyTime>
     <Site>
       <Latitude>34.851944</Latitude>
@@ -9254,6 +9288,7 @@
       <NearestCity>San Rafael, NM</NearestCity>
       <Description>RAWS: MALPIAS LAVA</Description>
       <SiteName NameType="CWMS">RawsGMLN5</SiteName>
+      <SiteName NameType="uuid">c23a5233-8154-4e7c-ab52-c1a7b8e9a907</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -9359,10 +9394,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -9479,7 +9514,7 @@
   <Platform PlatformId="11771043">
     <Description>Raws:Gila Center</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/21/2019 23:02:21</LastModifyTime>
     <Site>
       <Latitude>33.223611</Latitude>
@@ -9492,6 +9527,7 @@
       <NearestCity>Gila Center Raws</NearestCity>
       <Description>RAWS: GILA CENTER</Description>
       <SiteName NameType="CWMS">RawsGNMN5</SiteName>
+      <SiteName NameType="uuid">bc3625f5-8876-4dfb-8abd-beef9590ffab</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -9597,10 +9633,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -9717,7 +9753,7 @@
   <Platform PlatformId="11772043">
     <Description>Raws:Grants</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:05</LastModifyTime>
     <Site>
       <Latitude>35.242778</Latitude>
@@ -9730,6 +9766,7 @@
       <NearestCity>San Mateo, NM</NearestCity>
       <Description>RAWS: GRANTS</Description>
       <SiteName NameType="CWMS">RawsGRSN5</SiteName>
+      <SiteName NameType="uuid">7b4a2033-cd35-47fd-bea2-240f099c24ab</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -9835,10 +9872,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -9955,7 +9992,7 @@
   <Platform PlatformId="11773043">
     <Description>Raws:Bartley</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:05</LastModifyTime>
     <Site>
       <Latitude>35.893889</Latitude>
@@ -9968,6 +10005,7 @@
       <NearestCity>Gascon, NM</NearestCity>
       <Description>RAWS: BARTLEY</Description>
       <SiteName NameType="CWMS">RawsGSCN5</SiteName>
+      <SiteName NameType="uuid">c81b9d1a-3fb2-44a7-a1b9-2f226701a4c1</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -10073,10 +10111,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -10193,7 +10231,7 @@
   <Platform PlatformId="11774043">
     <Description>Raws: Hachita Valley</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/30/2019 19:19:39</LastModifyTime>
     <Site>
       <Latitude>31.701944</Latitude>
@@ -10206,6 +10244,7 @@
       <NearestCity>Hachita, NM</NearestCity>
       <Description>RAWS: HACHITA VALLEY</Description>
       <SiteName NameType="CWMS">RawsHHRN5</SiteName>
+      <SiteName NameType="uuid">1316646e-c67a-4ed5-a77a-c8c79a563291</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -10311,10 +10350,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -10431,7 +10470,7 @@
   <Platform PlatformId="11775043">
     <Description>Raws:Jarita Mesa</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:05</LastModifyTime>
     <Site>
       <Latitude>36.555833</Latitude>
@@ -10444,6 +10483,7 @@
       <NearestCity>Tres Piedras, NM</NearestCity>
       <Description>RAWS: JARITA MESA</Description>
       <SiteName NameType="CWMS">RawsJARN5</SiteName>
+      <SiteName NameType="uuid">518de509-0fff-4b40-91a3-de77875cd7cb</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -10549,10 +10589,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -10669,7 +10709,7 @@
   <Platform PlatformId="11776043">
     <Description>Raws: Jemez</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:05</LastModifyTime>
     <Site>
       <Latitude>35.840556</Latitude>
@@ -10682,6 +10722,7 @@
       <NearestCity>Jemez Springs, NM</NearestCity>
       <Description>RAWS: JEMEZ</Description>
       <SiteName NameType="CWMS">RawsJESN5</SiteName>
+      <SiteName NameType="uuid">2bb4da28-5d3e-4c74-8d97-6e61f9e174cd</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -10787,10 +10828,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -10907,7 +10948,7 @@
   <Platform PlatformId="11777043">
     <Description>Raws:Dripping Springs</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/30/2019 19:27:23</LastModifyTime>
     <Site>
       <Latitude>32.322222</Latitude>
@@ -10920,6 +10961,7 @@
       <NearestCity>Organ, NM</NearestCity>
       <Description>RAWS: DRIPPING SPRINGS</Description>
       <SiteName NameType="CWMS">RawsLOMN5</SiteName>
+      <SiteName NameType="uuid">487ce3c0-d548-49a0-a71e-ab6271b4019b</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -11025,10 +11067,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -11145,7 +11187,7 @@
   <Platform PlatformId="11778043">
     <Description>Raws: Lodge Pole Flats</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:05</LastModifyTime>
     <Site>
       <Latitude>39.153611</Latitude>
@@ -11158,6 +11200,7 @@
       <NearestCity>Twin Lakes, CO</NearestCity>
       <Description>RAWS: LODGE POLE FLATS</Description>
       <SiteName NameType="CWMS">RawsLPFC2</SiteName>
+      <SiteName NameType="uuid">2b084120-3b93-4ddb-a35c-a6cb50bab98a</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -11263,10 +11306,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -11383,7 +11426,7 @@
   <Platform PlatformId="11779043">
     <Description>Raws: Lujan</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/21/2019 23:02:26</LastModifyTime>
     <Site>
       <Latitude>38.254722</Latitude>
@@ -11396,6 +11439,7 @@
       <NearestCity>Sargents, CO</NearestCity>
       <Description>RAWS: LUJAN</Description>
       <SiteName NameType="CWMS">RawsLUJC2</SiteName>
+      <SiteName NameType="uuid">1361466c-7320-43fb-be69-89dcbd4c2556</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -11501,10 +11545,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -11621,7 +11665,7 @@
   <Platform PlatformId="11780043">
     <Description>Raws: Pecos</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/21/2019 23:02:30</LastModifyTime>
     <Site>
       <Latitude>35.545833</Latitude>
@@ -11634,6 +11678,7 @@
       <NearestCity>Ilfeld, NM</NearestCity>
       <Description>RAWS: PECOS</Description>
       <SiteName NameType="CWMS">RawsLVPN5</SiteName>
+      <SiteName NameType="uuid">c9777e8c-c534-4da9-869f-018901289509</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -11739,10 +11784,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -11859,7 +11904,7 @@
   <Platform PlatformId="11781043">
     <Description>Raws:Mayhill</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:05</LastModifyTime>
     <Site>
       <Latitude>32.909722</Latitude>
@@ -11872,6 +11917,7 @@
       <NearestCity>Mayhill, NM</NearestCity>
       <Description>RAWS: MAYHILL</Description>
       <SiteName NameType="CWMS">RawsMAYN5</SiteName>
+      <SiteName NameType="uuid">1a550994-21ae-4ab0-96b7-9905e3d8b5fe</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -11977,10 +12023,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -12097,7 +12143,7 @@
   <Platform PlatformId="11782043">
     <Description>Raws:Mcgreggor</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/31/2019 16:30:44</LastModifyTime>
     <Site>
       <Latitude>32.431389</Latitude>
@@ -12110,6 +12156,7 @@
       <NearestCity>Sacramento, NM</NearestCity>
       <Description>RAWS: MCGREGGOR</Description>
       <SiteName NameType="CWMS">RawsMCRN5</SiteName>
+      <SiteName NameType="uuid">aae3efe1-c81f-4fee-b096-4585ee316ed1</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -12215,10 +12262,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -12335,7 +12382,7 @@
   <Platform PlatformId="11783043">
     <Description>Raws:Magdalena</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/31/2019 14:56:59</LastModifyTime>
     <Site>
       <Latitude>33.851111</Latitude>
@@ -12348,6 +12395,7 @@
       <NearestCity>Magdalena, NM</NearestCity>
       <Description>RAWS: MAGDALENA</Description>
       <SiteName NameType="CWMS">RawsMGLN5</SiteName>
+      <SiteName NameType="uuid">7df813c2-9c4f-4796-8bb6-649abcecba43</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -12453,10 +12501,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -12573,7 +12621,7 @@
   <Platform PlatformId="11784043">
     <Description>Raws:Mogollon</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/21/2019 23:02:35</LastModifyTime>
     <Site>
       <Latitude>33.390556</Latitude>
@@ -12586,6 +12634,7 @@
       <NearestCity>Glenwood, NM</NearestCity>
       <Description>RAWS: MOGOLLON</Description>
       <SiteName NameType="CWMS">RawsMGNN5</SiteName>
+      <SiteName NameType="uuid">5dc11c13-17c9-4bd9-a98a-45361a6f4fb1</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -12691,10 +12740,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -12811,7 +12860,7 @@
   <Platform PlatformId="11786043">
     <Description>Raws: mills canyon</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:05</LastModifyTime>
     <Site>
       <Latitude>36.055</Latitude>
@@ -12824,6 +12873,7 @@
       <NearestCity>Mills, NM</NearestCity>
       <Description>RAWS: MILLS CANYON</Description>
       <SiteName NameType="CWMS">RawsMLCN5</SiteName>
+      <SiteName NameType="uuid">49014947-1157-4a5c-9542-c2f1230b23f8</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -12929,10 +12979,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -13049,7 +13099,7 @@
   <Platform PlatformId="11787043">
     <Description>Raws: Mesa Mtn</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/31/2019 16:37:13</LastModifyTime>
     <Site>
       <Latitude>37.056389</Latitude>
@@ -13062,6 +13112,7 @@
       <NearestCity>Ignacio, CO</NearestCity>
       <Description>RAWS: MESA MTN</Description>
       <SiteName NameType="CWMS">RawsMMRC2</SiteName>
+      <SiteName NameType="uuid">e00d753d-537f-403e-8eaa-e8ff850d9412</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -13167,10 +13218,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -13287,7 +13338,7 @@
   <Platform PlatformId="11788043">
     <Description>Raws: midland</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:06</LastModifyTime>
     <Site>
       <Latitude>31.943056</Latitude>
@@ -13300,6 +13351,7 @@
       <NearestCity>Midland, TX</NearestCity>
       <Description>RAWS: MIDLAND</Description>
       <SiteName NameType="CWMS">RawsMNDT2</SiteName>
+      <SiteName NameType="uuid">a2121ad7-804f-4b81-96ed-50afe02c4370</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -13405,10 +13457,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -13525,7 +13577,7 @@
   <Platform PlatformId="11789043">
     <Description>Raws: Paduca</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/31/2019 16:41:42</LastModifyTime>
     <Site>
       <Latitude>32.179722</Latitude>
@@ -13538,6 +13590,7 @@
       <NearestCity>Angeles, TX</NearestCity>
       <Description>RAWS: PADUCA</Description>
       <SiteName NameType="CWMS">RawsMPAN5</SiteName>
+      <SiteName NameType="uuid">4630d04f-3161-42eb-a393-695a5c359de9</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -13643,10 +13696,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -13763,7 +13816,7 @@
   <Platform PlatformId="11790043">
     <Description>Raws:Morefield</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:06</LastModifyTime>
     <Site>
       <Latitude>37.297222</Latitude>
@@ -13776,6 +13829,7 @@
       <NearestCity>Mancos, CO</NearestCity>
       <Description>RAWS: MOREFIELD</Description>
       <SiteName NameType="CWMS">RawsMRFC2</SiteName>
+      <SiteName NameType="uuid">da99d64a-e3fb-4729-bb6b-15435baef35a</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -13881,10 +13935,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -14001,7 +14055,7 @@
   <Platform PlatformId="11791043">
     <Description>Raws: Melrose range</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/22/2019 16:48:29</LastModifyTime>
     <Site>
       <Latitude>34.3</Latitude>
@@ -14014,6 +14068,7 @@
       <NearestCity>Krider, NM</NearestCity>
       <Description>RAWS: MELROSE RANGE</Description>
       <SiteName NameType="CWMS">RawsMRRN5</SiteName>
+      <SiteName NameType="uuid">7ccf975d-9a9b-4779-a7a7-40195aede49e</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -14119,10 +14174,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -14239,7 +14294,7 @@
   <Platform PlatformId="11792043">
     <Description>Raws: Mescal</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/31/2019 17:04:49</LastModifyTime>
     <Site>
       <Latitude>33.158056</Latitude>
@@ -14252,6 +14307,7 @@
       <NearestCity>Mescalero, NM</NearestCity>
       <Description>RAWS: MESCAL</Description>
       <SiteName NameType="CWMS">RawsMSCN5</SiteName>
+      <SiteName NameType="uuid">dcf7d56c-5abe-496b-b84d-ae150e3a3378</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -14357,10 +14413,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -14477,7 +14533,7 @@
   <Platform PlatformId="11793043">
     <Description>Raws:MountainAir</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:06</LastModifyTime>
     <Site>
       <Latitude>34.520556</Latitude>
@@ -14490,6 +14546,7 @@
       <NearestCity>Mountainair, NM</NearestCity>
       <Description>RAWS: MOUNTAINAIR</Description>
       <SiteName NameType="CWMS">RawsMTNN5</SiteName>
+      <SiteName NameType="uuid">477a2bfb-f4a2-4042-a550-75f3a7d547db</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -14595,10 +14652,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -14715,7 +14772,7 @@
   <Platform PlatformId="11794043">
     <Description>Raws:Pinery</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:06</LastModifyTime>
     <Site>
       <Latitude>31.894444</Latitude>
@@ -14728,6 +14785,7 @@
       <NearestCity>Pine Springs, TX</NearestCity>
       <Description>RAWS: PINERY</Description>
       <SiteName NameType="CWMS">RawsPSGT2</SiteName>
+      <SiteName NameType="uuid">5cc7b916-e6dd-4958-b13e-242a0edd9695</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -14833,10 +14891,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -14953,7 +15011,7 @@
   <Platform PlatformId="11795043">
     <Description>Raws:PX Well</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:06</LastModifyTime>
     <Site>
       <Latitude>31.972222</Latitude>
@@ -14966,6 +15024,7 @@
       <NearestCity>Pine Springs, TX</NearestCity>
       <Description>RAWS: PX WELL</Description>
       <SiteName NameType="CWMS">RawsPXWT2</SiteName>
+      <SiteName NameType="uuid">6192c668-019a-4b2d-9ee9-9e170b54ba39</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -15071,10 +15130,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -15191,7 +15250,7 @@
   <Platform PlatformId="11796043">
     <Description>Raws:Queen</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:06</LastModifyTime>
     <Site>
       <Latitude>32.203611</Latitude>
@@ -15204,6 +15263,7 @@
       <NearestCity>Queen</NearestCity>
       <Description>RAWS: QUEEN</Description>
       <SiteName NameType="CWMS">RawsQENN5</SiteName>
+      <SiteName NameType="uuid">87c85314-130c-4971-a001-3eaaa91bdc40</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -15309,10 +15369,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -15429,7 +15489,7 @@
   <Platform PlatformId="11797043">
     <Description>Raws: Red Creek</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/31/2019 21:15:25</LastModifyTime>
     <Site>
       <Latitude>38.207222</Latitude>
@@ -15442,6 +15502,7 @@
       <NearestCity>Wetmore, CO</NearestCity>
       <Description>RAWS: RED CREEK</Description>
       <SiteName NameType="CWMS">RawsRDDC2</SiteName>
+      <SiteName NameType="uuid">7a0d1182-dc68-4631-a316-3c0f5198b653</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -15547,10 +15608,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -15667,7 +15728,7 @@
   <Platform PlatformId="11798043">
     <Description>Raws: Red Deer</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:06</LastModifyTime>
     <Site>
       <Latitude>38.827222</Latitude>
@@ -15680,6 +15741,7 @@
       <NearestCity>Buena Vista, CO</NearestCity>
       <Description>RAWS: RED DEER</Description>
       <SiteName NameType="CWMS">RawsRDKC2</SiteName>
+      <SiteName NameType="uuid">207e31ec-08f1-4c8f-bc66-5efcefb2be64</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -15785,10 +15847,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -15905,7 +15967,7 @@
   <Platform PlatformId="11799043">
     <Description>Raws: Eight Mile Draw</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/31/2019 18:31:33</LastModifyTime>
     <Site>
       <Latitude>33.650556</Latitude>
@@ -15918,6 +15980,7 @@
       <NearestCity>Acme, NM</NearestCity>
       <Description>RAWS: EIGHT MILE DRAW</Description>
       <SiteName NameType="CWMS">RawsREMN5</SiteName>
+      <SiteName NameType="uuid">075a95f3-27b4-42b4-93be-3985139df816</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -16023,10 +16086,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -16143,7 +16206,7 @@
   <Platform PlatformId="11800043">
     <Description>Raws: Montano</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/31/2019 18:56:51</LastModifyTime>
     <Site>
       <Latitude>35.145833</Latitude>
@@ -16156,6 +16219,7 @@
       <NearestCity>Paradise Hills, NM</NearestCity>
       <Description>RAWS: MONTANO</Description>
       <SiteName NameType="CWMS">RawsRGMN5</SiteName>
+      <SiteName NameType="uuid">be83e190-dc9a-4cad-af38-f4e0a3844d1a</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -16240,9 +16304,9 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos; &apos;,8)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D' ',8)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -16337,7 +16401,7 @@
   <Platform PlatformId="11801043">
     <Description>Raws: Rampart range</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:06</LastModifyTime>
     <Site>
       <Latitude>38.958611</Latitude>
@@ -16350,6 +16414,7 @@
       <NearestCity>Crystola, CO</NearestCity>
       <Description>RAWS: RAMPART RANGE</Description>
       <SiteName NameType="CWMS">RawsRRAC2</SiteName>
+      <SiteName NameType="uuid">34278b96-207e-4d38-971d-211d0ffe601c</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -16455,10 +16520,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -16575,7 +16640,7 @@
   <Platform PlatformId="11802043">
     <Description>Raws:Sand Dunes</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/31/2019 21:25:43</LastModifyTime>
     <Site>
       <Latitude>37.726667</Latitude>
@@ -16588,6 +16653,7 @@
       <NearestCity>Blanca, CO</NearestCity>
       <Description>RAWS: SAND DUNES</Description>
       <SiteName NameType="CWMS">RawsSDNC2</SiteName>
+      <SiteName NameType="uuid">b4ea5b28-5243-4777-90a5-b90a2203d4b1</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -16693,10 +16759,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -16813,7 +16879,7 @@
   <Platform PlatformId="11803043">
     <Description>Raws: Sandoval Mesa</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>06/10/2019 18:24:06</LastModifyTime>
     <Site>
       <Latitude>37.099444</Latitude>
@@ -16826,6 +16892,7 @@
       <NearestCity>Chimney Rock, CO</NearestCity>
       <Description>RAWS: SANDOVAL MESA</Description>
       <SiteName NameType="CWMS">RawsSDVC2</SiteName>
+      <SiteName NameType="uuid">01aca710-a11e-4a4d-bbde-0626dbea3dca</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -16931,10 +16998,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -17051,7 +17118,7 @@
   <Platform PlatformId="11804043">
     <Description>Raws:Sevilleta</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:06</LastModifyTime>
     <Site>
       <Latitude>34.376944</Latitude>
@@ -17064,6 +17131,7 @@
       <NearestCity>Contreras, NM</NearestCity>
       <Description>RAWS: SEVILLETA</Description>
       <SiteName NameType="CWMS">RawsSEVN5</SiteName>
+      <SiteName NameType="uuid">fbc5353f-e32a-4d90-8cbd-385307e5526b</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -17169,10 +17237,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -17289,7 +17357,7 @@
   <Platform PlatformId="11805043">
     <Description>Raws: Santa Fe</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:06</LastModifyTime>
     <Site>
       <Latitude>35.686944</Latitude>
@@ -17302,6 +17370,7 @@
       <NearestCity>Santa Fe, NM</NearestCity>
       <Description>RAWS: SANTA FE</Description>
       <SiteName NameType="CWMS">RawsSFWN5</SiteName>
+      <SiteName NameType="uuid">53a4e4b5-446b-4074-a42f-10865abec526</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -17407,10 +17476,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -17527,7 +17596,7 @@
   <Platform PlatformId="11806043">
     <Description>Raws: Salida</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/24/2017 15:19:08</LastModifyTime>
     <Site>
       <Latitude>38.593333</Latitude>
@@ -17540,6 +17609,7 @@
       <NearestCity>Maysville, CO</NearestCity>
       <Description>RAWS: SALIDA</Description>
       <SiteName NameType="CWMS">RawsSIDC2</SiteName>
+      <SiteName NameType="uuid">e8b0398b-2dc9-499f-9599-d07e6775f77a</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -17635,10 +17705,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -17744,7 +17814,7 @@
   <Platform PlatformId="11807043">
     <Description>Raws: Slaughter</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/21/2019 23:02:40</LastModifyTime>
     <Site>
       <Latitude>34.060556</Latitude>
@@ -17757,6 +17827,7 @@
       <NearestCity>Slaughter</NearestCity>
       <Description>RAWS: SLAUGHTER</Description>
       <SiteName NameType="CWMS">RawsSLMN5</SiteName>
+      <SiteName NameType="uuid">22793d6e-3e67-45d2-8ada-6296cc813685</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -17862,10 +17933,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -17982,7 +18053,7 @@
   <Platform PlatformId="11808043">
     <Description>Raws:San Andres</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:06</LastModifyTime>
     <Site>
       <Latitude>32.58</Latitude>
@@ -17995,6 +18066,7 @@
       <NearestCity>Organ, NM</NearestCity>
       <Description>RAWS: SAN ANDRES</Description>
       <SiteName NameType="CWMS">RawsSNDN5</SiteName>
+      <SiteName NameType="uuid">06b8e158-55f5-44e3-98ca-9bf0bb8040a0</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -18100,10 +18172,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -18220,7 +18292,7 @@
   <Platform PlatformId="11809043">
     <Description>Raws: Sandia Lakes</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>06/10/2019 18:59:05</LastModifyTime>
     <Site>
       <Latitude>35.229722</Latitude>
@@ -18233,6 +18305,7 @@
       <NearestCity>Corrales, NM</NearestCity>
       <Description>RAWS: SANDIA LAKES</Description>
       <SiteName NameType="CWMS">RawsSNLN5</SiteName>
+      <SiteName NameType="uuid">287cb419-44e3-401a-8921-7f867ee0249d</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -18338,10 +18411,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -18458,7 +18531,7 @@
   <Platform PlatformId="11810043">
     <Description>Raws: Stone Lake</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>07/08/2019 18:20:15</LastModifyTime>
     <Site>
       <Latitude>36.731667</Latitude>
@@ -18471,6 +18544,7 @@
       <NearestCity>Monero, NM</NearestCity>
       <Description>RAWS: STONE LAKE</Description>
       <SiteName NameType="CWMS">RawsSTLN5</SiteName>
+      <SiteName NameType="uuid">7e6b275b-3afc-498b-b423-f2899ab32500</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -18576,10 +18650,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -18696,7 +18770,7 @@
   <Platform PlatformId="11811043">
     <Description>Raws: Oak Flats</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/23/2019 19:01:04</LastModifyTime>
     <Site>
       <Latitude>35.006111</Latitude>
@@ -18709,6 +18783,7 @@
       <NearestCity>Escabosa, NM</NearestCity>
       <Description>RAWS: OAK FLATS</Description>
       <SiteName NameType="CWMS">RawsTJRN5</SiteName>
+      <SiteName NameType="uuid">31fddd43-58fc-49a3-96b2-d02104ed2cb9</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -18814,10 +18889,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -18934,7 +19009,7 @@
   <Platform PlatformId="11812043">
     <Description>Raws: Truchas</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:07</LastModifyTime>
     <Site>
       <Latitude>36.058889</Latitude>
@@ -18947,6 +19022,7 @@
       <NearestCity>Truchas, NM</NearestCity>
       <Description>RAWS: TRUCHAS</Description>
       <SiteName NameType="CWMS">RawsTRUN5</SiteName>
+      <SiteName NameType="uuid">dfebc267-3f2f-425e-ac0b-937c4e9cf348</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -19052,10 +19128,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -19172,7 +19248,7 @@
   <Platform PlatformId="11813043">
     <Description>Raws: Tower</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/21/2019 23:02:45</LastModifyTime>
     <Site>
       <Latitude>35.778889</Latitude>
@@ -19185,6 +19261,7 @@
       <NearestCity>Tower</NearestCity>
       <Description>RAWS: TOWER</Description>
       <SiteName NameType="CWMS">RawsTWRN5</SiteName>
+      <SiteName NameType="uuid">3c55a0dc-8b5d-42e8-afcf-c4622bb24ea3</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -19290,10 +19367,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -19410,7 +19487,7 @@
   <Platform PlatformId="11814043">
     <Description>Raws: Ute Canyon</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>07/08/2019 18:42:50</LastModifyTime>
     <Site>
       <Latitude>37.060833</Latitude>
@@ -19423,6 +19500,7 @@
       <NearestCity>Campo, CO</NearestCity>
       <Description>RAWS: UTE CANYON</Description>
       <SiteName NameType="CWMS">RawsUCNC2</SiteName>
+      <SiteName NameType="uuid">e50c5e7c-42b8-440a-a6f6-84e94f665997</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -19528,10 +19606,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -19648,7 +19726,7 @@
   <Platform PlatformId="11816043">
     <Description>Raws: Willis Creek</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/21/2019 21:29:24</LastModifyTime>
     <Site>
       <Latitude>38.002778</Latitude>
@@ -19661,6 +19739,7 @@
       <NearestCity>Beulah, CO</NearestCity>
       <Description>RAWS: WILLIS CREEK</Description>
       <SiteName NameType="CWMS">RawsWLCC2</SiteName>
+      <SiteName NameType="uuid">ddedd222-90b3-48c6-b8b8-3a4c5803614b</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -19766,10 +19845,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -19886,7 +19965,7 @@
   <Platform PlatformId="11817043">
     <Description>Raws:Wa Pass</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>07/08/2019 18:54:24</LastModifyTime>
     <Site>
       <Latitude>36.076667</Latitude>
@@ -19899,6 +19978,7 @@
       <NearestCity>Sheep Springs, NM</NearestCity>
       <Description>RAWS: WA PASS</Description>
       <SiteName NameType="CWMS">RawsWPSN5</SiteName>
+      <SiteName NameType="uuid">8abfe135-1d0e-4304-b35e-7ec40b6d42d4</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -20004,10 +20084,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -20124,7 +20204,7 @@
   <Platform PlatformId="11818043">
     <Description>Raws: Zuni Buttes</Description>
     <Agency>CWMS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>10/16/2019 20:44:22</LastModifyTime>
     <Site>
       <Latitude>35.139167</Latitude>
@@ -20137,6 +20217,7 @@
       <NearestCity>Zuni, NM</NearestCity>
       <Description>RAWS: ZUNI BUTTES</Description>
       <SiteName NameType="CWMS">RawsZNRN5</SiteName>
+      <SiteName NameType="uuid">3e8071b7-3bec-47fb-a83b-9e1ef85bfbe0</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -20242,10 +20323,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -20375,10 +20456,9 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Wightman Fork</SiteName>
+      <SiteName NameType="uuid">32e59f24-12cd-4811-872c-87a198fa960d</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Wightman Fork at Mouth nr Jasper
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Wightman Fork at Mouth nr Jasper</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="JSFC2">
       <Description>Wightman Fork</Description>
@@ -20434,7 +20514,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">FT Garland S D C</SiteName>
-    </Site>
+    <SiteName NameType="uuid">f732b237-5054-4436-bf4a-b5c441f15d56</SiteName>
+      </Site>
     <PlatformConfig ConfigName="SAFC2">
       <Description>Ft Garland S D C</Description>
       <ConfigSensor SensorNumber="1">
@@ -20489,9 +20570,8 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Costilla US</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Costilla Cr ab Costilla Res
-      </SiteProperty>
+      <SiteName NameType="uuid">4802c586-4a94-4e73-9827-faab0fbf8033</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Costilla Cr ab Costilla Res</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="CCAN5">
       <Description>Costilla US</Description>
@@ -20547,9 +20627,8 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Costilla Santvan</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Santvan R ab Costilla Res
-      </SiteProperty>
+      <SiteName NameType="uuid">5349cf07-9490-4126-a4d3-c7318b538742</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Santvan R ab Costilla Res</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SNTN5">
       <Description>Costilla Santvan</Description>
@@ -20605,9 +20684,8 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Cundiyo</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Santa Cruz R nr Cundiyo
-      </SiteProperty>
+      <SiteName NameType="uuid">f147f931-90b4-4d34-85e8-ecddb171a2b4</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Santa Cruz R nr Cundiyo</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="CYON5">
       <Description>Cundiyo</Description>
@@ -20666,11 +20744,10 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Narrows</SiteName>
+      <SiteName NameType="uuid">5822cedb-ec5d-48cd-86c9-47d9ca833966</SiteName>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Grande at E Butte Narrows
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande at E Butte Narrows</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="EBNN5">
       <Description>Narrows</Description>
@@ -20726,11 +20803,10 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Santa Fe</SiteName>
+      <SiteName NameType="uuid">31610502-0d0f-4fef-ae42-bd53ec28d40a</SiteName>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Santa Fe R nr Santa Fe
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Santa Fe R nr Santa Fe</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SFRN5">
       <Description>Santa Fe</Description>
@@ -20786,9 +20862,8 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Nichols</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Nichols Res nr Santa Fe
-      </SiteProperty>
+      <SiteName NameType="uuid">9a5c2a98-eb61-4840-bc99-3f16ccdb3b24</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Nichols Res nr Santa Fe</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SFNN5">
       <Description>Nichols</Description>
@@ -20844,14 +20919,13 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Prairie Dtch</SiteName>
+      <SiteName NameType="uuid">a9385408-e794-472b-9ba3-e6c99dd27b7a</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Prairie Dtch nr Seven-mile Plaza
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Prairie Dtch nr Seven-mile Plaza</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="PRADITCO">
       <Description>
-        PRADITCO, 16 entries, 15 min data, desending order&#92;t
+        PRADITCO, 16 entries, 15 min data, desending order\t
       </Description>
       <ConfigSensor SensorNumber="1">
         <SensorName>HG</SensorName>
@@ -20903,9 +20977,8 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Dryden</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Grande nr Dryden
-      </SiteProperty>
+      <SiteName NameType="uuid">4b4b81db-84c0-43e0-81b4-18064db18821</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande nr Dryden</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="DYNT2">
       <Description>Dryden</Description>
@@ -20985,10 +21058,9 @@
       <State>TX</State>
       <Description>Rio Grande at Foster Ranch near Langtry, TX</Description>
       <SiteName NameType="CWMS">Foster Ranch</SiteName>
+      <SiteName NameType="uuid">c01cc2a6-2b33-4136-957e-61d161f272fe</SiteName>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Grande at Foster Ranch
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande at Foster Ranch</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="LNYT2">
       <Description>Foster Ranch</Description>
@@ -21055,7 +21127,7 @@
   </Platform>
   <Platform PlatformId="14127043">
     <Agency>CODWR</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/24/2017 15:18:47</LastModifyTime>
     <Site>
       <Latitude>37.4291667</Latitude>
@@ -21066,9 +21138,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Summitville</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Wightman Fork bl Cropsey Cr
-      </SiteProperty>
+      <SiteName NameType="uuid">7b41db66-cf6b-48d1-b62e-cd3598b83dc5</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Wightman Fork bl Cropsey Cr</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="WGHC2">
       <Description>Summitville</Description>
@@ -21124,9 +21195,8 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Terlingua</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Terlingua Ck nr Terlingua
-      </SiteProperty>
+      <SiteName NameType="uuid">4b9b3ecb-1c45-4afd-a496-9728ece898a0</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Terlingua Ck nr Terlingua</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="TNGT2">
       <Description>Terlingua</Description>
@@ -21205,9 +21275,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Ft Garland Ute</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Ute Cr nr Ft Garland
-      </SiteProperty>
+      <SiteName NameType="uuid">1c395ec2-d17a-473b-b8a2-ba23f0557ae4</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Ute Cr nr Ft Garland</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="UFGC2">
       <Description>Ft Garland Ute</Description>
@@ -21272,7 +21341,7 @@
   </Platform>
   <Platform PlatformId="14146043">
     <Description>
-      Rio Grande near El Paso&#92;n1.7 miles upstream from American Dam
+      Rio Grande near El Paso\n1.7 miles upstream from American Dam
     </Description>
     <Agency>USIBWC</Agency>
     <IsProduction>true</IsProduction>
@@ -21286,9 +21355,8 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">El Paso</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Grande at El Paso
-      </SiteProperty>
+      <SiteName NameType="uuid">6530417e-8ce3-4463-a034-edf1956f730f</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande at El Paso</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="EPRT2">
       <Description>El Paso</Description>
@@ -21368,9 +21436,8 @@
       <State>TX</State>
       <SiteName NameType="CWMS">Castolon</SiteName>
       <SiteName NameType="nwshb5">CSTT2</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Grande nr Castolon, TX
-      </SiteProperty>
+      <SiteName NameType="uuid">af95a24e-e89e-4ca8-8aa6-bff067e3d62d</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande nr Castolon, TX</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="CSTT2">
       <Description>Castolon</Description>
@@ -21426,11 +21493,10 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Talpa</SiteName>
+      <SiteName NameType="uuid">45181bae-4bbc-4a90-a265-e37777c726fe</SiteName>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Grande del Rancho nr Talpa
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande del Rancho nr Talpa</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="RGTN5">
       <Description>Talpa</Description>
@@ -21488,9 +21554,8 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Cochiti Santa Fe</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Santa Fe R abv Cochiti
-      </SiteProperty>
+      <SiteName NameType="uuid">16ba5115-dd06-4d5d-8e69-661751865514</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Santa Fe R abv Cochiti</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SFCN5">
       <Description>Cochiti Santa Fe</Description>
@@ -21545,16 +21610,13 @@
       <Timezone>US/Mountain</Timezone>
       <Country>UNITED STATES</Country>
       <State>NM</State>
-      <Description>
-        Rio Brazos at Fishtail Road near Tierra Amarilla, NM
-      </Description>
+      <Description>Rio Brazos at Fishtail Road near Tierra Amarilla, NM</Description>
       <SiteName NameType="CWMS">Fishtail rd</SiteName>
+      <SiteName NameType="uuid">55481fd4-9657-4f7b-8f74-be4acba36a98</SiteName>
       <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Brazos nr Tierra Amarilla
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Brazos nr Tierra Amarilla</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="RFRN5">
       <Description>Fishtail Rd</Description>
@@ -21610,10 +21672,9 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Romero Dtch</SiteName>
+      <SiteName NameType="uuid">9d063929-1af0-4c01-a5a0-4084dd6ba1a0</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Romero Dtch nr Conejos
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Romero Dtch nr Conejos</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="ROMDITCO">
       <Description>ROMERO DTCH</Description>
@@ -21671,9 +21732,8 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Frijoles</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rito de Los Frijoles BNM
-      </SiteProperty>
+      <SiteName NameType="uuid">d1bc7baa-bfc1-4d70-9c77-c31ef20f881a</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rito de Los Frijoles BNM</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="RLFNM">
       <Description>Frijoles</Description>
@@ -21719,10 +21779,9 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Manassa Dtch</SiteName>
+      <SiteName NameType="uuid">6869f868-a5e0-4a0d-aff0-7a251d3c2054</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Manassa Dtch nr Conejos
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Manassa Dtch nr Conejos</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="MANDITCO">
       <Description>Manassa Dtch</Description>
@@ -21780,10 +21839,9 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">San Luis Val Cn</SiteName>
+      <SiteName NameType="uuid">3168afd9-51ed-4c10-8f82-bdc2f4b08811</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        San Luis Valley Cn nr RG-AL CL
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">San Luis Valley Cn nr RG-AL CL</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SLVCANCO">
       <Description>San Luis Val Cn</Description>
@@ -21841,9 +21899,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">PRWP Dtch</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Pine R Weminuche Pass Dtch
-      </SiteProperty>
+      <SiteName NameType="uuid">30289bb5-04cb-4a29-bf52-d6c0e8150e8c</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Pine R Weminuche Pass Dtch</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SPPC2">
       <Description>PRWP Dtch</Description>
@@ -21899,9 +21956,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">South Fork Bear</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Bear Cr nr South Fork
-      </SiteProperty>
+      <SiteName NameType="uuid">2a822bb7-d5fe-4726-bd40-38dc536fd6b8</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Bear Cr nr South Fork</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="BERSOUCO">
       <Description>South Fork Bear</Description>
@@ -21958,9 +22014,8 @@
       <State>NM</State>
       <SiteName NameType="CWMS">Bluewater</SiteName>
       <SiteName NameType="nwshb5">BWLN5</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Bluewater Reservoir
-      </SiteProperty>
+      <SiteName NameType="uuid">cb448fa5-8475-4b80-a2a8-da8b04958921</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Bluewater Reservoir</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="BWLN5">
       <Description>Bluewater</Description>
@@ -22016,9 +22071,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Conejos</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Conejos R at Conejos
-      </SiteProperty>
+      <SiteName NameType="uuid">60218561-f043-48ea-bccd-a8e76b4c4e98</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Conejos R at Conejos</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="CNJC2">
       <Description>Conejos</Description>
@@ -22074,9 +22128,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Monte Vista Cn</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Monte Vista Cn nr Monte Vista
-      </SiteProperty>
+      <SiteName NameType="uuid">afdd5da1-bce3-4580-8235-da61d8d32524</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Monte Vista Cn nr Monte Vista</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="MVCC2">
       <Description>Monte Vista Cn</Description>
@@ -22132,6 +22185,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Mountain Home</SiteName>
+      <SiteName NameType="uuid">bcbdb4fa-71c6-4c3c-be7a-f1558003f036</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Mountain Home Res</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="MOHC2">
@@ -22223,7 +22277,8 @@
         <Country>UNITED STATES</Country>
         <State>CO</State>
         <SiteName NameType="CWMS">Mountain Home DS</SiteName>
-        <SiteProperty PropertyName="PUBLIC_NAME">Mountain Home DS</SiteProperty>
+        <SiteName NameType="uuid">1c1779b0-c546-4b85-8698-5e3524707d99</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Mountain Home DS</SiteProperty>
       </Site>
     </PlatformSensor>
   </Platform>
@@ -22241,9 +22296,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Jasper DS</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Alamosa R bl Ranger Cr
-      </SiteProperty>
+      <SiteName NameType="uuid">dde632e7-a9b5-4cc8-8525-eeda24bf5a58</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Alamosa R bl Ranger Cr</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="ALRC2">
       <Description>Jasper DS</Description>
@@ -22299,9 +22353,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Jasper US</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Alamosa R ab Wightman Fork
-      </SiteProperty>
+      <SiteName NameType="uuid">d6a7c9de-fb1c-4aac-9f0d-3b185f461e16</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Alamosa R ab Wightman Fork</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="AWFC2">
       <Description>Jasper US</Description>
@@ -22359,9 +22412,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Marshall Park CG</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Grande nr Creede
-      </SiteProperty>
+      <SiteName NameType="uuid">cbf5160c-b48f-43d0-a9a6-36c4c9008e2d</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande nr Creede</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="MAPC2">
       <Description>Marshall Park CG</Description>
@@ -22419,9 +22471,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Humphreys US</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Goose Cr ab Humphreys Res
-      </SiteProperty>
+      <SiteName NameType="uuid">d4282cff-5ceb-4906-80a5-3a6b7db1e96b</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Goose Cr ab Humphreys Res</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="GCHC2">
       <Description>Humphreys US</Description>
@@ -22497,9 +22548,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Terrace</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Terrace Res in Conejos County
-      </SiteProperty>
+      <SiteName NameType="uuid">bd52b58d-edb0-4800-b8fa-e87b0e77dbc6</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Terrace Res in Conejos County</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="TRRC2">
       <Description>Terrace</Description>
@@ -22555,9 +22605,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Conejos N B</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        N Br Conejos R at Conejos
-      </SiteProperty>
+      <SiteName NameType="uuid">551bffc8-70fb-4717-973c-d49f4c4c56e4</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">N Br Conejos R at Conejos</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="NCOC2">
       <Description>Conejos N B</Description>
@@ -22612,10 +22661,9 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Tabor Dtch</SiteName>
+      <SiteName NameType="uuid">f0d3207e-f49f-4d2d-a33f-584cd3db9e1e</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Tabor Dtch at Spring Cr Pass
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Tabor Dtch at Spring Cr Pass</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="TBDC2">
       <Description>Tabor Dtch</Description>
@@ -22674,7 +22722,8 @@
       <State>CO</State>
       <SiteName NameType="CWMS">Beaver Creek DS</SiteName>
       <SiteName NameType="nwshb5">BCBC2</SiteName>
-    </Site>
+    <SiteName NameType="uuid">83de2ae7-b48c-4691-a6e6-baf52057899d</SiteName>
+      </Site>
     <PlatformConfig ConfigName="BCBC2">
       <Description>Beaver Creek DS</Description>
       <ConfigSensor SensorNumber="1">
@@ -22729,9 +22778,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Wagon WG Goose</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Goose Cr at Wagon Wheel Gap
-      </SiteProperty>
+      <SiteName NameType="uuid">486b34d9-19cc-475a-9a7b-54ba43d13eb2</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Goose Cr at Wagon Wheel Gap</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="GOOWAGCO">
       <Description>Wagon WG Goose</Description>
@@ -22789,9 +22837,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Del Norte San Fr</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        San Francisco nr Del Norte
-      </SiteProperty>
+      <SiteName NameType="uuid">6e45193f-8188-4767-b482-a13d56f2405a</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">San Francisco nr Del Norte</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SAFUPPCO">
       <Description>Del Norte San Fr</Description>
@@ -22834,7 +22881,7 @@
     </TransportMedium>
   </Platform>
   <Platform PlatformId="15123043">
-    <Description>Rio Grande at Hayner&apos;s Bridge near Rincon</Description>
+    <Description>Rio Grande at Hayner's Bridge near Rincon</Description>
     <Agency>USIBWC</Agency>
     <IsProduction>true</IsProduction>
     <LastModifyTime>05/24/2017 15:19:14</LastModifyTime>
@@ -22847,12 +22894,11 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Hayner Bridge</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Grande at Hayner Bridge
-      </SiteProperty>
+      <SiteName NameType="uuid">6f2860f9-d33c-4e2c-ba5e-68d1f51a1d01</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande at Hayner Bridge</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="RHBN5">
-      <Description>Hayner Bridge&#92;t</Description>
+      <Description>Hayner Bridge\t</Description>
       <ConfigSensor SensorNumber="1">
         <SensorName>HG</SensorName>
         <DataType Standard="CWMS" Code="Stage" Name="CWMS:Stage">
@@ -22917,7 +22963,7 @@
   <Platform PlatformId="15128043">
     <Description>Rio Grande at Canutillo near Anthony</Description>
     <Agency>USIBWC</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/24/2017 15:19:14</LastModifyTime>
     <Site>
       <Latitude>31.915</Latitude>
@@ -22930,6 +22976,7 @@
       <Description>Rio Grande at Canutillo near Anthony</Description>
       <SiteName NameType="CWMS">Anthony</SiteName>
       <SiteName NameType="nwshb5">RCLT2</SiteName>
+      <SiteName NameType="uuid">bbc6683d-3f72-450c-9320-02bc350cde2a</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Anthony</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="RCLT2">
@@ -22958,7 +23005,7 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,3x,(8(F(S,A,7,1))),/,3x, (8(F(S,A,6d&apos; &apos;,2)))
+          /,3x,(8(F(S,A,7,1))),/,3x, (8(F(S,A,6d' ',2)))
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
@@ -23008,17 +23055,16 @@
       <Timezone>US/Mountain</Timezone>
       <Country>UNITED STATES</Country>
       <State>TX</State>
-      <Description>
-        Diversions from the Rio Grande, American Canal At El Paso, Texas
-      </Description>
+      <Description>Diversions from the Rio Grande, American Canal At El Paso, Texas</Description>
       <SiteName NameType="CWMS">American Cn</SiteName>
       <SiteName NameType="nwshb5">ACDT2</SiteName>
+      <SiteName NameType="uuid">d7ee5ba8-ef90-4141-a0c1-ba9f4bd2ab35</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">American Cn</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="ACDT2">
       <Description>
-        American Cn - Note Feb 2017, start reading &quot;RG&quot; instead of
-        &quot;HG&quot; - to match the stage on the IBWC website
+        American Cn - Note Feb 2017, start reading "RG" instead of
+        "HG" - to match the stage on the IBWC website
       </Description>
       <ConfigSensor SensorNumber="1">
         <SensorName>HG</SensorName>
@@ -23072,9 +23118,8 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Ft Quitman</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Grande at Ft Quitman
-      </SiteProperty>
+      <SiteName NameType="uuid">f83a4c6a-14ac-46b8-9671-d74e68c135be</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande at Ft Quitman</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="FQGT2">
       <Description>Ft Quitman</Description>
@@ -23156,9 +23201,8 @@
       <State>TX</State>
       <SiteName NameType="CWMS">Candelaria</SiteName>
       <SiteName NameType="nwshb5">CDET2</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Grande nr Candelaria, TX
-      </SiteProperty>
+      <SiteName NameType="uuid">081ffc0d-58a8-4b07-8ffe-43b17b3d72cf</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande nr Candelaria, TX</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="CDET2">
       <Description>Candelaria</Description>
@@ -23237,9 +23281,8 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Presidio US</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Grande ab Rio Conchos
-      </SiteProperty>
+      <SiteName NameType="uuid">025cd9af-856e-4757-815e-c242f44f3e0b</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande ab Rio Conchos</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="PIOT2">
       <Description>Presidio US</Description>
@@ -23318,9 +23361,8 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Presidio</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Grande at Presidio
-      </SiteProperty>
+      <SiteName NameType="uuid">3f2c8523-0eae-4e0b-b08f-1fdcb55d1fd7</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande at Presidio</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="PRST2">
       <Description>Presidio</Description>
@@ -23399,6 +23441,7 @@
       <State>TX</State>
       <SiteName NameType="CWMS">American DS</SiteName>
       <SiteName NameType="nwshb5">RGAT2</SiteName>
+      <SiteName NameType="uuid">01937816-60be-46f2-a4ad-74608d737212</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">American DS</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="RGAT2">
@@ -23455,9 +23498,8 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Mesilla DS</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Grande bl Mesilla Dam
-      </SiteProperty>
+      <SiteName NameType="uuid">3e624d3c-6af6-492e-a72c-eac80aa7d1d3</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande bl Mesilla Dam</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="MSLN5">
       <Description>Mesilla DS</Description>
@@ -23513,9 +23555,8 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Rio Conchos</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Conchos nr Ojinaga
-      </SiteProperty>
+      <SiteName NameType="uuid">c05d3a59-c5c1-44af-bd64-3b42a9465980</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Conchos nr Ojinaga</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="ONGC6">
       <Description>Rio Conchos</Description>
@@ -23552,21 +23593,21 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="next_sensor">
-          S(50,&apos;:&apos;,done),x, F(F, A, 8d&apos; &apos;)
+          S(50,':',done),x, F(F, A, 8d' ')
         </FormatStatement>
         <FormatStatement Label="done">/</FormatStatement>
         <FormatStatement Label="error">&gt;next_sensor</FormatStatement>
         <FormatStatement Label="HG">
-          w, F(MOFF,A,8d&apos; &apos;,1),w,x,F(MINT,A,8d&apos; &apos;,1), 32(w,
-          c(N,next_sensor), F(S,A,8d&apos; &apos;,1))
+          w, F(MOFF,A,8d' ',1),w,x,F(MINT,A,8d' ',1), 32(w,
+          c(N,next_sensor), F(S,A,8d' ',1))
         </FormatStatement>
         <FormatStatement Label="PP">
-          w, F(MOFF,A,8d&apos; &apos;,2),w,x,F(MINT,A,8d&apos; &apos;,2), 32(w,
-          c(N,next_sensor), F(S,A,8d&apos; &apos;,2))
+          w, F(MOFF,A,8d' ',2),w,x,F(MINT,A,8d' ',2), 32(w,
+          c(N,next_sensor), F(S,A,8d' ',2))
         </FormatStatement>
         <FormatStatement Label="PC">
-          w, F(MOFF,A,8d&apos; &apos;,3),w,x,F(MINT,A,8d&apos; &apos;,3), 32(w,
-          c(N,next_sensor), F(S,A,8d&apos; &apos;,3))
+          w, F(MOFF,A,8d' ',3),w,x,F(MINT,A,8d' ',3), 32(w,
+          c(N,next_sensor), F(S,A,8d' ',3))
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
@@ -23617,7 +23658,7 @@
   <Platform PlatformId="15170043">
     <Description>Rio Grande below Leasburg Dam near Radium Springs</Description>
     <Agency>USIBWC</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/24/2017 21:18:53</LastModifyTime>
     <Site>
       <Latitude>32.4763889</Latitude>
@@ -23628,6 +23669,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Leasburg DS</SiteName>
+      <SiteName NameType="uuid">df463dae-03be-4ae3-acca-4e4a5ae8aa42</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Leasburg DS</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="LBDN5">
@@ -23707,9 +23749,8 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Presidio Alamito</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Alamito Cr nr Presidio
-      </SiteProperty>
+      <SiteName NameType="uuid">06d7606b-c25d-4222-bc07-7f6eaf5c1a41</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Alamito Cr nr Presidio</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="PRBT2">
       <Description>Presidio Alamito</Description>
@@ -23765,9 +23806,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Sanchez Res</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Sanchez Res nr San Luis
-      </SiteProperty>
+      <SiteName NameType="uuid">f2e9c065-b014-4f58-b41d-dc54b11170d9</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Sanchez Res nr San Luis</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SRSC2">
       <Description>Sanchez Res</Description>
@@ -23841,9 +23881,8 @@
         <Country>UNITED STATES</Country>
         <State>CO</State>
         <SiteName NameType="CWMS">Sanchez Res DS</SiteName>
-        <SiteProperty PropertyName="PUBLIC_NAME">
-          Ventero Cr bl Sanchez Dam
-        </SiteProperty>
+        <SiteName NameType="uuid">0b3fe0ad-1c4c-4871-abe4-fa8af4962a5a</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Ventero Cr bl Sanchez Dam</SiteProperty>
       </Site>
     </PlatformSensor>
   </Platform>
@@ -23861,9 +23900,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Rio Grande Res</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Grande Res nr Creede
-      </SiteProperty>
+      <SiteName NameType="uuid">f31b174d-2f2c-411d-b8ef-6fe62c6e764c</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande Res nr Creede</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="RRRC2">
       <Description>Rio Grande Res</Description>
@@ -23919,9 +23957,8 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Johnson Ranch</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Grande at Johnson Ranch
-      </SiteProperty>
+      <SiteName NameType="uuid">3d2fc9b2-fb67-4ddd-90b8-92681cd64677</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande at Johnson Ranch</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="TELT2">
       <Description>Johnson Ranch</Description>
@@ -24000,9 +24037,8 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Presidio DS</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Rio Grande bl Rio Conchos
-      </SiteProperty>
+      <SiteName NameType="uuid">72921715-6125-4a50-b2c6-5958b318f7e6</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande bl Rio Conchos</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="PRDT2">
       <Description>Presidio DS</Description>
@@ -24083,9 +24119,8 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">McClure US</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Sante Fe R ab McClure Res
-      </SiteProperty>
+      <SiteName NameType="uuid">ad7c605f-292d-4d6f-8ddd-f79906e2a818</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Sante Fe R ab McClure Res</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SFAN5">
       <Description>McClure US</Description>
@@ -24140,9 +24175,8 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Tijeras Arroyo</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Tijeras Arroyo nr Albuquerque
-      </SiteProperty>
+      <SiteName NameType="uuid">5de77a94-be88-426c-afda-11bbf89030b3</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Tijeras Arroyo nr Albuquerque</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="TIJN5">
       <Description>Tijeras Arroyo</Description>
@@ -24198,11 +24232,10 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Santa Fe Tesq</SiteName>
+      <SiteName NameType="uuid">72176523-c0f0-4fc1-a863-939ca6c103e1</SiteName>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Tesuque Cr ab Diversions
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Tesuque Cr ab Diversions</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="TSQN5">
       <Description>Santa Fe Tesq</Description>
@@ -24258,9 +24291,8 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Costilla DS</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Costilla Creek bl Costilla Dam
-      </SiteProperty>
+      <SiteName NameType="uuid">75287f17-a159-4854-a6e3-22a40e9e5401</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Costilla Creek bl Costilla Dam</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="CBDN5">
       <Description>Costilla DS</Description>
@@ -24318,10 +24350,9 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">South Fork US</SiteName>
+      <SiteName NameType="uuid">434acf2d-e949-4e64-b1c9-cbe52b37a3c0</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        South Fork Rio Grande bl Col Cr
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">South Fork Rio Grande bl Col Cr</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SCOC2">
       <Description>South Fork US</Description>
@@ -24403,7 +24434,8 @@
       <State>CO</State>
       <SiteName NameType="CWMS">Box Canyon</SiteName>
       <SiteName NameType="nwshb5">RGBC2</SiteName>
-    </Site>
+    <SiteName NameType="uuid">e40383b6-02b9-4d3a-9df2-d79b5e0169a5</SiteName>
+      </Site>
     <PlatformConfig ConfigName="RGBC2">
       <Description>Box Canyon</Description>
       <ConfigSensor SensorNumber="1">
@@ -24479,9 +24511,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Farmers Union Cn</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Farmers Union Cn nr Del Norte
-      </SiteProperty>
+      <SiteName NameType="uuid">23729e3c-5321-44d3-9905-bd3b395bd671</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Farmers Union Cn nr Del Norte</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="FAUC2">
       <Description>Farmers Union Cn</Description>
@@ -24537,9 +24568,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Empire Cn</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Empire Cn nr Monte Vista
-      </SiteProperty>
+      <SiteName NameType="uuid">0b4ade32-e12b-46bf-8911-48211b88d6de</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Empire Cn nr Monte Vista</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="EMPC2">
       <Description>Empire</Description>
@@ -24595,9 +24625,8 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Garcia</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Costilla Cr nr Garcia
-      </SiteProperty>
+      <SiteName NameType="uuid">91a6b769-df69-4c1f-bbdb-a51aa238224c</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Costilla Cr nr Garcia</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="CCSN5">
       <Description>Garcia</Description>
@@ -24653,6 +24682,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Chama</SiteName>
+      <SiteName NameType="uuid">1cdef8d7-077b-4796-adee-a13d7268ddb7</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Chama ab Chama</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="RCCN5">
@@ -24709,10 +24739,9 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Norton Drain</SiteName>
+      <SiteName NameType="uuid">cf68c64d-81f2-4cda-8142-35b29731ecbf</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Norton Drain nr La Sauses
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Norton Drain nr La Sauses</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="NORDLSCO">
       <Description>Norton Drain</Description>
@@ -24768,10 +24797,9 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Norton Drain S</SiteName>
+      <SiteName NameType="uuid">cd97eef2-8516-4baf-825e-dc69a388ce82</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        S Ch Norton Drain nr La Sauses
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">S Ch Norton Drain nr La Sauses</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="NORDSCCO">
       <Description>Norton Drain S</Description>
@@ -24826,9 +24854,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Sanchez Res DS</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Ventero Cr bl Sanchez Dam
-      </SiteProperty>
+      <SiteName NameType="uuid">45a2cbdf-17e3-40cb-8bc4-e82d0545eca0</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Ventero Cr bl Sanchez Dam</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="VENSANCO">
       <Description>Sanchez Res DS</Description>
@@ -24873,6 +24900,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Mountain Home US</SiteName>
+      <SiteName NameType="uuid">23f08784-c0f0-4a8d-b9b3-ec5e0fc74fb5</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Mountain Home US</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="TRIMTNCO">
@@ -24929,9 +24957,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Costilla Dtch Al</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Costilla Ditch nr Alamosa
-      </SiteProperty>
+      <SiteName NameType="uuid">9298f662-578f-4ce4-807e-c535122efb1a</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Costilla Ditch nr Alamosa</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="COSDITCO">
       <Description>Costilla Dtch Al</Description>
@@ -24987,9 +25014,8 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Centennial Cn</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Centennial Cn nr Monte Vista
-      </SiteProperty>
+      <SiteName NameType="uuid">62d69e73-32c9-4e25-a9b8-0f2e420aaefd</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Centennial Cn nr Monte Vista</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="CENCANCO">
       <Description>Centennial Cn</Description>
@@ -25034,7 +25060,7 @@
   <Platform PlatformId="32299043">
     <Description>Raws: Rio Grande Village</Description>
     <Agency>NPS</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>05/25/2017 13:43:10</LastModifyTime>
     <Site>
       <Latitude>29.1858</Latitude>
@@ -25048,6 +25074,7 @@
       <Description>Rio Grande Village RAWS near Marathon 72S</Description>
       <SiteName NameType="CWMS">RawsRGET2</SiteName>
       <SiteName NameType="nwshb5">RGET2</SiteName>
+      <SiteName NameType="uuid">e85cdf36-fb28-4480-886f-b3f667859cee</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande Village</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="PWDTFRBMNKA">
@@ -25150,10 +25177,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
@@ -25270,7 +25297,7 @@
   <Platform PlatformId="32382043">
     <Description>Leasburg Canal - Leasburg Dam</Description>
     <Agency>EBID</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>06/08/2017 15:09:12</LastModifyTime>
     <Site>
       <Latitude>32.487866</Latitude>
@@ -25281,6 +25308,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Leasburg Cn</SiteName>
+      <SiteName NameType="uuid">e0c338f6-8e61-472f-8b72-4042cffd95e4</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Leasburg Cn</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="OneRainFlow">
@@ -25289,7 +25317,7 @@
         <EquipmentType>DCP</EquipmentType>
         <Company>generic</Company>
         <Model>generic</Model>
-        <Description>Generic &quot;equip&quot; for a descending dcp</Description>
+        <Description>Generic "equip" for a descending dcp</Description>
         <EquipmentProperty PropertyName="DataOrder">D</EquipmentProperty>
       </EquipmentModel>
       <ConfigSensor SensorNumber="1">
@@ -25305,7 +25333,7 @@
           <EquipmentType>DCP</EquipmentType>
           <Company>generic</Company>
           <Model>generic</Model>
-          <Description>Generic &quot;equip&quot; for a descending dcp</Description>
+          <Description>Generic "equip" for a descending dcp</Description>
           <EquipmentProperty PropertyName="DataOrder">D</EquipmentProperty>
         </EquipmentModel>
       </ConfigSensor>
@@ -25338,7 +25366,7 @@
   <Platform PlatformId="32383043">
     <Description>Eastside Canal - Mesilla Dam</Description>
     <Agency>EBID</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>06/08/2017 15:57:31</LastModifyTime>
     <Site>
       <Latitude>32.22839</Latitude>
@@ -25349,10 +25377,9 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Eastside Cn</SiteName>
+      <SiteName NameType="uuid">4e6d7563-dd97-40bc-a699-47f9197f4c8c</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Eastside Cn nr Mesilla
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Eastside Cn nr Mesilla</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="OneRainFlow">
       <Description>Read data from OneRain - flow data</Description>
@@ -25360,7 +25387,7 @@
         <EquipmentType>DCP</EquipmentType>
         <Company>generic</Company>
         <Model>generic</Model>
-        <Description>Generic &quot;equip&quot; for a descending dcp</Description>
+        <Description>Generic "equip" for a descending dcp</Description>
         <EquipmentProperty PropertyName="DataOrder">D</EquipmentProperty>
       </EquipmentModel>
       <ConfigSensor SensorNumber="1">
@@ -25376,7 +25403,7 @@
           <EquipmentType>DCP</EquipmentType>
           <Company>generic</Company>
           <Model>generic</Model>
-          <Description>Generic &quot;equip&quot; for a descending dcp</Description>
+          <Description>Generic "equip" for a descending dcp</Description>
           <EquipmentProperty PropertyName="DataOrder">D</EquipmentProperty>
         </EquipmentModel>
       </ConfigSensor>
@@ -25409,7 +25436,7 @@
   <Platform PlatformId="32384043">
     <Description>Westside Canal - Mesilla Dam</Description>
     <Agency>EBID</Agency>
-    <IsProduction>false</IsProduction>
+    <IsProduction>true</IsProduction>
     <LastModifyTime>06/08/2017 15:58:30</LastModifyTime>
     <Site>
       <Latitude>32.22563</Latitude>
@@ -25420,9 +25447,8 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Westside Cn</SiteName>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Westside Canal at Mesilla Dam
-      </SiteProperty>
+      <SiteName NameType="uuid">3ec574c6-fcff-407c-bf89-4c0bc4ce4d41</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Westside Canal at Mesilla Dam</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="OneRainFlow">
       <Description>Read data from OneRain - flow data</Description>
@@ -25430,7 +25456,7 @@
         <EquipmentType>DCP</EquipmentType>
         <Company>generic</Company>
         <Model>generic</Model>
-        <Description>Generic &quot;equip&quot; for a descending dcp</Description>
+        <Description>Generic "equip" for a descending dcp</Description>
         <EquipmentProperty PropertyName="DataOrder">D</EquipmentProperty>
       </EquipmentModel>
       <ConfigSensor SensorNumber="1">
@@ -25446,7 +25472,7 @@
           <EquipmentType>DCP</EquipmentType>
           <Company>generic</Company>
           <Model>generic</Model>
-          <Description>Generic &quot;equip&quot; for a descending dcp</Description>
+          <Description>Generic "equip" for a descending dcp</Description>
           <EquipmentProperty PropertyName="DataOrder">D</EquipmentProperty>
         </EquipmentModel>
       </ConfigSensor>
@@ -25490,11 +25516,10 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Langtry</SiteName>
+      <SiteName NameType="uuid">e17b0b6d-d1bb-4c61-b63c-d2d6f7576666</SiteName>
       <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
-      <SiteProperty PropertyName="PUBLIC_NAME">
-        Pecos River at Shumla Bend
-      </SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Pecos River at Shumla Bend</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="LTRT2">
       <Description>Langtry</Description>
@@ -25575,6 +25600,7 @@
       <NearestCity>Los Alamos</NearestCity>
       <Description>Wild Rivers RAWS near Questa</Description>
       <SiteName NameType="CWMS">RawsWDRN5</SiteName>
+      <SiteName NameType="uuid">df191fbb-205c-4435-9966-7d530a6a770d</SiteName>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">Wild Rivers RAWS</SiteProperty>
@@ -25679,10 +25705,10 @@
         <ScriptType>Decodes</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="st">
-          /,f(s,a,5D&apos; &apos;,1),/,f(s,a,3D&apos; &apos;,2),/,f(s,a,3D&apos;
-          &apos;,3),/,f(s,a,3D&apos; &apos;,4),/,/,f(s,a,3D&apos;
-          &apos;,5),/,f(s,a,5D&apos; &apos;,6),/,/,f(s,a,3D&apos;
-          &apos;,7),/,f(s,a,3D&apos; &apos;,8),/,f(s,a,5D&apos; &apos;,9)
+          /,f(s,a,5D' ',1),/,f(s,a,3D' ',2),/,f(s,a,3D'
+          ',3),/,f(s,a,3D' ',4),/,/,f(s,a,3D'
+          ',5),/,f(s,a,5D' ',6),/,/,f(s,a,3D'
+          ',7),/,f(s,a,3D' ',8),/,f(s,a,5D' ',9)
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
