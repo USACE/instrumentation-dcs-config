@@ -103,6 +103,8 @@ def parse_coordinate(name, value):
 ############################################################
 def get_site_fields(site_element):
 
+    print('\n"Site" fields: ')
+
     site_fields = {}
     sitenames = {}
 
@@ -201,8 +203,26 @@ for p in platforms:
         tm['mediumtype'] = transport_medium.get('MediumType')
         tm['mediumid'] = transport_medium.get('MediumId')
         platform_obj['transportmedium'] = tm
+
+    config_sensors = p.findall('PlatformConfig/ConfigSensor')
+    cfg_sensors = {}
+    if config_sensors is not None:
+        print('\n*** ConfigSensor ***')
+        for cs in config_sensors:
+            sensor_name = cs.find('SensorName').text.strip()
+            print(f'SensorName: {sensor_name}')
+            dataTypes = cs.findall('DataType')
+            dtypes = {}
+            for dt in dataTypes:                
+                for name, value in dt.attrib.items():
+                    print(f'{dt.tag}: {name} -> {value}')
+                    dtypes[name] = value 
+            
+
+            cfg_sensors[sensor_name] = dtypes
+
     
-    
+    platform_obj['config_sensors'] = cfg_sensors
     platform_obj['platform_sensors'] = ps_sites
     platform_obj['site'] = get_site_fields(site)   
     platform_obj['id'] = p.get('PlatformId')

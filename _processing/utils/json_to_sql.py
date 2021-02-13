@@ -11,6 +11,66 @@ def create_slug(name):
     
     return slug
 #######################################
+def lookup_midas_param_info(configsensor_obj):
+    '''
+    This function will attempt to scan through through the config
+    sensor object for CWMS, SHEF-PE codes and map to MIDAS params/units
+    exmaple object will look like:
+    {'Standard': 'CWMS', 'Code': 'Stage', 'Name': 'CWMS:Stage'}
+    {'Standard': 'SHEF-PE', 'Code': 'YU', 'Name': 'SHEF-PE:YU'}
+    '''
+
+    midas = {
+        'stage':{
+            'name': 'Stage',
+            'slug': 'stage',
+            'parameter_id': 'b49f214e-f69f-43da-9ce3-ad96042268d0',
+            'unit_id': 'f777f2e2-5e32-424e-a1ca-19d16cd8abce'
+        },
+        'elevation':{
+            'name': 'Elevation',
+            'slug': 'elevation',
+            'parameter_id': '83b5a1f7-948b-4373-a47c-d73ff622aafd',
+            'unit_id': 'f777f2e2-5e32-424e-a1ca-19d16cd8abce'
+        },
+        'voltage':{
+            'name': 'Voltage',
+            'slug': 'voltage',
+            'parameter_id': '430e5edb-e2b5-4f86-b19f-cda26a27e151',
+            'unit_id': '6b5bd788-8c78-43bb-b5a3-ad544b858a64'
+        },
+        'precipitation':{
+            'name': 'Precipitation', 
+            'slug': 'precipitation',
+            'parameter_id': '0ce77a5a-8283-47cd-9126-c440bcec4ef6',
+            'unit_id': '4ee79a3d-a053-41b8-85b5-bb2eea3c9d1a'
+        },
+        'water-temperature':{
+            'name': 'Water Temperature',
+            'slug': 'water-temperature',
+            'parameter_id': 'de6112da-8489-4286-ae56-ec72aa09974d',
+            'unit_id': '10e05b5c-7e96-434b-9182-a547333e1c52'
+        }
+    }
+
+    cs = configsensor_obj
+    param = cs['Code'].lower()
+
+    if param in ['stage', 'stage-tail', 'stage-tailwater', 'hg']:
+        return midas['stage']
+    elif param in ['elevation', 'elev', 'elev-tail', 'hp']:
+        return midas['elevation']
+    elif param in ['voltage', 'volt', 'volts', 'vb', 'battvolt']:
+        return midas['voltage']
+    elif param in ['precipitation', 'precip', 'pc', 'pp']:
+        return midas['precipitation']
+    elif param in ['water-temp', 'temp-water', 'water-temperature', 'tw']:
+        return midas['water-temperature']
+    else:
+        print(f'WARNING: Unknown Param {cs}')
+        return {}
+#######################################
+
 parser = argparse.ArgumentParser(description='Adds converts the JSON file to SQL insert statements')
 parser.add_argument('-i', '--input', type=str, required=True, 
                     help='Input file located in the output/json directory')
@@ -35,13 +95,14 @@ telemetry_types = {
     }
 
 instrument_sql = 'INSERT INTO public.instrument(' \
-    'id, deleted, slug, name, formula, geometry, station, station_offset, create_date, update_date,' \
-    'type_id, project_id, creator, updater)\n VALUES \n'
+    'id, deleted, slug, name, formula, geometry, station, station_offset, ' \
+    'create_date, update_date, type_id, project_id, creator, updater)\n VALUES \n'
 
-instrument_status_sql = 'INSERT INTO public.instrument_status(id, instrument_id, status_id, "time")\n' \
-	'VALUES \n'
+instrument_status_sql = 'INSERT INTO public.instrument_status(id, instrument_id, ' \
+    'status_id, "time")\n VALUES \n'
 
 telemetry_obj = {}
+timeseries_data = {}
 
 for d in data:
 
@@ -60,8 +121,8 @@ for d in data:
     
 
     # telemetry info for each platform
-    telemetry_data = {}  
-
+    telemetry_data = {} 
+    
           
     _sitenames = d['site']['sitenames']
     if 'cwms' in _sitenames.keys():
@@ -109,7 +170,23 @@ for d in data:
             telemetry_data['mediumtype'] = transport_medium_type
             telemetry_data['mediumid'] = d['transportmedium']['mediumid']
 
-            telemetry_obj[_uuid] = telemetry_data            
+            telemetry_obj[_uuid] = telemetry_data
+
+        # Build the timeseries object for processing down below        
+       
+        config_sensors = d['config_sensors']
+        if config_sensors.keys():
+            param_data = {}
+            for label, cs_obj in config_sensors.items():
+                # print(label, '-> ', cs_obj)
+                _param = lookup_midas_param_info(cs_obj)
+                if _param.keys():
+                    param_data[_param['name']] = _param
+                    # print(param_data)
+                
+
+            timeseries_data[_uuid] = param_data
+            # print(timeseries_data[_uuid])
 
     else:
         outfile_contents += f'\n--Ignoring {name} site/instrument, already in instruments unique list'
@@ -177,7 +254,8 @@ outfile_contents += instrument_status_sql
 telemetry_goes = []
 telemetry_iridium = []
 
-instrument_telemetry_sql = 'INSERT INTO public.instrument_telemetry (instrument_id, telemetry_type_id, telemetry_id) \nVALUES\n'
+instrument_telemetry_sql = 'INSERT INTO public.instrument_telemetry (instrument_id, ' \
+                            'telemetry_type_id, telemetry_id) \nVALUES\n'
 
 for id, obj in telemetry_obj.items():
 
@@ -207,10 +285,26 @@ if telemetry_iridium:
     telemetry_iridium_sql = telemetry_iridium_sql[:-2]+';\n'
     outfile_contents += telemetry_iridium_sql
 
+
+# Timeseries SQL Prep
+timeseries_sql = 'INSERT INTO public.timeseries(id, slug, name, instrument_id, ' \
+    'parameter_id, unit_id) \nVALUES\n'
+for instrument_id, obj in timeseries_data.items():
+    for param, param_obj in obj.items():
+        timeseries_sql += f"('{uuid.uuid4()}','{param_obj['slug']}','{param_obj['name']}',"
+        timeseries_sql += f"'{instrument_id}', '{param_obj['parameter_id']}', '{param_obj['unit_id']}'),\n"
+
+
 outfile_contents += f'\n--INSERT INSTRUMENT_TELEMETRY--COUNT:{len(telemetry_obj.keys())}\n'
 # Replace the last line ending comma with semi-colon
 instrument_telemetry_sql = instrument_telemetry_sql[:-2]+';\n'
 outfile_contents += instrument_telemetry_sql
+
+outfile_contents += f'\n--INSERT TIMESERIES--COUNT:{len(timeseries_data.keys())}\n'
+# Replace the last line ending comma with semi-colon
+timeseries_sql = timeseries_sql[:-2]+';\n'
+outfile_contents += timeseries_sql
+
 
 
 outfile_sql = os.path.abspath(os.path.join(script_dir, '..', 'output', 'sql', f'{os.path.basename(infile)}'))
