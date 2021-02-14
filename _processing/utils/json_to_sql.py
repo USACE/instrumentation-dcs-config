@@ -4,12 +4,57 @@ import os, json
 from datetime import datetime
 import uuid
 import argparse
+import requests
 #######################################
 def create_slug(name):
-    slug = name.replace(' ', '-').lower()
-    slug = slug.replace('_', '-')
+    # print(f'create_slug() received name: {name}')
+    bad_chars = [' ', '_', ',', '(', ')']
+    if any((bc in bad_chars) for bc in name):
+        slug = name
+        for bc in bad_chars:
+            if bc in name:
+                # print(f'Replacing char {bc}')
+                slug = slug.strip().replace(bc, '-').lower()
+
+        # replacing multiple bad chars next to each other could result in 
+        # two hyphens together - handle it
+        slug = slug.strip().replace('--', '-')
+        # If first or last char results in '-', remove it
+        if slug[-1] == '-':slug = slug[:-1]
+    else:
+        slug = name.strip().lower()
     
     return slug
+#######################################
+def get_usgs_name(usgs_id):
+
+    print(f'Looking up name for USGS ID: {usgs_id}')
+
+    if usgs_id.isdigit():
+        r = requests.get(f'https://waterservices.usgs.gov/nwis/iv/?format=json&sites={usgs_id}&siteStatus=all')
+        try:
+            name = r.json()['value']['timeSeries'][0]['sourceInfo']['siteName']           
+            
+        except Exception as e:
+            print(e)
+            print(f'Unable to retrieve {usgs_id} from USGS web service.')
+            return usgs_id
+
+        print(f'USGS web service name: {name}')
+        # remove anything after first comma encountered
+        # name = name.split(',')[0]
+        # if ' NEAR ' in name.upper():
+        #     # reformat/parse name using the word 'NEAR'
+        #     _parts = name.split(' NEAR ')
+        #     name = f'{_parts[1].strip()} ({_parts[0].strip()})'
+        # elif ' AT ' in name.upper():
+        #     _parts = name.split(' AT ')
+        #     name = f'{_parts[1].strip()} ({_parts[0].strip()})'       
+        
+        return name
+    else:
+        # USGS ID is not a number, return original value
+        return usgs_id
 #######################################
 def lookup_midas_param_info(configsensor_obj):
     '''
@@ -21,11 +66,23 @@ def lookup_midas_param_info(configsensor_obj):
     '''
 
     midas = {
-        'stage':{
-            'name': 'Stage',
-            'slug': 'stage',
-            'parameter_id': 'b49f214e-f69f-43da-9ce3-ad96042268d0',
-            'unit_id': 'f777f2e2-5e32-424e-a1ca-19d16cd8abce'
+        'air-temperature':{
+            'name': 'Air Temperature',
+            'slug': 'air-temperature',
+            'parameter_id': 'de6112da-8489-4286-ae56-ec72aa09974d',
+            'unit_id': '10e05b5c-7e96-434b-9182-a547333e1c52'
+        },
+        'conductivity':{
+            'name': 'Conductivity',
+            'slug': 'conductivity',
+            'parameter_id': '377ecec0-f785-46ab-b0e2-5fd8c682dfea',
+            'unit_id': '633bd96c-5bdb-436f-b464-f18d90b7d736'
+        },
+        'dissolved-oxygen':{
+            'name': 'Dissolved Oxygen',
+            'slug': 'dissolved-oxygen',
+            'parameter_id': '98007857-d027-4524-9a63-d07ae93e5fa2',
+            'unit_id': '67d75ccd-6bf7-4086-a970-5ed65a5c30f3'
         },
         'elevation':{
             'name': 'Elevation',
@@ -33,11 +90,17 @@ def lookup_midas_param_info(configsensor_obj):
             'parameter_id': '83b5a1f7-948b-4373-a47c-d73ff622aafd',
             'unit_id': 'f777f2e2-5e32-424e-a1ca-19d16cd8abce'
         },
-        'voltage':{
-            'name': 'Voltage',
-            'slug': 'voltage',
-            'parameter_id': '430e5edb-e2b5-4f86-b19f-cda26a27e151',
-            'unit_id': '6b5bd788-8c78-43bb-b5a3-ad544b858a64'
+        'stage':{
+            'name': 'Stage',
+            'slug': 'stage',
+            'parameter_id': 'b49f214e-f69f-43da-9ce3-ad96042268d0',
+            'unit_id': 'f777f2e2-5e32-424e-a1ca-19d16cd8abce'
+        },
+        'ph':{
+            'name': 'pH', 
+            'slug': 'ph',
+            'parameter_id': '5d0b2c85-6a4c-4d82-aed3-193b066349f1',
+            'unit_id': 'cfac3e61-64e1-456d-890e-0655038e8218'
         },
         'precipitation':{
             'name': 'Precipitation', 
@@ -45,30 +108,90 @@ def lookup_midas_param_info(configsensor_obj):
             'parameter_id': '0ce77a5a-8283-47cd-9126-c440bcec4ef6',
             'unit_id': '4ee79a3d-a053-41b8-85b5-bb2eea3c9d1a'
         },
+        'power-generation-discharge':{
+            'name': 'Power Generation Discharge',
+            'slug': 'power-generation-discharge',
+            'parameter_id': 'a63a3202-3115-4ad4-9e5b-3d35f94647d2',
+            'unit_id': '67d3c3f0-ae76-4807-8cdd-4e29fa8d8b39'
+        },
+        'turbidity':{
+            'name': 'Turbidity', 
+            'slug': 'turbidity',
+            'parameter_id': 'de6112da-8489-4286-ae56-ec72aa09974d',
+            'unit_id': 'e65274a5-3d42-4b96-8db6-696d65d92a8d'
+        },
+        'voltage':{
+            'name': 'Voltage',
+            'slug': 'voltage',
+            'parameter_id': '430e5edb-e2b5-4f86-b19f-cda26a27e151',
+            'unit_id': '6b5bd788-8c78-43bb-b5a3-ad544b858a64'
+        },        
         'water-temperature':{
             'name': 'Water Temperature',
             'slug': 'water-temperature',
             'parameter_id': 'de6112da-8489-4286-ae56-ec72aa09974d',
             'unit_id': '10e05b5c-7e96-434b-9182-a547333e1c52'
+        },
+        'water-velocity':{
+            'name': 'Water Velocity',
+            'slug': 'water-velocity',
+            'parameter_id': '06189199-a25f-4101-b8bd-991c6a5a7ab3',
+            'unit_id': 'c96294dc-f238-4d4d-8705-0a1b2d3f9b55'
+        },
+        'wind-speed':{
+            'name': 'Wind Sspeed',
+            'slug': 'wind-speed',
+            'parameter_id': 'e46deb1d-e7e4-4d49-a874-18306991ecfe',
+            'unit_id': 'e142d705-9eb6-4965-91d0-af55739189b0'
         }
+        
+
     }
 
     cs = configsensor_obj
     param = cs['Code'].lower()
 
-    if param in ['stage', 'stage-tail', 'stage-tailwater', 'hg']:
-        return midas['stage']
-    elif param in ['elevation', 'elev', 'elev-tail', 'hp']:
-        return midas['elevation']
-    elif param in ['voltage', 'volt', 'volts', 'vb', 'battvolt']:
-        return midas['voltage']
-    elif param in ['precipitation', 'precip', 'pc', 'pp']:
-        return midas['precipitation']
-    elif param in ['water-temp', 'temp-water', 'water-temperature', 'tw']:
-        return midas['water-temperature']
-    else:
-        print(f'WARNING: Unknown Param {cs}')
-        return {}
+    # keys should equal keys above
+    # values in list are possible params in xml
+    param_lookup = {
+        'air-temperature': ['temp-air', 'te', 'ta'],
+        'conductivity': ['cond', 'wc'],
+        'dissolved-oxygen': ['conc-do', 'do', 'wo', '00300', '00299'],
+        'elevation': ['elevation', 'elev', 'elev-tail', 'hp', 'ht'],
+        'precipitation': ['precipitation', 'precip', 'pc', 'pp', '00045'],
+        'ph': ['ph', 'wp', '00400', '00403', '00406'],
+        'power-generation-discharge': ['qg'],
+        'stage': ['stage', 'stage-tail', 'stage-tailwater', 'hg', '00065', '00072'],
+        'turbidity': ['wt'],        
+        'voltage': ['voltage', 'volt', 'volts', 'vb', 'battvolt', 'batt', 'battery', 'bl', '70969'],        
+        'water-temperature': ['water-temp', 'temp-water', 'water-temperature', 'tw'],
+        'water-velocity': ['wv'],
+        'wind-speed': ['us', 'wind-speed', 'speed-wind']        
+    }
+
+    for k,v in param_lookup.items():
+        if param in v:
+            return midas[k]
+
+    print(f'WARNING: Unknown Param {cs}')
+    return {}
+
+
+    # if param in ['stage', 'stage-tail', 'stage-tailwater', 'hg']:
+    #     return midas['stage']
+    # elif param in ['elevation', 'elev', 'elev-tail', 'hp']:
+    #     return midas['elevation']
+    # elif param in ['voltage', 'volt', 'volts', 'vb', 'battvolt']:
+    #     return midas['voltage']
+    # elif param in ['precipitation', 'precip', 'pc', 'pp']:
+    #     return midas['precipitation']
+    # elif param in ['water-temp', 'temp-water', 'water-temperature', 'tw']:
+    #     return midas['water-temperature']
+    # else:
+    #     print(f'WARNING: Unknown Param {cs}')
+    #     return {}
+
+    
 #######################################
 
 parser = argparse.ArgumentParser(description='Adds converts the JSON file to SQL insert statements')
@@ -131,6 +254,9 @@ for d in data:
         name = _sitenames['local']
     elif 'nwshb5' in _sitenames.keys():
         name = _sitenames['nwshb5']
+    elif 'usgs' in _sitenames.keys():
+        # name = _sitenames['usgs']
+        name = get_usgs_name(_sitenames['usgs'])
     else:
         print(f'Site with UUID: {_uuid} does not have a proper alias/name.  Ignoring...')
         continue
