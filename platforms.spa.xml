@@ -14,7 +14,7 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Big Bend NP</SiteName>
-      <SiteName NameType="uuid">6e2f0ba8-d350-4f3f-8aa8-95baf97f945c</SiteName>
+      <SiteName NameType="uuid">67d96da5-d1ee-4600-9e22-9262abb151b8</SiteName>
       <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande at Big Bend NP</SiteProperty>
     </Site>
@@ -178,7 +178,7 @@
       <NearestCity>Albuquerque</NearestCity>
       <Description>Academy Acres Drain near Albuquerque</Description>
       <SiteName NameType="CWMS">AADN5</SiteName>
-      <SiteName NameType="uuid">0744a290-40d5-4b33-94b6-44e3f07ba399</SiteName>
+      <SiteName NameType="uuid">3130d868-9806-4bde-9e2c-654677a43718</SiteName>
       <SiteProperty PropertyName="location_type">Precip</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">Academy Acres Drain</SiteProperty>
@@ -236,7 +236,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Arrey Cn</SiteName>
-      <SiteName NameType="uuid">f6e60386-694d-4956-b5a4-69c7a4564482</SiteName>
+      <SiteName NameType="uuid">4f99caf3-e736-4d38-b713-f8d8c2f8dde5</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Arrey Cn</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="OneRainFlow">
@@ -308,7 +308,7 @@
       <State>NM</State>
       <NearestCity>Pajarito, NM</NearestCity>
       <SiteName NameType="CWMS">SDC</SiteName>
-      <SiteName NameType="uuid">8329b965-ef44-4998-aaee-71c20f85af9d</SiteName>
+      <SiteName NameType="uuid">7d3a1d41-a2c1-4151-9f94-fa42b919c05e</SiteName>
       <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
@@ -402,7 +402,7 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Redford</SiteName>
-      <SiteName NameType="uuid">6d2fdaf7-cd7e-4b72-92e7-f611a408c7e0</SiteName>
+      <SiteName NameType="uuid">da7e6c92-cdd6-490f-adf0-c50c69cd715b</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande bl El Mulato Dam</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="EMDT2">
@@ -463,7 +463,7 @@
       <NearestCity>Brushy Mountain</NearestCity>
       <Description>RAWS: BRUSHY MTN</Description>
       <SiteName NameType="CWMS">RawsACON5</SiteName>
-      <SiteName NameType="uuid">b0740390-77d8-41ea-b47c-c3d6f5bdcec3</SiteName>
+      <SiteName NameType="uuid">8072c4a7-5709-493a-b171-ed3edcdab3cb</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -705,7 +705,7 @@
       <NearestCity>Whites City, NM</NearestCity>
       <Description>RAWS: BATDRAW</Description>
       <SiteName NameType="CWMS">RawsBATN5</SiteName>
-      <SiteName NameType="uuid">94aab589-c2bf-431f-852b-fec818d2da57</SiteName>
+      <SiteName NameType="uuid">41e521ff-bf31-45e3-bcbe-2d4c4b362437</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -944,7 +944,7 @@
       <NearestCity>Tacoma, CO</NearestCity>
       <Description>RAWS: BIG BEAR PARK</Description>
       <SiteName NameType="CWMS">RawsBBRC2</SiteName>
-      <SiteName NameType="uuid">6e352cd6-20d8-40db-9177-d5e11805dc2a</SiteName>
+      <SiteName NameType="uuid">562fcd67-1d8c-4cd6-9443-b9a039d8b097</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -1183,7 +1183,7 @@
       <NearestCity>Carrizozo, NM</NearestCity>
       <Description>RAWS: CHUPADERA</Description>
       <SiteName NameType="CWMS">RawsBCHN5</SiteName>
-      <SiteName NameType="uuid">50538af3-56cd-474c-95d6-e3d3b9ca57a2</SiteName>
+      <SiteName NameType="uuid">389786f9-5aa5-4eca-b395-77e7166268fc</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -1422,7 +1422,7 @@
       <NearestCity>San Antonio, NM</NearestCity>
       <Description>RAWS: BOSQUE</Description>
       <SiteName NameType="CWMS">RawsBDAN5</SiteName>
-      <SiteName NameType="uuid">b00eeef9-05c7-49de-8899-9634576c08d5</SiteName>
+      <SiteName NameType="uuid">c722d4f3-a0ad-46f5-a17f-c10326a525de</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -1661,7 +1661,7 @@
       <NearestCity>Mogote, CO</NearestCity>
       <Description>RAWS: BIG HORN</Description>
       <SiteName NameType="CWMS">RawsBHRC2</SiteName>
-      <SiteName NameType="uuid">266f20f5-f990-4b29-a2bc-439070f45c86</SiteName>
+      <SiteName NameType="uuid">f5f35408-a622-4fb0-a2d0-ca80082b3cc4</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -1900,7 +1900,7 @@
       <NearestCity>Creede, CO</NearestCity>
       <Description>RAWS: BLUE PARK</Description>
       <SiteName NameType="CWMS">RawsBLPC2</SiteName>
-      <SiteName NameType="uuid">b7069c3e-5c87-4012-9a37-d34b90b37727</SiteName>
+      <SiteName NameType="uuid">40eac2e8-71f0-43a6-9ec0-0cdd468e8daf</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -2139,7 +2139,7 @@
       <NearestCity>Bluewater, NM</NearestCity>
       <Description>RAWS: BLUEWATER RIDGE</Description>
       <SiteName NameType="CWMS">RawsBLWN5</SiteName>
-      <SiteName NameType="uuid">e93eca96-7269-4d33-94c4-39e88b3eab35</SiteName>
+      <SiteName NameType="uuid">779e3e3c-946a-42e1-ae9c-405d41e3d313</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -2378,7 +2378,7 @@
       <NearestCity>Gardner, CO</NearestCity>
       <Description>RAWS: BLACK MTN</Description>
       <SiteName NameType="CWMS">RawsBMOC2</SiteName>
-      <SiteName NameType="uuid">faebbf9a-fab9-4df4-b50e-62c06e0abc55</SiteName>
+      <SiteName NameType="uuid">09c5a8c4-c465-4c8b-b627-eb2877633fe0</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -2617,7 +2617,7 @@
       <NearestCity>Barnhart, TX</NearestCity>
       <Description>RAWS: BARNHART</Description>
       <SiteName NameType="CWMS">RawsBNHT2</SiteName>
-      <SiteName NameType="uuid">213ecd05-d39c-4c84-8537-364d524c1145</SiteName>
+      <SiteName NameType="uuid">3ee387b2-8be8-4ed6-b1c8-8da97ab429a9</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -2856,7 +2856,7 @@
       <NearestCity>Beaverhead</NearestCity>
       <Description>RAWS: BEAVERHEAD</Description>
       <SiteName NameType="CWMS">RawsBVRN5</SiteName>
-      <SiteName NameType="uuid">08e67606-999a-43f8-a96c-a2241ef3adc0</SiteName>
+      <SiteName NameType="uuid">37a94b69-379a-4c07-a344-d45a47bd6519</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -3095,7 +3095,7 @@
       <NearestCity>La Jara, NM</NearestCity>
       <Description>RAWS: CUBA</Description>
       <SiteName NameType="CWMS">RawsCBBN5</SiteName>
-      <SiteName NameType="uuid">6910ce1e-edaa-418d-b34e-4d7a5d370a25</SiteName>
+      <SiteName NameType="uuid">4afdefcf-5a67-43b9-8122-0f52eca88290</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -3334,7 +3334,7 @@
       <NearestCity>Delhi, CO</NearestCity>
       <Description>RAWS: PINION CANYON</Description>
       <SiteName NameType="CWMS">RawsCCEC2</SiteName>
-      <SiteName NameType="uuid">864cafb6-efa5-4134-85f4-a3d0bfa452cd</SiteName>
+      <SiteName NameType="uuid">e98e960f-26f7-4dd5-ad2a-f8b7e3967110</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -3573,7 +3573,7 @@
       <NearestCity>Greenhorn, CO</NearestCity>
       <Description>RAWS: COLORADO CITY</Description>
       <SiteName NameType="CWMS">RawsCCYC2</SiteName>
-      <SiteName NameType="uuid">fab8d02d-8d60-4a35-ba73-7ef67e3714c9</SiteName>
+      <SiteName NameType="uuid">6c1b7587-aec2-4fbd-a103-d18aefe74386</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -3812,7 +3812,7 @@
       <NearestCity>Elkhart, KS</NearestCity>
       <Description>RAWS: CIMARRON</Description>
       <SiteName NameType="CWMS">RawsCGLK1</SiteName>
-      <SiteName NameType="uuid">00c3584f-e75a-4326-a830-2f93809bbe46</SiteName>
+      <SiteName NameType="uuid">64781110-0523-4010-b2cd-d46f4e461af9</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -4051,7 +4051,7 @@
       <NearestCity>Texas Creek, CO</NearestCity>
       <Description>RAWS: COPPER GULCH</Description>
       <SiteName NameType="CWMS">RawsCGRC2</SiteName>
-      <SiteName NameType="uuid">3bdcea87-dafc-4772-b7a4-f92e84950abd</SiteName>
+      <SiteName NameType="uuid">d52a37f8-a47c-49d2-8206-ec0c7f2c2dd5</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -4290,7 +4290,7 @@
       <NearestCity>Cortez, CO</NearestCity>
       <Description>RAWS: CHAPIN</Description>
       <SiteName NameType="CWMS">RawsCHAC2</SiteName>
-      <SiteName NameType="uuid">8d63d41e-5123-4b2b-8a62-24806f8505f6</SiteName>
+      <SiteName NameType="uuid">bae9c2a1-9952-4376-9247-e8f2a519c7d5</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -4529,7 +4529,7 @@
       <NearestCity>Ute Park, NM</NearestCity>
       <Description>RAWS: CIMARRON</Description>
       <SiteName NameType="CWMS">RawsCIMN5</SiteName>
-      <SiteName NameType="uuid">d14a0588-a335-41f3-ad22-0266a82d778e</SiteName>
+      <SiteName NameType="uuid">16ef8e07-be5a-4ad1-a231-0e62ede14a35</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -4768,7 +4768,7 @@
       <NearestCity>Ruidoso, NM</NearestCity>
       <Description>RAWS: SMOKEY BEAR</Description>
       <SiteName NameType="CWMS">RawsCOPN5</SiteName>
-      <SiteName NameType="uuid">7562dbf4-43c3-46d5-979c-8e6928e3e392</SiteName>
+      <SiteName NameType="uuid">b5223b57-1bc8-4b9e-9cc4-dc5cb7464973</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -5007,7 +5007,7 @@
       <NearestCity>Coyote, NM</NearestCity>
       <Description>RAWS: COYOTE</Description>
       <SiteName NameType="CWMS">RawsCOYN5</SiteName>
-      <SiteName NameType="uuid">3e2f2b7f-bb3a-4802-831d-65ea7b26616b</SiteName>
+      <SiteName NameType="uuid">0feee5a5-39cb-47e3-960b-d43b59d10b7e</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -5246,7 +5246,7 @@
       <NearestCity>Cripple Creek, CO</NearestCity>
       <Description>RAWS: CCDBLMFTS2</Description>
       <SiteName NameType="CWMS">RawsCPPC2</SiteName>
-      <SiteName NameType="uuid">e99fe54f-ed50-41a6-b25c-66d626bac6e4</SiteName>
+      <SiteName NameType="uuid">aa5d1c83-62e3-4b77-8a88-6e63f682f4f3</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -5485,7 +5485,7 @@
       <NearestCity>Maljamar, NM</NearestCity>
       <Description>RAWS: CAPROCK</Description>
       <SiteName NameType="CWMS">RawsCPPN5</SiteName>
-      <SiteName NameType="uuid">33718576-9ac0-4455-96a9-bff5069deef2</SiteName>
+      <SiteName NameType="uuid">dabb839f-d169-42cb-a779-6b8052a6bd3c</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -5724,7 +5724,7 @@
       <NearestCity>Valmont, NM</NearestCity>
       <Description>RAWS: COSMIC</Description>
       <SiteName NameType="CWMS">RawsCSMN5</SiteName>
-      <SiteName NameType="uuid">f0f4ca7a-a986-426e-9531-6ed7599d621f</SiteName>
+      <SiteName NameType="uuid">1bdee4ab-89c7-4f9a-9233-8a55ba9967ab</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -5963,7 +5963,7 @@
       <NearestCity>Weston, CO</NearestCity>
       <Description>RAWS: BOSQUE</Description>
       <SiteName NameType="CWMS">RawsCUHC2</SiteName>
-      <SiteName NameType="uuid">89067b0d-2f9d-4b32-8d18-05e147ab43f0</SiteName>
+      <SiteName NameType="uuid">e1cbfd8a-e6d5-43ab-8718-3bab74163bc1</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -6202,7 +6202,7 @@
       <NearestCity>Tiffany, CO</NearestCity>
       <Description>RAWS: ALBINO CANYON</Description>
       <SiteName NameType="CWMS">RawsCWRN5</SiteName>
-      <SiteName NameType="uuid">02c27fc3-275c-4193-a889-8c1886c63d20</SiteName>
+      <SiteName NameType="uuid">0b428b41-1cda-4531-9673-0359cb554212</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -6441,7 +6441,7 @@
       <NearestCity>Beulah, CO</NearestCity>
       <Description>RAWS: CANON CITY</Description>
       <SiteName NameType="CWMS">RawsCYNC2</SiteName>
-      <SiteName NameType="uuid">8ecc2765-fd6c-41b1-8cb6-b494cecbdc99</SiteName>
+      <SiteName NameType="uuid">735ebeb8-df40-4334-956e-efb3ee3db453</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -6680,7 +6680,7 @@
       <NearestCity>Pine Springs, TX</NearestCity>
       <Description>RAWS: DOG CANYON</Description>
       <SiteName NameType="CWMS">RawsDGCT2</SiteName>
-      <SiteName NameType="uuid">172dedf7-9947-4c42-b683-fa73ea976213</SiteName>
+      <SiteName NameType="uuid">87f853dd-0160-4470-b6e9-31e6dfb8424c</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -6919,7 +6919,7 @@
       <NearestCity>Lumberton, NM</NearestCity>
       <Description>RAWS: DULCE #2</Description>
       <SiteName NameType="CWMS">RawsDLCN5</SiteName>
-      <SiteName NameType="uuid">2bce7c80-c74c-48ff-8ce0-7c12d0576951</SiteName>
+      <SiteName NameType="uuid">e965623d-b34e-4734-b731-0a08b43e1213</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -7158,7 +7158,7 @@
       <NearestCity>Alire, NM</NearestCity>
       <Description>RAWS: DEADMAN PEAK</Description>
       <SiteName NameType="CWMS">RawsDPKN5</SiteName>
-      <SiteName NameType="uuid">dde0ca45-6296-4559-99a0-4bad805582b5</SiteName>
+      <SiteName NameType="uuid">8a111c8d-3ea8-4919-bfe3-711b768aa782</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -7397,7 +7397,7 @@
       <NearestCity>Pelona Mountain</NearestCity>
       <Description>RAWS: PELONA MOUNTAIN</Description>
       <SiteName NameType="CWMS">RawsDPRN5</SiteName>
-      <SiteName NameType="uuid">e7122918-9405-40ed-8b34-2f6c0550ac6a</SiteName>
+      <SiteName NameType="uuid">3e3b545b-6e9e-489d-8665-f38e8ceb21a0</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -7636,7 +7636,7 @@
       <NearestCity>Datil, NM</NearestCity>
       <Description>RAWS: DATIL</Description>
       <SiteName NameType="CWMS">RawsDTLN5</SiteName>
-      <SiteName NameType="uuid">94b3b793-15c4-4fab-a3b3-0ba51f3ac7fe</SiteName>
+      <SiteName NameType="uuid">a3d4555f-1742-4197-9bfc-e63be3391095</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -7875,7 +7875,7 @@
       <NearestCity>Stoner, CO</NearestCity>
       <Description>RAWS: DURANGO</Description>
       <SiteName NameType="CWMS">RawsDUFC2</SiteName>
-      <SiteName NameType="uuid">8ae3aaca-f9d9-49d4-952e-1a345bce927c</SiteName>
+      <SiteName NameType="uuid">daf83c5d-8e1b-40a2-93a0-fd87be054a75</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -8093,7 +8093,7 @@
       <NearestCity>Dunken, NM</NearestCity>
       <Description>RAWS: DUNKEN</Description>
       <SiteName NameType="CWMS">RawsDUNN5</SiteName>
-      <SiteName NameType="uuid">4f169974-d970-4b8b-a1eb-a10df15b3020</SiteName>
+      <SiteName NameType="uuid">fa469069-baf6-4e28-8fac-5a18e4ebf7f9</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -8332,7 +8332,7 @@
       <NearestCity>Chimney Rock, CO</NearestCity>
       <Description>RAWS: DEVIL MTN</Description>
       <SiteName NameType="CWMS">RawsDYKC2</SiteName>
-      <SiteName NameType="uuid">37843d6d-e059-4c4f-b171-73fd8384322f</SiteName>
+      <SiteName NameType="uuid">21664e71-c273-4c18-83f2-904f6bba3566</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -8571,7 +8571,7 @@
       <NearestCity>Fountain, CO</NearestCity>
       <Description>RAWS: FT. CARSON</Description>
       <SiteName NameType="CWMS">RawsFCRC2</SiteName>
-      <SiteName NameType="uuid">39b75e50-c280-45bd-b0a8-5425e39bf7bf</SiteName>
+      <SiteName NameType="uuid">d7644b31-bd43-491b-971f-8c76f16afc5c</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -8810,7 +8810,7 @@
       <NearestCity>Fort Davis, TX</NearestCity>
       <Description>RAWS: FORT DAVIS</Description>
       <SiteName NameType="CWMS">RawsFDST2</SiteName>
-      <SiteName NameType="uuid">26733ed6-9aaa-45af-8fd4-c16a255c3df7</SiteName>
+      <SiteName NameType="uuid">2b8bed18-b9e2-46b6-9f74-a39a474644c3</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -9049,7 +9049,7 @@
       <NearestCity>Pine Springs, TX</NearestCity>
       <Description>RAWS: THE BOWL</Description>
       <SiteName NameType="CWMS">RawsGDBT2</SiteName>
-      <SiteName NameType="uuid">ae5d6b77-9f75-4cdb-bdb1-889c737f841f</SiteName>
+      <SiteName NameType="uuid">631c7c28-0a09-49ec-8aaf-c5b4d4d880c4</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -9288,7 +9288,7 @@
       <NearestCity>San Rafael, NM</NearestCity>
       <Description>RAWS: MALPIAS LAVA</Description>
       <SiteName NameType="CWMS">RawsGMLN5</SiteName>
-      <SiteName NameType="uuid">c23a5233-8154-4e7c-ab52-c1a7b8e9a907</SiteName>
+      <SiteName NameType="uuid">c5777ea6-904d-445d-974f-995180d7dabf</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -9527,7 +9527,7 @@
       <NearestCity>Gila Center Raws</NearestCity>
       <Description>RAWS: GILA CENTER</Description>
       <SiteName NameType="CWMS">RawsGNMN5</SiteName>
-      <SiteName NameType="uuid">bc3625f5-8876-4dfb-8abd-beef9590ffab</SiteName>
+      <SiteName NameType="uuid">65684ff8-db23-4136-a820-8157ca158899</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -9766,7 +9766,7 @@
       <NearestCity>San Mateo, NM</NearestCity>
       <Description>RAWS: GRANTS</Description>
       <SiteName NameType="CWMS">RawsGRSN5</SiteName>
-      <SiteName NameType="uuid">7b4a2033-cd35-47fd-bea2-240f099c24ab</SiteName>
+      <SiteName NameType="uuid">26c9af69-77e3-4f47-9f3d-db9c284767b4</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -10005,7 +10005,7 @@
       <NearestCity>Gascon, NM</NearestCity>
       <Description>RAWS: BARTLEY</Description>
       <SiteName NameType="CWMS">RawsGSCN5</SiteName>
-      <SiteName NameType="uuid">c81b9d1a-3fb2-44a7-a1b9-2f226701a4c1</SiteName>
+      <SiteName NameType="uuid">ad1498a1-834e-4eb9-8087-1c75ae9497dd</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -10244,7 +10244,7 @@
       <NearestCity>Hachita, NM</NearestCity>
       <Description>RAWS: HACHITA VALLEY</Description>
       <SiteName NameType="CWMS">RawsHHRN5</SiteName>
-      <SiteName NameType="uuid">1316646e-c67a-4ed5-a77a-c8c79a563291</SiteName>
+      <SiteName NameType="uuid">462feb12-f120-4708-a16e-adb0b1255b43</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -10483,7 +10483,7 @@
       <NearestCity>Tres Piedras, NM</NearestCity>
       <Description>RAWS: JARITA MESA</Description>
       <SiteName NameType="CWMS">RawsJARN5</SiteName>
-      <SiteName NameType="uuid">518de509-0fff-4b40-91a3-de77875cd7cb</SiteName>
+      <SiteName NameType="uuid">ff64e9f8-0ebe-4827-8f40-e867761640b0</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -10722,7 +10722,7 @@
       <NearestCity>Jemez Springs, NM</NearestCity>
       <Description>RAWS: JEMEZ</Description>
       <SiteName NameType="CWMS">RawsJESN5</SiteName>
-      <SiteName NameType="uuid">2bb4da28-5d3e-4c74-8d97-6e61f9e174cd</SiteName>
+      <SiteName NameType="uuid">54293b67-77d8-4b03-9b83-1cbb5d5b1cd6</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -10961,7 +10961,7 @@
       <NearestCity>Organ, NM</NearestCity>
       <Description>RAWS: DRIPPING SPRINGS</Description>
       <SiteName NameType="CWMS">RawsLOMN5</SiteName>
-      <SiteName NameType="uuid">487ce3c0-d548-49a0-a71e-ab6271b4019b</SiteName>
+      <SiteName NameType="uuid">7eed73f6-ae79-4f28-8b19-f1beb1f16916</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -11200,7 +11200,7 @@
       <NearestCity>Twin Lakes, CO</NearestCity>
       <Description>RAWS: LODGE POLE FLATS</Description>
       <SiteName NameType="CWMS">RawsLPFC2</SiteName>
-      <SiteName NameType="uuid">2b084120-3b93-4ddb-a35c-a6cb50bab98a</SiteName>
+      <SiteName NameType="uuid">28f0440d-b8db-4fbf-aae1-928a3c855749</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -11439,7 +11439,7 @@
       <NearestCity>Sargents, CO</NearestCity>
       <Description>RAWS: LUJAN</Description>
       <SiteName NameType="CWMS">RawsLUJC2</SiteName>
-      <SiteName NameType="uuid">1361466c-7320-43fb-be69-89dcbd4c2556</SiteName>
+      <SiteName NameType="uuid">b5fc264e-412c-48fd-a6e5-c4423773b5d5</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -11678,7 +11678,7 @@
       <NearestCity>Ilfeld, NM</NearestCity>
       <Description>RAWS: PECOS</Description>
       <SiteName NameType="CWMS">RawsLVPN5</SiteName>
-      <SiteName NameType="uuid">c9777e8c-c534-4da9-869f-018901289509</SiteName>
+      <SiteName NameType="uuid">dbcd9b33-f64d-4971-b3b2-b0d051f38f75</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -11917,7 +11917,7 @@
       <NearestCity>Mayhill, NM</NearestCity>
       <Description>RAWS: MAYHILL</Description>
       <SiteName NameType="CWMS">RawsMAYN5</SiteName>
-      <SiteName NameType="uuid">1a550994-21ae-4ab0-96b7-9905e3d8b5fe</SiteName>
+      <SiteName NameType="uuid">37ea4183-4fff-4847-8fbf-1f19b3e8d33f</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -12156,7 +12156,7 @@
       <NearestCity>Sacramento, NM</NearestCity>
       <Description>RAWS: MCGREGGOR</Description>
       <SiteName NameType="CWMS">RawsMCRN5</SiteName>
-      <SiteName NameType="uuid">aae3efe1-c81f-4fee-b096-4585ee316ed1</SiteName>
+      <SiteName NameType="uuid">04cf4bac-4b43-404e-a1b7-2399fb65f081</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -12395,7 +12395,7 @@
       <NearestCity>Magdalena, NM</NearestCity>
       <Description>RAWS: MAGDALENA</Description>
       <SiteName NameType="CWMS">RawsMGLN5</SiteName>
-      <SiteName NameType="uuid">7df813c2-9c4f-4796-8bb6-649abcecba43</SiteName>
+      <SiteName NameType="uuid">33306822-12ed-428e-aafe-a2c6817063cb</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -12634,7 +12634,7 @@
       <NearestCity>Glenwood, NM</NearestCity>
       <Description>RAWS: MOGOLLON</Description>
       <SiteName NameType="CWMS">RawsMGNN5</SiteName>
-      <SiteName NameType="uuid">5dc11c13-17c9-4bd9-a98a-45361a6f4fb1</SiteName>
+      <SiteName NameType="uuid">b6efff31-eb5a-47a5-a012-9579b760cbbb</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -12873,7 +12873,7 @@
       <NearestCity>Mills, NM</NearestCity>
       <Description>RAWS: MILLS CANYON</Description>
       <SiteName NameType="CWMS">RawsMLCN5</SiteName>
-      <SiteName NameType="uuid">49014947-1157-4a5c-9542-c2f1230b23f8</SiteName>
+      <SiteName NameType="uuid">2b40ce5e-ed05-47ab-ae0b-b86d3dc073b2</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -13112,7 +13112,7 @@
       <NearestCity>Ignacio, CO</NearestCity>
       <Description>RAWS: MESA MTN</Description>
       <SiteName NameType="CWMS">RawsMMRC2</SiteName>
-      <SiteName NameType="uuid">e00d753d-537f-403e-8eaa-e8ff850d9412</SiteName>
+      <SiteName NameType="uuid">6361dc32-0103-4fd7-85ec-6153049c9d18</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -13351,7 +13351,7 @@
       <NearestCity>Midland, TX</NearestCity>
       <Description>RAWS: MIDLAND</Description>
       <SiteName NameType="CWMS">RawsMNDT2</SiteName>
-      <SiteName NameType="uuid">a2121ad7-804f-4b81-96ed-50afe02c4370</SiteName>
+      <SiteName NameType="uuid">44e32a5a-d562-4a4a-b046-a4b048098cf9</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -13590,7 +13590,7 @@
       <NearestCity>Angeles, TX</NearestCity>
       <Description>RAWS: PADUCA</Description>
       <SiteName NameType="CWMS">RawsMPAN5</SiteName>
-      <SiteName NameType="uuid">4630d04f-3161-42eb-a393-695a5c359de9</SiteName>
+      <SiteName NameType="uuid">797b6026-6193-49ff-9eeb-ace2d8a5bbee</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -13829,7 +13829,7 @@
       <NearestCity>Mancos, CO</NearestCity>
       <Description>RAWS: MOREFIELD</Description>
       <SiteName NameType="CWMS">RawsMRFC2</SiteName>
-      <SiteName NameType="uuid">da99d64a-e3fb-4729-bb6b-15435baef35a</SiteName>
+      <SiteName NameType="uuid">20e34fab-e101-4f12-b358-5a3373a4f509</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -14068,7 +14068,7 @@
       <NearestCity>Krider, NM</NearestCity>
       <Description>RAWS: MELROSE RANGE</Description>
       <SiteName NameType="CWMS">RawsMRRN5</SiteName>
-      <SiteName NameType="uuid">7ccf975d-9a9b-4779-a7a7-40195aede49e</SiteName>
+      <SiteName NameType="uuid">5cfaacd6-6663-4a1c-b273-d891a45fb3fa</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -14307,7 +14307,7 @@
       <NearestCity>Mescalero, NM</NearestCity>
       <Description>RAWS: MESCAL</Description>
       <SiteName NameType="CWMS">RawsMSCN5</SiteName>
-      <SiteName NameType="uuid">dcf7d56c-5abe-496b-b84d-ae150e3a3378</SiteName>
+      <SiteName NameType="uuid">ea303996-318b-4c91-9cb5-8ec930a798ba</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -14546,7 +14546,7 @@
       <NearestCity>Mountainair, NM</NearestCity>
       <Description>RAWS: MOUNTAINAIR</Description>
       <SiteName NameType="CWMS">RawsMTNN5</SiteName>
-      <SiteName NameType="uuid">477a2bfb-f4a2-4042-a550-75f3a7d547db</SiteName>
+      <SiteName NameType="uuid">1cb91d49-b27f-4154-9330-b12d027e9eca</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -14785,7 +14785,7 @@
       <NearestCity>Pine Springs, TX</NearestCity>
       <Description>RAWS: PINERY</Description>
       <SiteName NameType="CWMS">RawsPSGT2</SiteName>
-      <SiteName NameType="uuid">5cc7b916-e6dd-4958-b13e-242a0edd9695</SiteName>
+      <SiteName NameType="uuid">2dad09ab-4c35-4bbd-97b9-248bf0c491ec</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -15024,7 +15024,7 @@
       <NearestCity>Pine Springs, TX</NearestCity>
       <Description>RAWS: PX WELL</Description>
       <SiteName NameType="CWMS">RawsPXWT2</SiteName>
-      <SiteName NameType="uuid">6192c668-019a-4b2d-9ee9-9e170b54ba39</SiteName>
+      <SiteName NameType="uuid">b5aa9d15-fa29-4171-9c73-6a5f07b0000f</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -15263,7 +15263,7 @@
       <NearestCity>Queen</NearestCity>
       <Description>RAWS: QUEEN</Description>
       <SiteName NameType="CWMS">RawsQENN5</SiteName>
-      <SiteName NameType="uuid">87c85314-130c-4971-a001-3eaaa91bdc40</SiteName>
+      <SiteName NameType="uuid">edbe96ae-03ff-423b-afcc-ac0ebadae0cf</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -15502,7 +15502,7 @@
       <NearestCity>Wetmore, CO</NearestCity>
       <Description>RAWS: RED CREEK</Description>
       <SiteName NameType="CWMS">RawsRDDC2</SiteName>
-      <SiteName NameType="uuid">7a0d1182-dc68-4631-a316-3c0f5198b653</SiteName>
+      <SiteName NameType="uuid">db064dac-6cff-47ee-80dc-28a216ad53e1</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -15741,7 +15741,7 @@
       <NearestCity>Buena Vista, CO</NearestCity>
       <Description>RAWS: RED DEER</Description>
       <SiteName NameType="CWMS">RawsRDKC2</SiteName>
-      <SiteName NameType="uuid">207e31ec-08f1-4c8f-bc66-5efcefb2be64</SiteName>
+      <SiteName NameType="uuid">8e305e48-9ebe-448f-9218-e2394c1777fa</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -15980,7 +15980,7 @@
       <NearestCity>Acme, NM</NearestCity>
       <Description>RAWS: EIGHT MILE DRAW</Description>
       <SiteName NameType="CWMS">RawsREMN5</SiteName>
-      <SiteName NameType="uuid">075a95f3-27b4-42b4-93be-3985139df816</SiteName>
+      <SiteName NameType="uuid">8c2153f1-ae64-458e-bca1-b298eee58026</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -16219,7 +16219,7 @@
       <NearestCity>Paradise Hills, NM</NearestCity>
       <Description>RAWS: MONTANO</Description>
       <SiteName NameType="CWMS">RawsRGMN5</SiteName>
-      <SiteName NameType="uuid">be83e190-dc9a-4cad-af38-f4e0a3844d1a</SiteName>
+      <SiteName NameType="uuid">fc831455-2cc5-4b29-b82c-289b2cc756dd</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -16414,7 +16414,7 @@
       <NearestCity>Crystola, CO</NearestCity>
       <Description>RAWS: RAMPART RANGE</Description>
       <SiteName NameType="CWMS">RawsRRAC2</SiteName>
-      <SiteName NameType="uuid">34278b96-207e-4d38-971d-211d0ffe601c</SiteName>
+      <SiteName NameType="uuid">f7f47ca2-7747-41f6-9946-e2863d2d2545</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -16653,7 +16653,7 @@
       <NearestCity>Blanca, CO</NearestCity>
       <Description>RAWS: SAND DUNES</Description>
       <SiteName NameType="CWMS">RawsSDNC2</SiteName>
-      <SiteName NameType="uuid">b4ea5b28-5243-4777-90a5-b90a2203d4b1</SiteName>
+      <SiteName NameType="uuid">13ca7835-d50a-49a8-b4d2-96e2d6b2af99</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -16892,7 +16892,7 @@
       <NearestCity>Chimney Rock, CO</NearestCity>
       <Description>RAWS: SANDOVAL MESA</Description>
       <SiteName NameType="CWMS">RawsSDVC2</SiteName>
-      <SiteName NameType="uuid">01aca710-a11e-4a4d-bbde-0626dbea3dca</SiteName>
+      <SiteName NameType="uuid">7fdeafa2-84d6-4f30-8b16-23943c42eb50</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -17131,7 +17131,7 @@
       <NearestCity>Contreras, NM</NearestCity>
       <Description>RAWS: SEVILLETA</Description>
       <SiteName NameType="CWMS">RawsSEVN5</SiteName>
-      <SiteName NameType="uuid">fbc5353f-e32a-4d90-8cbd-385307e5526b</SiteName>
+      <SiteName NameType="uuid">c34690c1-3458-4a1c-a2a6-589d167a5262</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -17370,7 +17370,7 @@
       <NearestCity>Santa Fe, NM</NearestCity>
       <Description>RAWS: SANTA FE</Description>
       <SiteName NameType="CWMS">RawsSFWN5</SiteName>
-      <SiteName NameType="uuid">53a4e4b5-446b-4074-a42f-10865abec526</SiteName>
+      <SiteName NameType="uuid">8118ee71-ca6f-4d66-99a8-e696a8017f47</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -17609,7 +17609,7 @@
       <NearestCity>Maysville, CO</NearestCity>
       <Description>RAWS: SALIDA</Description>
       <SiteName NameType="CWMS">RawsSIDC2</SiteName>
-      <SiteName NameType="uuid">e8b0398b-2dc9-499f-9599-d07e6775f77a</SiteName>
+      <SiteName NameType="uuid">9b7b7ead-8095-4ddb-8ead-13dcc7193ad5</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -17827,7 +17827,7 @@
       <NearestCity>Slaughter</NearestCity>
       <Description>RAWS: SLAUGHTER</Description>
       <SiteName NameType="CWMS">RawsSLMN5</SiteName>
-      <SiteName NameType="uuid">22793d6e-3e67-45d2-8ada-6296cc813685</SiteName>
+      <SiteName NameType="uuid">54371694-49dd-4538-a80b-c0a7957ef47d</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -18066,7 +18066,7 @@
       <NearestCity>Organ, NM</NearestCity>
       <Description>RAWS: SAN ANDRES</Description>
       <SiteName NameType="CWMS">RawsSNDN5</SiteName>
-      <SiteName NameType="uuid">06b8e158-55f5-44e3-98ca-9bf0bb8040a0</SiteName>
+      <SiteName NameType="uuid">ba77f258-c0f6-4c0b-a9e1-965fbcc1f59d</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -18305,7 +18305,7 @@
       <NearestCity>Corrales, NM</NearestCity>
       <Description>RAWS: SANDIA LAKES</Description>
       <SiteName NameType="CWMS">RawsSNLN5</SiteName>
-      <SiteName NameType="uuid">287cb419-44e3-401a-8921-7f867ee0249d</SiteName>
+      <SiteName NameType="uuid">4bc398fe-350a-4dfe-98c8-a305f2b4dfd5</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -18544,7 +18544,7 @@
       <NearestCity>Monero, NM</NearestCity>
       <Description>RAWS: STONE LAKE</Description>
       <SiteName NameType="CWMS">RawsSTLN5</SiteName>
-      <SiteName NameType="uuid">7e6b275b-3afc-498b-b423-f2899ab32500</SiteName>
+      <SiteName NameType="uuid">dfb6d402-55a0-4cc6-b354-0167a546972f</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -18783,7 +18783,7 @@
       <NearestCity>Escabosa, NM</NearestCity>
       <Description>RAWS: OAK FLATS</Description>
       <SiteName NameType="CWMS">RawsTJRN5</SiteName>
-      <SiteName NameType="uuid">31fddd43-58fc-49a3-96b2-d02104ed2cb9</SiteName>
+      <SiteName NameType="uuid">157457d3-7511-4a2f-870b-058ac60456c5</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -19022,7 +19022,7 @@
       <NearestCity>Truchas, NM</NearestCity>
       <Description>RAWS: TRUCHAS</Description>
       <SiteName NameType="CWMS">RawsTRUN5</SiteName>
-      <SiteName NameType="uuid">dfebc267-3f2f-425e-ac0b-937c4e9cf348</SiteName>
+      <SiteName NameType="uuid">e4855877-4a91-4788-a56b-a07ed68b70bd</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -19261,7 +19261,7 @@
       <NearestCity>Tower</NearestCity>
       <Description>RAWS: TOWER</Description>
       <SiteName NameType="CWMS">RawsTWRN5</SiteName>
-      <SiteName NameType="uuid">3c55a0dc-8b5d-42e8-afcf-c4622bb24ea3</SiteName>
+      <SiteName NameType="uuid">2f0e900c-46d6-43b7-860d-97c5f926087a</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -19500,7 +19500,7 @@
       <NearestCity>Campo, CO</NearestCity>
       <Description>RAWS: UTE CANYON</Description>
       <SiteName NameType="CWMS">RawsUCNC2</SiteName>
-      <SiteName NameType="uuid">e50c5e7c-42b8-440a-a6f6-84e94f665997</SiteName>
+      <SiteName NameType="uuid">64872cb0-3cee-4401-ab82-07dacec94332</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -19739,7 +19739,7 @@
       <NearestCity>Beulah, CO</NearestCity>
       <Description>RAWS: WILLIS CREEK</Description>
       <SiteName NameType="CWMS">RawsWLCC2</SiteName>
-      <SiteName NameType="uuid">ddedd222-90b3-48c6-b8b8-3a4c5803614b</SiteName>
+      <SiteName NameType="uuid">296cdc3f-33d8-4bb4-b635-19c9220bff21</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -19978,7 +19978,7 @@
       <NearestCity>Sheep Springs, NM</NearestCity>
       <Description>RAWS: WA PASS</Description>
       <SiteName NameType="CWMS">RawsWPSN5</SiteName>
-      <SiteName NameType="uuid">8abfe135-1d0e-4304-b35e-7ec40b6d42d4</SiteName>
+      <SiteName NameType="uuid">d5d7aa92-f322-4f57-8ae9-5370c7003a22</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -20217,7 +20217,7 @@
       <NearestCity>Zuni, NM</NearestCity>
       <Description>RAWS: ZUNI BUTTES</Description>
       <SiteName NameType="CWMS">RawsZNRN5</SiteName>
-      <SiteName NameType="uuid">3e8071b7-3bec-47fb-a83b-9e1ef85bfbe0</SiteName>
+      <SiteName NameType="uuid">110788eb-58a4-455f-a42e-46b63166594b</SiteName>
       <SiteProperty PropertyName="location_type">RAWS</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
@@ -20456,7 +20456,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Wightman Fork</SiteName>
-      <SiteName NameType="uuid">32e59f24-12cd-4811-872c-87a198fa960d</SiteName>
+      <SiteName NameType="uuid">b86f6057-5868-4dba-bfbb-656a2162ec98</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">Wightman Fork at Mouth nr Jasper</SiteProperty>
     </Site>
@@ -20514,7 +20514,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">FT Garland S D C</SiteName>
-    <SiteName NameType="uuid">f732b237-5054-4436-bf4a-b5c441f15d56</SiteName>
+    <SiteName NameType="uuid">ab5d663c-de4f-4a1e-88f0-639e564ad0cc</SiteName>
       </Site>
     <PlatformConfig ConfigName="SAFC2">
       <Description>Ft Garland S D C</Description>
@@ -20570,7 +20570,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Costilla US</SiteName>
-      <SiteName NameType="uuid">4802c586-4a94-4e73-9827-faab0fbf8033</SiteName>
+      <SiteName NameType="uuid">075cae49-3711-403c-ad4e-b8a82089644c</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Costilla Cr ab Costilla Res</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="CCAN5">
@@ -20627,7 +20627,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Costilla Santvan</SiteName>
-      <SiteName NameType="uuid">5349cf07-9490-4126-a4d3-c7318b538742</SiteName>
+      <SiteName NameType="uuid">0e79ac93-8e79-4848-9379-9e489a47dcc2</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Santvan R ab Costilla Res</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SNTN5">
@@ -20684,7 +20684,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Cundiyo</SiteName>
-      <SiteName NameType="uuid">f147f931-90b4-4d34-85e8-ecddb171a2b4</SiteName>
+      <SiteName NameType="uuid">35f1ba1e-b1b6-4833-bf9a-879ce11064df</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Santa Cruz R nr Cundiyo</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="CYON5">
@@ -20744,7 +20744,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Narrows</SiteName>
-      <SiteName NameType="uuid">5822cedb-ec5d-48cd-86c9-47d9ca833966</SiteName>
+      <SiteName NameType="uuid">920a85e9-4359-46bd-b50a-68a5cf4eb33d</SiteName>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande at E Butte Narrows</SiteProperty>
@@ -20803,7 +20803,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Santa Fe</SiteName>
-      <SiteName NameType="uuid">31610502-0d0f-4fef-ae42-bd53ec28d40a</SiteName>
+      <SiteName NameType="uuid">fa538300-9734-4173-b0c6-872e7f56529d</SiteName>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">Santa Fe R nr Santa Fe</SiteProperty>
@@ -20862,7 +20862,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Nichols</SiteName>
-      <SiteName NameType="uuid">9a5c2a98-eb61-4840-bc99-3f16ccdb3b24</SiteName>
+      <SiteName NameType="uuid">fe20f70e-14d4-4af7-981e-de83eb6edbdd</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Nichols Res nr Santa Fe</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SFNN5">
@@ -20919,7 +20919,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Prairie Dtch</SiteName>
-      <SiteName NameType="uuid">a9385408-e794-472b-9ba3-e6c99dd27b7a</SiteName>
+      <SiteName NameType="uuid">c25aacf9-8a4c-4424-a57f-cea575deeac7</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">Prairie Dtch nr Seven-mile Plaza</SiteProperty>
     </Site>
@@ -20977,7 +20977,7 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Dryden</SiteName>
-      <SiteName NameType="uuid">4b4b81db-84c0-43e0-81b4-18064db18821</SiteName>
+      <SiteName NameType="uuid">dbd0124e-ca79-4819-9e49-cd486ba854ef</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande nr Dryden</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="DYNT2">
@@ -21058,7 +21058,7 @@
       <State>TX</State>
       <Description>Rio Grande at Foster Ranch near Langtry, TX</Description>
       <SiteName NameType="CWMS">Foster Ranch</SiteName>
-      <SiteName NameType="uuid">c01cc2a6-2b33-4136-957e-61d161f272fe</SiteName>
+      <SiteName NameType="uuid">b21e5c78-d0f1-4fb5-9b3e-e4b3a8b6906b</SiteName>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande at Foster Ranch</SiteProperty>
     </Site>
@@ -21138,7 +21138,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Summitville</SiteName>
-      <SiteName NameType="uuid">7b41db66-cf6b-48d1-b62e-cd3598b83dc5</SiteName>
+      <SiteName NameType="uuid">2e7c6699-8253-4a8e-84b9-72c135be137a</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Wightman Fork bl Cropsey Cr</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="WGHC2">
@@ -21195,7 +21195,7 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Terlingua</SiteName>
-      <SiteName NameType="uuid">4b9b3ecb-1c45-4afd-a496-9728ece898a0</SiteName>
+      <SiteName NameType="uuid">5c7d40b8-035e-4312-aad0-17c62f51f776</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Terlingua Ck nr Terlingua</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="TNGT2">
@@ -21275,7 +21275,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Ft Garland Ute</SiteName>
-      <SiteName NameType="uuid">1c395ec2-d17a-473b-b8a2-ba23f0557ae4</SiteName>
+      <SiteName NameType="uuid">cc2a8374-113d-42d5-9403-f4938cb49b68</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Ute Cr nr Ft Garland</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="UFGC2">
@@ -21355,7 +21355,7 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">El Paso</SiteName>
-      <SiteName NameType="uuid">6530417e-8ce3-4463-a034-edf1956f730f</SiteName>
+      <SiteName NameType="uuid">961a6c04-7020-4b8e-aa0c-64205cc544cc</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande at El Paso</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="EPRT2">
@@ -21436,7 +21436,7 @@
       <State>TX</State>
       <SiteName NameType="CWMS">Castolon</SiteName>
       <SiteName NameType="nwshb5">CSTT2</SiteName>
-      <SiteName NameType="uuid">af95a24e-e89e-4ca8-8aa6-bff067e3d62d</SiteName>
+      <SiteName NameType="uuid">fddf8697-d3f4-4cc9-8393-e0cdd7a8f55d</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande nr Castolon, TX</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="CSTT2">
@@ -21493,7 +21493,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Talpa</SiteName>
-      <SiteName NameType="uuid">45181bae-4bbc-4a90-a265-e37777c726fe</SiteName>
+      <SiteName NameType="uuid">3298617d-22b8-49d5-8cb0-082ab27b8b60</SiteName>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande del Rancho nr Talpa</SiteProperty>
@@ -21554,7 +21554,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Cochiti Santa Fe</SiteName>
-      <SiteName NameType="uuid">16ba5115-dd06-4d5d-8e69-661751865514</SiteName>
+      <SiteName NameType="uuid">5581265e-fa12-4631-afdc-32821e6ca604</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Santa Fe R abv Cochiti</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SFCN5">
@@ -21612,7 +21612,7 @@
       <State>NM</State>
       <Description>Rio Brazos at Fishtail Road near Tierra Amarilla, NM</Description>
       <SiteName NameType="CWMS">Fishtail rd</SiteName>
-      <SiteName NameType="uuid">55481fd4-9657-4f7b-8f74-be4acba36a98</SiteName>
+      <SiteName NameType="uuid">f01f6b6e-1e94-4a49-8a98-8e804386393c</SiteName>
       <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
@@ -21672,7 +21672,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Romero Dtch</SiteName>
-      <SiteName NameType="uuid">9d063929-1af0-4c01-a5a0-4084dd6ba1a0</SiteName>
+      <SiteName NameType="uuid">24a2a109-c98b-4e35-9edc-2fef17293800</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">Romero Dtch nr Conejos</SiteProperty>
     </Site>
@@ -21732,7 +21732,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Frijoles</SiteName>
-      <SiteName NameType="uuid">d1bc7baa-bfc1-4d70-9c77-c31ef20f881a</SiteName>
+      <SiteName NameType="uuid">9c0fe0da-abfd-4d2a-836e-1fec7eced1c7</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rito de Los Frijoles BNM</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="RLFNM">
@@ -21779,7 +21779,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Manassa Dtch</SiteName>
-      <SiteName NameType="uuid">6869f868-a5e0-4a0d-aff0-7a251d3c2054</SiteName>
+      <SiteName NameType="uuid">0af25a49-849d-4390-a68b-4e12e8c3ebb6</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">Manassa Dtch nr Conejos</SiteProperty>
     </Site>
@@ -21839,7 +21839,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">San Luis Val Cn</SiteName>
-      <SiteName NameType="uuid">3168afd9-51ed-4c10-8f82-bdc2f4b08811</SiteName>
+      <SiteName NameType="uuid">1709861a-cdbe-42a0-9ad0-e9ada5c3224f</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">San Luis Valley Cn nr RG-AL CL</SiteProperty>
     </Site>
@@ -21899,7 +21899,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">PRWP Dtch</SiteName>
-      <SiteName NameType="uuid">30289bb5-04cb-4a29-bf52-d6c0e8150e8c</SiteName>
+      <SiteName NameType="uuid">5223a08f-351a-4220-b5a4-765ad2f4c61e</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Pine R Weminuche Pass Dtch</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SPPC2">
@@ -21956,7 +21956,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">South Fork Bear</SiteName>
-      <SiteName NameType="uuid">2a822bb7-d5fe-4726-bd40-38dc536fd6b8</SiteName>
+      <SiteName NameType="uuid">e133e4de-82e9-4698-8f6a-f0ddd17236af</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Bear Cr nr South Fork</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="BERSOUCO">
@@ -22014,7 +22014,7 @@
       <State>NM</State>
       <SiteName NameType="CWMS">Bluewater</SiteName>
       <SiteName NameType="nwshb5">BWLN5</SiteName>
-      <SiteName NameType="uuid">cb448fa5-8475-4b80-a2a8-da8b04958921</SiteName>
+      <SiteName NameType="uuid">f76b8659-da4b-493e-8b4f-c7c76a78edf6</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Bluewater Reservoir</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="BWLN5">
@@ -22071,7 +22071,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Conejos</SiteName>
-      <SiteName NameType="uuid">60218561-f043-48ea-bccd-a8e76b4c4e98</SiteName>
+      <SiteName NameType="uuid">3906bc22-205e-41e0-a101-1c2394a1d851</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Conejos R at Conejos</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="CNJC2">
@@ -22128,7 +22128,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Monte Vista Cn</SiteName>
-      <SiteName NameType="uuid">afdd5da1-bce3-4580-8235-da61d8d32524</SiteName>
+      <SiteName NameType="uuid">835d4931-4b3b-4e05-bc7e-f0f719d60713</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Monte Vista Cn nr Monte Vista</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="MVCC2">
@@ -22185,7 +22185,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Mountain Home</SiteName>
-      <SiteName NameType="uuid">bcbdb4fa-71c6-4c3c-be7a-f1558003f036</SiteName>
+      <SiteName NameType="uuid">9a4c1b7d-6fa8-4d77-9b49-a0c4ba3bd242</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Mountain Home Res</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="MOHC2">
@@ -22277,7 +22277,7 @@
         <Country>UNITED STATES</Country>
         <State>CO</State>
         <SiteName NameType="CWMS">Mountain Home DS</SiteName>
-        <SiteName NameType="uuid">1c1779b0-c546-4b85-8698-5e3524707d99</SiteName>
+        <SiteName NameType="uuid">8a0da115-8a3c-4307-8fbe-bf96d12a4d18</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Mountain Home DS</SiteProperty>
       </Site>
     </PlatformSensor>
@@ -22296,7 +22296,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Jasper DS</SiteName>
-      <SiteName NameType="uuid">dde632e7-a9b5-4cc8-8525-eeda24bf5a58</SiteName>
+      <SiteName NameType="uuid">753288b8-5b1d-4e71-89b0-733a7e7996d4</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Alamosa R bl Ranger Cr</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="ALRC2">
@@ -22353,7 +22353,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Jasper US</SiteName>
-      <SiteName NameType="uuid">d6a7c9de-fb1c-4aac-9f0d-3b185f461e16</SiteName>
+      <SiteName NameType="uuid">88aea7e3-4390-4cf0-b298-e45d54fdea96</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Alamosa R ab Wightman Fork</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="AWFC2">
@@ -22412,7 +22412,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Marshall Park CG</SiteName>
-      <SiteName NameType="uuid">cbf5160c-b48f-43d0-a9a6-36c4c9008e2d</SiteName>
+      <SiteName NameType="uuid">d0d543e1-6acd-4743-9a7f-7d708f477e03</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande nr Creede</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="MAPC2">
@@ -22471,7 +22471,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Humphreys US</SiteName>
-      <SiteName NameType="uuid">d4282cff-5ceb-4906-80a5-3a6b7db1e96b</SiteName>
+      <SiteName NameType="uuid">a1d87917-e2c3-47ed-8d45-7cdf8a5f74f9</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Goose Cr ab Humphreys Res</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="GCHC2">
@@ -22548,7 +22548,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Terrace</SiteName>
-      <SiteName NameType="uuid">bd52b58d-edb0-4800-b8fa-e87b0e77dbc6</SiteName>
+      <SiteName NameType="uuid">635f626f-5f82-421c-8433-c018ba59ee72</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Terrace Res in Conejos County</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="TRRC2">
@@ -22605,7 +22605,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Conejos N B</SiteName>
-      <SiteName NameType="uuid">551bffc8-70fb-4717-973c-d49f4c4c56e4</SiteName>
+      <SiteName NameType="uuid">1d86025b-be61-4051-b444-e3d10bd8087d</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">N Br Conejos R at Conejos</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="NCOC2">
@@ -22661,7 +22661,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Tabor Dtch</SiteName>
-      <SiteName NameType="uuid">f0d3207e-f49f-4d2d-a33f-584cd3db9e1e</SiteName>
+      <SiteName NameType="uuid">2ffbdcef-f1f7-4b87-bf78-4149380110ec</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">Tabor Dtch at Spring Cr Pass</SiteProperty>
     </Site>
@@ -22722,7 +22722,7 @@
       <State>CO</State>
       <SiteName NameType="CWMS">Beaver Creek DS</SiteName>
       <SiteName NameType="nwshb5">BCBC2</SiteName>
-    <SiteName NameType="uuid">83de2ae7-b48c-4691-a6e6-baf52057899d</SiteName>
+    <SiteName NameType="uuid">6160c5f3-840c-4546-a070-147ce1f912db</SiteName>
       </Site>
     <PlatformConfig ConfigName="BCBC2">
       <Description>Beaver Creek DS</Description>
@@ -22778,7 +22778,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Wagon WG Goose</SiteName>
-      <SiteName NameType="uuid">486b34d9-19cc-475a-9a7b-54ba43d13eb2</SiteName>
+      <SiteName NameType="uuid">fdb09f84-16d2-4df0-b15e-d6c6e032a330</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Goose Cr at Wagon Wheel Gap</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="GOOWAGCO">
@@ -22837,7 +22837,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Del Norte San Fr</SiteName>
-      <SiteName NameType="uuid">6e45193f-8188-4767-b482-a13d56f2405a</SiteName>
+      <SiteName NameType="uuid">0e8afb77-242a-4c9a-ac53-ba6374bcd69a</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">San Francisco nr Del Norte</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SAFUPPCO">
@@ -22894,7 +22894,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Hayner Bridge</SiteName>
-      <SiteName NameType="uuid">6f2860f9-d33c-4e2c-ba5e-68d1f51a1d01</SiteName>
+      <SiteName NameType="uuid">b0710c91-037e-43c2-835b-50a8e886641c</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande at Hayner Bridge</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="RHBN5">
@@ -22976,7 +22976,7 @@
       <Description>Rio Grande at Canutillo near Anthony</Description>
       <SiteName NameType="CWMS">Anthony</SiteName>
       <SiteName NameType="nwshb5">RCLT2</SiteName>
-      <SiteName NameType="uuid">bbc6683d-3f72-450c-9320-02bc350cde2a</SiteName>
+      <SiteName NameType="uuid">cc93dd61-eb3c-4533-8c8f-c3a00a3f34b5</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Anthony</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="RCLT2">
@@ -23058,7 +23058,7 @@
       <Description>Diversions from the Rio Grande, American Canal At El Paso, Texas</Description>
       <SiteName NameType="CWMS">American Cn</SiteName>
       <SiteName NameType="nwshb5">ACDT2</SiteName>
-      <SiteName NameType="uuid">d7ee5ba8-ef90-4141-a0c1-ba9f4bd2ab35</SiteName>
+      <SiteName NameType="uuid">cd360bbc-1a07-440f-b829-c1fc9434c6f9</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">American Cn</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="ACDT2">
@@ -23118,7 +23118,7 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Ft Quitman</SiteName>
-      <SiteName NameType="uuid">f83a4c6a-14ac-46b8-9671-d74e68c135be</SiteName>
+      <SiteName NameType="uuid">25c68087-a418-4db4-b24a-9c23257ca85d</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande at Ft Quitman</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="FQGT2">
@@ -23201,7 +23201,7 @@
       <State>TX</State>
       <SiteName NameType="CWMS">Candelaria</SiteName>
       <SiteName NameType="nwshb5">CDET2</SiteName>
-      <SiteName NameType="uuid">081ffc0d-58a8-4b07-8ffe-43b17b3d72cf</SiteName>
+      <SiteName NameType="uuid">8ffd1a0d-e4ac-4047-a025-666809a2db77</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande nr Candelaria, TX</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="CDET2">
@@ -23281,7 +23281,7 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Presidio US</SiteName>
-      <SiteName NameType="uuid">025cd9af-856e-4757-815e-c242f44f3e0b</SiteName>
+      <SiteName NameType="uuid">da88203f-2166-4612-8d62-8df5370ad149</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande ab Rio Conchos</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="PIOT2">
@@ -23361,7 +23361,7 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Presidio</SiteName>
-      <SiteName NameType="uuid">3f2c8523-0eae-4e0b-b08f-1fdcb55d1fd7</SiteName>
+      <SiteName NameType="uuid">07106257-d553-485c-8b23-eaab7bf1afa5</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande at Presidio</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="PRST2">
@@ -23441,7 +23441,7 @@
       <State>TX</State>
       <SiteName NameType="CWMS">American DS</SiteName>
       <SiteName NameType="nwshb5">RGAT2</SiteName>
-      <SiteName NameType="uuid">01937816-60be-46f2-a4ad-74608d737212</SiteName>
+      <SiteName NameType="uuid">24aa2d2f-0cfb-4c62-9cf5-e895c95f2cf6</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">American DS</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="RGAT2">
@@ -23498,7 +23498,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Mesilla DS</SiteName>
-      <SiteName NameType="uuid">3e624d3c-6af6-492e-a72c-eac80aa7d1d3</SiteName>
+      <SiteName NameType="uuid">085917e0-6b5b-4830-bf47-b8566c3302f0</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande bl Mesilla Dam</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="MSLN5">
@@ -23555,7 +23555,7 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Rio Conchos</SiteName>
-      <SiteName NameType="uuid">c05d3a59-c5c1-44af-bd64-3b42a9465980</SiteName>
+      <SiteName NameType="uuid">86152f13-f4e1-4579-aea8-07e114bfcbec</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Conchos nr Ojinaga</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="ONGC6">
@@ -23669,7 +23669,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Leasburg DS</SiteName>
-      <SiteName NameType="uuid">df463dae-03be-4ae3-acca-4e4a5ae8aa42</SiteName>
+      <SiteName NameType="uuid">f11e33fc-a3ee-4b80-9605-9347432e5df3</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Leasburg DS</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="LBDN5">
@@ -23749,7 +23749,7 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Presidio Alamito</SiteName>
-      <SiteName NameType="uuid">06d7606b-c25d-4222-bc07-7f6eaf5c1a41</SiteName>
+      <SiteName NameType="uuid">5bdee068-26ac-4ff3-839d-9ef105e50726</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Alamito Cr nr Presidio</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="PRBT2">
@@ -23806,7 +23806,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Sanchez Res</SiteName>
-      <SiteName NameType="uuid">f2e9c065-b014-4f58-b41d-dc54b11170d9</SiteName>
+      <SiteName NameType="uuid">9a620f85-958c-4de8-801a-9b072ee4036d</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Sanchez Res nr San Luis</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SRSC2">
@@ -23881,7 +23881,7 @@
         <Country>UNITED STATES</Country>
         <State>CO</State>
         <SiteName NameType="CWMS">Sanchez Res DS</SiteName>
-        <SiteName NameType="uuid">0b3fe0ad-1c4c-4871-abe4-fa8af4962a5a</SiteName>
+        <SiteName NameType="uuid">1eab880c-491a-4977-9728-adbe7b62fcd0</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Ventero Cr bl Sanchez Dam</SiteProperty>
       </Site>
     </PlatformSensor>
@@ -23900,7 +23900,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Rio Grande Res</SiteName>
-      <SiteName NameType="uuid">f31b174d-2f2c-411d-b8ef-6fe62c6e764c</SiteName>
+      <SiteName NameType="uuid">d9a6229e-0cd9-45a4-95de-ed1dd70e29aa</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande Res nr Creede</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="RRRC2">
@@ -23957,7 +23957,7 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Johnson Ranch</SiteName>
-      <SiteName NameType="uuid">3d2fc9b2-fb67-4ddd-90b8-92681cd64677</SiteName>
+      <SiteName NameType="uuid">90de9154-14a2-4879-999d-d32b24613df9</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande at Johnson Ranch</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="TELT2">
@@ -24037,7 +24037,7 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Presidio DS</SiteName>
-      <SiteName NameType="uuid">72921715-6125-4a50-b2c6-5958b318f7e6</SiteName>
+      <SiteName NameType="uuid">5d4634fb-d9df-4301-91db-77e15b899faa</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande bl Rio Conchos</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="PRDT2">
@@ -24119,7 +24119,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">McClure US</SiteName>
-      <SiteName NameType="uuid">ad7c605f-292d-4d6f-8ddd-f79906e2a818</SiteName>
+      <SiteName NameType="uuid">4a0fbbb9-d0cf-49cf-839b-01bf851602a0</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Sante Fe R ab McClure Res</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SFAN5">
@@ -24175,7 +24175,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Tijeras Arroyo</SiteName>
-      <SiteName NameType="uuid">5de77a94-be88-426c-afda-11bbf89030b3</SiteName>
+      <SiteName NameType="uuid">6098b9e5-23f5-459a-8cdc-624f57642fe9</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Tijeras Arroyo nr Albuquerque</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="TIJN5">
@@ -24232,7 +24232,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Santa Fe Tesq</SiteName>
-      <SiteName NameType="uuid">72176523-c0f0-4fc1-a863-939ca6c103e1</SiteName>
+      <SiteName NameType="uuid">80005a8a-6265-43f8-992a-e4f154c47867</SiteName>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">Tesuque Cr ab Diversions</SiteProperty>
@@ -24291,7 +24291,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Costilla DS</SiteName>
-      <SiteName NameType="uuid">75287f17-a159-4854-a6e3-22a40e9e5401</SiteName>
+      <SiteName NameType="uuid">f33c5172-e4e4-40d5-b1cb-d2d76827efa7</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Costilla Creek bl Costilla Dam</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="CBDN5">
@@ -24350,7 +24350,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">South Fork US</SiteName>
-      <SiteName NameType="uuid">434acf2d-e949-4e64-b1c9-cbe52b37a3c0</SiteName>
+      <SiteName NameType="uuid">679b966f-2ad6-4318-8d7e-85ce1cd1d837</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">South Fork Rio Grande bl Col Cr</SiteProperty>
     </Site>
@@ -24434,7 +24434,7 @@
       <State>CO</State>
       <SiteName NameType="CWMS">Box Canyon</SiteName>
       <SiteName NameType="nwshb5">RGBC2</SiteName>
-    <SiteName NameType="uuid">e40383b6-02b9-4d3a-9df2-d79b5e0169a5</SiteName>
+    <SiteName NameType="uuid">34dd678e-1be8-48f9-be99-aabde5aee463</SiteName>
       </Site>
     <PlatformConfig ConfigName="RGBC2">
       <Description>Box Canyon</Description>
@@ -24511,7 +24511,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Farmers Union Cn</SiteName>
-      <SiteName NameType="uuid">23729e3c-5321-44d3-9905-bd3b395bd671</SiteName>
+      <SiteName NameType="uuid">d224fa32-7937-4471-91d4-4116ec1a06c2</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Farmers Union Cn nr Del Norte</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="FAUC2">
@@ -24568,7 +24568,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Empire Cn</SiteName>
-      <SiteName NameType="uuid">0b4ade32-e12b-46bf-8911-48211b88d6de</SiteName>
+      <SiteName NameType="uuid">1dbef7be-5328-4bff-aafa-f0f379ad0305</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Empire Cn nr Monte Vista</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="EMPC2">
@@ -24625,7 +24625,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Garcia</SiteName>
-      <SiteName NameType="uuid">91a6b769-df69-4c1f-bbdb-a51aa238224c</SiteName>
+      <SiteName NameType="uuid">e1335024-0a0d-4047-a1e4-492256a9b7c2</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Costilla Cr nr Garcia</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="CCSN5">
@@ -24682,7 +24682,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Chama</SiteName>
-      <SiteName NameType="uuid">1cdef8d7-077b-4796-adee-a13d7268ddb7</SiteName>
+      <SiteName NameType="uuid">30f39465-009d-4fc3-8cc3-d5c42df0d985</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Chama ab Chama</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="RCCN5">
@@ -24739,7 +24739,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Norton Drain</SiteName>
-      <SiteName NameType="uuid">cf68c64d-81f2-4cda-8142-35b29731ecbf</SiteName>
+      <SiteName NameType="uuid">807cb3c5-d1ea-4da3-aa6d-223c1cf64e13</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">Norton Drain nr La Sauses</SiteProperty>
     </Site>
@@ -24797,7 +24797,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Norton Drain S</SiteName>
-      <SiteName NameType="uuid">cd97eef2-8516-4baf-825e-dc69a388ce82</SiteName>
+      <SiteName NameType="uuid">1a7bdbd8-225f-4766-b72f-0c9d7057ef89</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">S Ch Norton Drain nr La Sauses</SiteProperty>
     </Site>
@@ -24854,7 +24854,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Sanchez Res DS</SiteName>
-      <SiteName NameType="uuid">45a2cbdf-17e3-40cb-8bc4-e82d0545eca0</SiteName>
+      <SiteName NameType="uuid">8209a6fc-ebb5-4256-ab83-4c9433117e00</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Ventero Cr bl Sanchez Dam</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="VENSANCO">
@@ -24900,7 +24900,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Mountain Home US</SiteName>
-      <SiteName NameType="uuid">23f08784-c0f0-4a8d-b9b3-ec5e0fc74fb5</SiteName>
+      <SiteName NameType="uuid">06d201c5-3a8f-46d9-ae08-04415d990b5a</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Mountain Home US</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="TRIMTNCO">
@@ -24957,7 +24957,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Costilla Dtch Al</SiteName>
-      <SiteName NameType="uuid">9298f662-578f-4ce4-807e-c535122efb1a</SiteName>
+      <SiteName NameType="uuid">0d4cdf2f-9dcf-4644-b4e2-d5d30c1c3073</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Costilla Ditch nr Alamosa</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="COSDITCO">
@@ -25014,7 +25014,7 @@
       <Country>UNITED STATES</Country>
       <State>CO</State>
       <SiteName NameType="CWMS">Centennial Cn</SiteName>
-      <SiteName NameType="uuid">62d69e73-32c9-4e25-a9b8-0f2e420aaefd</SiteName>
+      <SiteName NameType="uuid">95b4184b-ef18-4dff-9e12-419ce82fbdb9</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Centennial Cn nr Monte Vista</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="CENCANCO">
@@ -25074,7 +25074,7 @@
       <Description>Rio Grande Village RAWS near Marathon 72S</Description>
       <SiteName NameType="CWMS">RawsRGET2</SiteName>
       <SiteName NameType="nwshb5">RGET2</SiteName>
-      <SiteName NameType="uuid">e85cdf36-fb28-4480-886f-b3f667859cee</SiteName>
+      <SiteName NameType="uuid">08ad4f95-1f66-4b54-9134-dc07ee9dc786</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Rio Grande Village</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="PWDTFRBMNKA">
@@ -25308,7 +25308,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Leasburg Cn</SiteName>
-      <SiteName NameType="uuid">e0c338f6-8e61-472f-8b72-4042cffd95e4</SiteName>
+      <SiteName NameType="uuid">e72f97a7-743c-4c29-a3b7-8a83ec0f87f7</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Leasburg Cn</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="OneRainFlow">
@@ -25377,7 +25377,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Eastside Cn</SiteName>
-      <SiteName NameType="uuid">4e6d7563-dd97-40bc-a699-47f9197f4c8c</SiteName>
+      <SiteName NameType="uuid">3266fb54-95da-4927-b04e-6351af64adc8</SiteName>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">Eastside Cn nr Mesilla</SiteProperty>
     </Site>
@@ -25447,7 +25447,7 @@
       <Country>UNITED STATES</Country>
       <State>NM</State>
       <SiteName NameType="CWMS">Westside Cn</SiteName>
-      <SiteName NameType="uuid">3ec574c6-fcff-407c-bf89-4c0bc4ce4d41</SiteName>
+      <SiteName NameType="uuid">d36d826e-dfd4-4709-a07d-64b8a1b35601</SiteName>
       <SiteProperty PropertyName="PUBLIC_NAME">Westside Canal at Mesilla Dam</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="OneRainFlow">
@@ -25516,7 +25516,7 @@
       <Country>UNITED STATES</Country>
       <State>TX</State>
       <SiteName NameType="CWMS">Langtry</SiteName>
-      <SiteName NameType="uuid">e17b0b6d-d1bb-4c61-b63c-d2d6f7576666</SiteName>
+      <SiteName NameType="uuid">36407ff2-3b57-4a55-a1a0-5b23713159ae</SiteName>
       <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">Pecos River at Shumla Bend</SiteProperty>
@@ -25600,7 +25600,7 @@
       <NearestCity>Los Alamos</NearestCity>
       <Description>Wild Rivers RAWS near Questa</Description>
       <SiteName NameType="CWMS">RawsWDRN5</SiteName>
-      <SiteName NameType="uuid">df191fbb-205c-4435-9966-7d530a6a770d</SiteName>
+      <SiteName NameType="uuid">b488b503-87b9-4eee-9393-39da4f2a8f36</SiteName>
       <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
       <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
       <SiteProperty PropertyName="PUBLIC_NAME">Wild Rivers RAWS</SiteProperty>
