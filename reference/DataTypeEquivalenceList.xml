@@ -263,10 +263,15 @@
     <DataType Standard="EPA-CODE" Code="00047"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="CWMS" Code="Precip-Cum"/>
+    <DataType Standard="CWMS" Code="Precip"/>
     <DataType Standard="MIDAS" Code="Precipitation"/>
     <DataType Standard="SHEF-PE" Code="PC"/>
     <DataType Standard="EPA-CODE" Code="00045"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="Precip-Cum"/>
+    <DataType Standard="MIDAS" Code="Precipitation"/>
+    <DataType Standard="SHEF-PE" Code="PC"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="Pres-Sea Level"/>
@@ -277,7 +282,7 @@
     <DataType Standard="SHEF-PE" Code="PN"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="CWMS" Code="Precip-Incremental"/>
+    <DataType Standard="CWMS" Code="Precip-Inc"/>
     <DataType Standard="MIDAS" Code="Precipitation-Incremental"/>
     <DataType Standard="SHEF-PE" Code="PP"/>
   </DataTypeEquivalence>
