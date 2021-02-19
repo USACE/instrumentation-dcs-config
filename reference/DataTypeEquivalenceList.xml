@@ -426,7 +426,13 @@
   </DataTypeEquivalence>
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="Temp-water"/>
-    <DataType Standard="MIDAS" Code="Temperature-water"/>
+    <DataType Standard="MIDAS" Code="temperature"/>
+    <DataType Standard="SHEF-PE" Code="TW"/>
+    <DataType Standard="EPA-CODE" Code="00010"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="CWMS:Temp-Water"/>
+    <DataType Standard="MIDAS" Code="temperature"/>
     <DataType Standard="SHEF-PE" Code="TW"/>
     <DataType Standard="EPA-CODE" Code="00010"/>
   </DataTypeEquivalence>
@@ -449,6 +455,11 @@
     <DataType Standard="CWMS" Code="Volt"/>
     <DataType Standard="MIDAS" Code="voltage"/>
     <DataType Standard="SHEF-PE" Code="BV"/>
+  </DataTypeEquivalence>
+  <DataTypeEquivalence>
+    <DataType Standard="CWMS" Code="CWMS:Volt"/>
+    <DataType Standard="MIDAS" Code="voltage"/>
+    <DataType Standard="SHEF-PE" Code="SHEF-PE:VB"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="Power-Surplus"/>
