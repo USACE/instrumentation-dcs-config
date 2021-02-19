@@ -248,9 +248,9 @@
     <MaxDecimals>3</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
-    <DataType Standard="MIDAS" Code="Voltage">
+    <DataType Standard="MIDAS" Code="voltage">
     </DataType>
-    <UnitsAbbr>V</UnitsAbbr>
+    <UnitsAbbr>Volts</UnitsAbbr>
     <MaxDecimals>3</MaxDecimals>
   </DataPresentation>
   <DataPresentation>
