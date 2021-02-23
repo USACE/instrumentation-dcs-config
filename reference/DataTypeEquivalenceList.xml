@@ -447,7 +447,7 @@
     <DataType Standard="SHEF-PE" Code="US"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
-    <DataType Standard="CWMS" Code="Volt"/>
+    <DataType Standard="CWMS" Code="Volts"/>
     <DataType Standard="MIDAS" Code="voltage"/>
     <DataType Standard="SHEF-PE" Code="VB"/>
   </DataTypeEquivalence>
