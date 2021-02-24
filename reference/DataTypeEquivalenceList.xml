@@ -187,6 +187,7 @@
   </DataTypeEquivalence>
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="Elev-MSL"/>
+    <DataType Standard="MIDAS" Code="elevation"/>
     <DataType Standard="SHEF-PE" Code="HH"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
@@ -203,6 +204,7 @@
   </DataTypeEquivalence>
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="Elev-Lake"/>
+    <DataType Standard="MIDAS" Code="elevation"/>
     <DataType Standard="SHEF-PE" Code="HL"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
@@ -215,6 +217,7 @@
   </DataTypeEquivalence>
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="Elev-Pool"/>
+    <DataType Standard="MIDAS" Code="elevation"/>
     <DataType Standard="SHEF-PE" Code="HP"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
@@ -223,10 +226,12 @@
   </DataTypeEquivalence>
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="Elev-Tail"/>
+    <DataType Standard="MIDAS" Code="elevation"/>
     <DataType Standard="SHEF-PE" Code="HT"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="Height-Spillway Tail Water"/>
+    <DataType Standard="MIDAS" Code="elevation"/>
     <DataType Standard="SHEF-PE" Code="HW"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
@@ -264,13 +269,13 @@
   </DataTypeEquivalence>
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="Precip"/>
-    <DataType Standard="MIDAS" Code="Precipitation"/>
+    <DataType Standard="MIDAS" Code="precipitation"/>
     <DataType Standard="SHEF-PE" Code="PC"/>
     <DataType Standard="EPA-CODE" Code="00045"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="Precip-Cum"/>
-    <DataType Standard="MIDAS" Code="Precipitation"/>
+    <DataType Standard="MIDAS" Code="precipitation"/>
     <DataType Standard="SHEF-PE" Code="PC"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
@@ -279,11 +284,12 @@
   </DataTypeEquivalence>
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="Precip-Normal"/>
+    <DataType Standard="MIDAS" Code="precipitation"/>
     <DataType Standard="SHEF-PE" Code="PN"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="Precip-Inc"/>
-    <DataType Standard="MIDAS" Code="Precipitation-Incremental"/>
+    <DataType Standard="MIDAS" Code="precipitation-incremental"/>
     <DataType Standard="SHEF-PE" Code="PP"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
@@ -420,7 +426,7 @@
   </DataTypeEquivalence>
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="Temp-water"/>
-    <DataType Standard="MIDAS" Code="Temperature-water"/>
+    <DataType Standard="MIDAS" Code="temperature"/>
     <DataType Standard="SHEF-PE" Code="TW"/>
     <DataType Standard="EPA-CODE" Code="00010"/>
   </DataTypeEquivalence>
@@ -497,7 +503,7 @@
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="Cond-Water"/>
     <DataType Standard="SHEF-PE" Code="WC"/>
-    <DataType Standard="MIDAS" Code="Conductance-Water"/>
+    <DataType Standard="MIDAS" Code="conductivity"/>
     <DataType Standard="EPA-CODE" Code="00095"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
@@ -532,22 +538,22 @@
   </DataTypeEquivalence>
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="Conc-Dissolved Oxygen"/>
-    <DataType Standard="MIDAS" Code="Concentration-Dissolved Oxygen"/>
+    <DataType Standard="MIDAS" Code="dissolved-oxygen"/>
     <DataType Standard="SHEF-PE" Code="WO"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="pH"/>
-    <DataType Standard="MIDAS" Code="pH"/>
+    <DataType Standard="MIDAS" Code="ph"/>
     <DataType Standard="SHEF-PE" Code="WP"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="TurbJ"/>
-    <DataType Standard="MIDAS" Code="TurbidityJ"/>
+    <DataType Standard="MIDAS" Code="turbidity"/>
     <DataType Standard="SHEF-PE" Code="WT"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="Speed-Water"/>
-    <DataType Standard="MIDAS" Code="Velocity-Water"/>
+    <DataType Standard="MIDAS" Code="velocity"/>
     <DataType Standard="SHEF-PE" Code="WV"/>
   </DataTypeEquivalence>
   <DataTypeEquivalence>
