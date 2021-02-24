@@ -426,7 +426,7 @@
   </DataTypeEquivalence>
   <DataTypeEquivalence>
     <DataType Standard="CWMS" Code="Temp-water"/>
-    <DataType Standard="MIDAS" Code="temperature"/>
+    <DataType Standard="MIDAS" Code="water-temperature"/>
     <DataType Standard="SHEF-PE" Code="TW"/>
     <DataType Standard="EPA-CODE" Code="00010"/>
   </DataTypeEquivalence>
