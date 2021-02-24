@@ -70,7 +70,7 @@ def lookup_midas_param_info(configsensor_obj):
             'name': 'Air Temperature',
             'slug': 'air-temperature',
             'parameter_id': 'de6112da-8489-4286-ae56-ec72aa09974d',
-            'unit_id': '10e05b5c-7e96-434b-9182-a547333e1c52'
+            'unit_id': 'b4ea8385-48a3-4e95-82fb-d102dfcbcb54'
         },
         'conductivity':{
             'name': 'Conductivity',
@@ -130,7 +130,7 @@ def lookup_midas_param_info(configsensor_obj):
             'name': 'Water Temperature',
             'slug': 'water-temperature',
             'parameter_id': 'de6112da-8489-4286-ae56-ec72aa09974d',
-            'unit_id': '10e05b5c-7e96-434b-9182-a547333e1c52'
+            'unit_id': '6462733b-5b42-46a2-ad44-882a5332eafc'
         },
         'water-velocity':{
             'name': 'Water Velocity',
