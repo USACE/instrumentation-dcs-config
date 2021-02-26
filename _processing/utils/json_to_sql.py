@@ -304,8 +304,8 @@ source_dir = os.path.abspath(os.path.join(script_dir, '..', 'output', 'json'))
 infile = f'{source_dir}/{args.input}'
 
 # Get the midas units lookup data from MIDAS API
-# r = requests.get('https://midas-api.rsgis.dev/instrumentation/units')
-r = requests.get('http://localhost/instrumentation/units')
+r = requests.get('https://midas-api.rsgis.dev/instrumentation/units')
+# r = requests.get('http://localhost/instrumentation/units')
 try:
     midas_units = r.json()    
 except Exception as e:
