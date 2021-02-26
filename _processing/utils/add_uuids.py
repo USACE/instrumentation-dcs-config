@@ -306,14 +306,19 @@ for p in platforms:
         # Recheck for PlatformSensor nodes
         platform_sensors = p.findall('PlatformSensor')
            
+    # Recheck for PlatformSensor nodes
+    # platform_sensors = p.findall('PlatformSensor')
+    
     # Check number of PlatformSensor elements
     if len(platform_sensors) < len(config_sensors):
         print("PlatformSensor count < ConfigSensor Count")
         # Loop over config sensors to enumerate
-        cfg_sensors_numbers = range(1, len(config_sensors)+1)
+        cfg_sensors_numbers = list(range(1, len(config_sensors)+1))
+        platform_sensors_numbers = list(range(1, len(platform_sensors)+1))
         for s in cfg_sensors_numbers:
             for ps in platform_sensors:
-                if int(ps.get('SensorNumber')) not in cfg_sensors_numbers:                    
+                print(f"Checking for {s} in {platform_sensors_numbers}")
+                if s not in platform_sensors_numbers:                   
                     print(f'adding platform sensor: {s}')
                     add_platform_sensor(s, p)
                     break #without this ducplicated will be added
