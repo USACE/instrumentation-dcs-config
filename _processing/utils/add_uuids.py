@@ -115,7 +115,7 @@ def get_site_fields(site_element):
                     sitenames[elem.get(k).lower()] = elem.text.strip()                 
                     print(elem.tag,':',elem.get(k).lower(), '->', tag_value)
         else:
-            if elem.tag.lower() in ('latitude', 'longitude'): 
+            if elem.tag.lower().strip() in ('latitude', 'longitude'): 
                 tag_value = parse_coordinate(elem.tag.lower(), elem.text.strip())
             else:
                 tag_value = elem.text.strip()
@@ -125,6 +125,60 @@ def get_site_fields(site_element):
     site_fields['sitenames'] = sitenames
 
     return site_fields
+############################################################
+def add_platform_sensor(sensor_number, parent_elem):
+
+    print(f'Adding PlatformSensor element')
+
+    print(f'SensorNumber: {sensor_number}')
+
+    last_index = 0
+
+    for idx, elem in enumerate(parent_elem):
+        last_index = idx
+
+    # print(parent_elem[0].getchildren().tag)
+    _uuid = uuid.uuid4()
+    new_elem = ET.Element('PlatformSensor')
+    # new_elem.text=str(_uuid)
+    new_elem.set('SensorNumber', str(sensor_number))
+    new_elem.tail = '\n  '
+
+    # new_sub_elem = ET.Element('PlatformSensorProperty')
+    # new_sub_elem.set('PropertyName', 'uuid')
+    # new_sub_elem.text=str(_uuid)
+
+    # Adjust the tail of the prev platform child element to allow
+    # proper indention of the new element
+    parent_elem[last_index].tail = '\n    '
+
+    parent_elem.insert(last_index+1, new_elem)
+
+    return
+############################################################
+def add_platform_sensor_uuid_property(parent_elem):
+
+    last_index = 0
+
+    for idx, elem in enumerate(parent_elem):
+        last_index = idx
+        print(f'index is: {idx}')
+        print(f'element is: {elem.tag}')
+
+    _uuid = uuid.uuid4()
+    new_elem = ET.Element('PlatformSensorProperty')
+    new_elem.text=str(_uuid)
+    new_elem.set('PropertyName', 'uuid')
+    new_elem.tail = '\n    '
+
+    if last_index > 0:
+        # Adjust the tail of the prev platform child element to allow
+        # proper indention of the new element
+        parent_elem[last_index].tail = '\n      \n'
+
+    print(f'Inserting uuid property inside element: {parent_elem.tag}')
+    parent_elem.insert(last_index+1, new_elem)
+
 ############################################################
 parser = argparse.ArgumentParser(description='Adds UUIDs to Platforms XML Export')
 parser.add_argument('-i', '--input', type=str, required=True, 
@@ -214,6 +268,7 @@ for p in platforms:
             # Get the ScriptSensor for this ConfigSensor
             # to determine the units
             sensor_number = cs.get('SensorNumber')
+            print(f'Sensor Number: {sensor_number}')
             
             for ss in script_sensors:
                 if ss.get('SensorNumber') == sensor_number:       
@@ -230,7 +285,68 @@ for p in platforms:
                     dtypes['ToUnitsAbbr'] = units            
 
             cfg_sensors[sensor_name] = dtypes
+
     
+    ## Add the PlatformSensor and PlatformSensorProperty sub elements
+    ## which will contain UUIDs to map sensor param/units to MIDAS timeseries
+    
+    print('\n\n$$$ --------------------- $$$')
+
+    print(f'ConfigSensor Count: {len(config_sensors)}')
+    
+    platform_sensors = p.findall('PlatformSensor')
+    for ps in platform_sensors:
+        print(f"PlatformSensor => {ps.get('SensorNumber')}")
+
+    # If no PlatformSensors elements, add empty elements for each config sensor
+    if not platform_sensors:
+        print('This platform has no PlatformSensor elements')
+        for s in range(1, len(config_sensors)+1):
+            add_platform_sensor(s, p)
+        # Recheck for PlatformSensor nodes
+        platform_sensors = p.findall('PlatformSensor')
+           
+    # Check number of PlatformSensor elements
+    if len(platform_sensors) < len(config_sensors):
+        print("PlatformSensor count < ConfigSensor Count")
+        # Loop over config sensors to enumerate
+        cfg_sensors_numbers = range(1, len(config_sensors)+1)
+        for s in cfg_sensors_numbers:
+            for ps in platform_sensors:
+                if int(ps.get('SensorNumber')) not in cfg_sensors_numbers:                    
+                    print(f'adding platform sensor: {s}')
+                    add_platform_sensor(s, p)
+                    break #without this ducplicated will be added
+            
+
+    
+    # Recheck for PlatformSensor nodes
+    platform_sensors = p.findall('PlatformSensor')
+
+    if len(config_sensors) == len(platform_sensors):
+        print("Platform has PlatformSensor count = ConfigSensor Count")
+        for ps in platform_sensors:
+            add_platform_sensor_uuid_property(ps)
+
+    # Recheck for PlatformSensor nodes
+    platform_sensors = p.findall('PlatformSensor')
+    print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
+    
+
+    # Add the platform sensor to the config sensors dict just to keep these
+    # pieces together for the JSON output
+    for cs in config_sensors:
+        for ps in platform_sensors:
+            if cs.get('SensorNumber') == ps.get('SensorNumber'):
+                print(f"SENSORS MATCH: {cs.get('SensorNumber')}")
+                if ps.find('PlatformSensorProperty') is not None and ps.find('PlatformSensorProperty').get('PropertyName') == 'uuid':
+                    print(f"--->{cs.find('SensorName').text}")
+                    print(f"==>{ps.find('PlatformSensorProperty').text}")
+                    cfg_sensors[cs.find('SensorName').text]['uuid'] = ps.find('PlatformSensorProperty').text
+        
+    
+
+
     platform_obj['config_sensors'] = cfg_sensors
     platform_obj['platform_sensors'] = ps_sites
     platform_obj['site'] = get_site_fields(site)   
