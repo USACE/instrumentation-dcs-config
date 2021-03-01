@@ -46,6 +46,9 @@
   <RoutingSpecProperty PropertyName="dateFormat">
     yyyy-MM-dd&apos;T&apos;HH:mmZ
   </RoutingSpecProperty>
+  <RoutingSpecProperty PropertyName="filenameTemplate">
+    $TRANSPORTID-$DATE(yyyyMMddHHmmss)
+  </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="sc:SOURCE_0000">
     GOES_SELFTIMED
   </RoutingSpecProperty>
