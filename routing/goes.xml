@@ -30,7 +30,7 @@
   </DataSource>
   <EnableEquations>false</EnableEquations>
   <UsePerformanceMeasurements>false</UsePerformanceMeasurements>
-  <OutputFormat>cwms-oracle</OutputFormat>
+  <OutputFormat>midas-formatter</OutputFormat>
   <OutputTimeZone>UTC</OutputTimeZone>
   <PresentationGroupName>MIDAS-English</PresentationGroupName>
   <ConsumerType>directory</ConsumerType>
