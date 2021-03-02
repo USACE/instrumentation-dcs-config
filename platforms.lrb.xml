@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <Database>
   <Platform PlatformId="1">
     <Agency>CELRB</Agency>
@@ -13,10 +13,8 @@
       <Country>UNITED STATES</Country>
       <State>NY</State>
       <NearestCity>Avon, NY</NearestCity>
-      <Description>
-        Stage and discharge gauge located on the Genesee River, downstream of Mt
-        Morris Dam and near Avon, NY.
-      </Description>
+      <Description>Stage and discharge gauge located on the Genesee River, downstream of Mt
+        Morris Dam and near Avon, NY.</Description>
       <SiteName NameType="CWMS">AVNN6</SiteName>
       <SiteName NameType="uuid">089fbda3-5a6a-408d-aec2-4e108910d94b</SiteName>
       <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
@@ -52,31 +50,31 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan),f(f,a,10d&apos; &apos;)
+          s(1,a,scan),f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="stage">&gt;HG</FormatStatement>
         <FormatStatement Label="ST">&gt;HG</FormatStatement>
         <FormatStatement Label="HG">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;HGVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
         </FormatStatement>
         <FormatStatement Label="HGVAL">
-          f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,HGVAL)&gt;scan
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
         <FormatStatement Label="rain">&gt;PC</FormatStatement>
         <FormatStatement Label="PC">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;PCVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
         </FormatStatement>
         <FormatStatement Label="PCVAL">
-          f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,PCVAL)&gt;scan
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="BV">&gt;VB</FormatStatement>
         <FormatStatement Label="BL">&gt;VB</FormatStatement>
         <FormatStatement Label="VB">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,3)&gt;VBVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
         </FormatStatement>
         <FormatStatement Label="VBVAL">
-          f(s,a,10d&apos; &apos;,3),x,c(&apos;:&apos;,VBVAL)&gt;scan
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
@@ -137,6 +135,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">7539f77a-7da5-4f03-a91c-f33d7dfb7fb9</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -151,6 +151,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">47f8a28a-5048-47ea-9aff-3fa0aa7b6ed1</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -165,6 +167,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">51b94db2-2186-47d5-ae01-48dd680fb274</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="2">
@@ -179,11 +183,9 @@
       <Timezone>US/Eastern</Timezone>
       <Country>UNITED STATES</Country>
       <State>NY</State>
-      <Description>
-        Stage gauge located on the Genesee River at Ballantyne Bridge nearr
+      <Description>Stage gauge located on the Genesee River at Ballantyne Bridge nearr
     
-        Rochester, NY.
-      </Description>
+        Rochester, NY.</Description>
       <SiteName NameType="CWMS">BLBN6</SiteName>
       <SiteName NameType="uuid">209980f3-ab26-42d6-9fe7-13c0b6221f88</SiteName>
       <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
@@ -219,31 +221,31 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan),f(f,a,10d&apos; &apos;)
+          s(1,a,scan),f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="stage">&gt;HG</FormatStatement>
         <FormatStatement Label="ST">&gt;HG</FormatStatement>
         <FormatStatement Label="HG">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;HGVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
         </FormatStatement>
         <FormatStatement Label="HGVAL">
-          f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,HGVAL)&gt;scan
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
         <FormatStatement Label="rain">&gt;PC</FormatStatement>
         <FormatStatement Label="PC">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;PCVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
         </FormatStatement>
         <FormatStatement Label="PCVAL">
-          f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,PCVAL)&gt;scan
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="BV">&gt;VB</FormatStatement>
         <FormatStatement Label="BL">&gt;VB</FormatStatement>
         <FormatStatement Label="VB">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,3)&gt;VBVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
         </FormatStatement>
         <FormatStatement Label="VBVAL">
-          f(s,a,10d&apos; &apos;,3),x,c(&apos;:&apos;,VBVAL)&gt;scan
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
@@ -304,6 +306,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">511c60fe-1204-46a8-8d7f-0abf82fcc78f</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -318,6 +322,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">c60483e7-db8d-48fa-9299-4bfceea444b4</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -332,6 +338,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">3e1ce4d9-96ef-413a-b216-e0e266e15668</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="3">
@@ -346,9 +354,7 @@
       <Timezone>US/Eastern</Timezone>
       <Country>UNITED STATES</Country>
       <State>NY</State>
-      <Description>
-        Stage and discharge gauge located on Black Creek at Churchville, NY.
-      </Description>
+      <Description>Stage and discharge gauge located on Black Creek at Churchville, NY.</Description>
       <SiteName NameType="CWMS">CHCN6</SiteName>
       <SiteName NameType="uuid">8d0307a9-7a78-4eae-919a-b38a6b1c9c97</SiteName>
       <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
@@ -384,31 +390,31 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan),f(f,a,10d&apos; &apos;)
+          s(1,a,scan),f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="stage">&gt;HG</FormatStatement>
         <FormatStatement Label="ST">&gt;HG</FormatStatement>
         <FormatStatement Label="HG">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;HGVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
         </FormatStatement>
         <FormatStatement Label="HGVAL">
-          f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,HGVAL)&gt;scan
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
         <FormatStatement Label="rain">&gt;PC</FormatStatement>
         <FormatStatement Label="PC">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;PCVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
         </FormatStatement>
         <FormatStatement Label="PCVAL">
-          f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,PCVAL)&gt;scan
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="BV">&gt;VB</FormatStatement>
         <FormatStatement Label="BL">&gt;VB</FormatStatement>
         <FormatStatement Label="VB">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,3)&gt;VBVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
         </FormatStatement>
         <FormatStatement Label="VBVAL">
-          f(s,a,10d&apos; &apos;,3),x,c(&apos;:&apos;,VBVAL)&gt;scan
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
@@ -469,6 +475,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">3d78e701-49ba-477f-927b-21b1833a39a2</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -483,6 +491,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">89851412-5190-490b-9630-627401508510</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -497,6 +507,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">d705a18f-8902-47dd-97ea-369fd4ce347e</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="4">
@@ -511,9 +523,7 @@
       <Timezone>US/Eastern</Timezone>
       <Country>UNITED STATES</Country>
       <State>NY</State>
-      <Description>
-        Stage and discharge gauge on Canaseraga Creek above Dansville, NY.
-      </Description>
+      <Description>Stage and discharge gauge on Canaseraga Creek above Dansville, NY.</Description>
       <SiteName NameType="CWMS">DSVN6</SiteName>
       <SiteName NameType="uuid">b4d043f5-82bc-4d1e-abdf-a43fe36f1695</SiteName>
       <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
@@ -549,31 +559,31 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan),f(f,a,10d&apos; &apos;)
+          s(1,a,scan),f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="stage">&gt;HG</FormatStatement>
         <FormatStatement Label="ST">&gt;HG</FormatStatement>
         <FormatStatement Label="HG">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;HGVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
         </FormatStatement>
         <FormatStatement Label="HGVAL">
-          f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,HGVAL)&gt;scan
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
         <FormatStatement Label="rain">&gt;PC</FormatStatement>
         <FormatStatement Label="PC">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;PCVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
         </FormatStatement>
         <FormatStatement Label="PCVAL">
-          f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,PCVAL)&gt;scan
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="BV">&gt;VB</FormatStatement>
         <FormatStatement Label="BL">&gt;VB</FormatStatement>
         <FormatStatement Label="VB">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,3)&gt;VBVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
         </FormatStatement>
         <FormatStatement Label="VBVAL">
-          f(s,a,10d&apos; &apos;,3),x,c(&apos;:&apos;,VBVAL)&gt;scan
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
@@ -634,6 +644,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">466d99e9-a048-4e34-bd72-bd2a7581feef</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -648,6 +660,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">b2a95327-0cf0-4975-84a8-f8e0f1bf32f8</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -662,6 +676,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">22100904-4c92-4ae9-9468-ca259e0eb6b9</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="5">
@@ -676,9 +692,7 @@
       <Timezone>US/Eastern</Timezone>
       <Country>UNITED STATES</Country>
       <State>NY</State>
-      <Description>
-        Stage and discharge gauge on Oatka Creek at Garbutt, NY.
-      </Description>
+      <Description>Stage and discharge gauge on Oatka Creek at Garbutt, NY.</Description>
       <SiteName NameType="CWMS">GARN6</SiteName>
       <SiteName NameType="uuid">891c7d48-fa1b-4f4a-a7dd-7393258bb575</SiteName>
       <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
@@ -714,31 +728,31 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan),f(f,a,10d&apos; &apos;)
+          s(1,a,scan),f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="stage">&gt;HG</FormatStatement>
         <FormatStatement Label="ST">&gt;HG</FormatStatement>
         <FormatStatement Label="HG">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;HGVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
         </FormatStatement>
         <FormatStatement Label="HGVAL">
-          f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,HGVAL)&gt;scan
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
         <FormatStatement Label="rain">&gt;PC</FormatStatement>
         <FormatStatement Label="PC">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;PCVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
         </FormatStatement>
         <FormatStatement Label="PCVAL">
-          f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,PCVAL)&gt;scan
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="BV">&gt;VB</FormatStatement>
         <FormatStatement Label="BL">&gt;VB</FormatStatement>
         <FormatStatement Label="VB">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,3)&gt;VBVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
         </FormatStatement>
         <FormatStatement Label="VBVAL">
-          f(s,a,10d&apos; &apos;,3),x,c(&apos;:&apos;,VBVAL)&gt;scan
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
@@ -799,6 +813,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">ca84def7-fd7c-41c6-b851-4a267aea2599</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -813,6 +829,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">9e798cb1-3ad6-47a4-ba96-d076523e20d8</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -827,6 +845,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">a5aa3bdb-aeca-4c12-8097-3c89f0189c2d</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="6">
@@ -841,11 +861,9 @@
       <Timezone>US/Eastern</Timezone>
       <Country>UNITED STATES</Country>
       <State>NY</State>
-      <Description>
-        USACE steam gauge located on Honeoye Creek near Honeoye Falls and
+      <Description>USACE steam gauge located on Honeoye Creek near Honeoye Falls and
         influenced by Honeoye Lake discharges; which flows into the Genesee
-        River.
-      </Description>
+        River.</Description>
       <SiteName NameType="CWMS">HNYN6</SiteName>
       <SiteName NameType="uuid">1dc2a261-8b00-4039-8d3f-f48666e97729</SiteName>
       <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
@@ -881,31 +899,31 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan),f(f,a,10d&apos; &apos;)
+          s(1,a,scan),f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="stage">&gt;HG</FormatStatement>
         <FormatStatement Label="ST">&gt;HG</FormatStatement>
         <FormatStatement Label="HG">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;HGVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
         </FormatStatement>
         <FormatStatement Label="HGVAL">
-          f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,HGVAL)&gt;scan
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
         <FormatStatement Label="rain">&gt;PC</FormatStatement>
         <FormatStatement Label="PC">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;PCVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
         </FormatStatement>
         <FormatStatement Label="PCVAL">
-          f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,PCVAL)&gt;scan
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="BV">&gt;VB</FormatStatement>
         <FormatStatement Label="BL">&gt;VB</FormatStatement>
         <FormatStatement Label="VB">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,3)&gt;VBVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
         </FormatStatement>
         <FormatStatement Label="VBVAL">
-          f(s,a,10d&apos; &apos;,3),x,c(&apos;:&apos;,VBVAL)&gt;scan
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
@@ -966,6 +984,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">cda6be78-35c3-4330-8239-a8264d64dc90</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -980,6 +1000,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">9d70ea37-eee9-4bbe-8493-8e11329ca467</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -994,6 +1016,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">1e93a084-99b8-490d-bedf-7d2057f85547</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="7">
@@ -1016,7 +1040,7 @@
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="BlackCr-Churchville">
-      <Description></Description>
+      <Description/>
       <ConfigSensor SensorNumber="1">
         <SensorName>HG</SensorName>
         <DataType Standard="SHEF-PE" Code="HG"/>
@@ -1035,12 +1059,12 @@
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="HG">
-          w, 2x, 16f(s,a,6d&apos; &apos;,1), &gt; VB
+          w, 2x, 16f(s,a,6d' ',1), &gt; VB
         </FormatStatement>
         <FormatStatement Label="VB">
-          w, s(2,&apos;VB&apos;,VB), 2x, f(s,a,5,2)
+          w, s(2,'VB',VB), 2x, f(s,a,5,2)
         </FormatStatement>
-        <FormatStatement Label="error"></FormatStatement>
+        <FormatStatement Label="error"/>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
             <Algorithm>none</Algorithm>
@@ -1088,6 +1112,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">00ced069-5e70-4e78-bf30-3fa235c9659b</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -1102,6 +1128,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">3f6a2e5f-911d-45d6-9b4e-86aaf07a447c</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="9">
@@ -1153,29 +1181,29 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan),f(f,a,10d&apos; &apos;)
+          s(1,a,scan),f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="stage">&gt;HG</FormatStatement>
         <FormatStatement Label="ST">&gt;HG</FormatStatement>
         <FormatStatement Label="HG">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;HGVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
         </FormatStatement>
         <FormatStatement Label="HGVAL">
-          f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,HGVAL)&gt;scan
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
         <FormatStatement Label="precip">&gt;PC</FormatStatement>
         <FormatStatement Label="rain">&gt;PC</FormatStatement>
         <FormatStatement Label="prec">&gt;PC</FormatStatement>
         <FormatStatement Label="PC">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;PCVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
         </FormatStatement>
         <FormatStatement Label="PCVAL">
-          f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,PCVAL)&gt;scan
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="BV">&gt;VB</FormatStatement>
         <FormatStatement Label="BL">&gt;VB</FormatStatement>
-        <FormatStatement Label="VB">x,f(s,a,10d&apos; &apos;,3)</FormatStatement>
+        <FormatStatement Label="VB">x,f(s,a,10d' ',3)</FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
@@ -1235,6 +1263,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">295c9053-d2c5-4a6b-9a26-c0bb0015f9f1</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -1249,6 +1279,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">f4291771-3b5d-409c-914a-b789a82a98b8</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -1263,6 +1295,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">afec2953-08f0-4009-866f-1dd1f7647994</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="10">
@@ -1285,7 +1319,7 @@
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="OatkaCr-Garbutt">
-      <Description></Description>
+      <Description/>
       <ConfigSensor SensorNumber="1">
         <SensorName>HG</SensorName>
         <DataType Standard="SHEF-PE" Code="HG"/>
@@ -1304,12 +1338,12 @@
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <DataOrder>D</DataOrder>
         <FormatStatement Label="HG">
-          w, 2x, 16f(s,a,6d&apos; &apos;,1), &gt; VB
+          w, 2x, 16f(s,a,6d' ',1), &gt; VB
         </FormatStatement>
         <FormatStatement Label="VB">
-          w, s(2,&apos;VB&apos;,VB), 2x, f(s,a,5,2)
+          w, s(2,'VB',VB), 2x, f(s,a,5,2)
         </FormatStatement>
-        <FormatStatement Label="error"></FormatStatement>
+        <FormatStatement Label="error"/>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
             <Algorithm>none</Algorithm>
@@ -1357,6 +1391,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">1ba94614-06a3-4f56-bf63-4cea669f267f</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -1371,6 +1407,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">61ad3ff5-39e5-42a6-bee1-096035e6fadf</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="11">
@@ -1487,6 +1525,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">033111e5-5b1d-4a7f-9704-f455f5cb6c69</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -1501,9 +1541,12 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">8d3e4847-cb55-4958-9a52-2d71a3b57ca6</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">71442140-9bc7-475e-bbe5-4d008446dc15</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="12">
@@ -1518,7 +1561,7 @@
       <SiteName NameType="uuid">3b260872-3454-473b-bfb7-087ed0e809b0</SiteName>
     </Site>
     <PlatformConfig ConfigName="MBYP1-CrookedCr-MiddleburyCenter">
-      <Description></Description>
+      <Description/>
       <ConfigSensor SensorNumber="1">
         <SensorName>HG</SensorName>
         <DataType Standard="SHEF-PE" Code="HG"/>
@@ -1605,6 +1648,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">9b0c37a1-7bf2-4333-b61e-09e185c0da1e</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -1619,9 +1664,12 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">9360cd05-e4b7-4d3f-8c93-1258632f44df</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">61ab2ece-adb9-429b-aa21-cb2e652cb811</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="13">
@@ -1671,29 +1719,29 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan),f(f,a,10d&apos; &apos;)
+          s(1,a,scan),f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="stage">&gt;HG</FormatStatement>
         <FormatStatement Label="ST">&gt;HG</FormatStatement>
         <FormatStatement Label="HG">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;HGVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
         </FormatStatement>
         <FormatStatement Label="HGVAL">
-          f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,HGVAL)&gt;scan
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
         <FormatStatement Label="precip">&gt;PC</FormatStatement>
         <FormatStatement Label="rain">&gt;PC</FormatStatement>
         <FormatStatement Label="prec">&gt;PC</FormatStatement>
         <FormatStatement Label="PC">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;PCVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
         </FormatStatement>
         <FormatStatement Label="PCVAL">
-          f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,PCVAL)&gt;scan
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="BV">&gt;VB</FormatStatement>
         <FormatStatement Label="BL">&gt;VB</FormatStatement>
-        <FormatStatement Label="VB">x,f(s,a,10d&apos; &apos;,3)</FormatStatement>
+        <FormatStatement Label="VB">x,f(s,a,10d' ',3)</FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
@@ -1753,6 +1801,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">09d086d3-34c2-4821-b5c3-6d238eb4b2ae</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -1767,9 +1817,12 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">08200df7-255d-4616-8a76-c6b5fb7250f1</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">aee7852b-cbc4-48ea-808e-0fa771309d21</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="14">
@@ -1785,9 +1838,7 @@
       <Country>UNITED STATES</Country>
       <State>NY</State>
       <NearestCity>Rochester</NearestCity>
-      <Description>
-        Genesee River at Ford Street Bridge, Rochester, NY
-      </Description>
+      <Description>Genesee River at Ford Street Bridge, Rochester, NY</Description>
       <SiteName NameType="CWMS">ROHN6</SiteName>
       <SiteName NameType="uuid">0db970b5-3c46-4f54-b17b-8e861c0a5d65</SiteName>
       <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
@@ -1795,7 +1846,7 @@
       <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="ROHN6-FordStreet-Pbinary">
-      <Description></Description>
+      <Description/>
       <ConfigSensor SensorNumber="1">
         <SensorName>WV</SensorName>
         <DataType Standard="SHEF-PE" Code="WV"/>
@@ -1955,6 +2006,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">0ab6dc08-bfc9-4a99-b1bc-54040921eb48</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -1969,6 +2022,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">515e02d8-6fc8-4455-9e47-1bc3fa916b39</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -1983,6 +2038,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">0c405677-8dbe-4b62-b8c4-d254d039762c</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="4">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -1997,6 +2054,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">ceafbc4a-185f-4879-81ae-a36e4d56c05b</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="5">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -2011,6 +2070,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">dd84478f-5e6d-4fed-b3cd-25d3821182db</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="6">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -2025,6 +2086,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">45b959ae-a749-4092-9b1f-b5164baf4d0a</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="7">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -2039,6 +2102,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">c551a9b1-914f-4f5e-ba49-1af5c7eaf37b</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="15">
@@ -2060,7 +2125,7 @@
       <SiteProperty PropertyName="vertical_datum">null</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="SHNP1-Shinglehouse">
-      <Description></Description>
+      <Description/>
       <ConfigSensor SensorNumber="1">
         <SensorName>HG</SensorName>
         <DataType Standard="SHEF-PE" Code="HG"/>
@@ -2089,7 +2154,7 @@
         <FormatStatement Label="HG">12f(s,b,3,1),&gt;PC</FormatStatement>
         <FormatStatement Label="PC">12f(s,b,3,2),&gt;VB</FormatStatement>
         <FormatStatement Label="VB">f(s,b,1,3)</FormatStatement>
-        <FormatStatement Label="error"></FormatStatement>
+        <FormatStatement Label="error"/>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
             <Algorithm>linear</Algorithm>
@@ -2148,6 +2213,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">9abc1cfc-acbd-4277-a15b-5e4910f22435</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -2162,9 +2229,12 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">ee694a95-5a88-42c3-ab7d-56e7a7896995</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">4a64e685-f865-40b1-85ab-3d4781c40e68</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="16">
@@ -2216,29 +2286,29 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan),f(f,a,10d&apos; &apos;)
+          s(1,a,scan),f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="stage">&gt;HG</FormatStatement>
         <FormatStatement Label="ST">&gt;HG</FormatStatement>
         <FormatStatement Label="HG">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;HGVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
         </FormatStatement>
         <FormatStatement Label="HGVAL">
-          f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,HGVAL)&gt;scan
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
         <FormatStatement Label="precip">&gt;PC</FormatStatement>
         <FormatStatement Label="rain">&gt;PC</FormatStatement>
         <FormatStatement Label="prec">&gt;PC</FormatStatement>
         <FormatStatement Label="PC">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;PCVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
         </FormatStatement>
         <FormatStatement Label="PCVAL">
-          f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,PCVAL)&gt;scan
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="BV">&gt;VB</FormatStatement>
         <FormatStatement Label="BL">&gt;VB</FormatStatement>
-        <FormatStatement Label="VB">x,f(s,a,10d&apos; &apos;,3)</FormatStatement>
+        <FormatStatement Label="VB">x,f(s,a,10d' ',3)</FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
@@ -2298,6 +2368,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">e1e1479d-fdac-48f4-a295-4d3f9d6fa1fd</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -2312,6 +2384,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">e6b74e6a-fa70-49a4-886b-7a9d5368f8b0</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -2323,6 +2397,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">1c6a7c3e-0d2d-4cb7-929d-bd65e2b1c494</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="17">
@@ -2373,30 +2449,30 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan),f(f,a,10d&apos; &apos;)
+          s(1,a,scan),f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="stage">&gt;HG</FormatStatement>
         <FormatStatement Label="ST">&gt;HG</FormatStatement>
         <FormatStatement Label="HG">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;HGVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
         </FormatStatement>
         <FormatStatement Label="HGVAL">
-          f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,HGVAL)&gt;scan
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
         <FormatStatement Label="rain">&gt;PC</FormatStatement>
         <FormatStatement Label="PC">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;PCVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
         </FormatStatement>
         <FormatStatement Label="PCVAL">
-          f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,PCVAL)&gt;scan
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="BV">&gt;VB</FormatStatement>
         <FormatStatement Label="VB">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,3)&gt;VBVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
         </FormatStatement>
         <FormatStatement Label="VBVAL">
-          f(s,a,10d&apos; &apos;,3),x,c(&apos;:&apos;,VBVAL)&gt;scan
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
@@ -2457,6 +2533,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">1cd940e6-9f12-42fd-bf54-2dba42cfa597</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -2471,6 +2549,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">1fa36d1d-c70a-4c78-b8fa-f07c35cc7852</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -2485,6 +2565,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">f2542764-7870-46e6-ab37-64b132680dac</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="18">
@@ -2542,35 +2624,35 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan),f(f,a,10d&apos; &apos;)
+          s(1,a,scan),f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="HG">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;HGVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
         </FormatStatement>
         <FormatStatement Label="HGVAL">
-          f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,HGVAL)&gt;scan
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="HT">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;HTVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;HTVAL
         </FormatStatement>
         <FormatStatement Label="HTVAL">
-          f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,HTVAL)&gt;scan
+          f(s,a,10d' ',2),x,c(':',HTVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
         <FormatStatement Label="rain">&gt;PC</FormatStatement>
         <FormatStatement Label="PC">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,3)&gt;PCVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;PCVAL
         </FormatStatement>
         <FormatStatement Label="PCVAL">
-          f(s,a,10d&apos; &apos;,3),x,c(&apos;:&apos;,PCVAL)&gt;scan
+          f(s,a,10d' ',3),x,c(':',PCVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="BV">&gt;VB</FormatStatement>
         <FormatStatement Label="BL">&gt;VB</FormatStatement>
         <FormatStatement Label="VB">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,4)&gt;VBVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',4)&gt;VBVAL
         </FormatStatement>
         <FormatStatement Label="VBVAL">
-          f(s,a,10d&apos; &apos;,4),x,c(&apos;:&apos;,VBVAL)&gt;scan
+          f(s,a,10d' ',4),x,c(':',VBVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
@@ -2642,6 +2724,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">7c1a00f6-945d-455a-8d90-c34b71d9aba2</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <Site>
@@ -2652,16 +2736,13 @@
         <Timezone>US/Eastern</Timezone>
         <Country>UNITED STATES</Country>
         <State>NY</State>
-        <Description>
-          Mount Morris Dam Tailwater location used to contain tailwater
-          elevations, stages, flows, ratings, etc.
-        </Description>
+        <Description>Mount Morris Dam Tailwater location used to contain tailwater
+          elevations, stages, flows, ratings, etc.</Description>
         <SiteName NameType="CWMS">Mount Morris-Tailwater</SiteName>
-        <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+        <SiteName NameType="uuid">0bac5d43-fab7-48b3-9fbc-33c5d565c1a9</SiteName>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
         <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
-        <SiteProperty PropertyName="PUBLIC_NAME">
-          Mount Morris Dam Tailwater
-        </SiteProperty>
+        <SiteProperty PropertyName="PUBLIC_NAME">Mount Morris Dam Tailwater</SiteProperty>
       </Site>
       <PlatformSensorProperty PropertyName="CwmsParamType">
         Inst
@@ -2675,6 +2756,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">2d1d4473-2721-4071-b973-231641dd97d8</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -2689,6 +2772,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">75350a00-7c02-4604-93bc-f3c545b7c8d5</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="4">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -2703,6 +2788,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">7f3e464d-3e08-4273-8180-07bdf452bdd6</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="20">
@@ -2717,10 +2804,8 @@
       <Timezone>US/Eastern</Timezone>
       <Country>UNITED STATES</Country>
       <State>NY</State>
-      <Description>
-        Stage and discharge gauge on the Genesee River upstream of Mount Morris
-        Dam.
-      </Description>
+      <Description>Stage and discharge gauge on the Genesee River upstream of Mount Morris
+        Dam.</Description>
       <SiteName NameType="CWMS">PTGN6</SiteName>
       <SiteName NameType="uuid">90664d51-0503-45cf-85bb-5d46fa579d0f</SiteName>
       <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
@@ -2756,31 +2841,31 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan),f(f,a,10d&apos; &apos;)
+          s(1,a,scan),f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="stage">&gt;HG</FormatStatement>
         <FormatStatement Label="ST">&gt;HG</FormatStatement>
         <FormatStatement Label="HG">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;HGVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
         </FormatStatement>
         <FormatStatement Label="HGVAL">
-          f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,HGVAL)&gt;scan
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
         <FormatStatement Label="rain">&gt;PC</FormatStatement>
         <FormatStatement Label="PC">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;PCVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
         </FormatStatement>
         <FormatStatement Label="PCVAL">
-          f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,PCVAL)&gt;scan
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="BV">&gt;VB</FormatStatement>
         <FormatStatement Label="BL">&gt;VB</FormatStatement>
         <FormatStatement Label="VB">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,3)&gt;VBVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
         </FormatStatement>
         <FormatStatement Label="VBVAL">
-          f(s,a,10d&apos; &apos;,3),x,c(&apos;:&apos;,VBVAL)&gt;scan
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
@@ -2841,6 +2926,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">35faa79e-c743-49be-b286-516adae1e87e</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -2855,6 +2942,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">1028f815-fafa-483c-866c-2d83b6917672</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -2869,6 +2958,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">42dfe791-2855-4547-ab63-b36f7f5144a0</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="21">
@@ -2883,9 +2974,7 @@
       <Timezone>US/Eastern</Timezone>
       <Country>UNITED STATES</Country>
       <State>NY</State>
-      <Description>
-        Stage and discharge gauge on the Genesee River at Wellsville, NY
-      </Description>
+      <Description>Stage and discharge gauge on the Genesee River at Wellsville, NY</Description>
       <SiteName NameType="CWMS">WELN6</SiteName>
       <SiteName NameType="uuid">2ae81f1b-2bcb-40e8-9f12-5874d4269cc5</SiteName>
       <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
@@ -2921,31 +3010,31 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan),f(f,a,10d&apos; &apos;)
+          s(1,a,scan),f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="stage">&gt;HG</FormatStatement>
         <FormatStatement Label="ST">&gt;HG</FormatStatement>
         <FormatStatement Label="HG">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;HGVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
         </FormatStatement>
         <FormatStatement Label="HGVAL">
-          f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,HGVAL)&gt;scan
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
         <FormatStatement Label="rain">&gt;PC</FormatStatement>
         <FormatStatement Label="PC">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;PCVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
         </FormatStatement>
         <FormatStatement Label="PCVAL">
-          f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,PCVAL)&gt;scan
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="BV">&gt;VB</FormatStatement>
         <FormatStatement Label="BL">&gt;VB</FormatStatement>
         <FormatStatement Label="VB">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,3)&gt;VBVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
         </FormatStatement>
         <FormatStatement Label="VBVAL">
-          f(s,a,10d&apos; &apos;,3),x,c(&apos;:&apos;,VBVAL)&gt;scan
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
@@ -3006,6 +3095,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">f5730c0f-1aaa-404e-91c6-8ccc5f28b4c2</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -3020,6 +3111,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">f66c6893-f82f-4e3e-864e-b803b125043c</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -3034,6 +3127,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">38950b2d-48c1-4dac-b360-6dbe54d638bf</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="22">
@@ -3048,9 +3143,7 @@
       <Timezone>US/Eastern</Timezone>
       <Country>UNITED STATES</Country>
       <State>NY</State>
-      <Description>
-        Stage and discharge gauge on Oatka Creek near Warsaw, NY
-      </Description>
+      <Description>Stage and discharge gauge on Oatka Creek near Warsaw, NY</Description>
       <SiteName NameType="CWMS">WRSN6</SiteName>
       <SiteName NameType="uuid">f063108f-9c3b-49fd-b981-1be021278ebf</SiteName>
       <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
@@ -3086,31 +3179,31 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan),f(f,a,10d&apos; &apos;)
+          s(1,a,scan),f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="stage">&gt;HG</FormatStatement>
         <FormatStatement Label="ST">&gt;HG</FormatStatement>
         <FormatStatement Label="HG">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;HGVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
         </FormatStatement>
         <FormatStatement Label="HGVAL">
-          f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,HGVAL)&gt;scan
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
         <FormatStatement Label="rain">&gt;PC</FormatStatement>
         <FormatStatement Label="PC">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;PCVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
         </FormatStatement>
         <FormatStatement Label="PCVAL">
-          f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,PCVAL)&gt;scan
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="BV">&gt;VB</FormatStatement>
         <FormatStatement Label="BL">&gt;VB</FormatStatement>
         <FormatStatement Label="VB">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,3)&gt;VBVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
         </FormatStatement>
         <FormatStatement Label="VBVAL">
-          f(s,a,10d&apos; &apos;,3),x,c(&apos;:&apos;,VBVAL)&gt;scan
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
@@ -3171,6 +3264,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">582f23fb-0f3b-42b1-b6bf-f2b402277b5c</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -3185,6 +3280,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">27ab5be3-1b75-49a1-8208-5a73a29efb9b</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -3199,6 +3296,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">6dbd1637-a464-4a0c-93d5-ab16a0c514a5</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="23">
@@ -3220,8 +3319,8 @@
     </Site>
     <PlatformConfig ConfigName="Nos6Min-Rochester">
       <Description>
-        This &apos;config&apos; uses the National Ocean Service&apos;s
-        &quot;Guide to CO-OPS SHEF and CREX Products&quot;. This config is
+        This 'config' uses the National Ocean Service's
+        "Guide to CO-OPS SHEF and CREX Products". This config is
         specific for Depth of Reading (HB) converted to Lake Ontario
         Elevationations, air temperature (TA), and atmospheric pressure (PA) at
         Rochester NY
@@ -3254,12 +3353,12 @@
           18P,F(MIN,B,1),3x,F(HR,B,1),&gt;HB
         </FormatStatement>
         <FormatStatement Label="HB">
-          S(1,&apos;!&apos;,HB),x,F(S,B,3,1),0P,&gt;TA
+          S(1,'!',HB),x,F(S,B,3,1),0P,&gt;TA
         </FormatStatement>
         <FormatStatement Label="TA">
-          S(1,&apos;4&apos;,TA),x,F(S,B,2,2),0P,&gt;PA
+          S(1,'4',TA),x,F(S,B,2,2),0P,&gt;PA
         </FormatStatement>
-        <FormatStatement Label="PA">S(1,&apos;6&apos;,PA),x,F(S,B,2,3)</FormatStatement>
+        <FormatStatement Label="PA">S(1,'6',PA),x,F(S,B,2,3)</FormatStatement>
         <FormatStatement Label="error">&gt;start</FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="mm">
@@ -3319,12 +3418,16 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">661bfd6d-2068-42a0-9720-1e491cfecde1</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">f2b8d94e-bf0d-4280-9f31-6b1f26c0e0bf</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">4f1f55ff-568f-4dec-b3cb-7892d0f4e625</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="24">
@@ -3377,7 +3480,7 @@
         <FormatStatement Label="scan">
           12F(S,B,3,1),12F(S,B,3,2),F(S,B,1,3)
         </FormatStatement>
-        <FormatStatement Label="error"></FormatStatement>
+        <FormatStatement Label="error"/>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
             <Algorithm>linear</Algorithm>
@@ -3435,6 +3538,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">7695889d-3ae5-40ce-aaed-dc747bd63d44</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -3449,9 +3554,12 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">c7954690-606b-4abf-803c-394383531a77</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">0b56538e-08fa-4045-84d0-3e79ee945fc5</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="25">
@@ -3501,29 +3609,29 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan),f(f,a,10d&apos; &apos;)
+          s(1,a,scan),f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="stage">&gt;HG</FormatStatement>
         <FormatStatement Label="ST">&gt;HG</FormatStatement>
         <FormatStatement Label="HG">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;HGVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
         </FormatStatement>
         <FormatStatement Label="HGVAL">
-          f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,HGVAL)&gt;scan
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
         <FormatStatement Label="precip">&gt;PC</FormatStatement>
         <FormatStatement Label="rain">&gt;PC</FormatStatement>
         <FormatStatement Label="prec">&gt;PC</FormatStatement>
         <FormatStatement Label="PC">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;PCVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
         </FormatStatement>
         <FormatStatement Label="PCVAL">
-          f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,PCVAL)&gt;scan
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="BV">&gt;VB</FormatStatement>
         <FormatStatement Label="BL">&gt;VB</FormatStatement>
-        <FormatStatement Label="VB">x,f(s,a,10d&apos; &apos;,3)</FormatStatement>
+        <FormatStatement Label="VB">x,f(s,a,10d' ',3)</FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
@@ -3572,6 +3680,7 @@
     </TransportMedium>
     <PlatformSensor SensorNumber="1">
       <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">2532e339-4537-41af-b9c3-39e26110b596</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -3586,9 +3695,12 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">20db39cf-74ce-4408-ac7f-810ffc23ee2e</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">4789d0e8-0ab2-4595-86b7-49aa7939c88c</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="26">
@@ -3638,29 +3750,29 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan),f(f,a,10d&apos; &apos;)
+          s(1,a,scan),f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="stage">&gt;HG</FormatStatement>
         <FormatStatement Label="ST">&gt;HG</FormatStatement>
         <FormatStatement Label="HG">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;HGVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
         </FormatStatement>
         <FormatStatement Label="HGVAL">
-          f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,HGVAL)&gt;scan
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
         <FormatStatement Label="precip">&gt;PC</FormatStatement>
         <FormatStatement Label="rain">&gt;PC</FormatStatement>
         <FormatStatement Label="prec">&gt;PC</FormatStatement>
         <FormatStatement Label="PC">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;PCVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
         </FormatStatement>
         <FormatStatement Label="PCVAL">
-          f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,PCVAL)&gt;scan
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="BV">&gt;VB</FormatStatement>
         <FormatStatement Label="BL">&gt;VB</FormatStatement>
-        <FormatStatement Label="VB">x,f(s,a,10d&apos; &apos;,3)</FormatStatement>
+        <FormatStatement Label="VB">x,f(s,a,10d' ',3)</FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
@@ -3721,6 +3833,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">aae8a275-b25b-4561-9331-02745a1068e6</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -3735,9 +3849,12 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">a83dd71f-49e5-49e1-9581-d6706274304f</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">4a3c13a0-4b4e-4f68-a1e8-4bf501dcebe9</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="27">
@@ -3753,7 +3870,7 @@
       <SiteName NameType="uuid">4f8c4f01-5e19-4a60-b55b-e7013e8977bb</SiteName>
     </Site>
     <PlatformConfig ConfigName="CanaseragaCr-ShakersX">
-      <Description></Description>
+      <Description/>
       <ConfigSensor SensorNumber="1">
         <SensorName>HG</SensorName>
         <DataType Standard="SHEF-PE" Code="HG"/>
@@ -3785,27 +3902,27 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan), f(f,a,10d&apos; &apos;)
+          s(1,a,scan), f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="stage">
-          f(moff,a,5d&apos;#&apos;),x,f(mint-,a,5d&apos; &apos;, 1)&gt;stageVal
+          f(moff,a,5d'#'),x,f(mint-,a,5d' ', 1)&gt;stageVal
         </FormatStatement>
         <FormatStatement Label="stageVal">
-          f(s,a,10d&apos; &apos;,1), x, c(&apos;:&apos;,stageVal)&gt;scan
+          f(s,a,10d' ',1), x, c(':',stageVal)&gt;scan
         </FormatStatement>
         <FormatStatement Label="x_vel">
-          f(moff,a,5d&apos;#&apos;),x,f(mint-,a,5d&apos; &apos;, 2)&gt;x_velVal
+          f(moff,a,5d'#'),x,f(mint-,a,5d' ', 2)&gt;x_velVal
         </FormatStatement>
         <FormatStatement Label="x_velVal">
-          f(s,a,10d&apos; &apos;,2), x, c(&apos;:&apos;,x_velVal)&gt;scan
+          f(s,a,10d' ',2), x, c(':',x_velVal)&gt;scan
         </FormatStatement>
         <FormatStatement Label="Temp">
-          f(moff,a,5d&apos;#&apos;),x,f(mint-,a,5d&apos; &apos;, 3)&gt;TempVal
+          f(moff,a,5d'#'),x,f(mint-,a,5d' ', 3)&gt;TempVal
         </FormatStatement>
         <FormatStatement Label="TempVal">
-          f(s,a,10d&apos; &apos;,3), x, c(&apos;:&apos;,TempVal)&gt;scan
+          f(s,a,10d' ',3), x, c(':',TempVal)&gt;scan
         </FormatStatement>
-        <FormatStatement Label="BL">f(s,a,6d&apos; &apos;,4)</FormatStatement>
+        <FormatStatement Label="BL">f(s,a,6d' ',4)</FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
@@ -3870,6 +3987,8 @@
       <PlatformSensorProperty PropertyName="CwmsVersion">
         GOES-Raw
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">f973145b-e882-40e1-8819-9c971614fc06</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsInterval">
@@ -3878,12 +3997,16 @@
       <PlatformSensorProperty PropertyName="CwmsVersion">
         GOES-Raw
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">bc079017-38a2-4314-aa76-5ed34200df56</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">ee1aaa0b-551f-427f-887a-f7e4ff59f08a</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="4">
       <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">dbf5b49f-ddb7-4826-829d-fa2cf7bd7392</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="28">
@@ -3906,7 +4029,7 @@
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="OatkaCr-Warsaw">
-      <Description></Description>
+      <Description/>
       <ConfigSensor SensorNumber="1">
         <SensorName>HG</SensorName>
         <DataType Standard="SHEF-PE" Code="HG"/>
@@ -3934,7 +4057,7 @@
         <FormatStatement Label="scan">4x,12F(S,I,3,1)</FormatStatement>
         <FormatStatement Label="scan">12F(S,I,3,2)</FormatStatement>
         <FormatStatement Label="scan">F(S,B,1,3)</FormatStatement>
-        <FormatStatement Label="error"></FormatStatement>
+        <FormatStatement Label="error"/>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
             <Algorithm>usgs-standard</Algorithm>
@@ -3993,6 +4116,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">204a6c57-e1c3-4860-949a-84b0b55320d8</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -4007,6 +4132,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">a33a4095-133d-4da4-bb5b-cb641b58bebd</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -4021,6 +4148,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">0438cd3f-f22f-428a-b7b5-b11f192accf3</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="8">
@@ -4043,7 +4172,7 @@
       <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
     </Site>
     <PlatformConfig ConfigName="GenR-Avon-Pshef">
-      <Description></Description>
+      <Description/>
       <ConfigSensor SensorNumber="1">
         <SensorName>HG</SensorName>
         <DataType Standard="SHEF-PE" Code="HG"/>
@@ -4068,21 +4197,21 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan), f(f,a,10d&apos; &apos;)
+          s(1,a,scan), f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="PRESS">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;PVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;PVAL
         </FormatStatement>
         <FormatStatement Label="PVAL">
-          f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,PVAL)&gt;scan
+          f(s,a,10d' ',1),x,c(':',PVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="RESULT">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;RVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;RVAL
         </FormatStatement>
         <FormatStatement Label="RVAL">
-          f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,RVAL)&gt;scan
+          f(s,a,10d' ',2),x,c(':',RVAL)&gt;scan
         </FormatStatement>
-        <FormatStatement Label="BL">T(H), f(s,a,10d&apos; &apos;,3)</FormatStatement>
+        <FormatStatement Label="BL">T(H), f(s,a,10d' ',3)</FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
@@ -4142,6 +4271,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">342df1bb-b398-4f2d-a5ab-ea53996a5530</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -4156,6 +4287,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">1b2a028e-feac-4dd4-9bca-84356dd25703</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -4170,6 +4303,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">208cf6dc-b629-4056-ad8c-2f14abec87ab</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
   <Platform PlatformId="19">
@@ -4220,32 +4355,32 @@
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes:goes-self-timed</ScriptType>
         <FormatStatement Label="scan">
-          s(1,a,scan),f(f,a,10d&apos; &apos;)
+          s(1,a,scan),f(f,a,10d' ')
         </FormatStatement>
         <FormatStatement Label="stage">&gt;HG</FormatStatement>
         <FormatStatement Label="ST">&gt;HG</FormatStatement>
         <FormatStatement Label="HG">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,1)&gt;HGVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
         </FormatStatement>
         <FormatStatement Label="HGVAL">
-          f(s,a,10d&apos; &apos;,1),x,c(&apos;:&apos;,HGVAL)&gt;scan
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
         <FormatStatement Label="rain">&gt;PC</FormatStatement>
         <FormatStatement Label="TB">&gt;PC</FormatStatement>
         <FormatStatement Label="PC">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,2)&gt;PCVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
         </FormatStatement>
         <FormatStatement Label="PCVAL">
-          f(s,a,10d&apos; &apos;,2),x,c(&apos;:&apos;,PCVAL)&gt;scan
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="BV">&gt;VB</FormatStatement>
         <FormatStatement Label="BL">&gt;VB</FormatStatement>
         <FormatStatement Label="VB">
-          f(moff,a,4d&apos;#&apos;),x,f(mint-,a,3d&apos; &apos;,3)&gt;VBVAL
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
         </FormatStatement>
         <FormatStatement Label="VBVAL">
-          f(s,a,10d&apos; &apos;,3),x,c(&apos;:&apos;,VBVAL)&gt;scan
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
         </FormatStatement>
         <FormatStatement Label="error">&gt;scan</FormatStatement>
         <ScriptSensor SensorNumber="1">
@@ -4304,6 +4439,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">61980cf7-106c-410c-a701-c7691f894f1e</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="2">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -4315,6 +4452,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">ef8cbde1-0e18-4959-a824-66f35df68d6e</PlatformSensorProperty>
     </PlatformSensor>
     <PlatformSensor SensorNumber="3">
       <PlatformSensorProperty PropertyName="CwmsParamType">
@@ -4327,6 +4466,8 @@
       <PlatformSensorProperty PropertyName="CwmsDuration">
         0
       </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">1766fb8f-cc92-49fd-a198-39072670fe40</PlatformSensorProperty>
     </PlatformSensor>
   </Platform>
 </Database>
