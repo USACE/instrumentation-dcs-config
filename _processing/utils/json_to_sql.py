@@ -6,6 +6,25 @@ import uuid
 import argparse
 import requests
 #######################################
+def capitalize_name(name):
+    exceptions = ['ph']
+    name_parts = name.split('-')
+
+    if len(name_parts) == 1:
+        if name not in exceptions:
+            return name.capitalize()
+        else:
+            return name
+    else:
+        new_name = ''
+        for part in name_parts:
+            new_name += part.capitalize()+'-'
+        
+        if new_name[-1] == '-':
+            new_name = new_name[:-1]
+        
+        return new_name
+#######################################
 def create_slug(name):
     # print(f'create_slug() received name: {name}')
     bad_chars = [' ', '_', ',', '(', ')']
@@ -56,7 +75,86 @@ def get_usgs_name(usgs_id):
         # USGS ID is not a number, return original value
         return usgs_id
 #######################################
-def lookup_midas_param_info(configsensor_obj):
+def lookup_midas_param_info(configsensor_obj, midas_units, midas_params):
+    # print('\n\nConfigSensor Object')
+    # print(configsensor_obj)
+
+    # print(midas_units)
+    # for unit in midas_units:
+    #     print(unit)
+    '''
+    {'id': 'a0be2c0a-e6e7-41c1-9417-91f6a4d2f8ea', 'name': 'Watt-hours', 
+    'abbreviation': 'Wh', 'unit_family_id': 'c9f3b6d2-3136-4330-a330-66e402b4ee04', 
+    'unit_family': 'univ', 'measure_id': '3ce398f2-985f-4ed4-93f6-23595d1849b7', 
+    'measure': 'energy'}
+    '''
+
+    cs = configsensor_obj
+    param = cs['Code'].lower().strip()
+    unit_abbrev = cs['ToUnitsAbbr'].lower().strip()
+
+    # keys should equal keys above
+    # values in list are possible params in xml
+    param_lookup = {
+        'air-temperature': ['temp-air', 'te', 'ta'],
+        'conductivity': ['cond', 'wc'],
+        'dissolved-oxygen': ['conc-do', 'do', 'wo', '00300', '00299'],
+        'elevation': ['elevation', 'elev', 'elev-tail', 'hp', 'ht'],
+        'precipitation': ['precipitation', 'precip', 'pc', 'pp', '00045'],
+        'ph': ['ph', 'wp', '00400', '00403', '00406'],
+        'power-generation-discharge': ['qg'],
+        'stage': ['stage', 'stage-tail', 'stage-tailwater', 'hg', '00065', '00072'],
+        'turbidity': ['wt'],        
+        'voltage': ['voltage', 'volt', 'volts', 'vb', 'battvolt', 'batt', 'battery', 'bl', '70969'],        
+        'water-temperature': ['water-temp', 'temp-water', 'water-temperature', 'tw'],
+        'water-velocity': ['wv'],
+        'wind-speed': ['us', 'wind-speed', 'speed-wind']        
+    }
+
+     
+    
+    param_name = None
+    # Find the parameter name based on possible codes used in DECODES
+    for k,v in param_lookup.items():
+        if param in v:
+            param_name = k
+            # print(param)
+
+    # print(f'param_name is: {param_name}')
+
+    param_id = None
+    # If param_name was found
+    if param_name:
+        # search midas params for a match
+        for item in midas_params:
+            if item['value'] == param_name:
+                # print('found param') 
+                # print(item['id'])
+                param_id = item['id']
+
+    unit_id = None
+    # print(f'unit_abbrev is: {unit_abbrev}')
+
+    # search midas units for a match
+    for item in midas_units:
+        # print(f"checking {unit_abbrev} against {item['name'].lower()} and {item['abbreviation'].lower()}")
+        if item['name'].lower() == unit_abbrev or item['abbreviation'].lower() == unit_abbrev:
+            unit_id = item['id']
+
+
+    return_dict = {}
+    if param_id is not None and unit_id is not None:
+        return_dict['name'] = capitalize_name(param_name)
+        return_dict['slug'] = param_name.lower().replace(' ', '-')
+        return_dict['parameter_id'] = param_id
+        return_dict['unit_id'] = unit_id
+    else:
+        print(f'WARNING: Unable to map param: {param} or unit {unit_abbrev}')
+    
+    return return_dict
+
+#######################################
+def lookup_midas_param_info2(configsensor_obj):
     '''
     This function will attempt to scan through through the config
     sensor object for CWMS, SHEF-PE codes and map to MIDAS params/units
@@ -205,6 +303,30 @@ script_dir = os.path.dirname(os.path.realpath(__file__))
 source_dir = os.path.abspath(os.path.join(script_dir, '..', 'output', 'json'))
 infile = f'{source_dir}/{args.input}'
 
+# Get the midas units lookup data from MIDAS API
+r = requests.get('https://midas-api.rsgis.dev/instrumentation/units')
+# r = requests.get('http://localhost/instrumentation/units')
+try:
+    midas_units = r.json()    
+except Exception as e:
+    print(e)
+    print(f'Unable to retrieve MIDAS API Data.')
+    exit(1)
+
+# Get the midas domains (for params)
+r = requests.get('https://midas-api.rsgis.dev/instrumentation/domains')
+try:
+    midas_params = []
+    _temp_response = r.json()
+    for item in _temp_response:
+        if item['group'] == 'parameter':
+            midas_params.append(item)
+except Exception as e:
+    print(e)
+    print(f'Unable to retrieve MIDAS API Data.')
+    exit(1)
+
+
 outfile_contents = ''
 
 with open(infile) as f:
@@ -305,8 +427,9 @@ for d in data:
             param_data = {}
             for label, cs_obj in config_sensors.items():
                 # print(label, '-> ', cs_obj)
-                _param = lookup_midas_param_info(cs_obj)
+                _param = lookup_midas_param_info(cs_obj, midas_units, midas_params)
                 if _param.keys():
+                    # print(f'\n_param is: {_param}\n')
                     param_data[_param['name']] = _param
                     # print(param_data)
                 
