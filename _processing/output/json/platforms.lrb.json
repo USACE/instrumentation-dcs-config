@@ -1,0 +1,1261 @@
+[
+    {
+        "agency": "CELRB",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:50:37",
+        "site": {
+            "latitude": 42.9184,
+            "longitude": -77.7566,
+            "elevation": "152.43352800000002",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "nearestcity": "Avon, NY",
+            "description": "Stage and discharge gauge located on the Genesee River, downstream of Mt\n        Morris Dam and near Avon, NY.",
+            "sitenames": {
+                "cwms": "AVNN6",
+                "uuid": "089fbda3-5a6a-408d-aec2-4e108910d94b"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE7EB098"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "1"
+    },
+    {
+        "agency": "CELRB",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:50:37",
+        "site": {
+            "latitude": 43.0922,
+            "longitude": -77.6806,
+            "elevation": "448.05600000000004",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "description": "Stage gauge located on the Genesee River at Ballantyne Bridge nearr\n    \n        Rochester, NY.",
+            "sitenames": {
+                "cwms": "BLBN6",
+                "uuid": "209980f3-ab26-42d6-9fe7-13c0b6221f88"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE7EBE4A"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2"
+    },
+    {
+        "agency": "CELRB",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:50:37",
+        "site": {
+            "latitude": 43.1008,
+            "longitude": -77.8822,
+            "elevation": "168.21302400000002",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "description": "Stage and discharge gauge located on Black Creek at Churchville, NY.",
+            "sitenames": {
+                "cwms": "CHCN6",
+                "uuid": "8d0307a9-7a78-4eae-919a-b38a6b1c9c97"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE7EC608"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "3"
+    },
+    {
+        "agency": "CELRB",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:50:37",
+        "site": {
+            "latitude": 42.5322,
+            "longitude": -77.7064,
+            "elevation": "218.11488000000003",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "description": "Stage and discharge gauge on Canaseraga Creek above Dansville, NY.",
+            "sitenames": {
+                "cwms": "DSVN6",
+                "uuid": "b4d043f5-82bc-4d1e-abdf-a43fe36f1695"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE7EC8DA"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "4"
+    },
+    {
+        "agency": "CELRB",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:50:37",
+        "site": {
+            "latitude": 43.01,
+            "longitude": -77.7914,
+            "elevation": "170.950128",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "description": "Stage and discharge gauge on Oatka Creek at Garbutt, NY.",
+            "sitenames": {
+                "cwms": "GARN6",
+                "uuid": "891c7d48-fa1b-4f4a-a7dd-7393258bb575"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE7ED57E"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "5"
+    },
+    {
+        "agency": "CELRB",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:50:37",
+        "site": {
+            "latitude": 42.9567,
+            "longitude": -77.5869,
+            "elevation": "185.928",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "description": "USACE steam gauge located on Honeoye Creek near Honeoye Falls and\n        influenced by Honeoye Lake discharges; which flows into the Genesee\n        River.",
+            "sitenames": {
+                "cwms": "HNYN6",
+                "uuid": "1dc2a261-8b00-4039-8d3f-f48666e97729"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE7EDBAC"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "6"
+    },
+    {
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:51:19",
+        "site": {
+            "latitude": 43.1006,
+            "longitude": -77.8822,
+            "elevation": "168.21302400000002",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "nearestcity": "Churchville",
+            "sitenames": {
+                "cwms": "BlackCr Churchvl",
+                "uuid": "08735594-14f0-4594-aa38-fb0805968918"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "1715F330"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "7"
+    },
+    {
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:49:40",
+        "site": {
+            "latitude": 42.5703,
+            "longitude": -78.0422,
+            "elevation": "329.184",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "nearestcity": "Portageville",
+            "sitenames": {
+                "cwms": "GenR Portagevill",
+                "uuid": "871485de-0116-4f4a-afcd-30f3f8ec02c5"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "1716615C"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "9"
+    },
+    {
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:55:57",
+        "site": {
+            "latitude": 43.01,
+            "longitude": -77.7914,
+            "elevation": "170.950128",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "nearestcity": "Garbutt",
+            "sitenames": {
+                "cwms": "OatkaCr Garbutt",
+                "uuid": "4e06209a-9e0b-4430-87fe-a7ac49d92160"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "DD8362E0"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "10"
+    },
+    {
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:53:54",
+        "site": {
+            "latitude": 43.3011,
+            "longitude": -78.3103,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "nearestcity": "Kenyonville",
+            "sitenames": {
+                "cwms": "KNVN6",
+                "uuid": "a4fc3899-be8d-4055-b9e9-cd9ff986ba98"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "172024E8"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "11"
+    },
+    {
+        "agency": "CENAB",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:54:27",
+        "site": {
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "M",
+            "country": "UNITED STATES",
+            "sitenames": {
+                "cwms": "MBYP1",
+                "uuid": "3b260872-3454-473b-bfb7-087ed0e809b0"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE5D2DC8"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "BL": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "12"
+    },
+    {
+        "agency": "CELRP",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:49:40",
+        "site": {
+            "latitude": 42.0731,
+            "longitude": -78.4511,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "nearestcity": "Olean",
+            "sitenames": {
+                "cwms": "OLNN6",
+                "uuid": "606dcda7-8287-4435-9d66-deb4c03b4bf6"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE6B8B8E"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "13"
+    },
+    {
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:57:24",
+        "site": {
+            "latitude": 43.1417,
+            "longitude": -77.6163,
+            "elevation": "156.0576",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "nearestcity": "Rochester",
+            "description": "Genesee River at Ford Street Bridge, Rochester, NY",
+            "sitenames": {
+                "cwms": "ROHN6",
+                "uuid": "0db970b5-3c46-4f54-b17b-8e861c0a5d65"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "DDA2D27A"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "WV": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft/s",
+                "Code": "WV"
+            },
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "TW": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "deg C",
+                "Code": "TA"
+            },
+            "WC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "umho/cm",
+                "Code": "WC"
+            },
+            "WP": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "unit",
+                "Code": "WP"
+            },
+            "WT": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "FNU",
+                "Code": "WT"
+            },
+            "WO": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "mg/L",
+                "Code": "WO"
+            }
+        },
+        "platform_sensors": [],
+        "id": "14"
+    },
+    {
+        "agency": "CELRP",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:57:59",
+        "site": {
+            "latitude": 41.9617,
+            "longitude": -78.1983,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "PA",
+            "nearestcity": "Shinglehouse",
+            "sitenames": {
+                "cwms": "SHNP1",
+                "uuid": "2673f0e2-16a4-443a-ac86-7c337d960f4f"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE216420"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "BL": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "15"
+    },
+    {
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:49:40",
+        "site": {
+            "latitude": 42.1222,
+            "longitude": -77.9572,
+            "elevation": "447.906648",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "nearestcity": "Wellsville",
+            "sitenames": {
+                "cwms": "GenR Wellsville",
+                "uuid": "c05efa0c-fa2c-4776-a49b-dd68f70f5104"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "DD6E777A"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "16"
+    },
+    {
+        "agency": "CELRB",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:53:26",
+        "site": {
+            "latitude": 42.7667,
+            "longitude": -77.8386,
+            "elevation": "164.628576",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "description": "Genesee River at Jones Bridge near Mount Morris",
+            "sitenames": {
+                "cwms": "JONN6",
+                "uuid": "b9b0ec3f-3f84-4c41-b8ff-55bdf7b6138a"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE7EE0E4"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "17"
+    },
+    {
+        "agency": "CELRB",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:55:06",
+        "site": {
+            "latitude": 42.7333,
+            "longitude": -77.9071,
+            "elevation": "0.0",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "description": "NERFC stage gauge for MMD.",
+            "sitenames": {
+                "cwms": "Mount Morris",
+                "uuid": "ef991379-a625-4de7-bc6a-2902fea1bc79"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE1FF35A"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HP": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HP"
+            },
+            "HT": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HT"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [
+            {
+                "latitude": 42.7332,
+                "longitude": -77.9109,
+                "elevation": "0.0",
+                "elevationunits": "m",
+                "timezone": "US/Eastern",
+                "country": "UNITED STATES",
+                "state": "NY",
+                "description": "Mount Morris Dam Tailwater location used to contain tailwater\n          elevations, stages, flows, ratings, etc.",
+                "sitenames": {
+                    "cwms": "Mount Morris-Tailwater",
+                    "uuid": "0bac5d43-fab7-48b3-9fbc-33c5d565c1a9"
+                }
+            }
+        ],
+        "id": "18"
+    },
+    {
+        "agency": "CELRB",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:50:37",
+        "site": {
+            "latitude": 42.5697,
+            "longitude": -78.0431,
+            "elevation": "329.184",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "description": "Stage and discharge gauge on the Genesee River upstream of Mount Morris\n        Dam.",
+            "sitenames": {
+                "cwms": "PTGN6",
+                "uuid": "90664d51-0503-45cf-85bb-5d46fa579d0f"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE7EEE36"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "20"
+    },
+    {
+        "agency": "CELRB",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:50:37",
+        "site": {
+            "latitude": 42.1222,
+            "longitude": -77.9572,
+            "elevation": "448.05600000000004",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "description": "Stage and discharge gauge on the Genesee River at Wellsville, NY",
+            "sitenames": {
+                "cwms": "WELN6",
+                "uuid": "2ae81f1b-2bcb-40e8-9f12-5874d4269cc5"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE7EFD40"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "21"
+    },
+    {
+        "agency": "CELRB",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:50:37",
+        "site": {
+            "latitude": 42.7447,
+            "longitude": -78.1375,
+            "elevation": "300.88332",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "description": "Stage and discharge gauge on Oatka Creek near Warsaw, NY",
+            "sitenames": {
+                "cwms": "WRSN6",
+                "uuid": "f063108f-9c3b-49fd-b981-1be021278ebf"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE7EF392"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "22"
+    },
+    {
+        "agency": "NOS",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:55:36",
+        "site": {
+            "latitude": 43.258,
+            "longitude": -77.6025,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "nearestcity": "Rochester",
+            "sitenames": {
+                "cwms": "RCRN6",
+                "uuid": "15614ca3-c115-4cff-a021-c43ef352fda8"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "33655136"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "mm",
+                "Code": "HB"
+            },
+            "TA": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "deg C",
+                "Code": "TA"
+            },
+            "PA": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "mb",
+                "Code": "PA"
+            }
+        },
+        "platform_sensors": [],
+        "id": "23"
+    },
+    {
+        "agency": "CENAB",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:52:25",
+        "site": {
+            "latitude": 41.9875,
+            "longitude": -77.3025,
+            "elevation": "335.28000000000003",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "PA",
+            "sitenames": {
+                "cwms": "ELKP1",
+                "uuid": "31be5853-f839-4cc2-80cb-071210651059"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE5D231A"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "BL": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "24"
+    },
+    {
+        "agency": "CEORP",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:49:40",
+        "site": {
+            "latitude": 42.3294,
+            "longitude": -78.4636,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "nearestcity": "Hamburg",
+            "sitenames": {
+                "cwms": "FRKN6",
+                "uuid": "8df04db9-392f-4216-9776-66defd9d8d32"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE19401A"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "25"
+    },
+    {
+        "agency": "CENAB",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:49:40",
+        "site": {
+            "latitude": 42.3489,
+            "longitude": -77.7044,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "nearestcity": "Hornell",
+            "sitenames": {
+                "cwms": "HRLN6",
+                "uuid": "a6e1707c-08f9-4484-ba65-cd054e9561bd"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE59652A"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "26"
+    },
+    {
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:51:57",
+        "site": {
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "sitenames": {
+                "cwms": "CanaseragaShaker",
+                "uuid": "4f8c4f01-5e19-4a60-b55b-e7013e8977bb"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "DF02AF2A"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "WV": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft/s",
+                "Code": "WV"
+            },
+            "TW": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "deg C",
+                "Code": "TW"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "27"
+    },
+    {
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:56:21",
+        "site": {
+            "latitude": 42.7442,
+            "longitude": -78.1375,
+            "elevation": "300.88332",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "nearestcity": "Warsaw",
+            "sitenames": {
+                "cwms": "OatkaCr Warsaw",
+                "uuid": "abf85e4e-e9f5-4814-9ecd-d21de65a2feb"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "DD66C052"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PP": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "28"
+    },
+    {
+        "agency": "USGS",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 21:02:56",
+        "site": {
+            "latitude": 42.9178,
+            "longitude": -77.7572,
+            "elevation": "152.26588800000002",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "nearestcity": "Avon",
+            "sitenames": {
+                "cwms": "GenR Avon",
+                "uuid": "c559d145-3351-4e6e-bf8d-df05f69814ea"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "DF055D9A"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "WV": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft/s",
+                "Code": "WV"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "8"
+    },
+    {
+        "agency": "CENAB",
+        "isproduction": "true",
+        "lastmodifytime": "01/12/2021 20:48:17",
+        "site": {
+            "latitude": 42.3958,
+            "longitude": -77.7167,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "M",
+            "timezone": "US/Eastern",
+            "country": "UNITED STATES",
+            "state": "NY",
+            "nearestcity": "Arkport",
+            "sitenames": {
+                "cwms": "AKLN6",
+                "uuid": "b695967d-c050-4428-ab1e-db9407fe9d2f"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE437E42"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "HG": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "ft",
+                "Code": "HG"
+            },
+            "PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "in",
+                "Code": "PC"
+            },
+            "VB": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "V",
+                "Code": "VB"
+            }
+        },
+        "platform_sensors": [],
+        "id": "19"
+    }
+]
