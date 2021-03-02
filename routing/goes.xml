@@ -44,7 +44,7 @@
     ,
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="dateFormat">
-    yyyy-MM-dd&apos;T&apos;HH:mmZ
+    yyyy-MM-dd&apos;T&apos;HH:mm:ss&apos;Z&apos;
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="filenameTemplate">
     $TRANSPORTID-$DATE(yyyyMMddHHmmss)
