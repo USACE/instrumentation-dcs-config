@@ -25,9 +25,9 @@ def capitalize_name(name):
         
         return new_name
 #######################################
-def create_slug(name):
+def create_slug(name, unique_slugs):
     # print(f'create_slug() received name: {name}')
-    bad_chars = [' ', '_', ',', '(', ')']
+    bad_chars = [' ', '_', ',', '(', ')', '.']
     if any((bc in bad_chars) for bc in name):
         slug = name
         for bc in bad_chars:
@@ -39,9 +39,14 @@ def create_slug(name):
         # two hyphens together - handle it
         slug = slug.strip().replace('--', '-')
         # If first or last char results in '-', remove it
-        if slug[-1] == '-':slug = slug[:-1]
+        if slug[-1] == '-': slug = slug[:-1]
+        if slug[0] == '-': slug = slug[1:]
     else:
         slug = name.strip().lower()
+
+    if slug in unique_slugs:
+        slug = f"{slug}_{str(uuid.uuid4()).split('-')[1]}"
+        print(f'slug conflict - generating unique slug: {slug}')
     
     return slug
 #######################################
@@ -291,6 +296,53 @@ def lookup_midas_param_info2(configsensor_obj):
 
     
 #######################################
+def get_hads_data():
+    # Get the midas units lookup data from MIDAS API
+    r = requests.get('https://hads.ncep.noaa.gov/USGS/ALL_USGS-HADS_SITES.txt')
+
+    try:
+        data = r.text   
+    except Exception as e:
+        print(e)
+        print(f'Unable to retrieve HADS Data.')
+        return {}
+
+    hads = {}
+
+    for idx, line in enumerate(data.splitlines()):
+        
+        #ignore headers
+        if idx <=3:
+            continue
+
+        parts = line.split('|')
+       
+        nwshb5 = parts[0].strip()
+        usgsid = str(parts[1].strip())
+        nesdis = parts[2].strip()
+        lat = parts[4].strip()
+        lon = parts[5].strip()
+
+        lat_deg = int(lat.split()[0])
+        lat_min = int(lat.split()[1])
+        lat_sec = float(lat.split()[2])
+        lat_dd = round(lat_deg+(lat_min/60)+(lat_sec/3600), 4)
+
+        lon_deg = int(lon.split()[0])
+        lon_min = int(lon.split()[1])
+        lon_sec = float(lon.split()[2])
+        lon_dd = round(lon_deg+(lon_min/60)+(lon_sec/3600), 4)
+        # Force to negative value
+        if lon_dd > 0:
+            lon_dd = lon_dd*-1
+
+        name = parts[6].strip()
+
+        hads[nesdis] = {'nwshb5':nwshb5, 'usgsid':usgsid, 'lat':lat_dd, 'lon':lon_dd, 'name':name}
+
+    return hads
+
+#######################################
 
 parser = argparse.ArgumentParser(description='Adds converts the JSON file to SQL insert statements')
 parser.add_argument('-i', '--input', type=str, required=True, 
@@ -341,7 +393,7 @@ telemetry_types = {
 
 instrument_sql = 'INSERT INTO public.instrument(' \
     'id, deleted, slug, name, formula, geometry, station, station_offset, ' \
-    'create_date, update_date, type_id, project_id, creator, updater)\n VALUES \n'
+    'create_date, update_date, type_id, project_id, creator, updater, usgs_id)\n VALUES \n'
 
 instrument_status_sql = 'INSERT INTO public.instrument_status(id, instrument_id, ' \
     'status_id, "time")\n VALUES \n'
@@ -349,7 +401,27 @@ instrument_status_sql = 'INSERT INTO public.instrument_status(id, instrument_id,
 telemetry_obj = {}
 timeseries_data = {}
 
+unique_slugs = []
+
+try:
+    r = requests.get(f'http://localhost/instrumentation/instruments')          
+    
+except:
+    print('Unable to connect to local API, trying rsgis.dev')
+    r = requests.get(f'https://midas-api.rsgis.dev/instrumentation/instruments')
+
+for i in r.json():
+    unique_slugs.append(i['slug'])
+
+
+hads_data = get_hads_data()
+
+
+
+
 for d in data:
+
+    hads_site_data = None
 
     #print(d['description'])
     # print(type(d))
@@ -383,15 +455,32 @@ for d in data:
         print(f'Site with UUID: {_uuid} does not have a proper alias/name.  Ignoring...')
         continue
 
-    slug = create_slug(name)
-    formula = 'null'
+    if 'goes' in d['transportmedium']['mediumtype'].lower() and d['transportmedium']['mediumid'] in hads_data.keys():
+        # print('found hads data')
+        hads_site_data = hads_data[d['transportmedium']['mediumid']]
+    
+    if name.isdigit() and hads_site_data:
+        name = hads_site_data['name']
+    
+    slug = create_slug(name, unique_slugs)
+    unique_slugs.append(slug)
+    formula = 'null'  
+
     
     try:
         _lat = round(float(d['site']['latitude']), 4)
         _lon = round(float(d['site']['longitude']), 4)
-    except:
+    except:        
         _lat = 0
         _lon = 0
+
+    # Try to get GPS from HADS lookup if possible
+    if _lat == 0 and hads_site_data:
+        print('Setting GPS from HADS')
+        _lat = hads_site_data['lat']
+        _lon = hads_site_data['lon']
+        print(f'lat/lon: {_lat}/{_lon}')
+
     
     deleted = False 
     geometry = f"ST_GeomFromText('POINT({_lon} {_lat})',4326)"
@@ -403,10 +492,17 @@ for d in data:
     project_id = args.projectuuid
     creator = '00000000-0000-0000-0000-000000000000'
     updater = 'null'
+    usgs_id = 'null'
+    if 'usgs' in _sitenames.keys() and _sitenames['usgs'].isdigit():
+        usgs_id = f"\'{_sitenames['usgs']}\'"
+    else:
+        if hads_site_data:
+            print(f"Setting USGS_ID: {hads_site_data['usgsid']} from HADS for {name}")
+            usgs_id = f"\'{hads_site_data['usgsid']}\'"
 
     if name not in unique_sites:
         instrument_sql += f"('{_uuid}', {deleted}, '{slug}', '{name}', {formula}, {geometry}, {station}, {station_offset}, "
-        instrument_sql += f"'{create_date}', {update_date}, '{type_id}', '{project_id}', '{creator}', {updater}),\n"
+        instrument_sql += f"'{create_date}', {update_date}, '{type_id}', '{project_id}', '{creator}', {updater}, {usgs_id}),\n"
         instrument_status_sql += f"('{uuid.uuid4()}', '{_uuid}', 'e26ba2ef-9b52-4c71-97df-9e4b6cf4174d', '{create_date}'),\n"
         unique_sites.append(name)
 
@@ -416,7 +512,7 @@ for d in data:
         if transport_medium_type in telemetry_types.keys():            
             telemetry_data['telemetry_type_id'] = telemetry_types[transport_medium_type]   
             telemetry_data['mediumtype'] = transport_medium_type
-            telemetry_data['mediumid'] = d['transportmedium']['mediumid']
+            telemetry_data['mediumid'] = d['transportmedium']['mediumid']         
 
             telemetry_obj[_uuid] = telemetry_data
 
@@ -457,7 +553,8 @@ for d in data:
                 continue
 
             ps_deleted = deleted          
-            ps_slug = create_slug(ps_name)
+            ps_slug = create_slug(ps_name, unique_slugs)
+            unique_slugs.append(ps_slug)
             ps_formula = 'null'
             try:
                 _lat = round(float(ps['latitude']), 4)
@@ -475,10 +572,13 @@ for d in data:
             ps_project_id = project_id
             ps_creator = creator
             ps_updater = 'null'
+            ps_usgs_id = 'null'
+            if 'usgs' in ps['sitenames'].keys() and ps['sitenames']['usgs'].isdigit():
+                ps_usgs_id = f"\'{ps['sitenames']['usgs']}\'"                
 
             if ps_name not in unique_sites:
                 instrument_sql += f"('{ps_uuid}', {ps_deleted}, '{ps_slug}', '{ps_name}', {ps_formula}, {ps_geometry}, {ps_station}, {ps_station_offset}, "
-                instrument_sql += f"'{ps_create_date}', {ps_update_date}, '{ps_type_id}', '{ps_project_id}', '{ps_creator}', {ps_updater}),\n"
+                instrument_sql += f"'{ps_create_date}', {ps_update_date}, '{ps_type_id}', '{ps_project_id}', '{ps_creator}', {ps_updater}, {ps_usgs_id}),\n"
                 instrument_status_sql += f"('{uuid.uuid4()}', '{ps_uuid}', 'e26ba2ef-9b52-4c71-97df-9e4b6cf4174d', '{ps_create_date}'),\n"
                 unique_sites.append(ps_name)
             else:
@@ -518,20 +618,20 @@ for id, obj in telemetry_obj.items():
 
 if telemetry_goes:
     outfile_contents += f'\n--INSERT TELEMETRY_GOES--COUNT:{len(telemetry_goes)}\n'
-    telemetry_goes_sql = 'INSERT INTO public.telemetry_goes (id, nesdis_id) \nVALUES\n'
+    telemetry_goes_sql = ''
     for tg in telemetry_goes:
-        telemetry_goes_sql += f"('{tg[0]}', '{tg[1]}'),\n"
+        telemetry_goes_sql += f"INSERT INTO public.telemetry_goes (id, nesdis_id) select '{tg[0]}', '{tg[1]}' where not exists (select 1 from telemetry_goes where nesdis_id = '{tg[1]}');\n"
     # Replace the last line ending comma with semi-colon
-    telemetry_goes_sql = telemetry_goes_sql[:-2]+';\n'
+    # telemetry_goes_sql = telemetry_goes_sql[:-2]+';\n'
     outfile_contents += telemetry_goes_sql
 
 if telemetry_iridium:
     outfile_contents += f'\n--INSERT TELEMETRY_IRIDIUM--COUNT:{len(telemetry_iridium)}\n'
-    telemetry_iridium_sql = 'INSERT INTO public.telemetry_iridium (id, imei) \nVALUES\n'
+    telemetry_iridium_sql = ''
     for ti in telemetry_iridium:
-        telemetry_iridium_sql += f"('{ti[0]}', '{ti[1]}'),\n"
+        telemetry_iridium_sql += f"INSERT INTO public.telemetry_iridium (id, imei) select '{ti[0]}', '{ti[1]}' where not exists (select 1 from telemetry_iridium where imei = '{ti[1]}');\n"
     # Replace the last line ending comma with semi-colon
-    telemetry_iridium_sql = telemetry_iridium_sql[:-2]+';\n'
+    # telemetry_iridium_sql = telemetry_iridium_sql[:-2]+';\n'
     outfile_contents += telemetry_iridium_sql
 
 
