@@ -30,7 +30,7 @@
   </DataSource>
   <EnableEquations>false</EnableEquations>
   <UsePerformanceMeasurements>false</UsePerformanceMeasurements>
-  <OutputFormat>cwms-oracle</OutputFormat>
+  <OutputFormat>midas-formatter</OutputFormat>
   <OutputTimeZone>UTC</OutputTimeZone>
   <PresentationGroupName>MIDAS-English</PresentationGroupName>
   <ConsumerType>directory</ConsumerType>
@@ -44,7 +44,10 @@
     ,
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="dateFormat">
-    yyyy-MM-dd&apos;T&apos;HH:mmZ
+    yyyy-MM-dd&apos;T&apos;HH:mm:ss&apos;Z&apos;
+  </RoutingSpecProperty>
+  <RoutingSpecProperty PropertyName="filenameTemplate">
+    $TRANSPORTID-$DATE(yyyyMMddHHmmss)
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="sc:SOURCE_0000">
     GOES_SELFTIMED

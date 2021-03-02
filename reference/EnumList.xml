@@ -301,6 +301,18 @@
       <EditClass></EditClass>
       <SortNumber>12</SortNumber>
     </EnumValue>
+    <EnumValue EnumValue="cwms-formatter">
+      <Description>CWMS Oracle Output Formatter</Description>
+      <ExecClass>rsgis.consumer.CwmsOutputFormatter</ExecClass>
+      <EditClass></EditClass>
+      <SortNumber>13</SortNumber>
+    </EnumValue>
+    <EnumValue EnumValue="midas-formatter">
+      <Description>CWMS Oracle with TSID format</Description>
+      <ExecClass>rsgis.consumer.MidasOutputFormatter</ExecClass>
+      <EditClass></EditClass>
+      <SortNumber>14</SortNumber>
+    </EnumValue>
   </Enum>
   <Enum Name="DataTypeStandard">
     <EnumDefaultValue>shef-pe</EnumDefaultValue>
