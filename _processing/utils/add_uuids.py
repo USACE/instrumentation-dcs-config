@@ -347,7 +347,7 @@ for p in platforms:
                 if ps.find('PlatformSensorProperty') is not None and ps.find('PlatformSensorProperty').get('PropertyName') == 'uuid':
                     print(f"--->{cs.find('SensorName').text}")
                     print(f"==>{ps.find('PlatformSensorProperty').text}")
-                    cfg_sensors[cs.find('SensorName').text]['uuid'] = ps.find('PlatformSensorProperty').text
+                    cfg_sensors[cs.find('SensorName').text.strip()]['uuid'] = ps.find('PlatformSensorProperty').text.strip()
         
     
 

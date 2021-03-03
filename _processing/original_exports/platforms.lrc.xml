@@ -1,0 +1,3519 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Database>
+  <Platform PlatformId="1834004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>07/22/2020 20:57:00</LastModifyTime>
+    <Site>
+      <Latitude>40.427722222222</Latitude>
+      <Longitude>-85.039</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Portland</NearestCity>
+      <Description>Portland - Salamonie</Description>
+      <SiteName NameType="CWMS">Portland</SiteName>
+      <SiteName NameType="nwshb5">PORI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03324200
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Portland</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Portland">
+      <Description>DD46A45A - Salamonie River Portland</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_DD46A45A">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">4x,16(F(S,I,3,1))</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="DD46A45A">
+      <DecodesScript ScriptName="ST_DD46A45A"/>
+      <ChannelNum>163</ChannelNum>
+      <AssignedTime>00:13:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+  </Platform>
+  <Platform PlatformId="1844004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>10/22/2020 21:22:37</LastModifyTime>
+    <Site>
+      <Latitude>40.643888888889</Latitude>
+      <Longitude>-85.030888888889</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Berne</NearestCity>
+      <Description>Linn Grove - Wabash</Description>
+      <SiteName NameType="CWMS">Linn Grove</SiteName>
+      <SiteName NameType="nwshb5">LYNI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03322900
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Linn Grove</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="LinnGrove">
+      <Description>CE6B687C - Wabash Linn Grove</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE6B687C">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          4x,16(F(S,I,3,1)),16(F(S,I,3,2))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE6B687C">
+      <DecodesScript ScriptName="ST_CE6B687C"/>
+      <ChannelNum>17</ChannelNum>
+      <AssignedTime>00:13:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="2167004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>12/14/2020 19:12:15</LastModifyTime>
+    <Site>
+      <Latitude>43.953888888889</Latitude>
+      <Longitude>-88.95</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Central</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WI</State>
+      <NearestCity>Oshkosh</NearestCity>
+      <Description>Fox River at Berlin</Description>
+      <SiteName NameType="CWMS">Berlin</SiteName>
+      <SiteName NameType="nwshb5">BERW3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        04073500
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Berlin</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Berlin">
+      <Description>CE72E178 - FOX RIVER AT BERLIN</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <DataType Standard="EPA-CODE" Code="Stage"/>
+        <DataType Standard="HDB" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <DataType Standard="EPA-CODE" Code="Precip"/>
+        <DataType Standard="HDB" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>Battery</SensorName>
+        <DataType Standard="CWMS" Code="Volts"/>
+        <DataType Standard="EPA-CODE" Code="Volts"/>
+        <DataType Standard="HDB" Code="Volts"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE72E178">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          2/ 4(F(S,a,4,1)x), /4(F(S,a,4,2)x), /4(F(S,a,4,3)x), 2(/F(S,S,4,4))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volt">
+            <Algorithm>linear</Algorithm>
+            <A>1.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE72E178">
+      <DecodesScript ScriptName="ST_CE72E178"/>
+      <ChannelNum>25</ChannelNum>
+      <AssignedTime>00:36</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="2554004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>09/21/2020 20:00:45</LastModifyTime>
+    <Site>
+      <Latitude>41.65</Latitude>
+      <Longitude>-87.561111111111</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Central</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IL</State>
+      <NearestCity>Dolton</NearestCity>
+      <Description>Obrien Lock and Dam near Burnham IL</Description>
+      <SiteName NameType="CWMS">Obrien</SiteName>
+      <SiteName NameType="nwshb5">OBII2</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">
+        Obrien Lock and Dam
+      </SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Obrien">
+      <Description>CE2A970C</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Elev-Pool</SensorName>
+        <DataType Standard="CWMS" Code="Elev-Pool"/>
+        <DataType Standard="EPA-CODE" Code="Elev-Pool"/>
+        <DataType Standard="HDB" Code="Elev-Pool"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:30</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Elev-Tailwater</SensorName>
+        <DataType Standard="CWMS" Code="Elev-Tailwater"/>
+        <DataType Standard="EPA-CODE" Code="Elev-Tailwater"/>
+        <DataType Standard="HDB" Code="Elev-Tailwater"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:30</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <DataType Standard="EPA-CODE" Code="Precip"/>
+        <DataType Standard="HDB" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:30</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="4">
+        <SensorName>Wind Speed</SensorName>
+        <DataType Standard="CWMS" Code="Wind Speed"/>
+        <DataType Standard="EPA-CODE" Code="Wind Speed"/>
+        <DataType Standard="HDB" Code="Wind Speed"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:30</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="5">
+        <SensorName>Wind DIrection </SensorName>
+        <DataType Standard="CWMS" Code="Wind Direction"/>
+        <DataType Standard="EPA-CODE" Code="Wind Direction"/>
+        <DataType Standard="HDB" Code="Wind Direction"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:30</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+        <ConfigSensorProperty PropertyName="scale">100</ConfigSensorProperty>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="6">
+        <SensorName>Air Temp</SensorName>
+        <DataType Standard="CWMS" Code="Air Temp"/>
+        <DataType Standard="EPA-CODE" Code="Air Temp"/>
+        <DataType Standard="HDB" Code="Air Temp"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:30</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="7">
+        <SensorName>Water Temp</SensorName>
+        <DataType Standard="CWMS" Code="Water Temp"/>
+        <DataType Standard="EPA-CODE" Code="Water Temp"/>
+        <DataType Standard="HDB" Code="Water Temp"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:30</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="8">
+        <SensorName>Battery</SensorName>
+        <DataType Standard="CWMS" Code="Volt"/>
+        <DataType Standard="EPA-CODE" Code="Volt"/>
+        <DataType Standard="HDB" Code="Volt"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE2A970C">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          4x, (4F(S,I,3,1)9x), 17P, (4F(S,I,3,2)9x), 29P, (4F(S,I,3,3)), 41P,
+          4F(S,I,3,4), 53P, 4F(S,I,3,5), 77P, 4F(S,I,3,6), 89P, 4F(S,I,3,7),
+          101P, 2F(S,I,3,8)
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="4">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="mi/hr">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="5">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="deg">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="6">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="degF">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="7">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="degF">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="8">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volt">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE2A970C">
+      <DecodesScript ScriptName="ST_CE2A970C"/>
+      <ChannelNum>177</ChannelNum>
+      <AssignedTime>00:25:20</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>00:30</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+  </Platform>
+  <Platform PlatformId="2484004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>09/09/2020 21:42:38</LastModifyTime>
+    <Site>
+      <Latitude>43.8</Latitude>
+      <Longitude>-88.456111111111</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Central</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WI</State>
+      <NearestCity>Fond du Lac</NearestCity>
+      <Description>Fond Du Lac on Lake Winnebago</Description>
+      <SiteName NameType="CWMS">FondDuLac</SiteName>
+      <SiteName NameType="nwshb5">FDLW3</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">FondDuLac</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="FondDuLac">
+      <Description>CE72DA30 Fond Du Lac on Lake Winnebago</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Elevation</SensorName>
+        <DataType Standard="CWMS" Code="Elev"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <DataType Standard="EPA-CODE" Code="Precip"/>
+        <DataType Standard="HDB" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>Temperature</SensorName>
+        <DataType Standard="CWMS" Code="Temp"/>
+        <DataType Standard="EPA-CODE" Code="Temp"/>
+        <DataType Standard="HDB" Code="Temp"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="4">
+        <SensorName>Battery</SensorName>
+        <DataType Standard="CWMS" Code="Volt"/>
+        <DataType Standard="EPA-CODE" Code="Volt"/>
+        <DataType Standard="HDB" Code="Volt"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE72DA30">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          2/ 4(F(S,a,4,1)x), /4(F(S,a,4,2)x), /4(F(S,a,4,3)x), 2(/F(S,S,4,4))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="degF">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="4">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volts">
+            <Algorithm>linear</Algorithm>
+            <A>1.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE72DA30">
+      <DecodesScript ScriptName="ST_CE72DA30"/>
+      <ChannelNum>25</ChannelNum>
+      <AssignedTime>00:19:50</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="2488004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>09/09/2020 21:46:44</LastModifyTime>
+    <Site>
+      <Latitude>44.199444444444</Latitude>
+      <Longitude>-88.447222222222</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Central</Timezone>
+      <State>WI</State>
+      <NearestCity>Appleton</NearestCity>
+      <Description>Menasha</Description>
+      <SiteName NameType="CWMS">Menasha</SiteName>
+      <SiteName NameType="nwshb5">MNSW3</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Menasha</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Menasha">
+      <Description>
+        CE72D4E2 Lake Winnebago at Menasha- Jefferson Park
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Elevation</SensorName>
+        <DataType Standard="CWMS" Code="Elev"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <DataType Standard="EPA-CODE" Code="Precip"/>
+        <DataType Standard="HDB" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>Temp</SensorName>
+        <DataType Standard="CWMS" Code="Temp"/>
+        <DataType Standard="EPA-CODE" Code="Temp"/>
+        <DataType Standard="HDB" Code="Temp"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="4">
+        <SensorName>Battery</SensorName>
+        <DataType Standard="CWMS" Code="Volts"/>
+        <DataType Standard="EPA-CODE" Code="Volts"/>
+        <DataType Standard="HDB" Code="Volts"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE72D4E2">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          2/ 4(F(S,a,4,1)x), /4(F(S,a,4,2)x), /4(F(S,a,4,3)x), 2(/F(S,S,4,4))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="degF">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="4">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volts">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE72D4E2">
+      <DecodesScript ScriptName="ST_CE72D4E2"/>
+      <ChannelNum>25</ChannelNum>
+      <AssignedTime>00:14:20</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="2555004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>10/21/2020 18:32:57</LastModifyTime>
+    <Site>
+      <Latitude>41.569722222222</Latitude>
+      <Longitude>-88.078888888889</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Central</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IL</State>
+      <NearestCity>Crest Hill</NearestCity>
+      <Description>
+        Chicago Sanitary and Ship Canal at Lockport Lock and Dam
+      </Description>
+      <SiteName NameType="CWMS">Lockport</SiteName>
+      <SiteName NameType="nwshb5">LOKI2</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Lockport</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Lockport">
+      <Description></Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Elev-Pool</SensorName>
+        <DataType Standard="CWMS" Code="Elev-Pool"/>
+        <DataType Standard="EPA-CODE" Code="Elev"/>
+        <DataType Standard="HDB" Code="Elev"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:30</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+        <ConfigSensorProperty PropertyName="offset">
+          -18.18
+        </ConfigSensorProperty>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Elev-Tailwater</SensorName>
+        <DataType Standard="CWMS" Code="Elev-Tailwater"/>
+        <DataType Standard="HDB" Code="Elev-Tailwater"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:30</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+        <ConfigSensorProperty PropertyName="offset">
+          -49.49
+        </ConfigSensorProperty>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <DataType Standard="EPA-CODE" Code="Precip"/>
+        <DataType Standard="HDB" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:30</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="4">
+        <SensorName>Wind Speed</SensorName>
+        <DataType Standard="CWMS" Code="Wind Speed"/>
+        <DataType Standard="EPA-CODE" Code="Wind Speed"/>
+        <DataType Standard="HDB" Code="Wind Speed"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:30</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="5">
+        <SensorName>Wind Direction</SensorName>
+        <DataType Standard="CWMS" Code="Wind Dir"/>
+        <DataType Standard="EPA-CODE" Code="Wind Dir"/>
+        <DataType Standard="HDB" Code="Wind Dir"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:30</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+        <ConfigSensorProperty PropertyName="scale">100</ConfigSensorProperty>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="6">
+        <SensorName>Air Temp</SensorName>
+        <DataType Standard="CWMS" Code="Air Temp"/>
+        <DataType Standard="EPA-CODE" Code="Air Temp"/>
+        <DataType Standard="HDB" Code="Air Temp"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:30</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="7">
+        <SensorName>Water Temp</SensorName>
+        <DataType Standard="CWMS" Code="Water Temp"/>
+        <DataType Standard="EPA-CODE" Code="Water Temp"/>
+        <DataType Standard="HDB" Code="Water Temp"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:30</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="8">
+        <SensorName>Battery</SensorName>
+        <DataType Standard="CWMS" Code="Volt"/>
+        <DataType Standard="EPA-CODE" Code="Volt"/>
+        <DataType Standard="HDB" Code="Volt"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE720C58">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          4x, (4F(S,I,3,1)9x), 17P, (4F(S,I,3,2)9x), 29P, (4F(S,I,3,3)), 41P,
+          4F(S,I,3,4), 53P, 4F(S,I,3,5), 77P, 4F(S,I,3,6), 89P, 4F(S,I,3,7),
+          101P, 2F(S,I,3,8)
+        </FormatStatement>
+        <ScriptSensor SensorNumber="7">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="degF">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="8">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volts">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>1.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="4">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="mi/hr">
+            <Algorithm>usgs-standard</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>1.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="5">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="deg">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="6">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="degF">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE720C58">
+      <DecodesScript ScriptName="ST_CE720C58"/>
+      <ChannelNum>177</ChannelNum>
+      <AssignedTime>00:25:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>00:30</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+  </Platform>
+  <Platform PlatformId="932004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>07/16/2020 16:34:27</LastModifyTime>
+    <Site>
+      <Latitude>40.723333333333</Latitude>
+      <Longitude>-85.9575</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Peru</NearestCity>
+      <Description>Mississinewa Tailwater</Description>
+      <SiteName NameType="CWMS">Mississinewa-Tailwater</SiteName>
+      <SiteName NameType="nwshb5">MISI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03327000
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">
+        Mississinewa Tailwater
+      </SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Mississinewa-Tailwater">
+      <Description>CE7723A6 - Mississinewa Tailwater&#92;n</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Temp-Water</SensorName>
+        <DataType Standard="CWMS" Code="Temp-Water"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>Battery</SensorName>
+        <DataType Standard="CWMS" Code="Volt"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes</ScriptType>
+        <DataOrder>D</DataOrder>
+        <FormatStatement Label="start">
+          4x,16(F(S,I,3,1)),16(F(S,I,3,2)),F(S,B,1,3)
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="DegC">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Volts">
+            <Algorithm>usgs-standard</Algorithm>
+            <A>0.234</A>
+            <B>0.0</B>
+            <C>1.0</C>
+            <D>10.6</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE7723A6">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>17</ChannelNum>
+      <AssignedTime>00:13:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+  </Platform>
+  <Platform PlatformId="1971004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>07/27/2020 21:48:21</LastModifyTime>
+    <Site>
+      <Latitude>40.576416666667</Latitude>
+      <Longitude>-85.659527777778</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Greentown</NearestCity>
+      <Description>Marion - Mississinewa</Description>
+      <SiteName NameType="CWMS">Marion</SiteName>
+      <SiteName NameType="nwshb5">MROI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03326500
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Marion</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Marion">
+      <Description>CE6B5DE6 - Mississinewa River Marion</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE6B5DE6">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">4x,16(F(S,I,3,1))</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE6B5DE6">
+      <DecodesScript ScriptName="ST_CE6B5DE6"/>
+      <ChannelNum>17</ChannelNum>
+      <AssignedTime>00:13:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>00:01</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+  </Platform>
+  <Platform PlatformId="1638004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>07/22/2020 14:58:06</LastModifyTime>
+    <Site>
+      <Latitude>40.714444444444</Latitude>
+      <Longitude>-85.957222222222</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Peru</NearestCity>
+      <Description>Mississinewa Pool</Description>
+      <SiteName NameType="CWMS">Mississinewa-Pool</SiteName>
+      <SiteName NameType="nwshb5">MSSI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03326950
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Mississinewa Pool</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Mississinewa-Pool">
+      <Description>CE108358 - Mississinewa Pool</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Elevation</SensorName>
+        <DataType Standard="CWMS" Code="Elev"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE108358">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">4x,16(F(S,I,3,1))</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE108358">
+      <DecodesScript ScriptName="ST_CE108358"/>
+      <ChannelNum>25</ChannelNum>
+      <AssignedTime>00:13:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+  </Platform>
+  <Platform PlatformId="1751004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>09/09/2020 21:42:07</LastModifyTime>
+    <Site>
+      <Latitude>40.742361111111</Latitude>
+      <Longitude>-85.171444444444</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Huntington</NearestCity>
+      <Description>Bluffton</Description>
+      <SiteName NameType="CWMS">Bluffton</SiteName>
+      <SiteName NameType="nwshb5">AQPI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        04099510
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Bluffton</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Bluffton">
+      <Description>17D2F560 - Wabash River Bluffton</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_17D2F560">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          4x,16(F(S,I,3,1)),16(F(S,I,3,2))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.02</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="17D2F560">
+      <DecodesScript ScriptName="ST_17D2F560"/>
+      <ChannelNum>157</ChannelNum>
+      <AssignedTime>00:13:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="2000004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>07/29/2020 19:32:49</LastModifyTime>
+    <Site>
+      <Latitude>40.441277777778</Latitude>
+      <Longitude>-85.91875</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Greentown</NearestCity>
+      <Description>Jerome - Wildcat Creek</Description>
+      <SiteName NameType="CWMS">Jerome</SiteName>
+      <SiteName NameType="nwshb5">JRMI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03333450
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Jerome</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Jerome">
+      <Description>D11EE2FE - Wildcat Creek Jerome</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_D11EE2FE">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">4x,16(F(S,I,3,1))</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.14</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="D11EE2FE">
+      <DecodesScript ScriptName="ST_D11EE2FE"/>
+      <ChannelNum>157</ChannelNum>
+      <AssignedTime>00:27:10</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>00:01</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+  </Platform>
+  <Platform PlatformId="2008004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>07/29/2020 19:39:50</LastModifyTime>
+    <Site>
+      <Latitude>40.470888888889</Latitude>
+      <Longitude>-86.152916666667</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Kokomo</NearestCity>
+      <Description>Kokomo - Wilcat Creek</Description>
+      <SiteName NameType="CWMS">Kokomo</SiteName>
+      <SiteName NameType="nwshb5">OKKI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03333700
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Kokomo</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Kokomo">
+      <Description>173623B8 - Wilcat Creek Kokomo</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_173623B8">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">4x,16(F(S,I,3,1))</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="173623B8">
+      <DecodesScript ScriptName="ST_173623B8"/>
+      <ChannelNum>83</ChannelNum>
+      <AssignedTime>00:53:40</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>00:01</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+  </Platform>
+  <Platform PlatformId="2016004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>07/29/2020 19:56:41</LastModifyTime>
+    <Site>
+      <Latitude>40.464833333333</Latitude>
+      <Longitude>-86.636555555556</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Cutler</NearestCity>
+      <Description>Owasco - Wildcat Creek</Description>
+      <SiteName NameType="CWMS">Owasco</SiteName>
+      <SiteName NameType="nwshb5">OWCI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03334000
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Owasco</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Owasco">
+      <Description>167526C8 - Wildcat Creek Owasco</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_167526C8">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">4x,16(F(S,I,3,1))</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="167526C8">
+      <DecodesScript ScriptName="ST_167526C8"/>
+      <ChannelNum>87</ChannelNum>
+      <AssignedTime>00:15:40</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>00:01</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+  </Platform>
+  <Platform PlatformId="2061004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>08/03/2020 19:48:20</LastModifyTime>
+    <Site>
+      <Latitude>40.590277777778</Latitude>
+      <Longitude>-86.621388888889</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Delphi</NearestCity>
+      <Description>Deer Creek</Description>
+      <SiteName NameType="CWMS">Deer Creek</SiteName>
+      <SiteName NameType="nwshb5">DCDI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03329700
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Deer Creek</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="DeerCreek">
+      <Description>DE4B8336 Deer Creek near Delphi IN</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <DataType Standard="EPA-CODE" Code="Stage"/>
+        <DataType Standard="HDB" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_DE4B8336">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">4x 16(F(S,I,3,1))</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="DE4B8336">
+      <DecodesScript ScriptName="ST_DE4B8336"/>
+      <ChannelNum>203</ChannelNum>
+      <AssignedTime>00:44:10</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+  </Platform>
+  <Platform PlatformId="1701004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>10/23/2020 20:19:53</LastModifyTime>
+    <Site>
+      <Latitude>40.807222222</Latitude>
+      <Longitude>-85.67722222</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Wabash</NearestCity>
+      <Description>Salamonie Tailwater</Description>
+      <SiteName NameType="CWMS">Salamonie-Tailwater</SiteName>
+      <SiteName NameType="nwshb5">SALI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03324500
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">
+        Salamonie Tailwater
+      </SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Salamonie-Tailwater">
+      <Description>CE7718EE - Salamonie Tailwater</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Temp-Water</SensorName>
+        <DataType Standard="CWMS" Code="Temp-Water"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="4">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+        <ConfigSensorProperty PropertyName="CwmsParamType">
+          Total
+        </ConfigSensorProperty>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE7718EE">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          4x,16(F(S,I,3,1)),16(F(S,I,3,2)),16(F(S,B,3,4))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="DegC">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="4">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE7718EE">
+      <DecodesScript ScriptName="ST_CE7718EE"/>
+      <ChannelNum>17</ChannelNum>
+      <AssignedTime>00:13:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+  </Platform>
+  <Platform PlatformId="1737004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>10/22/2020 21:27:50</LastModifyTime>
+    <Site>
+      <Latitude>40.7125</Latitude>
+      <Longitude>-85.453611111111</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Huntington</NearestCity>
+      <Description>Warren - Salamonie</Description>
+      <SiteName NameType="CWMS">Warren</SiteName>
+      <SiteName NameType="nwshb5">WRNI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03324300
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Warren</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Warren">
+      <Description>CE6B66AE - Salamonie River Warren</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>Battery</SensorName>
+        <DataType Standard="CWMS" Code="Volts"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE6B66AE">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          4x,16(F(S,I,3,1)),16(F(S,I,3,2)),F(S,I,1,3)
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.02</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Volts">
+            <Algorithm>usgs-standard</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>1.0</C>
+            <D>13.6</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE6B66AE">
+      <DecodesScript ScriptName="ST_CE6B66AE"/>
+      <ChannelNum>17</ChannelNum>
+      <AssignedTime>00:13:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="1789004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>07/23/2020 22:36:49</LastModifyTime>
+    <Site>
+      <Latitude>40.846111111111</Latitude>
+      <Longitude>-85.468611111111</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Huntington</NearestCity>
+      <Description>J Edward Roush Pool</Description>
+      <SiteName NameType="CWMS">J Edward Roush-Pool</SiteName>
+      <SiteName NameType="nwshb5">HUNI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03323450
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">
+        J Edward Roush Pool
+      </SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Roush-Pool">
+      <Description>CE10C052 - Roush Pool</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Elevation</SensorName>
+        <DataType Standard="CWMS" Code="Elev"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE10C052">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">4x,16(F(S,I,3,1))</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE10C052">
+      <DecodesScript ScriptName="ST_CE10C052"/>
+      <ChannelNum>25</ChannelNum>
+      <AssignedTime>00:13:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="offset">700</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="1790004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>07/23/2020 22:39:12</LastModifyTime>
+    <Site>
+      <Latitude>40.85325</Latitude>
+      <Longitude>-85.489777777778</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Huntington</NearestCity>
+      <Description>J Edward Roush Tailwater</Description>
+      <SiteName NameType="CWMS">J Edward Roush-Tailwater</SiteName>
+      <SiteName NameType="nwshb5">HNTI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03323500
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">
+        J Edward Roush Tailwater
+      </SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Roush-Tailwater">
+      <Description>CE77163C - Roush Tailwater</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Temp-Water</SensorName>
+        <DataType Standard="CWMS" Code="Temp-Water"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE77163C">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          4x,16(F(S,I,3,1)),16(F(S,I,3,2))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="DegC">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE77163C">
+      <DecodesScript ScriptName="ST_CE77163C"/>
+      <ChannelNum>17</ChannelNum>
+      <AssignedTime>00:13:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+  </Platform>
+  <Platform PlatformId="1860004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>10/22/2020 21:27:02</LastModifyTime>
+    <Site>
+      <Latitude>40.790833333333</Latitude>
+      <Longitude>-85.820277777778</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Wabash</NearestCity>
+      <Description>Wabash - Wabash</Description>
+      <SiteName NameType="CWMS">Wabash</SiteName>
+      <SiteName NameType="nwshb5">WABI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03325000
+      </SiteName>
+      <SiteProperty PropertyName="location_type">Wabash</SiteProperty>
+      <SiteProperty PropertyName="PUBLIC_NAME">Wabash</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Wabash">
+      <Description>CE16B60C - Wabash River Wabash</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>Battery</SensorName>
+        <DataType Standard="CWMS" Code="Volts"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE16B60C">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          4x,16(F(S,I,3,1),(F(S,I,3,2))),32(F(S,I,3,-1)),F(S,I,1,3)
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Volts">
+            <Algorithm>usgs-standard</Algorithm>
+            <A>0.234</A>
+            <B>0.0</B>
+            <C>1.0</C>
+            <D>10.6</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE16B60C">
+      <DecodesScript ScriptName="ST_CE16B60C"/>
+      <ChannelNum>177</ChannelNum>
+      <AssignedTime>00:13:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="2040004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>07/29/2020 20:35:08</LastModifyTime>
+    <Site>
+      <Latitude>40.440555555556</Latitude>
+      <Longitude>-86.829166666667</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Lafayette</NearestCity>
+      <Description>Lafayette - Wildcat Creek</Description>
+      <SiteName NameType="CWMS">LafayetteWildcat</SiteName>
+      <SiteName NameType="nwshb5">LYTI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03335000
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">LafayetteWildcat</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="LafayetteWildcat">
+      <Description>CE6B0D9A - Wildcat Creek Lafayette</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE6B0D9A">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">4x,16(F(S,I,3,1))</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE6B0D9A">
+      <DecodesScript ScriptName="ST_CE6B0D9A"/>
+      <ChannelNum>17</ChannelNum>
+      <AssignedTime>00:46:40</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>00:01</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+  </Platform>
+  <Platform PlatformId="2072004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>10/22/2020 21:22:00</LastModifyTime>
+    <Site>
+      <Latitude>40.593888888889</Latitude>
+      <Longitude>-86.770277777778</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>West Lafayette</NearestCity>
+      <Description>Tippecanoe River near Delphi, IN</Description>
+      <SiteName NameType="CWMS">Delphi</SiteName>
+      <SiteName NameType="nwshb5">DBUI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03333050
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Delphi</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Delphi">
+      <Description>DDA6F1AC Tippecanoe River near Delphi</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <DataType Standard="EPA-CODE" Code="Stage"/>
+        <DataType Standard="HDB" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precipitation</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <DataType Standard="EPA-CODE" Code="Precip"/>
+        <DataType Standard="HDB" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_DDA6F1AC">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          4x,16(F(S,I,3,1)),32(F(S,I,3,-1)),16(F(S,I,3,2))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="DDA6F1AC">
+      <DecodesScript ScriptName="ST_DDA6F1AC"/>
+      <ChannelNum>165</ChannelNum>
+      <AssignedTime>00:54:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="2079004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>08/03/2020 19:53:13</LastModifyTime>
+    <Site>
+      <Latitude>41.320555555556</Latitude>
+      <Longitude>-85.789166666667</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Warsaw</NearestCity>
+      <Description>Tippecanoe River at Oswego, IN</Description>
+      <SiteName NameType="CWMS">Oswego</SiteName>
+      <SiteName NameType="nwshb5">OWGI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03330500
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Oswego</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Oswego">
+      <Description>17853608 Tippecanoe River at Oswego</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <DataType Standard="EPA-CODE" Code="Stage"/>
+        <DataType Standard="HDB" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_17853608">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">4x,16(F(S,I,3,1))</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="17853608">
+      <DecodesScript ScriptName="ST_17853608"/>
+      <ChannelNum>139</ChannelNum>
+      <AssignedTime>00:50:40</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+  </Platform>
+  <Platform PlatformId="2084004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>10/22/2020 21:24:59</LastModifyTime>
+    <Site>
+      <Latitude>41.157222222222</Latitude>
+      <Longitude>-86.563611111111</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Logansport</NearestCity>
+      <Description>Tippecanoe River near Ora, IN</Description>
+      <SiteName NameType="CWMS">Ora</SiteName>
+      <SiteName NameType="nwshb5">ORAI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03331500
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Ora</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Ora">
+      <Description>DD8F700A Tippecanoe River at Ora</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <DataType Standard="EPA-CODE" Code="Stage"/>
+        <DataType Standard="HDB" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_DD8F700A">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          4x,16(F(S,I,3,1)),32(F(S,I,3,-1)),16(F(S,I,3,2))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="DD8F700A">
+      <DecodesScript ScriptName="ST_DD8F700A"/>
+      <ChannelNum>149</ChannelNum>
+      <AssignedTime>00:44:40</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="2092004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>08/03/2020 20:04:22</LastModifyTime>
+    <Site>
+      <Latitude>40.994444444444</Latitude>
+      <Longitude>-85.7825</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Wabash</NearestCity>
+      <Description>Eel River at  North Manchester, IN</Description>
+      <SiteName NameType="CWMS">North Manchester</SiteName>
+      <SiteName NameType="nwshb5">NMCI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03328000
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">North Manchester</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="NorthManchester">
+      <Description>163D923C Eel River at North Manchester</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <DataType Standard="EPA-CODE" Code="Stage"/>
+        <DataType Standard="HDB" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_163D923C">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">4x, 16(F(S,I,3,1))</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="163D923C">
+      <DecodesScript ScriptName="ST_163D923C"/>
+      <ChannelNum>89</ChannelNum>
+      <AssignedTime>00:41:30</AssignedTime>
+      <TransmitWindow>19:00</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+  </Platform>
+  <Platform PlatformId="2097004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>08/03/2020 19:47:16</LastModifyTime>
+    <Site>
+      <Latitude>41.316388888889</Latitude>
+      <Longitude>-85.692222222222</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>North Webster</NearestCity>
+      <Description>Tippecanoe River at North Webster, IN</Description>
+      <SiteName NameType="CWMS">North Webster</SiteName>
+      <SiteName NameType="nwshb5">NWTI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03330241
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">North Webster</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="NorthWebster">
+      <Description>DD3E3032  Tippecanoe River at North Webster</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <DataType Standard="EPA-CODE" Code="Stage"/>
+        <DataType Standard="HDB" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_DD3E3032">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">4x,16(F(S,I,3,1))</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="DD3E3032">
+      <DecodesScript ScriptName="ST_DD3E3032"/>
+      <ChannelNum>105</ChannelNum>
+      <AssignedTime>00:56</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+  </Platform>
+  <Platform PlatformId="2194004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>09/09/2020 21:46:04</LastModifyTime>
+    <Site>
+      <Latitude>44.392222222222</Latitude>
+      <Longitude>-88.740277777778</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Central</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WI</State>
+      <NearestCity>Appleton</NearestCity>
+      <Description>Wolf River at New London</Description>
+      <SiteName NameType="CWMS">NewLondon</SiteName>
+      <SiteName NameType="nwshb5">NEWW3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        04079000
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">NewLondon</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="NewLondon">
+      <Description>CE72FCDC Wolf River at New London</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <DataType Standard="EPA-CODE" Code="Stage"/>
+        <DataType Standard="HDB" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <DataType Standard="EPA-CODE" Code="Precip"/>
+        <DataType Standard="HDB" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>Battery</SensorName>
+        <DataType Standard="CWMS" Code="Volts"/>
+        <DataType Standard="EPA-CODE" Code="Volts"/>
+        <DataType Standard="HDB" Code="Volts"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE72FCDC">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          2/ 4(F(S,a,4,1)x), /4(F(S,a,4,2)x), 2(/F(S,S,4,3))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volts">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE72FCDC">
+      <DecodesScript ScriptName="ST_CE72FCDC"/>
+      <ChannelNum>25</ChannelNum>
+      <AssignedTime>00:42</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="2195004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>09/09/2020 21:47:15</LastModifyTime>
+    <Site>
+      <Latitude>44.009722222222</Latitude>
+      <Longitude>-88.527222222222</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Central</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WI</State>
+      <NearestCity>Oshkosh</NearestCity>
+      <Description>Oshkosh</Description>
+      <SiteName NameType="CWMS">Oshkosh</SiteName>
+      <SiteName NameType="nwshb5">OSHW3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        04082500
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Oshkosh</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Oshkosh">
+      <Description>CE58F2B2 Lake Winnebago at Oshkosh</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Elevation</SensorName>
+        <DataType Standard="CWMS" Code="Elev"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <DataType Standard="EPA-CODE" Code="Precip"/>
+        <DataType Standard="HDB" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>Battery</SensorName>
+        <DataType Standard="CWMS" Code="Volts"/>
+        <DataType Standard="EPA-CODE" Code="Volts"/>
+        <DataType Standard="HDB" Code="Volts"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE58F2B2">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          7/ 4(F(S,a,4,1)x), /4(F(S,a,4,2)x), /2(/F(S,S,4,3))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volts">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE58F2B2">
+      <DecodesScript ScriptName="ST_CE58F2B2"/>
+      <ChannelNum>25</ChannelNum>
+      <AssignedTime>00:19:40</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="2196004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>09/09/2020 21:45:35</LastModifyTime>
+    <Site>
+      <Latitude>44.4125</Latitude>
+      <Longitude>-88.865277777778</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Central</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WI</State>
+      <NearestCity>Appleton</NearestCity>
+      <Description>Little Wolf River at Royalton</Description>
+      <SiteName NameType="CWMS">Royalton</SiteName>
+      <SiteName NameType="nwshb5">ROYW3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        04080000
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Royalton</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Royalton">
+      <Description>CE72EFAA Little Wolf River at Royalton</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <DataType Standard="EPA-CODE" Code="Precip"/>
+        <DataType Standard="HDB" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>Battery</SensorName>
+        <DataType Standard="CWMS" Code="Volts"/>
+        <DataType Standard="EPA-CODE" Code="Volts"/>
+        <DataType Standard="HDB" Code="Volts"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE72EFAA">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          2/ 4(F(S,a,4,1)x), /4(F(S,a,4,2)x), 2(/F(S,S,4,3))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>-0.02</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volts">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE72EFAA">
+      <DecodesScript ScriptName="ST_CE72EFAA"/>
+      <ChannelNum>25</ChannelNum>
+      <AssignedTime>00:19:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="2197004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>09/09/2020 21:47:55</LastModifyTime>
+    <Site>
+      <Latitude>44.4125</Latitude>
+      <Longitude>-88.865277777778</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Central</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WI</State>
+      <NearestCity>Appleton</NearestCity>
+      <Description>Lake Winnebago at Stockbridge</Description>
+      <SiteName NameType="CWMS">Stockbridge</SiteName>
+      <SiteName NameType="nwshb5">STKW3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        04084255
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Stockbridge</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Stockbridge">
+      <Description>CE72F20E Lake Winnebago at Stockbridge</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Elevation</SensorName>
+        <DataType Standard="CWMS" Code="Elev"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <DataType Standard="EPA-CODE" Code="Precip"/>
+        <DataType Standard="HDB" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>Battery</SensorName>
+        <DataType Standard="CWMS" Code="Volts"/>
+        <DataType Standard="EPA-CODE" Code="Volts"/>
+        <DataType Standard="HDB" Code="Volts"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE72F20E">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          2/ 4(F(S,a,4,1)x), /4(F(S,a,4,2)x), 2(/F(S,S,4,3))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volts">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE72F20E">
+      <DecodesScript ScriptName="ST_CE72F20E"/>
+      <ChannelNum>25</ChannelNum>
+      <AssignedTime>00:53:50</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="2198004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>09/09/2020 21:41:43</LastModifyTime>
+    <Site>
+      <Latitude>44.329166666667</Latitude>
+      <Longitude>-88.996111111111</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Central</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WI</State>
+      <NearestCity>Neenah</NearestCity>
+      <Description>Waupaca River near Waupaca</Description>
+      <SiteName NameType="CWMS">Waupaca</SiteName>
+      <SiteName NameType="nwshb5">WPCW3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        04081000
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Waupaca</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Waupaca">
+      <Description>CE730070 Waupaca River near Waupaca</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <DataType Standard="EPA-CODE" Code="Precip"/>
+        <DataType Standard="HDB" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>Battery</SensorName>
+        <DataType Standard="CWMS" Code="Volts"/>
+        <DataType Standard="EPA-CODE" Code="Volts"/>
+        <DataType Standard="HDB" Code="Volts"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE730070">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          2/ 4(F(S,a,4,1)x), /4(F(S,a,4,2)x), 2(/F(S,S,4,3))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volts">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE730070">
+      <DecodesScript ScriptName="ST_CE730070"/>
+      <ChannelNum>25</ChannelNum>
+      <AssignedTime>00:48</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="2234004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>09/09/2020 21:43:48</LastModifyTime>
+    <Site>
+      <Latitude>44.205</Latitude>
+      <Longitude>-88.470277777778</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Central</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WI</State>
+      <NearestCity>Menasha</NearestCity>
+      <Description>Fox River at Fritse Park- Town of Menasha</Description>
+      <SiteName NameType="CWMS">FritsePark</SiteName>
+      <SiteName NameType="nwshb5">OSKW3</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">FritsePark</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="FritsePark">
+      <Description>
+        CE26C6EC Fox River at Fritse Park- Town of Menasha
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Elevation</SensorName>
+        <DataType Standard="CWMS" Code="Elev"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <DataType Standard="EPA-CODE" Code="Precip"/>
+        <DataType Standard="HDB" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>Battery</SensorName>
+        <DataType Standard="CWMS" Code="Volts"/>
+        <DataType Standard="EPA-CODE" Code="Volts"/>
+        <DataType Standard="HDB" Code="Volts"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE26C6EC">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          2/ 4(F(S,a,4,1)x), /4(F(S,a,4,2)x), 2(/F(S,S,4,3))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="volts">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE26C6EC">
+      <DecodesScript ScriptName="ST_CE26C6EC"/>
+      <ChannelNum>25</ChannelNum>
+      <AssignedTime>00:09</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="2235004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>12/09/2020 21:54:04</LastModifyTime>
+    <Site>
+      <Latitude>44.110833333333</Latitude>
+      <Longitude>-88.7125</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/Central</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>WI</State>
+      <NearestCity>Oshkosh</NearestCity>
+      <Description>Lake Poygan near Winneconne</Description>
+      <SiteName NameType="CWMS">Poygan</SiteName>
+      <SiteName NameType="nwshb5">WNCW3</SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Poygan</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Poygan">
+      <Description>CE72C946 Lake Poygan near Winneconne</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Elev-Encoder</SensorName>
+        <DataType Standard="CWMS" Code="Elev-Encoder"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:06</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+        <ConfigSensorProperty PropertyName="scale">1</ConfigSensorProperty>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Elev-Transducer</SensorName>
+        <DataType Standard="CWMS" Code="Elev-Transducer"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:06</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+        <ConfigSensorProperty PropertyName="scale">1</ConfigSensorProperty>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>Precip-Inc</SensorName>
+        <DataType Standard="CWMS" Code="Precip-Inc"/>
+        <DataType Standard="EPA-CODE" Code="Precip-Inc"/>
+        <DataType Standard="HDB" Code="Precip-Inc"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="4">
+        <SensorName>Temp</SensorName>
+        <DataType Standard="CWMS" Code="Temp"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="5">
+        <SensorName>Battery</SensorName>
+        <DataType Standard="CWMS" Code="Volt"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE72C946">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          /6(/F(S,A,5D&apos; &apos;,1),1X,F(S,A,5D&apos;
+          &apos;,2)),1X,F(S,A,5D&apos; &apos;,3), 1X,F(S,A,5D&apos;
+          &apos;,4),1X,F(S,A,5D&apos; &apos;,5)(4(/F(S,A,5D&apos;
+          &apos;,1),1X,F(S,A,5D&apos; &apos;,2)))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>1.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>1.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>1.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="4">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="DegF">
+            <Algorithm>linear</Algorithm>
+            <A>1.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="5">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="v">
+            <Algorithm>linear</Algorithm>
+            <A>1.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE72C946">
+      <DecodesScript ScriptName="ST_CE72C946"/>
+      <ChannelNum>25</ChannelNum>
+      <AssignedTime>00:35:50</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="1670004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>07/22/2020 14:52:48</LastModifyTime>
+    <Site>
+      <Latitude>40.807222222222</Latitude>
+      <Longitude>-85.677222222222</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Wabash</NearestCity>
+      <Description>Salamonie Pool</Description>
+      <SiteName NameType="CWMS">Salamonie-Pool</SiteName>
+      <SiteName NameType="nwshb5">SLAI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03324450
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Salamonie Pool</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Salamonie-Pool">
+      <Description>CE6D2BB8 - Salmonie Pool</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Elevation</SensorName>
+        <DataType Standard="CWMS" Code="Elev"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_SALAMONIE_POOL">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">4x,16(F(S,I,3,1))</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>1.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE6D2BB8">
+      <DecodesScript ScriptName="ST_SALAMONIE_POOL"/>
+      <ChannelNum>25</ChannelNum>
+      <AssignedTime>00:13:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="offset">
+        -0.02
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="1870004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>10/22/2020 21:26:04</LastModifyTime>
+    <Site>
+      <Latitude>40.75</Latitude>
+      <Longitude>-86.066666666667</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Peru</NearestCity>
+      <Description>Peru - Wabash</Description>
+      <SiteName NameType="CWMS">Peru</SiteName>
+      <SiteName NameType="nwshb5">PRUI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03327500
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Peru</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Peru">
+      <Description>CE777D08 - Wabash River Peru</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>Battery</SensorName>
+        <DataType Standard="CWMS" Code="Volts"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE777D08">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          4x,16(F(S,I,3,1),(F(S,I,3,2))),32(F(S,I,3,-1)),F(S,I,1,3)
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.02</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="v">
+            <Algorithm>usgs-standard</Algorithm>
+            <A>0.312</A>
+            <B>0.0</B>
+            <C>1.0</C>
+            <D>20.3</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE777D08">
+      <DecodesScript ScriptName="ST_CE777D08"/>
+      <ChannelNum>25</ChannelNum>
+      <AssignedTime>00:13:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="1876004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>07/23/2020 22:57:04</LastModifyTime>
+    <Site>
+      <Latitude>40.746388888889</Latitude>
+      <Longitude>-86.3775</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Logansport</NearestCity>
+      <Description>Logansport - Wabash</Description>
+      <SiteName NameType="CWMS">Logansport</SiteName>
+      <SiteName NameType="nwshb5">LGNI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03329000
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Logansport</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Logansport">
+      <Description>CE6D256A -  Wabash River Logansport</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE6D256A">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">4x,16(F(S,I,3,1))</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>-0.01</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE6D256A">
+      <DecodesScript ScriptName="ST_CE6D256A"/>
+      <ChannelNum>25</ChannelNum>
+      <AssignedTime>00:13:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+  </Platform>
+  <Platform PlatformId="1896004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>07/23/2020 23:01:42</LastModifyTime>
+    <Site>
+      <Latitude>40.421944444444</Latitude>
+      <Longitude>-86.896944444445</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Lafayette</NearestCity>
+      <Description>Lafayette-Wabash</Description>
+      <SiteName NameType="CWMS">Lafayette</SiteName>
+      <SiteName NameType="nwshb5">LAFI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03335500
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Lafayette</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Lafayette">
+      <Description>CE6D361C - Wabash River Lafayette</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE6D361C">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">4x,16(F(S,I,3,1))</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE6D361C">
+      <DecodesScript ScriptName="ST_CE6D361C"/>
+      <ChannelNum>17</ChannelNum>
+      <AssignedTime>00:13:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>00:01</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+  </Platform>
+  <Platform PlatformId="1960004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>10/22/2020 21:23:28</LastModifyTime>
+    <Site>
+      <Latitude>40.898555555556</Latitude>
+      <Longitude>-85.413166666667</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Greentown</NearestCity>
+      <Description>Little River near Huntington</Description>
+      <SiteName NameType="CWMS">LittleRiver</SiteName>
+      <SiteName NameType="nwshb5">LRHI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03324000
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">LittleRiver</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="LittleRiver">
+      <Description>CE14B3F8 - Little River Huntington</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE14B3F8">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          4x,16(F(S,I,3,1)),16(F(S,I,3,2))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="Feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.03</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE14B3F8">
+      <DecodesScript ScriptName="ST_CE14B3F8"/>
+      <ChannelNum>17</ChannelNum>
+      <AssignedTime>00:13:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>00:01</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="3247004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>09/16/2020 15:26:15</LastModifyTime>
+    <Site>
+      <Latitude>40.14</Latitude>
+      <Longitude>-87.406666666667</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Danville</NearestCity>
+      <Description>Wabash River at Covington, IN</Description>
+      <SiteName NameType="CWMS">Covington</SiteName>
+      <SiteName NameType="nwshb5">CVGI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03336000
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Covington</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Covington">
+      <Description>CE16C09C</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE16C09C">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          4x 16(F(S,I,3,1), F(S,I,3,2))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE16C09C">
+      <DecodesScript ScriptName="ST_CE16C09C"/>
+      <ChannelNum>17</ChannelNum>
+      <AssignedTime>00:52:40</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>00:15</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="3248004">
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>09/16/2020 15:20:35</LastModifyTime>
+    <Site>
+      <Latitude>39.7925</Latitude>
+      <Longitude>-87.373888888889</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>m</ElevationUnits>
+      <Timezone>US/East-Indiana</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>IN</State>
+      <NearestCity>Terre Haute</NearestCity>
+      <Description>Wabash River at Montezuma, IN</Description>
+      <SiteName NameType="CWMS">Montezuma</SiteName>
+      <SiteName NameType="nwshb5">MTZI3</SiteName>
+      <SiteName NameType="usgs" AgencyCode="USGS" UsgsDbno="01">
+        03340500
+      </SiteName>
+      <SiteProperty PropertyName="PUBLIC_NAME">Montezuma</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Montezuma">
+      <Description>CE14E384</Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>Stage</SensorName>
+        <DataType Standard="CWMS" Code="Stage"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>Precip</SensorName>
+        <DataType Standard="CWMS" Code="Precip"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST_CE14E384">
+        <ScriptType>Decodes</ScriptType>
+        <FormatStatement Label="Start">
+          4x 18(F(S,I,3,1)) 24x, 16(F(S,I,3,2))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="feet">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="inches">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE14E384">
+      <DecodesScript ScriptName="ST_CE14E384"/>
+      <ChannelNum>17</ChannelNum>
+      <AssignedTime>00:52:50</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>00:15</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Total
+      </PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+</Database>
