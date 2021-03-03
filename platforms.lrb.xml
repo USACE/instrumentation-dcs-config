@@ -1,0 +1,4473 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<Database>
+  <Platform PlatformId="1">
+    <Agency>CELRB</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
+    <Site>
+      <Latitude>42.9184234</Latitude>
+      <Longitude>-77.7565681</Longitude>
+      <Elevation>152.43352800000002</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <NearestCity>Avon, NY</NearestCity>
+      <Description>Stage and discharge gauge located on the Genesee River, downstream of Mt
+        Morris Dam and near Avon, NY.</Description>
+      <SiteName NameType="CWMS">AVNN6</SiteName>
+      <SiteName NameType="uuid">089fbda3-5a6a-408d-aec2-4e108910d94b</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="BasePara-Shef">
+      <Description>
+        Dynamic decoding script to handle basic parameters like stage, precip,
+        and battery voltage with SHEF formatted parameter codes.
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan),f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="stage">&gt;HG</FormatStatement>
+        <FormatStatement Label="ST">&gt;HG</FormatStatement>
+        <FormatStatement Label="HG">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
+        </FormatStatement>
+        <FormatStatement Label="HGVAL">
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
+        <FormatStatement Label="rain">&gt;PC</FormatStatement>
+        <FormatStatement Label="PC">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
+        </FormatStatement>
+        <FormatStatement Label="PCVAL">
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BV">&gt;VB</FormatStatement>
+        <FormatStatement Label="BL">&gt;VB</FormatStatement>
+        <FormatStatement Label="VB">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
+        </FormatStatement>
+        <FormatStatement Label="VBVAL">
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE7EB098">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>177</ChannelNum>
+      <AssignedTime>00:12</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">7539f77a-7da5-4f03-a91c-f33d7dfb7fb9</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">47f8a28a-5048-47ea-9aff-3fa0aa7b6ed1</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">51b94db2-2186-47d5-ae01-48dd680fb274</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="2">
+    <Agency>CELRB</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
+    <Site>
+      <Latitude>43.092222</Latitude>
+      <Longitude>-77.680556</Longitude>
+      <Elevation>448.05600000000004</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <Description>Stage gauge located on the Genesee River at Ballantyne Bridge nearr
+    
+        Rochester, NY.</Description>
+      <SiteName NameType="CWMS">BLBN6</SiteName>
+      <SiteName NameType="uuid">209980f3-ab26-42d6-9fe7-13c0b6221f88</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="BasePara-Shef">
+      <Description>
+        Dynamic decoding script to handle basic parameters like stage, precip,
+        and battery voltage with SHEF formatted parameter codes.
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan),f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="stage">&gt;HG</FormatStatement>
+        <FormatStatement Label="ST">&gt;HG</FormatStatement>
+        <FormatStatement Label="HG">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
+        </FormatStatement>
+        <FormatStatement Label="HGVAL">
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
+        <FormatStatement Label="rain">&gt;PC</FormatStatement>
+        <FormatStatement Label="PC">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
+        </FormatStatement>
+        <FormatStatement Label="PCVAL">
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BV">&gt;VB</FormatStatement>
+        <FormatStatement Label="BL">&gt;VB</FormatStatement>
+        <FormatStatement Label="VB">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
+        </FormatStatement>
+        <FormatStatement Label="VBVAL">
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE7EBE4A">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>177</ChannelNum>
+      <AssignedTime>00:12:10</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">511c60fe-1204-46a8-8d7f-0abf82fcc78f</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">c60483e7-db8d-48fa-9299-4bfceea444b4</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">3e1ce4d9-96ef-413a-b216-e0e266e15668</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="3">
+    <Agency>CELRB</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
+    <Site>
+      <Latitude>43.10083</Latitude>
+      <Longitude>-77.88222</Longitude>
+      <Elevation>168.21302400000002</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <Description>Stage and discharge gauge located on Black Creek at Churchville, NY.</Description>
+      <SiteName NameType="CWMS">CHCN6</SiteName>
+      <SiteName NameType="uuid">8d0307a9-7a78-4eae-919a-b38a6b1c9c97</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="BasePara-Shef">
+      <Description>
+        Dynamic decoding script to handle basic parameters like stage, precip,
+        and battery voltage with SHEF formatted parameter codes.
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan),f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="stage">&gt;HG</FormatStatement>
+        <FormatStatement Label="ST">&gt;HG</FormatStatement>
+        <FormatStatement Label="HG">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
+        </FormatStatement>
+        <FormatStatement Label="HGVAL">
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
+        <FormatStatement Label="rain">&gt;PC</FormatStatement>
+        <FormatStatement Label="PC">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
+        </FormatStatement>
+        <FormatStatement Label="PCVAL">
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BV">&gt;VB</FormatStatement>
+        <FormatStatement Label="BL">&gt;VB</FormatStatement>
+        <FormatStatement Label="VB">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
+        </FormatStatement>
+        <FormatStatement Label="VBVAL">
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE7EC608">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>177</ChannelNum>
+      <AssignedTime>00:12:20</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">3d78e701-49ba-477f-927b-21b1833a39a2</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">89851412-5190-490b-9630-627401508510</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">d705a18f-8902-47dd-97ea-369fd4ce347e</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="4">
+    <Agency>CELRB</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
+    <Site>
+      <Latitude>42.5322</Latitude>
+      <Longitude>-77.7064</Longitude>
+      <Elevation>218.11488000000003</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <Description>Stage and discharge gauge on Canaseraga Creek above Dansville, NY.</Description>
+      <SiteName NameType="CWMS">DSVN6</SiteName>
+      <SiteName NameType="uuid">b4d043f5-82bc-4d1e-abdf-a43fe36f1695</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="BasePara-Shef">
+      <Description>
+        Dynamic decoding script to handle basic parameters like stage, precip,
+        and battery voltage with SHEF formatted parameter codes.
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan),f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="stage">&gt;HG</FormatStatement>
+        <FormatStatement Label="ST">&gt;HG</FormatStatement>
+        <FormatStatement Label="HG">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
+        </FormatStatement>
+        <FormatStatement Label="HGVAL">
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
+        <FormatStatement Label="rain">&gt;PC</FormatStatement>
+        <FormatStatement Label="PC">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
+        </FormatStatement>
+        <FormatStatement Label="PCVAL">
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BV">&gt;VB</FormatStatement>
+        <FormatStatement Label="BL">&gt;VB</FormatStatement>
+        <FormatStatement Label="VB">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
+        </FormatStatement>
+        <FormatStatement Label="VBVAL">
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE7EC8DA">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>177</ChannelNum>
+      <AssignedTime>00:12:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">466d99e9-a048-4e34-bd72-bd2a7581feef</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">b2a95327-0cf0-4975-84a8-f8e0f1bf32f8</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">22100904-4c92-4ae9-9468-ca259e0eb6b9</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="5">
+    <Agency>CELRB</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
+    <Site>
+      <Latitude>43.01</Latitude>
+      <Longitude>-77.7914</Longitude>
+      <Elevation>170.950128</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <Description>Stage and discharge gauge on Oatka Creek at Garbutt, NY.</Description>
+      <SiteName NameType="CWMS">GARN6</SiteName>
+      <SiteName NameType="uuid">891c7d48-fa1b-4f4a-a7dd-7393258bb575</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="BasePara-Shef">
+      <Description>
+        Dynamic decoding script to handle basic parameters like stage, precip,
+        and battery voltage with SHEF formatted parameter codes.
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan),f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="stage">&gt;HG</FormatStatement>
+        <FormatStatement Label="ST">&gt;HG</FormatStatement>
+        <FormatStatement Label="HG">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
+        </FormatStatement>
+        <FormatStatement Label="HGVAL">
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
+        <FormatStatement Label="rain">&gt;PC</FormatStatement>
+        <FormatStatement Label="PC">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
+        </FormatStatement>
+        <FormatStatement Label="PCVAL">
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BV">&gt;VB</FormatStatement>
+        <FormatStatement Label="BL">&gt;VB</FormatStatement>
+        <FormatStatement Label="VB">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
+        </FormatStatement>
+        <FormatStatement Label="VBVAL">
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE7ED57E">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>177</ChannelNum>
+      <AssignedTime>00:12:40</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">ca84def7-fd7c-41c6-b851-4a267aea2599</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">9e798cb1-3ad6-47a4-ba96-d076523e20d8</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">a5aa3bdb-aeca-4c12-8097-3c89f0189c2d</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="6">
+    <Agency>CELRB</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
+    <Site>
+      <Latitude>42.956667</Latitude>
+      <Longitude>-77.586944</Longitude>
+      <Elevation>185.928</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <Description>USACE steam gauge located on Honeoye Creek near Honeoye Falls and
+        influenced by Honeoye Lake discharges; which flows into the Genesee
+        River.</Description>
+      <SiteName NameType="CWMS">HNYN6</SiteName>
+      <SiteName NameType="uuid">1dc2a261-8b00-4039-8d3f-f48666e97729</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="BasePara-Shef">
+      <Description>
+        Dynamic decoding script to handle basic parameters like stage, precip,
+        and battery voltage with SHEF formatted parameter codes.
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan),f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="stage">&gt;HG</FormatStatement>
+        <FormatStatement Label="ST">&gt;HG</FormatStatement>
+        <FormatStatement Label="HG">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
+        </FormatStatement>
+        <FormatStatement Label="HGVAL">
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
+        <FormatStatement Label="rain">&gt;PC</FormatStatement>
+        <FormatStatement Label="PC">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
+        </FormatStatement>
+        <FormatStatement Label="PCVAL">
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BV">&gt;VB</FormatStatement>
+        <FormatStatement Label="BL">&gt;VB</FormatStatement>
+        <FormatStatement Label="VB">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
+        </FormatStatement>
+        <FormatStatement Label="VBVAL">
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE7EDBAC">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>177</ChannelNum>
+      <AssignedTime>00:12:50</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">cda6be78-35c3-4330-8239-a8264d64dc90</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">9d70ea37-eee9-4bbe-8493-8e11329ca467</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">1e93a084-99b8-490d-bedf-7d2057f85547</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="7">
+    <Agency>USGS</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:51:19</LastModifyTime>
+    <Site>
+      <Latitude>43.100556</Latitude>
+      <Longitude>-77.882222</Longitude>
+      <Elevation>168.21302400000002</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <NearestCity>Churchville</NearestCity>
+      <SiteName NameType="CWMS">BlackCr Churchvl</SiteName>
+      <SiteName NameType="uuid">08735594-14f0-4594-aa38-fb0805968918</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="BlackCr-Churchville">
+      <Description/>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <DataOrder>D</DataOrder>
+        <FormatStatement Label="HG">
+          w, 2x, 16f(s,a,6d' ',1), &gt; VB
+        </FormatStatement>
+        <FormatStatement Label="VB">
+          w, s(2,'VB',VB), 2x, f(s,a,5,2)
+        </FormatStatement>
+        <FormatStatement Label="error"/>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="1715F330">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>109</ChannelNum>
+      <AssignedTime>00:07</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">00ced069-5e70-4e78-bf30-3fa235c9659b</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        1Hour
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">3f6a2e5f-911d-45d6-9b4e-86aaf07a447c</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="9">
+    <Agency>USGS</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:49:40</LastModifyTime>
+    <Site>
+      <Latitude>42.570278</Latitude>
+      <Longitude>-78.042222</Longitude>
+      <Elevation>329.184</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <NearestCity>Portageville</NearestCity>
+      <SiteName NameType="CWMS">GenR Portagevill</SiteName>
+      <SiteName NameType="uuid">871485de-0116-4f4a-afcd-30f3f8ec02c5</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="BasePara-Pseudo-Shef">
+      <Description>
+        Dynamic decoding script to handle basic parameters like stage, precip,
+        battery voltage, etc with SHEF codes and to include some other
+        descriptors.
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan),f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="stage">&gt;HG</FormatStatement>
+        <FormatStatement Label="ST">&gt;HG</FormatStatement>
+        <FormatStatement Label="HG">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
+        </FormatStatement>
+        <FormatStatement Label="HGVAL">
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
+        <FormatStatement Label="precip">&gt;PC</FormatStatement>
+        <FormatStatement Label="rain">&gt;PC</FormatStatement>
+        <FormatStatement Label="prec">&gt;PC</FormatStatement>
+        <FormatStatement Label="PC">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
+        </FormatStatement>
+        <FormatStatement Label="PCVAL">
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BV">&gt;VB</FormatStatement>
+        <FormatStatement Label="BL">&gt;VB</FormatStatement>
+        <FormatStatement Label="VB">x,f(s,a,10d' ',3)</FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="1716615C">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>109</ChannelNum>
+      <AssignedTime>00:07</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">295c9053-d2c5-4a6b-9a26-c0bb0015f9f1</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">f4291771-3b5d-409c-914a-b789a82a98b8</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        1Hour
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">afec2953-08f0-4009-866f-1dd1f7647994</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="10">
+    <Agency>USGS</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:55:57</LastModifyTime>
+    <Site>
+      <Latitude>43.01</Latitude>
+      <Longitude>-77.791389</Longitude>
+      <Elevation>170.950128</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <NearestCity>Garbutt</NearestCity>
+      <SiteName NameType="CWMS">OatkaCr Garbutt</SiteName>
+      <SiteName NameType="uuid">4e06209a-9e0b-4430-87fe-a7ac49d92160</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="OatkaCr-Garbutt">
+      <Description/>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <DataOrder>D</DataOrder>
+        <FormatStatement Label="HG">
+          w, 2x, 16f(s,a,6d' ',1), &gt; VB
+        </FormatStatement>
+        <FormatStatement Label="VB">
+          w, s(2,'VB',VB), 2x, f(s,a,5,2)
+        </FormatStatement>
+        <FormatStatement Label="error"/>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="DD8362E0">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>149</ChannelNum>
+      <AssignedTime>00:06</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">1ba94614-06a3-4f56-bf63-4cea669f267f</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        1Hour
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">61ad3ff5-39e5-42a6-bee1-096035e6fadf</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="11">
+    <Agency>USGS</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:53:54</LastModifyTime>
+    <Site>
+      <Latitude>43.301111</Latitude>
+      <Longitude>-78.310278</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <NearestCity>Kenyonville</NearestCity>
+      <SiteName NameType="CWMS">KNVN6</SiteName>
+      <SiteName NameType="uuid">a4fc3899-be8d-4055-b9e9-cd9ff986ba98</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="KNVN6-Kenyonville">
+      <Description>
+        Oak Orchard Creek near Kenyonville (KNVN6) requires a specific decoding
+        configuration (script) due to its none standard transmission format.
+        Data is sent as a table with carriage returns.
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <DataOrder>D</DataOrder>
+        <FormatStatement Label="scan">/,&gt;HG</FormatStatement>
+        <FormatStatement Label="HG">
+          f(s,a,5,1),7(f(s,a,6,1)),/,&gt;PC
+        </FormatStatement>
+        <FormatStatement Label="PC">
+          f(s,a,5,2),7(f(s,a,6,2)),/,&gt;VB
+        </FormatStatement>
+        <FormatStatement Label="VB">f(s,a,4,3)</FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="172024E8">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>87</ChannelNum>
+      <AssignedTime>00:18</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">033111e5-5b1d-4a7f-9704-f455f5cb6c69</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">8d3e4847-cb55-4958-9a52-2d71a3b57ca6</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">71442140-9bc7-475e-bbe5-4d008446dc15</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="12">
+    <Agency>CENAB</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:54:27</LastModifyTime>
+    <Site>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Country>UNITED STATES</Country>
+      <SiteName NameType="CWMS">MBYP1</SiteName>
+      <SiteName NameType="uuid">3b260872-3454-473b-bfb7-087ed0e809b0</SiteName>
+    </Site>
+    <PlatformConfig ConfigName="MBYP1-CrookedCr-MiddleburyCenter">
+      <Description/>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>BL</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <DataOrder>D</DataOrder>
+        <FormatStatement Label="start">4x,&gt;scan</FormatStatement>
+        <FormatStatement Label="scan">
+          12f(s,b,3,1),12f(s,b,3,2),f(s,b,1,3)
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE5D2DC8">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>161</ChannelNum>
+      <AssignedTime>00:11:40</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">9b0c37a1-7bf2-4333-b61e-09e185c0da1e</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">9360cd05-e4b7-4d3f-8c93-1258632f44df</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">61ab2ece-adb9-429b-aa21-cb2e652cb811</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="13">
+    <Agency>CELRP</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:49:40</LastModifyTime>
+    <Site>
+      <Latitude>42.073056</Latitude>
+      <Longitude>-78.451111</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <NearestCity>Olean</NearestCity>
+      <SiteName NameType="CWMS">OLNN6</SiteName>
+      <SiteName NameType="uuid">606dcda7-8287-4435-9d66-deb4c03b4bf6</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="BasePara-Pseudo-Shef">
+      <Description>
+        Dynamic decoding script to handle basic parameters like stage, precip,
+        battery voltage, etc with SHEF codes and to include some other
+        descriptors.
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan),f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="stage">&gt;HG</FormatStatement>
+        <FormatStatement Label="ST">&gt;HG</FormatStatement>
+        <FormatStatement Label="HG">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
+        </FormatStatement>
+        <FormatStatement Label="HGVAL">
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
+        <FormatStatement Label="precip">&gt;PC</FormatStatement>
+        <FormatStatement Label="rain">&gt;PC</FormatStatement>
+        <FormatStatement Label="prec">&gt;PC</FormatStatement>
+        <FormatStatement Label="PC">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
+        </FormatStatement>
+        <FormatStatement Label="PCVAL">
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BV">&gt;VB</FormatStatement>
+        <FormatStatement Label="BL">&gt;VB</FormatStatement>
+        <FormatStatement Label="VB">x,f(s,a,10d' ',3)</FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE6B8B8E">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>25</ChannelNum>
+      <AssignedTime>00:43</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">09d086d3-34c2-4821-b5c3-6d238eb4b2ae</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">08200df7-255d-4616-8a76-c6b5fb7250f1</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">aee7852b-cbc4-48ea-808e-0fa771309d21</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="14">
+    <Agency>USGS</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:57:24</LastModifyTime>
+    <Site>
+      <Latitude>43.1416515</Latitude>
+      <Longitude>-77.6163445</Longitude>
+      <Elevation>156.0576</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <NearestCity>Rochester</NearestCity>
+      <Description>Genesee River at Ford Street Bridge, Rochester, NY</Description>
+      <SiteName NameType="CWMS">ROHN6</SiteName>
+      <SiteName NameType="uuid">0db970b5-3c46-4f54-b17b-8e861c0a5d65</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="ROHN6-FordStreet-Pbinary">
+      <Description/>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>WV</SensorName>
+        <DataType Standard="SHEF-PE" Code="WV"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>TW</SensorName>
+        <DataType Standard="SHEF-PE" Code="TA"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="4">
+        <SensorName>WC</SensorName>
+        <DataType Standard="SHEF-PE" Code="WC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="5">
+        <SensorName>WP</SensorName>
+        <DataType Standard="SHEF-PE" Code="WP"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="6">
+        <SensorName>WT</SensorName>
+        <DataType Standard="SHEF-PE" Code="WT"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="7">
+        <SensorName>WO</SensorName>
+        <DataType Standard="SHEF-PE" Code="WO"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <DataOrder>D</DataOrder>
+        <FormatStatement Label="start">4x, &gt;scan</FormatStatement>
+        <FormatStatement Label="scan">
+          8(f(s,b,3,1), f(s,b,3,2), f(s,b,3,3), f(s,b,3,4), 3x, f(s,b,3,5),
+          f(s,b,3,6), 3x, f(s,b,3,7), 3x)
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft/s">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="deg C">
+            <Algorithm>linear</Algorithm>
+            <A>0.1</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="4">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="umho/cm">
+            <Algorithm>linear</Algorithm>
+            <A>1.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="5">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="unit">
+            <Algorithm>linear</Algorithm>
+            <A>0.1</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="6">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="FNU">
+            <Algorithm>linear</Algorithm>
+            <A>0.1</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="7">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="mg/L">
+            <Algorithm>linear</Algorithm>
+            <A>0.1</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="DDA2D27A">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>165</ChannelNum>
+      <AssignedTime>00:43:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">0ab6dc08-bfc9-4a99-b1bc-54040921eb48</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">515e02d8-6fc8-4455-9e47-1bc3fa916b39</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">0c405677-8dbe-4b62-b8c4-d254d039762c</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="4">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">ceafbc4a-185f-4879-81ae-a36e4d56c05b</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="5">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">dd84478f-5e6d-4fed-b3cd-25d3821182db</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="6">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">45b959ae-a749-4092-9b1f-b5164baf4d0a</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="7">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">c551a9b1-914f-4f5e-ba49-1af5c7eaf37b</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="15">
+    <Agency>CELRP</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:57:59</LastModifyTime>
+    <Site>
+      <Latitude>41.961667</Latitude>
+      <Longitude>-78.198333</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>PA</State>
+      <NearestCity>Shinglehouse</NearestCity>
+      <SiteName NameType="CWMS">SHNP1</SiteName>
+      <SiteName NameType="uuid">2673f0e2-16a4-443a-ac86-7c337d960f4f</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">null</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="SHNP1-Shinglehouse">
+      <Description/>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>BL</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <DataOrder>D</DataOrder>
+        <FormatStatement Label="scan">4x,&gt;HG</FormatStatement>
+        <FormatStatement Label="HG">12f(s,b,3,1),&gt;PC</FormatStatement>
+        <FormatStatement Label="PC">12f(s,b,3,2),&gt;VB</FormatStatement>
+        <FormatStatement Label="VB">f(s,b,1,3)</FormatStatement>
+        <FormatStatement Label="error"/>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>1.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE216420">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>17</ChannelNum>
+      <AssignedTime>00:48:10</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">9abc1cfc-acbd-4277-a15b-5e4910f22435</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">ee694a95-5a88-42c3-ab7d-56e7a7896995</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">4a64e685-f865-40b1-85ab-3d4781c40e68</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="16">
+    <Agency>USGS</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:49:40</LastModifyTime>
+    <Site>
+      <Latitude>42.122222</Latitude>
+      <Longitude>-77.957222</Longitude>
+      <Elevation>447.906648</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <NearestCity>Wellsville</NearestCity>
+      <SiteName NameType="CWMS">GenR Wellsville</SiteName>
+      <SiteName NameType="uuid">c05efa0c-fa2c-4776-a49b-dd68f70f5104</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="BasePara-Pseudo-Shef">
+      <Description>
+        Dynamic decoding script to handle basic parameters like stage, precip,
+        battery voltage, etc with SHEF codes and to include some other
+        descriptors.
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan),f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="stage">&gt;HG</FormatStatement>
+        <FormatStatement Label="ST">&gt;HG</FormatStatement>
+        <FormatStatement Label="HG">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
+        </FormatStatement>
+        <FormatStatement Label="HGVAL">
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
+        <FormatStatement Label="precip">&gt;PC</FormatStatement>
+        <FormatStatement Label="rain">&gt;PC</FormatStatement>
+        <FormatStatement Label="prec">&gt;PC</FormatStatement>
+        <FormatStatement Label="PC">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
+        </FormatStatement>
+        <FormatStatement Label="PCVAL">
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BV">&gt;VB</FormatStatement>
+        <FormatStatement Label="BL">&gt;VB</FormatStatement>
+        <FormatStatement Label="VB">x,f(s,a,10d' ',3)</FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="DD6E777A">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>163</ChannelNum>
+      <AssignedTime>00:59:10</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">e1e1479d-fdac-48f4-a295-4d3f9d6fa1fd</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">e6b74e6a-fa70-49a4-886b-7a9d5368f8b0</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">1c6a7c3e-0d2d-4cb7-929d-bd65e2b1c494</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="17">
+    <Agency>CELRB</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:53:26</LastModifyTime>
+    <Site>
+      <Latitude>42.7667</Latitude>
+      <Longitude>-77.8386</Longitude>
+      <Elevation>164.628576</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <Description>Genesee River at Jones Bridge near Mount Morris</Description>
+      <SiteName NameType="CWMS">JONN6</SiteName>
+      <SiteName NameType="uuid">b9b0ec3f-3f84-4c41-b8ff-55bdf7b6138a</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="JONN6-Shef">
+      <Description>
+        Dynamic decoding script to handle basic parameters like stage, precip,
+        and battery voltage with SHEF formatted parameter codes.
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan),f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="stage">&gt;HG</FormatStatement>
+        <FormatStatement Label="ST">&gt;HG</FormatStatement>
+        <FormatStatement Label="HG">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
+        </FormatStatement>
+        <FormatStatement Label="HGVAL">
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
+        <FormatStatement Label="rain">&gt;PC</FormatStatement>
+        <FormatStatement Label="PC">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
+        </FormatStatement>
+        <FormatStatement Label="PCVAL">
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BV">&gt;VB</FormatStatement>
+        <FormatStatement Label="VB">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
+        </FormatStatement>
+        <FormatStatement Label="VBVAL">
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE7EE0E4">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>177</ChannelNum>
+      <AssignedTime>00:13</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">1cd940e6-9f12-42fd-bf54-2dba42cfa597</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">1fa36d1d-c70a-4c78-b8fa-f07c35cc7852</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">f2542764-7870-46e6-ab37-64b132680dac</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="18">
+    <Agency>CELRB</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:55:06</LastModifyTime>
+    <Site>
+      <Latitude>42.7332881</Latitude>
+      <Longitude>-77.9070755</Longitude>
+      <Elevation>0.0</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <Description>NERFC stage gauge for MMD.</Description>
+      <SiteName NameType="CWMS">Mount Morris</SiteName>
+      <SiteName NameType="uuid">ef991379-a625-4de7-bc6a-2902fea1bc79</SiteName>
+      <SiteProperty PropertyName="location_type">Dam</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="MountMorris-Shef">
+      <Description>
+        Dynamic decoding script to handle basic parameters like stage, precip,
+        and battery voltage with SHEF formatted parameter codes.
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HP</SensorName>
+        <DataType Standard="SHEF-PE" Code="HP"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>HT</SensorName>
+        <DataType Standard="SHEF-PE" Code="HT"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="4">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan),f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="HG">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
+        </FormatStatement>
+        <FormatStatement Label="HGVAL">
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="HT">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;HTVAL
+        </FormatStatement>
+        <FormatStatement Label="HTVAL">
+          f(s,a,10d' ',2),x,c(':',HTVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
+        <FormatStatement Label="rain">&gt;PC</FormatStatement>
+        <FormatStatement Label="PC">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;PCVAL
+        </FormatStatement>
+        <FormatStatement Label="PCVAL">
+          f(s,a,10d' ',3),x,c(':',PCVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BV">&gt;VB</FormatStatement>
+        <FormatStatement Label="BL">&gt;VB</FormatStatement>
+        <FormatStatement Label="VB">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',4)&gt;VBVAL
+        </FormatStatement>
+        <FormatStatement Label="VBVAL">
+          f(s,a,10d' ',4),x,c(':',VBVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="4">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE1FF35A">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>177</ChannelNum>
+      <AssignedTime>00:13:40</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-NGVD29-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">7c1a00f6-945d-455a-8d90-c34b71d9aba2</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <Site>
+        <Latitude>42.7332408</Latitude>
+        <Longitude>-77.9109486</Longitude>
+        <Elevation>0.0</Elevation>
+        <ElevationUnits>m</ElevationUnits>
+        <Timezone>US/Eastern</Timezone>
+        <Country>UNITED STATES</Country>
+        <State>NY</State>
+        <Description>Mount Morris Dam Tailwater location used to contain tailwater
+          elevations, stages, flows, ratings, etc.</Description>
+        <SiteName NameType="CWMS">Mount Morris-Tailwater</SiteName>
+        <SiteName NameType="uuid">0bac5d43-fab7-48b3-9fbc-33c5d565c1a9</SiteName>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+        <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+        <SiteProperty PropertyName="PUBLIC_NAME">Mount Morris Dam Tailwater</SiteProperty>
+      </Site>
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-NGVD29-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">2d1d4473-2721-4071-b973-231641dd97d8</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">75350a00-7c02-4604-93bc-f3c545b7c8d5</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="4">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">7f3e464d-3e08-4273-8180-07bdf452bdd6</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="20">
+    <Agency>CELRB</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
+    <Site>
+      <Latitude>42.5697</Latitude>
+      <Longitude>-78.0431</Longitude>
+      <Elevation>329.184</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <Description>Stage and discharge gauge on the Genesee River upstream of Mount Morris
+        Dam.</Description>
+      <SiteName NameType="CWMS">PTGN6</SiteName>
+      <SiteName NameType="uuid">90664d51-0503-45cf-85bb-5d46fa579d0f</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="BasePara-Shef">
+      <Description>
+        Dynamic decoding script to handle basic parameters like stage, precip,
+        and battery voltage with SHEF formatted parameter codes.
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan),f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="stage">&gt;HG</FormatStatement>
+        <FormatStatement Label="ST">&gt;HG</FormatStatement>
+        <FormatStatement Label="HG">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
+        </FormatStatement>
+        <FormatStatement Label="HGVAL">
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
+        <FormatStatement Label="rain">&gt;PC</FormatStatement>
+        <FormatStatement Label="PC">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
+        </FormatStatement>
+        <FormatStatement Label="PCVAL">
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BV">&gt;VB</FormatStatement>
+        <FormatStatement Label="BL">&gt;VB</FormatStatement>
+        <FormatStatement Label="VB">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
+        </FormatStatement>
+        <FormatStatement Label="VBVAL">
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE7EEE36">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>177</ChannelNum>
+      <AssignedTime>00:13:10</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">35faa79e-c743-49be-b286-516adae1e87e</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">1028f815-fafa-483c-866c-2d83b6917672</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">42dfe791-2855-4547-ab63-b36f7f5144a0</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="21">
+    <Agency>CELRB</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
+    <Site>
+      <Latitude>42.122222</Latitude>
+      <Longitude>-77.957222</Longitude>
+      <Elevation>448.05600000000004</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <Description>Stage and discharge gauge on the Genesee River at Wellsville, NY</Description>
+      <SiteName NameType="CWMS">WELN6</SiteName>
+      <SiteName NameType="uuid">2ae81f1b-2bcb-40e8-9f12-5874d4269cc5</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="BasePara-Shef">
+      <Description>
+        Dynamic decoding script to handle basic parameters like stage, precip,
+        and battery voltage with SHEF formatted parameter codes.
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan),f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="stage">&gt;HG</FormatStatement>
+        <FormatStatement Label="ST">&gt;HG</FormatStatement>
+        <FormatStatement Label="HG">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
+        </FormatStatement>
+        <FormatStatement Label="HGVAL">
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
+        <FormatStatement Label="rain">&gt;PC</FormatStatement>
+        <FormatStatement Label="PC">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
+        </FormatStatement>
+        <FormatStatement Label="PCVAL">
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BV">&gt;VB</FormatStatement>
+        <FormatStatement Label="BL">&gt;VB</FormatStatement>
+        <FormatStatement Label="VB">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
+        </FormatStatement>
+        <FormatStatement Label="VBVAL">
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE7EFD40">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>177</ChannelNum>
+      <AssignedTime>00:13:30</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">f5730c0f-1aaa-404e-91c6-8ccc5f28b4c2</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">f66c6893-f82f-4e3e-864e-b803b125043c</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">38950b2d-48c1-4dac-b360-6dbe54d638bf</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="22">
+    <Agency>CELRB</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:50:37</LastModifyTime>
+    <Site>
+      <Latitude>42.7447</Latitude>
+      <Longitude>-78.1375</Longitude>
+      <Elevation>300.88332</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <Description>Stage and discharge gauge on Oatka Creek near Warsaw, NY</Description>
+      <SiteName NameType="CWMS">WRSN6</SiteName>
+      <SiteName NameType="uuid">f063108f-9c3b-49fd-b981-1be021278ebf</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">NAD27</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="BasePara-Shef">
+      <Description>
+        Dynamic decoding script to handle basic parameters like stage, precip,
+        and battery voltage with SHEF formatted parameter codes.
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan),f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="stage">&gt;HG</FormatStatement>
+        <FormatStatement Label="ST">&gt;HG</FormatStatement>
+        <FormatStatement Label="HG">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
+        </FormatStatement>
+        <FormatStatement Label="HGVAL">
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
+        <FormatStatement Label="rain">&gt;PC</FormatStatement>
+        <FormatStatement Label="PC">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
+        </FormatStatement>
+        <FormatStatement Label="PCVAL">
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BV">&gt;VB</FormatStatement>
+        <FormatStatement Label="BL">&gt;VB</FormatStatement>
+        <FormatStatement Label="VB">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
+        </FormatStatement>
+        <FormatStatement Label="VBVAL">
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE7EF392">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>177</ChannelNum>
+      <AssignedTime>00:13:20</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">582f23fb-0f3b-42b1-b6bf-f2b402277b5c</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">27ab5be3-1b75-49a1-8208-5a73a29efb9b</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        30Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">6dbd1637-a464-4a0c-93d5-ab16a0c514a5</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="23">
+    <Agency>NOS</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:55:36</LastModifyTime>
+    <Site>
+      <Latitude>43.257961</Latitude>
+      <Longitude>-77.6025</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <NearestCity>Rochester</NearestCity>
+      <SiteName NameType="CWMS">RCRN6</SiteName>
+      <SiteName NameType="uuid">15614ca3-c115-4cff-a021-c43ef352fda8</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="Nos6Min-Rochester">
+      <Description>
+        This 'config' uses the National Ocean Service's
+        "Guide to CO-OPS SHEF and CREX Products". This config is
+        specific for Depth of Reading (HB) converted to Lake Ontario
+        Elevationations, air temperature (TA), and atmospheric pressure (PA) at
+        Rochester NY
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HB</SensorName>
+        <DataType Standard="SHEF-PE" Code="HB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:06</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>TA</SensorName>
+        <DataType Standard="SHEF-PE" Code="TA"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:06</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>PA</SensorName>
+        <DataType Standard="SHEF-PE" Code="PA"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:06</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <DataOrder>D</DataOrder>
+        <FormatStatement Label="start">
+          18P,F(MIN,B,1),3x,F(HR,B,1),&gt;HB
+        </FormatStatement>
+        <FormatStatement Label="HB">
+          S(1,'!',HB),x,F(S,B,3,1),0P,&gt;TA
+        </FormatStatement>
+        <FormatStatement Label="TA">
+          S(1,'4',TA),x,F(S,B,2,2),0P,&gt;PA
+        </FormatStatement>
+        <FormatStatement Label="PA">S(1,'6',PA),x,F(S,B,2,3)</FormatStatement>
+        <FormatStatement Label="error">&gt;start</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="mm">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="deg C">
+            <Algorithm>linear</Algorithm>
+            <A>0.1</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="mb">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="33655136">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>159</ChannelNum>
+      <AssignedTime>00:01:48</AssignedTime>
+      <TransmitWindow>00:00:06</TransmitWindow>
+      <TransmitInterval>00:06</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        TidesAndCurrents-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        6Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">661bfd6d-2068-42a0-9720-1e491cfecde1</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">f2b8d94e-bf0d-4280-9f31-6b1f26c0e0bf</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">4f1f55ff-568f-4dec-b3cb-7892d0f4e625</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="24">
+    <Agency>CENAB</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:52:25</LastModifyTime>
+    <Site>
+      <Latitude>41.9875</Latitude>
+      <Longitude>-77.3025</Longitude>
+      <Elevation>335.28000000000003</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>PA</State>
+      <SiteName NameType="CWMS">ELKP1</SiteName>
+      <SiteName NameType="uuid">31be5853-f839-4cc2-80cb-071210651059</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="ELKP1-Pseudo-Binary">
+      <Description>
+        Stage, precip, and battery load in psuedo binary
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>BL</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <DataOrder>D</DataOrder>
+        <FormatStatement Label="skip">4x,&gt;scan</FormatStatement>
+        <FormatStatement Label="scan">
+          12F(S,B,3,1),12F(S,B,3,2),F(S,B,1,3)
+        </FormatStatement>
+        <FormatStatement Label="error"/>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>linear</Algorithm>
+            <A>1.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE5D231A">
+      <ChannelNum>161</ChannelNum>
+      <AssignedTime>00:05:40</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">7695889d-3ae5-40ce-aaed-dc747bd63d44</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">c7954690-606b-4abf-803c-394383531a77</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">0b56538e-08fa-4045-84d0-3e79ee945fc5</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="25">
+    <Agency>CEORP</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:49:40</LastModifyTime>
+    <Site>
+      <Latitude>42.32944444</Latitude>
+      <Longitude>-78.46361111</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <NearestCity>Hamburg</NearestCity>
+      <SiteName NameType="CWMS">FRKN6</SiteName>
+      <SiteName NameType="uuid">8df04db9-392f-4216-9776-66defd9d8d32</SiteName>
+      <SiteProperty PropertyName="horizontal_datum">NAD83</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="BasePara-Pseudo-Shef">
+      <Description>
+        Dynamic decoding script to handle basic parameters like stage, precip,
+        battery voltage, etc with SHEF codes and to include some other
+        descriptors.
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan),f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="stage">&gt;HG</FormatStatement>
+        <FormatStatement Label="ST">&gt;HG</FormatStatement>
+        <FormatStatement Label="HG">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
+        </FormatStatement>
+        <FormatStatement Label="HGVAL">
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
+        <FormatStatement Label="precip">&gt;PC</FormatStatement>
+        <FormatStatement Label="rain">&gt;PC</FormatStatement>
+        <FormatStatement Label="prec">&gt;PC</FormatStatement>
+        <FormatStatement Label="PC">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
+        </FormatStatement>
+        <FormatStatement Label="PCVAL">
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BV">&gt;VB</FormatStatement>
+        <FormatStatement Label="BL">&gt;VB</FormatStatement>
+        <FormatStatement Label="VB">x,f(s,a,10d' ',3)</FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE19401A">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>25</ChannelNum>
+      <AssignedTime>00:21:10</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">2532e339-4537-41af-b9c3-39e26110b596</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">20db39cf-74ce-4408-ac7f-810ffc23ee2e</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">4789d0e8-0ab2-4595-86b7-49aa7939c88c</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="26">
+    <Agency>CENAB</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:49:40</LastModifyTime>
+    <Site>
+      <Latitude>42.348889</Latitude>
+      <Longitude>-77.704444</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <NearestCity>Hornell</NearestCity>
+      <SiteName NameType="CWMS">HRLN6</SiteName>
+      <SiteName NameType="uuid">a6e1707c-08f9-4484-ba65-cd054e9561bd</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="BasePara-Pseudo-Shef">
+      <Description>
+        Dynamic decoding script to handle basic parameters like stage, precip,
+        battery voltage, etc with SHEF codes and to include some other
+        descriptors.
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan),f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="stage">&gt;HG</FormatStatement>
+        <FormatStatement Label="ST">&gt;HG</FormatStatement>
+        <FormatStatement Label="HG">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
+        </FormatStatement>
+        <FormatStatement Label="HGVAL">
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
+        <FormatStatement Label="precip">&gt;PC</FormatStatement>
+        <FormatStatement Label="rain">&gt;PC</FormatStatement>
+        <FormatStatement Label="prec">&gt;PC</FormatStatement>
+        <FormatStatement Label="PC">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
+        </FormatStatement>
+        <FormatStatement Label="PCVAL">
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BV">&gt;VB</FormatStatement>
+        <FormatStatement Label="BL">&gt;VB</FormatStatement>
+        <FormatStatement Label="VB">x,f(s,a,10d' ',3)</FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE59652A">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>161</ChannelNum>
+      <AssignedTime>00:04:20</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">aae8a275-b25b-4561-9331-02745a1068e6</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">a83dd71f-49e5-49e1-9581-d6706274304f</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">4a3c13a0-4b4e-4f68-a1e8-4bf501dcebe9</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="27">
+    <Agency>USGS</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:51:57</LastModifyTime>
+    <Site>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <SiteName NameType="CWMS">CanaseragaShaker</SiteName>
+      <SiteName NameType="uuid">4f8c4f01-5e19-4a60-b55b-e7013e8977bb</SiteName>
+    </Site>
+    <PlatformConfig ConfigName="CanaseragaCr-ShakersX">
+      <Description/>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>WV</SensorName>
+        <DataType Standard="SHEF-PE" Code="WV"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>TW</SensorName>
+        <DataType Standard="SHEF-PE" Code="TW"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="4">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan), f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="stage">
+          f(moff,a,5d'#'),x,f(mint-,a,5d' ', 1)&gt;stageVal
+        </FormatStatement>
+        <FormatStatement Label="stageVal">
+          f(s,a,10d' ',1), x, c(':',stageVal)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="x_vel">
+          f(moff,a,5d'#'),x,f(mint-,a,5d' ', 2)&gt;x_velVal
+        </FormatStatement>
+        <FormatStatement Label="x_velVal">
+          f(s,a,10d' ',2), x, c(':',x_velVal)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="Temp">
+          f(moff,a,5d'#'),x,f(mint-,a,5d' ', 3)&gt;TempVal
+        </FormatStatement>
+        <FormatStatement Label="TempVal">
+          f(s,a,10d' ',3), x, c(':',TempVal)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BL">f(s,a,6d' ',4)</FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft/s">
+            <Algorithm>linear</Algorithm>
+            <A>0.7456</A>
+            <B>0.1269</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="deg C">
+            <Algorithm>usgs-standard</Algorithm>
+            <A>0.5555555555</A>
+            <B>-32.0</B>
+            <C>1.0</C>
+            <D>0.0</D>
+            <E>1.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="4">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="DF02AF2A">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>41</ChannelNum>
+      <AssignedTime>00:14:10</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">f973145b-e882-40e1-8819-9c971614fc06</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">bc079017-38a2-4314-aa76-5ed34200df56</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">ee1aaa0b-551f-427f-887a-f7e4ff59f08a</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="4">
+      <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+    <PlatformSensorProperty PropertyName="uuid">dbf5b49f-ddb7-4826-829d-fa2cf7bd7392</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="28">
+    <Agency>USGS</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:56:21</LastModifyTime>
+    <Site>
+      <Latitude>42.744167</Latitude>
+      <Longitude>-78.1375</Longitude>
+      <Elevation>300.88332</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <NearestCity>Warsaw</NearestCity>
+      <SiteName NameType="CWMS">OatkaCr Warsaw</SiteName>
+      <SiteName NameType="uuid">abf85e4e-e9f5-4814-9ecd-d21de65a2feb</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NGVD29</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="OatkaCr-Warsaw">
+      <Description/>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PP</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:15</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <DataOrder>D</DataOrder>
+        <FormatStatement Label="scan">4x,12F(S,I,3,1)</FormatStatement>
+        <FormatStatement Label="scan">12F(S,I,3,2)</FormatStatement>
+        <FormatStatement Label="scan">F(S,B,1,3)</FormatStatement>
+        <FormatStatement Label="error"/>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>usgs-standard</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>1.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>usgs-standard</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>1.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>usgs-standard</Algorithm>
+            <A>0.234</A>
+            <B>0.0</B>
+            <C>1.0</C>
+            <D>10.6</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="DD66C052">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>163</ChannelNum>
+      <AssignedTime>00:42:50</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">204a6c57-e1c3-4860-949a-84b0b55320d8</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">a33a4095-133d-4da4-bb5b-cb641b58bebd</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        1Hour
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">0438cd3f-f22f-428a-b7b5-b11f192accf3</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="8">
+    <Agency>USGS</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 21:02:56</LastModifyTime>
+    <Site>
+      <Latitude>42.917778</Latitude>
+      <Longitude>-77.757222</Longitude>
+      <Elevation>152.26588800000002</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <NearestCity>Avon</NearestCity>
+      <SiteName NameType="CWMS">GenR Avon</SiteName>
+      <SiteName NameType="uuid">c559d145-3351-4e6e-bf8d-df05f69814ea</SiteName>
+      <SiteProperty PropertyName="location_type">Stream Gauge</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">NAVD88</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="GenR-Avon-Pshef">
+      <Description/>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>WV</SensorName>
+        <DataType Standard="SHEF-PE" Code="WV"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan), f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="PRESS">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;PVAL
+        </FormatStatement>
+        <FormatStatement Label="PVAL">
+          f(s,a,10d' ',1),x,c(':',PVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="RESULT">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;RVAL
+        </FormatStatement>
+        <FormatStatement Label="RVAL">
+          f(s,a,10d' ',2),x,c(':',RVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BL">T(H), f(s,a,10d' ',3)</FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft/s">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="DF055D9A">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>41</ChannelNum>
+      <AssignedTime>00:22:20</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">342df1bb-b398-4f2d-a5ab-ea53996a5530</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">1b2a028e-feac-4dd4-9bca-84356dd25703</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsVersion">
+        GOES-Raw
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="cwmsInterval">
+        1Hour
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">208cf6dc-b629-4056-ad8c-2f14abec87ab</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+  <Platform PlatformId="19">
+    <Agency>CENAB</Agency>
+    <IsProduction>true</IsProduction>
+    <LastModifyTime>01/12/2021 20:48:17</LastModifyTime>
+    <Site>
+      <Latitude>42.395833</Latitude>
+      <Longitude>-77.716667</Longitude>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>M</ElevationUnits>
+      <Timezone>US/Eastern</Timezone>
+      <Country>UNITED STATES</Country>
+      <State>NY</State>
+      <NearestCity>Arkport</NearestCity>
+      <SiteName NameType="CWMS">AKLN6</SiteName>
+      <SiteName NameType="uuid">b695967d-c050-4428-ab1e-db9407fe9d2f</SiteName>
+      <SiteProperty PropertyName="location_type">Dry Dam</SiteProperty>
+      <SiteProperty PropertyName="vertical_datum">null</SiteProperty>
+      <SiteProperty PropertyName="horizontal_datum">WGS84</SiteProperty>
+    </Site>
+    <PlatformConfig ConfigName="AKLN6-Pseudo-Shef">
+      <Description>
+        Dynamic decoding script to handle basic parameters like stage, precip,
+        and battery voltage with SHEF formatted parameter codes.
+      </Description>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>HG</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>VB</SensorName>
+        <DataType Standard="SHEF-PE" Code="VB"/>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>00:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes:goes-self-timed</ScriptType>
+        <FormatStatement Label="scan">
+          s(1,a,scan),f(f,a,10d' ')
+        </FormatStatement>
+        <FormatStatement Label="stage">&gt;HG</FormatStatement>
+        <FormatStatement Label="ST">&gt;HG</FormatStatement>
+        <FormatStatement Label="HG">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',1)&gt;HGVAL
+        </FormatStatement>
+        <FormatStatement Label="HGVAL">
+          f(s,a,10d' ',1),x,c(':',HGVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="RainAcc">&gt;PC</FormatStatement>
+        <FormatStatement Label="rain">&gt;PC</FormatStatement>
+        <FormatStatement Label="TB">&gt;PC</FormatStatement>
+        <FormatStatement Label="PC">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',2)&gt;PCVAL
+        </FormatStatement>
+        <FormatStatement Label="PCVAL">
+          f(s,a,10d' ',2),x,c(':',PCVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="BV">&gt;VB</FormatStatement>
+        <FormatStatement Label="BL">&gt;VB</FormatStatement>
+        <FormatStatement Label="VB">
+          f(moff,a,4d'#'),x,f(mint-,a,3d' ',3)&gt;VBVAL
+        </FormatStatement>
+        <FormatStatement Label="VBVAL">
+          f(s,a,10d' ',3),x,c(':',VBVAL)&gt;scan
+        </FormatStatement>
+        <FormatStatement Label="error">&gt;scan</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="ft">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="in">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+            <A>0.0</A>
+            <B>0.0</B>
+            <C>0.0</C>
+            <D>0.0</D>
+            <E>0.0</E>
+            <F>0.0</F>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE437E42">
+      <DecodesScript ScriptName="ST"/>
+      <ChannelNum>161</ChannelNum>
+      <AssignedTime>00:04:40</AssignedTime>
+      <TransmitWindow>00:00:10</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">61980cf7-106c-410c-a701-c7691f894f1e</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        15Minutes
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">ef8cbde1-0e18-4959-a824-66f35df68d6e</PlatformSensorProperty>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <PlatformSensorProperty PropertyName="CwmsParamType">
+        Inst
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsInterval">
+        1Hour
+      </PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="omit">True</PlatformSensorProperty>
+      <PlatformSensorProperty PropertyName="CwmsDuration">
+        0
+      </PlatformSensorProperty>
+      
+<PlatformSensorProperty PropertyName="uuid">1766fb8f-cc92-49fd-a198-39072670fe40</PlatformSensorProperty>
+    </PlatformSensor>
+  </Platform>
+</Database>
