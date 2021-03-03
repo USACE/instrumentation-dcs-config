@@ -1,0 +1,1804 @@
+[
+    {
+        "isproduction": "true",
+        "lastmodifytime": "07/22/2020 20:57:00",
+        "site": {
+            "latitude": 40.4277,
+            "longitude": -85.039,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Portland",
+            "description": "Portland - Salamonie",
+            "sitenames": {
+                "cwms": "Portland",
+                "nwshb5": "PORI3",
+                "usgs": "03324200",
+                "01": "03324200",
+                "uuid": "f612a243-1673-4451-899d-5fd44c4a4f77"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "DD46A45A"
+        },
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Stage",
+                "uuid": "4160e63a-dcde-44a8-9663-92b44b24683c"
+            }
+        },
+        "platform_sensors": [],
+        "id": "1834004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "10/22/2020 21:22:37",
+        "site": {
+            "latitude": 40.6439,
+            "longitude": -85.0309,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Berne",
+            "description": "Linn Grove - Wabash",
+            "sitenames": {
+                "cwms": "Linn Grove",
+                "nwshb5": "LYNI3",
+                "usgs": "03322900",
+                "01": "03322900",
+                "uuid": "38c604e4-dd58-4ac1-9e4d-d456318b1705"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE6B687C"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Stage"
+            },
+            "Precip": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "68e78324-d526-4dfd-8b81-83ee4d3e39b9"
+            }
+        },
+        "platform_sensors": [],
+        "id": "1844004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "12/14/2020 19:12:15",
+        "site": {
+            "latitude": 43.9539,
+            "longitude": -88.95,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "WI",
+            "nearestcity": "Oshkosh",
+            "description": "Fox River at Berlin",
+            "sitenames": {
+                "cwms": "Berlin",
+                "nwshb5": "BERW3",
+                "usgs": "04073500",
+                "01": "04073500",
+                "uuid": "14e312f7-bb7e-4f88-afb1-8da275148025"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE72E178"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Stage": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "feet",
+                "Code": "Stage"
+            },
+            "Precip": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "fb281ee2-2fa3-496e-a4b6-fa61d88680a7"
+            },
+            "Battery": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "volt",
+                "Code": "Volts",
+                "uuid": "8647c2c7-29b4-42d3-83a0-4613486e557f"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2167004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "09/21/2020 20:00:45",
+        "site": {
+            "latitude": 41.65,
+            "longitude": -87.5611,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "IL",
+            "nearestcity": "Dolton",
+            "description": "Obrien Lock and Dam near Burnham IL",
+            "sitenames": {
+                "cwms": "Obrien",
+                "nwshb5": "OBII2",
+                "uuid": "edb24776-da77-4962-98ed-15515ad8b7ed"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE2A970C"
+        },
+        "config_sensors": {
+            "Elev-Pool": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "feet",
+                "Code": "Elev-Pool",
+                "uuid": "71c19738-9eee-4479-aacc-e17376d349b5"
+            },
+            "Elev-Tailwater": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "feet",
+                "Code": "Elev-Tailwater",
+                "uuid": "4f05ec6f-43fb-410b-a9cd-1f0c22ecce49"
+            },
+            "Precip": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "f581ee43-2497-429b-a0bf-ea9c62f00570"
+            },
+            "Wind Speed": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "mi/hr",
+                "Code": "Wind Speed",
+                "uuid": "4758dfec-7ca0-47f0-ba9b-a25c4dfbf8a9"
+            },
+            "Wind DIrection": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "deg",
+                "Code": "Wind Direction",
+                "uuid": "18addf98-85b2-4f5c-81fa-c8d28460fb6f"
+            },
+            "Air Temp": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "degF",
+                "Code": "Air Temp",
+                "uuid": "6b1b0506-5899-450b-973d-b0b5b748e70c"
+            },
+            "Water Temp": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "degF",
+                "Code": "Water Temp",
+                "uuid": "6abb2e99-fd5d-4b8e-8835-0416b9623428"
+            },
+            "Battery": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "volt",
+                "Code": "Volt",
+                "uuid": "eac44c95-1683-4db0-96b9-a994c832953c"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2554004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "09/09/2020 21:42:38",
+        "site": {
+            "latitude": 43.8,
+            "longitude": -88.4561,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "WI",
+            "nearestcity": "Fond du Lac",
+            "description": "Fond Du Lac on Lake Winnebago",
+            "sitenames": {
+                "cwms": "FondDuLac",
+                "nwshb5": "FDLW3",
+                "uuid": "67ec7930-57ba-4d08-9280-d428e995cd59"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE72DA30"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Elevation": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "feet",
+                "Code": "Elev"
+            },
+            "Precip": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "6b2c65a3-ff0f-4117-ac5f-c62dae28e92d"
+            },
+            "Temperature": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "degF",
+                "Code": "Temp",
+                "uuid": "67cd26fd-79fc-4b02-a2e7-38717a10dd49"
+            },
+            "Battery": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "volts",
+                "Code": "Volt",
+                "uuid": "4c493114-335d-4dd5-9b2f-f95113c45432"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2484004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "09/09/2020 21:46:44",
+        "site": {
+            "latitude": 44.1994,
+            "longitude": -88.4472,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "state": "WI",
+            "nearestcity": "Appleton",
+            "description": "Menasha",
+            "sitenames": {
+                "cwms": "Menasha",
+                "nwshb5": "MNSW3",
+                "uuid": "52178424-b9be-46c7-9f60-305ab9d2b27d"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE72D4E2"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Elevation": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "feet",
+                "Code": "Elev"
+            },
+            "Precip": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "1a010b68-add4-47e3-9aa0-b5690f2d40af"
+            },
+            "Temp": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "degF",
+                "Code": "Temp",
+                "uuid": "985d4459-b164-4074-9ab7-64cac065495e"
+            },
+            "Battery": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "volts",
+                "Code": "Volts",
+                "uuid": "41fbc28d-ab72-481c-a30f-87147cbd6ccc"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2488004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "10/21/2020 18:32:57",
+        "site": {
+            "latitude": 41.5697,
+            "longitude": -88.0789,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "IL",
+            "nearestcity": "Crest Hill",
+            "description": "Chicago Sanitary and Ship Canal at Lockport Lock and Dam",
+            "sitenames": {
+                "cwms": "Lockport",
+                "nwshb5": "LOKI2",
+                "uuid": "9a09251e-fff3-4d02-83e9-e7a539185376"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE720C58"
+        },
+        "config_sensors": {
+            "Elev-Pool": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "feet",
+                "Code": "Elev",
+                "uuid": "5aaa246b-1ae8-47d5-9fb3-4fc2b7067563"
+            },
+            "Elev-Tailwater": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "feet",
+                "Code": "Elev-Tailwater",
+                "uuid": "5053c6c3-1706-4063-89d2-521613433164"
+            },
+            "Precip": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "7fa71a24-0632-4bbb-9d6b-78c60215ec7d"
+            },
+            "Wind Speed": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "mi/hr",
+                "Code": "Wind Speed",
+                "uuid": "b8957b1f-0d91-4299-8532-6806c2061ad7"
+            },
+            "Wind Direction": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "deg",
+                "Code": "Wind Dir",
+                "uuid": "22126e96-2216-4948-a208-c590a29d409c"
+            },
+            "Air Temp": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "degF",
+                "Code": "Air Temp",
+                "uuid": "ed5b37ba-0f46-4196-8062-b4de40baefb4"
+            },
+            "Water Temp": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "degF",
+                "Code": "Water Temp",
+                "uuid": "bb1566e8-2dba-4a98-859c-2606fb3441c6"
+            },
+            "Battery": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "volts",
+                "Code": "Volt",
+                "uuid": "b5017d0b-f85e-4846-8d38-9fed123cd630"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2555004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "07/16/2020 16:34:27",
+        "site": {
+            "latitude": 40.7233,
+            "longitude": -85.9575,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Peru",
+            "description": "Mississinewa Tailwater",
+            "sitenames": {
+                "cwms": "Mississinewa-Tailwater",
+                "nwshb5": "MISI3",
+                "usgs": "03327000",
+                "01": "03327000",
+                "uuid": "6cf5ad41-8a7f-4b6e-8b89-9468b8d724e1"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE7723A6"
+        },
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Stage",
+                "uuid": "ea18cd40-fc33-425a-8d66-8985de755ec8"
+            },
+            "Temp-Water": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "DegC",
+                "Code": "Temp-Water",
+                "uuid": "e3e54755-2623-470c-912b-1ddc8db148ab"
+            },
+            "Battery": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Volts",
+                "Code": "Volt",
+                "uuid": "885990f0-5a6f-4082-88ac-121a8f0673f2"
+            }
+        },
+        "platform_sensors": [],
+        "id": "932004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "07/27/2020 21:48:21",
+        "site": {
+            "latitude": 40.5764,
+            "longitude": -85.6595,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Greentown",
+            "description": "Marion - Mississinewa",
+            "sitenames": {
+                "cwms": "Marion",
+                "nwshb5": "MROI3",
+                "usgs": "03326500",
+                "01": "03326500",
+                "uuid": "800fc3e6-a171-4e99-955c-5e0d264ffd29"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE6B5DE6"
+        },
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Stage",
+                "uuid": "4f011056-fba7-47ca-bdc9-09226c5f84b8"
+            }
+        },
+        "platform_sensors": [],
+        "id": "1971004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "07/22/2020 14:58:06",
+        "site": {
+            "latitude": 40.7144,
+            "longitude": -85.9572,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Peru",
+            "description": "Mississinewa Pool",
+            "sitenames": {
+                "cwms": "Mississinewa-Pool",
+                "nwshb5": "MSSI3",
+                "usgs": "03326950",
+                "01": "03326950",
+                "uuid": "38ef8580-6278-4942-bb35-b1d3ac24412c"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE108358"
+        },
+        "config_sensors": {
+            "Elevation": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Elev",
+                "uuid": "e83fd619-7685-4909-b879-2d294f67e8d3"
+            }
+        },
+        "platform_sensors": [],
+        "id": "1638004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "09/09/2020 21:42:07",
+        "site": {
+            "latitude": 40.7424,
+            "longitude": -85.1714,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Huntington",
+            "description": "Bluffton",
+            "sitenames": {
+                "cwms": "Bluffton",
+                "nwshb5": "AQPI3",
+                "usgs": "04099510",
+                "01": "04099510",
+                "uuid": "969c94eb-70bd-45c1-b23e-17399faa4605"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "17D2F560"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Stage"
+            },
+            "Precip": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "aa052193-1d8b-4b76-bf2d-0fb2a6270796"
+            }
+        },
+        "platform_sensors": [],
+        "id": "1751004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "07/29/2020 19:32:49",
+        "site": {
+            "latitude": 40.4413,
+            "longitude": -85.9188,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Greentown",
+            "description": "Jerome - Wildcat Creek",
+            "sitenames": {
+                "cwms": "Jerome",
+                "nwshb5": "JRMI3",
+                "usgs": "03333450",
+                "01": "03333450",
+                "uuid": "3631051d-ead4-46e8-a09b-42f5cee9ef0d"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "D11EE2FE"
+        },
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Stage",
+                "uuid": "1af576d1-4523-48ed-8a45-c7a5e3948f31"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2000004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "07/29/2020 19:39:50",
+        "site": {
+            "latitude": 40.4709,
+            "longitude": -86.1529,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Kokomo",
+            "description": "Kokomo - Wilcat Creek",
+            "sitenames": {
+                "cwms": "Kokomo",
+                "nwshb5": "OKKI3",
+                "usgs": "03333700",
+                "01": "03333700",
+                "uuid": "62ba81af-0197-4a1d-b0f8-cc7d8e5ba1e5"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "173623B8"
+        },
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Stage",
+                "uuid": "0434e694-e26f-4f47-8ce8-7c3004fe56b8"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2008004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "07/29/2020 19:56:41",
+        "site": {
+            "latitude": 40.4648,
+            "longitude": -86.6366,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Cutler",
+            "description": "Owasco - Wildcat Creek",
+            "sitenames": {
+                "cwms": "Owasco",
+                "nwshb5": "OWCI3",
+                "usgs": "03334000",
+                "01": "03334000",
+                "uuid": "d5b41092-230b-414e-b2f2-57f7a792c6cc"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "167526C8"
+        },
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Stage",
+                "uuid": "fe2db5ab-2827-4dbe-8d83-216e38a5a579"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2016004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "08/03/2020 19:48:20",
+        "site": {
+            "latitude": 40.5903,
+            "longitude": -86.6214,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Delphi",
+            "description": "Deer Creek",
+            "sitenames": {
+                "cwms": "Deer Creek",
+                "nwshb5": "DCDI3",
+                "usgs": "03329700",
+                "01": "03329700",
+                "uuid": "48fe98a9-38ae-487e-9f26-e0cc37b9699d"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "DE4B8336"
+        },
+        "config_sensors": {
+            "Stage": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "feet",
+                "Code": "Stage",
+                "uuid": "3bfa38b8-6cef-488b-b1b6-33ac0c9247d1"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2061004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "10/23/2020 20:19:53",
+        "site": {
+            "latitude": 40.8072,
+            "longitude": -85.6772,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Wabash",
+            "description": "Salamonie Tailwater",
+            "sitenames": {
+                "cwms": "Salamonie-Tailwater",
+                "nwshb5": "SALI3",
+                "usgs": "03324500",
+                "01": "03324500",
+                "uuid": "1668b0f0-ce59-4ca3-82cc-e2392a983c41"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE7718EE"
+        },
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Stage",
+                "uuid": "78dd9841-507f-4601-bd29-856cc73443b8"
+            },
+            "Temp-Water": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "DegC",
+                "Code": "Temp-Water",
+                "uuid": "5dd0261c-11b1-4a51-849e-8593155bc00e"
+            },
+            "Precip": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip"
+            }
+        },
+        "platform_sensors": [],
+        "id": "1701004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "10/22/2020 21:27:50",
+        "site": {
+            "latitude": 40.7125,
+            "longitude": -85.4536,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Huntington",
+            "description": "Warren - Salamonie",
+            "sitenames": {
+                "cwms": "Warren",
+                "nwshb5": "WRNI3",
+                "usgs": "03324300",
+                "01": "03324300",
+                "uuid": "6cea522c-9e43-43a0-8e0e-02f82d41ae06"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE6B66AE"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Stage"
+            },
+            "Precip": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "11ffd890-5abf-4110-a917-4dd1bfb77654"
+            },
+            "Battery": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Volts",
+                "Code": "Volts",
+                "uuid": "a1f7000c-3191-4058-9169-3269e97d6c0f"
+            }
+        },
+        "platform_sensors": [],
+        "id": "1737004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "07/23/2020 22:36:49",
+        "site": {
+            "latitude": 40.8461,
+            "longitude": -85.4686,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Huntington",
+            "description": "J Edward Roush Pool",
+            "sitenames": {
+                "cwms": "J Edward Roush-Pool",
+                "nwshb5": "HUNI3",
+                "usgs": "03323450",
+                "01": "03323450",
+                "uuid": "bfc6ab1f-801a-4039-81e0-2a3755e0bb23"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE10C052"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Elevation": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Elev"
+            }
+        },
+        "platform_sensors": [],
+        "id": "1789004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "07/23/2020 22:39:12",
+        "site": {
+            "latitude": 40.8533,
+            "longitude": -85.4898,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Huntington",
+            "description": "J Edward Roush Tailwater",
+            "sitenames": {
+                "cwms": "J Edward Roush-Tailwater",
+                "nwshb5": "HNTI3",
+                "usgs": "03323500",
+                "01": "03323500",
+                "uuid": "ce3729fc-a175-49e3-938b-f2bd0b92e61c"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE77163C"
+        },
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Stage",
+                "uuid": "1f86e134-dc82-4f14-807f-f5407ac9062d"
+            },
+            "Temp-Water": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "DegC",
+                "Code": "Temp-Water",
+                "uuid": "a800cec1-0638-4fba-b13e-0f75f81ac351"
+            }
+        },
+        "platform_sensors": [],
+        "id": "1790004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "10/22/2020 21:27:02",
+        "site": {
+            "latitude": 40.7908,
+            "longitude": -85.8203,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Wabash",
+            "description": "Wabash - Wabash",
+            "sitenames": {
+                "cwms": "Wabash",
+                "nwshb5": "WABI3",
+                "usgs": "03325000",
+                "01": "03325000",
+                "uuid": "3ead0f70-dab6-45f4-9878-bb80b45191ad"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE16B60C"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Stage"
+            },
+            "Precip": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "be67fbb1-af3a-4b93-8a44-ede4ab5fa4ed"
+            },
+            "Battery": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Volts",
+                "Code": "Volts",
+                "uuid": "dec9b9ad-636f-48d4-b5cc-bf3d8cd394c8"
+            }
+        },
+        "platform_sensors": [],
+        "id": "1860004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "07/29/2020 20:35:08",
+        "site": {
+            "latitude": 40.4406,
+            "longitude": -86.8292,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Lafayette",
+            "description": "Lafayette - Wildcat Creek",
+            "sitenames": {
+                "cwms": "LafayetteWildcat",
+                "nwshb5": "LYTI3",
+                "usgs": "03335000",
+                "01": "03335000",
+                "uuid": "ede9302f-6dbf-4493-97b2-884846f74570"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE6B0D9A"
+        },
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Stage",
+                "uuid": "095f0b67-b9d5-45ec-86c1-3b59cf6119de"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2040004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "10/22/2020 21:22:00",
+        "site": {
+            "latitude": 40.5939,
+            "longitude": -86.7703,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "West Lafayette",
+            "description": "Tippecanoe River near Delphi, IN",
+            "sitenames": {
+                "cwms": "Delphi",
+                "nwshb5": "DBUI3",
+                "usgs": "03333050",
+                "01": "03333050",
+                "uuid": "d083e4cb-9269-4c73-8a4f-27bf87f675c9"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "DDA6F1AC"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Stage": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "feet",
+                "Code": "Stage"
+            },
+            "Precipitation": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "039718f5-9cfe-4f8d-b999-0a3ef64f1cce"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2072004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "08/03/2020 19:53:13",
+        "site": {
+            "latitude": 41.3206,
+            "longitude": -85.7892,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Warsaw",
+            "description": "Tippecanoe River at Oswego, IN",
+            "sitenames": {
+                "cwms": "Oswego",
+                "nwshb5": "OWGI3",
+                "usgs": "03330500",
+                "01": "03330500",
+                "uuid": "dbeeba6e-b039-4a07-9d2e-a1988698324e"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "17853608"
+        },
+        "config_sensors": {
+            "Stage": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "feet",
+                "Code": "Stage",
+                "uuid": "e486c51f-716e-4da6-a8b2-ce6593d0d798"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2079004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "10/22/2020 21:24:59",
+        "site": {
+            "latitude": 41.1572,
+            "longitude": -86.5636,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Logansport",
+            "description": "Tippecanoe River near Ora, IN",
+            "sitenames": {
+                "cwms": "Ora",
+                "nwshb5": "ORAI3",
+                "usgs": "03331500",
+                "01": "03331500",
+                "uuid": "7438be47-82ea-4e31-9a6a-ebe60c308d8f"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "DD8F700A"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Stage": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "feet",
+                "Code": "Stage"
+            },
+            "Precip": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "3181fe5f-530a-42c3-9a34-dad110ce54c6"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2084004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "08/03/2020 20:04:22",
+        "site": {
+            "latitude": 40.9944,
+            "longitude": -85.7825,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Wabash",
+            "description": "Eel River at  North Manchester, IN",
+            "sitenames": {
+                "cwms": "North Manchester",
+                "nwshb5": "NMCI3",
+                "usgs": "03328000",
+                "01": "03328000",
+                "uuid": "d37eb7f9-1453-47cd-b8bb-505d32beb899"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "163D923C"
+        },
+        "config_sensors": {
+            "Stage": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "feet",
+                "Code": "Stage",
+                "uuid": "bebd35a2-514d-4fc5-a99d-9c2fe3256a6e"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2092004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "08/03/2020 19:47:16",
+        "site": {
+            "latitude": 41.3164,
+            "longitude": -85.6922,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "North Webster",
+            "description": "Tippecanoe River at North Webster, IN",
+            "sitenames": {
+                "cwms": "North Webster",
+                "nwshb5": "NWTI3",
+                "usgs": "03330241",
+                "01": "03330241",
+                "uuid": "f89c9bc9-8f33-4dbe-b225-a58e17176f5f"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "DD3E3032"
+        },
+        "config_sensors": {
+            "Stage": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "feet",
+                "Code": "Stage",
+                "uuid": "d7756c61-1333-420e-a977-0c8959ab95b5"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2097004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "09/09/2020 21:46:04",
+        "site": {
+            "latitude": 44.3922,
+            "longitude": -88.7403,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "WI",
+            "nearestcity": "Appleton",
+            "description": "Wolf River at New London",
+            "sitenames": {
+                "cwms": "NewLondon",
+                "nwshb5": "NEWW3",
+                "usgs": "04079000",
+                "01": "04079000",
+                "uuid": "72b78850-7c4b-43f2-ab4e-0d6d4f4b6dc4"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE72FCDC"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Stage": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "feet",
+                "Code": "Stage"
+            },
+            "Precip": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "a4c38923-55e2-4cb4-8dc4-18c03f3588ae"
+            },
+            "Battery": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "volts",
+                "Code": "Volts",
+                "uuid": "357f36a4-79c7-473d-8981-7873d9189008"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2194004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "09/09/2020 21:47:15",
+        "site": {
+            "latitude": 44.0097,
+            "longitude": -88.5272,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "WI",
+            "nearestcity": "Oshkosh",
+            "description": "Oshkosh",
+            "sitenames": {
+                "cwms": "Oshkosh",
+                "nwshb5": "OSHW3",
+                "usgs": "04082500",
+                "01": "04082500",
+                "uuid": "0bf054e8-28b2-44d1-82a5-cdfea7bd24fe"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE58F2B2"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Elevation": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "feet",
+                "Code": "Elev"
+            },
+            "Precip": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "17c64d94-06ee-4385-9812-7828ccb855e9"
+            },
+            "Battery": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "volts",
+                "Code": "Volts",
+                "uuid": "3f948fe7-dfc1-4211-a1cb-3f63e48ffd58"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2195004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "09/09/2020 21:45:35",
+        "site": {
+            "latitude": 44.4125,
+            "longitude": -88.8653,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "WI",
+            "nearestcity": "Appleton",
+            "description": "Little Wolf River at Royalton",
+            "sitenames": {
+                "cwms": "Royalton",
+                "nwshb5": "ROYW3",
+                "usgs": "04080000",
+                "01": "04080000",
+                "uuid": "254210ea-46fd-4bd6-bf8e-9886b628bde0"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE72EFAA"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "feet",
+                "Code": "Stage"
+            },
+            "Precip": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "8529f564-6af4-4a86-ab17-89755f6657ff"
+            },
+            "Battery": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "volts",
+                "Code": "Volts",
+                "uuid": "3a81c571-cd82-4fd4-8955-88f7785289d7"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2196004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "09/09/2020 21:47:55",
+        "site": {
+            "latitude": 44.4125,
+            "longitude": -88.8653,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "WI",
+            "nearestcity": "Appleton",
+            "description": "Lake Winnebago at Stockbridge",
+            "sitenames": {
+                "cwms": "Stockbridge",
+                "nwshb5": "STKW3",
+                "usgs": "04084255",
+                "01": "04084255",
+                "uuid": "22c0eb9c-ccf5-4267-9280-3e5f36497a60"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE72F20E"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Elevation": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "feet",
+                "Code": "Elev"
+            },
+            "Precip": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "3904a255-4813-48e1-9a5c-084407e04728"
+            },
+            "Battery": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "volts",
+                "Code": "Volts",
+                "uuid": "646a812d-bd0a-4047-ba1c-a4aeb0df69f1"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2197004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "09/09/2020 21:41:43",
+        "site": {
+            "latitude": 44.3292,
+            "longitude": -88.9961,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "WI",
+            "nearestcity": "Neenah",
+            "description": "Waupaca River near Waupaca",
+            "sitenames": {
+                "cwms": "Waupaca",
+                "nwshb5": "WPCW3",
+                "usgs": "04081000",
+                "01": "04081000",
+                "uuid": "4fa4f306-95b4-4ec2-b4b1-4f3f87576804"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE730070"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "feet",
+                "Code": "Stage"
+            },
+            "Precip": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "e3f6ad0c-1f3a-480a-87e5-c0a80ca1177d"
+            },
+            "Battery": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "volts",
+                "Code": "Volts",
+                "uuid": "0c3b4416-baea-4d13-b9cc-f2f197f06692"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2198004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "09/09/2020 21:43:48",
+        "site": {
+            "latitude": 44.205,
+            "longitude": -88.4703,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "WI",
+            "nearestcity": "Menasha",
+            "description": "Fox River at Fritse Park- Town of Menasha",
+            "sitenames": {
+                "cwms": "FritsePark",
+                "nwshb5": "OSKW3",
+                "uuid": "1be8618a-27cc-4f01-9028-779daa13ec2c"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE26C6EC"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Elevation": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "feet",
+                "Code": "Elev"
+            },
+            "Precip": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "3ef4d0a2-e6fa-4ae4-8a3b-3ff2092d41ef"
+            },
+            "Battery": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "volts",
+                "Code": "Volts",
+                "uuid": "7526ab49-79eb-495a-a552-13b42fd727a0"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2234004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "12/09/2020 21:54:04",
+        "site": {
+            "latitude": 44.1108,
+            "longitude": -88.7125,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/Central",
+            "country": "UNITED STATES",
+            "state": "WI",
+            "nearestcity": "Oshkosh",
+            "description": "Lake Poygan near Winneconne",
+            "sitenames": {
+                "cwms": "Poygan",
+                "nwshb5": "WNCW3",
+                "uuid": "4b45639e-54b7-4cd7-aff5-8ad04fe244cf"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE72C946"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Elev-Encoder": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Elev-Encoder"
+            },
+            "Elev-Transducer": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Elev-Transducer",
+                "uuid": "854583bf-3f12-4a85-a300-ac5721054544"
+            },
+            "Precip-Inc": {
+                "Standard": "HDB",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip-Inc",
+                "uuid": "1cf848ed-34c7-41bb-90ef-2e57f67cba87"
+            },
+            "Temp": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "DegF",
+                "Code": "Temp",
+                "uuid": "61c178ee-957e-4fdb-a74a-0233424badcf"
+            },
+            "Battery": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "v",
+                "Code": "Volt",
+                "uuid": "fa5a8dc0-706a-491f-8bcd-e8497d44897c"
+            }
+        },
+        "platform_sensors": [],
+        "id": "2235004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "07/22/2020 14:52:48",
+        "site": {
+            "latitude": 40.8072,
+            "longitude": -85.6772,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Wabash",
+            "description": "Salamonie Pool",
+            "sitenames": {
+                "cwms": "Salamonie-Pool",
+                "nwshb5": "SLAI3",
+                "usgs": "03324450",
+                "01": "03324450",
+                "uuid": "efe1a571-a8c6-4101-bd58-ed596f7fea0d"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE6D2BB8"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Elevation": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Elev"
+            }
+        },
+        "platform_sensors": [],
+        "id": "1670004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "10/22/2020 21:26:04",
+        "site": {
+            "latitude": 40.75,
+            "longitude": -86.0667,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Peru",
+            "description": "Peru - Wabash",
+            "sitenames": {
+                "cwms": "Peru",
+                "nwshb5": "PRUI3",
+                "usgs": "03327500",
+                "01": "03327500",
+                "uuid": "511e0e84-6c04-4280-b5c1-e2039faacb96"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE777D08"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Stage"
+            },
+            "Precip": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "3dc592a7-fa28-4eb1-8980-8c1c884384fb"
+            },
+            "Battery": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "v",
+                "Code": "Volts",
+                "uuid": "caca5e29-8f4a-43f5-a206-595877203d01"
+            }
+        },
+        "platform_sensors": [],
+        "id": "1870004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "07/23/2020 22:57:04",
+        "site": {
+            "latitude": 40.7464,
+            "longitude": -86.3775,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Logansport",
+            "description": "Logansport - Wabash",
+            "sitenames": {
+                "cwms": "Logansport",
+                "nwshb5": "LGNI3",
+                "usgs": "03329000",
+                "01": "03329000",
+                "uuid": "df019cda-8877-4357-b0fd-a3561bc886e2"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE6D256A"
+        },
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Stage",
+                "uuid": "9f06f2fb-5082-4ed0-a171-a419de3486d6"
+            }
+        },
+        "platform_sensors": [],
+        "id": "1876004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "07/23/2020 23:01:42",
+        "site": {
+            "latitude": 40.4219,
+            "longitude": -86.8969,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Lafayette",
+            "description": "Lafayette-Wabash",
+            "sitenames": {
+                "cwms": "Lafayette",
+                "nwshb5": "LAFI3",
+                "usgs": "03335500",
+                "01": "03335500",
+                "uuid": "fc21da72-2171-45a3-832b-17074b81b8f4"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE6D361C"
+        },
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Stage",
+                "uuid": "96b4d216-2f54-4f13-9932-6f99e6f6fcc6"
+            }
+        },
+        "platform_sensors": [],
+        "id": "1896004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "10/22/2020 21:23:28",
+        "site": {
+            "latitude": 40.8986,
+            "longitude": -85.4132,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Greentown",
+            "description": "Little River near Huntington",
+            "sitenames": {
+                "cwms": "LittleRiver",
+                "nwshb5": "LRHI3",
+                "usgs": "03324000",
+                "01": "03324000",
+                "uuid": "1521a313-cf26-400e-b58d-676fbe1bc033"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE14B3F8"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "Feet",
+                "Code": "Stage"
+            },
+            "Precip": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "a054712a-68a8-4ec7-bc28-4573c18d677e"
+            }
+        },
+        "platform_sensors": [],
+        "id": "1960004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "09/16/2020 15:26:15",
+        "site": {
+            "latitude": 40.14,
+            "longitude": -87.4067,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Danville",
+            "description": "Wabash River at Covington, IN",
+            "sitenames": {
+                "cwms": "Covington",
+                "nwshb5": "CVGI3",
+                "usgs": "03336000",
+                "01": "03336000",
+                "uuid": "d235816d-4546-4261-9db8-e1d0568bf6b7"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE16C09C"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "feet",
+                "Code": "Stage"
+            },
+            "Precip": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "7aefe745-c907-435c-b49a-c86a0be20215"
+            }
+        },
+        "platform_sensors": [],
+        "id": "3247004"
+    },
+    {
+        "isproduction": "true",
+        "lastmodifytime": "09/16/2020 15:20:35",
+        "site": {
+            "latitude": 39.7925,
+            "longitude": -87.3739,
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "m",
+            "timezone": "US/East-Indiana",
+            "country": "UNITED STATES",
+            "state": "IN",
+            "nearestcity": "Terre Haute",
+            "description": "Wabash River at Montezuma, IN",
+            "sitenames": {
+                "cwms": "Montezuma",
+                "nwshb5": "MTZI3",
+                "usgs": "03340500",
+                "01": "03340500",
+                "uuid": "f9db6d6b-2cea-4bd7-b374-623cb66ff657"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE14E384"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "Stage": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "feet",
+                "Code": "Stage"
+            },
+            "Precip": {
+                "Standard": "CWMS",
+                "ToUnitsAbbr": "inches",
+                "Code": "Precip",
+                "uuid": "695f1535-c314-40c5-b934-ed18c9b54828"
+            }
+        },
+        "platform_sensors": [],
+        "id": "3248004"
+    }
+]
