@@ -36,19 +36,16 @@
   <ConsumerArg>/opendcs_output</ConsumerArg>
   <SinceTime>now - 2 hours</SinceTime>
   <RoutingSpecNetworkList Name="&lt;Production&gt;"/>
-  <RoutingSpecProperty PropertyName="siteNameType">
-    uuid
-  </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="delimiter">
     ,
-  </RoutingSpecProperty>
-  <RoutingSpecProperty PropertyName="dateFormat">
-    yyyy-MM-dd&apos;T&apos;HH:mmZ
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="justify">
     False
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="rs.timeApplyTo">
     l
+  </RoutingSpecProperty>
+  <RoutingSpecProperty PropertyName="cmdAfterFile">
+    /s3load.sh $FILENAME
   </RoutingSpecProperty>
 </RoutingSpec>
