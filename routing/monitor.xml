@@ -36,6 +36,9 @@
   <ConsumerArg>/opendcs_output</ConsumerArg>
   <SinceTime>now - 2 hours</SinceTime>
   <RoutingSpecNetworkList Name="&lt;Production&gt;"/>
+  <RoutingSpecProperty PropertyName="filenameTemplate">
+    $TRANSPORTID-$DATE(yyyyMMddHHmmss)
+  </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="delimiter">
     ,
   </RoutingSpecProperty>
