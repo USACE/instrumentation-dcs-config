@@ -28,17 +28,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "0ba3e490-f6dd-4843-980f-a054b6d7484b"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "83d56dd6-0618-4b6e-b42c-154eb57c0192"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "da5d6bd9-1d60-472e-9fbc-a3808fe0d52f"
             }
         },
         "platform_sensors": [],
@@ -72,17 +75,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "4aac3294-ab34-4b03-8f57-615045901811"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "0ad46a96-5bc6-4c03-b242-66b7413b2fa2"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "90182a05-126b-4b52-a154-3ca0bbd04715"
             }
         },
         "platform_sensors": [],
@@ -116,17 +122,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "633381a2-7ced-4329-bf3d-98b2853d1756"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "059905c0-07c6-40fa-be05-87ab2cf8d6a3"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "4fa40edb-2462-4f48-aa96-a0251f6c4831"
             }
         },
         "platform_sensors": [],
@@ -160,17 +169,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "c004968d-d710-4e50-a149-a35b6b016827"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "2c4c58fc-18a1-493b-8cf9-2a5ecde97981"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "0dc4bedf-3c75-4811-8f45-cdd28827989f"
             }
         },
         "platform_sensors": [],
@@ -204,17 +216,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "194224c2-30c6-430c-9f76-2e0179c8f927"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "34173142-6250-47bf-ab88-e21572870afb"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "a7cdc419-8d9b-4e98-90b1-16662010f464"
             }
         },
         "platform_sensors": [],
@@ -248,17 +263,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "3b111eff-a2bd-4091-b44e-741f44169093"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "e4364c76-475b-4383-8259-da0f7476285f"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "69c10676-30af-493d-bf8a-e9e36d2e932f"
             }
         },
         "platform_sensors": [],
@@ -292,12 +310,14 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "f7702d1d-c3c4-42f0-8a20-4117f53d5c1c"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "42bc1b6f-34b4-44d8-a091-12306a03c1d0"
             }
         },
         "platform_sensors": [],
@@ -331,17 +351,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "ba6987f4-69e7-4222-bd2f-23ac7efbd98f"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "1c037111-0162-4142-815b-c499eadb1049"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "e9afbf86-70c1-457c-aefa-100c8bd782da"
             }
         },
         "platform_sensors": [],
@@ -375,12 +398,14 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "f62378c6-89bb-41a0-a8ac-21872e938715"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "557007fd-d43a-4202-82a0-dab8f9db27e4"
             }
         },
         "platform_sensors": [],
@@ -414,17 +439,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "2af24b01-5a73-40d0-adc1-5d8165f918f6"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "450b34a8-f998-4d9f-803b-375f3535485b"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "74d1db87-ec08-4956-b1e5-7149c81d6871"
             }
         },
         "platform_sensors": [],
@@ -453,17 +481,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "80849133-26cb-4e17-b551-6a19023d360a"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "0899efd1-9aeb-40f6-be40-5be70161eb60"
             },
             "BL": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "3aaee076-f0a8-4890-ba27-74e876d31c91"
             }
         },
         "platform_sensors": [],
@@ -497,17 +528,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "2578e054-ff69-4175-ac3b-9cc192f5bbdb"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "318dafc8-087b-439d-bd54-ffcd77768b13"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "03177a36-2279-430e-9fc7-3f8614c64f14"
             }
         },
         "platform_sensors": [],
@@ -542,37 +576,44 @@
             "WV": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft/s",
-                "Code": "WV"
+                "Code": "WV",
+                "uuid": "f4811c7b-1f20-4de5-a5ad-6116d4ba8eaa"
             },
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "c5dc016f-9692-4271-88b9-01db31a4c453"
             },
             "TW": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "deg C",
-                "Code": "TA"
+                "Code": "TA",
+                "uuid": "b3a538af-293e-4d31-99df-4887f639e224"
             },
             "WC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "umho/cm",
-                "Code": "WC"
+                "Code": "WC",
+                "uuid": "ae246707-427c-4fe9-8336-64f5abb7a3c6"
             },
             "WP": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "unit",
-                "Code": "WP"
+                "Code": "WP",
+                "uuid": "775a8c1a-5b06-47ec-8c0d-3ca987df817f"
             },
             "WT": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "FNU",
-                "Code": "WT"
+                "Code": "WT",
+                "uuid": "e55a5bf7-ac62-43dd-ae28-478f1938a883"
             },
             "WO": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "mg/L",
-                "Code": "WO"
+                "Code": "WO",
+                "uuid": "767ceda9-2dc9-488f-a8c2-be636e6d22bf"
             }
         },
         "platform_sensors": [],
@@ -606,17 +647,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "9a112fa8-e716-4568-9f9c-2d6a09c83d24"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "24da98ef-c332-4e78-b483-ad5016db506d"
             },
             "BL": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "95a80bbb-3972-4999-b493-ab53f38b3d17"
             }
         },
         "platform_sensors": [],
@@ -650,17 +694,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "32cfc7f6-bf5f-4c5b-84b6-6e4141c343f2"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "5b1a7d09-6012-44e4-b686-eb7894ee23de"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "d9eaca4a-78a0-4138-8fd9-930fa88c1d5c"
             }
         },
         "platform_sensors": [],
@@ -694,17 +741,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "a1a3d119-0d64-446f-be95-2a8c0bc0c7a3"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "401529b3-8d16-4181-949b-c4c694216bd7"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "ac74f5c9-8e20-402a-80fc-47b5aa8e862d"
             }
         },
         "platform_sensors": [],
@@ -738,22 +788,26 @@
             "HP": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HP"
+                "Code": "HP",
+                "uuid": "066d903d-c072-4af0-b3a9-73d0a1678bf1"
             },
             "HT": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HT"
+                "Code": "HT",
+                "uuid": "62adf1cb-f342-48f0-ad71-60abe7d2f850"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "9ecb18a4-41e5-4160-ae98-9914a007c424"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "c9d050b8-db13-4a17-9400-b79f477aef1e"
             }
         },
         "platform_sensors": [
@@ -768,7 +822,7 @@
                 "description": "Mount Morris Dam Tailwater location used to contain tailwater\n          elevations, stages, flows, ratings, etc.",
                 "sitenames": {
                     "cwms": "Mount Morris-Tailwater",
-                    "uuid": "0bac5d43-fab7-48b3-9fbc-33c5d565c1a9"
+                    "uuid": "37989e13-f192-4d1f-aa24-62591f8d731d"
                 }
             }
         ],
@@ -802,17 +856,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "603e0176-c729-42bd-b394-ecf50d7cf458"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "24410a4a-2313-4544-8320-5f9ca08f4915"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "f25273ce-b87b-441e-b886-268c1312ea06"
             }
         },
         "platform_sensors": [],
@@ -846,17 +903,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "8b6b0f67-a918-456b-9950-ad4336d7570c"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "3f0e8645-1a34-4575-beb1-df2f74a209a4"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "e57970dd-b81b-4471-8be6-3e1cafc183ea"
             }
         },
         "platform_sensors": [],
@@ -890,17 +950,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "a6af065e-7191-4738-95c9-4d700617cac2"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "c8e7ec54-168a-400b-853e-4b360056ceeb"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "9b0b0bba-43e3-45be-a682-3509a74e8f4b"
             }
         },
         "platform_sensors": [],
@@ -934,17 +997,20 @@
             "HB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "mm",
-                "Code": "HB"
+                "Code": "HB",
+                "uuid": "fa9ea163-afde-4d80-a6d4-1d915f91923f"
             },
             "TA": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "deg C",
-                "Code": "TA"
+                "Code": "TA",
+                "uuid": "b42dca04-13f6-439e-90a4-4fd14de746d4"
             },
             "PA": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "mb",
-                "Code": "PA"
+                "Code": "PA",
+                "uuid": "4c3d8edd-ea01-4ead-937e-25ee78446350"
             }
         },
         "platform_sensors": [],
@@ -977,17 +1043,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "4c7f0765-c442-4bf3-9d40-51d2213cb6a6"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "72905be3-58d0-40d1-b460-f137cd4c0f61"
             },
             "BL": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "697dbc1f-eb48-46eb-9c07-7f15418f6f3e"
             }
         },
         "platform_sensors": [],
@@ -1021,17 +1090,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "71c5005d-ddd7-4ffc-bc20-57501ac7f51e"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "570b8c34-3eed-4ede-b2a5-ba5eea9848ad"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "86c24b27-b491-4bd3-823e-f6afc1c79639"
             }
         },
         "platform_sensors": [],
@@ -1065,17 +1137,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "9e83e2c2-655c-4de0-80a9-f116128292cb"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "fdec0e13-ef18-44dc-aa1b-3ea35c7e3a24"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "add5b1aa-35a4-44d5-8b02-ac88f4489ffe"
             }
         },
         "platform_sensors": [],
@@ -1105,22 +1180,26 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "984d8f65-e3c6-436d-8068-7304c6cb4f9d"
             },
             "WV": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft/s",
-                "Code": "WV"
+                "Code": "WV",
+                "uuid": "337a16aa-0c40-487a-b41f-c40c7d2adbd3"
             },
             "TW": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "deg C",
-                "Code": "TW"
+                "Code": "TW",
+                "uuid": "afa5818c-95de-44b2-9521-90480aff6c93"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "cbf7c063-dec1-417b-abde-56302cf5ffac"
             }
         },
         "platform_sensors": [],
@@ -1154,17 +1233,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "dfdee47b-f6d3-4c79-979a-115a7dc8aa90"
             },
             "PP": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "1fe6104e-a3b2-4683-ad37-9e7c86aa4b84"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "011270a6-76d7-4e20-941c-2dc6d8d18da4"
             }
         },
         "platform_sensors": [],
@@ -1198,17 +1280,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "2aaf99a5-00d7-409c-b5a9-3abeea28791a"
             },
             "WV": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft/s",
-                "Code": "WV"
+                "Code": "WV",
+                "uuid": "1863e041-6363-48ce-b6f6-b684a7162e3e"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "8de721a8-4599-4b7f-9ddd-a4916234c9be"
             }
         },
         "platform_sensors": [],
@@ -1242,17 +1327,20 @@
             "HG": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "ft",
-                "Code": "HG"
+                "Code": "HG",
+                "uuid": "8555f21e-8847-4117-aebc-55f91cd48c29"
             },
             "PC": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "in",
-                "Code": "PC"
+                "Code": "PC",
+                "uuid": "cc8aba30-7ee8-4cc2-91b0-95c91c2a919c"
             },
             "VB": {
                 "Standard": "SHEF-PE",
                 "ToUnitsAbbr": "V",
-                "Code": "VB"
+                "Code": "VB",
+                "uuid": "c83c55ec-21b4-4b62-8440-b12c130dcfad"
             }
         },
         "platform_sensors": [],
