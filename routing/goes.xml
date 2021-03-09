@@ -41,7 +41,7 @@
     yyyy-MM-dd&apos;T&apos;HH:mm:ss&apos;Z&apos;
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="filenameTemplate">
-    TRANSPORTID-DATE(yyyyMMddHHmmss)
+    $TRANSPORTID-DATE(yyyyMMddHHmmss)
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="justify">
     False
