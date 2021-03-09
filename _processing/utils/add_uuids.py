@@ -176,9 +176,10 @@ def add_platform_sensor_uuid_property(parent_elem):
         # proper indention of the new element
         parent_elem[last_index].tail = '\n      \n'
 
-    print(f'Inserting uuid property inside element: {parent_elem.tag}')
+    print(f'Inserting uuid property {_uuid} inside element: {parent_elem.tag}')
     parent_elem.insert(last_index+1, new_elem)
 
+    return parent_elem
 ############################################################
 parser = argparse.ArgumentParser(description='Adds UUIDs to Platforms XML Export')
 parser.add_argument('-i', '--input', type=str, required=True, 
@@ -295,8 +296,10 @@ for p in platforms:
     print(f'ConfigSensor Count: {len(config_sensors)}')
     
     platform_sensors = p.findall('PlatformSensor')
+    platform_sensors_numbers = []
     for ps in platform_sensors:
         print(f"PlatformSensor => {ps.get('SensorNumber')}")
+        platform_sensors_numbers.append(int(ps.get('SensorNumber')))
 
     # If no PlatformSensors elements, add empty elements for each config sensor
     if not platform_sensors:
@@ -314,11 +317,11 @@ for p in platforms:
         print("PlatformSensor count < ConfigSensor Count")
         # Loop over config sensors to enumerate
         cfg_sensors_numbers = list(range(1, len(config_sensors)+1))
-        platform_sensors_numbers = list(range(1, len(platform_sensors)+1))
+        # platform_sensors_numbers = list(range(1, len(platform_sensors)+1))
         for s in cfg_sensors_numbers:
             for ps in platform_sensors:
                 print(f"Checking for {s} in {platform_sensors_numbers}")
-                if s not in platform_sensors_numbers:                   
+                if s not in sorted(platform_sensors_numbers):                   
                     print(f'adding platform sensor: {s}')
                     add_platform_sensor(s, p)
                     break #without this ducplicated will be added
@@ -329,27 +332,31 @@ for p in platforms:
     platform_sensors = p.findall('PlatformSensor')
 
     if len(config_sensors) == len(platform_sensors):
-        print("Platform has PlatformSensor count = ConfigSensor Count")
+        print(f"\nPlatformSensor count {len(config_sensors)} = ConfigSensor Count {len(config_sensors)}")
         for ps in platform_sensors:
             add_platform_sensor_uuid_property(ps)
 
     # Recheck for PlatformSensor nodes
     platform_sensors = p.findall('PlatformSensor')
     print('&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&')
-    
 
     # Add the platform sensor to the config sensors dict just to keep these
     # pieces together for the JSON output
     for cs in config_sensors:
         for ps in platform_sensors:
             if cs.get('SensorNumber') == ps.get('SensorNumber'):
-                print(f"SENSORS MATCH: {cs.get('SensorNumber')}")
-                if ps.find('PlatformSensorProperty') is not None and ps.find('PlatformSensorProperty').get('PropertyName') == 'uuid':
-                    print(f"--->{cs.find('SensorName').text}")
-                    print(f"==>{ps.find('PlatformSensorProperty').text}")
-                    cfg_sensors[cs.find('SensorName').text.strip()]['uuid'] = ps.find('PlatformSensorProperty').text.strip()
-        
-    
+                print(f"\nSENSORS MATCH: {cs.get('SensorNumber')}")
+                print(f"\nSENSOR NUMBER: {ps.get('SensorNumber')}")
+                print(f"\nFOUND: {len(ps.findall('PlatformSensorProperty'))} PlatformSensor Property Elements")                
+                if ps.find('PlatformSensorProperty') is not None:                    
+                    for psp in ps.findall('PlatformSensorProperty'):
+                        if psp.get('PropertyName') == 'uuid':
+                            # print(f"--->{ps.find('SensorName').text}")
+                            # print(f"==>{ps.find('PlatformSensorProperty').text}")
+                            print(psp.text)
+                            cfg_sensors[cs.find('SensorName').text.strip()]['uuid'] = psp.text.strip()
+                        else:
+                            print(f"Ignoring PropertyName '{psp.get('PropertyName')}' with text of {psp.text}")
 
 
     platform_obj['config_sensors'] = cfg_sensors

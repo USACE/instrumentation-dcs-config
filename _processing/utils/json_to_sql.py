@@ -148,14 +148,16 @@ def lookup_midas_param_info(configsensor_obj, midas_units, midas_params):
 
 
     return_dict = {}
-    if param_id is not None and unit_id is not None:
+    if param_id is not None and unit_id is not None and 'uuid' in cs.keys():
         return_dict['name'] = capitalize_name(param_name)
         return_dict['slug'] = param_name.lower().replace(' ', '-')
         return_dict['parameter_id'] = param_id
         return_dict['unit_id'] = unit_id
+        return_dict['uuid'] = cs['uuid']
     else:
         print(f'WARNING: Unable to map param: {param} or unit {unit_abbrev}')
     
+    # print(f"returning {return_dict}")
     return return_dict
 
 #######################################
@@ -640,7 +642,8 @@ timeseries_sql = 'INSERT INTO public.timeseries(id, slug, name, instrument_id, '
     'parameter_id, unit_id) \nVALUES\n'
 for instrument_id, obj in timeseries_data.items():
     for param, param_obj in obj.items():
-        timeseries_sql += f"('{uuid.uuid4()}','{param_obj['slug']}','{param_obj['name']}',"
+        # print(param_obj)
+        timeseries_sql += f"('{param_obj['uuid']}','{param_obj['slug']}','{param_obj['name']}',"
         timeseries_sql += f"'{instrument_id}', '{param_obj['parameter_id']}', '{param_obj['unit_id']}'),\n"
 
 
