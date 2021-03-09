@@ -45,28 +45,10 @@
   <RoutingSpecProperty PropertyName="dateFormat">
     yyyy-MM-dd&apos;T&apos;HH:mmZ
   </RoutingSpecProperty>
-  <RoutingSpecProperty PropertyName="sc:SOURCE_0000">
-    GOES_SELFTIMED
-  </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="justify">
     False
   </RoutingSpecProperty>
-  <RoutingSpecProperty PropertyName="cmdAfterFile">
-    /s3load.sh $FILENAME
-  </RoutingSpecProperty>
-  <RoutingSpecProperty PropertyName="sc:DAPS_STATUS">
-    R
-  </RoutingSpecProperty>
-  <RoutingSpecProperty PropertyName="lrgs.timeout">
-    180
-  </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="rs.timeApplyTo">
     l
-  </RoutingSpecProperty>
-  <RoutingSpecProperty PropertyName="dataType">
-    midas
-  </RoutingSpecProperty>
-  <RoutingSpecProperty PropertyName="addMsgDelim">
-    False
   </RoutingSpecProperty>
 </RoutingSpec>

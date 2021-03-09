@@ -37,40 +37,22 @@
   <ConsumerArg>/opendcs_output</ConsumerArg>
   <SinceTime>now - 2 hours</SinceTime>
   <RoutingSpecNetworkList Name="&lt;Production&gt;"/>
-  <RoutingSpecProperty PropertyName="siteNameType">
-    uuid
-  </RoutingSpecProperty>
-  <RoutingSpecProperty PropertyName="delimiter">
-    ,
-  </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="dateFormat">
     yyyy-MM-dd&apos;T&apos;HH:mm:ss&apos;Z&apos;
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="filenameTemplate">
     $TRANSPORTID-$DATE(yyyyMMddHHmmss)
   </RoutingSpecProperty>
-  <RoutingSpecProperty PropertyName="sc:SOURCE_0000">
-    GOES_SELFTIMED
-  </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="justify">
     False
   </RoutingSpecProperty>
-  <RoutingSpecProperty PropertyName="cmdAfterFile">
-    /s3load.sh $FILENAME
-  </RoutingSpecProperty>
-  <RoutingSpecProperty PropertyName="sc:DAPS_STATUS">
-    R
-  </RoutingSpecProperty>
-  <RoutingSpecProperty PropertyName="lrgs.timeout">
-    180
+  <RoutingSpecProperty PropertyName="delimiter">
+    ,
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="rs.timeApplyTo">
     l
   </RoutingSpecProperty>
-  <RoutingSpecProperty PropertyName="dataType">
-    midas
-  </RoutingSpecProperty>
-  <RoutingSpecProperty PropertyName="addMsgDelim">
-    False
+  <RoutingSpecProperty PropertyName="cmdAfterFile">
+    /s3load.sh $FILENAME
   </RoutingSpecProperty>
 </RoutingSpec>
