@@ -53,6 +53,6 @@
     l
   </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="cmdAfterFile">
-    /s3load.sh FILENAME
+    /s3load.sh $FILENAME
   </RoutingSpecProperty>
 </RoutingSpec>
