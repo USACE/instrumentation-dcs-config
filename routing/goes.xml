@@ -61,6 +61,9 @@
   <RoutingSpecProperty PropertyName="sc:DAPS_STATUS">
     R
   </RoutingSpecProperty>
+  <RoutingSpecProperty PropertyName="lrgs.timeout">
+    180
+  </RoutingSpecProperty>
   <RoutingSpecProperty PropertyName="rs.timeApplyTo">
     l
   </RoutingSpecProperty>
