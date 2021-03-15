@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<DataSource Name="cdabackup" Type="lrgs">
-  <DataSourceArg>
-    hostname=cdabackup.wcda.noaa.gov, port=16003, password=$CDABACKUP_PASSWORD,
-    username=$CDABACKUP_USERNAME
-  </DataSourceArg>
-</DataSource>

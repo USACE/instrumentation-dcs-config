@@ -154,8 +154,16 @@ def lookup_midas_param_info(configsensor_obj, midas_units, midas_params):
         return_dict['parameter_id'] = param_id
         return_dict['unit_id'] = unit_id
         return_dict['uuid'] = cs['uuid']
+    elif 'uuid' in cs.keys():
+        # print(f'Setting TS to Unknown Param or Unit')
+        return_dict['name'] = f"Unknown {cs['Code']}"
+        return_dict['slug'] = return_dict['name'].lower().replace(' ', '-')
+        return_dict['parameter_id'] = '2b7f96e1-820f-4f61-ba8f-861640af6232' #unknown
+        return_dict['unit_id'] = '4a999277-4cf5-4282-93ce-23b33c65e2c8' #unknown
+        return_dict['uuid'] = cs['uuid']
     else:
         print(f'WARNING: Unable to map param: {param} or unit {unit_abbrev}')
+        pass
     
     # print(f"returning {return_dict}")
     return return_dict
@@ -358,7 +366,7 @@ source_dir = os.path.abspath(os.path.join(script_dir, '..', 'output', 'json'))
 infile = f'{source_dir}/{args.input}'
 
 # Get the midas units lookup data from MIDAS API
-r = requests.get('https://midas-api.rsgis.dev/instrumentation/units')
+r = requests.get('https://midas-api.rsgis.dev/units')
 # r = requests.get('http://localhost/instrumentation/units')
 try:
     midas_units = r.json()    
@@ -368,7 +376,7 @@ except Exception as e:
     exit(1)
 
 # Get the midas domains (for params)
-r = requests.get('https://midas-api.rsgis.dev/instrumentation/domains')
+r = requests.get('https://midas-api.rsgis.dev/domains')
 try:
     midas_params = []
     _temp_response = r.json()
@@ -406,11 +414,11 @@ timeseries_data = {}
 unique_slugs = []
 
 try:
-    r = requests.get(f'http://localhost/instrumentation/instruments')          
+    r = requests.get(f'http://localhost/instruments')          
     
 except:
     print('Unable to connect to local API, trying rsgis.dev')
-    r = requests.get(f'https://midas-api.rsgis.dev/instrumentation/instruments')
+    r = requests.get(f'https://midas-api.rsgis.dev/instruments')
 
 for i in r.json():
     unique_slugs.append(i['slug'])
