@@ -8,11 +8,16 @@ OpenDCS can access an XML database that is referred to as an `editable` database
 
 Each filename will include a reference to a District using its three letter code:
 
-| District Name | 3-letter Code | Filename |
-| :--- | :---: | :----- |
-| Nashville District | lrn | platforms.lrn.xml |
-| Huntington District | lrh | platforms.lrh.xml |
-| Buffalo District | lrb | platforms.lrb.xml |
-| Louisville District | lrl | platforms.lrl.xml |
-| North West Division, Missouri River | nwdm | platforms.nwdm.xml |
-| New England District | nae | platforms.nae.xml |
+| District Name | Division Code | District Code | Filename |
+| :--- | :---: | :---: | :----- |
+| Buffalo District | lrd |  lrb | p.lrd.lrb.xml |
+| Chicago District | lrd |  lrc | p.lrd.lrc.xml |
+| Huntington District | lrd |  lrh | p.lrd.lrh.xml |
+| Nashville District | lrd | lrn | p.lrd.lrn.xml |
+| Vicksburg District | mvd | mvk | p.mvd.mvk.xml |
+| New Orleans District | mvd | mvn | p.mvd.mvn.xml |
+| New England District | nad |  nae | p.nad.nae.xml |
+| North West Division, Missouri River | nwd |  nwdm | p.nwd.nwdm.xml |
+| Jacksonville District | sad | saj | p.sad.hhd.xml |
+| Savannah District | sad | sas | p.sad.sas.xml |
+| Albuquerque District | spd | spa | p.spd.spa.sml |
