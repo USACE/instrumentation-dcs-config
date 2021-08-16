@@ -401,11 +401,11 @@ telemetry_types = {
     'iridium':'c0b03b0d-bfce-453a-b5a9-636118940449'
     }
 
-instrument_sql = 'INSERT INTO public.instrument(' \
+instrument_sql = 'INSERT INTO instrument(' \
     'id, deleted, slug, name, formula, geometry, station, station_offset, ' \
     'create_date, update_date, type_id, project_id, creator, updater, usgs_id)\n VALUES \n'
 
-instrument_status_sql = 'INSERT INTO public.instrument_status(id, instrument_id, ' \
+instrument_status_sql = 'INSERT INTO instrument_status(id, instrument_id, ' \
     'status_id, "time")\n VALUES \n'
 
 telemetry_obj = {}
@@ -533,12 +533,12 @@ for d in data:
             param_data = {}
             for label, cs_obj in config_sensors.items():
                 # print(label, '-> ', cs_obj)
-                _param = lookup_midas_param_info(cs_obj, midas_units, midas_params)
-                if _param.keys():
-                    # print(f'\n_param is: {_param}\n')
-                    param_data[_param['name']] = _param
-                    # print(param_data)
-                
+                if bool(cs_obj):
+                    _param = lookup_midas_param_info(cs_obj, midas_units, midas_params)
+                    if _param.keys():
+                        # print(f'\n_param is: {_param}\n')
+                        param_data[_param['name']] = _param
+                        # print(param_data)
 
             timeseries_data[_uuid] = param_data
             # print(timeseries_data[_uuid])
@@ -613,7 +613,7 @@ outfile_contents += instrument_status_sql
 telemetry_goes = []
 telemetry_iridium = []
 
-instrument_telemetry_sql = 'INSERT INTO public.instrument_telemetry (instrument_id, ' \
+instrument_telemetry_sql = 'INSERT INTO instrument_telemetry (instrument_id, ' \
                             'telemetry_type_id, telemetry_id) \nVALUES\n'
 
 for id, obj in telemetry_obj.items():
@@ -630,7 +630,7 @@ if telemetry_goes:
     outfile_contents += f'\n--INSERT TELEMETRY_GOES--COUNT:{len(telemetry_goes)}\n'
     telemetry_goes_sql = ''
     for tg in telemetry_goes:
-        telemetry_goes_sql += f"INSERT INTO public.telemetry_goes (id, nesdis_id) select '{tg[0]}', '{tg[1]}' where not exists (select 1 from telemetry_goes where nesdis_id = '{tg[1]}');\n"
+        telemetry_goes_sql += f"INSERT INTO telemetry_goes (id, nesdis_id) select '{tg[0]}', '{tg[1]}' where not exists (select 1 from telemetry_goes where nesdis_id = '{tg[1]}');\n"
     # Replace the last line ending comma with semi-colon
     # telemetry_goes_sql = telemetry_goes_sql[:-2]+';\n'
     outfile_contents += telemetry_goes_sql
@@ -639,14 +639,14 @@ if telemetry_iridium:
     outfile_contents += f'\n--INSERT TELEMETRY_IRIDIUM--COUNT:{len(telemetry_iridium)}\n'
     telemetry_iridium_sql = ''
     for ti in telemetry_iridium:
-        telemetry_iridium_sql += f"INSERT INTO public.telemetry_iridium (id, imei) select '{ti[0]}', '{ti[1]}' where not exists (select 1 from telemetry_iridium where imei = '{ti[1]}');\n"
+        telemetry_iridium_sql += f"INSERT INTO telemetry_iridium (id, imei) select '{ti[0]}', '{ti[1]}' where not exists (select 1 from telemetry_iridium where imei = '{ti[1]}');\n"
     # Replace the last line ending comma with semi-colon
     # telemetry_iridium_sql = telemetry_iridium_sql[:-2]+';\n'
     outfile_contents += telemetry_iridium_sql
 
 
 # Timeseries SQL Prep
-timeseries_sql = 'INSERT INTO public.timeseries(id, slug, name, instrument_id, ' \
+timeseries_sql = 'INSERT INTO timeseries(id, slug, name, instrument_id, ' \
     'parameter_id, unit_id) \nVALUES\n'
 for instrument_id, obj in timeseries_data.items():
     for param, param_obj in obj.items():
