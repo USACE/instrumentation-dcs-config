@@ -533,12 +533,12 @@ for d in data:
             param_data = {}
             for label, cs_obj in config_sensors.items():
                 # print(label, '-> ', cs_obj)
-                _param = lookup_midas_param_info(cs_obj, midas_units, midas_params)
-                if _param.keys():
-                    # print(f'\n_param is: {_param}\n')
-                    param_data[_param['name']] = _param
-                    # print(param_data)
-                
+                if bool(cs_obj):
+                    _param = lookup_midas_param_info(cs_obj, midas_units, midas_params)
+                    if _param.keys():
+                        # print(f'\n_param is: {_param}\n')
+                        param_data[_param['name']] = _param
+                        # print(param_data)
 
             timeseries_data[_uuid] = param_data
             # print(timeseries_data[_uuid])

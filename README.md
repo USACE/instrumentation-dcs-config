@@ -20,4 +20,6 @@ Each filename will include a reference to a District using its three letter code
 | North West Division, Missouri River | nwd |  nwdm | p.nwd.nwdm.xml |
 | Jacksonville District | sad | saj | p.sad.hhd.xml |
 | Savannah District | sad | sas | p.sad.sas.xml |
-| Albuquerque District | spd | spa | p.spd.spa.sml |
+| Mobile District | sad | sam | p.sad.sam.xml |
+| Albuquerque District | spd | spa | p.spd.spa.xml |
+| Fort Worth District | swd | swf | p.swd.swf.xml
