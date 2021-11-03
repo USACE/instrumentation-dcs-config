@@ -1,0 +1,1852 @@
+[
+    {
+        "description": "C44",
+        "agency": "nwshb5",
+        "isproduction": "true",
+        "lastmodifytime": "11/01/2021 17:37:39",
+        "site": {
+            "elevation": "1.7976931348623157E308",
+            "elevationunits": "ft",
+            "description": "C44",
+            "sitenames": {
+                "nwshb5": "C44",
+                "uuid": "5f867805-7ca3-41e7-9ebd-6fe04675345b"
+            }
+        },
+        "platformconfig": "",
+        "transportmedium": {
+            "mediumtype": "goes-self-timed",
+            "mediumid": "CE550F82"
+        },
+        "platformsensor": "",
+        "config_sensors": {
+            "C44D1A-L1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HP",
+                "Name": "SHEF-PE:HP",
+                "uuid": "00fdb665-97d9-40a2-9606-ec662cfcba70"
+            },
+            "C44D1B-L1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HP",
+                "Name": "SHEF-PE:HP",
+                "uuid": "feb7e87f-b098-420b-90cb-dec8306d8bcb"
+            },
+            "C44E4D-L1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HP",
+                "Name": "SHEF-PE:HP",
+                "uuid": "c6c1ea1e-670d-44a2-bc2b-2e57fa4a28d5"
+            },
+            "C44E4A-L1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HP",
+                "Name": "SHEF-PE:HP",
+                "uuid": "bc55bf47-6210-4b9b-bf36-45b472e324ea"
+            },
+            "C44E2A-L1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HP",
+                "Name": "SHEF-PE:HP",
+                "uuid": "b11d7b54-0943-4591-8d64-0b79d64528cc"
+            },
+            "C44E1A-G1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "5a726936-8b5c-4419-a54c-b730874f03e0"
+            },
+            "C44E1A-G2": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "995c7dd8-46e8-4ec7-8b92-8f20bbfa5b1f"
+            },
+            "C44E1A-G3": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "c1608835-4040-486a-a95c-e8630b311166"
+            },
+            "C44E1A-G4": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "6e408d05-b3e8-4338-8be9-5e401eb2fd33"
+            },
+            "C44E1A-G5": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "d622785b-dd70-4068-b4a4-8b35aadacda3"
+            },
+            "C44E1A-G6": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "7bb4576b-9ab5-43d6-83b9-c9718ac6c0ed"
+            },
+            "C44E1A-G7": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "5d0e3c44-4ed7-40bc-9507-a3c4742684f4"
+            },
+            "C44E1A-G8": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "8fa7d3f0-78e0-4f96-9061-1f7e59e0d15e"
+            },
+            "C44E1A-G9": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "125a378f-4879-46ea-9b6a-f290154c934f"
+            },
+            "C44E1A-G10": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "483836a2-2619-481d-91ae-7ba9276fcff0"
+            },
+            "C44S1B-L1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HP",
+                "Name": "SHEF-PE:HP",
+                "uuid": "137cadc6-7fe8-43ea-8edb-592fa591759f"
+            },
+            "C44E1B-G1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "0f199b71-06d9-4d9b-9665-1d69d84c2b69"
+            },
+            "C44E1B-G2": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "162bc63a-69fb-4c9e-9af3-0fcdf71bd0f8"
+            },
+            "C44E1B-G3": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "58c11a45-b720-4098-8693-bf5213a53ca0"
+            },
+            "C44E1B-G4": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "6fa3334b-70bd-4f60-99b8-5596c8e50e58"
+            },
+            "C44E1B-G5": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "8a054ad2-4738-4124-99f2-fbc556fbf70c"
+            },
+            "C44E1B-G6": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "d2274960-3ca5-4a86-9d9b-d1d432dcad88"
+            },
+            "C44E1B-G7": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "d55c76fb-3c5e-4915-a728-a1f2792de250"
+            },
+            "C44E1B-G8": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "aea0b688-c7da-47ba-8742-9d159e67ff47"
+            },
+            "C44E1B-G9": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "36bd4cf6-f5bf-4688-bf73-d939126523e4"
+            },
+            "C44E1B-G10": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "9992fea6-93ca-4ded-9184-e8f087c78311"
+            },
+            "C44E2B-G1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "3ff7d34c-d9a2-42a4-9de8-c8823bc40daf"
+            },
+            "C44E2B-G2": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "24ad2344-3ba8-4230-9ce0-8d2123a47b8a"
+            },
+            "C44E2B-G3": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "5ec74b9e-11d1-4326-94f8-c8e92d27246f"
+            },
+            "C44E2B-G4": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "042774dd-f8dc-406a-a1e2-1f425b6d1489"
+            },
+            "C44E2B-G5": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "408fc199-58d5-42e8-9f33-b36733e51ceb"
+            },
+            "C44E2B-G6": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "7a7b7ca9-073f-4129-94e9-410374ab4ada"
+            },
+            "C44E2B-G7": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "4b7960ad-a23b-45d0-b526-feb6a0ccedee"
+            },
+            "C44E2B-G8": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "d44dedaf-b3a0-4742-8a6b-84795ce5199b"
+            },
+            "C44E2B-G9": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "8b86bcac-39bc-49ff-9a18-7c3f74f7c82d"
+            },
+            "C44E2B-G10": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "ee1c637f-91e5-4712-803e-d6a6773b1853"
+            },
+            "C44S2C-L1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HP",
+                "Name": "SHEF-PE:HP",
+                "uuid": "61eb0425-b32a-4c53-bb42-a8064ded1ed8"
+            },
+            "C44E2C-G5": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "a00c1046-46e6-44ff-a6fb-5ceab57ea6f4"
+            },
+            "C44E2C-G6": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "534ddd6e-00c9-46f8-b82f-acf5c45cc9b3"
+            },
+            "C44E2C-G7": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "96243650-54f7-4072-9052-c8a589211cd1"
+            },
+            "C44E2C-G8": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "374c794c-5794-4cfa-876a-0cf051be0b57"
+            },
+            "C44E2C-G9": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "9f2381b4-43f2-4a0c-898a-19bd4db707fc"
+            },
+            "C44E2C-G10": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "b6cafa7e-4cec-49e6-b521-b980aebfb266"
+            },
+            "C44E3A-G1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "7a5987fc-47af-42e6-ab0a-cf79622e06b2"
+            },
+            "C44E3A-G2": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "bb574a76-1f3e-4f1e-a27e-b25c895c3326"
+            },
+            "C44E3A-G3": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "2aa30687-e9cc-4026-becb-5445e01af976"
+            },
+            "C44E3A-G4": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "0b19e9d2-03b3-4d97-9751-207554368a72"
+            },
+            "C44E3A-G5": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "d9e0e8ee-403b-4e66-9990-a50dc26bcfea"
+            },
+            "C44E3A-G6": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "c97e1549-4b7e-4f30-a4b4-f3932d38341d"
+            },
+            "C44E3A-G7": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "d955d69c-bc21-47a8-8ee6-fc81ec9db601"
+            },
+            "C44E3A-G8": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "b3f10a91-566b-4ca7-ba44-06427dfe314e"
+            },
+            "C44E3A-G9": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "2144fc79-a036-4500-a0df-8986e1e0508e"
+            },
+            "C44E3A-G10": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "f4df9b24-a724-405b-ad21-a45c97be82d2"
+            },
+            "C44S4D-L1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HP",
+                "Name": "SHEF-PE:HP",
+                "uuid": "2ef658f7-c806-4132-b55b-fd6137fb0d36"
+            },
+            "C44E4D-G1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "15a77bad-b1a8-4595-9665-97f969238445"
+            },
+            "C44E4D-G2": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "a5288b0f-eaae-40bb-a24c-5bb15c275983"
+            },
+            "C44E4D-G3": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "94659c92-9540-4869-9c7c-959b0c685cfd"
+            },
+            "C44E4D-G4": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "86946b7a-cb1c-4e42-a763-59af68e6fe4d"
+            },
+            "C44E4D-G5": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "d5ffdbf5-0fa4-4fbf-8856-9ed3c9022c29"
+            },
+            "C44E4D-G6": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "03dfe9fb-0018-4ea2-984d-e2e91999a43e"
+            },
+            "C44E4D-G7": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "a974ebc2-8354-4cca-9ae9-ad18ec5ea9a6"
+            },
+            "C44E4D-G8": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "5ec29eb3-61d4-4293-b413-781d70b10a20"
+            },
+            "C44E4D-G9": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "db3d164b-49c1-41f5-84cd-79594e71de4c"
+            },
+            "C44E4D-G10": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "11669b29-03c0-4553-86d8-127b9438185b"
+            },
+            "C44E4C-G1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "1338bb21-d36f-47ed-b220-25a016d58326"
+            },
+            "C44E4C-G2": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "2c1ea21f-54da-40f3-a19b-00a79dfe444d"
+            },
+            "C44E4C-G3": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "e507b12b-3d61-4f50-bbd5-af66800d1db4"
+            },
+            "C44E4C-G4": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "40781ab1-7ce4-4280-9b10-c299c5fe4b40"
+            },
+            "C44E4C-G5": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "6082d2c0-46d0-44fe-9a25-13941c28a264"
+            },
+            "C44E4C-G6": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "4e63c86c-c051-4fec-a124-d0917e576c3b"
+            },
+            "C44E4C-G7": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "dfe32366-5789-4777-b5de-66ecc113004f"
+            },
+            "C44E4C-G8": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "41a88bcf-d339-4392-bcd5-136908b92957"
+            },
+            "C44E4C-G9": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "83fd13f9-6b70-4206-a3a6-49c1e388933f"
+            },
+            "C44E4C-G10": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "7954696d-03a1-4a2e-b2b5-9b648570cde9"
+            },
+            "C44E4B-G5": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "57d62c82-a9e6-49d5-9586-1d04c268d9bf"
+            },
+            "C44E4B-G6": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "0c742600-52a3-4436-ba34-895753351813"
+            },
+            "C44E4B-G7": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "b34e9b02-4664-45ba-a190-d3b9ad07fbdb"
+            },
+            "C44E4B-G8": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "e705cd72-b2f0-49fc-8ac5-b5ba62e1e5f2"
+            },
+            "C44E4B-G9": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "661722e2-1aa5-4a2f-b21d-741328037361"
+            },
+            "C44E4B-G10": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "5e9e02df-376d-4f78-9e2b-1378a38f22e5"
+            },
+            "C44E4A-G5": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "da0f3342-b570-43ba-b6b0-24748a3b868b"
+            },
+            "C44E4A-G6": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "192b301f-197d-4963-aa56-a00e2eb606bf"
+            },
+            "C44E4A-G7": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "9adfcc18-4e5a-4fe9-864e-e71b4c7087cb"
+            },
+            "C44E4A-G8": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "3ef3c7f2-b079-49b9-bf80-c71cf726d686"
+            },
+            "C44E4A-G9": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "214597e2-5375-4529-a2d7-3bab44c23adb"
+            },
+            "C44E4A-G10": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "d213f4ef-23af-4911-89f6-a9b574da88fe"
+            },
+            "C44E2A-G5": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "86a682ea-04fa-4d00-93e7-01b8d2b9034b"
+            },
+            "C44E2A-G6": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "9f9c6fa0-8806-45e5-b17e-e2b9ee53cba4"
+            },
+            "C44E2A-G7": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "44d6cc50-8836-473b-bed8-edaa69fa19e0"
+            },
+            "C44E2A-G8": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "0935116e-da03-4b3e-b860-60e8d6a7670d"
+            },
+            "C44E2A-G9": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "00ed089b-b8c4-4f15-820d-338cf7431fa0"
+            },
+            "C44E2D-G5": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "be6ec362-3590-4cba-b201-13f1452e0f5c"
+            },
+            "C44E2D-G6": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "b417ca4d-bb23-4b37-bba5-4982c2fe6ef1"
+            },
+            "C44E2D-G7": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "867353d7-0526-48c7-bce1-353fd5f9bd16"
+            },
+            "C44E2D-G8": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "6cb270b8-ba6b-4b55-ada0-b75e9c894913"
+            },
+            "C44E2D-G9": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "26813806-a5c4-4de1-8331-418d78fd4df3"
+            },
+            "C44B8A-G1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "d1d5dbb0-e6aa-4865-aa24-7d350ed7385e"
+            },
+            "C44B8A-G2": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "df5aece3-7fbb-45cf-b5ce-f68a7636ef40"
+            },
+            "C44B8A-G3": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "95683956-5b60-4568-8ef4-b1ef2616a525"
+            },
+            "C44B8A1-PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "PC",
+                "Name": "SHEF-PE:PC",
+                "uuid": "d199dba8-a21f-4705-9f8c-7a75ad6d7105"
+            },
+            "C44B1A1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "6b65e213-62a3-431b-8dd9-34130a9cd46a"
+            },
+            "C44B1B-G1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "1c59f1f6-8185-4c15-b607-fc28b8cc8169"
+            },
+            "C44B1B-G2": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "36b4d822-9081-488b-83bd-a17bfe78c18f"
+            },
+            "C44B1B1-PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "PC",
+                "Name": "SHEF-PE:PC",
+                "uuid": "31017734-7ec8-4342-aa7d-112647d092fe"
+            },
+            "C44B8D-G1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "779db239-7f23-44b6-a83b-2c9af2d5b793"
+            },
+            "C44B8D-G2": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "7cfdab0f-d26a-46f7-bfce-9e94e31a965b"
+            },
+            "C44B8D-G3": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "4f53b644-b8c4-42be-9fcd-27c06223b54e"
+            },
+            "C44B8D1-PC": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "PC",
+                "Name": "SHEF-PE:PC",
+                "uuid": "666d10a3-33da-4b46-aba8-580002585f64"
+            },
+            "C44B8C-G1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "b3fb012f-b4c7-4f57-8432-2a8090348f75"
+            },
+            "C44B8C-G2": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "0a80ab06-462c-46fa-8348-ca169a716908"
+            },
+            "C44B8B-G1": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HG",
+                "Name": "SHEF-PE:HG",
+                "uuid": "6839103d-7efb-4c1e-a6ac-3dda5b486ae7"
+            },
+            "S403-HP": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HP",
+                "Name": "SHEF-PE:HP",
+                "uuid": "8c2abe6f-0860-41ce-80ad-30391da7d6b9"
+            },
+            "S401-HW": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HS",
+                "Name": "SHEF-PE:HS",
+                "uuid": "005517f8-9160-4421-a46a-b7479764ad3e"
+            },
+            "S401-TW": {
+                "Standard": "SHEF-PE",
+                "ToUnitsAbbr": "raw",
+                "Code": "HW",
+                "Name": "SHEF-PE:HW",
+                "uuid": "ba9e854f-f2d3-4505-9186-fae592e4157d"
+            }
+        },
+        "platform_sensors": [
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44D1A",
+                "sitenames": {
+                    "nwshb5": "C44D1A",
+                    "uuid": "7a00a612-4809-4620-9a09-90ca6d058a6e"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44D1B",
+                "sitenames": {
+                    "nwshb5": "C44D1B",
+                    "uuid": "94e728d2-f5ea-405a-8817-70309d6765b6"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4D",
+                "sitenames": {
+                    "nwshb5": "C44E4D",
+                    "uuid": "22d29aa2-22de-4b68-a5d3-80812dfd2749"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4A",
+                "sitenames": {
+                    "nwshb5": "C44E4A",
+                    "uuid": "90848a3f-1047-40db-a0ce-b71eb2409971"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2A",
+                "sitenames": {
+                    "nwshb5": "C44E2A",
+                    "uuid": "5754192f-1f78-445c-9d9d-d60a8a058f4a"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1A1",
+                "sitenames": {
+                    "nwshb5": "C44E1A1",
+                    "uuid": "88d47a04-e28d-4921-9d83-05aca42439a8"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1A2",
+                "sitenames": {
+                    "nwshb5": "C44E1A2",
+                    "uuid": "976b1cc4-fa43-409d-85a9-32fc64b7d408"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1A3",
+                "sitenames": {
+                    "nwshb5": "C44E1A3",
+                    "uuid": "112d0c02-7f43-4096-b02a-3c2eadfe6fb2"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1A4",
+                "sitenames": {
+                    "nwshb5": "C44E1A4",
+                    "uuid": "d36b04b3-aa01-4023-970c-e0a89e9657bb"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1A5",
+                "sitenames": {
+                    "nwshb5": "C44E1A5",
+                    "uuid": "5f1f5a2b-556e-4dec-9076-cd23a293932b"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1A6",
+                "sitenames": {
+                    "nwshb5": "C44E1A6",
+                    "uuid": "f4c24102-b5c4-4d4f-9d2c-1d0ef32a2a71"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1A7",
+                "sitenames": {
+                    "nwshb5": "C44E1A7",
+                    "uuid": "1f14fe57-a76f-4013-9580-8e3f4bb0650f"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1A8",
+                "sitenames": {
+                    "nwshb5": "C44E1A8",
+                    "uuid": "dcd27607-fd82-4fb4-aa60-d84a8a700c2c"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1A9",
+                "sitenames": {
+                    "nwshb5": "C44E1A9",
+                    "uuid": "f95478c6-4bcb-49c3-830f-0581b6bee5be"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1A10",
+                "sitenames": {
+                    "nwshb5": "C44E1A10",
+                    "uuid": "3be54407-7fab-43d5-bf5d-48d763036bc9"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44S1B",
+                "sitenames": {
+                    "nwshb5": "C44S1B",
+                    "uuid": "a8045926-8a93-47a6-96b0-ce3f2706e833"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1B1",
+                "sitenames": {
+                    "nwshb5": "C44E1B1",
+                    "uuid": "e40572e9-b80c-42b6-99ac-4d8b01c62c1b"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1B2",
+                "sitenames": {
+                    "nwshb5": "C44E1B2",
+                    "uuid": "b0dd4794-fca5-48a3-ab54-ddcf0dba5939"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1B3",
+                "sitenames": {
+                    "nwshb5": "C44E1B3",
+                    "uuid": "4d0671dd-e0c0-4770-b73b-39a67ec0ca2f"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1B4",
+                "sitenames": {
+                    "nwshb5": "C44E1B4",
+                    "uuid": "feb5a65e-e7af-46f8-b27b-c1930923ffbf"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1B5",
+                "sitenames": {
+                    "nwshb5": "C44E1B5",
+                    "uuid": "2137c8b5-20a0-425d-b8c8-c47b6686534c"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1B6",
+                "sitenames": {
+                    "nwshb5": "C44E1B6",
+                    "uuid": "9aee25e4-9e78-4477-9362-bad8bbf98827"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1B7",
+                "sitenames": {
+                    "nwshb5": "C44E1B7",
+                    "uuid": "859f3370-ae25-4903-874d-0ddb4ca114e4"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1B8",
+                "sitenames": {
+                    "nwshb5": "C44E1B8",
+                    "uuid": "dac42fea-18f6-4e5c-8353-192753aec755"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1B9",
+                "sitenames": {
+                    "nwshb5": "C44E1B9",
+                    "uuid": "ad800cb6-cac5-4d0c-9b8f-a02fbb282377"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E1B10",
+                "sitenames": {
+                    "nwshb5": "C44E1B10",
+                    "uuid": "e196d47b-f85a-4972-ab97-e35c99039fa6"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2B1",
+                "sitenames": {
+                    "nwshb5": "C44E2B1",
+                    "uuid": "bc52772a-892b-4fd6-bb4b-231ab26273f7"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2B2",
+                "sitenames": {
+                    "nwshb5": "C44E2B2",
+                    "uuid": "a69dbee9-8047-41dd-87db-253bf68e2f8b"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2B3",
+                "sitenames": {
+                    "nwshb5": "C44E2B3",
+                    "uuid": "87486cf6-0988-47dc-9f28-0ff44a11cf5a"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2B4",
+                "sitenames": {
+                    "nwshb5": "C44E2B4",
+                    "uuid": "6d4614f1-cdcf-4dca-8dd8-0e7ec71e53d2"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2B5",
+                "sitenames": {
+                    "nwshb5": "C44E2B5",
+                    "uuid": "15f512ab-dbc2-4c40-a379-70356d621c5f"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2B6",
+                "sitenames": {
+                    "nwshb5": "C44E2B6",
+                    "uuid": "cd122f59-b2dd-4df4-a13f-44b88edb6b3e"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2B7",
+                "sitenames": {
+                    "nwshb5": "C44E2B7",
+                    "uuid": "031d203e-940f-4376-9292-fe7170fdaba4"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2B8",
+                "sitenames": {
+                    "nwshb5": "C44E2B8",
+                    "uuid": "e195daa7-e2d2-4908-a041-6fc1ee59efd2"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2B9",
+                "sitenames": {
+                    "nwshb5": "C44E2B9",
+                    "uuid": "08fed55f-2eb8-46cf-9c95-a2e9ed703ced"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2B10",
+                "sitenames": {
+                    "nwshb5": "C44E2B10",
+                    "uuid": "e1f6a243-3bf4-4d8c-a499-ae29099802be"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44S2C",
+                "sitenames": {
+                    "nwshb5": "C44S2C",
+                    "uuid": "748b6509-d14a-4f90-bda6-273d351d0ae4"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2C5",
+                "sitenames": {
+                    "nwshb5": "C44E2C5",
+                    "uuid": "38fc7de1-28e0-4690-a8e9-05c4d2fefacd"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2C6",
+                "sitenames": {
+                    "nwshb5": "C44E2C6",
+                    "uuid": "b6794cdf-f4a3-457b-bd4b-e92103b6f4f1"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2C7",
+                "sitenames": {
+                    "nwshb5": "C44E2C7",
+                    "uuid": "f0e18583-a8ec-4104-86c0-ddd15b15b224"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2C8",
+                "sitenames": {
+                    "nwshb5": "C44E2C8",
+                    "uuid": "086256aa-d223-402a-9c6a-9a39c6288317"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2C9",
+                "sitenames": {
+                    "nwshb5": "C44E2C9",
+                    "uuid": "75c44d2b-c469-42b4-8b4e-f3be8b9ea456"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2C10",
+                "sitenames": {
+                    "nwshb5": "C44E2C10",
+                    "uuid": "1f879e49-fef6-4bba-98a6-0c4c0c54046f"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E3A1",
+                "sitenames": {
+                    "nwshb5": "C44E3A1",
+                    "uuid": "b68fa84c-788f-406e-a82e-6596f262a2c4"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E3A2",
+                "sitenames": {
+                    "nwshb5": "C44E3A2",
+                    "uuid": "71e2b29f-e73a-42ce-9cda-06f5219157bd"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E3A3",
+                "sitenames": {
+                    "nwshb5": "C44E3A3",
+                    "uuid": "04b1e67e-4b04-4d3e-9880-f431257fc130"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E3A4",
+                "sitenames": {
+                    "nwshb5": "C44E3A4",
+                    "uuid": "be705ab7-548e-49b3-aacf-7c9beff7934c"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E3A5",
+                "sitenames": {
+                    "nwshb5": "C44E3A5",
+                    "uuid": "6003e2c2-378e-40ca-8e60-c4c670130c5f"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E3A6",
+                "sitenames": {
+                    "nwshb5": "C44E3A6",
+                    "uuid": "da2b9f82-1115-48ce-bac2-602716fa3202"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E3A7",
+                "sitenames": {
+                    "nwshb5": "C44E3A7",
+                    "uuid": "3b609501-dace-4775-8a0a-c2b1a7c3acbb"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E3A8",
+                "sitenames": {
+                    "nwshb5": "C44E3A8",
+                    "uuid": "9be32eac-4767-4b88-9766-17be6004e8a1"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E3A9",
+                "sitenames": {
+                    "nwshb5": "C44E3A9",
+                    "uuid": "1f15ca46-03ff-468e-a3f8-a2350b62faaa"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E3A10",
+                "sitenames": {
+                    "nwshb5": "C44E3A10",
+                    "uuid": "a88585b3-1385-4bcd-a961-4feef60bfffb"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44S4D",
+                "sitenames": {
+                    "nwshb5": "C44S4D",
+                    "uuid": "874769f1-3cfc-4d1e-b244-ac94322a464b"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4D1",
+                "sitenames": {
+                    "nwshb5": "C44E4D1",
+                    "uuid": "c2946d0d-208f-4c06-9dca-0d841c5b6563"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4D2",
+                "sitenames": {
+                    "nwshb5": "C44E4D2",
+                    "uuid": "20356e67-48e2-4447-9c33-0cb363be4f9c"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4D3",
+                "sitenames": {
+                    "nwshb5": "C44E4D3",
+                    "uuid": "65861129-9ece-416b-bd64-e5de65f481c2"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4D4",
+                "sitenames": {
+                    "nwshb5": "C44E4D4",
+                    "uuid": "a4143409-4c20-44f6-be7d-c8b87e44fd80"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4D5",
+                "sitenames": {
+                    "nwshb5": "C44E4D5",
+                    "uuid": "117a35ff-0ca1-49d1-ad68-c6d97eaaaaa1"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4D6",
+                "sitenames": {
+                    "nwshb5": "C44E4D6",
+                    "uuid": "5a312059-6f10-4a85-bb41-779da8fd525c"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4D7",
+                "sitenames": {
+                    "nwshb5": "C44E4D7",
+                    "uuid": "dc834bdf-a586-426e-ac2d-cf81c8d14a3a"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4D8",
+                "sitenames": {
+                    "nwshb5": "C44E4D8",
+                    "uuid": "96315460-9474-4c57-8518-081ba70c463b"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4D9",
+                "sitenames": {
+                    "nwshb5": "C44E4D9",
+                    "uuid": "aed0905a-0c82-44e5-8578-e3d0fe97a528"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4D10",
+                "sitenames": {
+                    "nwshb5": "C44E4D10",
+                    "uuid": "3b82fe36-b581-44ff-8579-767f1ddd5f92"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4C1",
+                "sitenames": {
+                    "nwshb5": "C44E4C1",
+                    "uuid": "2d6e2673-72f4-4f57-8b78-ab75338ef0d0"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4C2",
+                "sitenames": {
+                    "nwshb5": "C44E4C2",
+                    "uuid": "c41a8932-c185-461c-9181-163baecb801d"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4C3",
+                "sitenames": {
+                    "nwshb5": "C44E4C3",
+                    "uuid": "052faf5f-37ef-459d-a4e9-2891308e37b2"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4C4",
+                "sitenames": {
+                    "nwshb5": "C44E4C4",
+                    "uuid": "db0f296d-028b-40a1-a029-4aca80f3c054"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4C5",
+                "sitenames": {
+                    "nwshb5": "C44E4C5",
+                    "uuid": "818d6f78-b72d-47a6-b1ce-dd1590882241"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4C6",
+                "sitenames": {
+                    "nwshb5": "C44E4C6",
+                    "uuid": "c8673e09-ee2f-47be-90df-1cdab99ce39c"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4C7",
+                "sitenames": {
+                    "nwshb5": "C44E4C7",
+                    "uuid": "ff3912ec-1de3-487f-b1c6-e71867e71997"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4C8",
+                "sitenames": {
+                    "nwshb5": "C44E4C8",
+                    "uuid": "e5cce003-6b2e-4b4b-96ff-a505a39ec11c"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4C9",
+                "sitenames": {
+                    "nwshb5": "C44E4C9",
+                    "uuid": "9f2db005-5fd8-41bd-9c12-147a9056684b"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4C10",
+                "sitenames": {
+                    "nwshb5": "C44E4C10",
+                    "uuid": "4e284bf9-959e-4007-b357-70f49e83709e"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4B5",
+                "sitenames": {
+                    "nwshb5": "C44E4B5",
+                    "uuid": "39790f1d-3efd-4460-9b8e-2f80082468af"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4B6",
+                "sitenames": {
+                    "nwshb5": "C44E4B6",
+                    "uuid": "f0cd214e-45f6-4556-8d35-15c3d9056b5f"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4B7",
+                "sitenames": {
+                    "nwshb5": "C44E4B7",
+                    "uuid": "1d548738-6ca8-4d84-8bab-44c9901d0250"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4B8",
+                "sitenames": {
+                    "nwshb5": "C44E4B8",
+                    "uuid": "75efe0c0-96d6-4e18-a443-9eaecb857e56"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4B9",
+                "sitenames": {
+                    "nwshb5": "C44E4B9",
+                    "uuid": "3ff611f4-9e1f-44b3-8925-7b78f8408e84"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4B10",
+                "sitenames": {
+                    "nwshb5": "C44E4B10",
+                    "uuid": "4daed140-67be-445a-a2b3-f62b39afc6fc"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4A5",
+                "sitenames": {
+                    "nwshb5": "C44E4A5",
+                    "uuid": "398a8251-f7ba-4e2b-867b-bf247af47976"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4A6",
+                "sitenames": {
+                    "nwshb5": "C44E4A6",
+                    "uuid": "ca83d888-b8b7-481a-b938-46cca690d70b"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4A7",
+                "sitenames": {
+                    "nwshb5": "C44E4A7",
+                    "uuid": "fd58864b-145f-4973-aad1-b8f3521da176"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4A8",
+                "sitenames": {
+                    "nwshb5": "C44E4A8",
+                    "uuid": "504636ab-7864-413d-aa7f-03b4c3926786"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4A9",
+                "sitenames": {
+                    "nwshb5": "C44E4A9",
+                    "uuid": "bacd8cbd-9f16-4855-a32a-153ad96e0bda"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E4A10",
+                "sitenames": {
+                    "nwshb5": "C44E4A10",
+                    "uuid": "13e8dadc-bbea-4432-85c1-440df92d4a1d"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2A5",
+                "sitenames": {
+                    "nwshb5": "C44E2A5",
+                    "uuid": "e8fe05e4-07f0-49e7-bbc9-d207f03b7033"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2A6",
+                "sitenames": {
+                    "nwshb5": "C44E2A6",
+                    "uuid": "fc276159-4dd8-4953-ae2f-be045c8cb525"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2A7",
+                "sitenames": {
+                    "nwshb5": "C44E2A7",
+                    "uuid": "d46d137d-caf0-452e-b28c-4497132e15ef"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2A8",
+                "sitenames": {
+                    "nwshb5": "C44E2A8",
+                    "uuid": "af114b4a-551b-48fc-8681-d8c363132544"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2A9",
+                "sitenames": {
+                    "nwshb5": "C44E2A9",
+                    "uuid": "416a6962-a9a3-4f09-a694-7795f2e9f0e5"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2D5",
+                "sitenames": {
+                    "nwshb5": "C44E2D5",
+                    "uuid": "0105d469-e391-4a86-b60b-1f4cf8104b18"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2D6",
+                "sitenames": {
+                    "nwshb5": "C44E2D6",
+                    "uuid": "bb1dbebf-a872-4b7d-8c8d-ae5660eaa241"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2D7",
+                "sitenames": {
+                    "nwshb5": "C44E2D7",
+                    "uuid": "40390420-6acd-4177-8031-856e11884509"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2D8",
+                "sitenames": {
+                    "nwshb5": "C44E2D8",
+                    "uuid": "7117c1c9-b588-4ce6-9765-791dd31e1c7e"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44E2D9",
+                "sitenames": {
+                    "nwshb5": "C44E2D9",
+                    "uuid": "b3c88c4c-b8d9-4dad-8bfe-a91ec7342090"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44B8A1",
+                "sitenames": {
+                    "nwshb5": "C44B8A1",
+                    "uuid": "94a76862-5c97-4908-baf6-eb119611575f"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44B8A2",
+                "sitenames": {
+                    "nwshb5": "C44B8A2",
+                    "uuid": "7fbf277c-cfde-49fb-b08e-50a44432c5ef"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44B8A3",
+                "sitenames": {
+                    "nwshb5": "C44B8A3",
+                    "uuid": "363d69ac-688e-461a-af14-d2a3b576ad71"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44B8A1",
+                "sitenames": {
+                    "nwshb5": "C44B8A1",
+                    "uuid": "fc52de30-33e0-496a-8b74-44cb1b7ec8e8"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44B1A1",
+                "sitenames": {
+                    "nwshb5": "C44B1A1",
+                    "uuid": "280d19e1-ff04-4c6a-88f3-2ec09364f423"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44B1B1",
+                "sitenames": {
+                    "nwshb5": "C44B1B1",
+                    "uuid": "e8c0b10c-2ef6-4587-bed9-c86e3731182c"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44B1B2",
+                "sitenames": {
+                    "nwshb5": "C44B1B2",
+                    "uuid": "8a2fde42-308e-4389-9169-f9ded04c98e6"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44B1B1",
+                "sitenames": {
+                    "nwshb5": "C44B1B1",
+                    "uuid": "cc01b4fc-08a0-4e35-ab6d-3302ae6e32c3"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44B8D1",
+                "sitenames": {
+                    "nwshb5": "C44B8D1",
+                    "uuid": "fee06c8c-f8a9-44d1-99b9-8b38c6fe507c"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44B8D2",
+                "sitenames": {
+                    "nwshb5": "C44B8D2",
+                    "uuid": "bd5b06c7-4650-4888-9889-0d14432b0666"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44B8D3",
+                "sitenames": {
+                    "nwshb5": "C44B8D3",
+                    "uuid": "3b05c6ad-32a2-494e-bb29-c6a5ca208606"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44B8D1",
+                "sitenames": {
+                    "nwshb5": "C44B8D1",
+                    "uuid": "c2c36e65-9a2e-46b0-9791-5cc53e726355"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44B8C1",
+                "sitenames": {
+                    "nwshb5": "C44B8C1",
+                    "uuid": "baecb1f4-41c5-4696-a425-d52e43e7547b"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44B8C2",
+                "sitenames": {
+                    "nwshb5": "C44B8C2",
+                    "uuid": "03e0ef49-0c1f-4276-848e-870cab5c3d40"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "C44B8B1",
+                "sitenames": {
+                    "nwshb5": "C44B8B1",
+                    "uuid": "aaaaa5b4-1e4c-43ed-8a9c-b0a0c30dd002"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "S403",
+                "sitenames": {
+                    "nwshb5": "S403",
+                    "uuid": "6f353801-1015-4013-94c8-77549383766c"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "S401",
+                "sitenames": {
+                    "nwshb5": "S401",
+                    "uuid": "01f181cf-5dc9-4774-a07e-5ce5ca21554f"
+                }
+            },
+            {
+                "elevation": "1.7976931348623157E308",
+                "elevationunits": "ft",
+                "description": "S401",
+                "sitenames": {
+                    "nwshb5": "S401",
+                    "uuid": "1e213c22-e460-4b6c-b1bb-473a6582e88b"
+                }
+            }
+        ],
+        "id": "1"
+    }
+]
