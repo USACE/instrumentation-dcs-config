@@ -1,0 +1,3291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Database>
+  <Platform PlatformId="1">
+    <Description>C44</Description>
+    <Agency>nwshb5</Agency>
+    <IsProduction>false</IsProduction>
+    <LastModifyTime>11/01/2021 17:37:39</LastModifyTime>
+    <Site>
+      <Elevation>1.7976931348623157E308</Elevation>
+      <ElevationUnits>ft</ElevationUnits>
+      <Description>C44</Description>
+      <SiteName NameType="nwshb5">C44</SiteName>
+    </Site>
+    <PlatformConfig ConfigName="CST-JAX-C44-101">
+      <Description>
+        C44 Cambel 228 values 114 current 114 redund&#92;nFinal&#92;nAndrew
+        Geller 27OCT2021&#92;n
+      </Description>
+      <EquipmentModel Name="CR10">
+        <EquipmentType>DCP</EquipmentType>
+        <Company>CAMPBELL SCIENTIFIC</Company>
+        <Model>CR-10 SERIES</Model>
+        <EquipmentProperty PropertyName="RetrievalMethod">
+          MAN
+        </EquipmentProperty>
+        <EquipmentProperty PropertyName="EquipmentType">EDL</EquipmentProperty>
+        <EquipmentProperty PropertyName="TimeOrder">A</EquipmentProperty>
+      </EquipmentModel>
+      <ConfigSensor SensorNumber="1">
+        <SensorName>C44D1A-L1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HP" Name="SHEF-PE:HP">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+        <UsgsStatCode>00011</UsgsStatCode>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="2">
+        <SensorName>C44D1B-L1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HP" Name="SHEF-PE:HP">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="3">
+        <SensorName>C44E4D-L1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HP" Name="SHEF-PE:HP">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="4">
+        <SensorName>C44E4A-L1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HP" Name="SHEF-PE:HP">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="5">
+        <SensorName>C44E2A-L1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HP" Name="SHEF-PE:HP">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="6">
+        <SensorName>C44E1A-G1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="7">
+        <SensorName>C44E1A-G2</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="8">
+        <SensorName>C44E1A-G3</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="9">
+        <SensorName>C44E1A-G4</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="10">
+        <SensorName>C44E1A-G5</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="11">
+        <SensorName>C44E1A-G6</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="12">
+        <SensorName>C44E1A-G7</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="13">
+        <SensorName>C44E1A-G8</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="14">
+        <SensorName>C44E1A-G9</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="15">
+        <SensorName>C44E1A-G10</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="16">
+        <SensorName>C44S1B-L1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HP" Name="SHEF-PE:HP">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="17">
+        <SensorName>C44E1B-G1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="18">
+        <SensorName>C44E1B-G2</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="19">
+        <SensorName>C44E1B-G3</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="20">
+        <SensorName>C44E1B-G4</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="21">
+        <SensorName>C44E1B-G5</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="22">
+        <SensorName>C44E1B-G6</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="23">
+        <SensorName>C44E1B-G7</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="24">
+        <SensorName>C44E1B-G8</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="25">
+        <SensorName>C44E1B-G9</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="26">
+        <SensorName>C44E1B-G10</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="27">
+        <SensorName>C44E2B-G1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="28">
+        <SensorName>C44E2B-G2</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="29">
+        <SensorName>C44E2B-G3</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="30">
+        <SensorName>C44E2B-G4</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="31">
+        <SensorName>C44E2B-G5</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="32">
+        <SensorName>C44E2B-G6</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="33">
+        <SensorName>C44E2B-G7</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="34">
+        <SensorName>C44E2B-G8</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="35">
+        <SensorName>C44E2B-G9</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="36">
+        <SensorName>C44E2B-G10</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="37">
+        <SensorName>C44S2C-L1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HP" Name="SHEF-PE:HP">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="38">
+        <SensorName>C44E2C-G5</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="39">
+        <SensorName>C44E2C-G6</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="40">
+        <SensorName>C44E2C-G7</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="41">
+        <SensorName>C44E2C-G8</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="42">
+        <SensorName>C44E2C-G9</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="43">
+        <SensorName>C44E2C-G10</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="44">
+        <SensorName>C44E3A-G1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="45">
+        <SensorName>C44E3A-G2</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="46">
+        <SensorName>C44E3A-G3</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="47">
+        <SensorName>C44E3A-G4</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="48">
+        <SensorName>C44E3A-G5</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="49">
+        <SensorName>C44E3A-G6</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="50">
+        <SensorName>C44E3A-G7</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="51">
+        <SensorName>C44E3A-G8</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="52">
+        <SensorName>C44E3A-G9</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="53">
+        <SensorName>C44E3A-G10</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="54">
+        <SensorName>C44S4D-L1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HP" Name="SHEF-PE:HP">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="55">
+        <SensorName>C44E4D-G1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="56">
+        <SensorName>C44E4D-G2</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="57">
+        <SensorName>C44E4D-G3</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="58">
+        <SensorName>C44E4D-G4</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="59">
+        <SensorName>C44E4D-G5</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="60">
+        <SensorName>C44E4D-G6</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="61">
+        <SensorName>C44E4D-G7</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="62">
+        <SensorName>C44E4D-G8</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="63">
+        <SensorName>C44E4D-G9</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="64">
+        <SensorName>C44E4D-G10</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="65">
+        <SensorName>C44E4C-G1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="66">
+        <SensorName>C44E4C-G2</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="67">
+        <SensorName>C44E4C-G3</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="68">
+        <SensorName>C44E4C-G4</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="69">
+        <SensorName>C44E4C-G5</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="70">
+        <SensorName>C44E4C-G6</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="71">
+        <SensorName>C44E4C-G7</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="72">
+        <SensorName>C44E4C-G8</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="73">
+        <SensorName>C44E4C-G9</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="74">
+        <SensorName>C44E4C-G10</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="75">
+        <SensorName>C44E4B-G5</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="76">
+        <SensorName>C44E4B-G6</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="77">
+        <SensorName>C44E4B-G7</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="78">
+        <SensorName>C44E4B-G8</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="79">
+        <SensorName>C44E4B-G9</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="80">
+        <SensorName>C44E4B-G10</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="81">
+        <SensorName>C44E4A-G5</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="82">
+        <SensorName>C44E4A-G6</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="83">
+        <SensorName>C44E4A-G7</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="84">
+        <SensorName>C44E4A-G8</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="85">
+        <SensorName>C44E4A-G9</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="86">
+        <SensorName>C44E4A-G10</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="87">
+        <SensorName>C44E2A-G5</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="88">
+        <SensorName>C44E2A-G6</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="89">
+        <SensorName>C44E2A-G7</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="90">
+        <SensorName>C44E2A-G8</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="91">
+        <SensorName>C44E2A-G9</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="92">
+        <SensorName>C44E2D-G5</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="93">
+        <SensorName>C44E2D-G6</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="94">
+        <SensorName>C44E2D-G7</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="95">
+        <SensorName>C44E2D-G8</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="96">
+        <SensorName>C44E2D-G9</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="97">
+        <SensorName>C44B8A-G1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="98">
+        <SensorName>C44B8A-G2</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="99">
+        <SensorName>C44B8A-G3</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="100">
+        <SensorName>C44B8A1-PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC" Name="SHEF-PE:PC">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="101">
+        <SensorName>C44B1A1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="102">
+        <SensorName>C44B1B-G1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="103">
+        <SensorName>C44B1B-G2</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="104">
+        <SensorName>C44B1B1-PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC" Name="SHEF-PE:PC">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="105">
+        <SensorName>C44B8D-G1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="106">
+        <SensorName>C44B8D-G2</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="107">
+        <SensorName>C44B8D-G3</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="108">
+        <SensorName>C44B8D1-PC</SensorName>
+        <DataType Standard="SHEF-PE" Code="PC" Name="SHEF-PE:PC">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="109">
+        <SensorName>C44B8C-G1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="110">
+        <SensorName>C44B8C-G2</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="111">
+        <SensorName>C44B8B-G1</SensorName>
+        <DataType Standard="SHEF-PE" Code="HG" Name="SHEF-PE:HG">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="112">
+        <SensorName>S403-HP</SensorName>
+        <DataType Standard="SHEF-PE" Code="HP" Name="SHEF-PE:HP">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="113">
+        <SensorName>S401-HW</SensorName>
+        <DataType Standard="SHEF-PE" Code="HS" Name="SHEF-PE:HS">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <ConfigSensor SensorNumber="114">
+        <SensorName>S401-TW</SensorName>
+        <DataType Standard="SHEF-PE" Code="HW" Name="SHEF-PE:HW">
+        </DataType>
+        <RecordingMode>F</RecordingMode>
+        <RecordingInterval>01:00</RecordingInterval>
+        <TimeOfFirstSample>00:00</TimeOfFirstSample>
+      </ConfigSensor>
+      <DecodesScript ScriptName="RD">
+        <ScriptType>Decodes</ScriptType>
+        <DataOrder>D</DataOrder>
+        <FormatStatement Label="ERROR">/,&gt;ST</FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="V">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="4">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="5">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="6">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="7">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="8">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="9">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="10">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="11">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="12">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="13">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="14">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="15">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="16">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="17">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="18">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="19">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="20">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="21">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="22">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="23">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="24">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="25">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="26">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="27">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="28">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="29">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="30">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="31">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="32">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="33">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="34">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="35">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="36">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="37">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="38">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="39">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="40">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="41">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="42">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="43">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="44">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="45">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="46">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="47">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="48">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="49">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="50">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="51">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="52">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="53">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="54">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="55">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="56">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="57">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="58">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="59">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="60">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="61">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="62">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="63">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="64">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="65">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="66">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="67">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="68">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="69">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="70">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="71">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="72">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="73">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="74">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="75">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="76">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="77">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="78">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="79">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="80">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="81">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="82">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="83">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="84">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="85">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="86">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="87">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="88">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="89">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="90">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="91">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="92">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="93">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="94">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="95">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="96">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="97">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="98">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="99">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="100">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="101">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="102">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="103">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="104">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="105">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="106">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="107">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="108">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="109">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="110">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="111">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="112">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="113">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="114">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>none</Algorithm>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+      <DecodesScript ScriptName="ST">
+        <ScriptType>Decodes</ScriptType>
+        <DataOrder>A</DataOrder>
+        <FormatStatement Label="ST">
+          1X,1(1F(s,i,4,1),1F(s,i,4,2),1F(s,i,4,3),1F(s,i,4,4),1F(s,i,4,5),1F(s,i,4,6),1F(s,i,4,7),1F(s,i,4,8),1F(s,i,4,9),
+        </FormatStatement>
+        <FormatStatement Label="ST">
+          1F(s,i,4,10),1F(s,i,4,11),1F(s,i,4,12),1F(s,i,4,13),1F(s,i,4,14),1F(s,i,4,15),1F(s,i,4,16),1F(s,i,4,17),1F(s,i,4,18),1F(s,i,4,19),
+        </FormatStatement>
+        <FormatStatement Label="ST">
+          1F(s,i,4,20),1F(s,i,4,21),1F(s,i,4,22),1F(s,i,4,23),1F(s,i,4,24),1F(s,i,4,25),1F(s,i,4,26),1F(s,i,4,27),1F(s,i,4,28),1F(s,i,4,29),
+        </FormatStatement>
+        <FormatStatement Label="ST">
+          1F(s,i,4,30),1F(s,i,4,31),1F(s,i,4,32),1F(s,i,4,33),1F(s,i,4,34),1F(s,i,4,35),1F(s,i,4,36),1F(s,i,4,37),1F(s,i,4,38),1F(s,i,4,39),
+        </FormatStatement>
+        <FormatStatement Label="ST">
+          1F(s,i,4,40),1F(s,i,4,41),1F(s,i,4,42),1F(s,i,4,43),1F(s,i,4,44),1F(s,i,4,45),1F(s,i,4,46),1F(s,i,4,47),1F(s,i,4,48),1F(s,i,4,49),
+        </FormatStatement>
+        <FormatStatement Label="ST">
+          1F(s,i,4,50),1F(s,i,4,51),1F(s,i,4,52),1F(s,i,4,53),1F(s,i,4,54),1F(s,i,4,55),1F(s,i,4,56),1F(s,i,4,57),1F(s,i,4,58),1F(s,i,4,59),
+        </FormatStatement>
+        <FormatStatement Label="ST">
+          1F(s,i,4,60),1F(s,i,4,61),1F(s,i,4,62),1F(s,i,4,63),1F(s,i,4,64),1F(s,i,4,65),1F(s,i,4,66),1F(s,i,4,67),1F(s,i,4,68),1F(s,i,4,69),
+        </FormatStatement>
+        <FormatStatement Label="ST">
+          1F(s,i,4,70),1F(s,i,4,71),1F(s,i,4,72),1F(s,i,4,73),1F(s,i,4,74),1F(s,i,4,75),1F(s,i,4,76),1F(s,i,4,77),1F(s,i,4,78),1F(s,i,4,79),
+        </FormatStatement>
+        <FormatStatement Label="ST">
+          1F(s,i,4,80),1F(s,i,4,81),1F(s,i,4,82),1F(s,i,4,83),1F(s,i,4,84),1F(s,i,4,85),1F(s,i,4,86),1F(s,i,4,87),1F(s,i,4,88),1F(s,i,4,89),
+        </FormatStatement>
+        <FormatStatement Label="ST">
+          1F(s,i,4,90),1F(s,i,4,91),1F(s,i,4,92),1F(s,i,4,93),1F(s,i,4,94),1F(s,i,4,95),1F(s,i,4,96),1F(s,i,4,97),1F(s,i,4,98),1F(s,i,4,99),
+        </FormatStatement>
+        <FormatStatement Label="ST">
+          1F(s,i,4,100),1F(s,i,4,101),1F(s,i,4,102),1F(s,i,4,103),1F(s,i,4,104),1F(s,i,4,105),1F(s,i,4,106),1F(s,i,4,107),1F(s,i,4,108),1F(s,i,4,109),
+        </FormatStatement>
+        <FormatStatement Label="ST">
+          1F(s,i,4,110),1F(s,i,4,111),1F(s,i,4,112),1F(s,i,4,113),1F(s,i,4,114))
+        </FormatStatement>
+        <ScriptSensor SensorNumber="1">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+            <C>1.0</C>
+            <D>0.0</D>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="2">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="3">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="4">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="5">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="6">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="7">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="8">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="9">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="10">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="11">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="12">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="13">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="14">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="15">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="16">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="17">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="18">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="19">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="20">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="21">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="22">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="23">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="24">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="25">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="26">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="27">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="28">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="29">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="30">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="31">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="32">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="33">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="34">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="35">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="36">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="37">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="38">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="39">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="40">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="41">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="42">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="43">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="44">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="45">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="46">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="47">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="48">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="49">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="50">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="51">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="52">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="53">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="54">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="55">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="56">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="57">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="58">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="59">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="60">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="61">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="62">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="63">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="64">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="65">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="66">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="67">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="68">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="69">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="70">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="71">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="72">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="73">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="74">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="75">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="76">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="77">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="78">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="79">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="80">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="81">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="82">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="83">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="84">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="85">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="86">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="87">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="88">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="89">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="90">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="91">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="92">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="93">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="94">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="95">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="96">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="97">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="98">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="99">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="100">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="101">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="102">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="103">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="104">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="105">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="106">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="107">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="108">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="109">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="110">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="111">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="112">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="113">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+        <ScriptSensor SensorNumber="114">
+          <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
+            <Algorithm>linear</Algorithm>
+            <A>0.01</A>
+            <B>0.0</B>
+          </UnitConverter>
+        </ScriptSensor>
+      </DecodesScript>
+    </PlatformConfig>
+    <TransportMedium MediumType="goes-self-timed" MediumId="CE550F82">
+      <DecodesScript ScriptName="ST"/>
+      <EquipmentModel Name="CR10">
+        <EquipmentType>DCP</EquipmentType>
+        <Company>CAMPBELL SCIENTIFIC</Company>
+        <Model>CR-10 SERIES</Model>
+        <EquipmentProperty PropertyName="RetrievalMethod">
+          MAN
+        </EquipmentProperty>
+        <EquipmentProperty PropertyName="EquipmentType">EDL</EquipmentProperty>
+        <EquipmentProperty PropertyName="TimeOrder">A</EquipmentProperty>
+      </EquipmentModel>
+      <ChannelNum>31</ChannelNum>
+      <AssignedTime>00:03:10</AssignedTime>
+      <TransmitWindow>00:00:30</TransmitWindow>
+      <TransmitInterval>01:00</TransmitInterval>
+      <Preamble>S</Preamble>
+      <TimeZone>UTC</TimeZone>
+      <parity>U</parity>
+    </TransportMedium>
+    <PlatformSensor SensorNumber="1">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44D1A</Description>
+        <SiteName NameType="nwshb5">C44D1A</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="2">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44D1B</Description>
+        <SiteName NameType="nwshb5">C44D1B</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="3">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4D</Description>
+        <SiteName NameType="nwshb5">C44E4D</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="4">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4A</Description>
+        <SiteName NameType="nwshb5">C44E4A</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="5">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2A</Description>
+        <SiteName NameType="nwshb5">C44E2A</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="6">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1A1</Description>
+        <SiteName NameType="nwshb5">C44E1A1</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="7">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1A2</Description>
+        <SiteName NameType="nwshb5">C44E1A2</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="8">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1A3</Description>
+        <SiteName NameType="nwshb5">C44E1A3</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="9">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1A4</Description>
+        <SiteName NameType="nwshb5">C44E1A4</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="10">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1A5</Description>
+        <SiteName NameType="nwshb5">C44E1A5</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="11">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1A6</Description>
+        <SiteName NameType="nwshb5">C44E1A6</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="12">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1A7</Description>
+        <SiteName NameType="nwshb5">C44E1A7</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="13">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1A8</Description>
+        <SiteName NameType="nwshb5">C44E1A8</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="14">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1A9</Description>
+        <SiteName NameType="nwshb5">C44E1A9</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="15">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1A10</Description>
+        <SiteName NameType="nwshb5">C44E1A10</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="16">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44S1B</Description>
+        <SiteName NameType="nwshb5">C44S1B</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="17">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1B1</Description>
+        <SiteName NameType="nwshb5">C44E1B1</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="18">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1B2</Description>
+        <SiteName NameType="nwshb5">C44E1B2</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="19">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1B3</Description>
+        <SiteName NameType="nwshb5">C44E1B3</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="20">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1B4</Description>
+        <SiteName NameType="nwshb5">C44E1B4</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="21">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1B5</Description>
+        <SiteName NameType="nwshb5">C44E1B5</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="22">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1B6</Description>
+        <SiteName NameType="nwshb5">C44E1B6</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="23">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1B7</Description>
+        <SiteName NameType="nwshb5">C44E1B7</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="24">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1B8</Description>
+        <SiteName NameType="nwshb5">C44E1B8</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="25">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1B9</Description>
+        <SiteName NameType="nwshb5">C44E1B9</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="26">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E1B10</Description>
+        <SiteName NameType="nwshb5">C44E1B10</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="27">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2B1</Description>
+        <SiteName NameType="nwshb5">C44E2B1</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="28">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2B2</Description>
+        <SiteName NameType="nwshb5">C44E2B2</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="29">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2B3</Description>
+        <SiteName NameType="nwshb5">C44E2B3</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="30">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2B4</Description>
+        <SiteName NameType="nwshb5">C44E2B4</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="31">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2B5</Description>
+        <SiteName NameType="nwshb5">C44E2B5</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="32">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2B6</Description>
+        <SiteName NameType="nwshb5">C44E2B6</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="33">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2B7</Description>
+        <SiteName NameType="nwshb5">C44E2B7</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="34">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2B8</Description>
+        <SiteName NameType="nwshb5">C44E2B8</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="35">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2B9</Description>
+        <SiteName NameType="nwshb5">C44E2B9</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="36">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2B10</Description>
+        <SiteName NameType="nwshb5">C44E2B10</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="37">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44S2C</Description>
+        <SiteName NameType="nwshb5">C44S2C</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="38">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2C5</Description>
+        <SiteName NameType="nwshb5">C44E2C5</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="39">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2C6</Description>
+        <SiteName NameType="nwshb5">C44E2C6</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="40">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2C7</Description>
+        <SiteName NameType="nwshb5">C44E2C7</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="41">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2C8</Description>
+        <SiteName NameType="nwshb5">C44E2C8</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="42">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2C9</Description>
+        <SiteName NameType="nwshb5">C44E2C9</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="43">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2C10</Description>
+        <SiteName NameType="nwshb5">C44E2C10</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="44">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E3A1</Description>
+        <SiteName NameType="nwshb5">C44E3A1</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="45">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E3A2</Description>
+        <SiteName NameType="nwshb5">C44E3A2</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="46">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E3A3</Description>
+        <SiteName NameType="nwshb5">C44E3A3</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="47">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E3A4</Description>
+        <SiteName NameType="nwshb5">C44E3A4</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="48">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E3A5</Description>
+        <SiteName NameType="nwshb5">C44E3A5</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="49">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E3A6</Description>
+        <SiteName NameType="nwshb5">C44E3A6</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="50">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E3A7</Description>
+        <SiteName NameType="nwshb5">C44E3A7</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="51">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E3A8</Description>
+        <SiteName NameType="nwshb5">C44E3A8</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="52">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E3A9</Description>
+        <SiteName NameType="nwshb5">C44E3A9</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="53">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E3A10</Description>
+        <SiteName NameType="nwshb5">C44E3A10</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="54">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44S4D</Description>
+        <SiteName NameType="nwshb5">C44S4D</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="55">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4D1</Description>
+        <SiteName NameType="nwshb5">C44E4D1</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="56">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4D2</Description>
+        <SiteName NameType="nwshb5">C44E4D2</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="57">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4D3</Description>
+        <SiteName NameType="nwshb5">C44E4D3</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="58">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4D4</Description>
+        <SiteName NameType="nwshb5">C44E4D4</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="59">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4D5</Description>
+        <SiteName NameType="nwshb5">C44E4D5</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="60">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4D6</Description>
+        <SiteName NameType="nwshb5">C44E4D6</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="61">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4D7</Description>
+        <SiteName NameType="nwshb5">C44E4D7</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="62">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4D8</Description>
+        <SiteName NameType="nwshb5">C44E4D8</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="63">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4D9</Description>
+        <SiteName NameType="nwshb5">C44E4D9</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="64">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4D10</Description>
+        <SiteName NameType="nwshb5">C44E4D10</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="65">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4C1</Description>
+        <SiteName NameType="nwshb5">C44E4C1</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="66">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4C2</Description>
+        <SiteName NameType="nwshb5">C44E4C2</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="67">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4C3</Description>
+        <SiteName NameType="nwshb5">C44E4C3</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="68">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4C4</Description>
+        <SiteName NameType="nwshb5">C44E4C4</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="69">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4C5</Description>
+        <SiteName NameType="nwshb5">C44E4C5</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="70">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4C6</Description>
+        <SiteName NameType="nwshb5">C44E4C6</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="71">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4C7</Description>
+        <SiteName NameType="nwshb5">C44E4C7</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="72">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4C8</Description>
+        <SiteName NameType="nwshb5">C44E4C8</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="73">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4C9</Description>
+        <SiteName NameType="nwshb5">C44E4C9</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="74">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4C10</Description>
+        <SiteName NameType="nwshb5">C44E4C10</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="75">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4B5</Description>
+        <SiteName NameType="nwshb5">C44E4B5</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="76">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4B6</Description>
+        <SiteName NameType="nwshb5">C44E4B6</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="77">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4B7</Description>
+        <SiteName NameType="nwshb5">C44E4B7</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="78">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4B8</Description>
+        <SiteName NameType="nwshb5">C44E4B8</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="79">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4B9</Description>
+        <SiteName NameType="nwshb5">C44E4B9</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="80">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4B10</Description>
+        <SiteName NameType="nwshb5">C44E4B10</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="81">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4A5</Description>
+        <SiteName NameType="nwshb5">C44E4A5</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="82">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4A6</Description>
+        <SiteName NameType="nwshb5">C44E4A6</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="83">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4A7</Description>
+        <SiteName NameType="nwshb5">C44E4A7</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="84">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4A8</Description>
+        <SiteName NameType="nwshb5">C44E4A8</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="85">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4A9</Description>
+        <SiteName NameType="nwshb5">C44E4A9</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="86">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E4A10</Description>
+        <SiteName NameType="nwshb5">C44E4A10</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="87">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2A5</Description>
+        <SiteName NameType="nwshb5">C44E2A5</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="88">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2A6</Description>
+        <SiteName NameType="nwshb5">C44E2A6</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="89">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2A7</Description>
+        <SiteName NameType="nwshb5">C44E2A7</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="90">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2A8</Description>
+        <SiteName NameType="nwshb5">C44E2A8</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="91">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2A9</Description>
+        <SiteName NameType="nwshb5">C44E2A9</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="92">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2D5</Description>
+        <SiteName NameType="nwshb5">C44E2D5</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="93">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2D6</Description>
+        <SiteName NameType="nwshb5">C44E2D6</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="94">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2D7</Description>
+        <SiteName NameType="nwshb5">C44E2D7</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="95">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2D8</Description>
+        <SiteName NameType="nwshb5">C44E2D8</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="96">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44E2D9</Description>
+        <SiteName NameType="nwshb5">C44E2D9</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="97">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44B8A1</Description>
+        <SiteName NameType="nwshb5">C44B8A1</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="98">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44B8A2</Description>
+        <SiteName NameType="nwshb5">C44B8A2</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="99">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44B8A3</Description>
+        <SiteName NameType="nwshb5">C44B8A3</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="100">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44B8A1</Description>
+        <SiteName NameType="nwshb5">C44B8A1</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="101">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44B1A1</Description>
+        <SiteName NameType="nwshb5">C44B1A1</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="102">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44B1B1</Description>
+        <SiteName NameType="nwshb5">C44B1B1</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="103">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44B1B2</Description>
+        <SiteName NameType="nwshb5">C44B1B2</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="104">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44B1B1</Description>
+        <SiteName NameType="nwshb5">C44B1B1</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="105">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44B8D1</Description>
+        <SiteName NameType="nwshb5">C44B8D1</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="106">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44B8D2</Description>
+        <SiteName NameType="nwshb5">C44B8D2</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="107">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44B8D3</Description>
+        <SiteName NameType="nwshb5">C44B8D3</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="108">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44B8D1</Description>
+        <SiteName NameType="nwshb5">C44B8D1</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="109">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44B8C1</Description>
+        <SiteName NameType="nwshb5">C44B8C1</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="110">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44B8C2</Description>
+        <SiteName NameType="nwshb5">C44B8C2</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="111">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>C44B8B1</Description>
+        <SiteName NameType="nwshb5">C44B8B1</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="112">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>S403</Description>
+        <SiteName NameType="nwshb5">S403</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="113">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>S401</Description>
+        <SiteName NameType="nwshb5">S401</SiteName>
+      </Site>
+    </PlatformSensor>
+    <PlatformSensor SensorNumber="114">
+      <Site>
+        <Elevation>1.7976931348623157E308</Elevation>
+        <ElevationUnits>ft</ElevationUnits>
+        <Description>S401</Description>
+        <SiteName NameType="nwshb5">S401</SiteName>
+      </Site>
+    </PlatformSensor>
+  </Platform>
+</Database>
