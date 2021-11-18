@@ -1517,42 +1517,42 @@
       </DecodesScript>
       <DecodesScript ScriptName="ST">
         <ScriptType>Decodes</ScriptType>
-        <DataOrder>A</DataOrder>
+        <DataOrder>D</DataOrder>
         <FormatStatement Label="ST">
-          1X,1(1F(s,i,4,1),1F(s,i,4,2),1F(s,i,4,3),1F(s,i,4,4),1F(s,i,4,5),1F(s,i,4,6),1F(s,i,4,7),1F(s,i,4,8),1F(s,i,4,9),
+          1X,1(2F(s,i,4,1),2F(s,i,4,2),2F(s,i,4,3),2F(s,i,4,4),2F(s,i,4,5),2F(s,i,4,6),2F(s,i,4,7),2F(s,i,4,8),2F(s,i,4,9),
         </FormatStatement>
         <FormatStatement Label="ST">
-          1F(s,i,4,10),1F(s,i,4,11),1F(s,i,4,12),1F(s,i,4,13),1F(s,i,4,14),1F(s,i,4,15),1F(s,i,4,16),1F(s,i,4,17),1F(s,i,4,18),1F(s,i,4,19),
+          2F(s,i,4,10),2F(s,i,4,11),2F(s,i,4,12),2F(s,i,4,13),2F(s,i,4,14),2F(s,i,4,15),2F(s,i,4,16),2F(s,i,4,17),2F(s,i,4,18),2F(s,i,4,19),
         </FormatStatement>
         <FormatStatement Label="ST">
-          1F(s,i,4,20),1F(s,i,4,21),1F(s,i,4,22),1F(s,i,4,23),1F(s,i,4,24),1F(s,i,4,25),1F(s,i,4,26),1F(s,i,4,27),1F(s,i,4,28),1F(s,i,4,29),
+          2F(s,i,4,20),2F(s,i,4,21),2F(s,i,4,22),2F(s,i,4,23),2F(s,i,4,24),2F(s,i,4,25),2F(s,i,4,26),2F(s,i,4,27),2F(s,i,4,28),2F(s,i,4,29),
         </FormatStatement>
         <FormatStatement Label="ST">
-          1F(s,i,4,30),1F(s,i,4,31),1F(s,i,4,32),1F(s,i,4,33),1F(s,i,4,34),1F(s,i,4,35),1F(s,i,4,36),1F(s,i,4,37),1F(s,i,4,38),1F(s,i,4,39),
+          2F(s,i,4,30),2F(s,i,4,31),2F(s,i,4,32),2F(s,i,4,33),2F(s,i,4,34),2F(s,i,4,35),2F(s,i,4,36),2F(s,i,4,37),2F(s,i,4,38),2F(s,i,4,39),
         </FormatStatement>
         <FormatStatement Label="ST">
-          1F(s,i,4,40),1F(s,i,4,41),1F(s,i,4,42),1F(s,i,4,43),1F(s,i,4,44),1F(s,i,4,45),1F(s,i,4,46),1F(s,i,4,47),1F(s,i,4,48),1F(s,i,4,49),
+          2F(s,i,4,40),2F(s,i,4,41),2F(s,i,4,42),2F(s,i,4,43),2F(s,i,4,44),2F(s,i,4,45),2F(s,i,4,46),2F(s,i,4,47),2F(s,i,4,48),2F(s,i,4,49),
         </FormatStatement>
         <FormatStatement Label="ST">
-          1F(s,i,4,50),1F(s,i,4,51),1F(s,i,4,52),1F(s,i,4,53),1F(s,i,4,54),1F(s,i,4,55),1F(s,i,4,56),1F(s,i,4,57),1F(s,i,4,58),1F(s,i,4,59),
+          2F(s,i,4,50),2F(s,i,4,51),2F(s,i,4,52),2F(s,i,4,53),2F(s,i,4,54),2F(s,i,4,55),2F(s,i,4,56),2F(s,i,4,57),2F(s,i,4,58),2F(s,i,4,59),
         </FormatStatement>
         <FormatStatement Label="ST">
-          1F(s,i,4,60),1F(s,i,4,61),1F(s,i,4,62),1F(s,i,4,63),1F(s,i,4,64),1F(s,i,4,65),1F(s,i,4,66),1F(s,i,4,67),1F(s,i,4,68),1F(s,i,4,69),
+          2F(s,i,4,60),2F(s,i,4,61),2F(s,i,4,62),2F(s,i,4,63),2F(s,i,4,64),2F(s,i,4,65),2F(s,i,4,66),2F(s,i,4,67),2F(s,i,4,68),2F(s,i,4,69),
         </FormatStatement>
         <FormatStatement Label="ST">
-          1F(s,i,4,70),1F(s,i,4,71),1F(s,i,4,72),1F(s,i,4,73),1F(s,i,4,74),1F(s,i,4,75),1F(s,i,4,76),1F(s,i,4,77),1F(s,i,4,78),1F(s,i,4,79),
+          2F(s,i,4,70),2F(s,i,4,71),2F(s,i,4,72),2F(s,i,4,73),2F(s,i,4,74),2F(s,i,4,75),2F(s,i,4,76),2F(s,i,4,77),2F(s,i,4,78),2F(s,i,4,79),
         </FormatStatement>
         <FormatStatement Label="ST">
-          1F(s,i,4,80),1F(s,i,4,81),1F(s,i,4,82),1F(s,i,4,83),1F(s,i,4,84),1F(s,i,4,85),1F(s,i,4,86),1F(s,i,4,87),1F(s,i,4,88),1F(s,i,4,89),
+          2F(s,i,4,80),2F(s,i,4,81),2F(s,i,4,82),2F(s,i,4,83),2F(s,i,4,84),2F(s,i,4,85),2F(s,i,4,86),2F(s,i,4,87),2F(s,i,4,88),2F(s,i,4,89),
         </FormatStatement>
         <FormatStatement Label="ST">
-          1F(s,i,4,90),1F(s,i,4,91),1F(s,i,4,92),1F(s,i,4,93),1F(s,i,4,94),1F(s,i,4,95),1F(s,i,4,96),1F(s,i,4,97),1F(s,i,4,98),1F(s,i,4,99),
+          2F(s,i,4,90),2F(s,i,4,91),2F(s,i,4,92),2F(s,i,4,93),2F(s,i,4,94),2F(s,i,4,95),2F(s,i,4,96),2F(s,i,4,97),2F(s,i,4,98),2F(s,i,4,99),
         </FormatStatement>
         <FormatStatement Label="ST">
-          1F(s,i,4,100),1F(s,i,4,101),1F(s,i,4,102),1F(s,i,4,103),1F(s,i,4,104),1F(s,i,4,105),1F(s,i,4,106),1F(s,i,4,107),1F(s,i,4,108),1F(s,i,4,109),
+          2F(s,i,4,100),2F(s,i,4,101),2F(s,i,4,102),2F(s,i,4,103),2F(s,i,4,104),2F(s,i,4,105),2F(s,i,4,106),2F(s,i,4,107),2F(s,i,4,108),2F(s,i,4,109),
         </FormatStatement>
         <FormatStatement Label="ST">
-          1F(s,i,4,110),1F(s,i,4,111),1F(s,i,4,112),1F(s,i,4,113),1F(s,i,4,114))
+          2F(s,i,4,110),2F(s,i,4,111),2F(s,i,4,112),2F(s,i,4,113),2F(s,i,4,114))
         </FormatStatement>
         <ScriptSensor SensorNumber="1">
           <UnitConverter FromUnitsAbbr="raw" ToUnitsAbbr="raw">
